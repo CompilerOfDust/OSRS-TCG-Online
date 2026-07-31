@@ -75,6 +75,11 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
     feel laggy — and trim any trailing tail, which is pure jar weight. Each plays from its own
     `Clip` so quick flips overlap, and playback runs on the scheduler — opening a mixer line can block.
     Config: "Pack sounds" and "Pack sound volume".
+- **Every request that touches a collection names its character** (`X-TCG-Character`), and the server
+  resolves a binding it holds. This is what stops an alt being served the linked character's collection —
+  it is a server-side property, not a client discipline, so a modified plugin can't get round it. The
+  server falls back to an account's sole binding when the header is absent, which is what keeps older
+  builds working; that fallback comes out once nobody is on them.
 - `items/` — the **item lock**, this game mode's core rule: an item you have no card for is greyed with a
   padlock (`LockedItemOverlay`, over inventory / equipment / bank) and its use is consumed
   (`ItemLockManager` on `MenuEntryAdded` + `MenuOptionClicked`). An item is unlocked when a card you own
@@ -84,6 +89,22 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   withdraw), drop/destroy/examine/remove, and *all* skilling — the lock never touches world objects.
   Config: "Lock uncollected items". Written from our own data. Known limitation of any menu-based lock:
   keybind and spacebar-"make" actions bypass `MenuOptionClicked` and can't be consumed.
+- `mode/` — the **game mode**: `GameMode` (`NOT_SELECTED` / `NORMAL` / `CARDMAN`) and `GameModeManager`.
+  The mode is **per character**, stored in RSProfile config (`getRSProfileKey()` is null before login, so
+  the panel has an explicit logged-out state), and **the server is the authority** — `cacheServerMode()`
+  is a write-through cache of what `POST /v1/plugin/character/mode` returned, never a decision. A one-shot
+  `adoptLegacyMode()` migrates the old global key. **CardMan** is the community *Cardcore* ruleset (an item
+  is yours only once you've pulled its card) and requires a brand-new ironman account, checked server side;
+  **Normal** is unrestricted play. **CardMan trades only with CardMan, Normal only with Normal**, enforced
+  by the broker.
+- `account/CharacterSnapshot` + `account/CharacterTracker` — **who is playing, and how they're doing.**
+  `CharacterSnapshot.capture(Client)` is the *only* place the client is read (on the client thread, from
+  `onGameTick`), and it carries the **raw ACCOUNT_TYPE varbit** — never `AccountType.values()[n]`, which
+  throws on unranked GIM. The tracker binds on login, heartbeats every 5 minutes, closes the session on
+  logout, and holds the server's verdict (mode, review state) for the panel. Nothing is sent from
+  seasonal/beta/tournament worlds. `CharacterState` is the server's answer; the plugin renders it and
+  decides none of it. **The full contract is `../api/docs/cardman-mode.md` — read it before changing any
+  of this.**
 - `ui/OsrsSkin` — the shared painted look (palette + plate/bevel/well/text primitives) every in-game
   interface is built from, so the trade window and card packs can't drift apart.
 - **Both painted windows are alt-draggable** (alt+click anywhere moves them; without alt, clicks work the

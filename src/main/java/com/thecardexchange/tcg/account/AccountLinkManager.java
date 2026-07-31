@@ -13,7 +13,6 @@ import javax.inject.Inject;
 import javax.inject.Singleton;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.ChatMessageType;
-import net.runelite.api.Client;
 import net.runelite.client.chat.ChatMessageManager;
 import net.runelite.client.chat.QueuedMessage;
 import net.runelite.client.config.ConfigManager;
@@ -50,13 +49,16 @@ public class AccountLinkManager
 	private final ConfigManager configManager;
 	private final ScheduledExecutorService scheduler;
 	private final ChatMessageManager chatMessageManager;
-	private final Client client;
 	private final TheCardExchangeTcgConfig config;
 
 	private final AtomicReference<LinkState> state = new AtomicReference<>(LinkState.NOT_LINKED);
 	private final AtomicReference<LinkHandshake> handshake = new AtomicReference<>(null);
 	private final AtomicReference<LinkedAccount> account = new AtomicReference<>(null);
 	private final AtomicReference<String> errorMessage = new AtomicReference<>(null);
+	/** Last name seen on the client thread; see {@link #setCurrentRsn}. */
+	private final AtomicReference<String> currentRsn = new AtomicReference<>(null);
+	/** Last character snapshot, likewise captured on the client thread. */
+	private final AtomicReference<CharacterSnapshot> pendingSnapshot = new AtomicReference<>(null);
 
 	private final AtomicLong pollDeadlineMs = new AtomicLong(0L);
 	private final AtomicInteger consecutivePollFailures = new AtomicInteger(0);
@@ -71,14 +73,12 @@ public class AccountLinkManager
 		ConfigManager configManager,
 		ScheduledExecutorService scheduler,
 		ChatMessageManager chatMessageManager,
-		Client client,
 		TheCardExchangeTcgConfig config)
 	{
 		this.api = api;
 		this.configManager = configManager;
 		this.scheduler = scheduler;
 		this.chatMessageManager = chatMessageManager;
-		this.client = client;
 		this.config = config;
 	}
 
@@ -169,7 +169,10 @@ public class AccountLinkManager
 	{
 		try
 		{
-			LinkHandshake started = api.startLink(currentLabel());
+			// The snapshot was captured on the client thread by CharacterTracker; it
+			// names the character on the confirm screen and gets bound the moment
+			// the account holder confirms.
+			LinkHandshake started = api.startLink(currentLabel(), pendingSnapshot.get());
 			handshake.set(started);
 			consecutivePollFailures.set(0);
 			pollDeadlineMs.set(System.currentTimeMillis() + LINK_TTL_MS);
@@ -314,18 +317,28 @@ public class AccountLinkManager
 		}
 	}
 
+	/**
+	 * Records who is logged in. Called from the plugin's {@code onGameTick}, which runs on the client
+	 * thread — the only thread that may touch the client — so the linking flow, which runs on the
+	 * scheduler, can name the character without reaching into the client itself.
+	 */
+	public void setCurrentRsn(@Nullable String rsn)
+	{
+		String name = rsn == null ? null : Text.sanitize(rsn).trim();
+		currentRsn.set(name == null || name.isEmpty() ? null : name);
+	}
+
+	/** The character snapshot to send with the next handshake. Captured on the client thread. */
+	public void setPendingSnapshot(@Nullable CharacterSnapshot snapshot)
+	{
+		pendingSnapshot.set(snapshot);
+	}
+
 	/** Label the confirm screen shows: the current character's name if logged in, else a generic tag. */
 	private String currentLabel()
 	{
-		if (client.getLocalPlayer() != null && client.getLocalPlayer().getName() != null)
-		{
-			String name = Text.sanitize(client.getLocalPlayer().getName());
-			if (name != null && !name.trim().isEmpty())
-			{
-				return name.trim();
-			}
-		}
-		return "RuneLite plugin";
+		String name = currentRsn.get();
+		return name == null ? "RuneLite plugin" : name;
 	}
 
 	@Nullable

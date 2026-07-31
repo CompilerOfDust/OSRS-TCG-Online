@@ -451,6 +451,21 @@ public class CardTradeManager
 		announce("ff9040", "You closed the card trade.");
 	}
 
+	/**
+	 * Tears the trade UI down because the character went away — a logout, a hop or a dropped connection.
+	 *
+	 * Unlike {@link #onWindowDismissed()} this sends no cancel: the socket is already gone, so there is
+	 * nobody to tell. The server times the offer out on its own, and the other side's window closes when
+	 * it does. What matters here is purely local — a trade window left painted would keep swallowing
+	 * clicks at the login screen.
+	 */
+	public void closeInterfaces()
+	{
+		activeOfferId = null;
+		incomingOfferId = null;
+		closeTradeUi();
+	}
+
 	/** Put away both halves of the trade UI — the window and the card list it opened with. */
 	private void closeTradeUi()
 	{

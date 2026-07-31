@@ -12,6 +12,7 @@ import net.runelite.api.events.GameTick;
 import net.runelite.api.events.MenuEntryAdded;
 import net.runelite.api.events.MenuOptionClicked;
 import net.runelite.api.events.MenuOpened;
+import net.runelite.api.events.StatChanged;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
@@ -20,6 +21,7 @@ import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
 import net.runelite.client.util.ImageUtil;
 import com.thecardexchange.tcg.account.AccountLinkManager;
+import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.items.ItemLockManager;
 import com.thecardexchange.tcg.packs.CardPacksManager;
 import com.thecardexchange.tcg.trade.CardTradeManager;
@@ -60,6 +62,9 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	private ItemLockManager itemLockManager;
 
 	@Inject
+	private CharacterTracker characterTracker;
+
+	@Inject
 	private Client client;
 
 	private NavigationButton navButton;
@@ -78,6 +83,10 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		// Redraw the panel whenever the link state changes (runs off the scheduler thread; the panel
 		// hops to the EDT itself).
 		linkManager.setStatusListener(panel::refresh);
+		characterTracker.setListener(panel::refresh);
+		// The item lock reads a per-character collection, so it waits for the bind
+		// rather than racing it on the login tick.
+		characterTracker.setOnBound(itemLockManager::refresh);
 
 		BufferedImage icon = ImageUtil.loadImageResource(getClass(), "/com/thecardexchange/tcg/panel_icon.png");
 		navButton = NavigationButton.builder()
@@ -96,6 +105,8 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		cardPacksManager.start();
 		// Grey out and block items this character has no card for.
 		itemLockManager.start();
+		// Bind the character on login, then report while it plays.
+		characterTracker.start();
 		panel.refresh();
 	}
 
@@ -104,6 +115,9 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	{
 		log.info("OSRS TCG (TheCardExchange) shutting down");
 		linkManager.setStatusListener(null);
+		characterTracker.setListener(null);
+		characterTracker.setOnBound(null);
+		characterTracker.stop();
 		linkManager.stop();
 		cardTradeManager.stop();
 		cardPacksManager.stop();
@@ -128,13 +142,20 @@ public class TheCardExchangeTcgPlugin extends Plugin
 
 	/**
 	 * Keep the trade long-poll pointed at whoever we're logged in as. Read on the client thread (where the
-	 * local player is safe to touch) and handed to the manager as a plain string.
+	 * local player is safe to touch) and handed to the managers as a plain string — the linking flow needs
+	 * the same name for the confirm screen's label, and it runs on the scheduler.
 	 */
 	@Subscribe
 	public void onGameTick(GameTick event)
 	{
 		Player local = client.getLocalPlayer();
-		cardTradeManager.setCurrentRsn(local != null ? local.getName() : null);
+		String rsn = local != null ? local.getName() : null;
+		cardTradeManager.setCurrentRsn(rsn);
+		linkManager.setCurrentRsn(rsn);
+		// Reads the character (levels, XP, account type) on the client thread and
+		// drives binding + heartbeats from it. The one place the client is touched.
+		characterTracker.onGameTick();
+		linkManager.setPendingSnapshot(characterTracker.currentSnapshot());
 		// Keep an incoming trade-request chat line clickable while it's live.
 		cardTradeManager.onGameTick();
 	}
@@ -142,16 +163,35 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	@Subscribe
 	public void onGameStateChanged(GameStateChanged event)
 	{
-		if (event.getGameState() == GameState.LOGGED_IN)
+		GameState state = event.getGameState();
+
+		if (state == GameState.LOGGED_IN)
 		{
 			// Find out what this character has unlocked before they can click anything.
 			itemLockManager.onLoggedIn();
+			return;
 		}
-		else
+
+		// LOADING is still being logged in — it fires on every region change and every
+		// stairwell — so it must not tear anything down. Everything else means the
+		// character is gone.
+		if (state == GameState.LOADING)
 		{
-			cardTradeManager.setCurrentRsn(null);
-			itemLockManager.onLoggedOut();
+			return;
 		}
+
+		cardTradeManager.setCurrentRsn(null);
+		linkManager.setCurrentRsn(null);
+		// Closes the server-side session, so a night away is not an unwatched gap.
+		characterTracker.onLoggedOut();
+		itemLockManager.onLoggedOut();
+
+		// Losing the character closes every painted interface. They swallow all mouse
+		// and key input inside their bounds by design, so one left open after a
+		// disconnect would eat clicks at the login screen with its own close button
+		// no longer reachable.
+		cardPacksManager.closeAll();
+		cardTradeManager.closeInterfaces();
 	}
 
 	/**
@@ -169,5 +209,15 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	public void onMenuOptionClicked(MenuOptionClicked event)
 	{
 		itemLockManager.onMenuOptionClicked(event);
+	}
+
+	/**
+	 * A level-up is worth telling the server about sooner than the next scheduled report — it is the
+	 * event a CardMan run is actually made of. Debounced in the tracker.
+	 */
+	@Subscribe
+	public void onStatChanged(StatChanged event)
+	{
+		characterTracker.onLevelUp();
 	}
 }

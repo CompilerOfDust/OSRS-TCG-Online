@@ -11,8 +11,11 @@ import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JSeparator;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import lombok.extern.slf4j.Slf4j;
@@ -21,15 +24,22 @@ import net.runelite.client.ui.FontManager;
 import net.runelite.client.ui.PluginPanel;
 import net.runelite.client.util.LinkBrowser;
 import com.thecardexchange.tcg.account.AccountLinkManager;
+import com.thecardexchange.tcg.account.CharacterState;
+import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.account.LinkHandshake;
 import com.thecardexchange.tcg.account.LinkState;
 import com.thecardexchange.tcg.account.LinkedAccount;
+import com.thecardexchange.tcg.mode.GameMode;
+import com.thecardexchange.tcg.mode.GameModeManager;
 
 /**
  * The side panel. It renders the current linking state and the one action that
  * makes sense for it — "Link my account", the code-and-confirm view while
- * waiting, or "Linked as … / Unlink" once done. It owns no state; everything is
- * read from {@link AccountLinkManager} and rebuilt on {@link #refresh()}.
+ * waiting, or "Linked as … / Unlink" once done — and, below it, the game mode:
+ * the CardMan-or-Normal chooser until the player picks, their locked-in mode
+ * afterwards. It owns no state; everything is read from
+ * {@link AccountLinkManager} / {@link GameModeManager} and rebuilt on
+ * {@link #refresh()}.
  */
 @Slf4j
 class TheCardExchangeTcgPanel extends PluginPanel
@@ -40,14 +50,24 @@ class TheCardExchangeTcgPanel extends PluginPanel
 	private static final Color GOLD = new Color(0xD4AF37);
 
 	private final AccountLinkManager linkManager;
+	private final GameModeManager gameModeManager;
+	private final CharacterTracker characterTracker;
 
 	/** The state-dependent region, rebuilt each refresh while the header stays put. */
 	private final JPanel body = new JPanel();
 
+	/** The game-mode region: the chooser, or the mode the player locked in. */
+	private final JPanel modeSection = new JPanel();
+
 	@Inject
-	TheCardExchangeTcgPanel(AccountLinkManager linkManager)
+	TheCardExchangeTcgPanel(
+		AccountLinkManager linkManager,
+		GameModeManager gameModeManager,
+		CharacterTracker characterTracker)
 	{
 		this.linkManager = linkManager;
+		this.gameModeManager = gameModeManager;
+		this.characterTracker = characterTracker;
 
 		setLayout(new BorderLayout());
 
@@ -65,6 +85,15 @@ class TheCardExchangeTcgPanel extends PluginPanel
 		body.setBackground(ColorScheme.DARK_GRAY_COLOR);
 		body.setAlignmentX(Component.LEFT_ALIGNMENT);
 		content.add(body);
+
+		content.add(Box.createVerticalStrut(16));
+		content.add(divider());
+		content.add(Box.createVerticalStrut(12));
+
+		modeSection.setLayout(new BoxLayout(modeSection, BoxLayout.Y_AXIS));
+		modeSection.setBackground(ColorScheme.DARK_GRAY_COLOR);
+		modeSection.setAlignmentX(Component.LEFT_ALIGNMENT);
+		content.add(modeSection);
 
 		add(content, BorderLayout.NORTH);
 
@@ -85,6 +114,10 @@ class TheCardExchangeTcgPanel extends PluginPanel
 	private void redraw()
 	{
 		body.removeAll();
+
+		// Above the link status on purpose: while a character is held, that is the
+		// only thing the player needs to read.
+		renderReviewBanner();
 
 		switch (linkManager.getState())
 		{
@@ -107,8 +140,12 @@ class TheCardExchangeTcgPanel extends PluginPanel
 				break;
 		}
 
+		renderGameMode();
+
 		body.revalidate();
 		body.repaint();
+		modeSection.revalidate();
+		modeSection.repaint();
 	}
 
 	private void renderNotLinked()
@@ -172,9 +209,12 @@ class TheCardExchangeTcgPanel extends PluginPanel
 			body.add(muted(acct.getEmail()));
 		}
 		body.add(Box.createVerticalStrut(12));
-		body.add(plainButton("Unlink", "Forget this account on this device", () ->
+		body.add(plainButton("Unlink", "Forget this account on this device. This also clears your game "
+			+ "mode, so you can choose again.", () ->
 		{
 			linkManager.unlink();
+			// Unlinking is the one way back to the chooser — see GameModeManager#reset.
+			gameModeManager.reset();
 			refresh();
 		}));
 	}
@@ -193,9 +233,181 @@ class TheCardExchangeTcgPanel extends PluginPanel
 		}));
 	}
 
+	// ── Game mode ──────────────────────────────────────────────────────────
+
+	/**
+	 * Draws the mode region for whichever state the character is in: no account
+	 * yet, nobody logged in, a character being linked, one that belongs to
+	 * somebody else, the chooser, or the mode already settled on.
+	 *
+	 * <p>The mode belongs to the <em>character</em>, so most of these states exist
+	 * because there may be no character to speak of yet — and the choice is the
+	 * server's to grant, so this only ever renders its answer.
+	 */
+	private void renderGameMode()
+	{
+		modeSection.removeAll();
+		modeSection.add(sectionTitle("Game mode"));
+		modeSection.add(Box.createVerticalStrut(8));
+
+		if (linkManager.getState() != LinkState.LINKED)
+		{
+			modeSection.add(muted("Link your account to choose how you play."));
+			return;
+		}
+
+		if (characterTracker.isOnExcludedWorld())
+		{
+			modeSection.add(keyValueRow("Mode", "Paused", WARN));
+			modeSection.add(Box.createVerticalStrut(10));
+			modeSection.add(muted("Seasonal or beta world — nothing is recorded here, and your "
+				+ "CardMan run isn't affected by what you do on it."));
+			return;
+		}
+
+		String mismatch = characterTracker.getMismatchMessage();
+		if (mismatch != null)
+		{
+			modeSection.add(keyValueRow("Mode", "Wrong account", BAD));
+			modeSection.add(Box.createVerticalStrut(10));
+			modeSection.add(coloured(mismatch, BAD));
+			modeSection.add(Box.createVerticalStrut(8));
+			modeSection.add(muted("Sign in to the account that owns this character, or unlink above."));
+			return;
+		}
+
+		String rsn = characterTracker.getCurrentRsn();
+		if (rsn == null)
+		{
+			// getRSProfileKey() is null before login, so there is genuinely no
+			// character whose mode we could show.
+			modeSection.add(muted("Log in to Old School RuneScape to see this character's mode."));
+			return;
+		}
+
+		if (!characterTracker.isBound())
+		{
+			modeSection.add(keyValueRow("Mode", "Linking…", WARN));
+			modeSection.add(Box.createVerticalStrut(10));
+			modeSection.add(muted("Linking " + rsn + " to your account…"));
+			return;
+		}
+
+		CharacterState state = characterTracker.getState();
+		GameMode mode = state.hasMode() ? state.getGameMode() : gameModeManager.getGameMode();
+
+		modeSection.add(keyValueRow("Mode", mode.getDisplayName(), mode.isSelected() ? OK : WARN));
+		modeSection.add(Box.createVerticalStrut(4));
+		modeSection.add(muted(rsn));
+		modeSection.add(Box.createVerticalStrut(10));
+
+		if (mode.isSelected())
+		{
+			modeSection.add(wrapped(mode.getDescription()));
+			modeSection.add(Box.createVerticalStrut(8));
+			modeSection.add(muted("Locked in for this character. Each character chooses once."));
+			return;
+		}
+
+		modeSection.add(wrapped("Choose how " + rsn + " plays. You only choose once — it can't be "
+			+ "changed afterwards."));
+
+		for (GameMode option : GameMode.selectable())
+		{
+			modeSection.add(Box.createVerticalStrut(12));
+			modeSection.add(optionTitle(option.getDisplayName()));
+			modeSection.add(Box.createVerticalStrut(2));
+			modeSection.add(muted(option.getDescription()));
+			modeSection.add(Box.createVerticalStrut(6));
+			modeSection.add(primaryButton("Play " + option.getDisplayName(),
+				"Play as " + option.getDisplayName() + " — this can't be changed later",
+				() -> chooseGameMode(option, rsn)));
+		}
+	}
+
+	/**
+	 * Asks for the choice, then asks the <em>server</em> for it.
+	 *
+	 * The confirmation is not ceremony — this cannot be undone. CardMan adds a
+	 * second step: an explicit acknowledgement that the mode watches every XP
+	 * gained, so that a later hold is a rule the player agreed to rather than a
+	 * surprise. Eligibility is never judged here; a refusal comes back from the
+	 * server with a sentence written for the player.
+	 */
+	private void chooseGameMode(GameMode mode, String rsn)
+	{
+		boolean cardman = mode == GameMode.CARDMAN;
+		JCheckBox acknowledge = new JCheckBox("<html><body style='width:320px'>I understand: I'll only "
+			+ "play this account in RuneLite with this plugin running. Playing on mobile or the "
+			+ "vanilla client will flag it for review.</body></html>");
+
+		JPanel message = new JPanel();
+		message.setLayout(new BoxLayout(message, BoxLayout.Y_AXIS));
+		message.add(new JLabel("<html><body style='width:320px'><b>Play " + rsn + " as "
+			+ mode.getDisplayName() + "?</b><br><br>" + mode.getDescription()
+			+ "<br><br>This is permanent — the mode can't be changed once it's set."
+			+ (cardman ? "<br><br>CardMan needs a brand-new ironman account. The exchange checks this."
+				: "")
+			+ "</body></html>"));
+		if (cardman)
+		{
+			message.add(Box.createVerticalStrut(10));
+			message.add(acknowledge);
+		}
+
+		int answer = JOptionPane.showConfirmDialog(
+			this, message, "Choose " + mode.getDisplayName() + " mode",
+			JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
+
+		if (answer != JOptionPane.YES_OPTION)
+		{
+			return;
+		}
+		if (cardman && !acknowledge.isSelected())
+		{
+			JOptionPane.showMessageDialog(this,
+				"Tick the box to confirm you understand how CardMan is tracked.",
+				"Not set", JOptionPane.INFORMATION_MESSAGE);
+			return;
+		}
+
+		characterTracker.chooseMode(mode, cardman && acknowledge.isSelected(),
+			this::refresh,
+			reason -> SwingUtilities.invokeLater(() ->
+			{
+				JOptionPane.showMessageDialog(this, "<html><body style='width:320px'>" + reason
+					+ "</body></html>", "Can't play " + mode.getDisplayName(),
+					JOptionPane.WARNING_MESSAGE);
+				refresh();
+			}));
+	}
+
+	/** The hold, pinned above everything else — it is the only thing that matters while it is up. */
+	private void renderReviewBanner()
+	{
+		CharacterState state = characterTracker.getState();
+		if (!state.isHeld())
+		{
+			return;
+		}
+		String message = state.getReviewMessage() != null
+			? state.getReviewMessage()
+			: "This character is under review. Please don't play it until the review is complete.";
+
+		body.add(coloured("⚠ " + state.getRsn() + " is under review", BAD));
+		body.add(Box.createVerticalStrut(6));
+		body.add(coloured(message, BAD));
+		body.add(Box.createVerticalStrut(14));
+	}
+
 	// ── Small UI builders ──────────────────────────────────────────────────
 
 	private JPanel statusRow(String value, Color colour)
+	{
+		return keyValueRow("Status", value, colour);
+	}
+
+	private JPanel keyValueRow(String name, String value, Color colour)
 	{
 		JPanel row = new JPanel(new BorderLayout());
 		row.setBackground(ColorScheme.DARKER_GRAY_COLOR);
@@ -203,7 +415,7 @@ class TheCardExchangeTcgPanel extends PluginPanel
 		row.setAlignmentX(Component.LEFT_ALIGNMENT);
 		row.setMaximumSize(new Dimension(Integer.MAX_VALUE, 30));
 
-		JLabel key = new JLabel("Status");
+		JLabel key = new JLabel(name);
 		key.setFont(FontManager.getRunescapeSmallFont());
 		key.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
 		row.add(key, BorderLayout.WEST);
@@ -236,6 +448,32 @@ class TheCardExchangeTcgPanel extends PluginPanel
 		label.setForeground(Color.WHITE);
 		label.setAlignmentX(Component.LEFT_ALIGNMENT);
 		return label;
+	}
+
+	/** A heading for a region of the panel — same weight as the panel title. */
+	private static JLabel sectionTitle(String text)
+	{
+		return title(text);
+	}
+
+	/** The name of one selectable mode, above its description and button. */
+	private static JLabel optionTitle(String text)
+	{
+		JLabel label = new JLabel(text);
+		label.setFont(FontManager.getRunescapeBoldFont());
+		label.setForeground(GOLD);
+		label.setAlignmentX(Component.LEFT_ALIGNMENT);
+		return label;
+	}
+
+	private static JSeparator divider()
+	{
+		JSeparator separator = new JSeparator();
+		separator.setForeground(ColorScheme.MEDIUM_GRAY_COLOR);
+		separator.setBackground(ColorScheme.DARK_GRAY_COLOR);
+		separator.setAlignmentX(Component.LEFT_ALIGNMENT);
+		separator.setMaximumSize(new Dimension(Integer.MAX_VALUE, 4));
+		return separator;
 	}
 
 	private static JLabel wrapped(String text)

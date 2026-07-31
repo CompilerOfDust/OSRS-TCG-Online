@@ -45,6 +45,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.ui.overlay.OverlayPosition;
 import net.runelite.client.util.ImageUtil;
 import com.thecardexchange.tcg.account.AccountLinkManager;
+import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.account.ExchangeApiClient;
 import com.thecardexchange.tcg.items.ItemLockManager;
 import com.thecardexchange.tcg.ui.OsrsSkin;
@@ -97,6 +98,7 @@ public class CardPacksInterface extends Overlay
 	private final KeyManager keyManager;
 	private final ExchangeApiClient api;
 	private final AccountLinkManager linkManager;
+	private final CharacterTracker characterTracker;
 	private final CardArt cardArt;
 	private final CardDetailWindow detail;
 	private final ItemLockManager itemLocks;
@@ -147,6 +149,7 @@ public class CardPacksInterface extends Overlay
 		KeyManager keyManager,
 		ExchangeApiClient api,
 		AccountLinkManager linkManager,
+		CharacterTracker characterTracker,
 		CardArt cardArt,
 		CardDetailWindow detail,
 		ItemLockManager itemLocks,
@@ -158,6 +161,7 @@ public class CardPacksInterface extends Overlay
 		this.keyManager = keyManager;
 		this.api = api;
 		this.linkManager = linkManager;
+		this.characterTracker = characterTracker;
 		this.cardArt = cardArt;
 		this.detail = detail;
 		this.itemLocks = itemLocks;
@@ -267,6 +271,13 @@ public class CardPacksInterface extends Overlay
 		grab = null;
 	}
 
+	/** This window and the detail view it opens on top — nothing left consuming input. */
+	public void closeAll()
+	{
+		detail.close();
+		close();
+	}
+
 	// ── Data ──────────────────────────────────────────────────────────────────
 
 	/** Pulls the catalogue (once a session) and the character's holdings (every time it opens). */
@@ -296,7 +307,7 @@ public class CardPacksInterface extends Overlay
 					itemLocks.applyCatalogue(loaded);
 					applyFilter();
 				}
-				Holdings holdings = api.collection(token);
+				Holdings holdings = api.collection(token, characterTracker.getCurrentRsn());
 				owned = holdings.getOwned();
 				credits = holdings.getCredits();
 				itemLocks.apply(holdings);

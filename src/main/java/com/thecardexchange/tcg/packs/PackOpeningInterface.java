@@ -38,6 +38,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.ui.overlay.OverlayPosition;
 import net.runelite.client.util.ImageUtil;
 import com.thecardexchange.tcg.account.AccountLinkManager;
+import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.account.ExchangeApiClient;
 import com.thecardexchange.tcg.ui.OsrsSkin;
 
@@ -81,6 +82,7 @@ public class PackOpeningInterface extends Overlay
 	private final KeyManager keyManager;
 	private final ExchangeApiClient api;
 	private final AccountLinkManager linkManager;
+	private final CharacterTracker characterTracker;
 	private final CardArt cardArt;
 	private final CardPacksInterface packs;
 	private final CardDetailWindow detail;
@@ -127,6 +129,7 @@ public class PackOpeningInterface extends Overlay
 		KeyManager keyManager,
 		ExchangeApiClient api,
 		AccountLinkManager linkManager,
+		CharacterTracker characterTracker,
 		CardArt cardArt,
 		CardPacksInterface packs,
 		CardDetailWindow detail,
@@ -139,6 +142,7 @@ public class PackOpeningInterface extends Overlay
 		this.keyManager = keyManager;
 		this.api = api;
 		this.linkManager = linkManager;
+		this.characterTracker = characterTracker;
 		this.cardArt = cardArt;
 		this.packs = packs;
 		this.detail = detail;
@@ -222,7 +226,7 @@ public class PackOpeningInterface extends Overlay
 		{
 			try
 			{
-				Holdings holdings = api.collection(token);
+				Holdings holdings = api.collection(token, characterTracker.getCurrentRsn());
 				credits = holdings.getCredits();
 				packPrice = holdings.getPackPrice();
 			}
@@ -249,7 +253,7 @@ public class PackOpeningInterface extends Overlay
 		{
 			try
 			{
-				PackResult result = api.openPack(token);
+				PackResult result = api.openPack(token, characterTracker.getCurrentRsn());
 				credits = result.getCredits();
 				// The flags go in before the pull: a frame that sees the cards must see their state too.
 				revealed = new boolean[result.getCards().size()];
@@ -267,6 +271,16 @@ public class PackOpeningInterface extends Overlay
 				credits = ex.getCredits();
 				packPrice = ex.getPackPrice() > 0 ? ex.getPackPrice() : packPrice;
 				status = "Not enough credits";
+			}
+			catch (ExchangeApiClient.CharacterUnderReview ex)
+			{
+				// Say why, rather than a generic failure — the panel carries the
+				// full explanation, this is the one-line version at the point of use.
+				status = "Under review — don't play this account";
+			}
+			catch (ExchangeApiClient.CharacterNotBound ex)
+			{
+				status = "Linking this character…";
 			}
 			catch (IOException | RuntimeException ex)
 			{

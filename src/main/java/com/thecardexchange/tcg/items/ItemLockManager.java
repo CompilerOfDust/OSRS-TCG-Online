@@ -22,6 +22,7 @@ import net.runelite.client.util.ColorUtil;
 import net.runelite.client.util.Text;
 import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
 import com.thecardexchange.tcg.account.AccountLinkManager;
+import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.account.ExchangeApiClient;
 import com.thecardexchange.tcg.packs.CardCatalogue;
 import com.thecardexchange.tcg.packs.Holdings;
@@ -83,6 +84,7 @@ public class ItemLockManager
 
 	private final ExchangeApiClient api;
 	private final AccountLinkManager linkManager;
+	private final CharacterTracker characterTracker;
 	private final ItemLocks locks;
 	private final LockedItemOverlay overlay;
 	private final OverlayManager overlayManager;
@@ -99,6 +101,7 @@ public class ItemLockManager
 	ItemLockManager(
 		ExchangeApiClient api,
 		AccountLinkManager linkManager,
+		CharacterTracker characterTracker,
 		ItemLocks locks,
 		LockedItemOverlay overlay,
 		OverlayManager overlayManager,
@@ -108,6 +111,7 @@ public class ItemLockManager
 	{
 		this.api = api;
 		this.linkManager = linkManager;
+		this.characterTracker = characterTracker;
 		this.locks = locks;
 		this.overlay = overlay;
 		this.overlayManager = overlayManager;
@@ -131,9 +135,15 @@ public class ItemLockManager
 	}
 
 	/** Login: pull what this character has unlocked. Logout clears it so locks never outlive a session. */
+	/**
+	 * Deliberately does not fetch. The collection is resolved per character now,
+	 * and at this moment the bind hasn't happened — a fetch here would race it and
+	 * be refused. {@link CharacterTracker} calls {@link #refresh()} once the
+	 * character is bound.
+	 */
 	public void onLoggedIn()
 	{
-		refresh();
+		// Intentionally empty; see the note above.
 	}
 
 	public void onLoggedOut()
@@ -167,8 +177,15 @@ public class ItemLockManager
 				{
 					applyCatalogue(api.cards(token));
 				}
-				Holdings holdings = api.collection(token);
+				// Named explicitly, so an alt is never handed the bound character's
+				// unlocks — the server refuses rather than guessing.
+				Holdings holdings = api.collection(token, characterTracker.getCurrentRsn());
 				locks.setUnlocked(holdings.getUnlocked(), holdings.getUnlockedNpcs());
+			}
+			catch (ExchangeApiClient.CharacterNotBound ex)
+			{
+				// Not linked yet; the tracker calls back once the bind lands.
+				log.debug("Item locks deferred until the character is bound");
 			}
 			catch (IOException | RuntimeException ex)
 			{
