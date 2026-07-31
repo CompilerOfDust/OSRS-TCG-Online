@@ -1,0 +1,62 @@
+{
+  "id": 9049,
+  "cardId": "itm_pugel",
+  "name": "Pugel",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A good tool for bashing someone.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pugel.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7679
+    ],
+    "pageSlug": "Pugel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pugel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.36,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

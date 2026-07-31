@@ -1,0 +1,37 @@
+{
+  "id": 793,
+  "cardId": "itm_godsword-shards-1-2",
+  "name": "Godsword shards 1 & 2",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Godsword shards 1 and 2.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Godsword_shards_1_%26_2.png",
+  "debut": "2013-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11794
+    ],
+    "pageSlug": "Godsword_shards_1_%26_2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Godsword_shards_1_%26_2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 5,
+    "market": null
+  },
+  "special": false
+}

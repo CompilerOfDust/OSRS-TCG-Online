@@ -1,0 +1,61 @@
+{
+  "id": 6793,
+  "cardId": "npc_vanstrom-klause",
+  "name": "Vanstrom Klause",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "An evil vampyre.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vanstrom_Klause_(vampyre,_Darkness_of_Hallowvale).png",
+  "debut": "2006-09-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3734,
+      3735,
+      3736,
+      3737,
+      3738,
+      3739,
+      8239,
+      8240
+    ],
+    "pageSlug": "Vanstrom_Klause",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vanstrom_Klause"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 169,
+    "vitality": null,
+    "peakDamage": "16",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee"
+    ],
+    "attackTempo": 8,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": true,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

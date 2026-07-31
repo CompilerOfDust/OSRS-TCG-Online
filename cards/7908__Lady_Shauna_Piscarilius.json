@@ -1,0 +1,57 @@
+{
+  "id": 9196,
+  "cardId": "npc_the-queen-of-thieves",
+  "name": "The Queen of Thieves",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The mysterious Queen of Thieves.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2017-11-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7908,
+      7909
+    ],
+    "pageSlug": "Lady_Shauna_Piscarilius",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lady_Shauna_Piscarilius"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "The Warrens"
+    ],
+    "questLine": "The Queen of Thieves , A Kingdom Divided",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

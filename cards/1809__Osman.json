@@ -1,0 +1,62 @@
+{
+  "id": 2195,
+  "cardId": "npc_osman",
+  "name": "Osman",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He looks a little shifty.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2001-02-28",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1809,
+      1810,
+      1811,
+      3388,
+      3879,
+      3880,
+      4286
+    ],
+    "pageSlug": "Osman",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Osman"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Al Kharid"
+    ],
+    "questLine": "Prince Ali Rescue",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

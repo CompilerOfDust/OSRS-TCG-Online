@@ -1,0 +1,42 @@
+{
+  "id": 5210,
+  "cardId": "itm_sun-shine",
+  "name": "Sun-shine",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A highly desirable liquor.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sun-shine.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29421
+    ],
+    "pageSlug": "Sun-shine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sun-shine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 233,
+      "buyLimit": null,
+      "dailyVolume": 0
+    }
+  },
+  "special": false
+}

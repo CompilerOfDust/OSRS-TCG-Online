@@ -1,0 +1,41 @@
+{
+  "id": 7794,
+  "cardId": "itm_krandorian-seed",
+  "name": "Krandorian seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A Krandorian hop seed - plant in a hops patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Krandorian_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5310
+    ],
+    "pageSlug": "Krandorian_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Krandorian_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 3,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 7,
+      "buyLimit": 2000,
+      "dailyVolume": 40604
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": 7788,
+  "cardId": "itm_hammerstone-seed",
+  "name": "Hammerstone seed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A Hammerstone hop seed - plant in a hops patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hammerstone_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5307
+    ],
+    "pageSlug": "Hammerstone_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hammerstone_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 9,
+      "buyLimit": 2000,
+      "dailyVolume": 789082
+    }
+  }
+}

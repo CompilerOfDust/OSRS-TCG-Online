@@ -1,0 +1,40 @@
+{
+  "id": 8183,
+  "cardId": "itm_willow-shortbow-u",
+  "name": "Willow shortbow (u)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An unstrung willow shortbow; I need a bowstring for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Willow_shortbow_%28u%29.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      60
+    ],
+    "pageSlug": "Willow_shortbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Willow_shortbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.992,
+    "market": {
+      "guidePrice": 27,
+      "buyLimit": 10000,
+      "dailyVolume": 8294
+    }
+  }
+}

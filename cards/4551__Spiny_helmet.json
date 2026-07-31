@@ -1,0 +1,68 @@
+{
+  "id": 7347,
+  "cardId": "itm_spiny-helmet",
+  "name": "Spiny helmet",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You don't want to wear it inside-out.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spiny_helmet.png",
+  "debut": "2005-03-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4551
+    ],
+    "pageSlug": "Spiny_helmet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spiny_helmet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 390,
+    "lowAlchemy": 260,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 1084,
+      "buyLimit": 125,
+      "dailyVolume": 248
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 10,
+        "crush": 7,
+        "magic": -1,
+        "ranged": 9
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

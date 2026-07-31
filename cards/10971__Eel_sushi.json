@@ -1,0 +1,37 @@
+{
+  "id": 434,
+  "cardId": "itm_eel-sushi",
+  "name": "Eel sushi",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Cave-eel sushi.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Eel_sushi.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10971
+    ],
+    "pageSlug": "Eel_sushi",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Eel_sushi"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

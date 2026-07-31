@@ -1,0 +1,41 @@
+{
+  "id": 5118,
+  "cardId": "itm_sunlight-antelope-antler",
+  "name": "Sunlight antelope antler",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I don't think I can stick it back on.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sunlight_antelope_antler.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29168
+    ],
+    "pageSlug": "Sunlight_antelope_antler",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sunlight_antelope_antler"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.3,
+    "market": {
+      "guidePrice": 1691,
+      "buyLimit": null,
+      "dailyVolume": 1553
+    }
+  },
+  "special": false
+}

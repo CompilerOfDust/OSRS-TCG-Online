@@ -1,0 +1,36 @@
+{
+  "id": 6328,
+  "cardId": "itm_alco-chunks",
+  "name": "Alco-chunks",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Pineapple chunks dipped in strong liquor.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Alco-chunks.png",
+  "debut": "2004-10-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3270
+    ],
+    "pageSlug": "Alco-chunks",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Alco-chunks"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.08,
+    "market": null
+  }
+}

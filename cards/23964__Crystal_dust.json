@@ -1,0 +1,38 @@
+{
+  "id": 3622,
+  "cardId": "itm_crystal-dust",
+  "name": "Crystal dust",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    23867
+  ],
+  "flavourText": "Crystal crushed down to the finest form imaginable, useful for making potions.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crystal_dust.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23964
+    ],
+    "pageSlug": "Crystal_dust",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crystal_dust"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 4655,
+  "cardId": "itm_wood-carving",
+  "name": "Wood carving",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A wood carving found in a ruin south east of Mount Quidamortem.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wood_carving_%281%29.png",
+  "debut": "2022-11-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27523
+    ],
+    "pageSlug": "Wood_carving",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wood_carving"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.05,
+    "market": null
+  }
+}

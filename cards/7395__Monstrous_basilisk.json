@@ -1,0 +1,65 @@
+{
+  "id": 8869,
+  "cardId": "npc_monstrous-basilisk__1",
+  "name": "Monstrous basilisk",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Let's hope I have some phoenix tears.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Monstrous_basilisk.png",
+  "debut": "2016-09-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7395
+    ],
+    "pageSlug": "Monstrous_basilisk",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Monstrous_basilisk"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 135,
+    "vitality": null,
+    "peakDamage": "11",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 40,
+      "reward": 1700,
+      "group": "Basilisks",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

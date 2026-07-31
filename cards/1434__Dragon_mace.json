@@ -1,0 +1,69 @@
+{
+  "id": 1780,
+  "cardId": "itm_dragon-mace",
+  "name": "Dragon mace",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    28027
+  ],
+  "flavourText": "A spiky mace.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_mace.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1434
+    ],
+    "pageSlug": "Dragon_mace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_mace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 29144,
+      "buyLimit": 70,
+      "dailyVolume": 12125
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 40,
+        "slash": -2,
+        "crush": 60,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 55,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  }
+}

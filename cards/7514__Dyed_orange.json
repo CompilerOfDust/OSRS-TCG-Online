@@ -1,0 +1,36 @@
+{
+  "id": 8964,
+  "cardId": "itm_dyed-orange",
+  "name": "Dyed orange",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Orange slices which have been dyed, but it looks more like they died.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dyed_orange.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7514
+    ],
+    "pageSlug": "Dyed_orange",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dyed_orange"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

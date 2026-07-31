@@ -1,0 +1,54 @@
+{
+  "id": 751,
+  "cardId": "npc_cursed-baboon",
+  "name": "Cursed Baboon",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An undead cursed baboon.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cursed_Baboon.png",
+  "debut": "2022-08-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11717
+    ],
+    "pageSlug": "Cursed_Baboon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cursed_Baboon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 77,
+    "vitality": null,
+    "peakDamage": "7",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "None"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": true,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

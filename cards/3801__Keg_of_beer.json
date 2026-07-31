@@ -1,0 +1,44 @@
+{
+  "id": 6841,
+  "cardId": "itm_keg-of-beer",
+  "name": "Keg of beer",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    3711
+  ],
+  "flavourText": "A lot of beer in a barrel.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Keg_of_beer.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3801
+    ],
+    "pageSlug": "Keg_of_beer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Keg_of_beer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 20,
+    "market": {
+      "guidePrice": 684,
+      "buyLimit": 2000,
+      "dailyVolume": 9742
+    }
+  },
+  "special": false
+}

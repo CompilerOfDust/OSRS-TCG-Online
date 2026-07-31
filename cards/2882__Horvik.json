@@ -1,0 +1,57 @@
+{
+  "id": 5010,
+  "cardId": "npc_horvik",
+  "name": "Horvik",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The man with the armour.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2882
+    ],
+    "pageSlug": "Horvik",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Horvik"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Varrock"
+    ],
+    "questLine": "One Small Favour",
+    "shop": "Horvik's Armour Shop.",
+    "menuActions": [
+      "Talk-to",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 2323,
+  "cardId": "itm_iron-javelin-tips",
+  "name": "Iron javelin tips",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Needs a shaft.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_javelin_tips_1.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19572
+    ],
+    "pageSlug": "Iron_javelin_tips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_javelin_tips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 21,
+    "lowAlchemy": 14,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 34,
+      "buyLimit": 10000,
+      "dailyVolume": 2445
+    }
+  }
+}

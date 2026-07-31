@@ -1,0 +1,63 @@
+{
+  "id": 2223,
+  "cardId": "itm_slave-boots",
+  "name": "Slave boots",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A set of filthy, smelly, flea infested desert slave boots.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Slave_boots.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1846
+    ],
+    "pageSlug": "Slave_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Slave_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.68,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

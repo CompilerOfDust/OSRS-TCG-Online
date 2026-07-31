@@ -1,0 +1,41 @@
+{
+  "id": 7809,
+  "cardId": "itm_watermelon-seed",
+  "name": "Watermelon seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A watermelon seed - plant in an allotment.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Watermelon_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5321
+    ],
+    "pageSlug": "Watermelon_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Watermelon_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 33,
+    "lowAlchemy": 22,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 217,
+      "buyLimit": 200,
+      "dailyVolume": 94626
+    }
+  },
+  "special": false
+}

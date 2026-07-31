@@ -1,0 +1,54 @@
+{
+  "id": 1933,
+  "cardId": "npc_pygmy-kraken",
+  "name": "Pygmy kraken",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "With a small size comes a greater amount, so watch out.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pygmy_kraken.png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15206
+    ],
+    "pageSlug": "Pygmy_kraken",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pygmy_kraken"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 93,
+    "vitality": null,
+    "peakDamage": "10",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

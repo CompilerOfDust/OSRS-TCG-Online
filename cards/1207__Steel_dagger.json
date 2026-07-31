@@ -1,0 +1,67 @@
+{
+  "id": 931,
+  "cardId": "itm_steel-dagger",
+  "name": "Steel dagger",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Short but pointy.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_dagger.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1207
+    ],
+    "pageSlug": "Steel_dagger",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_dagger"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 75,
+    "lowAlchemy": 50,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 121,
+      "buyLimit": 125,
+      "dailyVolume": 2195
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 8,
+        "slash": 4,
+        "crush": -4,
+        "magic": 1,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 1,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 7,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

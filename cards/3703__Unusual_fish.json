@@ -1,0 +1,36 @@
+{
+  "id": 6776,
+  "cardId": "itm_unusual-fish",
+  "name": "Unusual fish",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An extremely odd, non-edible fish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unusual_fish.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3703
+    ],
+    "pageSlug": "Unusual_fish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unusual_fish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.4,
+    "market": null
+  }
+}

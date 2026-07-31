@@ -1,0 +1,43 @@
+{
+  "id": 2390,
+  "cardId": "itm_empty-cup",
+  "name": "Empty cup",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    7728
+  ],
+  "flavourText": "An empty cup.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Empty_cup.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1980
+    ],
+    "pageSlug": "Empty_cup",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Empty_cup"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.05,
+    "market": {
+      "guidePrice": 7,
+      "buyLimit": 13000,
+      "dailyVolume": 56484
+    }
+  },
+  "special": false
+}

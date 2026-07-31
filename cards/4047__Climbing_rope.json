@@ -1,0 +1,36 @@
+{
+  "id": 6959,
+  "cardId": "itm_climbing-rope",
+  "name": "Climbing rope",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Should be long enough to scale castle walls.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Climbing_rope.png",
+  "debut": "2004-12-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4047
+    ],
+    "pageSlug": "Climbing_rope",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Climbing_rope"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.36,
+    "market": null
+  }
+}

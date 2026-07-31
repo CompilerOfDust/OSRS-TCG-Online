@@ -1,0 +1,97 @@
+{
+  "id": 2516,
+  "cardId": "npc_lesser-demon",
+  "name": "Lesser demon",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    3982,
+    7865,
+    7866,
+    7867,
+    10581,
+    12361,
+    12363,
+    12365,
+    12376,
+    12389,
+    15606
+  ],
+  "flavourText": "Lesser, but still pretty big.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lesser_demon.png",
+  "debut": "2001-06-11",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2018,
+      7247,
+      7248,
+      7656,
+      7657,
+      7664
+    ],
+    "pageSlug": "Lesser_demon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lesser_demon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Demon"
+    ],
+    "tileSize": "2x2",
+    "combatRating": 82,
+    "vitality": 79,
+    "peakDamage": "8",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 79,
+      "group": "Lesser Demons",
+      "masters": [
+        "Krystilia",
+        "Vannaka",
+        "Chaeldar"
+      ]
+    },
+    "combatLevels": {
+      "attack": 68,
+      "strength": 70,
+      "defence": 71,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  },
+  "combine": {
+    "combinesInto": [
+      "npc_elvarg"
+    ]
+  }
+}

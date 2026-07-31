@@ -1,0 +1,67 @@
+{
+  "id": 656,
+  "cardId": "itm_mithril-med-helm",
+  "name": "Mithril med helm",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A medium sized helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mithril_med_helm.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1143
+    ],
+    "pageSlug": "Mithril_med_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mithril_med_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 468,
+    "lowAlchemy": 312,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 206,
+      "buyLimit": 125,
+      "dailyVolume": 2421
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 10,
+        "slash": 11,
+        "crush": 9,
+        "magic": -1,
+        "ranged": 10
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

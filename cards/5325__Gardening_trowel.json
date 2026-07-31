@@ -1,0 +1,40 @@
+{
+  "id": 7813,
+  "cardId": "itm_gardening-trowel",
+  "name": "Gardening trowel",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Not suitable for archaeological digs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gardening_trowel.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5325
+    ],
+    "pageSlug": "Gardening_trowel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gardening_trowel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 4,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 187,
+      "buyLimit": 40,
+      "dailyVolume": 783
+    }
+  }
+}

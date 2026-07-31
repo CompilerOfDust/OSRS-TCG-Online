@@ -1,0 +1,77 @@
+{
+  "id": 8459,
+  "cardId": "npc_vetion",
+  "name": "Vet'ion",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Only the true lord & king of the lands can lift his burden.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vet%27ion.png",
+  "debut": "2014-03-13",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6611,
+      6612
+    ],
+    "pageSlug": "Vet%27ion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vet%27ion"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Undead"
+    ],
+    "tileSize": "3x3",
+    "combatRating": 454,
+    "vitality": 255,
+    "peakDamage": "44",
+    "combatXpBonusPct": 22.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Magic"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 15,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 624,
+      "group": "Skeletons, Bosses",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Krystilia",
+        "Mazchna",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 430,
+      "strength": 430,
+      "defence": 395,
+      "magic": 300,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

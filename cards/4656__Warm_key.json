@@ -1,0 +1,37 @@
+{
+  "id": 7431,
+  "cardId": "itm_warm-key",
+  "name": "Warm key",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This key is unusually warm to the touch (Used in the Smoke Dungeon in Desert Treasure).",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Warm_key.png",
+  "debut": "2005-04-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4656
+    ],
+    "pageSlug": "Warm_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Warm_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.01,
+    "market": null
+  },
+  "special": false
+}

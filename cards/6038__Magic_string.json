@@ -1,0 +1,40 @@
+{
+  "id": 8126,
+  "cardId": "itm_magic-string",
+  "name": "Magic string",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I could use this to make jewellery.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_string.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6038
+    ],
+    "pageSlug": "Magic_string",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_string"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.014,
+    "market": {
+      "guidePrice": 1135,
+      "buyLimit": 11000,
+      "dailyVolume": 32
+    }
+  }
+}

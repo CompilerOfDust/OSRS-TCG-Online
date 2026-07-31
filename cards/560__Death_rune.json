@@ -1,0 +1,44 @@
+{
+  "id": 7980,
+  "cardId": "itm_death-rune",
+  "name": "Death rune",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    11692,
+    11713
+  ],
+  "flavourText": "Used for medium level missile spells.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Death_rune.png",
+  "debut": "2001-05-24",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      560
+    ],
+    "pageSlug": "Death_rune",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Death_rune"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 108,
+    "lowAlchemy": 72,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 184,
+      "buyLimit": 25000,
+      "dailyVolume": 52619295
+    }
+  },
+  "special": false
+}

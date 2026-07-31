@@ -1,0 +1,56 @@
+{
+  "id": 9850,
+  "cardId": "npc_daer-krand",
+  "name": "Daer Krand",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A practicer of dark arts.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2020-02-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9409
+    ],
+    "pageSlug": "Daer_Krand",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Daer_Krand"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Sisterhood Sanctuary"
+    ],
+    "questLine": "A Night at the Theatre",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

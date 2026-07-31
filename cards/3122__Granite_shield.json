@@ -1,0 +1,67 @@
+{
+  "id": 5765,
+  "cardId": "itm_granite-shield",
+  "name": "Granite shield",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A solid stone shield.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Granite_shield.png",
+  "debut": "2004-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3122
+    ],
+    "pageSlug": "Granite_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Granite_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 33600,
+    "lowAlchemy": 22400,
+    "weightKg": 6.803,
+    "market": {
+      "guidePrice": 35128,
+      "buyLimit": 70,
+      "dailyVolume": 1835
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -12,
+        "ranged": -8
+      },
+      "defence": {
+        "stab": 40,
+        "slash": 42,
+        "crush": 38,
+        "magic": 0,
+        "ranged": 65
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": 628,
+  "cardId": "itm_studded-body",
+  "name": "Studded body",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    7362,
+    7364
+  ],
+  "flavourText": "Those studs should provide a bit more protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Studded_body.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1133
+    ],
+    "pageSlug": "Studded_body",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Studded_body"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 510,
+    "lowAlchemy": 340,
+    "weightKg": 5.443,
+    "market": {
+      "guidePrice": 306,
+      "buyLimit": 125,
+      "dailyVolume": 720
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -4,
+        "ranged": 8
+      },
+      "defence": {
+        "stab": 18,
+        "slash": 25,
+        "crush": 22,
+        "magic": 8,
+        "ranged": 25
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

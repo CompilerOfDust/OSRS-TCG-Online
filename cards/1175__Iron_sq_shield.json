@@ -1,0 +1,68 @@
+{
+  "id": 779,
+  "cardId": "itm_iron-sq-shield",
+  "name": "Iron sq shield",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A medium square shield.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_sq_shield.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1175
+    ],
+    "pageSlug": "Iron_sq_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_sq_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 100,
+    "lowAlchemy": 67,
+    "weightKg": 3.628,
+    "market": {
+      "guidePrice": 12,
+      "buyLimit": 125,
+      "dailyVolume": 422
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 8,
+        "slash": 9,
+        "crush": 7,
+        "magic": 0,
+        "ranged": 8
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

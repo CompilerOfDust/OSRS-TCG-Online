@@ -1,0 +1,41 @@
+{
+  "id": 6846,
+  "cardId": "itm_saradomin-page-2",
+  "name": "Saradomin page 2",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "This seems to have been torn from a book...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Saradomin_page_2.png",
+  "debut": "2004-11-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3828
+    ],
+    "pageSlug": "Saradomin_page_2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Saradomin_page_2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 996,
+      "buyLimit": 5,
+      "dailyVolume": 155
+    }
+  },
+  "special": false
+}

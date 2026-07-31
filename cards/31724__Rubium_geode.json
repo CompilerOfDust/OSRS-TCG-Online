@@ -1,0 +1,37 @@
+{
+  "id": 5934,
+  "cardId": "itm_rubium-geode",
+  "name": "Rubium geode",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Be careful with this! It's unstable!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rubium_geode.png",
+  "debut": "2026-05-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31724
+    ],
+    "pageSlug": "Rubium_geode",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rubium_geode"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Crack-open",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

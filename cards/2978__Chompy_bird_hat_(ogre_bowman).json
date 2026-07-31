@@ -1,0 +1,63 @@
+{
+  "id": 5308,
+  "cardId": "itm_chompy-bird-hat__8",
+  "name": "Chompy bird hat",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A symbol of your chompy bird hunting prowess: Ogre Bowman (30 kills)",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chompy_bird_hat_%28ogre_bowman%29.png",
+  "debut": "2004-07-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2978
+    ],
+    "pageSlug": "Chompy_bird_hat_(ogre_bowman)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chompy_bird_hat_(ogre_bowman)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": 9144,
+  "cardId": "npc_lava-beast",
+  "name": "Lava beast",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Rargh, I'm a lava monster!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lava_beast.png",
+  "debut": "2017-09-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7817
+    ],
+    "pageSlug": "Lava_beast",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lava_beast"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": "18",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

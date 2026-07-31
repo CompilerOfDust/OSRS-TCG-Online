@@ -1,0 +1,36 @@
+{
+  "id": 6884,
+  "cardId": "itm_black-candle",
+  "name": "Black candle",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A spooky candle.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_candle.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      38
+    ],
+    "pageSlug": "Black_candle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_candle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

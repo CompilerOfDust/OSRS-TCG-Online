@@ -1,0 +1,47 @@
+{
+  "id": 3538,
+  "cardId": "itm_divine-magic-potion-1",
+  "name": "Divine magic potion(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    23748,
+    23751,
+    23754
+  ],
+  "flavourText": "4 doses of divine magic potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Divine_magic_potion%284%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23745
+    ],
+    "pageSlug": "Divine_magic_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Divine_magic_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.03,
+    "market": {
+      "guidePrice": 868,
+      "buyLimit": 2000,
+      "dailyVolume": 1208
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": 1261,
+  "cardId": "itm_dragon-pickaxe-upgrade-kit",
+  "name": "Dragon pickaxe upgrade kit",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Makes a dragon pickaxe more beautiful.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_pickaxe_upgrade_kit.png",
+  "debut": "2014-10-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12800
+    ],
+    "pageSlug": "Dragon_pickaxe_upgrade_kit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_pickaxe_upgrade_kit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 960,
+    "lowAlchemy": 640,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 676165,
+      "buyLimit": 50,
+      "dailyVolume": 193
+    }
+  }
+}

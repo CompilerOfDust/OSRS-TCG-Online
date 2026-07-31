@@ -1,0 +1,69 @@
+{
+  "id": 615,
+  "cardId": "itm_leather-body",
+  "name": "Leather body",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    23381
+  ],
+  "flavourText": "Better than no armour!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Leather_body.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1129
+    ],
+    "pageSlug": "Leather_body",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Leather_body"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 9,
+      "buyLimit": 125,
+      "dailyVolume": 36354
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -2,
+        "ranged": 2
+      },
+      "defence": {
+        "stab": 8,
+        "slash": 9,
+        "crush": 10,
+        "magic": 4,
+        "ranged": 9
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

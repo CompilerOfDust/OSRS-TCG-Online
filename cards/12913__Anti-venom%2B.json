@@ -1,0 +1,46 @@
+{
+  "id": 1325,
+  "cardId": "itm_anti-venom-1",
+  "name": "Anti-venom+(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    12915,
+    12917,
+    12919
+  ],
+  "flavourText": "4 doses of super antivenom potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Anti-venom%2B%284%29.png",
+  "debut": "2015-01-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12913
+    ],
+    "pageSlug": "Anti-venom%2B",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Anti-venom%2B"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 66,
+    "lowAlchemy": 44,
+    "weightKg": 0.035,
+    "market": {
+      "guidePrice": 3339,
+      "buyLimit": 2000,
+      "dailyVolume": 3165
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 1957,
+  "cardId": "itm_rogues-purse",
+  "name": "Rogue's purse",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This herb is Rogue's Purse.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rogue%27s_purse.png",
+  "debut": "2002-10-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1534
+    ],
+    "pageSlug": "Rogue%27s_purse",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rogue%27s_purse"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.007,
+    "market": null
+  }
+}

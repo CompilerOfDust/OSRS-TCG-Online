@@ -1,0 +1,39 @@
+{
+  "id": 3257,
+  "cardId": "itm_rotten-carrot",
+  "name": "Rotten carrot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Yuk!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rotten_carrot.png",
+  "debut": "2018-05-31",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22437
+    ],
+    "pageSlug": "Rotten_carrot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rotten_carrot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Tele",
+      "Kill Bot",
+      "Kill Area",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

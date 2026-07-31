@@ -1,0 +1,68 @@
+{
+  "id": 5071,
+  "cardId": "itm_blood-moon-helm",
+  "name": "Blood moon helm",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The helm of the Blood Moon.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blood_moon_helm.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29028
+    ],
+    "pageSlug": "Blood_moon_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blood_moon_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 61800,
+    "lowAlchemy": 41200,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 795391,
+      "buyLimit": 15,
+      "dailyVolume": 450
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 20,
+        "slash": 31,
+        "crush": 34,
+        "magic": 7,
+        "ranged": 29
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": 3956,
+  "cardId": "itm_league-tomato",
+  "name": "League tomato",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Special tomato to do league things.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/League_tomato.png",
+  "debut": "2020-10-28",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25117
+    ],
+    "pageSlug": "League_tomato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/League_tomato"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "League Setup",
+      "League 2 Debug",
+      "League 3 Debug",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.08,
+    "market": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 9523,
+  "cardId": "itm_banner",
+  "name": "Banner",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A banner with the symbol of Arrav.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Banner_%28Arrav%29.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8650
+    ],
+    "pageSlug": "Banner_(Arrav)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Banner_(Arrav)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2.267,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

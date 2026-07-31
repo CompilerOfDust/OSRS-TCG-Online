@@ -1,0 +1,36 @@
+{
+  "id": 5741,
+  "cardId": "itm_baby-kraken-head",
+  "name": "Baby kraken head",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The head of a baby sea kraken.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Baby_kraken_head.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31183
+    ],
+    "pageSlug": "Baby_kraken_head",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Baby_kraken_head"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.285,
+    "market": null
+  }
+}

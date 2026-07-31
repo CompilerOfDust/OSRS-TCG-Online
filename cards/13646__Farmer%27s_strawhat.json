@@ -1,0 +1,65 @@
+{
+  "id": 1641,
+  "cardId": "itm_farmers-strawhat",
+  "name": "Farmer's strawhat",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    21253
+  ],
+  "flavourText": "This will help with farming.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Farmer%27s_strawhat.png",
+  "debut": "2016-02-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13646
+    ],
+    "pageSlug": "Farmer%27s_strawhat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Farmer%27s_strawhat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.907,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 3454,
+  "cardId": "itm_uris-hat",
+  "name": "Uri's hat",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This is top secret comrade...",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uri%27s_hat.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23255
+    ],
+    "pageSlug": "Uri%27s_hat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uri%27s_hat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 2789,
+      "buyLimit": 4,
+      "dailyVolume": 18
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

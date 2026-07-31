@@ -1,0 +1,42 @@
+{
+  "id": 8006,
+  "cardId": "itm_asgarnian-ale-m",
+  "name": "Asgarnian ale(m)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This looks a good deal stronger than normal Asgarnian Ale.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Asgarnian_ale%28m%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5739
+    ],
+    "pageSlug": "Asgarnian_ale(m)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Asgarnian_ale(m)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 25203,
+      "buyLimit": 2000,
+      "dailyVolume": 13
+    }
+  },
+  "special": false
+}

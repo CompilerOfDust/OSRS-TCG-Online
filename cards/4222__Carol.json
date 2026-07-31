@@ -1,0 +1,56 @@
+{
+  "id": 7116,
+  "cardId": "npc_carol",
+  "name": "Carol",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "She's wearing a blue top and red trousers.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2003-06-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4222
+    ],
+    "pageSlug": "Carol",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Carol"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Sinclair Mansion"
+    ],
+    "questLine": "Murder Mystery",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

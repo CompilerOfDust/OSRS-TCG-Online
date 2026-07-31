@@ -1,0 +1,63 @@
+{
+  "id": 9765,
+  "cardId": "itm_lunar-helm",
+  "name": "Lunar helm",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A mystical helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lunar_helm.png",
+  "debut": "2006-07-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9096
+    ],
+    "pageSlug": "Lunar_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lunar_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Destroy"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.907,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 8,
+        "slash": 7,
+        "crush": 10,
+        "magic": 2,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

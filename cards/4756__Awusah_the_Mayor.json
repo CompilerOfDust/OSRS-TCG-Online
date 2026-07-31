@@ -1,0 +1,56 @@
+{
+  "id": 7510,
+  "cardId": "npc_awusah-the-mayor",
+  "name": "Awusah the Mayor",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The Mayor of Nardah.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-12-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4756
+    ],
+    "pageSlug": "Awusah_the_Mayor",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Awusah_the_Mayor"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Nardah"
+    ],
+    "questLine": "Spirits of the Elid",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

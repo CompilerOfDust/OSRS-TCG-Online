@@ -1,0 +1,38 @@
+{
+  "id": 1623,
+  "cardId": "itm_dynamite-pot",
+  "name": "Dynamite pot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pot of dynamite for blast mining. Needs a fuse.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dynamite_pot.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13572
+    ],
+    "pageSlug": "Dynamite_pot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dynamite_pot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 1.36,
+    "market": null
+  },
+  "special": false
+}

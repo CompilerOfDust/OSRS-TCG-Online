@@ -1,0 +1,36 @@
+{
+  "id": 4698,
+  "cardId": "itm_oil-can",
+  "name": "Oil can",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's pretty full.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oil_can.png",
+  "debut": "2001-01-21",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      277
+    ],
+    "pageSlug": "Oil_can",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oil_can"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

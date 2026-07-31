@@ -1,0 +1,40 @@
+{
+  "id": 2324,
+  "cardId": "itm_steel-javelin-tips",
+  "name": "Steel javelin tips",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Needs a shaft.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_javelin_tips_1.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19574
+    ],
+    "pageSlug": "Steel_javelin_tips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_javelin_tips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 97,
+      "buyLimit": 10000,
+      "dailyVolume": 221
+    }
+  }
+}

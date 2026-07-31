@@ -1,0 +1,37 @@
+{
+  "id": 212,
+  "cardId": "itm_crackers",
+  "name": "Crackers",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some dry crackers.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crackers.png",
+  "debut": "2007-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10513
+    ],
+    "pageSlug": "Crackers",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crackers"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

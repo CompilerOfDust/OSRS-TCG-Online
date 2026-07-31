@@ -1,0 +1,54 @@
+{
+  "id": 9670,
+  "cardId": "npc_sir-carl",
+  "name": "Sir Carl",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A mighty-looking warrior.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sir_Carl.png",
+  "debut": "2004-04-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8988
+    ],
+    "pageSlug": "Sir_Carl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sir_Carl"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 62,
+    "vitality": null,
+    "peakDamage": "8",
+    "combatXpBonusPct": -75,
+    "hostile": false,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": true,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,10 @@
+.gradle
+build
+RuneLiteAPI
+bin/
+
+# RuneLite dev-run logs (start-thecardexchange-tcg-plugin.ps1 -Log)
+*.log
+
+# LWJGL natives the dev client extracts at runtime
+.lwjgl-rl/

@@ -1,0 +1,59 @@
+{
+  "id": 6702,
+  "cardId": "npc_villager",
+  "name": "Villager",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An old male villager.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-04-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3552,
+      3553,
+      3554
+    ],
+    "pageSlug": "Villager",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Villager"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Pollnivneach"
+    ],
+    "questLine": "The Feud",
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Pickpocket"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

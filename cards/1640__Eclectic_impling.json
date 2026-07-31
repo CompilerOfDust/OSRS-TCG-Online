@@ -1,0 +1,55 @@
+{
+  "id": 2084,
+  "cardId": "npc_eclectic-impling",
+  "name": "Eclectic impling",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An impling with varied tastes.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Eclectic_impling.png",
+  "debut": "2007-06-11",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1640,
+      1650
+    ],
+    "pageSlug": "Eclectic_impling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Eclectic_impling"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": "N/A",
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [
+      "N/A"
+    ],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

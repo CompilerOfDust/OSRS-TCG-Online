@@ -1,0 +1,58 @@
+{
+  "id": 6661,
+  "cardId": "npc_the-inadequacy",
+  "name": "The Inadequacy",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6119,
+    6350
+  ],
+  "flavourText": "Are you good enough to fight?",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/The_Inadequacy.png",
+  "debut": "2007-05-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3473
+    ],
+    "pageSlug": "The_Inadequacy",
+    "pageUrl": "https://oldschool.runescape.wiki/w/The_Inadequacy"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 343,
+    "vitality": null,
+    "peakDamage": "18 (Melee) 20+ (Ranged)",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

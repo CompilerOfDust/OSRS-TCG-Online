@@ -1,0 +1,40 @@
+{
+  "id": 4302,
+  "cardId": "itm_nihil-shard",
+  "name": "Nihil shard",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An ancient magical shard.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nihil_shard.png",
+  "debut": "2022-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26231
+    ],
+    "pageSlug": "Nihil_shard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nihil_shard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2844,
+      "buyLimit": 30000,
+      "dailyVolume": 67622
+    }
+  }
+}

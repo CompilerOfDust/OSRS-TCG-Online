@@ -1,0 +1,58 @@
+{
+  "id": 9537,
+  "cardId": "npc_olbertus",
+  "name": "Olbertus",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A treasure hunter trapped within the Forthos Dungeon.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2019-07-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8706,
+      8707,
+      8708
+    ],
+    "pageSlug": "Olbertus",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Olbertus"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Forthos Dungeon"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 48,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

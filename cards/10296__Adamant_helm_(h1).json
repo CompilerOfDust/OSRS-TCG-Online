@@ -1,0 +1,72 @@
+{
+  "id": 92,
+  "cardId": "itm_adamant-helm-h1",
+  "name": "Adamant helm (h1)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    10298,
+    10300,
+    10302,
+    10304
+  ],
+  "flavourText": "An adamant helmet with a heraldic design.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_helm_%28h1%29.png",
+  "debut": "2006-12-05",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10296
+    ],
+    "pageSlug": "Adamant_helm_(h1)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_helm_(h1)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 2112,
+    "lowAlchemy": 1408,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 2976,
+      "buyLimit": 70,
+      "dailyVolume": 32
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 19,
+        "slash": 21,
+        "crush": 16,
+        "magic": -1,
+        "ranged": 19
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

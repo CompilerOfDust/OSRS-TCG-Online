@@ -1,0 +1,37 @@
+{
+  "id": 235,
+  "cardId": "itm_collector-icon",
+  "name": "Collector icon",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An icon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Collector_icon.png",
+  "debut": "2007-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10557
+    ],
+    "pageSlug": "Collector_icon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Collector_icon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Equip",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

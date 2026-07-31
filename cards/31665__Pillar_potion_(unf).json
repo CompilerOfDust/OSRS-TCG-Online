@@ -1,0 +1,42 @@
+{
+  "id": 5912,
+  "cardId": "itm_pillar-potion-unf",
+  "name": "Pillar potion (unf)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I need another ingredient to finish this Pillar potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pillar_potion_%28unf%29.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31665
+    ],
+    "pageSlug": "Pillar_potion_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pillar_potion_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 2688,
+      "buyLimit": null,
+      "dailyVolume": 36471
+    }
+  },
+  "special": false
+}

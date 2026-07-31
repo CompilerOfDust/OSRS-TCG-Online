@@ -1,0 +1,67 @@
+{
+  "id": 16,
+  "cardId": "itm_red-chinchompa",
+  "name": "Red chinchompa",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Even more volatile than its vegetarian counterpart.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_chinchompa.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10034
+    ],
+    "pageSlug": "Red_chinchompa",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_chinchompa"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 1460,
+      "buyLimit": 7000,
+      "dailyVolume": 1869812
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 70
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 15,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

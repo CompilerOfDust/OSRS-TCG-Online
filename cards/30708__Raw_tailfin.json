@@ -1,0 +1,36 @@
+{
+  "id": 5562,
+  "cardId": "itm_raw-tailfin",
+  "name": "Raw tailfin",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_tailfin.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30708
+    ],
+    "pageSlug": "Raw_tailfin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_tailfin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.55,
+    "market": null
+  }
+}

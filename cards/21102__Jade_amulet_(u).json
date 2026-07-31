@@ -1,0 +1,40 @@
+{
+  "id": 2788,
+  "cardId": "itm_jade-amulet-u",
+  "name": "Jade amulet (u)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It needs a string so I can wear it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jade_amulet_%28u%29.png",
+  "debut": "2017-02-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21102
+    ],
+    "pageSlug": "Jade_amulet_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jade_amulet_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 630,
+    "lowAlchemy": 420,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 762,
+      "buyLimit": 10000,
+      "dailyVolume": 29359
+    }
+  }
+}

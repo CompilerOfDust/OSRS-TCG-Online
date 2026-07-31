@@ -1,0 +1,71 @@
+{
+  "id": 517,
+  "cardId": "itm_iron-platebody",
+  "name": "Iron platebody",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    12225,
+    12235
+  ],
+  "flavourText": "Provides excellent protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_platebody.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1115
+    ],
+    "pageSlug": "Iron_platebody",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_platebody"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 336,
+    "lowAlchemy": 224,
+    "weightKg": 9.979,
+    "market": {
+      "guidePrice": 102,
+      "buyLimit": 125,
+      "dailyVolume": 54633
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -30,
+        "ranged": -15
+      },
+      "defence": {
+        "stab": 21,
+        "slash": 20,
+        "crush": 12,
+        "magic": -6,
+        "ranged": 20
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": 5017,
+  "cardId": "itm_hunters-sunlight-crossbow",
+  "name": "Hunters' sunlight crossbow",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A weapon made of horn and bone.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hunters%27_sunlight_crossbow.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28869
+    ],
+    "pageSlug": "Hunters%27_sunlight_crossbow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hunters%27_sunlight_crossbow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 780,
+    "lowAlchemy": 520,
+    "weightKg": 6,
+    "market": {
+      "guidePrice": 6233,
+      "buyLimit": 70,
+      "dailyVolume": 2497
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 79
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

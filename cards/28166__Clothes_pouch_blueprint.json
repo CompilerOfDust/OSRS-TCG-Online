@@ -1,0 +1,42 @@
+{
+  "id": 4793,
+  "cardId": "itm_clothes-pouch-blueprint",
+  "name": "Clothes pouch blueprint",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A step-by-step guide to crafting your very own clothes pouch!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Clothes_pouch_blueprint.png",
+  "debut": "2023-06-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28166
+    ],
+    "pageSlug": "Clothes_pouch_blueprint",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Clothes_pouch_blueprint"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Craft",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 1112662,
+      "buyLimit": null,
+      "dailyVolume": 5
+    }
+  },
+  "special": false
+}

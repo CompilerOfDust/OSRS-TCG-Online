@@ -1,0 +1,64 @@
+{
+  "id": 9366,
+  "cardId": "npc_pestilent-bloat",
+  "name": "Pestilent Bloat",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "An infinite mass of decay and death.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pestilent_Bloat.png",
+  "debut": "2021-06-03",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8359,
+      10812,
+      10813
+    ],
+    "pageSlug": "Pestilent_Bloat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pestilent_Bloat"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Undead"
+    ],
+    "tileSize": "5x5",
+    "combatRating": 312,
+    "vitality": 1280,
+    "peakDamage": "8 (Flies) 40 (Stomp)",
+    "combatXpBonusPct": 22.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 1,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 100,
+      "strength": 180,
+      "defence": 80,
+      "magic": 120,
+      "ranged": 72
+    },
+    "aggressiveBonuses": null
+  }
+}

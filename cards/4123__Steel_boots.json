@@ -1,0 +1,67 @@
+{
+  "id": 7024,
+  "cardId": "itm_steel-boots",
+  "name": "Steel boots",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "These will protect my feet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_boots.png",
+  "debut": "2005-01-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4123
+    ],
+    "pageSlug": "Steel_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 1207,
+      "buyLimit": 125,
+      "dailyVolume": 114
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": -1
+      },
+      "defence": {
+        "stab": 5,
+        "slash": 6,
+        "crush": 7,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

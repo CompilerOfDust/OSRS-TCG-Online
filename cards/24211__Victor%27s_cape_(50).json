@@ -1,0 +1,63 @@
+{
+  "id": 3679,
+  "cardId": "itm_victors-cape-50",
+  "name": "Victor's cape (50)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Shows your prowess in Last Man Standing.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Victor%27s_cape_%2850%29.png",
+  "debut": "2019-08-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24211
+    ],
+    "pageSlug": "Victor%27s_cape_(50)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Victor%27s_cape_(50)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

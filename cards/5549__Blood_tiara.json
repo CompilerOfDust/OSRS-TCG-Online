@@ -1,0 +1,67 @@
+{
+  "id": 7928,
+  "cardId": "itm_blood-tiara",
+  "name": "Blood tiara",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A tiara infused with the properties of blood.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blood_tiara.png",
+  "debut": "2022-03-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5549
+    ],
+    "pageSlug": "Blood_tiara",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blood_tiara"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 138454,
+      "buyLimit": null,
+      "dailyVolume": 21
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

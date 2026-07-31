@@ -1,0 +1,65 @@
+{
+  "id": 1654,
+  "cardId": "itm_chronicle",
+  "name": "Chronicle",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The legends of RuneScape.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chronicle.png",
+  "debut": "2016-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13660
+    ],
+    "pageSlug": "Chronicle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chronicle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Teleport",
+      "Check charges",
+      "Destroy"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

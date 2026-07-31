@@ -1,0 +1,49 @@
+{
+  "id": 1972,
+  "cardId": "itm_key__13",
+  "name": "Key",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    275,
+    293,
+    298,
+    423,
+    1544,
+    1545,
+    1546,
+    1547,
+    1548,
+    2411,
+    5010,
+    9722
+  ],
+  "flavourText": "A red key from Melzar's Maze (Used in the Dragon Slayer I quest).",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Key_%28red%29.png",
+  "debut": "2001-09-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1543
+    ],
+    "pageSlug": "Key_(red)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Key_(red)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

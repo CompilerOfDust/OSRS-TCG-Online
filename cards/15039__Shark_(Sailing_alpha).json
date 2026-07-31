@@ -1,0 +1,61 @@
+{
+  "id": 1896,
+  "cardId": "npc_shark",
+  "name": "Shark",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    1154,
+    1155,
+    1156,
+    1830,
+    5611,
+    5612
+  ],
+  "flavourText": "A predator of the sea.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shark_(sailing).png",
+  "debut": "2025-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15039
+    ],
+    "pageSlug": "Shark_(Sailing_alpha)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shark_(Sailing_alpha)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 57,
+    "vitality": null,
+    "peakDamage": "4",
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

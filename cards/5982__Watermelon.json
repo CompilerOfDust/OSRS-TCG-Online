@@ -1,0 +1,42 @@
+{
+  "id": 8092,
+  "cardId": "itm_watermelon",
+  "name": "Watermelon",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A juicy watermelon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Watermelon.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5982
+    ],
+    "pageSlug": "Watermelon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Watermelon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 28,
+    "lowAlchemy": 19,
+    "weightKg": 0.113,
+    "market": {
+      "guidePrice": 20,
+      "buyLimit": 11000,
+      "dailyVolume": 336385
+    }
+  },
+  "special": false
+}

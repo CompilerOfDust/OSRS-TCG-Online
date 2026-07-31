@@ -1,0 +1,41 @@
+{
+  "id": 36,
+  "cardId": "itm_graahk-fur",
+  "name": "Graahk fur",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a perfect-looking graahk fur.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Graahk_fur.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10099
+    ],
+    "pageSlug": "Graahk_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Graahk_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 72,
+    "lowAlchemy": 48,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 552,
+      "buyLimit": 10000,
+      "dailyVolume": 1614
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": 558,
+  "cardId": "itm_dragon-arrowtips",
+  "name": "Dragon arrowtips",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Dragon talons, usable as arrowheads.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_arrowtips.png",
+  "debut": "2007-06-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11237
+    ],
+    "pageSlug": "Dragon_arrowtips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_arrowtips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2145,
+      "buyLimit": 10000,
+      "dailyVolume": 1712854
+    }
+  },
+  "special": false
+}

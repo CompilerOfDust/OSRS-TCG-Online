@@ -1,0 +1,40 @@
+{
+  "id": 6415,
+  "cardId": "itm_silklined-herb-sack",
+  "name": "Silklined herb sack",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A sack for storing grimy herbs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silklined_herb_sack.png",
+  "debut": "2026-02-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33135
+    ],
+    "pageSlug": "Silklined_herb_sack",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silklined_herb_sack"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Fill",
+      "Open",
+      "Check",
+      "Empty",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1,
+    "market": null
+  }
+}

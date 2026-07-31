@@ -1,0 +1,41 @@
+{
+  "id": 621,
+  "cardId": "itm_roe",
+  "name": "Roe",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Roe, or cheap fishy eggs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Roe.png",
+  "debut": "2007-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11324
+    ],
+    "pageSlug": "Roe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Roe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.05,
+    "market": {
+      "guidePrice": 40,
+      "buyLimit": 13000,
+      "dailyVolume": 10388
+    }
+  }
+}

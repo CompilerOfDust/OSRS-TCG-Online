@@ -1,0 +1,68 @@
+{
+  "id": 9360,
+  "cardId": "itm_rune-javelin",
+  "name": "Rune javelin",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A rune tipped javelin.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_javelin.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      830
+    ],
+    "pageSlug": "Rune_javelin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_javelin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 135,
+      "buyLimit": 11000,
+      "dailyVolume": 493949
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 124,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,57 @@
+{
+  "id": 4974,
+  "cardId": "npc_peksa",
+  "name": "Peksa",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Always up to date with the latest fashions in helmets.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2872
+    ],
+    "pageSlug": "Peksa",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Peksa"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Barbarian Village"
+    ],
+    "questLine": "Scorpion Catcher",
+    "shop": "Helmet Shop.",
+    "menuActions": [
+      "Talk-to",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

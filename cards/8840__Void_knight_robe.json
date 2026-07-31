@@ -1,0 +1,65 @@
+{
+  "id": 9572,
+  "cardId": "itm_void-knight-robe",
+  "name": "Void knight robe",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    26465
+  ],
+  "flavourText": "Leg armour from the order of the Void Knights.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Void_knight_robe.png",
+  "debut": "2006-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8840
+    ],
+    "pageSlug": "Void_knight_robe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Void_knight_robe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 27000,
+    "lowAlchemy": 18000,
+    "weightKg": 8.164,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 30,
+        "slash": 30,
+        "crush": 30,
+        "magic": 30,
+        "ranged": 30
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 3204,
+  "cardId": "itm_justiciar-faceguard",
+  "name": "Justiciar faceguard",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A helm that once belonged to a Justiciar, a loyal zealot of Saradomin.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Justiciar_faceguard.png",
+  "debut": "2018-06-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22326
+    ],
+    "pageSlug": "Justiciar_faceguard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Justiciar_faceguard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 1200000,
+    "lowAlchemy": 800000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 9937756,
+      "buyLimit": 8,
+      "dailyVolume": 354
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 60,
+        "slash": 63,
+        "crush": 59,
+        "magic": -6,
+        "ranged": 67
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 423,
+  "cardId": "itm_frogburger",
+  "name": "Frogburger",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A juicy frogburger.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Frogburger.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10962
+    ],
+    "pageSlug": "Frogburger",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Frogburger"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

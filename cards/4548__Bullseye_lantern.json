@@ -1,0 +1,41 @@
+{
+  "id": 7345,
+  "cardId": "itm_bullseye-lantern",
+  "name": "Bullseye lantern",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A sturdy steel lantern.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bullseye_lantern.png",
+  "debut": "2005-03-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4548
+    ],
+    "pageSlug": "Bullseye_lantern",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bullseye_lantern"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 252,
+    "lowAlchemy": 168,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 2322,
+      "buyLimit": 10000,
+      "dailyVolume": 1749
+    }
+  },
+  "special": false
+}

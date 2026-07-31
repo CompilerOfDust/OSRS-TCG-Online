@@ -1,0 +1,37 @@
+{
+  "id": 5988,
+  "cardId": "itm_bottle-of-platinum-rum",
+  "name": "Bottle of platinum rum",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Over twice as shiny as Asgoldian ale!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_platinum_rum.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31842
+    ],
+    "pageSlug": "Bottle_of_platinum_rum",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_platinum_rum"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

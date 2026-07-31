@@ -1,0 +1,97 @@
+{
+  "id": 3994,
+  "cardId": "npc_black-dragon",
+  "name": "Black dragon",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    1871,
+    1872,
+    7275,
+    7861,
+    7862,
+    7863,
+    7955,
+    8092,
+    8093,
+    10576,
+    14146,
+    15601,
+    15610
+  ],
+  "flavourText": "A fierce dragon with black scales!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_dragon.png",
+  "debut": "2002-02-27",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      8084,
+      8085
+    ],
+    "pageSlug": "Black_dragon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_dragon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Draconic",
+      "Fiery"
+    ],
+    "tileSize": "4x4",
+    "combatRating": 227,
+    "vitality": 190,
+    "peakDamage": "21 ( Melee ) 50 ( Dragonfire )",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Dragonfire"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 194.7,
+      "group": "Black Dragons",
+      "masters": [
+        "Krystilia",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 200,
+      "strength": 200,
+      "defence": 200,
+      "magic": 100,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

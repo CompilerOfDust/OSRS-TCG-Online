@@ -1,0 +1,54 @@
+{
+  "id": 2063,
+  "cardId": "npc_lowerniel-drakan",
+  "name": "Lowerniel Drakan",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "The ruler of Morytania and the Lord of Vampyrium, untethered.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lowerniel_Drakan_(The_Blood_Moon_Rises,_final_battle).png",
+  "debut": "2026-06-30",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      16204
+    ],
+    "pageSlug": "Lowerniel_Drakan",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lowerniel_Drakan"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 1063,
+    "vitality": null,
+    "peakDamage": "69",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 200,
+    "venomResistancePct": 200,
+    "cannonImmune": true,
+    "thrallImmune": true,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

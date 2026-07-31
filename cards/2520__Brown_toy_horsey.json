@@ -1,0 +1,41 @@
+{
+  "id": 3983,
+  "cardId": "itm_brown-toy-horsey",
+  "name": "Brown toy horsey",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A brown toy horse.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Brown_toy_horsey.png",
+  "debut": "2004-04-01",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2520
+    ],
+    "pageSlug": "Brown_toy_horsey",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Brown_toy_horsey"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Play-with",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.05,
+    "market": {
+      "guidePrice": 205,
+      "buyLimit": 150,
+      "dailyVolume": 390
+    }
+  }
+}

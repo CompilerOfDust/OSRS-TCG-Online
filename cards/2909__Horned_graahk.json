@@ -1,0 +1,54 @@
+{
+  "id": 5090,
+  "cardId": "npc_horned-graahk",
+  "name": "Horned graahk",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Get in a graahk's way and you're going to know about it... however briefly.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-11-21",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2909
+    ],
+    "pageSlug": "Horned_graahk",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Horned_graahk"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [
+      "Karamja Hunter area"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 41,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

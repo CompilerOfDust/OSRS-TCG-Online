@@ -1,0 +1,61 @@
+{
+  "id": 3410,
+  "cardId": "npc_oldak",
+  "name": "Oldak",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A magical scientist.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2007-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2303,
+      11265,
+      11266,
+      11384,
+      11385
+    ],
+    "pageSlug": "Oldak",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oldak"
+  },
+  "npcProfile": {
+    "race": "Dorgeshuun",
+    "gender": "Male",
+    "locations": [
+      "Dorgesh-Kaan"
+    ],
+    "questLine": "Another Slice of H.A.M.",
+    "shop": "Moving-over-distance spheres",
+    "menuActions": [
+      "Talk-to",
+      "Buy-sphere"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

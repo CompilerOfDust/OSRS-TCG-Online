@@ -1,0 +1,41 @@
+{
+  "id": 2581,
+  "cardId": "itm_cocktail-shaker",
+  "name": "Cocktail shaker",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Used for mixing cocktails.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cocktail_shaker.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2025
+    ],
+    "pageSlug": "Cocktail_shaker",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cocktail_shaker"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Mix-cocktail",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.15,
+    "market": {
+      "guidePrice": 52,
+      "buyLimit": 40,
+      "dailyVolume": 137
+    }
+  }
+}

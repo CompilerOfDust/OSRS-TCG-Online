@@ -1,0 +1,37 @@
+{
+  "id": 6042,
+  "cardId": "itm_bottle-of-fish-bladder-stoutier",
+  "name": "Bottle of fish bladder stoutier",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "25% the bottle size, 200% the punch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_fish_bladder_stoutier.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31892
+    ],
+    "pageSlug": "Bottle_of_fish_bladder_stoutier",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_fish_bladder_stoutier"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

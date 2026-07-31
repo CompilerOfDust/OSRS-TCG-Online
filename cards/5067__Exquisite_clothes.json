@@ -1,0 +1,37 @@
+{
+  "id": 7674,
+  "cardId": "itm_exquisite-clothes",
+  "name": "Exquisite clothes",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Clothes for the sculptor's model.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Exquisite_clothes.png",
+  "debut": "2005-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5067
+    ],
+    "pageSlug": "Exquisite_clothes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Exquisite_clothes"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.05,
+    "market": null
+  }
+}

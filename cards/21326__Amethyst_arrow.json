@@ -1,0 +1,67 @@
+{
+  "id": 2884,
+  "cardId": "itm_amethyst-arrow",
+  "name": "Amethyst arrow",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Arrows with amethyst heads.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amethyst_arrow_1.png",
+  "debut": "2017-06-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21326
+    ],
+    "pageSlug": "Amethyst_arrow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amethyst_arrow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 294,
+    "lowAlchemy": 196,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 128,
+      "buyLimit": 11000,
+      "dailyVolume": 9216064
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 55,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

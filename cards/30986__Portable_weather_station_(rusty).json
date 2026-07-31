@@ -1,0 +1,36 @@
+{
+  "id": 5668,
+  "cardId": "itm_portable-weather-station-rusty",
+  "name": "Portable weather station (rusty)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Rust issues giving you measurement accuracy trust issues.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Portable_weather_station_%28rusty%29.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30986
+    ],
+    "pageSlug": "Portable_weather_station_(rusty)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Portable_weather_station_(rusty)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

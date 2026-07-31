@@ -1,0 +1,37 @@
+{
+  "id": 9036,
+  "cardId": "itm_silvthrill-rod",
+  "name": "Silvthrill rod",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A silvery rod of mithril and silver with a sapphire on the top.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silvthrill_rod.png",
+  "debut": "2006-03-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7637
+    ],
+    "pageSlug": "Silvthrill_rod",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silvthrill_rod"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

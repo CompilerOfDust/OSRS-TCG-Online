@@ -1,0 +1,40 @@
+{
+  "id": 1948,
+  "cardId": "itm_lockpick",
+  "name": "Lockpick",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "For picking tough locks.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lockpick.png",
+  "debut": "2002-05-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1523
+    ],
+    "pageSlug": "Lockpick",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lockpick"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 270,
+      "buyLimit": 250,
+      "dailyVolume": 56104
+    }
+  }
+}

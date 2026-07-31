@@ -1,0 +1,68 @@
+{
+  "id": 637,
+  "cardId": "itm_rune-hasta",
+  "name": "Rune hasta",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A rune-tipped, one-handed hasta.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_hasta.png",
+  "debut": "2007-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11377
+    ],
+    "pageSlug": "Rune_hasta",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_hasta"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 12480,
+    "lowAlchemy": 8320,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 12164,
+      "buyLimit": 70,
+      "dailyVolume": 429
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 36,
+        "slash": 36,
+        "crush": 36,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": -10,
+        "slash": -10,
+        "crush": -9,
+        "magic": 0,
+        "ranged": -10
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 42,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

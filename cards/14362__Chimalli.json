@@ -1,0 +1,54 @@
+{
+  "id": 1783,
+  "cardId": "npc_chimalli",
+  "name": "Chimalli",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A fierce ranger of the Twilight Emissaries.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chimalli.png",
+  "debut": "2025-07-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14362
+    ],
+    "pageSlug": "Chimalli",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chimalli"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 160,
+    "vitality": null,
+    "peakDamage": "24",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": null,
+    "cannonImmune": true,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

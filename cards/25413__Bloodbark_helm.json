@@ -1,0 +1,67 @@
+{
+  "id": 4018,
+  "cardId": "itm_bloodbark-helm",
+  "name": "Bloodbark helm",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A rather interesting smelling helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bloodbark_helm.png",
+  "debut": "2021-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25413
+    ],
+    "pageSlug": "Bloodbark_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bloodbark_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 9000,
+    "lowAlchemy": 6000,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 111905,
+      "buyLimit": null,
+      "dailyVolume": 864
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 16,
+        "slash": 14,
+        "crush": 17,
+        "magic": 6,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

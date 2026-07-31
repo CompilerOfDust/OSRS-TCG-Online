@@ -1,0 +1,62 @@
+{
+  "id": 978,
+  "cardId": "npc_arzinian-avatar-of-strength",
+  "name": "Arzinian Avatar of Strength",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It is the avatar of the Arzinian Being of Bordanzan, representing strength.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arzinian_Avatar_of_Strength.png",
+  "debut": "2005-03-21",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1227,
+      1228,
+      1229
+    ],
+    "pageSlug": "Arzinian_Avatar_of_Strength",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arzinian_Avatar_of_Strength"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": null,
+    "vitality": 200,
+    "peakDamage": "14",
+    "combatXpBonusPct": 5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 150,
+      "strength": 130,
+      "defence": 120,
+      "magic": 0,
+      "ranged": 0
+    },
+    "aggressiveBonuses": null
+  }
+}

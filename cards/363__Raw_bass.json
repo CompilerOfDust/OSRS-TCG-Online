@@ -1,0 +1,41 @@
+{
+  "id": 6734,
+  "cardId": "itm_raw-bass",
+  "name": "Raw bass",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_bass.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      363
+    ],
+    "pageSlug": "Raw_bass",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_bass"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 11,
+      "buyLimit": 15000,
+      "dailyVolume": 843697
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": 9755,
+  "cardId": "itm_suqah-hide",
+  "name": "Suqah hide",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An untanned piece of Suqah hide.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Suqah_hide.png",
+  "debut": "2006-07-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9080
+    ],
+    "pageSlug": "Suqah_hide",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Suqah_hide"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 3.175,
+    "market": null
+  },
+  "special": false
+}

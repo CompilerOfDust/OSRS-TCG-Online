@@ -1,0 +1,57 @@
+{
+  "id": 6912,
+  "cardId": "npc_nora-t-hagg",
+  "name": "Nora T. Hagg",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Distinctly witch-like.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2002-02-27",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3995
+    ],
+    "pageSlug": "Nora_T._Hagg",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nora_T._Hagg"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Witch's house",
+      "Taverley"
+    ],
+    "questLine": "Witch's House",
+    "shop": null,
+    "menuActions": [
+      "Attack"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

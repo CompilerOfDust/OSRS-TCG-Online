@@ -1,0 +1,63 @@
+{
+  "id": 9059,
+  "cardId": "npc_jal-mejrah",
+  "name": "Jal-MejRah",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A dangerous flying creature.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jal-MejRah.png",
+  "debut": "2017-06-01",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7692
+    ],
+    "pageSlug": "Jal-MejRah",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jal-MejRah"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 85,
+    "vitality": null,
+    "peakDamage": "19",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 25,
+      "group": "TzHaar",
+      "masters": [
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": 2119,
+  "cardId": "npc_giant-crypt-spider",
+  "name": "Giant crypt spider",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Not very incey wincey.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_crypt_spider.png",
+  "debut": "2005-05-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1684
+    ],
+    "pageSlug": "Giant_crypt_spider",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giant_crypt_spider"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 79,
+    "vitality": null,
+    "peakDamage": "8",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 80,
+      "group": "Spiders",
+      "masters": [
+        "Turael",
+        "Spria"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

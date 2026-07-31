@@ -1,0 +1,89 @@
+{
+  "id": 5924,
+  "cardId": "npc_aviansie",
+  "name": "Aviansie",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    7037
+  ],
+  "flavourText": "Graceful, bird-like creature.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Aviansie_(level_69).png",
+  "debut": "2013-10-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3169,
+      3170,
+      3171,
+      3172,
+      3173,
+      3174,
+      3175,
+      3176,
+      3177,
+      3178,
+      3179,
+      3180,
+      3181,
+      3182,
+      3183
+    ],
+    "pageSlug": "Aviansie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Aviansie"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Flying"
+    ],
+    "tileSize": "2x2",
+    "combatRating": 69,
+    "vitality": 70,
+    "peakDamage": "8",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 25,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 70,
+      "group": "Aviansie",
+      "masters": [
+        "Krystilia",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 71
+    },
+    "aggressiveBonuses": null
+  }
+}

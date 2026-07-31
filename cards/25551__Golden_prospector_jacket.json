@@ -1,0 +1,63 @@
+{
+  "id": 4074,
+  "cardId": "itm_golden-prospector-jacket",
+  "name": "Golden prospector jacket",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Helps you when you're mining. Looks good too.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golden_prospector_jacket.png",
+  "debut": "2021-03-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25551
+    ],
+    "pageSlug": "Golden_prospector_jacket",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golden_prospector_jacket"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 1800,
+    "lowAlchemy": 1200,
+    "weightKg": 1.36,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

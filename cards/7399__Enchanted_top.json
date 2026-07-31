@@ -1,0 +1,67 @@
+{
+  "id": 8874,
+  "cardId": "itm_enchanted-top",
+  "name": "Enchanted top",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Enchanted Wizards robes.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enchanted_top.png",
+  "debut": "2006-02-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7399
+    ],
+    "pageSlug": "Enchanted_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enchanted_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 72000,
+    "lowAlchemy": 48000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 75110,
+      "buyLimit": 8,
+      "dailyVolume": 215
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 20,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 20,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

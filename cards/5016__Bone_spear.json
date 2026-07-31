@@ -1,0 +1,68 @@
+{
+  "id": 7633,
+  "cardId": "itm_bone-spear",
+  "name": "Bone spear",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Basic but brutal!",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bone_spear.png",
+  "debut": "2005-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5016
+    ],
+    "pageSlug": "Bone_spear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bone_spear"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 360,
+    "lowAlchemy": 240,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 501,
+      "buyLimit": 4,
+      "dailyVolume": 207
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 11,
+        "slash": 11,
+        "crush": 11,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 13,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1866,
+  "cardId": "itm_paladins-badge__2",
+  "name": "Paladin's badge",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    1489,
+    1490
+  ],
+  "flavourText": "A coat of arms of the Ardougne Paladins.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Paladin%27s_badge_%28Sir_Jerro%29.png",
+  "debut": "2003-03-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1488
+    ],
+    "pageSlug": "Paladin%27s_badge_(Sir_Jerro)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Paladin%27s_badge_(Sir_Jerro)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.012,
+    "market": null
+  }
+}

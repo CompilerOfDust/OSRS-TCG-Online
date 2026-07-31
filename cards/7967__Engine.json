@@ -1,0 +1,36 @@
+{
+  "id": 9233,
+  "cardId": "itm_engine",
+  "name": "Engine",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A dwarf-made coal engine. It looks very sturdy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Engine.png",
+  "debut": "2006-05-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7967
+    ],
+    "pageSlug": "Engine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Engine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 1,
+    "market": null
+  }
+}

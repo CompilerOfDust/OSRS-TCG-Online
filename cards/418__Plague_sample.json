@@ -1,0 +1,36 @@
+{
+  "id": 7082,
+  "cardId": "itm_plague-sample",
+  "name": "Plague sample",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Probably best I don't keep this too long.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Plague_sample.png",
+  "debut": "2002-10-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      418
+    ],
+    "pageSlug": "Plague_sample",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Plague_sample"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.05,
+    "market": null
+  }
+}

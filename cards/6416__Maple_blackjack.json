@@ -1,0 +1,68 @@
+{
+  "id": 8366,
+  "cardId": "itm_maple-blackjack",
+  "name": "Maple blackjack",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A solid bit of maple.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maple_blackjack.png",
+  "debut": "2005-08-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6416
+    ],
+    "pageSlug": "Maple_blackjack",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maple_blackjack"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 720,
+    "lowAlchemy": 480,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 3771,
+      "buyLimit": 125,
+      "dailyVolume": 78
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 20,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

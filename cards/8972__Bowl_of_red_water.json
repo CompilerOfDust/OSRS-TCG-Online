@@ -1,0 +1,36 @@
+{
+  "id": 9660,
+  "cardId": "itm_bowl-of-red-water",
+  "name": "Bowl of red water",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bowl of red water.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bowl_of_red_water.png",
+  "debut": "2006-07-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8972
+    ],
+    "pageSlug": "Bowl_of_red_water",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bowl_of_red_water"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

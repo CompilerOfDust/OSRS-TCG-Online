@@ -1,0 +1,54 @@
+{
+  "id": 4180,
+  "cardId": "npc_abyssal-walker",
+  "name": "Abyssal walker",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Apparently walks the Abyss.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Abyssal_walker.png",
+  "debut": "2005-06-13",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2586
+    ],
+    "pageSlug": "Abyssal_walker",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Abyssal_walker"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 81,
+    "vitality": null,
+    "peakDamage": "13",
+    "combatXpBonusPct": -75,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 5,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

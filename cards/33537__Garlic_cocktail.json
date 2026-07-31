@@ -1,0 +1,36 @@
+{
+  "id": 6490,
+  "cardId": "itm_garlic-cocktail",
+  "name": "Garlic cocktail",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A rather disgusting cocktail.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Garlic_cocktail.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33537
+    ],
+    "pageSlug": "Garlic_cocktail",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Garlic_cocktail"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

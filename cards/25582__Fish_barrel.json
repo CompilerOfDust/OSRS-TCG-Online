@@ -1,0 +1,39 @@
+{
+  "id": 4087,
+  "cardId": "itm_fish-barrel",
+  "name": "Fish barrel",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Like stashing fish in a barrel.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fish_barrel.png",
+  "debut": "2021-03-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25582
+    ],
+    "pageSlug": "Fish_barrel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fish_barrel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Fill",
+      "Check",
+      "Open",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.39,
+    "market": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 7042,
+  "cardId": "itm_leaf-bladed-spear",
+  "name": "Leaf-bladed spear",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A spear with a leaf-shaped point.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Leaf-bladed_spear.png",
+  "debut": "2005-01-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4158
+    ],
+    "pageSlug": "Leaf-bladed_spear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Leaf-bladed_spear"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 18600,
+    "lowAlchemy": 12400,
+    "weightKg": 2.267,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 47,
+        "slash": 42,
+        "crush": 36,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 50,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

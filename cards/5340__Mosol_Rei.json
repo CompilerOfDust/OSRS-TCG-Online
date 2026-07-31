@@ -1,0 +1,57 @@
+{
+  "id": 7822,
+  "cardId": "npc_mosol-rei",
+  "name": "Mosol Rei",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A warrior from Shilo Village.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2003-01-27",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5340,
+      8696
+    ],
+    "pageSlug": "Mosol_Rei",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mosol_Rei"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Shilo Village"
+    ],
+    "questLine": "Shilo Village",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

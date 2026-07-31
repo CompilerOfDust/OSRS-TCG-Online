@@ -1,0 +1,70 @@
+{
+  "id": 8862,
+  "cardId": "npc_chasm-crawler",
+  "name": "Chasm Crawler",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A dangerous looking beast.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chasm_Crawler.png",
+  "debut": "2016-09-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7389,
+      14031
+    ],
+    "pageSlug": "Chasm_Crawler",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chasm_Crawler"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 68,
+    "vitality": 60,
+    "peakDamage": "7",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 10,
+      "reward": 600,
+      "group": "Cave Crawlers",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": {
+      "attack": 64,
+      "strength": 59,
+      "defence": 55,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

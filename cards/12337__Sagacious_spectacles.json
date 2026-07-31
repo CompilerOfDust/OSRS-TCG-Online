@@ -1,0 +1,67 @@
+{
+  "id": 1000,
+  "cardId": "itm_sagacious-spectacles",
+  "name": "Sagacious spectacles",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Do they make me look... old?",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sagacious_spectacles.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12337
+    ],
+    "pageSlug": "Sagacious_spectacles",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sagacious_spectacles"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 840,
+    "lowAlchemy": 560,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 443002,
+      "buyLimit": 4,
+      "dailyVolume": 14
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 4108,
+  "cardId": "itm_imcando-hammer",
+  "name": "Imcando hammer",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "It's good for holding and hitting things!",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Imcando_hammer.png",
+  "debut": "2021-04-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25644
+    ],
+    "pageSlug": "Imcando_hammer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Imcando_hammer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Swap",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

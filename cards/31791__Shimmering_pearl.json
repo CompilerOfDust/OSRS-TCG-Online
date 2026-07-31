@@ -1,0 +1,36 @@
+{
+  "id": 5959,
+  "cardId": "itm_shimmering-pearl",
+  "name": "Shimmering pearl",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Looks like it would sell for an extremely high price.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shimmering_pearl.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31791
+    ],
+    "pageSlug": "Shimmering_pearl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shimmering_pearl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

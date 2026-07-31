@@ -1,0 +1,37 @@
+{
+  "id": 6585,
+  "cardId": "itm_jar-of-congealed-blood",
+  "name": "Jar of congealed blood",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Well, there isn't a warning label telling you not to consume the contents...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jar_of_congealed_blood.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33819
+    ],
+    "pageSlug": "Jar_of_congealed_blood",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jar_of_congealed_blood"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.1,
+    "market": null
+  }
+}

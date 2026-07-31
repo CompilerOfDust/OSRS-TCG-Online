@@ -1,0 +1,37 @@
+{
+  "id": 2874,
+  "cardId": "itm_infernal-eel",
+  "name": "Infernal eel",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An infernal eel that has now hardened. Perhaps it could be cracked open.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Infernal_eel.png",
+  "debut": "2017-06-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21293
+    ],
+    "pageSlug": "Infernal_eel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Infernal_eel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 99,
+    "lowAlchemy": 66,
+    "weightKg": 0.6,
+    "market": null
+  }
+}

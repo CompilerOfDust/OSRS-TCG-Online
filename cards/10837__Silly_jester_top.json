@@ -1,0 +1,63 @@
+{
+  "id": 340,
+  "cardId": "itm_silly-jester-top",
+  "name": "Silly jester top",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A jester's jangly top.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silly_jester_top.png",
+  "debut": "2007-02-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10837
+    ],
+    "pageSlug": "Silly_jester_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silly_jester_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Destroy"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 6.803,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "ranged": -5
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

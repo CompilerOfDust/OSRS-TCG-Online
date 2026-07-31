@@ -1,0 +1,63 @@
+{
+  "id": 1669,
+  "cardId": "itm_cruciferous-codex",
+  "name": "Cruciferous codex",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The holy book of Cabbages.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cruciferous_codex.png",
+  "debut": "2016-04-01",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13681
+    ],
+    "pageSlug": "Cruciferous_codex",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cruciferous_codex"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Destroy"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

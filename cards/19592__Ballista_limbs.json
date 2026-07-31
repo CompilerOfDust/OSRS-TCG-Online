@@ -1,0 +1,40 @@
+{
+  "id": 2333,
+  "cardId": "itm_ballista-limbs",
+  "name": "Ballista limbs",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Sturdy struts.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ballista_limbs.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19592
+    ],
+    "pageSlug": "Ballista_limbs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ballista_limbs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 28990,
+      "buyLimit": 8,
+      "dailyVolume": 193
+    }
+  }
+}

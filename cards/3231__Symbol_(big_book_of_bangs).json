@@ -1,0 +1,36 @@
+{
+  "id": 6166,
+  "cardId": "itm_symbol",
+  "name": "Symbol",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An alchemy symbol [ sic ]",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Symbol_%28quicklime%29.png",
+  "debut": "2004-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3231
+    ],
+    "pageSlug": "Symbol_(big_book_of_bangs)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Symbol_(big_book_of_bangs)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

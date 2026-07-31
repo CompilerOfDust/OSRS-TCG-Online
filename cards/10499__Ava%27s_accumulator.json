@@ -1,0 +1,64 @@
+{
+  "id": 201,
+  "cardId": "itm_avas-accumulator",
+  "name": "Ava's accumulator",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A superior bagged chicken ready to serve you, magnet in claw.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ava%27s_accumulator.png",
+  "debut": "2006-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10499
+    ],
+    "pageSlug": "Ava%27s_accumulator",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ava%27s_accumulator"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Commune",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 4.535,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 4
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 4,
+        "ranged": 0
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

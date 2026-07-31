@@ -1,0 +1,54 @@
+{
+  "id": 1976,
+  "cardId": "npc_pirate-captain",
+  "name": "Pirate captain",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "You wouldn't steal a ship.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pirate_captain_(Feldip_Gulf).png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15455
+    ],
+    "pageSlug": "Pirate_captain_(Feldip_Gulf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pirate_captain_(Feldip_Gulf)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 67,
+    "vitality": null,
+    "peakDamage": "? (edit)",
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [
+      "? (edit)"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

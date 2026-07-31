@@ -1,0 +1,64 @@
+{
+  "id": 1384,
+  "cardId": "itm_wilderness-sword-4",
+  "name": "Wilderness sword 4",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A razor sharp sword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wilderness_sword_4.png",
+  "debut": "2015-03-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13111
+    ],
+    "pageSlug": "Wilderness_sword_4",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wilderness_sword_4"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Teleport",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.814,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 23,
+        "slash": 18,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 2,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 24,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

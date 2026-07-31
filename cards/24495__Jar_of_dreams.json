@@ -1,0 +1,41 @@
+{
+  "id": 3751,
+  "cardId": "itm_jar-of-dreams",
+  "name": "Jar of dreams",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "With this jar, your dreams can come true!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jar_of_dreams.png",
+  "debut": "2020-02-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24495
+    ],
+    "pageSlug": "Jar_of_dreams",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jar_of_dreams"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.04,
+    "market": {
+      "guidePrice": 1101216,
+      "buyLimit": 4,
+      "dailyVolume": 12
+    }
+  },
+  "special": false
+}

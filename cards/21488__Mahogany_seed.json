@@ -1,0 +1,40 @@
+{
+  "id": 2916,
+  "cardId": "itm_mahogany-seed",
+  "name": "Mahogany seed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Plant this in a plantpot of soil to grow a sapling.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mahogany_seed_1.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21488
+    ],
+    "pageSlug": "Mahogany_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mahogany_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 28,
+    "lowAlchemy": 19,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 195,
+      "buyLimit": 200,
+      "dailyVolume": 16199
+    }
+  }
+}

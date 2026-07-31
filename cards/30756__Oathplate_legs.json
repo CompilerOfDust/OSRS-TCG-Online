@@ -1,0 +1,67 @@
+{
+  "id": 5576,
+  "cardId": "itm_oathplate-legs",
+  "name": "Oathplate legs",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Platelegs forged from infernal metal.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oathplate_legs.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30756
+    ],
+    "pageSlug": "Oathplate_legs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oathplate_legs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 240000,
+    "lowAlchemy": 160000,
+    "weightKg": 9.071,
+    "market": {
+      "guidePrice": 87726375,
+      "buyLimit": null,
+      "dailyVolume": 443
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 12,
+        "crush": 0,
+        "magic": -12,
+        "ranged": -14
+      },
+      "defence": {
+        "stab": 75,
+        "slash": 100,
+        "crush": 73,
+        "magic": -3,
+        "ranged": 81
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 2,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

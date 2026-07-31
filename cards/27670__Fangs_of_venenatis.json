@@ -1,0 +1,41 @@
+{
+  "id": 4684,
+  "cardId": "itm_fangs-of-venenatis",
+  "name": "Fangs of venenatis",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The fangs of a matriarch spider. They seem to maintain a sense of her power.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fangs_of_venenatis.png",
+  "debut": "2023-01-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27670
+    ],
+    "pageSlug": "Fangs_of_venenatis",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fangs_of_venenatis"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 48000,
+    "lowAlchemy": 32000,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 67674,
+      "buyLimit": 8,
+      "dailyVolume": 131
+    }
+  },
+  "special": false
+}

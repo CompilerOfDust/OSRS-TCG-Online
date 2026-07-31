@@ -1,0 +1,56 @@
+{
+  "id": 7832,
+  "cardId": "npc_rashiliyia",
+  "name": "Rashiliyia",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The animated spirit of Rashiliyia the Zombie Queen.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2003-01-27",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5352
+    ],
+    "pageSlug": "Rashiliyia",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rashiliyia"
+  },
+  "npcProfile": {
+    "race": "Ghost",
+    "gender": "Female",
+    "locations": [
+      "Shilo Village"
+    ],
+    "questLine": "Shilo Village",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

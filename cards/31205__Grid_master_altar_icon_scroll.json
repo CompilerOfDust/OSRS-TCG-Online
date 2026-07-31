@@ -1,0 +1,40 @@
+{
+  "id": 5763,
+  "cardId": "itm_grid-master-altar-icon-scroll",
+  "name": "Grid master altar icon scroll",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Used to construct an icon to the iconic entrance into the world of Gielinor inside your Player owned house.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grid_master_altar_icon_scroll.png",
+  "debut": "2025-10-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31205
+    ],
+    "pageSlug": "Grid_master_altar_icon_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grid_master_altar_icon_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 104958,
+      "buyLimit": null,
+      "dailyVolume": 15
+    }
+  }
+}

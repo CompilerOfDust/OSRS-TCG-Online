@@ -1,0 +1,36 @@
+{
+  "id": 6774,
+  "cardId": "itm_tracking-map",
+  "name": "Tracking map",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Could probably be a bit clearer!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tracking_map.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3701
+    ],
+    "pageSlug": "Tracking_map",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tracking_map"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.51,
+    "market": null
+  }
+}

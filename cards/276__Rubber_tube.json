@@ -1,0 +1,36 @@
+{
+  "id": 4692,
+  "cardId": "itm_rubber-tube",
+  "name": "Rubber tube",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's slightly charred.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rubber_tube.png",
+  "debut": "2001-01-21",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      276
+    ],
+    "pageSlug": "Rubber_tube",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rubber_tube"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

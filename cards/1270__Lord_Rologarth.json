@@ -1,0 +1,57 @@
+{
+  "id": 1220,
+  "cardId": "npc_lord-rologarth",
+  "name": "Lord Rologarth",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It looks like he has got his castle back at last.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-01-31",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1270,
+      1271
+    ],
+    "pageSlug": "Lord_Rologarth",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lord_Rologarth"
+  },
+  "npcProfile": {
+    "race": "Zombie",
+    "gender": "Male",
+    "locations": [
+      "Fenkenstrain's Castle"
+    ],
+    "questLine": "Creature of Fenkenstrain",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

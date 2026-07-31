@@ -1,0 +1,40 @@
+{
+  "id": 2294,
+  "cardId": "itm_zenyte",
+  "name": "Zenyte",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "This looks valuable.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zenyte.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19493
+    ],
+    "pageSlug": "Zenyte",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zenyte"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 45000,
+    "lowAlchemy": 30000,
+    "weightKg": 0.002,
+    "market": {
+      "guidePrice": 18147842,
+      "buyLimit": 11000,
+      "dailyVolume": 2
+    }
+  }
+}

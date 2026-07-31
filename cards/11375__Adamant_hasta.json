@@ -1,0 +1,67 @@
+{
+  "id": 636,
+  "cardId": "itm_adamant-hasta",
+  "name": "Adamant hasta",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An adamant-tipped, one-handed hasta.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_hasta.png",
+  "debut": "2007-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11375
+    ],
+    "pageSlug": "Adamant_hasta",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_hasta"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 1248,
+    "lowAlchemy": 832,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 831,
+      "buyLimit": 125,
+      "dailyVolume": 30
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 24,
+        "slash": 24,
+        "crush": 24,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": -6,
+        "slash": -7,
+        "crush": -5,
+        "magic": 0,
+        "ranged": -6
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 28,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

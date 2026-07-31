@@ -1,0 +1,67 @@
+{
+  "id": 8891,
+  "cardId": "npc_night-beast",
+  "name": "Night beast",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [
+    12459,
+    12580
+  ],
+  "flavourText": "I don't want to ever visit that darker dimension...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Night_beast.png",
+  "debut": "2016-09-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7409
+    ],
+    "pageSlug": "Night_beast",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Night_beast"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "4x4",
+    "combatRating": 374,
+    "vitality": null,
+    "peakDamage": "31",
+    "combatXpBonusPct": 17.5,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush",
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 90,
+      "reward": 6462,
+      "group": "Dark Beasts",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

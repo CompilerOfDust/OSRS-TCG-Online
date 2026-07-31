@@ -1,0 +1,69 @@
+{
+  "id": 5006,
+  "cardId": "itm_zombie-axe",
+  "name": "Zombie axe",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    28813
+  ],
+  "flavourText": "A rusty yet powerful axe.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zombie_axe.png",
+  "debut": "2024-02-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28810
+    ],
+    "pageSlug": "Zombie_axe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zombie_axe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 96000,
+    "lowAlchemy": 64000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 1397269,
+      "buyLimit": null,
+      "dailyVolume": 539
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -3,
+        "slash": 105,
+        "crush": 90,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": -1,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": -1
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 107,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

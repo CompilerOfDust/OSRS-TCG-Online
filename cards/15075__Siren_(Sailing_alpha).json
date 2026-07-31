@@ -1,0 +1,54 @@
+{
+  "id": 1905,
+  "cardId": "npc_siren",
+  "name": "Siren",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A mystical creature of the sea.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Siren_(Sailing_alpha).png",
+  "debut": "2025-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15075
+    ],
+    "pageSlug": "Siren_(Sailing_alpha)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Siren_(Sailing_alpha)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 53,
+    "vitality": null,
+    "peakDamage": "? (edit)",
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [
+      "? (edit)"
+    ],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

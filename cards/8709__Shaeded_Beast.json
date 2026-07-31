@@ -1,0 +1,54 @@
+{
+  "id": 9538,
+  "cardId": "npc_shaeded-beast",
+  "name": "Shaeded Beast",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A terrible creature manipulating the powers of the dark altar.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shaeded_Beast.png",
+  "debut": "2019-07-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8709
+    ],
+    "pageSlug": "Shaeded_Beast",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shaeded_Beast"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 186,
+    "vitality": null,
+    "peakDamage": "30",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

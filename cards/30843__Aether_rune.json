@@ -1,0 +1,40 @@
+{
+  "id": 5620,
+  "cardId": "itm_aether-rune",
+  "name": "Aether rune",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A combined cosmic and soul rune.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Aether_rune.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30843
+    ],
+    "pageSlug": "Aether_rune",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Aether_rune"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 782,
+      "buyLimit": 25000,
+      "dailyVolume": 6486344
+    }
+  }
+}

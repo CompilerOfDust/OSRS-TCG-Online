@@ -1,0 +1,40 @@
+{
+  "id": 4785,
+  "cardId": "itm_log-brace",
+  "name": "Log brace",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "With some rope, adamantite bars and steel nails, I can create a sturdy harness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Log_brace.png",
+  "debut": "2023-06-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28146
+    ],
+    "pageSlug": "Log_brace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Log_brace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1800,
+    "lowAlchemy": 1200,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 810682,
+      "buyLimit": 40,
+      "dailyVolume": 54
+    }
+  }
+}

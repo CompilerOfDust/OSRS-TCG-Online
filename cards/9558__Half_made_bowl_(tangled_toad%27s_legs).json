@@ -1,0 +1,40 @@
+{
+  "id": 9918,
+  "cardId": "itm_half-made-bowl__1",
+  "name": "Half made bowl",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    9559,
+    9561,
+    9563
+  ],
+  "flavourText": "This unfinished tangled toads legs requires baking.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Half_made_bowl_%28tangled_toad%27s_legs%29.png",
+  "debut": "2006-08-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9558
+    ],
+    "pageSlug": "Half_made_bowl_(tangled_toad%27s_legs)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Half_made_bowl_(tangled_toad%27s_legs)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.275,
+    "market": null
+  }
+}

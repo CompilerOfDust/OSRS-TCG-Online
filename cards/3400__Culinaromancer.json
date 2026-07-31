@@ -1,0 +1,67 @@
+{
+  "id": 6600,
+  "cardId": "npc_culinaromancer",
+  "name": "Culinaromancer",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6307,
+    6368
+  ],
+  "flavourText": "A demented evil wizard who specialises in food spells.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Culinaromancer.png",
+  "debut": "2006-03-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3400,
+      4849,
+      4872,
+      4873,
+      4874,
+      4875,
+      4876,
+      4877,
+      4878,
+      4879
+    ],
+    "pageSlug": "Culinaromancer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Culinaromancer"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 75,
+    "vitality": null,
+    "peakDamage": "25 (Magic) 11 (Crush)",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee",
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

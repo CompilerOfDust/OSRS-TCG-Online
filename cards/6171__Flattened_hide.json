@@ -1,0 +1,41 @@
+{
+  "id": 8230,
+  "cardId": "itm_flattened-hide",
+  "name": "Flattened hide",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A tattered chunk of dagannoth hide.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Flattened_hide.png",
+  "debut": "2005-08-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6171
+    ],
+    "pageSlug": "Flattened_hide",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Flattened_hide"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 4210,
+      "buyLimit": 11000,
+      "dailyVolume": 3
+    }
+  },
+  "special": false
+}

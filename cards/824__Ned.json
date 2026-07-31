@@ -1,0 +1,66 @@
+{
+  "id": 9348,
+  "cardId": "npc_ned",
+  "name": "Ned",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    818
+  ],
+  "flavourText": "An old sailor.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2001-02-28",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      824,
+      4280,
+      5864
+    ],
+    "pageSlug": "Ned",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ned"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Draynor Village"
+    ],
+    "questLine": "Dragon Slayer I , Prince Ali Rescue",
+    "shop": "Ned's Handmade Rope",
+    "menuActions": [
+      "Talk-to",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  },
+  "combine": {
+    "combinesInto": [
+      "npc_elvarg"
+    ]
+  }
+}

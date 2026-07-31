@@ -1,0 +1,40 @@
+{
+  "id": 5665,
+  "cardId": "itm_damiana-tea",
+  "name": "Damiana tea",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    30983
+  ],
+  "flavourText": "It's a bowl of damiana tea.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Damiana_tea.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30981
+    ],
+    "pageSlug": "Damiana_tea",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Damiana_tea"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

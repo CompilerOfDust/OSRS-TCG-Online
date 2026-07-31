@@ -1,0 +1,94 @@
+{
+  "id": 7756,
+  "cardId": "npc_monkey-guard",
+  "name": "Monkey Guard",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    5271,
+    6811,
+    7122,
+    7123,
+    7124,
+    7125,
+    7126,
+    7127,
+    7128,
+    7129,
+    7130,
+    7131,
+    7132,
+    7133,
+    7134,
+    7135,
+    7136,
+    7137,
+    7138,
+    7139,
+    7140,
+    7141,
+    7142,
+    7143
+  ],
+  "flavourText": "A huge brutish gorilla armoured with dangerous looking vambraces.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Monkey_Guard.png",
+  "debut": "2004-12-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5275,
+      5276
+    ],
+    "pageSlug": "Monkey_Guard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Monkey_Guard"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 167,
+    "vitality": 130,
+    "peakDamage": "14",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 133,
+      "group": "Monkeys",
+      "masters": [
+        "Turael",
+        "Spria"
+      ]
+    },
+    "combatLevels": {
+      "attack": 130,
+      "strength": 130,
+      "defence": 200,
+      "magic": 130,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 8634,
+  "cardId": "itm_yew-shortbow-u",
+  "name": "Yew shortbow (u)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An unstrung yew shortbow; I need a bowstring for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yew_shortbow_%28u%29.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      68
+    ],
+    "pageSlug": "Yew_shortbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yew_shortbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 0.992,
+    "market": {
+      "guidePrice": 111,
+      "buyLimit": 10000,
+      "dailyVolume": 126806
+    }
+  },
+  "special": false
+}

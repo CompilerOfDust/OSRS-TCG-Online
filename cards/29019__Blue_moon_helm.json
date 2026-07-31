@@ -1,0 +1,67 @@
+{
+  "id": 5068,
+  "cardId": "itm_blue-moon-helm",
+  "name": "Blue moon helm",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The helm of the Blue Moon.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_moon_helm.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29019
+    ],
+    "pageSlug": "Blue_moon_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_moon_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 61800,
+    "lowAlchemy": 41200,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 757528,
+      "buyLimit": 15,
+      "dailyVolume": 340
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 6,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 10,
+        "magic": 6,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 3,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

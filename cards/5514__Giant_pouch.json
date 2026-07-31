@@ -1,0 +1,39 @@
+{
+  "id": 7906,
+  "cardId": "itm_giant-pouch",
+  "name": "Giant pouch",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A giant-sized pouch used for storing essence.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_pouch.png",
+  "debut": "2005-06-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5514
+    ],
+    "pageSlug": "Giant_pouch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giant_pouch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Fill",
+      "Empty",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 720,
+    "lowAlchemy": 480,
+    "weightKg": 1,
+    "market": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 6803,
+  "cardId": "itm_red-herring",
+  "name": "Red herring",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The colouring on it seems to be some kind of sticky goop...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_herring.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3742
+    ],
+    "pageSlug": "Red_herring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_herring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6711,
+  "cardId": "npc_homunculus",
+  "name": "Homunculus",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "During quest: It looks pretty unhappy. After quest: Is it male or female?",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2007-02-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3588,
+      3589,
+      3590
+    ],
+    "pageSlug": "Homunculus",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Homunculus"
+  },
+  "npcProfile": {
+    "race": "Homunculus",
+    "gender": null,
+    "locations": [
+      "Tower of Life",
+      "Ardougne"
+    ],
+    "questLine": "Tower of Life",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

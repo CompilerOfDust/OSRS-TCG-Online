@@ -1,0 +1,54 @@
+{
+  "id": 752,
+  "cardId": "npc_baboon-thrall",
+  "name": "Baboon Thrall",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An undead baboon thrall.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Baboon_Thrall.png",
+  "debut": "2022-08-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11718
+    ],
+    "pageSlug": "Baboon_Thrall",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Baboon_Thrall"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 52,
+    "vitality": null,
+    "peakDamage": "5",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

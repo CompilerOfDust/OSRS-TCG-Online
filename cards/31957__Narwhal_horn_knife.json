@@ -1,0 +1,36 @@
+{
+  "id": 6082,
+  "cardId": "itm_narwhal-horn-knife",
+  "name": "Narwhal horn knife",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A sharp knife fashioned from the horn of a narwhal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Narwhal_horn_knife.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31957
+    ],
+    "pageSlug": "Narwhal_horn_knife",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Narwhal_horn_knife"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": null
+  }
+}

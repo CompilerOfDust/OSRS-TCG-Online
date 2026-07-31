@@ -1,0 +1,37 @@
+{
+  "id": 4771,
+  "cardId": "itm_barrelchest-anchor-imbue-scroll",
+  "name": "Barrelchest anchor imbue scroll",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Use on a Barrelchest Anchor to imbue the weapon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Barrelchest_anchor_imbue_scroll.png",
+  "debut": "2023-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28074
+    ],
+    "pageSlug": "Barrelchest_anchor_imbue_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Barrelchest_anchor_imbue_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.002,
+    "market": null
+  },
+  "special": false
+}

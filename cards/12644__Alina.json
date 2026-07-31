@@ -1,0 +1,57 @@
+{
+  "id": 1194,
+  "cardId": "npc_alina",
+  "name": "Alina",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "She looks excited.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2024-01-10",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12644,
+      12645
+    ],
+    "pageSlug": "Alina",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Alina"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Varrock Square"
+    ],
+    "questLine": "Children of the Sun",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

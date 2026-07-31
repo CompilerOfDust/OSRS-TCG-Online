@@ -1,0 +1,67 @@
+{
+  "id": 3514,
+  "cardId": "itm_sarachnis-cudgel",
+  "name": "Sarachnis cudgel",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Not to be confused with a Sarachnis cuddle.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sarachnis_cudgel.png",
+  "debut": "2019-07-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23528
+    ],
+    "pageSlug": "Sarachnis_cudgel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sarachnis_cudgel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 72000,
+    "lowAlchemy": 48000,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 124415,
+      "buyLimit": 70,
+      "dailyVolume": 324
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 30,
+        "slash": 0,
+        "crush": 70,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 70,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

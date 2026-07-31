@@ -1,0 +1,63 @@
+{
+  "id": 4911,
+  "cardId": "itm_corrupted-twisted-bow",
+  "name": "Corrupted twisted bow",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A mystical bow carved from the twisted remains of the Great Olm.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_twisted_bow.png",
+  "debut": "2023-08-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28540
+    ],
+    "pageSlug": "Corrupted_twisted_bow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_twisted_bow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 1.814,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 56
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 2,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

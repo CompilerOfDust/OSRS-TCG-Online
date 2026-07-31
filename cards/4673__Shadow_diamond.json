@@ -1,0 +1,37 @@
+{
+  "id": 7440,
+  "cardId": "itm_shadow-diamond",
+  "name": "Shadow diamond",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The Diamond of Shadow.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shadow_diamond.png",
+  "debut": "2005-04-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4673
+    ],
+    "pageSlug": "Shadow_diamond",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shadow_diamond"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.001,
+    "market": null
+  },
+  "special": false
+}

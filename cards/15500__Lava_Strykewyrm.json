@@ -1,0 +1,65 @@
+{
+  "id": 1987,
+  "cardId": "npc_lava-strykewyrm",
+  "name": "Lava Strykewyrm",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Lava runs down its body.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lava_Strykewyrm.png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15500
+    ],
+    "pageSlug": "Lava_Strykewyrm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lava_Strykewyrm"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 116,
+    "vitality": null,
+    "peakDamage": "10 (Melee) 12 (Ranged)",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Ranged"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": true,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 62,
+      "reward": 154,
+      "group": "Wyrms",
+      "masters": [
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

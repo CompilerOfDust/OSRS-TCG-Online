@@ -1,0 +1,63 @@
+{
+  "id": 2371,
+  "cardId": "itm_clue-hunter-cloak",
+  "name": "Clue hunter cloak",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Winter is coming.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Clue_hunter_cloak.png",
+  "debut": "2016-06-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19697
+    ],
+    "pageSlug": "Clue_hunter_cloak",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Clue_hunter_cloak"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Destroy"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 2
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 6001,
+  "cardId": "itm_bottle-of-captain-clops-mango-gin",
+  "name": "Bottle of captain clop's mango gin",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "There is a picture of a centaur on the bottle with four peg legs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_captain_clop%27s_mango_gin.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31854
+    ],
+    "pageSlug": "Bottle_of_captain_clop%27s_mango_gin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_captain_clop%27s_mango_gin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

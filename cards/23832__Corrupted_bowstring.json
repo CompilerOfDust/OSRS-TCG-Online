@@ -1,0 +1,36 @@
+{
+  "id": 3558,
+  "cardId": "itm_corrupted-bowstring",
+  "name": "Corrupted bowstring",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An enchanted bowstring.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_bowstring.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23832
+    ],
+    "pageSlug": "Corrupted_bowstring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_bowstring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 9379,
+  "cardId": "itm_bagged-oak-tree",
+  "name": "Bagged oak tree",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You can plant this in your garden.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bagged_oak_tree.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8421
+    ],
+    "pageSlug": "Bagged_oak_tree",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bagged_oak_tree"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 6722,
+      "buyLimit": 10000,
+      "dailyVolume": 3083
+    }
+  }
+}

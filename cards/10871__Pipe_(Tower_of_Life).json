@@ -1,0 +1,38 @@
+{
+  "id": 365,
+  "cardId": "itm_pipe__2",
+  "name": "Pipe",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    9723
+  ],
+  "flavourText": "A section of pipe.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pipe_%28Tower_of_Life%29.png",
+  "debut": "2007-02-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10871
+    ],
+    "pageSlug": "Pipe_(Tower_of_Life)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pipe_(Tower_of_Life)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2.5,
+    "market": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 7397,
+  "cardId": "itm_super-kebab",
+  "name": "Super kebab",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A meaty and very hot kebab.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Super_kebab.png",
+  "debut": "2005-04-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4608
+    ],
+    "pageSlug": "Super_kebab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Super_kebab"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 1743,
+      "buyLimit": 15,
+      "dailyVolume": 5
+    }
+  },
+  "special": false
+}

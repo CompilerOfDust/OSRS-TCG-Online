@@ -1,0 +1,56 @@
+{
+  "id": 1876,
+  "cardId": "npc_anne",
+  "name": "Anne",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Enjoys a good bit of salvaging.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14964
+    ],
+    "pageSlug": "Anne",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Anne"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Port Sarim"
+    ],
+    "questLine": "Pandemonium",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

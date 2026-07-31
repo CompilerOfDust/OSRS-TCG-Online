@@ -1,0 +1,68 @@
+{
+  "id": 5055,
+  "cardId": "itm_blue-moon-spear",
+  "name": "Blue moon spear",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A magical staff of ancient origin...",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_moon_spear.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28988
+    ],
+    "pageSlug": "Blue_moon_spear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_moon_spear"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 373716,
+      "buyLimit": 15,
+      "dailyVolume": 790
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 70,
+        "slash": 62,
+        "crush": 62,
+        "magic": 30,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 15,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 71,
+        "rangedStrength": 0,
+        "magicDamagePct": 5,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

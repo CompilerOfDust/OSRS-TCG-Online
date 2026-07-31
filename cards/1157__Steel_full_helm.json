@@ -1,0 +1,70 @@
+{
+  "id": 699,
+  "cardId": "itm_steel-full-helm",
+  "name": "Steel full helm",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    20178,
+    20193
+  ],
+  "flavourText": "A full face helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_full_helm.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1157
+    ],
+    "pageSlug": "Steel_full_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_full_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 330,
+    "lowAlchemy": 220,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 145,
+      "buyLimit": 125,
+      "dailyVolume": 1331
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 10,
+        "crush": 7,
+        "magic": -1,
+        "ranged": 9
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 2178,
+  "cardId": "itm_unfired-pot",
+  "name": "Unfired pot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to put this in a pottery oven.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unfired_pot.png",
+  "debut": "2001-05-08",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1787
+    ],
+    "pageSlug": "Unfired_pot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unfired_pot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.68,
+    "market": {
+      "guidePrice": 102,
+      "buyLimit": 10000,
+      "dailyVolume": 2445
+    }
+  },
+  "special": false
+}

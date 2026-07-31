@@ -1,0 +1,41 @@
+{
+  "id": 10159,
+  "cardId": "itm_roast-bird-meat",
+  "name": "Roast bird meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A nicely roasted bird.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Roast_bird_meat.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9980
+    ],
+    "pageSlug": "Roast_bird_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Roast_bird_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 10,
+    "lowAlchemy": 6,
+    "weightKg": 0.15,
+    "market": {
+      "guidePrice": 17,
+      "buyLimit": 6000,
+      "dailyVolume": 0
+    }
+  }
+}

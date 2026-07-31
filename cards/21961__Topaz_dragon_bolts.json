@@ -1,0 +1,67 @@
+{
+  "id": 3088,
+  "cardId": "itm_topaz-dragon-bolts",
+  "name": "Topaz dragon bolts",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Dragon crossbow bolts, tipped with red topaz.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Topaz_dragon_bolts_1.png",
+  "debut": "2018-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21961
+    ],
+    "pageSlug": "Topaz_dragon_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Topaz_dragon_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 420,
+    "lowAlchemy": 280,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2684,
+      "buyLimit": 11000,
+      "dailyVolume": 637
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 122,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

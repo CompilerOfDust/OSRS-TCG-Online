@@ -1,0 +1,68 @@
+{
+  "id": 8454,
+  "cardId": "itm_white-longsword",
+  "name": "White longsword",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A razor sharp longsword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_longsword.png",
+  "debut": "2005-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6607
+    ],
+    "pageSlug": "White_longsword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_longsword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 576,
+    "lowAlchemy": 384,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 1462,
+      "buyLimit": 125,
+      "dailyVolume": 2
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 13,
+        "slash": 18,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 3,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 16,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": 3403,
+  "cardId": "itm_bottled-dragonbreath-unpowered",
+  "name": "Bottled dragonbreath (unpowered)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Several dragonfruit were squeezed into this vial.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottled_dragonbreath_%28unpowered%29.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22999
+    ],
+    "pageSlug": "Bottled_dragonbreath",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottled_dragonbreath"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.08,
+    "market": {
+      "guidePrice": 9797,
+      "buyLimit": 50,
+      "dailyVolume": 18
+    }
+  }
+}

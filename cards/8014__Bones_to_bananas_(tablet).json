@@ -1,0 +1,41 @@
+{
+  "id": 9291,
+  "cardId": "itm_bones-to-bananas",
+  "name": "Bones to bananas",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A tablet containing a magic spell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bones_to_bananas_%28tablet%29.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8014
+    ],
+    "pageSlug": "Bones_to_bananas_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bones_to_bananas_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 487,
+      "buyLimit": 10000,
+      "dailyVolume": 16861
+    }
+  }
+}

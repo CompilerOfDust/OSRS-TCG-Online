@@ -1,0 +1,40 @@
+{
+  "id": 5931,
+  "cardId": "itm_lead-ore",
+  "name": "Lead ore",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "This needs refining.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lead_ore.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31716
+    ],
+    "pageSlug": "Lead_ore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lead_ore"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 21,
+    "lowAlchemy": 14,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 442,
+      "buyLimit": null,
+      "dailyVolume": 69810
+    }
+  }
+}

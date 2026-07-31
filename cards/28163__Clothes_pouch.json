@@ -1,0 +1,41 @@
+{
+  "id": 4792,
+  "cardId": "itm_clothes-pouch",
+  "name": "Clothes pouch",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A pouch for your dirty work clothes!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Clothes_pouch.png",
+  "debut": "2023-06-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28163
+    ],
+    "pageSlug": "Clothes_pouch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Clothes_pouch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 961589,
+      "buyLimit": null,
+      "dailyVolume": 5
+    }
+  },
+  "special": false
+}

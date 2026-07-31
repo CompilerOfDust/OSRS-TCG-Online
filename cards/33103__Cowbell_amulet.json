@@ -1,0 +1,65 @@
+{
+  "id": 6406,
+  "cardId": "itm_cowbell-amulet",
+  "name": "Cowbell amulet",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A very fashionable a-moo-let.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cowbell_amulet_%28empty%29.png",
+  "debut": "2026-02-25",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33103
+    ],
+    "pageSlug": "Cowbell_amulet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cowbell_amulet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Ring",
+      "Charge",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.06,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

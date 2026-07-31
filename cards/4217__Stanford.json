@@ -1,0 +1,56 @@
+{
+  "id": 7111,
+  "cardId": "npc_stanford",
+  "name": "Stanford",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He looks like he spends a lot of time outdoors.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2003-06-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4217
+    ],
+    "pageSlug": "Stanford",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stanford"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Sinclair Mansion"
+    ],
+    "questLine": "King's Ransom",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

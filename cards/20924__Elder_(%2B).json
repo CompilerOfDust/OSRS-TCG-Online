@@ -1,0 +1,42 @@
+{
+  "id": 2729,
+  "cardId": "itm_elder-1",
+  "name": "Elder (+)(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    20921,
+    20922,
+    20923
+  ],
+  "flavourText": "The potion blends the fury and bravery of Xeric's elder warriors. It was mixed perfectly!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elder_%28%2B%29%284%29.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20924
+    ],
+    "pageSlug": "Elder_(%2B)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elder_(%2B)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.02,
+    "market": null
+  },
+  "special": false
+}

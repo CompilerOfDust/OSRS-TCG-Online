@@ -1,0 +1,40 @@
+{
+  "id": 10158,
+  "cardId": "itm_raw-bird-meat",
+  "name": "Raw bird meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This certainly needs cooking!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_bird_meat.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9978
+    ],
+    "pageSlug": "Raw_bird_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_bird_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 10,
+    "lowAlchemy": 6,
+    "weightKg": 0.15,
+    "market": {
+      "guidePrice": 51,
+      "buyLimit": 11000,
+      "dailyVolume": 16284
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 7715,
+  "cardId": "npc_mugger",
+  "name": "Mugger",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He jumps out and attacks people.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mugger.png",
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      513,
+      1461,
+      6996,
+      13282
+    ],
+    "pageSlug": "Mugger",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mugger"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 6,
+    "vitality": 8,
+    "peakDamage": "1",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 5,
+      "strength": 5,
+      "defence": 5,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 8453,
+  "cardId": "npc_elder-chaos-druid",
+  "name": "Elder Chaos druid",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An elder, more dangerous kind of druid.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elder_Chaos_druid.png",
+  "debut": "2014-03-13",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6607
+    ],
+    "pageSlug": "Elder_Chaos_druid",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elder_Chaos_druid"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 129,
+    "vitality": null,
+    "peakDamage": "17",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 25,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 150,
+      "group": "Chaos Druids",
+      "masters": [
+        "Krystilia"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

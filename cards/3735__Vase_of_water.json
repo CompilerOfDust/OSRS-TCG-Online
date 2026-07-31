@@ -1,0 +1,37 @@
+{
+  "id": 6795,
+  "cardId": "itm_vase-of-water",
+  "name": "Vase of water",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An unusually shaped vase full of water. You can see something glinting inside.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vase_of_water.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3735
+    ],
+    "pageSlug": "Vase_of_water",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vase_of_water"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Shake",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

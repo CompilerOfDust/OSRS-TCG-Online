@@ -1,0 +1,42 @@
+{
+  "id": 8069,
+  "cardId": "itm_coconut-milk",
+  "name": "Coconut milk",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A vial filled with coconut milk",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Coconut_milk.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5935
+    ],
+    "pageSlug": "Coconut_milk",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Coconut_milk"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.035,
+    "market": {
+      "guidePrice": 203,
+      "buyLimit": 11000,
+      "dailyVolume": 81802
+    }
+  },
+  "special": false
+}

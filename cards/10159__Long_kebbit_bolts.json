@@ -1,0 +1,67 @@
+{
+  "id": 72,
+  "cardId": "itm_long-kebbit-bolts",
+  "name": "Long kebbit bolts",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Bolts made from the spikes of a razor-backed kebbit.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Long_kebbit_bolts.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10159
+    ],
+    "pageSlug": "Long_kebbit_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Long_kebbit_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 13,
+      "buyLimit": 11000,
+      "dailyVolume": 93051
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 38,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

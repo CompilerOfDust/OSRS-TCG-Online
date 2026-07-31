@@ -1,0 +1,36 @@
+{
+  "id": 7085,
+  "cardId": "itm_torso",
+  "name": "Torso",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A decomposing torso, from which issues the acrid stench of the grave.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Torso.png",
+  "debut": "2005-01-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4194
+    ],
+    "pageSlug": "Torso",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Torso"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 19.05,
+    "market": null
+  }
+}

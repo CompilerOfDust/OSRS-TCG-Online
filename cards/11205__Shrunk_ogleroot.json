@@ -1,0 +1,41 @@
+{
+  "id": 543,
+  "cardId": "itm_shrunk-ogleroot",
+  "name": "Shrunk ogleroot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A shrunk ogleroot! How odd...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shrunk_ogleroot_1.png",
+  "debut": "2007-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11205
+    ],
+    "pageSlug": "Shrunk_ogleroot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shrunk_ogleroot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 490,
+      "buyLimit": 15,
+      "dailyVolume": 10
+    }
+  }
+}

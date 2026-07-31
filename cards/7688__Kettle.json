@@ -1,0 +1,36 @@
+{
+  "id": 9055,
+  "cardId": "itm_kettle",
+  "name": "Kettle",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The kettle is empty",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kettle.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7688
+    ],
+    "pageSlug": "Kettle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kettle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

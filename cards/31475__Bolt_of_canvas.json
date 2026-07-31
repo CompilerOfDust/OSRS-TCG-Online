@@ -1,0 +1,41 @@
+{
+  "id": 5856,
+  "cardId": "itm_bolt-of-canvas",
+  "name": "Bolt of canvas",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A bolt of canvas.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bolt_of_canvas.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31475
+    ],
+    "pageSlug": "Bolt_of_canvas",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bolt_of_canvas"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 2957,
+      "buyLimit": 13000,
+      "dailyVolume": 38489
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,65 @@
+{
+  "id": 4824,
+  "cardId": "itm_shadow-ancient-sceptre",
+  "name": "Shadow ancient sceptre",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A very old and powerful stick, enhanced with the power of shadow magic.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shadow_ancient_sceptre.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28266
+    ],
+    "pageSlug": "Shadow_ancient_sceptre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shadow_ancient_sceptre"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2.267,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 20,
+        "slash": -1,
+        "crush": 50,
+        "magic": 20,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 15,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 60,
+        "rangedStrength": 0,
+        "magicDamagePct": 10,
+        "prayer": -1
+      }
+    }
+  },
+  "special": false
+}

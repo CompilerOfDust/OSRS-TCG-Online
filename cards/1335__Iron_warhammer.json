@@ -1,0 +1,68 @@
+{
+  "id": 1519,
+  "cardId": "itm_iron-warhammer",
+  "name": "Iron warhammer",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I don't think it's intended for joinery.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_warhammer.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1335
+    ],
+    "pageSlug": "Iron_warhammer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_warhammer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 103,
+    "lowAlchemy": 69,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 19,
+      "buyLimit": 125,
+      "dailyVolume": 8291
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -4,
+        "slash": -4,
+        "crush": 11,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 11,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

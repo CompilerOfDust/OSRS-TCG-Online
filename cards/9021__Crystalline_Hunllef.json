@@ -1,0 +1,58 @@
+{
+  "id": 9704,
+  "cardId": "npc_crystalline-hunllef",
+  "name": "Crystalline Hunllef",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A deadly predator formed from crystal.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crystalline_Hunllef.png",
+  "debut": "2019-07-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9021,
+      9022,
+      9023,
+      9024
+    ],
+    "pageSlug": "Crystalline_Hunllef",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crystalline_Hunllef"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 674,
+    "vitality": null,
+    "peakDamage": "50+",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

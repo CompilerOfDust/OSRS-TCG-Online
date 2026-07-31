@@ -1,0 +1,40 @@
+{
+  "id": 6853,
+  "cardId": "itm_guthix-page-1",
+  "name": "Guthix page 1",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This seems to have been torn from a book...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Guthix_page_1.png",
+  "debut": "2004-11-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3835
+    ],
+    "pageSlug": "Guthix_page_1",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Guthix_page_1"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 1457,
+      "buyLimit": 5,
+      "dailyVolume": 368
+    }
+  }
+}

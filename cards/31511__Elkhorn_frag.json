@@ -1,0 +1,40 @@
+{
+  "id": 5870,
+  "cardId": "itm_elkhorn-frag",
+  "name": "Elkhorn frag",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This can be propagated in a coral nursery.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elkhorn_frag.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31511
+    ],
+    "pageSlug": "Elkhorn_frag",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elkhorn_frag"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 190,
+      "buyLimit": 600,
+      "dailyVolume": 18973
+    }
+  }
+}

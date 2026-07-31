@@ -1,0 +1,56 @@
+{
+  "id": 9337,
+  "cardId": "npc_garth__1",
+  "name": "Garth",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Looks like he has a story to tell.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2018-05-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8206,
+      8207,
+      15833
+    ],
+    "pageSlug": "Garth_(Theatre_of_Blood)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Garth_(Theatre_of_Blood)"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Ver Sinhaza"
+    ],
+    "questLine": "A Taste of Hope",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

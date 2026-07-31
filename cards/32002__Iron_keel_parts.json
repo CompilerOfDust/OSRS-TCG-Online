@@ -1,0 +1,40 @@
+{
+  "id": 6101,
+  "cardId": "itm_iron-keel-parts",
+  "name": "Iron keel parts",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating an iron keel for a boat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_keel_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32002
+    ],
+    "pageSlug": "Iron_keel_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_keel_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 75,
+    "lowAlchemy": 50,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 1015,
+      "buyLimit": 100,
+      "dailyVolume": 5903
+    }
+  }
+}

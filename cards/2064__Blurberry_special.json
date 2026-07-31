@@ -1,0 +1,42 @@
+{
+  "id": 2631,
+  "cardId": "itm_blurberry-special",
+  "name": "Blurberry special",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Looks good... smells strong.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blurberry_special.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2064
+    ],
+    "pageSlug": "Blurberry_special",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blurberry_special"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 3974,
+      "buyLimit": 2000,
+      "dailyVolume": 163
+    }
+  },
+  "special": false
+}

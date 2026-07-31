@@ -1,0 +1,40 @@
+{
+  "id": 7101,
+  "cardId": "itm_crystal-weapon-seed",
+  "name": "Crystal weapon seed",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A seed to be sung into the finest crystal weapons.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crystal_weapon_seed.png",
+  "debut": "2005-02-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4207
+    ],
+    "pageSlug": "Crystal_weapon_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crystal_weapon_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.014,
+    "market": {
+      "guidePrice": 328744,
+      "buyLimit": 70,
+      "dailyVolume": 2063
+    }
+  }
+}

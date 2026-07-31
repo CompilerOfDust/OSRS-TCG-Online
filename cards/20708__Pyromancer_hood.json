@@ -1,0 +1,89 @@
+{
+  "id": 2646,
+  "cardId": "itm_pyromancer-hood",
+  "name": "Pyromancer hood",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    1050,
+    4502,
+    6856,
+    6858,
+    6860,
+    6862,
+    9945,
+    9946,
+    10039,
+    10045,
+    10051,
+    10941,
+    11021,
+    12887,
+    12892,
+    13343,
+    13344,
+    20439,
+    23407,
+    23448,
+    26312,
+    27568,
+    27588,
+    28173,
+    28788
+  ],
+  "flavourText": "The hood of the Pyromancers.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pyromancer_hood.png",
+  "debut": "2016-09-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20708
+    ],
+    "pageSlug": "Pyromancer_hood",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pyromancer_hood"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.18,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

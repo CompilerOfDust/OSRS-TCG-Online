@@ -1,0 +1,40 @@
+{
+  "id": 2252,
+  "cardId": "itm_ugthanki-tomato",
+  "name": "Ugthanki & tomato",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A mixture of chopped tomatoes and ugthanki meat in a bowl.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ugthanki_%26_tomato.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1879
+    ],
+    "pageSlug": "Ugthanki_%26_tomato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ugthanki_%26_tomato"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 2,
+    "weightKg": 0.3,
+    "market": {
+      "guidePrice": 12,
+      "buyLimit": 11000,
+      "dailyVolume": 0
+    }
+  }
+}

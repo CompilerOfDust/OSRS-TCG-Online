@@ -1,0 +1,68 @@
+{
+  "id": 4084,
+  "cardId": "itm_tome-of-water-empty",
+  "name": "Tome of water (empty)",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "An ancient tome containing the secrets of water magic.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tome_of_water_%28empty%29.png",
+  "debut": "2021-03-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25576
+    ],
+    "pageSlug": "Tome_of_water",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tome_of_water"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Pages",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 11700,
+    "lowAlchemy": 7800,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 515138,
+      "buyLimit": 15,
+      "dailyVolume": 146
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 8,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 8,
+        "ranged": 0
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

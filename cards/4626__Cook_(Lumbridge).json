@@ -1,0 +1,66 @@
+{
+  "id": 7412,
+  "cardId": "npc_cook__4",
+  "name": "Cook",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    225,
+    2895,
+    2896,
+    4140,
+    4141,
+    4142,
+    7329,
+    11404
+  ],
+  "flavourText": "The head cook of Lumbridge castle.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4626
+    ],
+    "pageSlug": "Cook_(Lumbridge)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cook_(Lumbridge)"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Lumbridge Castle"
+    ],
+    "questLine": "• Cook's Assistant • Recipe for Disaster",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  },
+  "special": false
+}

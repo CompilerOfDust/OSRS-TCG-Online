@@ -1,0 +1,67 @@
+{
+  "id": 4845,
+  "cardId": "itm_magus-ring",
+  "name": "Magus ring",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "An occult ring that grants immense magical power.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magus_ring.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28313
+    ],
+    "pageSlug": "Magus_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magus_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 84000,
+    "lowAlchemy": 56000,
+    "weightKg": 0.012,
+    "market": {
+      "guidePrice": 24373351,
+      "buyLimit": null,
+      "dailyVolume": 540
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 2,
+        "prayer": 0
+      }
+    }
+  }
+}

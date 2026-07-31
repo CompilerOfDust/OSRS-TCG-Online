@@ -1,0 +1,67 @@
+{
+  "id": 8357,
+  "cardId": "itm_menaphite-red-robe",
+  "name": "Menaphite red robe",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A cool light Menaphite robe.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Menaphite_red_robe.png",
+  "debut": "2005-08-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6404
+    ],
+    "pageSlug": "Menaphite_red_robe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Menaphite_red_robe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 758,
+      "buyLimit": 150,
+      "dailyVolume": 6
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

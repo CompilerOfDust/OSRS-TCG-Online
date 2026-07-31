@@ -1,0 +1,42 @@
+{
+  "id": 5777,
+  "cardId": "itm_kraken-colada",
+  "name": "Kraken colada",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Coconut milk, pineapple and... kraken ink?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kraken_colada.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31258
+    ],
+    "pageSlug": "Kraken_colada",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kraken_colada"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 27,
+      "buyLimit": null,
+      "dailyVolume": 4
+    }
+  },
+  "special": false
+}

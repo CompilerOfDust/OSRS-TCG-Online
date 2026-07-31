@@ -1,0 +1,38 @@
+{
+  "id": 774,
+  "cardId": "itm_brimhaven-teleport",
+  "name": "Brimhaven teleport",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This tablet has been redirected to the Brimhaven portal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Brimhaven_teleport.png",
+  "debut": "2013-09-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11745
+    ],
+    "pageSlug": "Brimhaven_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Brimhaven_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Revert",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

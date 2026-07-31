@@ -1,0 +1,46 @@
+{
+  "id": 5902,
+  "cardId": "itm_extended-stamina-potion-1",
+  "name": "Extended stamina potion(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    31641,
+    31644,
+    31647
+  ],
+  "flavourText": "4 doses of extended stamina potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Extended_stamina_potion%284%29.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31638
+    ],
+    "pageSlug": "Extended_stamina_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Extended_stamina_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.03,
+    "market": {
+      "guidePrice": 1982,
+      "buyLimit": null,
+      "dailyVolume": 11093
+    }
+  }
+}

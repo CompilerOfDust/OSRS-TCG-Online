@@ -1,0 +1,41 @@
+{
+  "id": 5684,
+  "cardId": "itm_greenman-statue",
+  "name": "Greenman statue",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A garden statue of a woodland spirit.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Greenman_statue.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31027
+    ],
+    "pageSlug": "Greenman_statue",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Greenman_statue"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 5547,
+    "lowAlchemy": 3698,
+    "weightKg": 5,
+    "market": {
+      "guidePrice": 72656,
+      "buyLimit": null,
+      "dailyVolume": 28
+    }
+  },
+  "special": false
+}

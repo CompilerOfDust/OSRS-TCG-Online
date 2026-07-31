@@ -1,0 +1,63 @@
+{
+  "id": 2105,
+  "cardId": "npc_guthan-the-infested",
+  "name": "Guthan the Infested",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A vengeful spirit corrupted by dark magic.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Guthan_the_Infested.png",
+  "debut": "2005-05-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1674
+    ],
+    "pageSlug": "Guthan_the_Infested",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Guthan_the_Infested"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 115,
+    "vitality": null,
+    "peakDamage": "24",
+    "combatXpBonusPct": 15,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 115,
+      "group": "Bosses",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

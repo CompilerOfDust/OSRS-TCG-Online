@@ -1,0 +1,36 @@
+{
+  "id": 8090,
+  "cardId": "itm_coconut-shell",
+  "name": "Coconut shell",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "All the milk has been removed.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Coconut_shell.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5978
+    ],
+    "pageSlug": "Coconut_shell",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Coconut_shell"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

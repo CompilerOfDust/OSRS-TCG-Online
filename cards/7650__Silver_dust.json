@@ -1,0 +1,40 @@
+{
+  "id": 9039,
+  "cardId": "itm_silver-dust",
+  "name": "Silver dust",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's ground up silver.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silver_dust.png",
+  "debut": "2006-03-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7650
+    ],
+    "pageSlug": "Silver_dust",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silver_dust"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.15,
+    "market": {
+      "guidePrice": 689,
+      "buyLimit": 13000,
+      "dailyVolume": 84
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 5813,
+  "cardId": "itm_camphor-pyre-logs",
+  "name": "Camphor pyre logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Camphor logs prepared with sacred oil for a funeral pyre.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Camphor_pyre_logs.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31383
+    ],
+    "pageSlug": "Camphor_pyre_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Camphor_pyre_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 264,
+    "lowAlchemy": 176,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 1862,
+      "buyLimit": null,
+      "dailyVolume": 319
+    }
+  },
+  "special": false
+}

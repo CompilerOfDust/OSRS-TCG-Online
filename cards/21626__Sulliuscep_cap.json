@@ -1,0 +1,40 @@
+{
+  "id": 2985,
+  "cardId": "itm_sulliuscep-cap",
+  "name": "Sulliuscep cap",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A Sulliuscep mushroom cap. Edible? Probably...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sulliuscep_cap.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21626
+    ],
+    "pageSlug": "Sulliuscep_cap",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sulliuscep_cap"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 9297,
+      "buyLimit": 100,
+      "dailyVolume": 315
+    }
+  }
+}

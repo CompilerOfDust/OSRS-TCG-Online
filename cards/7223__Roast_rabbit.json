@@ -1,0 +1,42 @@
+{
+  "id": 8808,
+  "cardId": "itm_roast-rabbit",
+  "name": "Roast rabbit",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A delicious looking piece of roast rabbit.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Roast_rabbit.png",
+  "debut": "2006-02-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7223
+    ],
+    "pageSlug": "Roast_rabbit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Roast_rabbit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.3,
+    "market": {
+      "guidePrice": 91,
+      "buyLimit": 6000,
+      "dailyVolume": 0
+    }
+  },
+  "special": false
+}

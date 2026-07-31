@@ -1,0 +1,40 @@
+{
+  "id": 9554,
+  "cardId": "itm_clockwork",
+  "name": "Clockwork",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A clockwork mechanism.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Clockwork.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8792
+    ],
+    "pageSlug": "Clockwork",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Clockwork"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 1095,
+      "buyLimit": 11000,
+      "dailyVolume": 69909
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": 979,
+  "cardId": "npc_strangled-bear",
+  "name": "Strangled Bear",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It doesn't look too healthy.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Strangled_Bear.png",
+  "debut": "2023-07-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12288
+    ],
+    "pageSlug": "Strangled_Bear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Strangled_Bear"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 197,
+    "vitality": null,
+    "peakDamage": "6",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Typeless"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 60,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

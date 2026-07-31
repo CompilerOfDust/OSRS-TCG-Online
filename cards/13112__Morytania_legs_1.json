@@ -1,0 +1,64 @@
+{
+  "id": 1385,
+  "cardId": "itm_morytania-legs-1",
+  "name": "Morytania legs 1",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Very sturdy leather greeves.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Morytania_legs_1.png",
+  "debut": "2015-03-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13112
+    ],
+    "pageSlug": "Morytania_legs_1",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Morytania_legs_1"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Ecto Teleport",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 9.071,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -7
+      },
+      "defence": {
+        "stab": 11,
+        "slash": 10,
+        "crush": 10,
+        "magic": -4,
+        "ranged": 10
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

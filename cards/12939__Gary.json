@@ -1,0 +1,56 @@
+{
+  "id": 1340,
+  "cardId": "npc_gary",
+  "name": "Gary",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A rather large frog.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2024-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12939
+    ],
+    "pageSlug": "Gary",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gary"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [
+      "Locus Oasis"
+    ],
+    "questLine": "The Ribbiting Tale of a Lily Pad Labour Dispute",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

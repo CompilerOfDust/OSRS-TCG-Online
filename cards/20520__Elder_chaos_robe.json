@@ -1,0 +1,69 @@
+{
+  "id": 2612,
+  "cardId": "itm_elder-chaos-robe",
+  "name": "Elder chaos robe",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    27117
+  ],
+  "flavourText": "The robes worn by the dangerous elder druids.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elder_chaos_robe.png",
+  "debut": "2016-07-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20520
+    ],
+    "pageSlug": "Elder_chaos_robe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elder_chaos_robe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 420,
+    "lowAlchemy": 280,
+    "weightKg": 0.18,
+    "market": {
+      "guidePrice": 197657,
+      "buyLimit": 8,
+      "dailyVolume": 606
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 6,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 6,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

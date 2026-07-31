@@ -1,0 +1,41 @@
+{
+  "id": 3894,
+  "cardId": "itm_ourania-teleport",
+  "name": "Ourania teleport",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A teleport to the Ourania cave.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ourania_teleport_%28tablet%29.png",
+  "debut": "2020-09-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24951
+    ],
+    "pageSlug": "Ourania_teleport_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ourania_teleport_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 958,
+      "buyLimit": 10000,
+      "dailyVolume": 4349
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 1606,
+  "cardId": "itm_steel-axe",
+  "name": "Steel axe",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A woodcutter's axe.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_axe.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1353
+    ],
+    "pageSlug": "Steel_axe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_axe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 140,
+      "buyLimit": 40,
+      "dailyVolume": 4455
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -2,
+        "slash": 8,
+        "crush": 6,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 9,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

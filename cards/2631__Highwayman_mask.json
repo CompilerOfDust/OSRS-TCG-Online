@@ -1,0 +1,68 @@
+{
+  "id": 4340,
+  "cardId": "itm_highwayman-mask",
+  "name": "Highwayman mask",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Your money or your life!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Highwayman_mask.png",
+  "debut": "2004-05-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2631
+    ],
+    "pageSlug": "Highwayman_mask",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Highwayman_mask"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 56675,
+      "buyLimit": 4,
+      "dailyVolume": 29
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

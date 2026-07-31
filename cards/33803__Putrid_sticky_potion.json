@@ -1,0 +1,41 @@
+{
+  "id": 6581,
+  "cardId": "itm_putrid-sticky-potion-1",
+  "name": "Putrid sticky potion (4)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    33804,
+    33805,
+    33806
+  ],
+  "flavourText": "Doesn't smell great.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Putrid_sticky_potion_%284%29.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33803
+    ],
+    "pageSlug": "Putrid_sticky_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Putrid_sticky_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  }
+}

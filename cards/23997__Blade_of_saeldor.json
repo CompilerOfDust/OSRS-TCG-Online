@@ -1,0 +1,68 @@
+{
+  "id": 3631,
+  "cardId": "itm_blade-of-saeldor-inactive",
+  "name": "Blade of saeldor (inactive)",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A magical elven sword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blade_of_saeldor_%28inactive%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23997
+    ],
+    "pageSlug": "Blade_of_saeldor",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blade_of_saeldor"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 3000000,
+    "lowAlchemy": 2000000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 114331387,
+      "buyLimit": 8,
+      "dailyVolume": 65
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

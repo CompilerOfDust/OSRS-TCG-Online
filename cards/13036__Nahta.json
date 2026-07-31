@@ -1,0 +1,57 @@
+{
+  "id": 1364,
+  "cardId": "npc_nahta",
+  "name": "Nahta",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "She's got all your spellcasting needs covered.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2024-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13036
+    ],
+    "pageSlug": "Nahta",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nahta"
+  },
+  "npcProfile": {
+    "race": "Dwarf ( Imcando-descendant )",
+    "gender": "Female",
+    "locations": [
+      "Cam Torum"
+    ],
+    "questLine": "Perilous Moons",
+    "shop": "The Runic Emporium",
+    "menuActions": [
+      "Talk-to",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

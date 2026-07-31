@@ -1,0 +1,63 @@
+{
+  "id": 5321,
+  "cardId": "itm_emissary-hood",
+  "name": "Emissary hood",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Headwear of the Twilight Emissaries.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Emissary_hood.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29868
+    ],
+    "pageSlug": "Emissary_hood",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Emissary_hood"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Destroy"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.25,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

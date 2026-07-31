@@ -1,0 +1,36 @@
+{
+  "id": 9219,
+  "cardId": "itm_daconia-rock",
+  "name": "Daconia rock",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An ancient rock with strange magical properties.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Daconia_rock.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      793
+    ],
+    "pageSlug": "Daconia_rock",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Daconia_rock"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

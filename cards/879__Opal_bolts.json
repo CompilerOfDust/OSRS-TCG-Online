@@ -1,0 +1,68 @@
+{
+  "id": 9557,
+  "cardId": "itm_opal-bolts",
+  "name": "Opal bolts",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Opal tipped Bronze crossbow bolts.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Opal_bolts_1.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      879
+    ],
+    "pageSlug": "Opal_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Opal_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 4,
+    "lowAlchemy": 2,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 24,
+      "buyLimit": 11000,
+      "dailyVolume": 74185
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 14,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

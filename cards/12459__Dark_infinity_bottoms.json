@@ -1,0 +1,64 @@
+{
+  "id": 1075,
+  "cardId": "itm_dark-infinity-bottoms",
+  "name": "Dark infinity bottoms",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Mystical robes with a dark recolour.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dark_infinity_bottoms.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12459
+    ],
+    "pageSlug": "Dark_infinity_bottoms",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dark_infinity_bottoms"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Dismantle"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 54000,
+    "lowAlchemy": 36000,
+    "weightKg": 1.814,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 17,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 17,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

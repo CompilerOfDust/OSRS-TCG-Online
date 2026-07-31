@@ -1,0 +1,42 @@
+{
+  "id": 454,
+  "cardId": "itm_cannon-barrels",
+  "name": "Cannon barrels",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    26524
+  ],
+  "flavourText": "The barrels of the multicannon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cannon_barrels.png",
+  "debut": "2003-05-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10
+    ],
+    "pageSlug": "Cannon_barrels",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cannon_barrels"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 112500,
+    "lowAlchemy": 75000,
+    "weightKg": 15,
+    "market": {
+      "guidePrice": 169854,
+      "buyLimit": 70,
+      "dailyVolume": 573
+    }
+  }
+}

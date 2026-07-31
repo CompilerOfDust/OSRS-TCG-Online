@@ -1,0 +1,42 @@
+{
+  "id": 3510,
+  "cardId": "itm_giant-egg-sac-full",
+  "name": "Giant egg sac(full)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A giant sac of red spider eggs, hopefully none of them hatch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_egg_sac%28full%29.png",
+  "debut": "2019-07-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23517
+    ],
+    "pageSlug": "Giant_egg_sac",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giant_egg_sac"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Cut-open",
+      "Check-eggs",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 5,
+    "market": {
+      "guidePrice": 16491,
+      "buyLimit": 100,
+      "dailyVolume": 1965
+    }
+  }
+}

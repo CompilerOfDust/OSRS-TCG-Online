@@ -1,0 +1,63 @@
+{
+  "id": 4818,
+  "cardId": "itm_sanguine-torva-full-helm",
+  "name": "Sanguine torva full helm",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "An ancient warrior's full helm.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sanguine_torva_full_helm.png",
+  "debut": "2023-07-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28254
+    ],
+    "pageSlug": "Sanguine_torva_full_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sanguine_torva_full_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Revert"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 120000,
+    "lowAlchemy": 80000,
+    "weightKg": 2.721,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -5,
+        "ranged": -5
+      },
+      "defence": {
+        "stab": 59,
+        "slash": 60,
+        "crush": 62,
+        "magic": -2,
+        "ranged": 57
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 8,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

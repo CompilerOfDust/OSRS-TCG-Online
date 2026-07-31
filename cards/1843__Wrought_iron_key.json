@@ -1,0 +1,36 @@
+{
+  "id": 2219,
+  "cardId": "itm_wrought-iron-key",
+  "name": "Wrought iron key",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This key unlocks a very sturdy gate of some sort. Ana gave me this key (Access to the Desert Mining Camp's mine).",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wrought_iron_key.png",
+  "debut": "2003-04-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1843
+    ],
+    "pageSlug": "Wrought_iron_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wrought_iron_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

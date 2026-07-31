@@ -1,0 +1,46 @@
+{
+  "id": 3535,
+  "cardId": "itm_divine-super-strength-potion-1",
+  "name": "Divine super strength potion(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    23712,
+    23715,
+    23718
+  ],
+  "flavourText": "4 doses of divine super strength potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Divine_super_strength_potion%284%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23709
+    ],
+    "pageSlug": "Divine_super_strength_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Divine_super_strength_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.03,
+    "market": {
+      "guidePrice": 1576,
+      "buyLimit": 2000,
+      "dailyVolume": 35
+    }
+  }
+}

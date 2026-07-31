@@ -1,0 +1,67 @@
+{
+  "id": 5654,
+  "cardId": "itm_earthbound-tecpatl",
+  "name": "Earthbound tecpatl",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Shaped from rock that was sharpened by time.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Earthbound_tecpatl.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30957
+    ],
+    "pageSlug": "Earthbound_tecpatl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Earthbound_tecpatl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 18000,
+    "lowAlchemy": 12000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 75255,
+      "buyLimit": null,
+      "dailyVolume": 58
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 72,
+        "slash": 11,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 64,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 5240,
+  "cardId": "npc_saradomin-wizard",
+  "name": "Saradomin wizard",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A follower of Saradomin.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Saradomin_wizard.png",
+  "debut": "2004-10-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2955
+    ],
+    "pageSlug": "Saradomin_wizard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Saradomin_wizard"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 108,
+    "vitality": null,
+    "peakDamage": "14 ( Melee ) 20 ( Magic )",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab",
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

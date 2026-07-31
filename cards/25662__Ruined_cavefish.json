@@ -1,0 +1,36 @@
+{
+  "id": 4114,
+  "cardId": "itm_ruined-cavefish",
+  "name": "Ruined cavefish",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A cavefish you ruined during preparation.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ruined_cavefish.png",
+  "debut": "2021-04-14",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25662
+    ],
+    "pageSlug": "Ruined_cavefish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ruined_cavefish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.12,
+    "market": null
+  }
+}

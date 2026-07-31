@@ -1,0 +1,63 @@
+{
+  "id": 4741,
+  "cardId": "itm_zuriels-hood-c",
+  "name": "Zuriel's hood (c)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A powerful hood.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zuriel%27s_hood_%28c%29.png",
+  "debut": "2023-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27850
+    ],
+    "pageSlug": "Zuriel%27s_hood_(c)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zuriel%27s_hood_(c)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 0.907,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "ranged": -1
+      },
+      "defence": {
+        "stab": 13,
+        "slash": 11,
+        "crush": 14,
+        "magic": 5,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

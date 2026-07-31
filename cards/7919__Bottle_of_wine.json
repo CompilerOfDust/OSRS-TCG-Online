@@ -1,0 +1,41 @@
+{
+  "id": 9202,
+  "cardId": "itm_bottle-of-wine",
+  "name": "Bottle of wine",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A very good vintage.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_wine.png",
+  "debut": "2006-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7919
+    ],
+    "pageSlug": "Bottle_of_wine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_wine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 556,
+      "buyLimit": 10000,
+      "dailyVolume": 33
+    }
+  }
+}

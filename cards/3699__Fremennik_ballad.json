@@ -1,0 +1,36 @@
+{
+  "id": 6771,
+  "cardId": "itm_fremennik-ballad",
+  "name": "Fremennik ballad",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A hauntingly beautiful love ballad.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fremennik_ballad.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3699
+    ],
+    "pageSlug": "Fremennik_ballad",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fremennik_ballad"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.005,
+    "market": null
+  }
+}

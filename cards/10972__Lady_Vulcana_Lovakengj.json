@@ -1,0 +1,58 @@
+{
+  "id": 436,
+  "cardId": "npc_lady-vulcana-lovakengj",
+  "name": "Lady Vulcana Lovakengj",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The lady of Lovakengj.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2019-01-10",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10972,
+      10973,
+      11035
+    ],
+    "pageSlug": "Lady_Vulcana_Lovakengj",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lady_Vulcana_Lovakengj"
+  },
+  "npcProfile": {
+    "race": "Dwarf ( Imcando-descendant )",
+    "gender": "Female",
+    "locations": [
+      "Lovakengj"
+    ],
+    "questLine": "The Forsaken Tower , A Kingdom Divided",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

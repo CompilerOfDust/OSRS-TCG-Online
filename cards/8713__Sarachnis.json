@@ -1,0 +1,67 @@
+{
+  "id": 9539,
+  "cardId": "npc_sarachnis",
+  "name": "Sarachnis",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "I'm going to need a really big newspaper...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sarachnis.png",
+  "debut": "2019-07-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8713
+    ],
+    "pageSlug": "Sarachnis",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sarachnis"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 318,
+    "vitality": null,
+    "peakDamage": "31",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee",
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 17,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 430,
+      "group": "Spiders, Bosses",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  },
+  "special": false
+}

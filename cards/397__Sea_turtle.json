@@ -1,0 +1,41 @@
+{
+  "id": 6906,
+  "cardId": "itm_sea-turtle",
+  "name": "Sea turtle",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Tasty!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sea_turtle.png",
+  "debut": "2003-07-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      397
+    ],
+    "pageSlug": "Sea_turtle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sea_turtle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.35,
+    "market": {
+      "guidePrice": 989,
+      "buyLimit": 10000,
+      "dailyVolume": 128793
+    }
+  }
+}

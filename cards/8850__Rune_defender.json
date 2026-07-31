@@ -1,0 +1,66 @@
+{
+  "id": 9583,
+  "cardId": "itm_rune-defender",
+  "name": "Rune defender",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    23230
+  ],
+  "flavourText": "A defensive weapon.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_defender.png",
+  "debut": "2006-06-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8850
+    ],
+    "pageSlug": "Rune_defender",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_defender"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 20,
+        "slash": 19,
+        "crush": 18,
+        "magic": -3,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 20,
+        "slash": 19,
+        "crush": 18,
+        "magic": -3,
+        "ranged": -2
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 5,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

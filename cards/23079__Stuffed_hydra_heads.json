@@ -1,0 +1,37 @@
+{
+  "id": 3419,
+  "cardId": "itm_stuffed-hydra-heads",
+  "name": "Stuffed hydra heads",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "I could mount this on my wall!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stuffed_hydra_heads.png",
+  "debut": "2019-02-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23079
+    ],
+    "pageSlug": "Stuffed_hydra_heads",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stuffed_hydra_heads"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Unstuff",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 10,
+    "market": null
+  }
+}

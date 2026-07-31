@@ -1,0 +1,40 @@
+{
+  "id": 4788,
+  "cardId": "itm_ritual-mulch",
+  "name": "Ritual mulch",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I can use items with this for nature offerings.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ritual_mulch.png",
+  "debut": "2023-06-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28154
+    ],
+    "pageSlug": "Ritual_mulch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ritual_mulch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 12740,
+      "buyLimit": null,
+      "dailyVolume": 13
+    }
+  }
+}

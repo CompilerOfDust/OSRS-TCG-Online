@@ -1,0 +1,41 @@
+{
+  "id": 9224,
+  "cardId": "itm_monkfish",
+  "name": "Monkfish",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A tasty fish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Monkfish.png",
+  "debut": "2006-05-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7946
+    ],
+    "pageSlug": "Monkfish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Monkfish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 138,
+    "lowAlchemy": 92,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 154,
+      "buyLimit": 13000,
+      "dailyVolume": 1291018
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 6488,
+  "cardId": "itm_blamish-blue-shell__1",
+  "name": "Blamish blue shell",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    3361
+  ],
+  "flavourText": "A large blue coloured blamish snail shell, looks protective.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blamish_blue_shell_%28round%29.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3351
+    ],
+    "pageSlug": "Blamish_blue_shell_(round)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blamish_blue_shell_(round)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 2259,
+      "buyLimit": 13000,
+      "dailyVolume": 72
+    }
+  },
+  "special": false
+}

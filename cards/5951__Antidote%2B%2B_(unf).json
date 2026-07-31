@@ -1,0 +1,37 @@
+{
+  "id": 8079,
+  "cardId": "itm_antidote-unf",
+  "name": "Antidote++ (unf)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A vial of coconut milk and Irit Leaf.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Antidote%2B%2B_%28unf%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5951
+    ],
+    "pageSlug": "Antidote%2B%2B_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Antidote%2B%2B_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 8,
+    "lowAlchemy": 5,
+    "weightKg": 0.035,
+    "market": null
+  }
+}

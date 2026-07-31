@@ -1,0 +1,39 @@
+{
+  "id": 5783,
+  "cardId": "itm_burnt-jogre-bones",
+  "name": "Burnt jogre bones",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    4259
+  ],
+  "flavourText": "These blackened Jogre bones have been somehow burnt.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Burnt_jogre_bones.png",
+  "debut": "2004-09-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3127
+    ],
+    "pageSlug": "Burnt_jogre_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Burnt_jogre_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.8,
+    "market": null
+  }
+}

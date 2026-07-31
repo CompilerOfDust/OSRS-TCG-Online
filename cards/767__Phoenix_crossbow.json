@@ -1,0 +1,64 @@
+{
+  "id": 9051,
+  "cardId": "itm_phoenix-crossbow",
+  "name": "Phoenix crossbow",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Former property of the Phoenix Gang.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Phoenix_crossbow.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      767
+    ],
+    "pageSlug": "Phoenix_crossbow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Phoenix_crossbow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 3.628,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 6
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

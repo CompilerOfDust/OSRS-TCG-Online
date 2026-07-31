@@ -1,0 +1,37 @@
+{
+  "id": 9268,
+  "cardId": "itm_keldagrim-portrait",
+  "name": "Keldagrim portrait",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A painting of the statue of King Alvis of Keldagrim.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Keldagrim_portrait.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7997
+    ],
+    "pageSlug": "Keldagrim_portrait",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Keldagrim_portrait"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 1,
+    "market": null
+  },
+  "special": false
+}

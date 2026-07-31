@@ -1,0 +1,37 @@
+{
+  "id": 7427,
+  "cardId": "itm_etchings",
+  "name": "Etchings",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A copy of the engravings found on a mysterious stone tablet.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Etchings.png",
+  "debut": "2005-04-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4654
+    ],
+    "pageSlug": "Etchings",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Etchings"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.51,
+    "market": null
+  },
+  "special": false
+}

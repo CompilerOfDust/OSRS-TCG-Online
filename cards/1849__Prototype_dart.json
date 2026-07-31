@@ -1,0 +1,36 @@
+{
+  "id": 2225,
+  "cardId": "itm_prototype-dart",
+  "name": "Prototype dart",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A prototype throwing dart.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Prototype_dart.png",
+  "debut": "2003-04-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1849
+    ],
+    "pageSlug": "Prototype_dart",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Prototype_dart"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

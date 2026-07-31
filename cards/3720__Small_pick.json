@@ -1,0 +1,36 @@
+{
+  "id": 6791,
+  "cardId": "itm_small-pick",
+  "name": "Small pick",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A small pick for cracking small objects.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Small_pick.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3720
+    ],
+    "pageSlug": "Small_pick",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Small_pick"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 4678,
+  "cardId": "itm_charged-ice",
+  "name": "Charged ice",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Essence of the Phantom Muspah's alternate forms.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Charged_ice.png",
+  "debut": "2023-01-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27643
+    ],
+    "pageSlug": "Charged_ice",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Charged_ice"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.19,
+    "market": null
+  }
+}

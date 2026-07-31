@@ -1,0 +1,36 @@
+{
+  "id": 8937,
+  "cardId": "itm_cinnamon",
+  "name": "Cinnamon",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some cinnamon sticks.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cinnamon.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7472
+    ],
+    "pageSlug": "Cinnamon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cinnamon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

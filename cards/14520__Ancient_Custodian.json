@@ -1,0 +1,62 @@
+{
+  "id": 1816,
+  "cardId": "npc_ancient-custodian",
+  "name": "Ancient Custodian",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Old as...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_Custodian.png",
+  "debut": "2025-07-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14520
+    ],
+    "pageSlug": "Ancient_Custodian",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_Custodian"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 239,
+    "vitality": null,
+    "peakDamage": "19",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 76,
+      "reward": 3382,
+      "group": "Custodian Stalker",
+      "masters": [
+        "Chaeldar",
+        "Nieve"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

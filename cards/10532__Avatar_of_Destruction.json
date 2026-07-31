@@ -1,0 +1,54 @@
+{
+  "id": 222,
+  "cardId": "npc_avatar-of-destruction",
+  "name": "Avatar of Destruction",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The essence of ruination.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Avatar_of_Destruction.png",
+  "debut": "2021-01-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10532
+    ],
+    "pageSlug": "Avatar_of_Destruction",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Avatar_of_Destruction"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 525,
+    "vitality": null,
+    "peakDamage": "54",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": true,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

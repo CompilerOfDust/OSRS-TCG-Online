@@ -1,0 +1,37 @@
+{
+  "id": 6657,
+  "cardId": "itm_silver-key-black",
+  "name": "Silver key black",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A silver key with a black painted eyelet (Opens chests found in the Mort'ton catacombs).",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silver_key_black.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3468
+    ],
+    "pageSlug": "Silver_key_black",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silver_key_black"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 59,
+    "lowAlchemy": 39,
+    "weightKg": 0.01,
+    "market": null
+  },
+  "special": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": 1038,
+  "cardId": "itm_iron-spear",
+  "name": "Iron spear",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An iron tipped spear.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_spear.png",
+  "debut": "2003-04-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1239
+    ],
+    "pageSlug": "Iron_spear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_spear"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 399,
+      "buyLimit": 125,
+      "dailyVolume": 250
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 8,
+        "slash": 8,
+        "crush": 8,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 10,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

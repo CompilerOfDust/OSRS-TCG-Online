@@ -1,0 +1,70 @@
+{
+  "id": 1321,
+  "cardId": "itm_uncharged-toxic-trident",
+  "name": "Uncharged toxic trident",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "It needs to be charged with death runes, chaos runes, fire runes and Zulrah's scales.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncharged_toxic_trident.png",
+  "debut": "2015-01-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12900
+    ],
+    "pageSlug": "Trident_of_the_swamp",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Trident_of_the_swamp"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Check",
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 46800,
+    "lowAlchemy": 31200,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 3138281,
+      "buyLimit": 8,
+      "dailyVolume": 372
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 25,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 15,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

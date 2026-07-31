@@ -1,0 +1,40 @@
+{
+  "id": 6127,
+  "cardId": "itm_large-teak-hull-parts",
+  "name": "Large teak hull parts",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating a teak hull for larger boats.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Large_teak_hull_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32068
+    ],
+    "pageSlug": "Large_teak_hull_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Large_teak_hull_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3750,
+    "lowAlchemy": 2500,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 10997,
+      "buyLimit": 100,
+      "dailyVolume": 1524
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 2530,
+  "cardId": "itm_ankou-top",
+  "name": "Ankou top",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This top will make your flesh transparent.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ankou_top.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20098
+    ],
+    "pageSlug": "Ankou_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ankou_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 13580884,
+      "buyLimit": 4,
+      "dailyVolume": 60
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

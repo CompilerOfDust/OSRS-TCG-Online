@@ -1,0 +1,36 @@
+{
+  "id": 9954,
+  "cardId": "itm_broken-cauldron",
+  "name": "Broken cauldron",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A Broken Cauldron.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Broken_cauldron.png",
+  "debut": "2006-08-07",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9591
+    ],
+    "pageSlug": "Broken_cauldron",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Broken_cauldron"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

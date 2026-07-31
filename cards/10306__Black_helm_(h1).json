@@ -1,0 +1,72 @@
+{
+  "id": 94,
+  "cardId": "itm_black-helm-h1",
+  "name": "Black helm (h1)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    10308,
+    10310,
+    10312,
+    10314
+  ],
+  "flavourText": "A black helmet with a heraldic design.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_helm_%28h1%29.png",
+  "debut": "2006-12-05",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10306
+    ],
+    "pageSlug": "Black_helm_(h1)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_helm_(h1)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 633,
+    "lowAlchemy": 422,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 4608,
+      "buyLimit": 70,
+      "dailyVolume": 34
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 12,
+        "slash": 13,
+        "crush": 10,
+        "magic": -1,
+        "ranged": 12
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

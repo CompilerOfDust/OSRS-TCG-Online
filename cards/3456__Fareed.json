@@ -1,0 +1,58 @@
+{
+  "id": 6640,
+  "cardId": "npc_fareed",
+  "name": "Fareed",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    4115,
+    6348
+  ],
+  "flavourText": "Zamorak's warrior of fire.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fareed.png",
+  "debut": "2005-04-18",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3456
+    ],
+    "pageSlug": "Fareed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fareed"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 167,
+    "vitality": null,
+    "peakDamage": "37 40 (without Ice gloves )",
+    "combatXpBonusPct": 15,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 8932,
+  "cardId": "itm_vanilla-pod",
+  "name": "Vanilla pod",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Surprise, it looks like a vanilla pod.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vanilla_pod.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7465
+    ],
+    "pageSlug": "Vanilla_pod",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vanilla_pod"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

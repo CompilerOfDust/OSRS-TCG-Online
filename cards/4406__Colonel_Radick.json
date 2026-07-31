@@ -1,0 +1,54 @@
+{
+  "id": 7257,
+  "cardId": "npc_colonel-radick",
+  "name": "Colonel Radick",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A military man.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Colonel_Radick.png",
+  "debut": "2002-10-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4406
+    ],
+    "pageSlug": "Colonel_Radick",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Colonel_Radick"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 38,
+    "vitality": null,
+    "peakDamage": "4",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

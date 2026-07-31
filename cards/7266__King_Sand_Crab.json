@@ -1,0 +1,70 @@
+{
+  "id": 8818,
+  "cardId": "npc_king-sand-crab",
+  "name": "King Sand Crab",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "No one likes crabs...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/King_Sand_Crab.png",
+  "debut": "2016-06-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7266,
+      7267
+    ],
+    "pageSlug": "King_Sand_Crab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/King_Sand_Crab"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 107,
+    "vitality": 200,
+    "peakDamage": "6",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 200,
+      "group": "Crabs",
+      "masters": [
+        "Mazchna",
+        "Vannaka",
+        "Chaeldar"
+      ]
+    },
+    "combatLevels": {
+      "attack": 50,
+      "strength": 50,
+      "defence": 100,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

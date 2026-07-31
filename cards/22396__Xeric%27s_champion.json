@@ -1,0 +1,64 @@
+{
+  "id": 3246,
+  "cardId": "itm_xerics-champion",
+  "name": "Xeric's champion",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Awarded for completing 2000 Chambers of Xeric in challenge mode.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Xeric%27s_champion.png",
+  "debut": "2018-05-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22396
+    ],
+    "pageSlug": "Xeric%27s_champion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Xeric%27s_champion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

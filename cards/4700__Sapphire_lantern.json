@@ -1,0 +1,37 @@
+{
+  "id": 7468,
+  "cardId": "itm_sapphire-lantern",
+  "name": "Sapphire lantern",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "You need to add lamp oil before you can use it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sapphire_lantern_%28empty%29.png",
+  "debut": "2005-05-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4700
+    ],
+    "pageSlug": "Sapphire_lantern",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sapphire_lantern"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 360,
+    "lowAlchemy": 240,
+    "weightKg": 1.36,
+    "market": null
+  },
+  "special": false
+}

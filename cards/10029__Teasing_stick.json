@@ -1,0 +1,40 @@
+{
+  "id": 13,
+  "cardId": "itm_teasing-stick",
+  "name": "Teasing stick",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Reduces the risk of hand severage when poking large, vicious carnivores.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Teasing_stick.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10029
+    ],
+    "pageSlug": "Teasing_stick",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Teasing_stick"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 11,
+      "buyLimit": 40,
+      "dailyVolume": 1300
+    }
+  }
+}

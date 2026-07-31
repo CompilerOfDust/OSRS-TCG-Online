@@ -1,0 +1,63 @@
+{
+  "id": 3355,
+  "cardId": "itm_golden-tench",
+  "name": "Golden tench",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The henchest tench.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golden_tench.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22840
+    ],
+    "pageSlug": "Golden_tench",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golden_tench"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.028,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": -100,
+        "slash": -100,
+        "crush": -50,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": -10,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 1191,
+  "cardId": "itm_amylase-crystal",
+  "name": "Amylase crystal",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Good for enhancing a super energy potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amylase_crystal_1.png",
+  "debut": "2014-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12640
+    ],
+    "pageSlug": "Amylase_crystal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amylase_crystal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 593,
+      "buyLimit": 11000,
+      "dailyVolume": 1844466
+    }
+  },
+  "special": false
+}

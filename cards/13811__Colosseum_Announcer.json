@@ -1,0 +1,56 @@
+{
+  "id": 1699,
+  "cardId": "npc_colosseum-announcer",
+  "name": "Colosseum Announcer",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Tells you what's happening in the Colosseum.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2024-09-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13811
+    ],
+    "pageSlug": "Colosseum_Announcer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Colosseum_Announcer"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Fortis Colosseum"
+    ],
+    "questLine": "Meat and Greet",
+    "shop": null,
+    "menuActions": [
+      "None"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 5841,
+  "cardId": "itm_camphor-plank",
+  "name": "Camphor plank",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A plank of hardy camphor.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Camphor_plank.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31432
+    ],
+    "pageSlug": "Camphor_plank",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Camphor_plank"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 2911,
+      "buyLimit": null,
+      "dailyVolume": 203584
+    }
+  },
+  "special": false
+}

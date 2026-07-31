@@ -1,0 +1,41 @@
+{
+  "id": 5884,
+  "cardId": "itm_raw-jumbo-squid",
+  "name": "Raw jumbo squid",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_jumbo_squid.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31561
+    ],
+    "pageSlug": "Raw_jumbo_squid",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_jumbo_squid"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 2426,
+      "buyLimit": null,
+      "dailyVolume": 33448
+    }
+  },
+  "special": false
+}

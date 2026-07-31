@@ -1,0 +1,36 @@
+{
+  "id": 6539,
+  "cardId": "itm_makeshift-spear",
+  "name": "Makeshift spear",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This definitely has a pointy end that could stick something.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Makeshift_spear.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33655
+    ],
+    "pageSlug": "Makeshift_spear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Makeshift_spear"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0,
+    "market": null
+  }
+}

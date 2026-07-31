@@ -1,0 +1,40 @@
+{
+  "id": 583,
+  "cardId": "itm_jar-generator",
+  "name": "Jar generator",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Creates butterfly and impling jars.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jar_generator.png",
+  "debut": "2007-06-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11258
+    ],
+    "pageSlug": "Jar_generator",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jar_generator"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Impling-jar",
+      "Butterfly-jar",
+      "Check",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 360,
+    "lowAlchemy": 240,
+    "weightKg": 1,
+    "market": null
+  },
+  "special": false
+}

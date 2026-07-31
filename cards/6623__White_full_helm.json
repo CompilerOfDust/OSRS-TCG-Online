@@ -1,0 +1,68 @@
+{
+  "id": 8473,
+  "cardId": "itm_white-full-helm",
+  "name": "White full helm",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A full face helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_full_helm.png",
+  "debut": "2005-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6623
+    ],
+    "pageSlug": "White_full_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_full_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 633,
+    "lowAlchemy": 422,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 1620,
+      "buyLimit": 125,
+      "dailyVolume": 6
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 12,
+        "slash": 13,
+        "crush": 10,
+        "magic": -1,
+        "ranged": 12
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  },
+  "special": false
+}

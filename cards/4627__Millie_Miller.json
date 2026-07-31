@@ -1,0 +1,56 @@
+{
+  "id": 7414,
+  "cardId": "npc_millie-miller",
+  "name": "Millie Miller",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Miss Millicent Miller the Miller of Mill Lane Mill.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-04-24",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4627
+    ],
+    "pageSlug": "Millie_Miller",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Millie_Miller"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Mill Lane Mill"
+    ],
+    "questLine": "Cook's Assistant",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

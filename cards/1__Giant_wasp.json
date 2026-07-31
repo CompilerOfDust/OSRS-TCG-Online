@@ -1,0 +1,61 @@
+{
+  "id": 2453,
+  "cardId": "npc_giant-wasp",
+  "name": "Giant wasp",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "That stinger has to hurt...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_wasp.png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15438,
+      15439
+    ],
+    "pageSlug": "Giant_wasp",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giant_wasp"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 28,
+    "vitality": 30,
+    "peakDamage": "3",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 20,
+      "strength": 22,
+      "defence": 28,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

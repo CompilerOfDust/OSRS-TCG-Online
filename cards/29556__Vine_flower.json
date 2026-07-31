@@ -1,0 +1,36 @@
+{
+  "id": 5238,
+  "cardId": "itm_vine-flower",
+  "name": "Vine flower",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A vine flower grown through magical means.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vine_flower.png",
+  "debut": "2024-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29556
+    ],
+    "pageSlug": "Vine_flower",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vine_flower"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.007,
+    "market": null
+  }
+}

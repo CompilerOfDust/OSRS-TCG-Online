@@ -1,0 +1,42 @@
+{
+  "id": 1244,
+  "cardId": "itm_kharyrll-teleport",
+  "name": "Kharyrll teleport",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A teleport to Kharyrll.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kharyrll_teleport_%28tablet%29.png",
+  "debut": "2014-09-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12779
+    ],
+    "pageSlug": "Kharyrll_teleport_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kharyrll_teleport_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 1940,
+      "buyLimit": 10000,
+      "dailyVolume": 16991
+    }
+  },
+  "special": false
+}

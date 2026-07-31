@@ -1,0 +1,40 @@
+{
+  "id": 1230,
+  "cardId": "itm_blue-dark-bow-paint",
+  "name": "Blue dark bow paint",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Paints things blue!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_dark_bow_paint.png",
+  "debut": "2014-09-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12757
+    ],
+    "pageSlug": "Blue_dark_bow_paint",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_dark_bow_paint"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 324465,
+      "buyLimit": 4,
+      "dailyVolume": 4
+    }
+  }
+}

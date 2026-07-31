@@ -1,0 +1,43 @@
+{
+  "id": 7987,
+  "cardId": "itm_chaos-rune",
+  "name": "Chaos rune",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    11694,
+    11712
+  ],
+  "flavourText": "Used for low level missile spells.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chaos_rune.png",
+  "debut": "2001-05-24",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      562
+    ],
+    "pageSlug": "Chaos_rune",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chaos_rune"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 106,
+      "buyLimit": 18000,
+      "dailyVolume": 75293506
+    }
+  }
+}

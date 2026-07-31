@@ -1,0 +1,67 @@
+{
+  "id": 2412,
+  "cardId": "itm_shayzien-scarf",
+  "name": "Shayzien scarf",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A red scarf adorned with a skull.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shayzien_scarf.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19955
+    ],
+    "pageSlug": "Shayzien_scarf",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shayzien_scarf"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 6349,
+      "buyLimit": 4,
+      "dailyVolume": 19
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

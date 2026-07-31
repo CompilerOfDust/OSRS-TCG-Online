@@ -1,0 +1,37 @@
+{
+  "id": 516,
+  "cardId": "itm_cyrisuss-chest",
+  "name": "Cyrisus's chest",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Perfect for storing heavy things.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cyrisus%27s_chest.png",
+  "debut": "2007-05-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11158
+    ],
+    "pageSlug": "Cyrisus%27s_chest",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cyrisus%27s_chest"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Look-in",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.6,
+    "market": null
+  }
+}

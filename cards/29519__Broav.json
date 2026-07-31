@@ -1,0 +1,38 @@
+{
+  "id": 5228,
+  "cardId": "itm_broav",
+  "name": "Broav",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A Mort Myre mushroom-muncher.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Broav.png",
+  "debut": "2024-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29519
+    ],
+    "pageSlug": "Broav",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Broav"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop",
+      "Release"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 6,
+    "market": null
+  },
+  "special": false
+}

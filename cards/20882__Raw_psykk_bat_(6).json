@@ -1,0 +1,36 @@
+{
+  "id": 2709,
+  "cardId": "itm_raw-psykk-bat-6",
+  "name": "Raw psykk bat (6)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Looks like it might taste like chicken, if the chicken were dead for a week.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_psykk_bat_%286%29.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20882
+    ],
+    "pageSlug": "Raw_psykk_bat_(6)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_psykk_bat_(6)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.35,
+    "market": null
+  }
+}

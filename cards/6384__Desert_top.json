@@ -1,0 +1,69 @@
+{
+  "id": 8345,
+  "cardId": "itm_desert-top",
+  "name": "Desert top",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    6388
+  ],
+  "flavourText": "A bit itchy.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Desert_top.png",
+  "debut": "2005-08-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6384
+    ],
+    "pageSlug": "Desert_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Desert_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 1284,
+      "buyLimit": 150,
+      "dailyVolume": 14
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

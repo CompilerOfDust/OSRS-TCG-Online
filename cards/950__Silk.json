@@ -1,0 +1,40 @@
+{
+  "id": 9914,
+  "cardId": "itm_silk",
+  "name": "Silk",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a sheet of silk.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silk.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      950
+    ],
+    "pageSlug": "Silk",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silk"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 15,
+      "buyLimit": 18000,
+      "dailyVolume": 11108
+    }
+  }
+}

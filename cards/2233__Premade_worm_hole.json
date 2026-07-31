@@ -1,0 +1,41 @@
+{
+  "id": 3217,
+  "cardId": "itm_premade-worm-hole",
+  "name": "Premade worm hole",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A premade Worm Hole.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Premade_worm_hole.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2233
+    ],
+    "pageSlug": "Premade_worm_hole",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Premade_worm_hole"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 0.35,
+    "market": {
+      "guidePrice": 52,
+      "buyLimit": 6000,
+      "dailyVolume": 0
+    }
+  }
+}

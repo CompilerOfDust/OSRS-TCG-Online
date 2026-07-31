@@ -1,0 +1,69 @@
+{
+  "id": 2312,
+  "cardId": "itm_amulet-of-torture",
+  "name": "Amulet of torture",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    20366
+  ],
+  "flavourText": "A deep sense of torture burns within this powerful amulet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amulet_of_torture.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19553
+    ],
+    "pageSlug": "Amulet_of_torture",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amulet_of_torture"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 121200,
+    "lowAlchemy": 80800,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 17884038,
+      "buyLimit": 8,
+      "dailyVolume": 1399
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 15,
+        "slash": 15,
+        "crush": 15,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 10,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  }
+}

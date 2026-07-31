@@ -1,0 +1,38 @@
+{
+  "id": 1500,
+  "cardId": "itm_rotten-onion",
+  "name": "Rotten onion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Spawns green banners.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rotten_onion.png",
+  "debut": "2015-11-12",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13327
+    ],
+    "pageSlug": "Rotten_onion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rotten_onion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Chew",
+      "Smell",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

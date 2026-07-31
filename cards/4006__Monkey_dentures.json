@@ -1,0 +1,37 @@
+{
+  "id": 6924,
+  "cardId": "itm_monkey-dentures",
+  "name": "Monkey dentures",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Magical monkey talking dentures! What more can we say? Ook!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Monkey_dentures.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4006
+    ],
+    "pageSlug": "Monkey_dentures",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Monkey_dentures"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Listen",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.2,
+    "market": null
+  }
+}

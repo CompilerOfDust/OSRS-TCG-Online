@@ -1,0 +1,52 @@
+{
+  "id": 7880,
+  "cardId": "itm_cabbages-1",
+  "name": "Cabbages(10)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    5460,
+    5462,
+    5464,
+    5466,
+    5468,
+    5470,
+    5472,
+    5474,
+    5476
+  ],
+  "flavourText": "There is 1 cabbage in this sack.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cabbages%2810%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5478
+    ],
+    "pageSlug": "Cabbages",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cabbages"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Fill",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": null,
+      "buyLimit": null,
+      "dailyVolume": null
+    }
+  }
+}

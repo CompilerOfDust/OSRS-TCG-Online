@@ -1,0 +1,67 @@
+{
+  "id": 3442,
+  "cardId": "itm_bandos-dhide-shield",
+  "name": "Bandos d'hide shield",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Bandos blessed wooden shield covered in dragon leather.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bandos_d%27hide_shield.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23203
+    ],
+    "pageSlug": "Bandos_d%27hide_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bandos_d%27hide_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 17000,
+    "lowAlchemy": 11333,
+    "weightKg": 8,
+    "market": {
+      "guidePrice": 219102,
+      "buyLimit": 8,
+      "dailyVolume": 39
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -15,
+        "slash": -15,
+        "crush": -11,
+        "magic": -10,
+        "ranged": 7
+      },
+      "defence": {
+        "stab": 21,
+        "slash": 18,
+        "crush": 16,
+        "magic": 15,
+        "ranged": 14
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

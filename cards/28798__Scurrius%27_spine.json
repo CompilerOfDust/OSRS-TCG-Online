@@ -1,0 +1,36 @@
+{
+  "id": 4999,
+  "cardId": "itm_scurrius-spine",
+  "name": "Scurrius' spine",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "This can be attached to a Battlestaff, Rune Mace or Yew Shortbow.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Scurrius%27_spine.png",
+  "debut": "2024-01-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28798
+    ],
+    "pageSlug": "Scurrius%27_spine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Scurrius%27_spine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.3,
+    "market": null
+  }
+}

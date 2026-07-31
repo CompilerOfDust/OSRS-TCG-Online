@@ -1,0 +1,40 @@
+{
+  "id": 7763,
+  "cardId": "itm_orange-tree-seed",
+  "name": "Orange tree seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Plant in a plantpot of soil to grow a sapling.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Orange_tree_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5285
+    ],
+    "pageSlug": "Orange_tree_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Orange_tree_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 30,
+      "buyLimit": 200,
+      "dailyVolume": 14417
+    }
+  }
+}

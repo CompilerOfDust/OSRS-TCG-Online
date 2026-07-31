@@ -1,0 +1,67 @@
+{
+  "id": 492,
+  "cardId": "itm_bracelet-of-clay",
+  "name": "Bracelet of clay",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Now I can become a potter.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bracelet_of_clay.png",
+  "debut": "2007-04-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11074
+    ],
+    "pageSlug": "Bracelet_of_clay",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bracelet_of_clay"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 759,
+    "lowAlchemy": 506,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 449,
+      "buyLimit": 10000,
+      "dailyVolume": 2014
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

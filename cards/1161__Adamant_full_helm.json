@@ -1,0 +1,70 @@
+{
+  "id": 705,
+  "cardId": "itm_adamant-full-helm",
+  "name": "Adamant full helm",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    2605,
+    2613
+  ],
+  "flavourText": "A full face helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_full_helm.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1161
+    ],
+    "pageSlug": "Adamant_full_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_full_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 2112,
+    "lowAlchemy": 1408,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 1747,
+      "buyLimit": 125,
+      "dailyVolume": 13386
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 19,
+        "slash": 21,
+        "crush": 16,
+        "magic": -1,
+        "ranged": 19
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

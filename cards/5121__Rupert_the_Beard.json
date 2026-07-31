@@ -1,0 +1,58 @@
+{
+  "id": 7705,
+  "cardId": "npc_rupert-the-beard",
+  "name": "Rupert the Beard",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A dwarf. He seems to be in his underwear!",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2007-06-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5121,
+      5124
+    ],
+    "pageSlug": "Rupert_the_Beard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rupert_the_Beard"
+  },
+  "npcProfile": {
+    "race": "Dwarf",
+    "gender": "Male",
+    "locations": [
+      "Mind Altar"
+    ],
+    "questLine": "Grim Tales",
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Climb-down"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

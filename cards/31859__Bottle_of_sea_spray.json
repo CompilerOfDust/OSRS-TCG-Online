@@ -1,0 +1,37 @@
+{
+  "id": 6006,
+  "cardId": "itm_bottle-of-sea-spray",
+  "name": "Bottle of sea spray",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Danger, drink under pressure. Wear protective equipment when opening.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_sea_spray.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31859
+    ],
+    "pageSlug": "Bottle_of_sea_spray",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_sea_spray"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

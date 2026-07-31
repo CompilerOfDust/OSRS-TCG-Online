@@ -1,0 +1,43 @@
+{
+  "id": 3335,
+  "cardId": "itm_drake-bones",
+  "name": "Drake bones",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    22756
+  ],
+  "flavourText": "The bones of a ferocious Drake.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Drake_bones.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22783
+    ],
+    "pageSlug": "Drake_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Drake_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 1.8,
+    "market": {
+      "guidePrice": 4103,
+      "buyLimit": 7500,
+      "dailyVolume": 48391
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": 2866,
+  "cardId": "itm_eternal-gem",
+  "name": "Eternal gem",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Like the enchanted gem sold by Slayer Masters, only with an eternal charge.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Eternal_gem.png",
+  "debut": "2017-05-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21270
+    ],
+    "pageSlug": "Eternal_gem",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Eternal_gem"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Activate",
+      "Check",
+      "Partner",
+      "Log",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 5700,
+    "lowAlchemy": 3800,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 7260484,
+      "buyLimit": 8,
+      "dailyVolume": 115
+    }
+  }
+}

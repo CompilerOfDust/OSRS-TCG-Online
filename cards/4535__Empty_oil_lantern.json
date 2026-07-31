@@ -1,0 +1,41 @@
+{
+  "id": 7338,
+  "cardId": "itm_empty-oil-lantern",
+  "name": "Empty oil lantern",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Put oil in to complete it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Empty_oil_lantern.png",
+  "debut": "2005-03-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4535
+    ],
+    "pageSlug": "Empty_oil_lantern",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Empty_oil_lantern"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 72,
+    "lowAlchemy": 48,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 17,
+      "buyLimit": 10000,
+      "dailyVolume": 60
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": 1809,
+  "cardId": "itm_mind-talisman",
+  "name": "Mind talisman",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A mysterious power emanates from the talisman...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mind_talisman.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1448
+    ],
+    "pageSlug": "Mind_talisman",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mind_talisman"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Locate",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.015,
+    "market": {
+      "guidePrice": 1218,
+      "buyLimit": 11000,
+      "dailyVolume": 17631
+    }
+  }
+}

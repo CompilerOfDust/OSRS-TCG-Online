@@ -1,0 +1,64 @@
+{
+  "id": 3244,
+  "cardId": "itm_xerics-sentinel",
+  "name": "Xeric's sentinel",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Awarded for completing 1000 Chambers of Xeric in challenge mode.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Xeric%27s_sentinel.png",
+  "debut": "2018-05-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22392
+    ],
+    "pageSlug": "Xeric%27s_sentinel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Xeric%27s_sentinel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

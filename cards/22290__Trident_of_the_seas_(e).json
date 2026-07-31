@@ -1,0 +1,69 @@
+{
+  "id": 3180,
+  "cardId": "itm_uncharged-trident-e",
+  "name": "Uncharged trident (e)",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "It needs to be charged with death runes, chaos runes, fire runes and coins.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncharged_trident_%28e%29.png",
+  "debut": "2018-02-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22290
+    ],
+    "pageSlug": "Trident_of_the_seas_(e)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Trident_of_the_seas_(e)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 58800,
+    "lowAlchemy": 39200,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 2823003,
+      "buyLimit": 8,
+      "dailyVolume": 4
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 15,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

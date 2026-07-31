@@ -1,0 +1,41 @@
+{
+  "id": 6129,
+  "cardId": "itm_large-camphor-hull-parts",
+  "name": "Large camphor hull parts",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating a camphor hull for larger boats.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Large_camphor_hull_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32074
+    ],
+    "pageSlug": "Large_camphor_hull_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Large_camphor_hull_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18750,
+    "lowAlchemy": 12500,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 44568,
+      "buyLimit": 100,
+      "dailyVolume": 4263
+    }
+  },
+  "special": false
+}

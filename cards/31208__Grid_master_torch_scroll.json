@@ -1,0 +1,40 @@
+{
+  "id": 5764,
+  "cardId": "itm_grid-master-torch-scroll",
+  "name": "Grid master torch scroll",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Used on a marble incense burner inside your Player owned house to change them to the Flames of Lloigh-enn.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grid_master_torch_scroll.png",
+  "debut": "2025-10-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31208
+    ],
+    "pageSlug": "Grid_master_torch_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grid_master_torch_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 120541,
+      "buyLimit": null,
+      "dailyVolume": 10
+    }
+  }
+}

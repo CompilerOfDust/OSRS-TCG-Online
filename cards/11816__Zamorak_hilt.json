@@ -1,0 +1,40 @@
+{
+  "id": 807,
+  "cardId": "itm_zamorak-hilt",
+  "name": "Zamorak hilt",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Brimming with potential.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zamorak_hilt.png",
+  "debut": "2013-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11816
+    ],
+    "pageSlug": "Zamorak_hilt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zamorak_hilt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 2.5,
+    "market": {
+      "guidePrice": 15681152,
+      "buyLimit": 10000,
+      "dailyVolume": 14
+    }
+  }
+}

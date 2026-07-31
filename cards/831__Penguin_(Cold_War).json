@@ -1,0 +1,67 @@
+{
+  "id": 9361,
+  "cardId": "npc_penguin",
+  "name": "Penguin",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    830,
+    832,
+    2063
+  ],
+  "flavourText": "• An inhabitant of icy regions. • A Gentoo penguin. • It's all black and white to them.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2007-01-29",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      831,
+      845,
+      849,
+      850,
+      851
+    ],
+    "pageSlug": "Penguin_(Cold_War)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Penguin_(Cold_War)"
+  },
+  "npcProfile": {
+    "race": "Penguin",
+    "gender": "Male",
+    "locations": [
+      "Ardougne Zoo",
+      "penguin",
+      "Iceberg"
+    ],
+    "questLine": "Cold War",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  },
+  "special": false
+}

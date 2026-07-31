@@ -1,0 +1,43 @@
+{
+  "id": 2782,
+  "cardId": "itm_orange",
+  "name": "Orange",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    31117
+  ],
+  "flavourText": "A fresh orange.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Orange.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2108
+    ],
+    "pageSlug": "Orange",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Orange"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.11,
+    "market": {
+      "guidePrice": 131,
+      "buyLimit": 13000,
+      "dailyVolume": 93009
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": 5728,
+  "cardId": "itm_venator-bow",
+  "name": "Venator bow",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [
+    27612
+  ],
+  "flavourText": "Perhaps not the most powerful weapon in Gielinor.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Venator_bow_%28rotten%29.png",
+  "debut": "2025-08-20",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31133
+    ],
+    "pageSlug": "Venator_bow_(rotten)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Venator_bow_(rotten)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Kill Area",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 450000,
+    "lowAlchemy": 300000,
+    "weightKg": 4.5,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

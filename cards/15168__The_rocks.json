@@ -1,0 +1,66 @@
+{
+  "id": 1919,
+  "cardId": "npc_the-rocks",
+  "name": "The rocks",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Keeping cool heads by hitting them with rocks.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/The_rocks.png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15168
+    ],
+    "pageSlug": "The_rocks",
+    "pageUrl": "https://oldschool.runescape.wiki/w/The_rocks"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 154,
+    "vitality": null,
+    "peakDamage": "? ( Magic ) 23 ( Melee )",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Melee"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 147,
+      "group": "Trolls",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

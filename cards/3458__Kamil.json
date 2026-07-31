@@ -1,0 +1,66 @@
+{
+  "id": 6643,
+  "cardId": "npc_kamil",
+  "name": "Kamil",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    1129,
+    6345
+  ],
+  "flavourText": "Ice warrior.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kamil.png",
+  "debut": "2005-04-18",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3458
+    ],
+    "pageSlug": "Kamil",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kamil"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 154,
+    "vitality": null,
+    "peakDamage": "23 ( Melee ) 5x2 ( Magic )",
+    "combatXpBonusPct": 12.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee",
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 146,
+      "group": "Ice Warriors",
+      "masters": [
+        "Mazchna",
+        "Vannaka"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 7346,
+  "cardId": "npc_niloof",
+  "name": "Niloof",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A strong and hardy dwarf.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2003-03-03",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4551,
+      8941
+    ],
+    "pageSlug": "Niloof",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Niloof"
+  },
+  "npcProfile": {
+    "race": "Dwarf",
+    "gender": "Male",
+    "locations": [
+      "Underground Pass"
+    ],
+    "questLine": "Underground Pass",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 8449,
+  "cardId": "itm_white-mace",
+  "name": "White mace",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A spiky mace.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_mace.png",
+  "debut": "2005-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6601
+    ],
+    "pageSlug": "White_mace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_mace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 259,
+    "lowAlchemy": 172,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 577,
+      "buyLimit": 125,
+      "dailyVolume": 0
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 8,
+        "slash": -2,
+        "crush": 16,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 13,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  },
+  "special": false
+}

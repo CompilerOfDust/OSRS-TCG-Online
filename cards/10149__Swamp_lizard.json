@@ -1,0 +1,67 @@
+{
+  "id": 68,
+  "cardId": "itm_swamp-lizard",
+  "name": "Swamp lizard",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A very slimy and generally disgusting green lizard.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Swamp_lizard.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10149
+    ],
+    "pageSlug": "Swamp_lizard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Swamp_lizard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Release"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 167,
+      "buyLimit": 125,
+      "dailyVolume": 1349
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 10,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 20
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 22,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

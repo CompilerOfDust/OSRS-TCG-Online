@@ -1,0 +1,57 @@
+{
+  "id": 9865,
+  "cardId": "npc_totem",
+  "name": "Totem",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An old totem of eastern origin. It's ready to be charged.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Totem_(Phosani%27s_Nightmare,_uncharged).png",
+  "debut": "2021-06-30",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9435,
+      9438,
+      9441,
+      9444
+    ],
+    "pageSlug": "Totem_(Phosani%27s_Nightmare)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Totem_(Phosani%27s_Nightmare)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": "? (edit)",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "None"
+    ],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

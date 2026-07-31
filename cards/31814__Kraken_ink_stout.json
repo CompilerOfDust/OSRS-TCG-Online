@@ -1,0 +1,37 @@
+{
+  "id": 5970,
+  "cardId": "itm_kraken-ink-stout",
+  "name": "Kraken ink stout",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Is it really made from...? Nevermind, I don't want to know.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kraken_ink_stout.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31814
+    ],
+    "pageSlug": "Kraken_ink_stout",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kraken_ink_stout"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

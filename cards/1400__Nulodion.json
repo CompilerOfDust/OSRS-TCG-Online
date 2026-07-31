@@ -1,0 +1,58 @@
+{
+  "id": 1721,
+  "cardId": "npc_nulodion",
+  "name": "Nulodion",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The Dwarven armoury engineer.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2003-05-27",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1400
+    ],
+    "pageSlug": "Nulodion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nulodion"
+  },
+  "npcProfile": {
+    "race": "Dwarf",
+    "gender": "Male",
+    "locations": [
+      "Dwarven Mine",
+      "Ice Mountain"
+    ],
+    "questLine": "Dwarf Cannon",
+    "shop": "Multicannon parts for sale",
+    "menuActions": [
+      "Talk-to",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

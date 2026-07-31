@@ -1,0 +1,69 @@
+{
+  "id": 2620,
+  "cardId": "itm_elder-chaos-hood",
+  "name": "Elder chaos hood",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    27119
+  ],
+  "flavourText": "The hood worn by the dangerous elder druids.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elder_chaos_hood.png",
+  "debut": "2016-08-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20595
+    ],
+    "pageSlug": "Elder_chaos_hood",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elder_chaos_hood"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.18,
+    "market": {
+      "guidePrice": 206893,
+      "buyLimit": 8,
+      "dailyVolume": 663
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 4,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

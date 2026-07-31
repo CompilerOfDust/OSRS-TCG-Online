@@ -1,0 +1,69 @@
+{
+  "id": 8548,
+  "cardId": "itm_archers-ring",
+  "name": "Archers ring",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    11771
+  ],
+  "flavourText": "A fabled ring that improves the wearer's skill with a bow...",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Archers_ring.png",
+  "debut": "2005-11-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6733
+    ],
+    "pageSlug": "Archers_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Archers_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 2179288,
+      "buyLimit": 8,
+      "dailyVolume": 1649
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 4
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 4
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

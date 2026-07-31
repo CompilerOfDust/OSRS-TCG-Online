@@ -1,0 +1,41 @@
+{
+  "id": 2325,
+  "cardId": "itm_mithril-javelin-tips",
+  "name": "Mithril javelin tips",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Needs a shaft.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mithril_javelin_tips_1.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19576
+    ],
+    "pageSlug": "Mithril_javelin_tips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mithril_javelin_tips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 99,
+    "lowAlchemy": 66,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 197,
+      "buyLimit": 10000,
+      "dailyVolume": 11697
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,70 @@
+{
+  "id": 3639,
+  "cardId": "itm_elven-skirt__1",
+  "name": "Elven skirt",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    24018
+  ],
+  "flavourText": "Clothing from the elven city of Prifddinas.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elven_skirt_%28yellow%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24012
+    ],
+    "pageSlug": "Elven_skirt_(yellow)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elven_skirt_(yellow)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 7744,
+      "buyLimit": null,
+      "dailyVolume": 4
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": 6009,
+  "cardId": "itm_bottle-of-headless-unicornmans-heady-beer",
+  "name": "Bottle of headless unicornman's heady beer",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Will have you foaming at the neck hole.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_headless_unicornman%27s_heady_beer.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31861
+    ],
+    "pageSlug": "Bottle_of_headless_unicornman%27s_heady_beer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_headless_unicornman%27s_heady_beer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

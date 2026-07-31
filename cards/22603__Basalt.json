@@ -1,0 +1,40 @@
+{
+  "id": 3298,
+  "cardId": "itm_basalt",
+  "name": "Basalt",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The crushed rock looks like it may react to other materials.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Basalt.png",
+  "debut": "2018-09-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22603
+    ],
+    "pageSlug": "Basalt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Basalt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 779,
+      "buyLimit": 10000,
+      "dailyVolume": 158646
+    }
+  }
+}

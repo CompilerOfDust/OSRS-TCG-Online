@@ -1,0 +1,41 @@
+{
+  "id": 2865,
+  "cardId": "itm_dwellberries",
+  "name": "Dwellberries",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Some rather pretty blue berries.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dwellberries.png",
+  "debut": "2002-08-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2126
+    ],
+    "pageSlug": "Dwellberries",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dwellberries"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.014,
+    "market": {
+      "guidePrice": 31,
+      "buyLimit": 13000,
+      "dailyVolume": 2497
+    }
+  }
+}

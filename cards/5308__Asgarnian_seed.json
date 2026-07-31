@@ -1,0 +1,40 @@
+{
+  "id": 7789,
+  "cardId": "itm_asgarnian-seed",
+  "name": "Asgarnian seed",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An Asgarnian hop seed - plant in a hops patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Asgarnian_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5308
+    ],
+    "pageSlug": "Asgarnian_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Asgarnian_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 9,
+      "buyLimit": 2000,
+      "dailyVolume": 394933
+    }
+  }
+}

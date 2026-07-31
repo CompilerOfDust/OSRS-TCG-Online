@@ -1,0 +1,42 @@
+{
+  "id": 3254,
+  "cardId": "itm_bloody-bracer",
+  "name": "Bloody bracer",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A coagulated concoction.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bloody_bracer.png",
+  "debut": "2018-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22430
+    ],
+    "pageSlug": "Bloody_bracer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bloody_bracer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 1678,
+      "buyLimit": 2000,
+      "dailyVolume": 21
+    }
+  },
+  "special": false
+}

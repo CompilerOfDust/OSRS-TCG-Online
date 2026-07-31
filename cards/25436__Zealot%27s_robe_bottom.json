@@ -1,0 +1,63 @@
+{
+  "id": 4028,
+  "cardId": "itm_zealots-robe-bottom",
+  "name": "Zealot's robe bottom",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A well fashioned robe with a strange aura emanating.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zealot%27s_robe_bottom.png",
+  "debut": "2021-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25436
+    ],
+    "pageSlug": "Zealot%27s_robe_bottom",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zealot%27s_robe_bottom"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.907,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 9625,
+  "cardId": "itm_lumber-patch",
+  "name": "Lumber patch",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Repairs made with this will be patchy at best.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lumber_patch.png",
+  "debut": "2006-07-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8932
+    ],
+    "pageSlug": "Lumber_patch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lumber_patch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": 7572,
+  "cardId": "itm_relicyms-balm-1",
+  "name": "Relicym's balm(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    4844,
+    4846,
+    4848,
+    11437,
+    11439
+  ],
+  "flavourText": "4 doses of Relicym's balm, which helps cure disease.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Relicym%27s_balm%284%29.png",
+  "debut": "2005-05-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4842
+    ],
+    "pageSlug": "Relicym%27s_balm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Relicym%27s_balm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 45,
+    "lowAlchemy": 30,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 225,
+      "buyLimit": 2000,
+      "dailyVolume": 19
+    }
+  }
+}

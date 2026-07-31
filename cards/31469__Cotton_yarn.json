@@ -1,0 +1,41 @@
+{
+  "id": 5853,
+  "cardId": "itm_cotton-yarn",
+  "name": "Cotton yarn",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Spun from cotton bolls.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cotton_yarn.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31469
+    ],
+    "pageSlug": "Cotton_yarn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cotton_yarn"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 72,
+    "lowAlchemy": 48,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 2905,
+      "buyLimit": 13000,
+      "dailyVolume": 115672
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": 4972,
+  "cardId": "itm_ogre-bellows",
+  "name": "Ogre bellows",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A large pair of ogre bellows.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ogre_bellows.png",
+  "debut": "2004-05-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2871
+    ],
+    "pageSlug": "Ogre_bellows",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ogre_bellows"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.51,
+    "market": null
+  }
+}

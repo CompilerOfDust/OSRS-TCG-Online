@@ -1,0 +1,41 @@
+{
+  "id": 1291,
+  "cardId": "itm_arcane-sigil",
+  "name": "Arcane sigil",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A sigil in the shape of an arcane symbol.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arcane_sigil.png",
+  "debut": "2014-10-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12827
+    ],
+    "pageSlug": "Arcane_sigil",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arcane_sigil"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 450000,
+    "lowAlchemy": 300000,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 117441192,
+      "buyLimit": 5,
+      "dailyVolume": 137
+    }
+  },
+  "special": false
+}

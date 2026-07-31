@@ -1,0 +1,36 @@
+{
+  "id": 5373,
+  "cardId": "itm_mox-paste",
+  "name": "Mox paste",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A sticky, blue, sweet-smelling substance.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mox_paste.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30005
+    ],
+    "pageSlug": "Mox_paste",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mox_paste"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.51,
+    "market": null
+  }
+}

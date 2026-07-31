@@ -1,0 +1,69 @@
+{
+  "id": 889,
+  "cardId": "npc_artio",
+  "name": "Artio",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "She looks mad that her forest has died.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Artio.png",
+  "debut": "2023-01-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11992
+    ],
+    "pageSlug": "Artio",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Artio"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 320,
+    "vitality": null,
+    "peakDamage": "35 ( Crush ) 50 ( Magic ) 17 ( Ranged )",
+    "combatXpBonusPct": 15,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 11,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 518,
+      "group": "Bears, Bosses",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Krystilia",
+        "Mazchna",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

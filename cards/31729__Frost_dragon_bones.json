@@ -1,0 +1,43 @@
+{
+  "id": 5936,
+  "cardId": "itm_frost-dragon-bones",
+  "name": "Frost dragon bones",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    31335
+  ],
+  "flavourText": "They're rather cold.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Frost_dragon_bones.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31729
+    ],
+    "pageSlug": "Frost_dragon_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Frost_dragon_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 1.6,
+    "market": {
+      "guidePrice": 6300,
+      "buyLimit": 7500,
+      "dailyVolume": 257093
+    }
+  }
+}

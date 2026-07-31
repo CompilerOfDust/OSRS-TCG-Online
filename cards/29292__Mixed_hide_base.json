@@ -1,0 +1,40 @@
+{
+  "id": 5161,
+  "cardId": "itm_mixed-hide-base",
+  "name": "Mixed hide base",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I need this to make mixed hide armour.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mixed_hide_base.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29292
+    ],
+    "pageSlug": "Mixed_hide_base",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mixed_hide_base"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 5400,
+    "lowAlchemy": 3600,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 13997,
+      "buyLimit": null,
+      "dailyVolume": 3964
+    }
+  }
+}

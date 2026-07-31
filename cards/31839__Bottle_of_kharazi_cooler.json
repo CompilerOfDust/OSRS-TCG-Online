@@ -1,0 +1,37 @@
+{
+  "id": 5984,
+  "cardId": "itm_bottle-of-kharazi-cooler",
+  "name": "Bottle of kharazi cooler",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Best served chilled. Unfortunate that you found this in a tropical ocean then.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_kharazi_cooler.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31839
+    ],
+    "pageSlug": "Bottle_of_kharazi_cooler",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_kharazi_cooler"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

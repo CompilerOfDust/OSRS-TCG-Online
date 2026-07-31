@@ -1,0 +1,77 @@
+{
+  "id": 3131,
+  "cardId": "npc_spiritual-mage",
+  "name": "Spiritual mage",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A deadly servant of Zamorak.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spiritual_mage_(Zamorak).png",
+  "debut": "2013-10-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2212,
+      2244,
+      3161,
+      3168,
+      11292
+    ],
+    "pageSlug": "Spiritual_mage",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spiritual_mage"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Spectral"
+    ],
+    "tileSize": "1x1",
+    "combatRating": 121,
+    "vitality": 75,
+    "peakDamage": "19",
+    "combatXpBonusPct": 10,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 25,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 83,
+      "reward": 75,
+      "group": "Spiritual Creatures",
+      "masters": [
+        "Krystilia",
+        "Vannaka",
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 61,
+      "magic": 180,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

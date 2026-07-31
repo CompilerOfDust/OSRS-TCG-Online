@@ -1,0 +1,56 @@
+{
+  "id": 9903,
+  "cardId": "npc_ulizius",
+  "name": "Ulizius",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A slightly nervous guard.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-07-13",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      947
+    ],
+    "pageSlug": "Ulizius",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ulizius"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Mort Myre swamp"
+    ],
+    "questLine": "Nature Spirit",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

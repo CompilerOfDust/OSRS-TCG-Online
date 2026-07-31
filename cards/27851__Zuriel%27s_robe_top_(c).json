@@ -1,0 +1,64 @@
+{
+  "id": 4743,
+  "cardId": "itm_zuriels-robe-top-c",
+  "name": "Zuriel's robe top (c)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A powerful robe top.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zuriel%27s_robe_top_%28c%29.png",
+  "debut": "2023-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27851
+    ],
+    "pageSlug": "Zuriel%27s_robe_top_(c)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zuriel%27s_robe_top_(c)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 4.535,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 25,
+        "ranged": -8
+      },
+      "defence": {
+        "stab": 43,
+        "slash": 39,
+        "crush": 47,
+        "magic": 22,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

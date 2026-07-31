@@ -1,0 +1,67 @@
+{
+  "id": 5709,
+  "cardId": "itm_avernic-treads",
+  "name": "Avernic treads",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A finely crafted pair of boots.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Avernic_treads.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31088
+    ],
+    "pageSlug": "Avernic_treads",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Avernic_treads"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 115200,
+    "lowAlchemy": 76800,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 163500037,
+      "buyLimit": 8,
+      "dailyVolume": 563
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 5,
+        "slash": 5,
+        "crush": 5,
+        "magic": 11,
+        "ranged": 15
+      },
+      "defence": {
+        "stab": 21,
+        "slash": 25,
+        "crush": 25,
+        "magic": 10,
+        "ranged": 10
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 2,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

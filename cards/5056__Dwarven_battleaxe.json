@@ -1,0 +1,39 @@
+{
+  "id": 7665,
+  "cardId": "itm_dwarven-battleaxe",
+  "name": "Dwarven battleaxe",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    5060
+  ],
+  "flavourText": "This looks very rusty and worn.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dwarven_battleaxe_%28rusty%29.png",
+  "debut": "2005-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5056
+    ],
+    "pageSlug": "Dwarven_battleaxe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dwarven_battleaxe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2,
+    "market": null
+  }
+}

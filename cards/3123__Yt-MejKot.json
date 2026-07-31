@@ -1,0 +1,70 @@
+{
+  "id": 5768,
+  "cardId": "npc_yt-mejkot",
+  "name": "Yt-MejKot",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Holy reptile...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yt-MejKot_(1).png",
+  "debut": "2005-10-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3123,
+      3124
+    ],
+    "pageSlug": "Yt-MejKot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yt-MejKot"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "4x4",
+    "combatRating": 180,
+    "vitality": 80,
+    "peakDamage": "25",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 80,
+      "group": "TzHaar",
+      "masters": [
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 160,
+      "strength": 240,
+      "defence": 120,
+      "magic": 120,
+      "ranged": 240
+    },
+    "aggressiveBonuses": null
+  }
+}

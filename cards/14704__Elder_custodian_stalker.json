@@ -1,0 +1,64 @@
+{
+  "id": 1836,
+  "cardId": "npc_elder-custodian-stalker",
+  "name": "Elder custodian stalker",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Overgrown.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elder_custodian_stalker.png",
+  "debut": "2025-07-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14704
+    ],
+    "pageSlug": "Elder_custodian_stalker",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elder_custodian_stalker"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 142,
+    "vitality": null,
+    "peakDamage": "10 (melee) 5 (special attack)",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Magic",
+      "Bleed"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 76,
+      "reward": 250,
+      "group": "Custodian Stalker",
+      "masters": [
+        "Chaeldar",
+        "Nieve"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

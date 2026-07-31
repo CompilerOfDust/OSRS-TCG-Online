@@ -1,0 +1,40 @@
+{
+  "id": 2074,
+  "cardId": "itm_uncut-dragonstone",
+  "name": "Uncut dragonstone",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "This would be worth more cut.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncut_dragonstone.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1631
+    ],
+    "pageSlug": "Uncut_dragonstone",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncut_dragonstone"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 0.003,
+    "market": {
+      "guidePrice": 14869,
+      "buyLimit": 10000,
+      "dailyVolume": 88270
+    }
+  }
+}

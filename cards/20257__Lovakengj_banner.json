@@ -1,0 +1,68 @@
+{
+  "id": 2580,
+  "cardId": "itm_lovakengj-banner",
+  "name": "Lovakengj banner",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A lovakite banner bearing the Lovakengj sigil.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lovakengj_banner.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20257
+    ],
+    "pageSlug": "Lovakengj_banner",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lovakengj_banner"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 42,
+    "lowAlchemy": 28,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 1719,
+      "buyLimit": 4,
+      "dailyVolume": 39
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 12,
+        "slash": 12,
+        "crush": 12,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 12,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

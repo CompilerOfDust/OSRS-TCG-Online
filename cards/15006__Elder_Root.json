@@ -1,0 +1,58 @@
+{
+  "id": 1886,
+  "cardId": "npc_elder-root",
+  "name": "Elder Root",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A tortugan elder responsible for the eggs on the Little Pearl.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15006,
+      15007,
+      15008
+    ],
+    "pageSlug": "Elder_Root",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elder_Root"
+  },
+  "npcProfile": {
+    "race": "Tortugan",
+    "gender": null,
+    "locations": [
+      "The Little Pearl"
+    ],
+    "questLine": "Troubled Tortugans",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 71,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": 1032,
+  "cardId": "itm_gilded-scimitar",
+  "name": "Gilded scimitar",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [
+    1321,
+    1323,
+    1325,
+    1327,
+    1329,
+    1331,
+    1333
+  ],
+  "flavourText": "Rune scimitar with gold plate.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gilded_scimitar.png",
+  "debut": "2014-06-12",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12389
+    ],
+    "pageSlug": "Gilded_scimitar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gilded_scimitar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 15360,
+    "lowAlchemy": 10240,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 14253452,
+      "buyLimit": 8,
+      "dailyVolume": 100
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 7,
+        "slash": 45,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 44,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": true
+}

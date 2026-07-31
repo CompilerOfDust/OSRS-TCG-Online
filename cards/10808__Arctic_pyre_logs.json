@@ -1,0 +1,41 @@
+{
+  "id": 321,
+  "cardId": "itm_arctic-pyre-logs",
+  "name": "Arctic pyre logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Arctic pine logs prepared with sacred oil for a funeral pyre.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arctic_pyre_logs.png",
+  "debut": "2007-02-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10808
+    ],
+    "pageSlug": "Arctic_pyre_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arctic_pyre_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 2272,
+      "buyLimit": 11000,
+      "dailyVolume": 400
+    }
+  },
+  "special": false
+}

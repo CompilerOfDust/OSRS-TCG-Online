@@ -1,0 +1,40 @@
+{
+  "id": 3519,
+  "cardId": "itm_unicorn-horn-dust",
+  "name": "Unicorn horn dust",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Finely ground horn of Unicorn.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unicorn_horn_dust.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      235
+    ],
+    "pageSlug": "Unicorn_horn_dust",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unicorn_horn_dust"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 575,
+      "buyLimit": 13000,
+      "dailyVolume": 63086
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 4421,
+  "cardId": "itm_redeyes-bone",
+  "name": "Redeyes' bone",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An ancient goblin bone wrapped in fragments of priestly robes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Redeyes%27_bone.png",
+  "debut": "2022-02-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26592
+    ],
+    "pageSlug": "Redeyes%27_bone",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Redeyes%27_bone"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Bury",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 3777,
+  "cardId": "itm_wine-of-zamorak",
+  "name": "Wine of zamorak",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An evil wine for an evil god.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wine_of_zamorak.png",
+  "debut": "2002-02-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      245
+    ],
+    "pageSlug": "Wine_of_zamorak",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wine_of_zamorak"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.085,
+    "market": {
+      "guidePrice": 1106,
+      "buyLimit": 11000,
+      "dailyVolume": 356636
+    }
+  }
+}

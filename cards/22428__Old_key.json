@@ -1,0 +1,36 @@
+{
+  "id": 3253,
+  "cardId": "itm_old-key",
+  "name": "Old key",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An old key (Used to open a chest upstairs in Slepe church).",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Old_key.png",
+  "debut": "2018-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22428
+    ],
+    "pageSlug": "Old_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Old_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

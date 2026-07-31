@@ -1,0 +1,56 @@
+{
+  "id": 969,
+  "cardId": "npc_kasonde",
+  "name": "Kasonde",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The Strangler has started to change him.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kasonde.png",
+  "debut": "2023-07-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12262,
+      12263
+    ],
+    "pageSlug": "Kasonde",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kasonde"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 231,
+    "vitality": null,
+    "peakDamage": "20",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged",
+      "Melee"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

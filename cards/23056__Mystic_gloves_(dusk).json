@@ -1,0 +1,67 @@
+{
+  "id": 3414,
+  "cardId": "itm_mystic-gloves-dusk",
+  "name": "Mystic gloves (dusk)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Dusky magical gloves.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mystic_gloves_%28dusk%29.png",
+  "debut": "2019-01-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23056
+    ],
+    "pageSlug": "Mystic_gloves_(dusk)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mystic_gloves_(dusk)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 40621,
+      "buyLimit": 70,
+      "dailyVolume": 41
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

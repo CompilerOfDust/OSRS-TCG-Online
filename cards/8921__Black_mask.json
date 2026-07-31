@@ -1,0 +1,70 @@
+{
+  "id": 9614,
+  "cardId": "itm_black-mask",
+  "name": "Black mask",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    11784
+  ],
+  "flavourText": "An inert-seeming cave horror mask.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_mask.png",
+  "debut": "2006-07-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8921
+    ],
+    "pageSlug": "Black_mask",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_mask"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 1800,
+    "lowAlchemy": 1200,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 1607666,
+      "buyLimit": 70,
+      "dailyVolume": 943
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": -1
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 10,
+        "crush": 8,
+        "magic": -1,
+        "ranged": 9
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

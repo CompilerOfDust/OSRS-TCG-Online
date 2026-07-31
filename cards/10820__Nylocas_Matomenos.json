@@ -1,0 +1,61 @@
+{
+  "id": 329,
+  "cardId": "npc_nylocas-matomenos",
+  "name": "Nylocas Matomenos",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Dripping with blood.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nylocas_Matomenos.png",
+  "debut": "2021-06-03",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10820,
+      10845
+    ],
+    "pageSlug": "Nylocas_Matomenos",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nylocas_Matomenos"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 68,
+    "vitality": 64,
+    "peakDamage": "11",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "None"
+    ],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 100,
+      "strength": 100,
+      "defence": 100,
+      "magic": 100,
+      "ranged": 100
+    },
+    "aggressiveBonuses": null
+  }
+}

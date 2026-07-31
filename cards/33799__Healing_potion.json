@@ -1,0 +1,36 @@
+{
+  "id": 6575,
+  "cardId": "itm_healing-potion",
+  "name": "Healing potion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Gives you that healing feeling.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Healing_potion.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33799
+    ],
+    "pageSlug": "Healing_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Healing_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

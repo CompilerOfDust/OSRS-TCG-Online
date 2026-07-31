@@ -1,0 +1,63 @@
+{
+  "id": 9131,
+  "cardId": "itm_ancient-mjolnir",
+  "name": "Ancient mjolnir",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An Ancient Mjolnir.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_mjolnir.png",
+  "debut": "2006-04-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7804
+    ],
+    "pageSlug": "Ancient_mjolnir",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_mjolnir"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 375,
+    "lowAlchemy": 250,
+    "weightKg": 2.267,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 11,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 14,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

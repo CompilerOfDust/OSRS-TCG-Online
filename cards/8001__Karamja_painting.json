@@ -1,0 +1,36 @@
+{
+  "id": 9275,
+  "cardId": "itm_karamja-painting",
+  "name": "Karamja painting",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The tropical coast of Karamja.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Karamja_painting.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8001
+    ],
+    "pageSlug": "Karamja_painting",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Karamja_painting"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 1,
+    "market": null
+  }
+}

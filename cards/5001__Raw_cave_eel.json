@@ -1,0 +1,41 @@
+{
+  "id": 7624,
+  "cardId": "itm_raw-cave-eel",
+  "name": "Raw cave eel",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's incredibly slimy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_cave_eel.png",
+  "debut": "2005-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5001
+    ],
+    "pageSlug": "Raw_cave_eel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_cave_eel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 72,
+      "buyLimit": 13000,
+      "dailyVolume": 16980
+    }
+  },
+  "special": false
+}

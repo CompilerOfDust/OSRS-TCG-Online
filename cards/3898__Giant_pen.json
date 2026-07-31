@@ -1,0 +1,36 @@
+{
+  "id": 6881,
+  "cardId": "itm_giant-pen",
+  "name": "Giant pen",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The King should be able to use this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_pen.png",
+  "debut": "2004-11-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3898
+    ],
+    "pageSlug": "Giant_pen",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giant_pen"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.035,
+    "market": null
+  }
+}

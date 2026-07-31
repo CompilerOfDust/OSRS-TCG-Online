@@ -1,0 +1,68 @@
+{
+  "id": 1533,
+  "cardId": "itm_xerician-hat",
+  "name": "Xerician hat",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The forgotten magicks of Xeric imbue this garment with a little power.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Xerician_hat.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13385
+    ],
+    "pageSlug": "Xerician_hat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Xerician_hat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 0.2,
+    "market": {
+      "guidePrice": 3903,
+      "buyLimit": 125,
+      "dailyVolume": 670
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

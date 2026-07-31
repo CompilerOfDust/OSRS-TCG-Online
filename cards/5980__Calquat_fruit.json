@@ -1,0 +1,41 @@
+{
+  "id": 8091,
+  "cardId": "itm_calquat-fruit",
+  "name": "Calquat fruit",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This is the largest fruit I've ever seen.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Calquat_fruit.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5980
+    ],
+    "pageSlug": "Calquat_fruit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Calquat_fruit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 32,
+    "lowAlchemy": 21,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 102,
+      "buyLimit": 11000,
+      "dailyVolume": 32491
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": 8479,
+  "cardId": "itm_white-sq-shield",
+  "name": "White sq shield",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A medium square shield.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_sq_shield.png",
+  "debut": "2005-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6631
+    ],
+    "pageSlug": "White_sq_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_sq_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 691,
+    "lowAlchemy": 460,
+    "weightKg": 3.628,
+    "market": {
+      "guidePrice": 1669,
+      "buyLimit": 125,
+      "dailyVolume": 2
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 15,
+        "slash": 16,
+        "crush": 14,
+        "magic": 0,
+        "ranged": 15
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

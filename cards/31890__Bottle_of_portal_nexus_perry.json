@@ -1,0 +1,37 @@
+{
+  "id": 6040,
+  "cardId": "itm_bottle-of-portal-nexus-perry",
+  "name": "Bottle of portal nexus perry",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "You'll be going places with this drink!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_portal_nexus_perry.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31890
+    ],
+    "pageSlug": "Bottle_of_portal_nexus_perry",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_portal_nexus_perry"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

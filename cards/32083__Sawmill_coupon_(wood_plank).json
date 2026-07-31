@@ -1,0 +1,36 @@
+{
+  "id": 6132,
+  "cardId": "itm_sawmill-coupon-wood-plank",
+  "name": "Sawmill coupon (wood plank)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Used to cover plank costs for regular logs at the sawmill. Must be used in person.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sawmill_coupon_%28wood_plank%29.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32083
+    ],
+    "pageSlug": "Sawmill_coupon_(wood_plank)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sawmill_coupon_(wood_plank)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0,
+    "market": null
+  }
+}

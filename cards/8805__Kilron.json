@@ -1,0 +1,57 @@
+{
+  "id": 9560,
+  "cardId": "npc_kilron",
+  "name": "Kilron",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He looks shifty.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2002-10-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8805,
+      8837,
+      8841,
+      9001
+    ],
+    "pageSlug": "Kilron",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kilron"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "West Ardougne"
+    ],
+    "questLine": "Biohazard",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

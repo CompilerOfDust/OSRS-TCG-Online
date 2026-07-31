@@ -1,0 +1,56 @@
+{
+  "id": 8538,
+  "cardId": "npc_grubfoot",
+  "name": "Grubfoot",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Smaller than the average goblin.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-07-17",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      671,
+      672,
+      673
+    ],
+    "pageSlug": "Grubfoot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grubfoot"
+  },
+  "npcProfile": {
+    "race": "Goblin",
+    "gender": "Male",
+    "locations": [
+      "Goblin Village"
+    ],
+    "questLine": "• Goblin Diplomacy • Another Slice of H.A.M. • Land of the Goblins",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

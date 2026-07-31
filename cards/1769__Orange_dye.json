@@ -1,0 +1,41 @@
+{
+  "id": 2166,
+  "cardId": "itm_orange-dye",
+  "name": "Orange dye",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A little bottle of orange dye.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Orange_dye.png",
+  "debut": "2001-05-08",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1769
+    ],
+    "pageSlug": "Orange_dye",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Orange_dye"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 269,
+      "buyLimit": 150,
+      "dailyVolume": 3316
+    }
+  },
+  "special": false
+}

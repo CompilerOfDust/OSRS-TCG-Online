@@ -1,0 +1,63 @@
+{
+  "id": 4077,
+  "cardId": "itm_dark-flippers",
+  "name": "Dark flippers",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Spooky, scary, strangely uncomfortable flippers.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dark_flippers.png",
+  "debut": "2021-03-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25557
+    ],
+    "pageSlug": "Dark_flippers",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dark_flippers"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.34,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": -2,
+        "slash": -2,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 2989,
+  "cardId": "itm_granite-boots",
+  "name": "Granite boots",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "These will protect my feet, but are a bit heavy.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Granite_boots.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21643
+    ],
+    "pageSlug": "Granite_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Granite_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 7500,
+    "lowAlchemy": 5000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 345320,
+      "buyLimit": 70,
+      "dailyVolume": 271
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": -1
+      },
+      "defence": {
+        "stab": 15,
+        "slash": 16,
+        "crush": 17,
+        "magic": 0,
+        "ranged": 8
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 3,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

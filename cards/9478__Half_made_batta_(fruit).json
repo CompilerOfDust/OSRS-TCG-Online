@@ -1,0 +1,41 @@
+{
+  "id": 9901,
+  "cardId": "itm_half-made-batta__1",
+  "name": "Half made batta",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    9480,
+    9482,
+    9483,
+    9485
+  ],
+  "flavourText": "This fruit batta needs baking and garnishing with spice.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Half_made_batta_%28fruit%29.png",
+  "debut": "2006-08-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9478
+    ],
+    "pageSlug": "Half_made_batta_(fruit)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Half_made_batta_(fruit)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.25,
+    "market": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 3236,
+  "cardId": "itm_bryophytas-staff-uncharged",
+  "name": "Bryophyta's staff (uncharged)",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "It's a slightly magical stick. All natural, of course.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bryophyta%27s_staff_%28uncharged%29.png",
+  "debut": "2018-05-03",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22368
+    ],
+    "pageSlug": "Bryophyta%27s_staff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bryophyta%27s_staff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 39000,
+    "lowAlchemy": 26000,
+    "weightKg": 1.5,
+    "market": {
+      "guidePrice": 4197107,
+      "buyLimit": 8,
+      "dailyVolume": 211
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 10,
+        "slash": -1,
+        "crush": 40,
+        "magic": 15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 15,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 50,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

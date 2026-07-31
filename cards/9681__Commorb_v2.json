@@ -1,0 +1,39 @@
+{
+  "id": 10024,
+  "cardId": "itm_commorb-v2",
+  "name": "Commorb v2",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A Temple Knight Communication Orb. Top Secret!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Commorb_v2.png",
+  "debut": "2006-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9681
+    ],
+    "pageSlug": "Commorb_v2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Commorb_v2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Scan",
+      "Contact",
+      "Playback",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 6079,
+  "cardId": "itm_steel-halberd",
+  "name": "Steel halberd",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A steel halberd.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_halberd.png",
+  "debut": "2004-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3194
+    ],
+    "pageSlug": "Steel_halberd",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_halberd"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 2552,
+      "buyLimit": 125,
+      "dailyVolume": 1
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 14,
+        "slash": 19,
+        "crush": 0,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": -1,
+        "slash": 1,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 7,
+      "extras": {
+        "meleeStrength": 20,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

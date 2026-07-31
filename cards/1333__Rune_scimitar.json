@@ -1,0 +1,72 @@
+{
+  "id": 1513,
+  "cardId": "itm_rune-scimitar",
+  "name": "Rune scimitar",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    23330,
+    23332,
+    23334
+  ],
+  "flavourText": "A vicious, curved sword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_scimitar.png",
+  "debut": "2001-08-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1333
+    ],
+    "pageSlug": "Rune_scimitar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_scimitar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 15360,
+    "lowAlchemy": 10240,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 14914,
+      "buyLimit": 70,
+      "dailyVolume": 13867
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 7,
+        "slash": 45,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 44,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

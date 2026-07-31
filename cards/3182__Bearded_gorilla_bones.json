@@ -1,0 +1,39 @@
+{
+  "id": 5975,
+  "cardId": "itm_bearded-gorilla-bones",
+  "name": "Bearded gorilla bones",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    4266
+  ],
+  "flavourText": "These are quite large ape bones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bearded_gorilla_bones.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3182
+    ],
+    "pageSlug": "Bearded_gorilla_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bearded_gorilla_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.8,
+    "market": null
+  }
+}

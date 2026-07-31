@@ -1,0 +1,40 @@
+{
+  "id": 6058,
+  "cardId": "itm_mithril-cannonball",
+  "name": "Mithril cannonball",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Ammo suited for a boat's cannon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mithril_cannonball.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31910
+    ],
+    "pageSlug": "Mithril_cannonball",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mithril_cannonball"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 149,
+      "buyLimit": 11000,
+      "dailyVolume": 883170
+    }
+  }
+}

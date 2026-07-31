@@ -1,0 +1,40 @@
+{
+  "id": 859,
+  "cardId": "itm_raw-dark-crab",
+  "name": "Raw dark crab",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_dark_crab.png",
+  "debut": "2014-03-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11934
+    ],
+    "pageSlug": "Raw_dark_crab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_dark_crab"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 195,
+    "lowAlchemy": 130,
+    "weightKg": 0.35,
+    "market": {
+      "guidePrice": 1034,
+      "buyLimit": 15000,
+      "dailyVolume": 107789
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 5020,
+  "cardId": "itm_moonlight-antler-bolts",
+  "name": "Moonlight antler bolts",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Bolts made from the antlers of a moonlight antelope.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Moonlight_antler_bolts_1.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28878
+    ],
+    "pageSlug": "Moonlight_antler_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Moonlight_antler_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 333,
+      "buyLimit": 11000,
+      "dailyVolume": 1406311
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 60,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

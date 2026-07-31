@@ -1,0 +1,67 @@
+{
+  "id": 2990,
+  "cardId": "itm_granite-longsword",
+  "name": "Granite longsword",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A razor sharp longsword made of stone.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Granite_longsword.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21646
+    ],
+    "pageSlug": "Granite_longsword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Granite_longsword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 19200,
+    "lowAlchemy": 12800,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 20024,
+      "buyLimit": 70,
+      "dailyVolume": 334
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 56,
+        "slash": 65,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 3,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 62,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

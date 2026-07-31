@@ -1,0 +1,68 @@
+{
+  "id": 8878,
+  "cardId": "itm_enchanted-hat",
+  "name": "Enchanted hat",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A three pointed hat of magic.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enchanted_hat.png",
+  "debut": "2006-02-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7400
+    ],
+    "pageSlug": "Enchanted_hat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enchanted_hat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 9000,
+    "lowAlchemy": 6000,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 8176,
+      "buyLimit": 8,
+      "dailyVolume": 75
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 4,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

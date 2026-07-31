@@ -1,0 +1,69 @@
+{
+  "id": 2756,
+  "cardId": "itm_elder-maul",
+  "name": "Elder maul",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [
+    27100
+  ],
+  "flavourText": "A maul crafted from the component parts of Tekton.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elder_maul.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21003
+    ],
+    "pageSlug": "Elder_maul",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elder_maul"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 300006,
+    "lowAlchemy": 200004,
+    "weightKg": 5.443,
+    "market": {
+      "guidePrice": 97901339,
+      "buyLimit": 8,
+      "dailyVolume": 378
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 135,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 147,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

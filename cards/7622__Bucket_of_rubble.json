@@ -1,0 +1,37 @@
+{
+  "id": 9029,
+  "cardId": "itm_bucket-of-rubble",
+  "name": "Bucket of rubble",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bucket partially filled with rubble.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bucket_of_rubble_%28partially_filled%29.png",
+  "debut": "2006-03-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7622
+    ],
+    "pageSlug": "Bucket_of_rubble",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bucket_of_rubble"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2.5,
+    "market": null
+  }
+}

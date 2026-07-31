@@ -1,0 +1,69 @@
+{
+  "id": 7036,
+  "cardId": "npc_banshee",
+  "name": "Banshee",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    7272,
+    7390,
+    7391,
+    12540,
+    12542
+  ],
+  "flavourText": "A tortured screaming soul.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Banshee.png",
+  "debut": "2005-01-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      414
+    ],
+    "pageSlug": "Banshee",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Banshee"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 23,
+    "vitality": null,
+    "peakDamage": "2 6 (without Earmuffs )",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Magical melee"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 15,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 15,
+      "reward": 22,
+      "group": "Banshees",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

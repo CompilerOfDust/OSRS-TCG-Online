@@ -1,0 +1,40 @@
+{
+  "id": 7782,
+  "cardId": "itm_cadantine-seed",
+  "name": "Cadantine seed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A cadantine seed - plant in a herb patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cadantine_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5301
+    ],
+    "pageSlug": "Cadantine_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cadantine_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 2,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 5487,
+      "buyLimit": 200,
+      "dailyVolume": 32582
+    }
+  }
+}

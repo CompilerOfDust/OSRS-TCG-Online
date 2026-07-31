@@ -1,0 +1,37 @@
+{
+  "id": 9243,
+  "cardId": "itm_basilisk-head",
+  "name": "Basilisk head",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I should get it stuffed!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Basilisk_head.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7977
+    ],
+    "pageSlug": "Basilisk_head",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Basilisk_head"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2400,
+    "lowAlchemy": 1600,
+    "weightKg": 10,
+    "market": null
+  },
+  "special": false
+}

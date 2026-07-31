@@ -1,0 +1,41 @@
+{
+  "id": 2609,
+  "cardId": "itm_pineapple-punch",
+  "name": "Pineapple punch",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A fresh healthy fruit mix.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pineapple_punch.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2048
+    ],
+    "pageSlug": "Pineapple_punch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pineapple_punch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 113,
+      "buyLimit": 2000,
+      "dailyVolume": 418
+    }
+  }
+}

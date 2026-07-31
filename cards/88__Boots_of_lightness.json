@@ -1,0 +1,63 @@
+{
+  "id": 9610,
+  "cardId": "itm_boots-of-lightness",
+  "name": "Boots of lightness",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Magic boots that make you lighter than normal.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Boots_of_lightness.png",
+  "debut": "2002-06-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      88
+    ],
+    "pageSlug": "Boots_of_lightness",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Boots_of_lightness"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.34,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

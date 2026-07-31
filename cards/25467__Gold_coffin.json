@@ -1,0 +1,66 @@
+{
+  "id": 4040,
+  "cardId": "itm_gold-coffin",
+  "name": "Gold coffin",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Can store up to 28 shade remains.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gold_coffin.png",
+  "debut": "2021-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25467
+    ],
+    "pageSlug": "Gold_coffin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gold_coffin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Fill",
+      "Wear",
+      "Configure",
+      "Empty",
+      "Destroy"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

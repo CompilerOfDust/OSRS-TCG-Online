@@ -1,0 +1,40 @@
+{
+  "id": 5102,
+  "cardId": "itm_raw-larupia",
+  "name": "Raw larupia",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should probably cook this first.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_larupia.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29122
+    ],
+    "pageSlug": "Raw_larupia",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_larupia"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.34,
+    "market": {
+      "guidePrice": 1306,
+      "buyLimit": 13000,
+      "dailyVolume": 1290
+    }
+  }
+}

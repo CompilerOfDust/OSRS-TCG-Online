@@ -1,0 +1,40 @@
+{
+  "id": 5039,
+  "cardId": "itm_searing-page",
+  "name": "Searing page",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It's still warm to the touch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Searing_page.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28931
+    ],
+    "pageSlug": "Searing_page",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Searing_page"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 17820,
+      "buyLimit": 11000,
+      "dailyVolume": 58546
+    }
+  }
+}

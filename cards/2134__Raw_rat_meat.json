@@ -1,0 +1,40 @@
+{
+  "id": 2892,
+  "cardId": "itm_raw-rat-meat",
+  "name": "Raw rat meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to cook this first.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_rat_meat.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2134
+    ],
+    "pageSlug": "Raw_rat_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_rat_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.141,
+    "market": {
+      "guidePrice": 34,
+      "buyLimit": 13000,
+      "dailyVolume": 8559
+    }
+  }
+}

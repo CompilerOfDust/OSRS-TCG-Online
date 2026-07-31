@@ -1,0 +1,36 @@
+{
+  "id": 7380,
+  "cardId": "itm_jewels",
+  "name": "Jewels",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The Mayor of Pollnivneach's wife's jewels.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jewels.png",
+  "debut": "2005-04-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4590
+    ],
+    "pageSlug": "Jewels",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jewels"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

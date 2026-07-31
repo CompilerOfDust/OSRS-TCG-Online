@@ -1,0 +1,42 @@
+{
+  "id": 3397,
+  "cardId": "itm_anchovy-pizza",
+  "name": "Anchovy pizza",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A pizza with anchovies.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Anchovy_pizza.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2297
+    ],
+    "pageSlug": "Anchovy_pizza",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Anchovy_pizza"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 0.9,
+    "market": {
+      "guidePrice": 501,
+      "buyLimit": 10000,
+      "dailyVolume": 176522
+    }
+  },
+  "special": false
+}

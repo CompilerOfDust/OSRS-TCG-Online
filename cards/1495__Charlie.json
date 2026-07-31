@@ -1,0 +1,58 @@
+{
+  "id": 1874,
+  "cardId": "npc_charlie",
+  "name": "Charlie",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    1428
+  ],
+  "flavourText": "One of the zookeepers; enjoys locking up animals in small pens.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-11-28",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1495
+    ],
+    "pageSlug": "Charlie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Charlie"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Ardougne Zoo"
+    ],
+    "questLine": "Eagles' Peak",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

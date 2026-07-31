@@ -1,0 +1,72 @@
+{
+  "id": 4831,
+  "cardId": "npc_bat",
+  "name": "Bat",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    1039,
+    2834,
+    4504,
+    6824,
+    9641,
+    9642
+  ],
+  "flavourText": "An annoying flappy thing.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bat.png",
+  "debut": "2004-10-14",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2827,
+      10888,
+      14042
+    ],
+    "pageSlug": "Bat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bat"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 6,
+    "vitality": null,
+    "peakDamage": "1",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 35,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 8,
+      "group": "Bats",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

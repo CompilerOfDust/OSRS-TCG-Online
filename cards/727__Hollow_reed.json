@@ -1,0 +1,36 @@
+{
+  "id": 8828,
+  "cardId": "itm_hollow-reed",
+  "name": "Hollow reed",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "One of nature's pipes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hollow_reed.png",
+  "debut": "2003-08-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      727
+    ],
+    "pageSlug": "Hollow_reed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hollow_reed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.012,
+    "market": null
+  }
+}

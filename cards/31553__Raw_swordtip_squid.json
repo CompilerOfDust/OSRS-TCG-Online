@@ -1,0 +1,40 @@
+{
+  "id": 5881,
+  "cardId": "itm_raw-swordtip-squid",
+  "name": "Raw swordtip squid",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_swordtip_squid.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31553
+    ],
+    "pageSlug": "Raw_swordtip_squid",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_swordtip_squid"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 856,
+      "buyLimit": null,
+      "dailyVolume": 60482
+    }
+  }
+}

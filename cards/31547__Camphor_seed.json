@@ -1,0 +1,41 @@
+{
+  "id": 5878,
+  "cardId": "itm_camphor-seed",
+  "name": "Camphor seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Plant this in a plantpot of soil to grow a sapling.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Camphor_seed_1.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31547
+    ],
+    "pageSlug": "Camphor_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Camphor_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 4133,
+      "buyLimit": 200,
+      "dailyVolume": 6565
+    }
+  },
+  "special": false
+}

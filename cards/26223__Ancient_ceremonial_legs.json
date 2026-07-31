@@ -1,0 +1,67 @@
+{
+  "id": 4293,
+  "cardId": "itm_ancient-ceremonial-legs",
+  "name": "Ancient ceremonial legs",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Some ceremonial robes dedicated to an ancient god.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_ceremonial_legs.png",
+  "debut": "2022-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26223
+    ],
+    "pageSlug": "Ancient_ceremonial_legs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_ceremonial_legs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 48000,
+    "lowAlchemy": 32000,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 47146,
+      "buyLimit": 8,
+      "dailyVolume": 142
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  }
+}

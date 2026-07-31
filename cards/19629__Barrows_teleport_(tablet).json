@@ -1,0 +1,42 @@
+{
+  "id": 2350,
+  "cardId": "itm_barrows-teleport",
+  "name": "Barrows teleport",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A teleport to the Barrows.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Barrows_teleport_%28tablet%29.png",
+  "debut": "2016-05-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19629
+    ],
+    "pageSlug": "Barrows_teleport_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Barrows_teleport_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 4355,
+      "buyLimit": 10000,
+      "dailyVolume": 42635
+    }
+  },
+  "special": false
+}

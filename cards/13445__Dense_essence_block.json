@@ -1,0 +1,36 @@
+{
+  "id": 1559,
+  "cardId": "itm_dense-essence-block",
+  "name": "Dense essence block",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Magical pressures have warped it into an incredibly dense material.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dense_essence_block.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13445
+    ],
+    "pageSlug": "Dense_essence_block",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dense_essence_block"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

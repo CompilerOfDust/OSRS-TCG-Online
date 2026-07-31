@@ -1,0 +1,40 @@
+{
+  "id": 45,
+  "cardId": "itm_kebbit-teeth-dust",
+  "name": "Kebbit teeth dust",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Previously a kebbit-sized set of dentures.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kebbit_teeth_dust.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10111
+    ],
+    "pageSlug": "Kebbit_teeth_dust",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kebbit_teeth_dust"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 709,
+      "buyLimit": 10000,
+      "dailyVolume": 6086
+    }
+  }
+}

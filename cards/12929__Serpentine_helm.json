@@ -1,0 +1,67 @@
+{
+  "id": 1333,
+  "cardId": "itm_serpentine-helm-uncharged",
+  "name": "Serpentine helm (uncharged)",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Needs to be charged with Zulrah's scales.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Serpentine_helm_%28uncharged%29.png",
+  "debut": "2015-01-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12929
+    ],
+    "pageSlug": "Serpentine_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Serpentine_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 66000,
+    "lowAlchemy": 44000,
+    "weightKg": 0.9,
+    "market": {
+      "guidePrice": 3267451,
+      "buyLimit": 8,
+      "dailyVolume": 700
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -5,
+        "ranged": -5
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

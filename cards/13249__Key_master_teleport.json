@@ -1,0 +1,42 @@
+{
+  "id": 1472,
+  "cardId": "itm_key-master-teleport",
+  "name": "Key master teleport",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Teleports you to the Key Master.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Key_master_teleport.png",
+  "debut": "2015-08-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13249
+    ],
+    "pageSlug": "Key_master_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Key_master_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Teleport",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 27197,
+      "buyLimit": null,
+      "dailyVolume": 7242
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,72 @@
+{
+  "id": 2245,
+  "cardId": "npc_ice-troll-runt",
+  "name": "Ice troll runt",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An ice troll youngling.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ice_troll_runt.png",
+  "debut": "2007-02-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1874,
+      5828
+    ],
+    "pageSlug": "Ice_troll_runt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ice_troll_runt"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 74,
+    "vitality": 60,
+    "peakDamage": "15",
+    "combatXpBonusPct": 5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 63,
+      "group": "Trolls",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 60,
+      "strength": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

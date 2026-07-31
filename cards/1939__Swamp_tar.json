@@ -1,0 +1,40 @@
+{
+  "id": 2282,
+  "cardId": "itm_swamp-tar",
+  "name": "Swamp tar",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A foul smelling thick tar-like substance.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Swamp_tar.png",
+  "debut": "2002-09-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1939
+    ],
+    "pageSlug": "Swamp_tar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Swamp_tar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 3,
+      "buyLimit": 13000,
+      "dailyVolume": 3641396
+    }
+  }
+}

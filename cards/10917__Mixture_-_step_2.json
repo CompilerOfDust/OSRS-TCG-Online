@@ -1,0 +1,42 @@
+{
+  "id": 398,
+  "cardId": "itm_mixture-step-2-1",
+  "name": "Mixture - step 2(4)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    10919,
+    10921,
+    10923
+  ],
+  "flavourText": "This super restore, unicorn dust, snake weed potion needs more ingredients.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mixture_-_step_2%284%29.png",
+  "debut": "2007-03-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10917
+    ],
+    "pageSlug": "Mixture_-_step_2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mixture_-_step_2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 72,
+    "lowAlchemy": 48,
+    "weightKg": 0.02,
+    "market": null
+  },
+  "special": false
+}

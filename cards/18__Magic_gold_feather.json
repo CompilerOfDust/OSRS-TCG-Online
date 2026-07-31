@@ -1,0 +1,37 @@
+{
+  "id": 2264,
+  "cardId": "itm_magic-gold-feather",
+  "name": "Magic gold feather",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It will point the way for me.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_gold_feather.png",
+  "debut": "2002-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      18
+    ],
+    "pageSlug": "Magic_gold_feather",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_gold_feather"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Blow-on",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.005,
+    "market": null
+  }
+}

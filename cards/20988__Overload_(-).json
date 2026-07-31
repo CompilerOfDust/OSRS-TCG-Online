@@ -1,0 +1,41 @@
+{
+  "id": 2749,
+  "cardId": "itm_overload-1__1",
+  "name": "Overload (-)(4)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    20985,
+    20986,
+    20987
+  ],
+  "flavourText": "The power of elder warriors, twisted archers and kodai wizards combined; extremely dangerous. It was mixed particularly badly.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Overload_%28-%29%284%29.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20988
+    ],
+    "pageSlug": "Overload_(-)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Overload_(-)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 7290,
+  "cardId": "itm_steel-key-ring",
+  "name": "Steel key ring",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I can store my keys here.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_key_ring.png",
+  "debut": "2005-02-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4446
+    ],
+    "pageSlug": "Steel_key_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_key_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Check-keys",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

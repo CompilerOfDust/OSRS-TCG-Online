@@ -1,0 +1,37 @@
+{
+  "id": 8694,
+  "cardId": "itm_unidentified-liquid",
+  "name": "Unidentified liquid",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A strong chemical.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unidentified_liquid.png",
+  "debut": "2003-07-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      702
+    ],
+    "pageSlug": "Nitroglycerin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nitroglycerin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.025,
+    "market": null
+  }
+}

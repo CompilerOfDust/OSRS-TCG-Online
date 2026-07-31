@@ -1,0 +1,43 @@
+{
+  "id": 2183,
+  "cardId": "itm_bronze-wire",
+  "name": "Bronze wire",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    5602
+  ],
+  "flavourText": "Useful for Crafting items.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_wire.png",
+  "debut": "2003-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1794
+    ],
+    "pageSlug": "Bronze_wire",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_wire"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 218,
+      "buyLimit": 15,
+      "dailyVolume": 3304
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": 6117,
+  "cardId": "itm_wooden-hull-parts",
+  "name": "Wooden hull parts",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating a wooden hull for a boat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wooden_hull_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32041
+    ],
+    "pageSlug": "Wooden_hull_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wooden_hull_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 89,
+      "buyLimit": 100,
+      "dailyVolume": 281
+    }
+  },
+  "special": false
+}

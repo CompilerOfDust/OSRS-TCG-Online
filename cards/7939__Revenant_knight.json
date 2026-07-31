@@ -1,0 +1,66 @@
+{
+  "id": 9217,
+  "cardId": "npc_revenant-knight",
+  "name": "Revenant knight",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The ghost of a knight slain long ago.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Revenant_knight.png",
+  "debut": "2017-11-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7939
+    ],
+    "pageSlug": "Revenant_knight",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Revenant_knight"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 126,
+    "vitality": null,
+    "peakDamage": "27",
+    "combatXpBonusPct": 17.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 20,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 168,
+      "group": "Revenants, Ghosts",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Krystilia",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

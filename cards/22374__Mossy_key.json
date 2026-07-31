@@ -1,0 +1,36 @@
+{
+  "id": 3238,
+  "cardId": "itm_mossy-key",
+  "name": "Mossy key",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A key to the chest of Bryophyta, the Moss Giantess.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mossy_key.png",
+  "debut": "2018-05-03",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22374
+    ],
+    "pageSlug": "Mossy_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mossy_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

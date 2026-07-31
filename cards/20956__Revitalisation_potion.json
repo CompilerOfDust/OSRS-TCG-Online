@@ -1,0 +1,42 @@
+{
+  "id": 2740,
+  "cardId": "itm_revitalisation-potion-1",
+  "name": "Revitalisation potion (4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    20953,
+    20954,
+    20955
+  ],
+  "flavourText": "This potion will aid stat recovery. It was mixed reasonably well.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Revitalisation_potion_%284%29.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20956
+    ],
+    "pageSlug": "Revitalisation_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Revitalisation_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.02,
+    "market": null
+  },
+  "special": false
+}

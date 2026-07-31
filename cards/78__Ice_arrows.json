@@ -1,0 +1,63 @@
+{
+  "id": 9187,
+  "cardId": "itm_ice-arrows",
+  "name": "Ice arrows",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Can only be fired from yew, magic, dark or twisted bows.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ice_arrows_1.png",
+  "debut": "2002-06-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      78
+    ],
+    "pageSlug": "Ice_arrows",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ice_arrows"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 16,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

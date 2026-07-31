@@ -1,0 +1,40 @@
+{
+  "id": 6828,
+  "cardId": "itm_raw-lobster",
+  "name": "Raw lobster",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_lobster.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      377
+    ],
+    "pageSlug": "Raw_lobster",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_lobster"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 42,
+    "lowAlchemy": 28,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 120,
+      "buyLimit": 15000,
+      "dailyVolume": 636354
+    }
+  }
+}

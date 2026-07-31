@@ -1,0 +1,41 @@
+{
+  "id": 3341,
+  "cardId": "itm_vial-of-water",
+  "name": "Vial of water",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A glass vial containing water.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vial_of_water.png",
+  "debut": "2002-02-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      227
+    ],
+    "pageSlug": "Vial_of_water",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vial_of_water"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 13000,
+      "dailyVolume": 4401671
+    }
+  }
+}

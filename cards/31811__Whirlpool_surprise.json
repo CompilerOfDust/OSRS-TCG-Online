@@ -1,0 +1,37 @@
+{
+  "id": 5969,
+  "cardId": "itm_whirlpool-surprise",
+  "name": "Whirlpool surprise",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Rum-dashed Ralph's specialty. It's made from rum, fresh bananas, rum, sugar cane and rum!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Whirlpool_surprise.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31811
+    ],
+    "pageSlug": "Whirlpool_surprise",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Whirlpool_surprise"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

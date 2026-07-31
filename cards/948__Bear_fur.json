@@ -1,0 +1,40 @@
+{
+  "id": 9913,
+  "cardId": "itm_bear-fur",
+  "name": "Bear fur",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This would make warm clothing.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bear_fur.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      948
+    ],
+    "pageSlug": "Bear_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bear_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 50,
+      "buyLimit": 18000,
+      "dailyVolume": 1548
+    }
+  }
+}

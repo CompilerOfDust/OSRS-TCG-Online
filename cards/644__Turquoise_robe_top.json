@@ -1,0 +1,67 @@
+{
+  "id": 8379,
+  "cardId": "itm_turquoise-robe-top",
+  "name": "Turquoise robe top",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The ultimate in gnome design, now in turquoise!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Turquoise_robe_top.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      644
+    ],
+    "pageSlug": "Turquoise_robe_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Turquoise_robe_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 108,
+    "lowAlchemy": 72,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 1132,
+      "buyLimit": 150,
+      "dailyVolume": 105
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 2,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

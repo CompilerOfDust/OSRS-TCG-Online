@@ -1,0 +1,41 @@
+{
+  "id": 3422,
+  "cardId": "itm_bread",
+  "name": "Bread",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Nice crispy bread.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bread.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2309
+    ],
+    "pageSlug": "Bread",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bread"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 4,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 96,
+      "buyLimit": 6000,
+      "dailyVolume": 32806
+    }
+  }
+}

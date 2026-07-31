@@ -1,0 +1,54 @@
+{
+  "id": 1941,
+  "cardId": "npc_manta-ray",
+  "name": "Manta ray",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Might be feeling a little flat.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Manta_ray_(Sailing).png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15220
+    ],
+    "pageSlug": "Manta_ray_(monster)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Manta_ray_(monster)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 133,
+    "vitality": null,
+    "peakDamage": "8",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 973,
+  "cardId": "npc_strangled",
+  "name": "Strangled",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A victim of the Strangler.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Strangled_(1).png",
+  "debut": "2023-07-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12268,
+      12275,
+      12281,
+      12429
+    ],
+    "pageSlug": "Strangled",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Strangled"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 138,
+    "vitality": 40,
+    "peakDamage": "3",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Typeless"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 110,
+      "strength": 50,
+      "defence": 30,
+      "magic": 50,
+      "ranged": 0
+    },
+    "aggressiveBonuses": null
+  }
+}

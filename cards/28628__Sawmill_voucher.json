@@ -1,0 +1,41 @@
+{
+  "id": 4937,
+  "cardId": "itm_sawmill-voucher",
+  "name": "Sawmill voucher",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Used to provide additional planks at the sawmill.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sawmill_voucher.png",
+  "debut": "2023-10-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28628
+    ],
+    "pageSlug": "Sawmill_voucher",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sawmill_voucher"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 3488,
+      "buyLimit": 10000,
+      "dailyVolume": 20877
+    }
+  },
+  "special": false
+}

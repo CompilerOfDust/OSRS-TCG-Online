@@ -1,0 +1,40 @@
+{
+  "id": 5164,
+  "cardId": "itm_small-fur-pouch",
+  "name": "Small fur pouch",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A small pouch for carrying animal furs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Small_fur_pouch.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29299
+    ],
+    "pageSlug": "Small_fur_pouch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Small_fur_pouch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Fill",
+      "Empty",
+      "Check",
+      "Open",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1800,
+    "lowAlchemy": 1200,
+    "weightKg": 1,
+    "market": null
+  }
+}

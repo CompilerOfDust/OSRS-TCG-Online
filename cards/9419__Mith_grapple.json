@@ -1,0 +1,70 @@
+{
+  "id": 9855,
+  "cardId": "itm_mith-grapple",
+  "name": "Mith grapple",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    9418
+  ],
+  "flavourText": "A mithril grapple tipped bolt with a rope.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mith_grapple.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9419
+    ],
+    "pageSlug": "Mith_grapple",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mith_grapple"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 1830,
+      "buyLimit": 11000,
+      "dailyVolume": 1612
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

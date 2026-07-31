@@ -1,0 +1,47 @@
+{
+  "id": 8082,
+  "cardId": "itm_tomatoes-1",
+  "name": "Tomatoes(5)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    5960,
+    5962,
+    5964,
+    5966
+  ],
+  "flavourText": "A fruit basket filled with tomatoes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tomatoes%285%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5968
+    ],
+    "pageSlug": "Tomatoes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tomatoes"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Fill",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": null,
+      "buyLimit": null,
+      "dailyVolume": null
+    }
+  }
+}

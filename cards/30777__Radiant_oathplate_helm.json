@@ -1,0 +1,64 @@
+{
+  "id": 5588,
+  "cardId": "itm_radiant-oathplate-helm",
+  "name": "Radiant oathplate helm",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A helm forged from infernal metal, then purified by an ancient rite.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Radiant_oathplate_helm.png",
+  "debut": "2025-05-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30777
+    ],
+    "pageSlug": "Radiant_oathplate_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Radiant_oathplate_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Revert",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 120000,
+    "lowAlchemy": 80000,
+    "weightKg": 2.721,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 10,
+        "crush": 0,
+        "magic": -2,
+        "ranged": -7
+      },
+      "defence": {
+        "stab": 50,
+        "slash": 72,
+        "crush": 45,
+        "magic": 0,
+        "ranged": 50
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 6,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

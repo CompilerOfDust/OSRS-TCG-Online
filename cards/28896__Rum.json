@@ -1,0 +1,45 @@
+{
+  "id": 5026,
+  "cardId": "itm_rum",
+  "name": "Rum",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    8940,
+    8941
+  ],
+  "flavourText": "A strong spirit with a bold flavour.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rum.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28896
+    ],
+    "pageSlug": "Rum",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rum"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 325,
+      "buyLimit": null,
+      "dailyVolume": 18883
+    }
+  },
+  "special": false
+}

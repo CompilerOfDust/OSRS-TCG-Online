@@ -1,0 +1,57 @@
+{
+  "id": 9343,
+  "cardId": "npc_andiess-juip",
+  "name": "Andiess Juip",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A fighter for the Myreque.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2018-05-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8228,
+      8229
+    ],
+    "pageSlug": "Andiess_Juip",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Andiess_Juip"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Meiyerditch"
+    ],
+    "questLine": "A Taste of Hope",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

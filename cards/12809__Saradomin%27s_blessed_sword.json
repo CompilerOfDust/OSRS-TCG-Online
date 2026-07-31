@@ -1,0 +1,64 @@
+{
+  "id": 1266,
+  "cardId": "itm_saradomins-blessed-sword",
+  "name": "Saradomin's blessed sword",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "The blade of an Icyene, blessed with a tear from Saradomin himself.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Saradomin%27s_blessed_sword.png",
+  "debut": "2014-10-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12809
+    ],
+    "pageSlug": "Saradomin%27s_blessed_sword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Saradomin%27s_blessed_sword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Check",
+      "Revert"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 173910,
+    "lowAlchemy": 115940,
+    "weightKg": 3,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 100,
+        "crush": 60,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 88,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 3597,
+  "cardId": "itm_egniol-potion-1",
+  "name": "Egniol potion (4)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    23882,
+    23883,
+    23884
+  ],
+  "flavourText": "4 doses of a divine and energising potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Egniol_potion_%284%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23885
+    ],
+    "pageSlug": "Egniol_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Egniol_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

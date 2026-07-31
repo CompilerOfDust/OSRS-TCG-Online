@@ -1,0 +1,41 @@
+{
+  "id": 5528,
+  "cardId": "itm_big-fishing-net",
+  "name": "Big fishing net",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Useful for catching lots of fish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Big_fishing_net.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      305
+    ],
+    "pageSlug": "Big_fishing_net",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Big_fishing_net"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 8.164,
+    "market": {
+      "guidePrice": 257,
+      "buyLimit": 40,
+      "dailyVolume": 1118
+    }
+  },
+  "special": false
+}

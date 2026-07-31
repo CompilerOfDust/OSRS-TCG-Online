@@ -1,0 +1,38 @@
+{
+  "id": 7160,
+  "cardId": "itm_treasure-map",
+  "name": "Treasure map",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A complete treasure map.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Treasure_map.png",
+  "debut": "2005-02-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4277
+    ],
+    "pageSlug": "Treasure_map",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Treasure_map"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Read",
+      "Follow",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

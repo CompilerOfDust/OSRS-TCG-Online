@@ -1,0 +1,41 @@
+{
+  "id": 3260,
+  "cardId": "itm_vial-of-blood",
+  "name": "Vial of blood",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A glass vial containing blood.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vial_of_blood.png",
+  "debut": "2018-06-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22446
+    ],
+    "pageSlug": "Vial_of_blood",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vial_of_blood"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 7734,
+      "buyLimit": 13000,
+      "dailyVolume": 110062
+    }
+  }
+}

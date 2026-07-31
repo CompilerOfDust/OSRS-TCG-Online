@@ -1,0 +1,42 @@
+{
+  "id": 6081,
+  "cardId": "itm_narwhal-horn",
+  "name": "Narwhal horn",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The sharp horn of a narwhal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Narwhal_horn.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31954
+    ],
+    "pageSlug": "Narwhal_horn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Narwhal_horn"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4800,
+    "lowAlchemy": 3200,
+    "weightKg": 1.5,
+    "market": {
+      "guidePrice": 39720,
+      "buyLimit": 15,
+      "dailyVolume": 197
+    }
+  },
+  "special": false
+}

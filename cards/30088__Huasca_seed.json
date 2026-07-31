@@ -1,0 +1,41 @@
+{
+  "id": 5394,
+  "cardId": "itm_huasca-seed",
+  "name": "Huasca seed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A huasca seed - plant in a herb patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Huasca_seed_1.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30088
+    ],
+    "pageSlug": "Huasca_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Huasca_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 42,
+    "lowAlchemy": 28,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 50506,
+      "buyLimit": 200,
+      "dailyVolume": 4906
+    }
+  },
+  "special": false
+}

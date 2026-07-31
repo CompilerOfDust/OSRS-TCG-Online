@@ -1,0 +1,56 @@
+{
+  "id": 1807,
+  "cardId": "npc_humphrey-dumphrey",
+  "name": "Humphrey Dumphrey",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An egg.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2025-07-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14487
+    ],
+    "pageSlug": "Humphrey_Dumphrey",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Humphrey_Dumphrey"
+  },
+  "npcProfile": {
+    "race": "Egg",
+    "gender": "Male",
+    "locations": [
+      "Tal Teok"
+    ],
+    "questLine": "Scrambled!",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

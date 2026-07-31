@@ -1,0 +1,41 @@
+{
+  "id": 6647,
+  "cardId": "itm_raw-herring",
+  "name": "Raw herring",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_herring.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      345
+    ],
+    "pageSlug": "Raw_herring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_herring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 71,
+      "buyLimit": 15000,
+      "dailyVolume": 72171
+    }
+  },
+  "special": false
+}

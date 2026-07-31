@@ -1,0 +1,67 @@
+{
+  "id": 689,
+  "cardId": "itm_black-med-helm",
+  "name": "Black med helm",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A medium sized helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_med_helm.png",
+  "debut": "2002-02-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1151
+    ],
+    "pageSlug": "Black_med_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_med_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 345,
+    "lowAlchemy": 230,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 185,
+      "buyLimit": 125,
+      "dailyVolume": 190
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 10,
+        "crush": 8,
+        "magic": -1,
+        "ranged": 9
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

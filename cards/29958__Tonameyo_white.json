@@ -1,0 +1,41 @@
+{
+  "id": 5351,
+  "cardId": "itm_tonameyo-white",
+  "name": "Tonameyo white",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A rich and bold Darkfrost White that's considered by some to be sacred.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tonameyo_white.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29958
+    ],
+    "pageSlug": "Tonameyo_white",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tonameyo_white"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 360,
+    "lowAlchemy": 240,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 671,
+      "buyLimit": null,
+      "dailyVolume": 0
+    }
+  }
+}

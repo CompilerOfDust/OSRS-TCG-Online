@@ -1,0 +1,41 @@
+{
+  "id": 9862,
+  "cardId": "itm_adamantite-limbs",
+  "name": "Adamantite limbs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A pair of adamantite crossbow limbs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamantite_limbs.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9429
+    ],
+    "pageSlug": "Adamantite_limbs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamantite_limbs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 960,
+    "lowAlchemy": 640,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 1664,
+      "buyLimit": 10000,
+      "dailyVolume": 35
+    }
+  },
+  "special": false
+}

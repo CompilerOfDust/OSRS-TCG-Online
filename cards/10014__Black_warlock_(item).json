@@ -1,0 +1,44 @@
+{
+  "id": 6,
+  "cardId": "itm_black-warlock__1",
+  "name": "Black warlock",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    29189,
+    29207
+  ],
+  "flavourText": "There's a black warlock butterfly in here.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_warlock_%28item%29.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10014
+    ],
+    "pageSlug": "Black_warlock_(item)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_warlock_(item)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Release",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 42,
+    "lowAlchemy": 28,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 306,
+      "buyLimit": 125,
+      "dailyVolume": 713
+    }
+  }
+}

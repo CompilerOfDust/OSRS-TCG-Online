@@ -1,0 +1,64 @@
+{
+  "id": 4748,
+  "cardId": "itm_barrelchest-anchor-bh",
+  "name": "Barrelchest anchor (bh)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "This is likely to put my back out...",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Barrelchest_anchor_%28bh%29.png",
+  "debut": "2023-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27855
+    ],
+    "pageSlug": "Barrelchest_anchor_(bh)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Barrelchest_anchor_(bh)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Dismantle"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 30,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": -2,
+        "slash": 10,
+        "crush": 102,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 110,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

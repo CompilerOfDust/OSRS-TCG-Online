@@ -1,0 +1,65 @@
+{
+  "id": 4754,
+  "cardId": "itm_abyssal-dagger-bh",
+  "name": "Abyssal dagger (bh)",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Something sharp from the body of a defeated Abyssal Sire.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Abyssal_dagger_%28bh%29.png",
+  "debut": "2023-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27861
+    ],
+    "pageSlug": "Abyssal_dagger_(bh)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Abyssal_dagger_(bh)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 85,
+        "slash": 40,
+        "crush": -4,
+        "magic": 1,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 1,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 75,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

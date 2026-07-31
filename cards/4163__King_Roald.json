@@ -1,0 +1,63 @@
+{
+  "id": 7052,
+  "cardId": "npc_king-roald",
+  "name": "King Roald",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    1399,
+    5215,
+    6328,
+    6389,
+    8042,
+    11019,
+    12621,
+    12698
+  ],
+  "flavourText": "Varrock's resident monarch. He looks strangely evil!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/King_Roald.png",
+  "debut": "2007-03-27",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4163
+    ],
+    "pageSlug": "King_Roald",
+    "pageUrl": "https://oldschool.runescape.wiki/w/King_Roald"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 47,
+    "vitality": null,
+    "peakDamage": "3",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": true,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

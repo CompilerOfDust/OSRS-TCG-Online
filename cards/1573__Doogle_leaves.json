@@ -1,0 +1,40 @@
+{
+  "id": 2023,
+  "cardId": "itm_doogle-leaves",
+  "name": "Doogle leaves",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A tasty herb, good for seasoning.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Doogle_leaves.png",
+  "debut": "2003-07-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1573
+    ],
+    "pageSlug": "Doogle_leaves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Doogle_leaves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 110,
+      "buyLimit": 15,
+      "dailyVolume": 918
+    }
+  }
+}

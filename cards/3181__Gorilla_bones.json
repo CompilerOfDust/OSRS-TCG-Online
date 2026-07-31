@@ -1,0 +1,39 @@
+{
+  "id": 5972,
+  "cardId": "itm_gorilla-bones",
+  "name": "Gorilla bones",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    4265
+  ],
+  "flavourText": "These are quite large ape bones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gorilla_bones.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3181
+    ],
+    "pageSlug": "Gorilla_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gorilla_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.8,
+    "market": null
+  }
+}

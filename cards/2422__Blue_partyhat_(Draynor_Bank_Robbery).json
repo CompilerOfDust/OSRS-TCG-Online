@@ -1,0 +1,37 @@
+{
+  "id": 3687,
+  "cardId": "itm_blue-partyhat__1",
+  "name": "Blue partyhat",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A nice hat from a cracker.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_partyhat_%28Draynor_Bank_Robbery%29.png",
+  "debut": "2005-08-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2422
+    ],
+    "pageSlug": "Blue_partyhat_(Draynor_Bank_Robbery)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_partyhat_(Draynor_Bank_Robbery)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

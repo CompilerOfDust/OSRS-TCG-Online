@@ -1,0 +1,36 @@
+{
+  "id": 740,
+  "cardId": "itm_raw-pheasant",
+  "name": "Raw pheasant",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to cook this first.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_pheasant.png",
+  "debut": "2013-05-09",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11704
+    ],
+    "pageSlug": "Raw_pheasant",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_pheasant"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 10,
+    "market": null
+  }
+}

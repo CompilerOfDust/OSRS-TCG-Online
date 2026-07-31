@@ -1,0 +1,58 @@
+{
+  "id": 160,
+  "cardId": "npc_old-man-yarlo",
+  "name": "Old Man Yarlo",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He's retired to a life of not very much luxury.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2020-08-26",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10425,
+      10426,
+      10427
+    ],
+    "pageSlug": "Old_Man_Yarlo",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Old_Man_Yarlo"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Varrock"
+    ],
+    "questLine": "Daddy's Home",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

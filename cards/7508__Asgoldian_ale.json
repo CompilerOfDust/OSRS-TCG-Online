@@ -1,0 +1,37 @@
+{
+  "id": 8956,
+  "cardId": "itm_asgoldian-ale",
+  "name": "Asgoldian ale",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "There appears to be a coin in the bottom. Liked by dwarves.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Asgoldian_ale.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7508
+    ],
+    "pageSlug": "Asgoldian_ale",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Asgoldian_ale"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.55,
+    "market": null
+  }
+}

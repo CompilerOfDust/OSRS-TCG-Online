@@ -1,0 +1,41 @@
+{
+  "id": 8068,
+  "cardId": "itm_willow-branch",
+  "name": "Willow branch",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A branch from a willow tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Willow_branch.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5933
+    ],
+    "pageSlug": "Willow_branch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Willow_branch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 1825,
+      "buyLimit": 11000,
+      "dailyVolume": 2742
+    }
+  },
+  "special": false
+}

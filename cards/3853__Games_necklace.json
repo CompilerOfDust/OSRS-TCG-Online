@@ -1,0 +1,77 @@
+{
+  "id": 6869,
+  "cardId": "itm_games-necklace-1",
+  "name": "Games necklace(8)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    3855,
+    3857,
+    3859,
+    3861,
+    3863,
+    3865,
+    3867
+  ],
+  "flavourText": "An enchanted necklace.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Games_necklace.png",
+  "debut": "2004-11-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3853
+    ],
+    "pageSlug": "Games_necklace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Games_necklace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Rub",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 630,
+    "lowAlchemy": 420,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": null,
+      "buyLimit": null,
+      "dailyVolume": null
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

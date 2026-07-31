@@ -1,0 +1,59 @@
+{
+  "id": 7659,
+  "cardId": "npc_alice",
+  "name": "Alice",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "She sells farming equipment.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-07-11",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      504,
+      4422
+    ],
+    "pageSlug": "Alice",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Alice"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Farm",
+      "Port Phasmatys"
+    ],
+    "questLine": "Animal Magnetism",
+    "shop": "Alice's Farming shop.",
+    "menuActions": [
+      "Talk-to",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

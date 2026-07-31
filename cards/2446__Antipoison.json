@@ -1,0 +1,49 @@
+{
+  "id": 2188,
+  "cardId": "itm_antipoison-1",
+  "name": "Antipoison(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    175,
+    177,
+    179,
+    11433,
+    11435
+  ],
+  "flavourText": "4 doses of antipoison potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Antipoison%284%29.png",
+  "debut": "2002-02-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2446
+    ],
+    "pageSlug": "Antipoison",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Antipoison"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 86,
+    "lowAlchemy": 57,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 95,
+      "buyLimit": 2000,
+      "dailyVolume": 1303
+    }
+  },
+  "special": false
+}

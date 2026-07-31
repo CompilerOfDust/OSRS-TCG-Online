@@ -1,0 +1,42 @@
+{
+  "id": 9108,
+  "cardId": "itm_toy-mouse",
+  "name": "Toy mouse",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Nice bit of crafting!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Toy_mouse.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7767
+    ],
+    "pageSlug": "Toy_mouse",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Toy_mouse"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wind",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 3089,
+      "buyLimit": 150,
+      "dailyVolume": 118
+    }
+  },
+  "special": false
+}

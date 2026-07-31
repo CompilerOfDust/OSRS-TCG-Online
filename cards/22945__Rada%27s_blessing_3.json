@@ -1,0 +1,65 @@
+{
+  "id": 3384,
+  "cardId": "itm_radas-blessing-3",
+  "name": "Rada's blessing 3",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A blessing scroll from distant lands.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rada%27s_blessing_3.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22945
+    ],
+    "pageSlug": "Rada%27s_blessing_3",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rada%27s_blessing_3"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Equip",
+      "Kourend Woodland",
+      "Mount Karuulm",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

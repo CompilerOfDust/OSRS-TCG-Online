@@ -1,0 +1,37 @@
+{
+  "id": 4418,
+  "cardId": "itm_snotheads-bone",
+  "name": "Snothead's bone",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An ancient goblin bone wrapped in fragments of priestly robes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snothead%27s_bone.png",
+  "debut": "2022-02-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26589
+    ],
+    "pageSlug": "Snothead%27s_bone",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snothead%27s_bone"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Bury",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

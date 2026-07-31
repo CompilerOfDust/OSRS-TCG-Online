@@ -1,0 +1,43 @@
+{
+  "id": 2169,
+  "cardId": "itm_molten-glass",
+  "name": "Molten glass",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    24260
+  ],
+  "flavourText": "Hot glass ready to be blown into useful objects.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Molten_glass.png",
+  "debut": "2002-03-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1775
+    ],
+    "pageSlug": "Molten_glass",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Molten_glass"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 94,
+      "buyLimit": 13000,
+      "dailyVolume": 3127125
+    }
+  },
+  "special": false
+}

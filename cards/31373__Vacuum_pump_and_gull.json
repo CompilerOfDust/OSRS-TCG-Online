@@ -1,0 +1,37 @@
+{
+  "id": 5810,
+  "cardId": "itm_vacuum-pump-and-gull",
+  "name": "Vacuum pump and gull",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It sounds like a law firm.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vacuum_pump_and_gull.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31373
+    ],
+    "pageSlug": "Vacuum_pump_and_gull",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vacuum_pump_and_gull"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Play",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 8,
+    "market": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 8208,
+  "cardId": "itm_spined-helm",
+  "name": "Spined helm",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A helm fit for any Fremennik ranger.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spined_helm.png",
+  "debut": "2005-08-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6131
+    ],
+    "pageSlug": "Spined_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spined_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 36000,
+    "lowAlchemy": 24000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 41287,
+      "buyLimit": 70,
+      "dailyVolume": 10
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -6,
+        "slash": -6,
+        "crush": -6,
+        "magic": -6,
+        "ranged": 6
+      },
+      "defence": {
+        "stab": 6,
+        "slash": 6,
+        "crush": 6,
+        "magic": 6,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

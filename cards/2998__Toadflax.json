@@ -1,0 +1,41 @@
+{
+  "id": 5364,
+  "cardId": "itm_toadflax",
+  "name": "Toadflax",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A useful herb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Toadflax.png",
+  "debut": "2004-07-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2998
+    ],
+    "pageSlug": "Toadflax",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Toadflax"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 28,
+    "lowAlchemy": 19,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 2062,
+      "buyLimit": 13000,
+      "dailyVolume": 252230
+    }
+  },
+  "special": false
+}

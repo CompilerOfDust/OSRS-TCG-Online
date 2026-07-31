@@ -1,0 +1,57 @@
+{
+  "id": 7471,
+  "cardId": "npc_tamayu",
+  "name": "Tamayu",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A hunter who long ago succumbed to blood lust.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-09-14",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4703,
+      4704,
+      4705,
+      4706
+    ],
+    "pageSlug": "Tamayu",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tamayu"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Tai Bwo Wannai"
+    ],
+    "questLine": "Tai Bwo Wannai Trio",
+    "shop": "Tamayu's Spear Stall",
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

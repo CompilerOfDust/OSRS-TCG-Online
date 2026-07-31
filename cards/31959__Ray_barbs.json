@@ -1,0 +1,41 @@
+{
+  "id": 6083,
+  "cardId": "itm_ray-barbs",
+  "name": "Ray barbs",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The barbed tip of a ray's tail.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ray_barbs.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31959
+    ],
+    "pageSlug": "Ray_barbs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ray_barbs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4800,
+    "lowAlchemy": 3200,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 136723,
+      "buyLimit": 15,
+      "dailyVolume": 938
+    }
+  }
+}

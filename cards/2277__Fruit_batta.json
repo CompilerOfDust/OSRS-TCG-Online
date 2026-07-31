@@ -1,0 +1,42 @@
+{
+  "id": 3333,
+  "cardId": "itm_fruit-batta",
+  "name": "Fruit batta",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It actually smells quite good.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fruit_batta.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2277
+    ],
+    "pageSlug": "Fruit_batta",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fruit_batta"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 4547,
+      "buyLimit": 6000,
+      "dailyVolume": 114
+    }
+  },
+  "special": false
+}

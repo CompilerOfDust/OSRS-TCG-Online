@@ -1,0 +1,65 @@
+{
+  "id": 4703,
+  "cardId": "itm_vestas-chainbody-bh",
+  "name": "Vesta's chainbody (bh)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A powerful chainbody.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vesta%27s_chainbody_%28bh%29.png",
+  "debut": "2023-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27831
+    ],
+    "pageSlug": "Vesta%27s_chainbody_(bh)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vesta%27s_chainbody_(bh)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Uncharge",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 6.803,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 14,
+        "slash": 14,
+        "crush": 4,
+        "magic": -32,
+        "ranged": -15
+      },
+      "defence": {
+        "stab": 55,
+        "slash": 59,
+        "crush": 62,
+        "magic": -18,
+        "ranged": 85
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 6,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

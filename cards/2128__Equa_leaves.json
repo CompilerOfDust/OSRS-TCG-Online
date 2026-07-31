@@ -1,0 +1,42 @@
+{
+  "id": 2872,
+  "cardId": "itm_equa-leaves",
+  "name": "Equa leaves",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Small sweet smelling leaves.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Equa_leaves.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2128
+    ],
+    "pageSlug": "Equa_leaves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Equa_leaves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.014,
+    "market": {
+      "guidePrice": 332,
+      "buyLimit": 13000,
+      "dailyVolume": 460
+    }
+  },
+  "special": false
+}

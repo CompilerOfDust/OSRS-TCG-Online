@@ -1,0 +1,37 @@
+{
+  "id": 3691,
+  "cardId": "itm_venom-gland",
+  "name": "Venom gland",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A gland filled with venom.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Venom_gland.png",
+  "debut": "2019-09-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24255
+    ],
+    "pageSlug": "Venom_gland",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Venom_gland"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Investigate",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.005,
+    "market": null
+  }
+}

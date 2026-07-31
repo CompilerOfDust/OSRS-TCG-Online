@@ -1,0 +1,42 @@
+{
+  "id": 6293,
+  "cardId": "itm_sardine",
+  "name": "Sardine",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Some nicely cooked sardines.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sardine.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      325
+    ],
+    "pageSlug": "Sardine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sardine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.12,
+    "market": {
+      "guidePrice": 13,
+      "buyLimit": 6000,
+      "dailyVolume": 14703
+    }
+  },
+  "special": false
+}

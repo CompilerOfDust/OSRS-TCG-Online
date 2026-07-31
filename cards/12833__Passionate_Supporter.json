@@ -1,0 +1,54 @@
+{
+  "id": 1295,
+  "cardId": "npc_passionate-supporter",
+  "name": "Passionate Supporter",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He's a little too keen for my liking.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Passionate_Supporter.png",
+  "debut": "2024-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12833
+    ],
+    "pageSlug": "Passionate_Supporter",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Passionate_Supporter"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 7,
+    "vitality": null,
+    "peakDamage": "1",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

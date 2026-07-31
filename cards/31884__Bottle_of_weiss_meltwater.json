@@ -1,0 +1,37 @@
+{
+  "id": 6033,
+  "cardId": "itm_bottle-of-weiss-meltwater",
+  "name": "Bottle of weiss meltwater",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Formerly bottle of weice.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_weiss_meltwater.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31884
+    ],
+    "pageSlug": "Bottle_of_weiss_meltwater",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_weiss_meltwater"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

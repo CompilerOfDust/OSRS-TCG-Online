@@ -1,0 +1,44 @@
+{
+  "id": 7791,
+  "cardId": "itm_bat-bones",
+  "name": "Bat bones",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    2391,
+    4256
+  ],
+  "flavourText": "Ew it's a pile of bones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bat_bones.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      530
+    ],
+    "pageSlug": "Bat_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bat_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.3,
+    "market": {
+      "guidePrice": 382,
+      "buyLimit": 3000,
+      "dailyVolume": 2006
+    }
+  }
+}

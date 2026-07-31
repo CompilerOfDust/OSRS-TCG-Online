@@ -1,0 +1,36 @@
+{
+  "id": 825,
+  "cardId": "itm_mark-of-grace",
+  "name": "Mark of grace",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "You can exchange these for rewards at the Rogues' Den.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mark_of_grace.png",
+  "debut": "2013-12-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11849
+    ],
+    "pageSlug": "Mark_of_grace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mark_of_grace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

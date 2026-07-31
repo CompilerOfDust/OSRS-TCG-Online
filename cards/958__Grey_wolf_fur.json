@@ -1,0 +1,40 @@
+{
+  "id": 9952,
+  "cardId": "itm_grey-wolf-fur",
+  "name": "Grey wolf fur",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This would make warm clothing.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grey_wolf_fur.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      958
+    ],
+    "pageSlug": "Grey_wolf_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grey_wolf_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 15,
+      "buyLimit": 18000,
+      "dailyVolume": 88624
+    }
+  }
+}

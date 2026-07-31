@@ -1,0 +1,36 @@
+{
+  "id": 5225,
+  "cardId": "itm_glarials-pebble",
+  "name": "Glarial's pebble",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A small pebble with elven inscription.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Glarial%27s_pebble.png",
+  "debut": "2002-09-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      294
+    ],
+    "pageSlug": "Glarial%27s_pebble",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Glarial%27s_pebble"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

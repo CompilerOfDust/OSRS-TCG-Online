@@ -1,0 +1,67 @@
+{
+  "id": 1713,
+  "cardId": "itm_battlestaff",
+  "name": "Battlestaff",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It's a slightly magical stick.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Battlestaff.png",
+  "debut": "2002-03-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1391
+    ],
+    "pageSlug": "Battlestaff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Battlestaff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 4200,
+    "lowAlchemy": 2800,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 7189,
+      "buyLimit": 11000,
+      "dailyVolume": 1938373
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 7,
+        "slash": -1,
+        "crush": 25,
+        "magic": 12,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 12,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 32,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 2190,
+  "cardId": "itm_silver-bottle",
+  "name": "Silver bottle",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Carol's shiny silver coated bottle.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silver_bottle.png",
+  "debut": "2003-06-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1800
+    ],
+    "pageSlug": "Silver_bottle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silver_bottle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.09,
+    "market": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 3209,
+  "cardId": "itm_justiciar-legguards",
+  "name": "Justiciar legguards",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A Justiciar's platelegs. Their once bright colours have since faded.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Justiciar_legguards.png",
+  "debut": "2018-06-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22328
+    ],
+    "pageSlug": "Justiciar_legguards",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Justiciar_legguards"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 2700000,
+    "lowAlchemy": 1800000,
+    "weightKg": 9.071,
+    "market": {
+      "guidePrice": 9369966,
+      "buyLimit": 8,
+      "dailyVolume": 319
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -31,
+        "ranged": -17
+      },
+      "defence": {
+        "stab": 95,
+        "slash": 92,
+        "crush": 93,
+        "magic": -14,
+        "ranged": 102
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 4
+      }
+    }
+  }
+}

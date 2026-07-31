@@ -1,0 +1,41 @@
+{
+  "id": 4175,
+  "cardId": "itm_amethyst-dart-tip",
+  "name": "Amethyst dart tip",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A deadly-looking dart tip made of amethyst - needs feathers for flight.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amethyst_dart_tip.png",
+  "debut": "2021-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25853
+    ],
+    "pageSlug": "Amethyst_dart_tip",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amethyst_dart_tip"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 366,
+      "buyLimit": 11000,
+      "dailyVolume": 5977309
+    }
+  },
+  "special": false
+}

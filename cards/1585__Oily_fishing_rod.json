@@ -1,0 +1,36 @@
+{
+  "id": 2037,
+  "cardId": "itm_oily-fishing-rod",
+  "name": "Oily fishing rod",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Useful for catching lava eels.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oily_fishing_rod.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1585
+    ],
+    "pageSlug": "Oily_fishing_rod",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oily_fishing_rod"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 1.36,
+    "market": null
+  }
+}

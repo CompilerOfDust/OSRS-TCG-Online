@@ -1,0 +1,37 @@
+{
+  "id": 5653,
+  "cardId": "itm_cursed-gold-cannonball",
+  "name": "Cursed gold cannonball",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Ammo suited for a boat's cannon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cursed_gold_cannonball.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30957
+    ],
+    "pageSlug": "Cursed_gold_cannonball",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cursed_gold_cannonball"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 3.628,
+    "market": null
+  },
+  "special": false
+}

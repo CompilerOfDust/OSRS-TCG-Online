@@ -1,0 +1,43 @@
+{
+  "id": 8125,
+  "cardId": "itm_plant-cure",
+  "name": "Plant cure",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    6468
+  ],
+  "flavourText": "Use this on plants to cure disease.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Plant_cure.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6036
+    ],
+    "pageSlug": "Plant_cure",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Plant_cure"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.035,
+    "market": {
+      "guidePrice": 163,
+      "buyLimit": 2000,
+      "dailyVolume": 14698
+    }
+  }
+}

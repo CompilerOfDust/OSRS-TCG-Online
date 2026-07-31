@@ -1,0 +1,41 @@
+{
+  "id": 6548,
+  "cardId": "itm_fat-snail",
+  "name": "Fat snail",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The fat, slimy corpse of a deceased giant snail.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fat_snail.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3367
+    ],
+    "pageSlug": "Fat_snail",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fat_snail"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 1723,
+      "buyLimit": 13000,
+      "dailyVolume": 453
+    }
+  },
+  "special": false
+}

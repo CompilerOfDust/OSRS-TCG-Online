@@ -1,0 +1,36 @@
+{
+  "id": 4779,
+  "cardId": "itm_anima-infused-bark",
+  "name": "Anima-infused bark",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Tree bark infused with magical energy and valued by foresters.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Anima-infused_bark.png",
+  "debut": "2023-06-28",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28134
+    ],
+    "pageSlug": "Anima-infused_bark",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Anima-infused_bark"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 6140,
+  "cardId": "npc_spice-seller",
+  "name": "Spice seller",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Has a very exotic aroma about him.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2002-04-30",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3209,
+      4579,
+      8726
+    ],
+    "pageSlug": "Spice_seller",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spice_seller"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "East Ardougne"
+    ],
+    "questLine": "Ratcatchers",
+    "shop": "Ardougne Spice Stall.",
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

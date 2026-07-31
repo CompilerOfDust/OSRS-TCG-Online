@@ -1,0 +1,56 @@
+{
+  "id": 7595,
+  "cardId": "npc_charlie-the-cook",
+  "name": "Charlie the cook",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Distinctly cook-like.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2002-02-27",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4921
+    ],
+    "pageSlug": "Charlie_the_cook",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Charlie_the_cook"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Brimhaven"
+    ],
+    "questLine": "Heroes' Quest",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

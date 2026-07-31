@@ -1,0 +1,64 @@
+{
+  "id": 8573,
+  "cardId": "itm_rat-pole",
+  "name": "Rat pole",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pole for putting rats on.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rat_pole.png",
+  "debut": "2005-11-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6773
+    ],
+    "pageSlug": "Rat_pole",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rat_pole"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2.267,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": -1,
+        "crush": 7,
+        "magic": 4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 4,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 3,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

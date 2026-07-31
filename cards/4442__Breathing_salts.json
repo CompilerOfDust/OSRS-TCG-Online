@@ -1,0 +1,36 @@
+{
+  "id": 7284,
+  "cardId": "itm_breathing-salts",
+  "name": "Breathing salts",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An airtight pot with something inside, most likely breathing salts.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Breathing_salts.png",
+  "debut": "2005-02-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4442
+    ],
+    "pageSlug": "Breathing_salts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Breathing_salts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

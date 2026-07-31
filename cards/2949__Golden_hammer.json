@@ -1,0 +1,36 @@
+{
+  "id": 5224,
+  "cardId": "itm_golden-hammer",
+  "name": "Golden hammer",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A replica hammer made of solid gold.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golden_hammer.png",
+  "debut": "2004-06-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2949
+    ],
+    "pageSlug": "Golden_hammer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golden_hammer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

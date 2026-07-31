@@ -1,0 +1,10 @@
+# Normalise line endings on the way into the repository. Without this, files
+# committed from Windows land with CRLF, which shows up as a whole-file diff for
+# anyone on Linux — including the Plugin Hub's build, which clones this repo.
+* text=auto eol=lf
+
+# Wrapper jar and binaries must never be touched.
+*.jar binary
+*.png binary
+gradlew text eol=lf
+gradlew.bat text eol=crlf

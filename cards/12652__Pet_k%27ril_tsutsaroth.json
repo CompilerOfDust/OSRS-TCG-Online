@@ -1,0 +1,37 @@
+{
+  "id": 1204,
+  "cardId": "itm_pet-kril-tsutsaroth",
+  "name": "Pet k'ril tsutsaroth",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Where did he even come from?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pet_k%27ril_tsutsaroth.png",
+  "debut": "2014-07-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12652
+    ],
+    "pageSlug": "Pet_k%27ril_tsutsaroth",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pet_k%27ril_tsutsaroth"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

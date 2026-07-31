@@ -1,0 +1,36 @@
+{
+  "id": 10160,
+  "cardId": "itm_skewered-bird-meat",
+  "name": "Skewered bird meat",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Skewered bird meat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Skewered_bird_meat.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9984
+    ],
+    "pageSlug": "Skewered_bird_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Skewered_bird_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 48,
+    "lowAlchemy": 32,
+    "weightKg": 1.65,
+    "market": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": 1344,
+  "cardId": "itm_dragon-defender",
+  "name": "Dragon defender",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    19722
+  ],
+  "flavourText": "A defensive weapon.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_defender.png",
+  "debut": "2015-02-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12954
+    ],
+    "pageSlug": "Dragon_defender",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_defender"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 25,
+        "slash": 24,
+        "crush": 23,
+        "magic": -3,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 25,
+        "slash": 24,
+        "crush": 23,
+        "magic": -3,
+        "ranged": -2
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 6,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

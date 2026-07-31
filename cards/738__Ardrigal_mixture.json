@@ -1,0 +1,36 @@
+{
+  "id": 8863,
+  "cardId": "itm_ardrigal-mixture",
+  "name": "Ardrigal mixture",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's a mixture of Ardrigal and water. Needs another ingredient.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ardrigal_mixture.png",
+  "debut": "2003-08-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      738
+    ],
+    "pageSlug": "Ardrigal_mixture",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ardrigal_mixture"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.025,
+    "market": null
+  }
+}

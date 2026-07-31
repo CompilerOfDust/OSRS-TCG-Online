@@ -1,0 +1,43 @@
+{
+  "id": 3365,
+  "cardId": "itm_dragonfruit-sapling",
+  "name": "Dragonfruit sapling",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    22862,
+    22864
+  ],
+  "flavourText": "This sapling is ready to be replanted in a fruit tree patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragonfruit_sapling.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22866
+    ],
+    "pageSlug": "Dragonfruit_sapling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragonfruit_sapling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 132975,
+      "buyLimit": 200,
+      "dailyVolume": 9061
+    }
+  }
+}

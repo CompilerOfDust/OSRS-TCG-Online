@@ -1,0 +1,36 @@
+{
+  "id": 9127,
+  "cardId": "itm_snail-shell",
+  "name": "Snail shell",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A shell from a giant snail.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snail_shell.png",
+  "debut": "2006-03-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7800
+    ],
+    "pageSlug": "Snail_shell",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snail_shell"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 7,
+    "market": null
+  }
+}

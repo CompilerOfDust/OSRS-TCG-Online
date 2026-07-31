@@ -1,0 +1,58 @@
+{
+  "id": 7581,
+  "cardId": "npc_dessourt",
+  "name": "Dessourt",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6311,
+    6372
+  ],
+  "flavourText": "Bad for your teeth...and the rest of your body too.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dessourt.png",
+  "debut": "2006-03-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4883
+    ],
+    "pageSlug": "Dessourt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dessourt"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 121,
+    "vitality": null,
+    "peakDamage": "19",
+    "combatXpBonusPct": 10,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Magic"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

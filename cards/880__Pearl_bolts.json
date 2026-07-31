@@ -1,0 +1,68 @@
+{
+  "id": 9563,
+  "cardId": "itm_pearl-bolts",
+  "name": "Pearl bolts",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Pearl tipped Iron crossbow bolts.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pearl_bolts_1.png",
+  "debut": "2002-09-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      880
+    ],
+    "pageSlug": "Pearl_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pearl_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 7,
+    "lowAlchemy": 5,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 43,
+      "buyLimit": 11000,
+      "dailyVolume": 95735
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 48,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

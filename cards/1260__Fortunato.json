@@ -1,0 +1,57 @@
+{
+  "id": 1168,
+  "cardId": "npc_fortunato",
+  "name": "Fortunato",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Looks like he could do with a sip of amontillado.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-04-10",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1260
+    ],
+    "pageSlug": "Fortunato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fortunato"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Draynor Village"
+    ],
+    "questLine": "Rag and Bone Man I",
+    "shop": "Wine Shop.",
+    "menuActions": [
+      "Talk-to",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

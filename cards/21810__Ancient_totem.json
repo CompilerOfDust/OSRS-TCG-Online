@@ -1,0 +1,41 @@
+{
+  "id": 3039,
+  "cardId": "itm_ancient-totem",
+  "name": "Ancient totem",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A mysterious artifact [ sic ] of ancient times, of reasonable value to emblem traders.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_totem.png",
+  "debut": "2017-11-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21810
+    ],
+    "pageSlug": "Ancient_totem",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_totem"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600000,
+    "lowAlchemy": 400000,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 997578,
+      "buyLimit": 250,
+      "dailyVolume": 3632
+    }
+  },
+  "special": false
+}

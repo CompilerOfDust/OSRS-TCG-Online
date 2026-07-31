@@ -1,0 +1,41 @@
+{
+  "id": 3775,
+  "cardId": "itm_blighted-anglerfish",
+  "name": "Blighted anglerfish",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An unappetising fish, now blighted so it can be eaten only in the Wilderness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blighted_anglerfish.png",
+  "debut": "2020-04-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24592
+    ],
+    "pageSlug": "Blighted_anglerfish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blighted_anglerfish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 93,
+      "buyLimit": 10000,
+      "dailyVolume": 2340686
+    }
+  }
+}

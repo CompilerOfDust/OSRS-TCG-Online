@@ -1,0 +1,70 @@
+{
+  "id": 7377,
+  "cardId": "itm_dragon-scimitar",
+  "name": "Dragon scimitar",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    20000,
+    28031
+  ],
+  "flavourText": "A vicious, curved sword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_scimitar.png",
+  "debut": "2005-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4587
+    ],
+    "pageSlug": "Dragon_scimitar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_scimitar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 59242,
+      "buyLimit": 70,
+      "dailyVolume": 8820
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 8,
+        "slash": 67,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 66,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 943,
+  "cardId": "itm_dragon-dagger",
+  "name": "Dragon dagger",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    28019
+  ],
+  "flavourText": "A powerful dagger.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_dagger.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1215
+    ],
+    "pageSlug": "Dragon_dagger",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_dagger"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 18000,
+    "lowAlchemy": 12000,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 17101,
+      "buyLimit": 70,
+      "dailyVolume": 39246
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 40,
+        "slash": 25,
+        "crush": -4,
+        "magic": 1,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 1,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 40,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

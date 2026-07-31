@@ -1,0 +1,36 @@
+{
+  "id": 2531,
+  "cardId": "itm_uncooked-curry",
+  "name": "Uncooked curry",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to cook this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncooked_curry.png",
+  "debut": "2002-05-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2009
+    ],
+    "pageSlug": "Uncooked_curry",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncooked_curry"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 1.5,
+    "market": null
+  }
+}

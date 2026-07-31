@@ -1,0 +1,37 @@
+{
+  "id": 5137,
+  "cardId": "itm_cooked-bream",
+  "name": "Cooked bream",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Crispy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cooked_bream.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29217
+    ],
+    "pageSlug": "Cooked_bream",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cooked_bream"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.35,
+    "market": null
+  }
+}

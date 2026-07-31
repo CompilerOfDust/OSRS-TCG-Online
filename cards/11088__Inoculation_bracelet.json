@@ -1,0 +1,67 @@
+{
+  "id": 497,
+  "cardId": "itm_inoculation-bracelet",
+  "name": "Inoculation bracelet",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It eases diseases!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Inoculation_bracelet.png",
+  "debut": "2007-04-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11088
+    ],
+    "pageSlug": "Inoculation_bracelet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Inoculation_bracelet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 1536,
+    "lowAlchemy": 1024,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 1165,
+      "buyLimit": 10000,
+      "dailyVolume": 5869
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

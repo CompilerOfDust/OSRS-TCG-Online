@@ -1,0 +1,41 @@
+{
+  "id": 10165,
+  "cardId": "itm_spicy-minced-meat",
+  "name": "Spicy minced meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bowl of fiery minced meat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spicy_minced_meat.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9996
+    ],
+    "pageSlug": "Spicy_minced_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spicy_minced_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 3,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 735,
+      "buyLimit": 8000,
+      "dailyVolume": 365
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 6047,
+  "cardId": "itm_bottle-of-roberts-port",
+  "name": "Bottle of robert's port",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Who is Robert and why does he have his own port? We will never know.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_robert%27s_port.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31897
+    ],
+    "pageSlug": "Bottle_of_robert%27s_port",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_robert%27s_port"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

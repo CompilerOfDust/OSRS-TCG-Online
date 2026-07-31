@@ -1,0 +1,46 @@
+{
+  "id": 3261,
+  "cardId": "itm_battlemage-potion-1",
+  "name": "Battlemage potion(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    22452,
+    22455,
+    22458
+  ],
+  "flavourText": "4 doses of battlemage potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Battlemage_potion%284%29.png",
+  "debut": "2018-06-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22449
+    ],
+    "pageSlug": "Battlemage_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Battlemage_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0.03,
+    "market": {
+      "guidePrice": 4331,
+      "buyLimit": 2000,
+      "dailyVolume": 16
+    }
+  }
+}

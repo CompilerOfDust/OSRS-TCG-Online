@@ -1,0 +1,68 @@
+{
+  "id": 997,
+  "cardId": "itm_red-cavalier",
+  "name": "Red cavalier",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "All for one and one for all!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_cavalier.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12323
+    ],
+    "pageSlug": "Red_cavalier",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_cavalier"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.08,
+    "market": {
+      "guidePrice": 2368,
+      "buyLimit": 4,
+      "dailyVolume": 69
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

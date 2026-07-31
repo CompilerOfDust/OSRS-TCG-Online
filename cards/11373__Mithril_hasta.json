@@ -1,0 +1,68 @@
+{
+  "id": 635,
+  "cardId": "itm_mithril-hasta",
+  "name": "Mithril hasta",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A mithril-tipped, one-handed hasta.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mithril_hasta.png",
+  "debut": "2007-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11373
+    ],
+    "pageSlug": "Mithril_hasta",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mithril_hasta"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 507,
+    "lowAlchemy": 338,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 250,
+      "buyLimit": 125,
+      "dailyVolume": 6
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 17,
+        "slash": 17,
+        "crush": 17,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": -5,
+        "slash": -5,
+        "crush": -4,
+        "magic": 0,
+        "ranged": -5
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 18,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

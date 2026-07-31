@@ -1,0 +1,41 @@
+{
+  "id": 9792,
+  "cardId": "itm_jade-bolt-tips",
+  "name": "Jade bolt tips",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Jade bolt tips.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jade_bolt_tips_1.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9187
+    ],
+    "pageSlug": "Jade_bolt_tips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jade_bolt_tips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 7,
+      "buyLimit": 11000,
+      "dailyVolume": 75371
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": 7953,
+  "cardId": "itm_initiate-cuisse",
+  "name": "Initiate cuisse",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An initiate Temple Knight's leg armour.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Initiate_cuisse.png",
+  "debut": "2005-06-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5576
+    ],
+    "pageSlug": "Initiate_cuisse",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Initiate_cuisse"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 4800,
+    "lowAlchemy": 3200,
+    "weightKg": 7.711,
+    "market": {
+      "guidePrice": 4261,
+      "buyLimit": 125,
+      "dailyVolume": 431
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 24,
+        "slash": 22,
+        "crush": 20,
+        "magic": -4,
+        "ranged": 22
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  }
+}

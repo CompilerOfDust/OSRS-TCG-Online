@@ -1,0 +1,68 @@
+{
+  "id": 8319,
+  "cardId": "itm_snakeskin-boots",
+  "name": "Snakeskin boots",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Made from snakes.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snakeskin_boots.png",
+  "debut": "2005-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6328
+    ],
+    "pageSlug": "Snakeskin_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snakeskin_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.34,
+    "market": {
+      "guidePrice": 273,
+      "buyLimit": 125,
+      "dailyVolume": 4621
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 3
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 2,
+        "magic": 1,
+        "ranged": 0
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": 7796,
+  "cardId": "itm_acorn",
+  "name": "Acorn",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Plant this in a plantpot of soil to grow a sapling.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Acorn_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5312
+    ],
+    "pageSlug": "Acorn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Acorn"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 84,
+      "buyLimit": 200,
+      "dailyVolume": 50330
+    }
+  }
+}

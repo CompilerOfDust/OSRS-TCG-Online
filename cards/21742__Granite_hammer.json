@@ -1,0 +1,67 @@
+{
+  "id": 3017,
+  "cardId": "itm_granite-hammer",
+  "name": "Granite hammer",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Hammer time.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Granite_hammer.png",
+  "debut": "2017-10-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21742
+    ],
+    "pageSlug": "Granite_hammer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Granite_hammer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 38400,
+    "lowAlchemy": 25600,
+    "weightKg": 5,
+    "market": {
+      "guidePrice": 6046396,
+      "buyLimit": 8,
+      "dailyVolume": 1408
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 57,
+        "magic": -3,
+        "ranged": -1
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 56,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

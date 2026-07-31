@@ -1,0 +1,36 @@
+{
+  "id": 2036,
+  "cardId": "itm_id-papers",
+  "name": "Id papers",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Apparently my name is Hartigen.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Id_papers.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1584
+    ],
+    "pageSlug": "Id_papers",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Id_papers"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

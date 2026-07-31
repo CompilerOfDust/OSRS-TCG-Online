@@ -1,0 +1,42 @@
+{
+  "id": 5780,
+  "cardId": "itm_sailors-mirage",
+  "name": "Sailor's mirage",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Vodka, apple, lime and... cactus spines?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sailor%27s_mirage.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31261
+    ],
+    "pageSlug": "Sailor%27s_mirage",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sailor%27s_mirage"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 36,
+      "buyLimit": null,
+      "dailyVolume": 26
+    }
+  },
+  "special": false
+}

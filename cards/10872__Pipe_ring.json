@@ -1,0 +1,36 @@
+{
+  "id": 366,
+  "cardId": "itm_pipe-ring",
+  "name": "Pipe ring",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A ring used to join two pipes together.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pipe_ring.png",
+  "debut": "2007-02-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10872
+    ],
+    "pageSlug": "Pipe_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pipe_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.4,
+    "market": null
+  }
+}

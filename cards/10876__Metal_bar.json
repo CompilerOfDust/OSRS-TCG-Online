@@ -1,0 +1,36 @@
+{
+  "id": 370,
+  "cardId": "itm_metal-bar",
+  "name": "Metal bar",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some unknown metal substance.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Metal_bar.png",
+  "debut": "2007-02-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10876
+    ],
+    "pageSlug": "Metal_bar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Metal_bar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.92,
+    "market": null
+  }
+}

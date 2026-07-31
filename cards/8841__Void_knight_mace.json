@@ -1,0 +1,64 @@
+{
+  "id": 9573,
+  "cardId": "itm_void-knight-mace",
+  "name": "Void knight mace",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A mace used by the order of the Void Knights.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Void_knight_mace.png",
+  "debut": "2006-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8841
+    ],
+    "pageSlug": "Void_knight_mace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Void_knight_mace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 7200,
+    "lowAlchemy": 4800,
+    "weightKg": 1.814,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 22,
+        "slash": 0,
+        "crush": 41,
+        "magic": 8,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 2,
+        "crush": 2,
+        "magic": 2,
+        "ranged": 2
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 38,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 6
+      }
+    }
+  },
+  "special": false
+}

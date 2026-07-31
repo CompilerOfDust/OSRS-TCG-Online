@@ -1,0 +1,70 @@
+{
+  "id": 4210,
+  "cardId": "itm_elidinis-ward",
+  "name": "Elidinis' ward",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [
+    27251,
+    27253
+  ],
+  "flavourText": "A ward once used by Elidinis herself.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elidinis%27_ward.png",
+  "debut": "2022-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25985
+    ],
+    "pageSlug": "Elidinis%27_ward",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elidinis%27_ward"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 3000000,
+    "lowAlchemy": 2000000,
+    "weightKg": 0.708,
+    "market": {
+      "guidePrice": 3180136,
+      "buyLimit": 8,
+      "dailyVolume": 1047
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 5,
+        "slash": 3,
+        "crush": 9,
+        "magic": 0,
+        "ranged": 6
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 3,
+        "prayer": 1
+      }
+    }
+  }
+}

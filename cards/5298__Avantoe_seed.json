@@ -1,0 +1,40 @@
+{
+  "id": 7778,
+  "cardId": "itm_avantoe-seed",
+  "name": "Avantoe seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An avantoe seed - plant in a herb patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Avantoe_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5298
+    ],
+    "pageSlug": "Avantoe_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Avantoe_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 3,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 350,
+      "buyLimit": 200,
+      "dailyVolume": 33261
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 1279,
+  "cardId": "itm_pet-dark-core",
+  "name": "Pet dark core",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Isn't so annoying when in pet form.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pet_dark_core.png",
+  "debut": "2014-10-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12816
+    ],
+    "pageSlug": "Pet_dark_core",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pet_dark_core"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

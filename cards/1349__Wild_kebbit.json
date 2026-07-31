@@ -1,0 +1,55 @@
+{
+  "id": 1596,
+  "cardId": "npc_wild-kebbit",
+  "name": "Wild kebbit",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "That's a mean looking set of claws.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-11-21",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1349
+    ],
+    "pageSlug": "Wild_kebbit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wild_kebbit"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [
+      "Piscatoris Hunter area",
+      "Auburnvale"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 23,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

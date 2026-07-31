@@ -1,0 +1,57 @@
+{
+  "id": 618,
+  "cardId": "npc_priest__1",
+  "name": "Priest",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Priest of the Ekeleshuun tribe.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2022-02-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11302,
+      11303
+    ],
+    "pageSlug": "Priest_(Goblin)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Priest_(Goblin)"
+  },
+  "npcProfile": {
+    "race": "Goblin",
+    "gender": null,
+    "locations": [
+      "Goblin Cave"
+    ],
+    "questLine": "Land of the Goblins",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

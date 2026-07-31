@@ -1,0 +1,42 @@
+{
+  "id": 6487,
+  "cardId": "itm_blamish-ochre-shell__1",
+  "name": "Blamish ochre shell",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    3359
+  ],
+  "flavourText": "A large muddy yellow coloured blamish snail shell, looks protective.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blamish_ochre_shell_%28round%29.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3349
+    ],
+    "pageSlug": "Blamish_ochre_shell_(round)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blamish_ochre_shell_(round)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 151,
+      "buyLimit": 13000,
+      "dailyVolume": 11
+    }
+  }
+}

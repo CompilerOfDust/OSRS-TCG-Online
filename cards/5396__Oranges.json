@@ -1,0 +1,47 @@
+{
+  "id": 7862,
+  "cardId": "itm_oranges-1",
+  "name": "Oranges(5)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    5388,
+    5390,
+    5392,
+    5394
+  ],
+  "flavourText": "A fruit basket filled with oranges.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oranges%285%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5396
+    ],
+    "pageSlug": "Oranges",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oranges"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Fill",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": null,
+      "buyLimit": null,
+      "dailyVolume": null
+    }
+  }
+}

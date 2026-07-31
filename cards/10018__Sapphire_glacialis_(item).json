@@ -1,0 +1,44 @@
+{
+  "id": 8,
+  "cardId": "itm_sapphire-glacialis",
+  "name": "Sapphire glacialis",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    29180,
+    29198
+  ],
+  "flavourText": "There's a sapphire glacialis butterfly in here.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sapphire_glacialis_%28item%29.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10018
+    ],
+    "pageSlug": "Sapphire_glacialis_(item)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sapphire_glacialis_(item)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Release",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 388,
+      "buyLimit": 125,
+      "dailyVolume": 27
+    }
+  }
+}

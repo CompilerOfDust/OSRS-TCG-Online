@@ -1,0 +1,62 @@
+{
+  "id": 9107,
+  "cardId": "npc_david",
+  "name": "David",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    968,
+    4223,
+    7818
+  ],
+  "flavourText": "He's here to protect us from... Pirates? Sea creatures? Who knows.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2017-09-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7766,
+      7791
+    ],
+    "pageSlug": "David_(Fossil_Island)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/David_(Fossil_Island)"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Fossil Island"
+    ],
+    "questLine": "Bone Voyage",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  },
+  "special": false
+}

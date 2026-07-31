@@ -1,0 +1,42 @@
+{
+  "id": 6569,
+  "cardId": "itm_fat-snail-meat",
+  "name": "Fat snail meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A succulently slimy slice of sumptuous snail.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fat_snail_meat.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3373
+    ],
+    "pageSlug": "Fat_snail_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fat_snail_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 5,
+    "market": {
+      "guidePrice": 2175,
+      "buyLimit": 6000,
+      "dailyVolume": 1
+    }
+  },
+  "special": false
+}

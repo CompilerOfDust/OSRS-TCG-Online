@@ -1,0 +1,37 @@
+{
+  "id": 7367,
+  "cardId": "itm_base-schematics",
+  "name": "Base schematics",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "These are the base schematics of a dwarven multicannon",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Base_schematics.png",
+  "debut": "2005-03-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4574
+    ],
+    "pageSlug": "Base_schematics",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Base_schematics"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Assemble",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

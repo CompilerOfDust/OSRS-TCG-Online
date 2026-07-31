@@ -1,0 +1,38 @@
+{
+  "id": 4982,
+  "cardId": "itm_bloated-toad",
+  "name": "Bloated toad",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An inflated toad.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bloated_toad.png",
+  "debut": "2004-05-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2875
+    ],
+    "pageSlug": "Bloated_toad",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bloated_toad"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop",
+      "Release All",
+      "Release"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.75,
+    "market": null
+  }
+}

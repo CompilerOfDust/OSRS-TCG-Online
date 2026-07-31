@@ -1,0 +1,57 @@
+{
+  "id": 7586,
+  "cardId": "npc_rolad",
+  "name": "Rolad",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He looks a little absent-minded.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-03-21",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4894
+    ],
+    "pageSlug": "Rolad",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rolad"
+  },
+  "npcProfile": {
+    "race": "Dwarf",
+    "gender": "Male",
+    "locations": [
+      "Dwarven Mine",
+      "Ice Mountain"
+    ],
+    "questLine": "Between a Rock...",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

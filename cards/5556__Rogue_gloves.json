@@ -1,0 +1,64 @@
+{
+  "id": 7937,
+  "cardId": "itm_rogue-gloves",
+  "name": "Rogue gloves",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Black banded leather gloves, a rogue's dream!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rogue_gloves.png",
+  "debut": "2005-06-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5556
+    ],
+    "pageSlug": "Rogue_gloves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rogue_gloves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 2,
+        "crush": 2,
+        "magic": 2,
+        "ranged": 2
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

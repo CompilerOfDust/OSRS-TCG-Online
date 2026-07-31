@@ -1,0 +1,37 @@
+{
+  "id": 269,
+  "cardId": "itm_cowbells",
+  "name": "Cowbells",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Every song needs a cowbell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cowbells.png",
+  "debut": "2007-01-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10593
+    ],
+    "pageSlug": "Cowbells",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cowbells"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Play",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2,
+    "market": null
+  }
+}

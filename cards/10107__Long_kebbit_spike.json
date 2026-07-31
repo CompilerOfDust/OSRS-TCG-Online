@@ -1,0 +1,40 @@
+{
+  "id": 42,
+  "cardId": "itm_long-kebbit-spike",
+  "name": "Long kebbit spike",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "These bone spikes are both very tough and very sharp.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Long_kebbit_spike.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10107
+    ],
+    "pageSlug": "Long_kebbit_spike",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Long_kebbit_spike"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 0.04,
+    "market": {
+      "guidePrice": 80,
+      "buyLimit": 10000,
+      "dailyVolume": 1403
+    }
+  }
+}

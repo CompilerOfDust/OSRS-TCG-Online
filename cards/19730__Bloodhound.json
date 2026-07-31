@@ -1,0 +1,37 @@
+{
+  "id": 2382,
+  "cardId": "itm_bloodhound",
+  "name": "Bloodhound",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Tracking down clues all over the world.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bloodhound.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19730
+    ],
+    "pageSlug": "Bloodhound",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bloodhound"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

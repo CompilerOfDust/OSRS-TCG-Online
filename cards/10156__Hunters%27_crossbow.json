@@ -1,0 +1,67 @@
+{
+  "id": 70,
+  "cardId": "itm_hunters-crossbow",
+  "name": "Hunters' crossbow",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A weapon made of bone and wood.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hunters%27_crossbow.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10156
+    ],
+    "pageSlug": "Hunters%27_crossbow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hunters%27_crossbow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 780,
+    "lowAlchemy": 520,
+    "weightKg": 5,
+    "market": {
+      "guidePrice": 2558,
+      "buyLimit": 70,
+      "dailyVolume": 212
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 55
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

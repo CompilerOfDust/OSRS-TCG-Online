@@ -1,0 +1,42 @@
+{
+  "id": 5108,
+  "cardId": "itm_cooked-dashing-kebbit",
+  "name": "Cooked dashing kebbit",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should eat this quickly.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cooked_dashing_kebbit.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29134
+    ],
+    "pageSlug": "Cooked_dashing_kebbit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cooked_dashing_kebbit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.283,
+    "market": {
+      "guidePrice": 1611,
+      "buyLimit": 6000,
+      "dailyVolume": 7541
+    }
+  },
+  "special": false
+}

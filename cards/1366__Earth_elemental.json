@@ -1,0 +1,61 @@
+{
+  "id": 1661,
+  "cardId": "npc_earth-elemental",
+  "name": "Earth elemental",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An earth elemental.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Earth_elemental.png",
+  "debut": "2004-06-02",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1366,
+      1367
+    ],
+    "pageSlug": "Earth_elemental",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Earth_elemental"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 35,
+    "vitality": 35,
+    "peakDamage": "4",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 20,
+      "strength": 35,
+      "defence": 35,
+      "magic": 10,
+      "ranged": 30
+    },
+    "aggressiveBonuses": null
+  }
+}

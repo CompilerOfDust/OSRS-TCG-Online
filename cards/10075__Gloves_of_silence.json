@@ -1,0 +1,68 @@
+{
+  "id": 20,
+  "cardId": "itm_gloves-of-silence",
+  "name": "Gloves of silence",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Made from dark kebbit fur, these are perfect for tasks of a stealthier nature.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gloves_of_silence.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10075
+    ],
+    "pageSlug": "Gloves_of_silence",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gloves_of_silence"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 360,
+    "lowAlchemy": 240,
+    "weightKg": 0.226,
+    "market": {
+      "guidePrice": 1613,
+      "buyLimit": 8000,
+      "dailyVolume": 1594
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

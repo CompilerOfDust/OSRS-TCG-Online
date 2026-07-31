@@ -1,0 +1,54 @@
+{
+  "id": 606,
+  "cardId": "npc_umbra",
+  "name": "Umbra",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A mage who has mastered the art of shadow magic.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Umbra.png",
+  "debut": "2022-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11284
+    ],
+    "pageSlug": "Umbra",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Umbra"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 285,
+    "vitality": null,
+    "peakDamage": "29",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 7696,
+  "cardId": "itm_limpwurt-seed",
+  "name": "Limpwurt seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A limpwurt seed - plant in a flower patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Limpwurt_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5100
+    ],
+    "pageSlug": "Limpwurt_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Limpwurt_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 17,
+      "buyLimit": 600,
+      "dailyVolume": 80915
+    }
+  }
+}

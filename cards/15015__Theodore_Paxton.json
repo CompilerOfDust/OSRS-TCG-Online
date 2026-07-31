@@ -1,0 +1,56 @@
+{
+  "id": 1890,
+  "cardId": "npc_theodore-paxton",
+  "name": "Theodore Paxton",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A senior individual in the Red Reef Trading Company.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2026-05-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15015
+    ],
+    "pageSlug": "Theodore_Paxton",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Theodore_Paxton"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Red Rock"
+    ],
+    "questLine": "The Red Reef",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

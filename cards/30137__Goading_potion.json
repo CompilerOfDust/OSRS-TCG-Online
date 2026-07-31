@@ -1,0 +1,47 @@
+{
+  "id": 5407,
+  "cardId": "itm_goading-potion-1",
+  "name": "Goading potion(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    30140,
+    30143,
+    30146
+  ],
+  "flavourText": "4 doses of Goading potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Goading_potion%284%29.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30137
+    ],
+    "pageSlug": "Goading_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Goading_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 13740,
+      "buyLimit": null,
+      "dailyVolume": 49
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,65 @@
+{
+  "id": 9877,
+  "cardId": "npc_parasite",
+  "name": "Parasite",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    9468,
+    9469
+  ],
+  "flavourText": "A weakened parasite.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Parasite_(2).png",
+  "debut": "2020-02-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9452,
+      9453
+    ],
+    "pageSlug": "Parasite",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Parasite"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 57,
+    "vitality": 40,
+    "peakDamage": "10",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 40,
+      "magic": 60,
+      "ranged": 60
+    },
+    "aggressiveBonuses": null
+  }
+}

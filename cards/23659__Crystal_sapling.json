@@ -1,0 +1,39 @@
+{
+  "id": 3523,
+  "cardId": "itm_crystal-sapling",
+  "name": "Crystal sapling",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    23655,
+    23657
+  ],
+  "flavourText": "This sapling is ready to be replanted in a Crystal tree patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crystal_sapling.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23659
+    ],
+    "pageSlug": "Crystal_sapling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crystal_sapling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

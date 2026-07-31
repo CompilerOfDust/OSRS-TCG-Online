@@ -1,0 +1,65 @@
+{
+  "id": 2864,
+  "cardId": "itm_slayer-ring-eternal",
+  "name": "Slayer ring (eternal)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A beautifully mounted Eternal Slayer gem.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Slayer_ring_%28eternal%29.png",
+  "debut": "2017-05-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21268
+    ],
+    "pageSlug": "Slayer_ring_(eternal)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Slayer_ring_(eternal)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Rub",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 21180,
+    "lowAlchemy": 14120,
+    "weightKg": 0.013,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": 2458,
+  "cardId": "npc_knight-of-varlamore",
+  "name": "Knight of Varlamore",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    7477,
+    8712,
+    12655,
+    12656,
+    12657,
+    12658,
+    12659,
+    12660,
+    12902,
+    12903,
+    12904,
+    12905,
+    12906,
+    12907,
+    12908,
+    12909,
+    12910,
+    12911,
+    12912,
+    12913,
+    12914,
+    12915,
+    12916,
+    12917,
+    14783,
+    14784
+  ],
+  "flavourText": "A knight in fancy armour.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Knight_of_Varlamore_(1).png",
+  "debut": "2024-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13114,
+      13115,
+      13116,
+      13117,
+      13118,
+      13119
+    ],
+    "pageSlug": "Knight_of_Varlamore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Knight_of_Varlamore"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 46,
+    "vitality": 52,
+    "peakDamage": "8",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 38,
+      "strength": 40,
+      "defence": 31,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

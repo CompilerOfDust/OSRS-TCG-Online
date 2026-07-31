@@ -1,0 +1,36 @@
+{
+  "id": 4560,
+  "cardId": "itm_fishing-trophy",
+  "name": "Fishing trophy",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Hemenster fishing contest trophy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fishing_trophy.png",
+  "debut": "2002-05-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26
+    ],
+    "pageSlug": "Fishing_trophy",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fishing_trophy"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.085,
+    "market": null
+  }
+}

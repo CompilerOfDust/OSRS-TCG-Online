@@ -1,0 +1,37 @@
+{
+  "id": 4541,
+  "cardId": "itm_strong-cup-of-tea",
+  "name": "Strong cup of tea",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A cup of tea that supposedly hits differently.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Strong_cup_of_tea.png",
+  "debut": "2022-03-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26904
+    ],
+    "pageSlug": "Strong_cup_of_tea",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Strong_cup_of_tea"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.15,
+    "market": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 7812,
+  "cardId": "itm_cabbage-seed",
+  "name": "Cabbage seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A cabbage seed - plant in an allotment.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cabbage_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5324
+    ],
+    "pageSlug": "Cabbage_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cabbage_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 6,
+      "buyLimit": 600,
+      "dailyVolume": 171563
+    }
+  }
+}

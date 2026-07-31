@@ -1,0 +1,40 @@
+{
+  "id": 2385,
+  "cardId": "itm_chocolate-dust",
+  "name": "Chocolate dust",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's ground up chocolate.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chocolate_dust.png",
+  "debut": "2002-08-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1975
+    ],
+    "pageSlug": "Chocolate_dust",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chocolate_dust"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.15,
+    "market": {
+      "guidePrice": 56,
+      "buyLimit": 13000,
+      "dailyVolume": 310559
+    }
+  }
+}

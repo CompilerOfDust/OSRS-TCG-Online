@@ -1,0 +1,67 @@
+{
+  "id": 5693,
+  "cardId": "itm_redwood-hiking-staff",
+  "name": "Redwood hiking staff",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A decorative staff that provides support when hiking.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Redwood_hiking_staff.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31049
+    ],
+    "pageSlug": "Redwood_hiking_staff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Redwood_hiking_staff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 952,
+      "buyLimit": null,
+      "dailyVolume": 50577
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -4,
+        "slash": -4,
+        "crush": 10,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

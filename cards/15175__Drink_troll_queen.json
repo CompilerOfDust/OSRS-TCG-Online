@@ -1,0 +1,54 @@
+{
+  "id": 1923,
+  "cardId": "npc_drink-troll-queen",
+  "name": "Drink troll queen",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The drink troll society is much more complicated than anticipated.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Drink_troll_queen.png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15175
+    ],
+    "pageSlug": "Drink_troll_queen",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Drink_troll_queen"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 217,
+    "vitality": null,
+    "peakDamage": "21",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

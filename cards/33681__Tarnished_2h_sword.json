@@ -1,0 +1,37 @@
+{
+  "id": 6549,
+  "cardId": "itm_tarnished-2h-sword",
+  "name": "Tarnished 2h sword",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A tarnished 2h sword, not fit for a lord.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tarnished_2h_sword.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33681
+    ],
+    "pageSlug": "Tarnished_2h_sword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tarnished_2h_sword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Polish",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36000,
+    "lowAlchemy": 24000,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

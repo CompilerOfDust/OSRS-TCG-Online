@@ -1,0 +1,67 @@
+{
+  "id": 2935,
+  "cardId": "itm_heat-proof-vessel",
+  "name": "Heat-proof vessel",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Prevents the water from evaporating!",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Heat-proof_vessel.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21539,
+      25615
+    ],
+    "pageSlug": "Heat-proof_vessel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Heat-proof_vessel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Throw-water",
+      "Wear",
+      "Throw-water direction",
+      "Check-level",
+      "Destroy"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 4,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

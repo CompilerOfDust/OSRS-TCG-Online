@@ -1,0 +1,67 @@
+{
+  "id": 8653,
+  "cardId": "itm_infinity-bottoms",
+  "name": "Infinity bottoms",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Mystical robes.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Infinity_bottoms.png",
+  "debut": "2006-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6924
+    ],
+    "pageSlug": "Infinity_bottoms",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Infinity_bottoms"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 54000,
+    "lowAlchemy": 36000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 1979554,
+      "buyLimit": 125,
+      "dailyVolume": 88
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 17,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 17,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

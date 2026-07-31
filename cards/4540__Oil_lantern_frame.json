@@ -1,0 +1,40 @@
+{
+  "id": 7341,
+  "cardId": "itm_oil-lantern-frame",
+  "name": "Oil lantern frame",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Add the glass to complete.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oil_lantern_frame.png",
+  "debut": "2005-03-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4540
+    ],
+    "pageSlug": "Oil_lantern_frame",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oil_lantern_frame"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 69,
+      "buyLimit": 10000,
+      "dailyVolume": 193
+    }
+  }
+}

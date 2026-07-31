@@ -1,0 +1,41 @@
+{
+  "id": 31,
+  "cardId": "itm_orange-feather",
+  "name": "Orange feather",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A fairly plain feather.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Orange_feather.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10091
+    ],
+    "pageSlug": "Orange_feather",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Orange_feather"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 10,
+      "buyLimit": 8000,
+      "dailyVolume": 85002
+    }
+  },
+  "special": false
+}

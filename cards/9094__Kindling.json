@@ -1,0 +1,38 @@
+{
+  "id": 9763,
+  "cardId": "itm_kindling",
+  "name": "Kindling",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    20799
+  ],
+  "flavourText": "Small bits of wood from the first magic tree!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kindling.png",
+  "debut": "2006-07-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9094
+    ],
+    "pageSlug": "Kindling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kindling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

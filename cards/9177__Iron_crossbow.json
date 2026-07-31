@@ -1,0 +1,67 @@
+{
+  "id": 9787,
+  "cardId": "itm_iron-crossbow",
+  "name": "Iron crossbow",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An iron crossbow.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_crossbow.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9177
+    ],
+    "pageSlug": "Iron_crossbow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_crossbow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 94,
+    "lowAlchemy": 62,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 344,
+      "buyLimit": 125,
+      "dailyVolume": 83
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 42
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

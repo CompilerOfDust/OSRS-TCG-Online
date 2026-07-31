@@ -1,0 +1,37 @@
+{
+  "id": 5961,
+  "cardId": "itm_brilliant-pearl",
+  "name": "Brilliant pearl",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Looks ludicrously valuable.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Brilliant_pearl.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31797
+    ],
+    "pageSlug": "Brilliant_pearl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Brilliant_pearl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600000,
+    "lowAlchemy": 400000,
+    "weightKg": 0.7,
+    "market": null
+  },
+  "special": false
+}

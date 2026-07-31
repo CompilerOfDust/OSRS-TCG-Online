@@ -1,0 +1,37 @@
+{
+  "id": 9253,
+  "cardId": "itm_stuffed-kurask-head",
+  "name": "Stuffed kurask head",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I could mount this on my wall!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stuffed_kurask_head.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7985
+    ],
+    "pageSlug": "Stuffed_kurask_head",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stuffed_kurask_head"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Unstuff",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3600,
+    "lowAlchemy": 2400,
+    "weightKg": 10,
+    "market": null
+  }
+}

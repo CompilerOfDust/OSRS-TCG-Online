@@ -1,0 +1,69 @@
+{
+  "id": 814,
+  "cardId": "itm_armadyl-chestplate",
+  "name": "Armadyl chestplate",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [
+    26715
+  ],
+  "flavourText": "Armour of great craftsmanship.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Armadyl_chestplate.png",
+  "debut": "2013-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11828
+    ],
+    "pageSlug": "Armadyl_chestplate",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Armadyl_chestplate"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 174000,
+    "lowAlchemy": 116000,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 35024916,
+      "buyLimit": 8,
+      "dailyVolume": 159
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -7,
+        "slash": -7,
+        "crush": -7,
+        "magic": -15,
+        "ranged": 33
+      },
+      "defence": {
+        "stab": 56,
+        "slash": 48,
+        "crush": 61,
+        "magic": 70,
+        "ranged": 57
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

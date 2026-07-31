@@ -1,0 +1,63 @@
+{
+  "id": 7443,
+  "cardId": "itm_catspeak-amulet",
+  "name": "Catspeak amulet",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's an amulet of cat speak. It makes vague purring noises.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Catspeak_amulet.png",
+  "debut": "2005-04-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4677
+    ],
+    "pageSlug": "Catspeak_amulet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Catspeak_amulet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.36,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

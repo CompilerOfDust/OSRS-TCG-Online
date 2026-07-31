@@ -1,0 +1,41 @@
+{
+  "id": 34,
+  "cardId": "itm_larupia-fur",
+  "name": "Larupia fur",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It's a perfect-looking larupia fur.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Larupia_fur.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10095
+    ],
+    "pageSlug": "Larupia_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Larupia_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 48,
+    "lowAlchemy": 32,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 500,
+      "buyLimit": 10000,
+      "dailyVolume": 10120
+    }
+  },
+  "special": false
+}

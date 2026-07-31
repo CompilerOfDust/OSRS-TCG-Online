@@ -1,0 +1,36 @@
+{
+  "id": 4449,
+  "cardId": "itm_blighted-surge-sack",
+  "name": "Blighted surge sack",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Enough power for any Surge spell, blighted so it can be used only in the Wilderness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blighted_surge_sack.png",
+  "debut": "2022-07-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26705
+    ],
+    "pageSlug": "Blighted_surge_sack",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blighted_surge_sack"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

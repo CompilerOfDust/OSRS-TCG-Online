@@ -1,0 +1,40 @@
+{
+  "id": 483,
+  "cardId": "itm_bracelet-mould",
+  "name": "Bracelet mould",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Used to make bracelets.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bracelet_mould.png",
+  "debut": "2007-04-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11065
+    ],
+    "pageSlug": "Bracelet_mould",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bracelet_mould"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 470,
+      "buyLimit": 40,
+      "dailyVolume": 199
+    }
+  }
+}

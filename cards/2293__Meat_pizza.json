@@ -1,0 +1,42 @@
+{
+  "id": 3381,
+  "cardId": "itm_meat-pizza",
+  "name": "Meat pizza",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A pizza with bits of meat on it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Meat_pizza.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2293
+    ],
+    "pageSlug": "Meat_pizza",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Meat_pizza"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.9,
+    "market": {
+      "guidePrice": 315,
+      "buyLimit": 10000,
+      "dailyVolume": 7300
+    }
+  },
+  "special": false
+}

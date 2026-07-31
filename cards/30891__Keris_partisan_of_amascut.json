@@ -1,0 +1,65 @@
+{
+  "id": 5631,
+  "cardId": "itm_keris-partisan-of-amascut",
+  "name": "Keris partisan of amascut",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A powerful polearm imbued with pinpoint precision.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Keris_partisan_of_amascut.png",
+  "debut": "2025-06-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30891
+    ],
+    "pageSlug": "Keris_partisan_of_amascut",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Keris_partisan_of_amascut"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 180000,
+    "lowAlchemy": 120000,
+    "weightKg": 3.218,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 108,
+        "slash": -2,
+        "crush": 57,
+        "magic": 2,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 67,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  },
+  "special": false
+}

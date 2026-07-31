@@ -1,0 +1,67 @@
+{
+  "id": 5067,
+  "cardId": "itm_blue-moon-tassets",
+  "name": "Blue moon tassets",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The tassets of the Blue Moon.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_moon_tassets.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29016
+    ],
+    "pageSlug": "Blue_moon_tassets",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_moon_tassets"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 173946,
+    "lowAlchemy": 115964,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 3830587,
+      "buyLimit": 15,
+      "dailyVolume": 435
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 22,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 23,
+        "magic": 32,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 1,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": 9816,
+  "cardId": "npc_basilisk-sentinel",
+  "name": "Basilisk Sentinel",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Even phoenix tears won't help here.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Basilisk_Sentinel.png",
+  "debut": "2019-09-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9258
+    ],
+    "pageSlug": "Basilisk_Sentinel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Basilisk_Sentinel"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 358,
+    "vitality": null,
+    "peakDamage": "28 (normal) 74+ (special attack)",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Melee"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 60,
+      "reward": 5590,
+      "group": "Basilisks",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

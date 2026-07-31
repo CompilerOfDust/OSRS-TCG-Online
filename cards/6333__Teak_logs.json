@@ -1,0 +1,40 @@
+{
+  "id": 8327,
+  "cardId": "itm_teak-logs",
+  "name": "Teak logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Some well-cut teak logs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Teak_logs.png",
+  "debut": "2005-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6333
+    ],
+    "pageSlug": "Teak_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Teak_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 123,
+      "buyLimit": 13000,
+      "dailyVolume": 725987
+    }
+  }
+}

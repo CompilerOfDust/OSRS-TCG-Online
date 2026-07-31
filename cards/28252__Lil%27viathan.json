@@ -1,0 +1,37 @@
+{
+  "id": 4817,
+  "cardId": "itm_lilviathan",
+  "name": "Lil'viathan",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A small creature deformed by the Abyss.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lil%27viathan.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28252
+    ],
+    "pageSlug": "Lil%27viathan",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lil%27viathan"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

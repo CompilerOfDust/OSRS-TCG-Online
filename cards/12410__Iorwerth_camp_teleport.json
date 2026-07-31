@@ -1,0 +1,41 @@
+{
+  "id": 1048,
+  "cardId": "itm_iorwerth-camp-teleport",
+  "name": "Iorwerth camp teleport",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Teleports you to the Iorwerth Camp.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iorwerth_camp_teleport.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12410
+    ],
+    "pageSlug": "Iorwerth_camp_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iorwerth_camp_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Teleport",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 9531,
+      "buyLimit": 10000,
+      "dailyVolume": 15571
+    }
+  }
+}

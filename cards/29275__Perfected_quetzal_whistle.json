@@ -1,0 +1,42 @@
+{
+  "id": 5154,
+  "cardId": "itm_perfected-quetzal-whistle",
+  "name": "Perfected quetzal whistle",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    33120
+  ],
+  "flavourText": "A perfected quetzal whistle crafted from redwood logs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Perfected_quetzal_whistle.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29275
+    ],
+    "pageSlug": "Perfected_quetzal_whistle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Perfected_quetzal_whistle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Signal",
+      "Check",
+      "Rumour",
+      "Last-destination",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.004,
+    "market": null
+  }
+}

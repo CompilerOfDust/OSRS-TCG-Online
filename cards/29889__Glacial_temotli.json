@@ -1,0 +1,67 @@
+{
+  "id": 5326,
+  "cardId": "itm_glacial-temotli",
+  "name": "Glacial temotli",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "It's clobbering time.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Glacial_temotli.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29889
+    ],
+    "pageSlug": "Glacial_temotli",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Glacial_temotli"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 49800,
+    "lowAlchemy": 33200,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 60056,
+      "buyLimit": 15,
+      "dailyVolume": 640
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 11,
+        "slash": 0,
+        "crush": 72,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 64,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  }
+}

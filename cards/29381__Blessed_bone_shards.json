@@ -1,0 +1,36 @@
+{
+  "id": 5197,
+  "cardId": "itm_blessed-bone-shards",
+  "name": "Blessed bone shards",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Blessed bones that have been broken down into smaller pieces.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blessed_bone_shards.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29381
+    ],
+    "pageSlug": "Blessed_bone_shards",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blessed_bone_shards"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

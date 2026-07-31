@@ -1,0 +1,64 @@
+{
+  "id": 3785,
+  "cardId": "itm_vestas-blighted-longsword",
+  "name": "Vesta's blighted longsword",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Blighted so it can fight only in the Wilderness and Bounty Hunter on Bounty Hunter worlds.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vesta%27s_blighted_longsword.png",
+  "debut": "2020-04-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24617
+    ],
+    "pageSlug": "Vesta%27s_blighted_longsword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vesta%27s_blighted_longsword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.814,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 106,
+        "slash": 121,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 4,
+        "crush": 3,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 118,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

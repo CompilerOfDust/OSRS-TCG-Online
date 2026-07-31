@@ -1,0 +1,57 @@
+{
+  "id": 1877,
+  "cardId": "npc_squawking-steve-beanie",
+  "name": "'Squawking' Steve Beanie",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The 'pirate' owner of the Pandemonium.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14968,
+      14969
+    ],
+    "pageSlug": "%27Squawking%27_Steve_Beanie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/%27Squawking%27_Steve_Beanie"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "The Pandemonium"
+    ],
+    "questLine": "Pandemonium",
+    "shop": "The Pandemonium",
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

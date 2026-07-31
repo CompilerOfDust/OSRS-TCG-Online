@@ -1,0 +1,37 @@
+{
+  "id": 9208,
+  "cardId": "itm_field-ration",
+  "name": "Field ration",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A field ration to help your wounds go away.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Field_ration.png",
+  "debut": "2006-04-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7934
+    ],
+    "pageSlug": "Field_ration",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Field_ration"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 182,
+  "cardId": "npc_captain-bleemadge",
+  "name": "Captain Bleemadge",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Huzzah!",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-08-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10459,
+      10461,
+      10462,
+      10463,
+      10464,
+      10465,
+      10466
+    ],
+    "pageSlug": "Captain_Bleemadge",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Captain_Bleemadge"
+  },
+  "npcProfile": {
+    "race": "Gnome",
+    "gender": "Male",
+    "locations": [
+      "White Wolf Mountain"
+    ],
+    "questLine": "One Small Favour",
+    "shop": null,
+    "menuActions": [
+      "Glider",
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

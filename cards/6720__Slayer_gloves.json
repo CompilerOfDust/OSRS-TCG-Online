@@ -1,0 +1,63 @@
+{
+  "id": 8540,
+  "cardId": "itm_slayer-gloves",
+  "name": "Slayer gloves",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Especially good against diseased arachnids.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Slayer_gloves.png",
+  "debut": "2005-10-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6720
+    ],
+    "pageSlug": "Slayer_gloves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Slayer_gloves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.226,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 5,
+        "crush": 3,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

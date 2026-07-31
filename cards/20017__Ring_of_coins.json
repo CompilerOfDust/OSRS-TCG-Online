@@ -1,0 +1,67 @@
+{
+  "id": 2499,
+  "cardId": "itm_ring-of-coins",
+  "name": "Ring of coins",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A valuable ring.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ring_of_coins.png",
+  "debut": "2016-07-06",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20017
+    ],
+    "pageSlug": "Ring_of_coins",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ring_of_coins"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 4800,
+    "lowAlchemy": 3200,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 10601649,
+      "buyLimit": 4,
+      "dailyVolume": 23
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

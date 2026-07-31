@@ -1,0 +1,77 @@
+{
+  "id": 9962,
+  "cardId": "npc_kalphite-guardian",
+  "name": "Kalphite Guardian",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I don't think insect repellent will work...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kalphite_Guardian.png",
+  "debut": "2004-09-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      959,
+      962
+    ],
+    "pageSlug": "Kalphite_Guardian",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kalphite_Guardian"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Kalphite"
+    ],
+    "tileSize": "4x4",
+    "combatRating": 141,
+    "vitality": 170,
+    "peakDamage": "12",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 20,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 170,
+      "group": "Kalphite",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna",
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 110,
+      "strength": 110,
+      "defence": 110,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

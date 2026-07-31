@@ -1,0 +1,43 @@
+{
+  "id": 5628,
+  "cardId": "itm_surge-potion-1",
+  "name": "Surge potion(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    30878,
+    30881,
+    30884
+  ],
+  "flavourText": "4 doses of surge potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Surge_potion%284%29.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30875
+    ],
+    "pageSlug": "Surge_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Surge_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.03,
+    "market": null
+  },
+  "special": false
+}

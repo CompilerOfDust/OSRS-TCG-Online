@@ -1,0 +1,36 @@
+{
+  "id": 2044,
+  "cardId": "itm_unholy-mould",
+  "name": "Unholy mould",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Used to make unholy symbols.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unholy_mould.png",
+  "debut": "2003-03-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1594
+    ],
+    "pageSlug": "Unholy_mould",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unholy_mould"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

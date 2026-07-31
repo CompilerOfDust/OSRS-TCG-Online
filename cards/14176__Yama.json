@@ -1,0 +1,69 @@
+{
+  "id": 1742,
+  "cardId": "npc_yama",
+  "name": "Yama",
+  "cardKind": "npc",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A demon of quite obviously fathomable power. The vicious grin rarely leaves his face.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yama.png",
+  "debut": "2025-05-14",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14176
+    ],
+    "pageSlug": "Yama",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yama"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": "Male",
+    "locations": [
+      "Yama's Domain"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Challenge"
+    ],
+    "creatureTraits": [
+      "Demon"
+    ],
+    "tileSize": "5x5",
+    "combatRating": 1238,
+    "vitality": 2500,
+    "peakDamage": "46 (auto-attacks) 162 (Meteor Strike) 80 (Shadow Stomp)",
+    "combatXpBonusPct": 82.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee (Slash)",
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 8,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 320,
+      "strength": 350,
+      "defence": 225,
+      "magic": 250,
+      "ranged": 210
+    },
+    "aggressiveBonuses": null
+  }
+}

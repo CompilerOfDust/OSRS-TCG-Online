@@ -1,0 +1,41 @@
+{
+  "id": 5207,
+  "cardId": "itm_steamforge-brew",
+  "name": "Steamforge brew",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A dwarven delight from Cam Torum.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steamforge_brew.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29412
+    ],
+    "pageSlug": "Steamforge_brew",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steamforge_brew"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 3,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 123,
+      "buyLimit": null,
+      "dailyVolume": 17
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": 9334,
+  "cardId": "npc_bryophyta",
+  "name": "Bryophyta",
+  "cardKind": "npc",
+  "tier": 7,
+  "unlocksItems": [
+    2090,
+    2091,
+    2092,
+    2093,
+    3851,
+    3852,
+    7262,
+    8736,
+    12844,
+    12845,
+    12846,
+    12847,
+    14422
+  ],
+  "flavourText": "This is what organic growth looks like!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bryophyta.png",
+  "debut": "2018-05-03",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8195
+    ],
+    "pageSlug": "Bryophyta",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bryophyta"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 128,
+    "vitality": null,
+    "peakDamage": "16 ( Melee ) 10 ( Magic )",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Magic"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 115,
+      "group": "Moss Giants",
+      "masters": [
+        "Vannaka"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  },
+  "special": true
+}

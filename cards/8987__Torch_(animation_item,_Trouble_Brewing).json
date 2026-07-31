@@ -1,0 +1,38 @@
+{
+  "id": 9669,
+  "cardId": "itm_torch__1",
+  "name": "Torch",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    9665
+  ],
+  "flavourText": "A flaming torch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Torch_%28animation_item%2C_Trouble_Brewing%29.png",
+  "debut": "2006-07-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8987
+    ],
+    "pageSlug": "Torch_(animation_item,_Trouble_Brewing)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Torch_(animation_item,_Trouble_Brewing)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

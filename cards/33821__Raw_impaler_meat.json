@@ -1,0 +1,40 @@
+{
+  "id": 6588,
+  "cardId": "itm_raw-impaler-meat",
+  "name": "Raw impaler meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to cook this first.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_impaler_meat.png",
+  "debut": "2026-06-30",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33821
+    ],
+    "pageSlug": "Raw_impaler_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_impaler_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.425,
+    "market": {
+      "guidePrice": 104,
+      "buyLimit": null,
+      "dailyVolume": 0
+    }
+  }
+}

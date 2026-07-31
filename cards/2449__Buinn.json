@@ -1,0 +1,56 @@
+{
+  "id": 3752,
+  "cardId": "npc_buinn",
+  "name": "Buinn",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Engineer's assistant.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-06-13",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2449
+    ],
+    "pageSlug": "Buinn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Buinn"
+  },
+  "npcProfile": {
+    "race": "Dwarf",
+    "gender": "Male",
+    "locations": [
+      "None"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [
+      "None"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 1,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

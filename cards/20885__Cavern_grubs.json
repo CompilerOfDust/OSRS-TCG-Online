@@ -1,0 +1,36 @@
+{
+  "id": 2712,
+  "cardId": "itm_cavern-grubs",
+  "name": "Cavern grubs",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Freshly hatched. They smell utterly revolting, but they're quite juicy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cavern_grubs.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20885
+    ],
+    "pageSlug": "Cavern_grubs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cavern_grubs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

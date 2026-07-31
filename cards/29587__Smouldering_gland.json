@@ -1,0 +1,36 @@
+{
+  "id": 5255,
+  "cardId": "itm_smouldering-gland",
+  "name": "Smouldering gland",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The source of the demon's unholy protection.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Smouldering_gland.png",
+  "debut": "2024-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29587
+    ],
+    "pageSlug": "Smouldering_gland",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Smouldering_gland"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.005,
+    "market": null
+  }
+}

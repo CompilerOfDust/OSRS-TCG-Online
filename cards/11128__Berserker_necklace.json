@@ -1,0 +1,69 @@
+{
+  "id": 509,
+  "cardId": "itm_berserker-necklace",
+  "name": "Berserker necklace",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    23240
+  ],
+  "flavourText": "Makes obsidian weapons even stronger!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Berserker_necklace.png",
+  "debut": "2007-04-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11128
+    ],
+    "pageSlug": "Berserker_necklace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Berserker_necklace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 121200,
+    "lowAlchemy": 80800,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 2670533,
+      "buyLimit": 70,
+      "dailyVolume": 550
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -10,
+        "slash": -10,
+        "crush": -10,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": -20,
+        "slash": -20,
+        "crush": -20,
+        "magic": -20,
+        "ranged": -20
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 7,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

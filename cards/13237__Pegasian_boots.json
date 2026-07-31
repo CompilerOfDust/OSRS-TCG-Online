@@ -1,0 +1,67 @@
+{
+  "id": 1465,
+  "cardId": "itm_pegasian-boots",
+  "name": "Pegasian boots",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A pair of upgraded ranger boots.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pegasian_boots.png",
+  "debut": "2015-08-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13237
+    ],
+    "pageSlug": "Pegasian_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pegasian_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 45000,
+    "lowAlchemy": 30000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 33562981,
+      "buyLimit": 15,
+      "dailyVolume": 775
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -12,
+        "ranged": 12
+      },
+      "defence": {
+        "stab": 5,
+        "slash": 5,
+        "crush": 5,
+        "magic": 5,
+        "ranged": 5
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 1,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

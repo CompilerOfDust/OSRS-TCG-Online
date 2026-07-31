@@ -1,0 +1,64 @@
+{
+  "id": 4140,
+  "cardId": "itm_holy-scythe-of-vitur-uncharged",
+  "name": "Holy scythe of vitur (uncharged)",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A powerful scythe cleansed in the light of Saradomin. It is currently uncharged.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Holy_scythe_of_vitur_%28uncharged%29.png",
+  "debut": "2021-06-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25738
+    ],
+    "pageSlug": "Holy_scythe_of_vitur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Holy_scythe_of_vitur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Charge",
+      "Dismantle"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 2400000,
+    "lowAlchemy": 1600000,
+    "weightKg": 3.175,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 50,
+        "slash": 75,
+        "crush": 10,
+        "magic": -6,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": -2,
+        "slash": 6,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 50,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

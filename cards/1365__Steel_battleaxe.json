@@ -1,0 +1,67 @@
+{
+  "id": 1653,
+  "cardId": "itm_steel-battleaxe",
+  "name": "Steel battleaxe",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A vicious looking axe.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_battleaxe.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1365
+    ],
+    "pageSlug": "Steel_battleaxe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_battleaxe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 390,
+    "lowAlchemy": 260,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 133,
+      "buyLimit": 125,
+      "dailyVolume": 3129
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -2,
+        "slash": 16,
+        "crush": 11,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": -1
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 20,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 2275,
+  "cardId": "itm_bucket",
+  "name": "Bucket",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    8986
+  ],
+  "flavourText": "It's a wooden bucket.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bucket.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1925
+    ],
+    "pageSlug": "Bucket",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bucket"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 7,
+      "buyLimit": 13000,
+      "dailyVolume": 5338434
+    }
+  },
+  "special": false
+}

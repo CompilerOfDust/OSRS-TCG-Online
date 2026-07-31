@@ -1,0 +1,54 @@
+{
+  "id": 6517,
+  "cardId": "npc_leon-dcour",
+  "name": "Leon d'Cour",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Champion of Champions!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Leon_d%27Cour.png",
+  "debut": "2005-12-12",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3360
+    ],
+    "pageSlug": "Leon_d%27Cour",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Leon_d%27Cour"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 141,
+    "vitality": null,
+    "peakDamage": "13",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

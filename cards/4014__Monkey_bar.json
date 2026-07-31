@@ -1,0 +1,41 @@
+{
+  "id": 6932,
+  "cardId": "itm_monkey-bar",
+  "name": "Monkey bar",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's a monkey bar. It looks highly nutritious.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Monkey_bar.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4014
+    ],
+    "pageSlug": "Monkey_bar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Monkey_bar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.15,
+    "market": {
+      "guidePrice": 704,
+      "buyLimit": 6000,
+      "dailyVolume": 853
+    }
+  }
+}

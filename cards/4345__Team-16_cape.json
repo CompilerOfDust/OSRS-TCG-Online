@@ -1,0 +1,68 @@
+{
+  "id": 7212,
+  "cardId": "itm_team-16-cape",
+  "name": "Team-16 cape",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Ooohhh look at the pretty colours...",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Team-16_cape.png",
+  "debut": "2005-02-22",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4345
+    ],
+    "pageSlug": "Team-16_cape",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Team-16_cape"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 74,
+      "buyLimit": 150,
+      "dailyVolume": 290
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 2
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

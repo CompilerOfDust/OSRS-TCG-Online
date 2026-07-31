@@ -1,0 +1,40 @@
+{
+  "id": 7336,
+  "cardId": "itm_candle-lantern",
+  "name": "Candle lantern",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A candle in a glass cage.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Candle_lantern_%28white%29.png",
+  "debut": "2005-03-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4529
+    ],
+    "pageSlug": "Candle_lantern",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Candle_lantern"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 464,
+      "buyLimit": 40,
+      "dailyVolume": 134
+    }
+  }
+}

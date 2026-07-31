@@ -1,0 +1,41 @@
+{
+  "id": 9915,
+  "cardId": "itm_spade",
+  "name": "Spade",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A slightly muddy spade.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spade.png",
+  "debut": "2001-01-21",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      952
+    ],
+    "pageSlug": "Spade",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spade"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Dig",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 143,
+      "buyLimit": 40,
+      "dailyVolume": 9616
+    }
+  }
+}

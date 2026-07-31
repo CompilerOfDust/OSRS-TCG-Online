@@ -1,0 +1,68 @@
+{
+  "id": 3483,
+  "cardId": "itm_cape-of-skulls",
+  "name": "Cape of skulls",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Lets the person behind you know that you mean business.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cape_of_skulls.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23351
+    ],
+    "pageSlug": "Cape_of_skulls",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cape_of_skulls"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 3391039,
+      "buyLimit": 8,
+      "dailyVolume": 69
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 9,
+        "crush": 9,
+        "magic": 9,
+        "ranged": 9
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

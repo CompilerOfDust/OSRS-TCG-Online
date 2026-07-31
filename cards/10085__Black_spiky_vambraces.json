@@ -1,0 +1,67 @@
+{
+  "id": 26,
+  "cardId": "itm_black-spiky-vambraces",
+  "name": "Black spiky vambraces",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Vambraces made from 100% real dragonhide. Now with added spikiness.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_spiky_vambraces.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10085
+    ],
+    "pageSlug": "Black_spiky_vambraces",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_spiky_vambraces"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 2592,
+    "lowAlchemy": 1728,
+    "weightKg": 0.283,
+    "market": {
+      "guidePrice": 3533,
+      "buyLimit": 125,
+      "dailyVolume": 168
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 11
+      },
+      "defence": {
+        "stab": 6,
+        "slash": 5,
+        "crush": 7,
+        "magic": 8,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 2,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

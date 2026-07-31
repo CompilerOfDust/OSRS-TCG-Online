@@ -1,0 +1,44 @@
+{
+  "id": 2269,
+  "cardId": "itm_dwarven-stout",
+  "name": "Dwarven stout",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5771
+  ],
+  "flavourText": "A pint of thick dark beer.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dwarven_stout.png",
+  "debut": "2001-04-06",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1913
+    ],
+    "pageSlug": "Dwarven_stout",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dwarven_stout"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 119,
+      "buyLimit": 2000,
+      "dailyVolume": 8598
+    }
+  },
+  "special": false
+}

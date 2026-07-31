@@ -1,0 +1,68 @@
+{
+  "id": 2879,
+  "cardId": "itm_obsidian-platelegs",
+  "name": "Obsidian platelegs",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Provides excellent protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Obsidian_platelegs.png",
+  "debut": "2017-06-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21304
+    ],
+    "pageSlug": "Obsidian_platelegs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Obsidian_platelegs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 40200,
+    "lowAlchemy": 26800,
+    "weightKg": 9.071,
+    "market": {
+      "guidePrice": 920195,
+      "buyLimit": 70,
+      "dailyVolume": 1047
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 46,
+        "slash": 43,
+        "crush": 41,
+        "magic": -10,
+        "ranged": 40
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 1,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

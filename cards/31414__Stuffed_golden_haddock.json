@@ -1,0 +1,37 @@
+{
+  "id": 5831,
+  "cardId": "itm_stuffed-golden-haddock",
+  "name": "Stuffed golden haddock",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I should mount this on my wall!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stuffed_golden_haddock.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31414
+    ],
+    "pageSlug": "Stuffed_golden_haddock",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stuffed_golden_haddock"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Unstuff",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.65,
+    "market": null
+  }
+}

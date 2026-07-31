@@ -1,0 +1,40 @@
+{
+  "id": 2065,
+  "cardId": "itm_uncut-emerald",
+  "name": "Uncut emerald",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This would be worth more cut.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncut_emerald.png",
+  "debut": "2001-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1621
+    ],
+    "pageSlug": "Uncut_emerald",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncut_emerald"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.003,
+    "market": {
+      "guidePrice": 491,
+      "buyLimit": 10000,
+      "dailyVolume": 787641
+    }
+  }
+}

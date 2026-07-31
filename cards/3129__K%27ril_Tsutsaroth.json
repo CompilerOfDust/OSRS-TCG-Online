@@ -1,0 +1,67 @@
+{
+  "id": 5792,
+  "cardId": "npc_kril-tsutsaroth",
+  "name": "K'ril Tsutsaroth",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [
+    6495
+  ],
+  "flavourText": "A servant of the god Zamorak.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/K%27ril_Tsutsaroth.png",
+  "debut": "2013-10-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3129
+    ],
+    "pageSlug": "K%27ril_Tsutsaroth",
+    "pageUrl": "https://oldschool.runescape.wiki/w/K%27ril_Tsutsaroth"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 650,
+    "vitality": null,
+    "peakDamage": "30 (magic) 46 (melee) 49 (special attack)",
+    "combatXpBonusPct": 37.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Magic"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 150,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 350.5,
+      "group": "Bosses, Greater Demons",
+      "masters": [
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

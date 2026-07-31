@@ -1,0 +1,63 @@
+{
+  "id": 6799,
+  "cardId": "npc_pheasant",
+  "name": "Pheasant",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A brightly coloured game bird.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pheasant_(1_tail).png",
+  "debut": "2005-08-01",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      373,
+      374,
+      5500,
+      5502
+    ],
+    "pageSlug": "Pheasant",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pheasant"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 3,
+    "vitality": 5,
+    "peakDamage": "1",
+    "combatXpBonusPct": -100,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 5,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 3,
+      "strength": 3,
+      "defence": 3,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

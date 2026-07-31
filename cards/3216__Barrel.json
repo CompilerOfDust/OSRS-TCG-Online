@@ -1,0 +1,42 @@
+{
+  "id": 6153,
+  "cardId": "itm_barrel",
+  "name": "Barrel",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    1841
+  ],
+  "flavourText": "An empty barrel.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Barrel.png",
+  "debut": "2004-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3216
+    ],
+    "pageSlug": "Barrel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Barrel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 911,
+      "buyLimit": 15,
+      "dailyVolume": 455
+    }
+  }
+}

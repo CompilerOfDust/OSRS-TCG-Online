@@ -1,0 +1,37 @@
+{
+  "id": 7186,
+  "cardId": "itm_crystal-singing-for-beginners",
+  "name": "Crystal singing for beginners",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A book on elven crystal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crystal_singing_for_beginners.png",
+  "debut": "2005-02-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4313
+    ],
+    "pageSlug": "Crystal_singing_for_beginners",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crystal_singing_for_beginners"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.51,
+    "market": null
+  }
+}

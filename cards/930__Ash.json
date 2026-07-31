@@ -1,0 +1,56 @@
+{
+  "id": 9830,
+  "cardId": "npc_ash",
+  "name": "Ash",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Human is his speciality.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-08-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      930
+    ],
+    "pageSlug": "Ash",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ash"
+  },
+  "npcProfile": {
+    "race": "Troll",
+    "gender": "Male",
+    "locations": [
+      "Death Plateau"
+    ],
+    "questLine": "My Arm's Big Adventure",
+    "shop": null,
+    "menuActions": [
+      "None"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

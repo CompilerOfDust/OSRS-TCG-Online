@@ -1,0 +1,68 @@
+{
+  "id": 1860,
+  "cardId": "npc_gryphon",
+  "name": "Gryphon",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    14859,
+    15009
+  ],
+  "flavourText": "A vicious predatory bird-like monster.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gryphon.png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14857,
+      14858
+    ],
+    "pageSlug": "Gryphon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gryphon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 95,
+    "vitality": null,
+    "peakDamage": "8 20+ (special)",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 51,
+      "reward": 110,
+      "group": "Gryphons",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

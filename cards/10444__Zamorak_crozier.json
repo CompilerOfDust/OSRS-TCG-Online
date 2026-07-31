@@ -1,0 +1,67 @@
+{
+  "id": 174,
+  "cardId": "itm_zamorak-crozier",
+  "name": "Zamorak crozier",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A Zamorak crozier.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zamorak_crozier.png",
+  "debut": "2006-12-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10444
+    ],
+    "pageSlug": "Zamorak_crozier",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zamorak_crozier"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 2648,
+      "buyLimit": 8,
+      "dailyVolume": 41
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 7,
+        "slash": -1,
+        "crush": 25,
+        "magic": 10,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 10,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 32,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 6
+      }
+    }
+  }
+}

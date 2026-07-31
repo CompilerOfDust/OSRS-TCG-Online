@@ -1,0 +1,36 @@
+{
+  "id": 5254,
+  "cardId": "itm_smouldering-pile-of-flesh",
+  "name": "Smouldering pile of flesh",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Dangerous, yet enticing...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Smouldering_pile_of_flesh.png",
+  "debut": "2024-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29585
+    ],
+    "pageSlug": "Smouldering_pile_of_flesh",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Smouldering_pile_of_flesh"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2,
+    "market": null
+  }
+}

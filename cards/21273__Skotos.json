@@ -1,0 +1,37 @@
+{
+  "id": 2867,
+  "cardId": "itm_skotos",
+  "name": "Skotos",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Spawn of Darkness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Skotos.png",
+  "debut": "2017-05-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21273
+    ],
+    "pageSlug": "Skotos",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Skotos"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

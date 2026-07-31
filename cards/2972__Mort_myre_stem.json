@@ -1,0 +1,40 @@
+{
+  "id": 5296,
+  "cardId": "itm_mort-myre-stem",
+  "name": "Mort myre stem",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A cutting from a budding branch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mort_myre_stem.png",
+  "debut": "2004-07-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2972
+    ],
+    "pageSlug": "Mort_myre_stem",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mort_myre_stem"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 922,
+      "buyLimit": 13000,
+      "dailyVolume": 170
+    }
+  }
+}

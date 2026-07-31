@@ -1,0 +1,94 @@
+{
+  "id": 3653,
+  "cardId": "npc_black-demon",
+  "name": "Black demon",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    1432,
+    6295,
+    6357,
+    7874,
+    7875,
+    7876,
+    10583,
+    12385,
+    15608
+  ],
+  "flavourText": "A big, scary, jet-black demon.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_demon.png",
+  "debut": "2002-02-27",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      240,
+      2048,
+      2049,
+      2050,
+      2051,
+      2052,
+      5874,
+      5875,
+      5876,
+      5877,
+      7242,
+      7243
+    ],
+    "pageSlug": "Black_demon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_demon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Demon"
+    ],
+    "tileSize": "3x3",
+    "combatRating": 172,
+    "vitality": 157,
+    "peakDamage": "16",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 157,
+      "group": "Black Demons",
+      "masters": [
+        "Krystilia",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 145,
+      "strength": 148,
+      "defence": 152,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

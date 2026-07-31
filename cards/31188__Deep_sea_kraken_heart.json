@@ -1,0 +1,36 @@
+{
+  "id": 5746,
+  "cardId": "itm_deep-sea-kraken-heart",
+  "name": "Deep sea kraken heart",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The heart of a deep sea kraken.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Deep_sea_kraken_heart.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31188
+    ],
+    "pageSlug": "Deep_sea_kraken_heart",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Deep_sea_kraken_heart"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.285,
+    "market": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 3376,
+  "cardId": "itm_white-lily-seed",
+  "name": "White lily seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A white lily seed - plant in a flower patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_lily_seed_1.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22887
+    ],
+    "pageSlug": "White_lily_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_lily_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2593,
+      "buyLimit": 600,
+      "dailyVolume": 3832
+    }
+  },
+  "special": false
+}

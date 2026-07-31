@@ -1,0 +1,56 @@
+{
+  "id": 1671,
+  "cardId": "npc_elemental-rock",
+  "name": "Elemental rock",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An elemental rock.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-10-02",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1368
+    ],
+    "pageSlug": "Elemental_rock",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elemental_rock"
+  },
+  "npcProfile": {
+    "race": "Elemental",
+    "gender": null,
+    "locations": [
+      "Elemental Workshop"
+    ],
+    "questLine": "Elemental Workshop I",
+    "shop": null,
+    "menuActions": [
+      "Mine"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 20,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

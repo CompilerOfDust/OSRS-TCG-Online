@@ -1,0 +1,67 @@
+{
+  "id": 1103,
+  "cardId": "itm_ancient-coif",
+  "name": "Ancient coif",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Ancient blessed dragonhide coif.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_coif.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12496
+    ],
+    "pageSlug": "Ancient_coif",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_coif"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 0.9,
+    "market": {
+      "guidePrice": 71759,
+      "buyLimit": 8,
+      "dailyVolume": 351
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -1,
+        "ranged": 7
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 7,
+        "crush": 10,
+        "magic": 4,
+        "ranged": 8
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

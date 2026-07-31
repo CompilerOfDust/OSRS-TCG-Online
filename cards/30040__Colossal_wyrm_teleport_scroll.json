@@ -1,0 +1,42 @@
+{
+  "id": 5381,
+  "cardId": "itm_colossal-wyrm-teleport-scroll",
+  "name": "Colossal wyrm teleport scroll",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A teleport to the Colossal Wyrm Remains in the Avium Savannah.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Colossal_wyrm_teleport_scroll.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30040
+    ],
+    "pageSlug": "Colossal_wyrm_teleport_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Colossal_wyrm_teleport_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Teleport",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 28714,
+      "buyLimit": null,
+      "dailyVolume": 1993
+    }
+  },
+  "special": false
+}

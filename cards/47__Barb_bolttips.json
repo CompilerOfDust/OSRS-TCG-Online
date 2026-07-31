@@ -1,0 +1,41 @@
+{
+  "id": 7539,
+  "cardId": "itm_barb-bolttips",
+  "name": "Barb bolttips",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I can make bolts with these.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Barb_bolttips.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      47
+    ],
+    "pageSlug": "Barb_bolttips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Barb_bolttips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 57,
+    "lowAlchemy": 38,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 78,
+      "buyLimit": 11000,
+      "dailyVolume": 87131
+    }
+  },
+  "special": false
+}

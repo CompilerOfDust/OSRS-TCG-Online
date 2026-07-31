@@ -1,0 +1,54 @@
+{
+  "id": 1979,
+  "cardId": "npc_fremennik-warrior__1",
+  "name": "Fremennik warrior",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Warriors first, sailors second.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fremennik_warrior_(Sailing).png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15458
+    ],
+    "pageSlug": "Fremennik_warrior",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fremennik_warrior"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 61,
+    "vitality": null,
+    "peakDamage": "? (edit)",
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [
+      "? (edit)"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

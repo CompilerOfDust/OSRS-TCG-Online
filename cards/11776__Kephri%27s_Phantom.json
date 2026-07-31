@@ -1,0 +1,54 @@
+{
+  "id": 783,
+  "cardId": "npc_kephris-phantom",
+  "name": "Kephri's Phantom",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A phantom of Kephri.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2022-08-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11776
+    ],
+    "pageSlug": "Kephri%27s_Phantom",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kephri%27s_Phantom"
+  },
+  "npcProfile": {
+    "race": "Apparition",
+    "gender": "Female",
+    "locations": [
+      "Tombs of Amascut"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 341,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

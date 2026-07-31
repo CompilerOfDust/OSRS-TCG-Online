@@ -1,0 +1,41 @@
+{
+  "id": 5894,
+  "cardId": "itm_shrimps",
+  "name": "Shrimps",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Some nicely cooked shrimp.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shrimps.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      315
+    ],
+    "pageSlug": "Shrimps",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shrimps"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 23,
+      "buyLimit": 6000,
+      "dailyVolume": 32780
+    }
+  }
+}

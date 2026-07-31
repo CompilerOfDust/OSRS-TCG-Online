@@ -1,0 +1,45 @@
+{
+  "id": 8029,
+  "cardId": "itm_mind-bomb-1",
+  "name": "Mind bomb(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5795,
+    5797,
+    5799
+  ],
+  "flavourText": "This keg contains 1 pint of Wizards Mind Bomb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Calquat_keg.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5801
+    ],
+    "pageSlug": "Mind_bomb_(keg)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mind_bomb_(keg)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": null,
+      "buyLimit": null,
+      "dailyVolume": null
+    }
+  }
+}

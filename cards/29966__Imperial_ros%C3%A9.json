@@ -1,0 +1,41 @@
+{
+  "id": 5354,
+  "cardId": "itm_imperial-ros",
+  "name": "Imperial rosé",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A complex and herby Tempestus Rosé that's famously served at the College of Bards.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Imperial_ros%C3%A9.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29966
+    ],
+    "pageSlug": "Imperial_ros%C3%A9",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Imperial_ros%C3%A9"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 535,
+      "buyLimit": null,
+      "dailyVolume": 35
+    }
+  }
+}

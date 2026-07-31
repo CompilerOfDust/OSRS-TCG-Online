@@ -1,0 +1,37 @@
+{
+  "id": 5602,
+  "cardId": "itm_jims-wet-cloth",
+  "name": "Jim's wet cloth",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A damp cloth. The liquid on it is black and slightly irridescent [ sic ] .",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jim%27s_wet_cloth.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30808
+    ],
+    "pageSlug": "Jim%27s_wet_cloth",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jim%27s_wet_cloth"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wipe",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

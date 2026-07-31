@@ -1,0 +1,38 @@
+{
+  "id": 6141,
+  "cardId": "itm_sulphur",
+  "name": "Sulphur",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    3215
+  ],
+  "flavourText": "A piece of sulphur formation.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sulphur.png",
+  "debut": "2004-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3209
+    ],
+    "pageSlug": "Sulphur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sulphur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

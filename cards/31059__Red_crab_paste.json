@@ -1,0 +1,36 @@
+{
+  "id": 5698,
+  "cardId": "itm_red-crab-paste",
+  "name": "Red crab paste",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A paste made by crushing a crab.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_crab_paste.png",
+  "debut": "2025-06-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31059
+    ],
+    "pageSlug": "Red_crab_paste",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_crab_paste"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.3,
+    "market": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 6609,
+  "cardId": "itm_raw-cod",
+  "name": "Raw cod",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_cod.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      341
+    ],
+    "pageSlug": "Raw_cod",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_cod"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 25,
+      "buyLimit": 15000,
+      "dailyVolume": 9053
+    }
+  }
+}

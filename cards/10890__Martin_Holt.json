@@ -1,0 +1,61 @@
+{
+  "id": 384,
+  "cardId": "npc_martin-holt",
+  "name": "Martin Holt",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "• He seems unhappy about something. • Leader of Kourend's Royal Society.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2018-04-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10890,
+      10891,
+      10892,
+      10893,
+      10894,
+      10895
+    ],
+    "pageSlug": "Martin_Holt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Martin_Holt"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Kingstown"
+    ],
+    "questLine": "A Kingdom Divided",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

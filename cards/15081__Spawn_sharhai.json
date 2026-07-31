@@ -1,0 +1,54 @@
+{
+  "id": 1908,
+  "cardId": "npc_spawn-sharhai",
+  "name": "Spawn sharhai",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "? (edit)",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spawn_sharhai.png",
+  "debut": "2025-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15081
+    ],
+    "pageSlug": "Spawn_sharhai",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spawn_sharhai"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "4x4",
+    "combatRating": 253,
+    "vitality": null,
+    "peakDamage": "? (edit)",
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [
+      "? (edit)"
+    ],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

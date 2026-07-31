@@ -1,0 +1,68 @@
+{
+  "id": 5742,
+  "cardId": "itm_grid-master-tabard-b",
+  "name": "Grid master tabard (b)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A symbol of grid mastery [ sic ]",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grid_master_tabard_%28b%29.png",
+  "debut": "2025-10-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31184
+    ],
+    "pageSlug": "Grid_master_tabard_(b)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grid_master_tabard_(b)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.3,
+    "market": {
+      "guidePrice": 32853,
+      "buyLimit": null,
+      "dailyVolume": 5
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

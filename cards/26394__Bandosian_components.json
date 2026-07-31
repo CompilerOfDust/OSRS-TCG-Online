@@ -1,0 +1,40 @@
+{
+  "id": 4370,
+  "cardId": "itm_bandosian-components",
+  "name": "Bandosian components",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "High grade material.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bandosian_components.png",
+  "debut": "2022-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26394
+    ],
+    "pageSlug": "Bandosian_components",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bandosian_components"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 0.095,
+    "market": {
+      "guidePrice": 7837159,
+      "buyLimit": null,
+      "dailyVolume": 13
+    }
+  }
+}

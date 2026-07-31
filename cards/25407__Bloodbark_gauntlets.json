@@ -1,0 +1,68 @@
+{
+  "id": 4015,
+  "cardId": "itm_bloodbark-gauntlets",
+  "name": "Bloodbark gauntlets",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "These should protect my hands.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bloodbark_gauntlets.png",
+  "debut": "2021-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25407
+    ],
+    "pageSlug": "Bloodbark_gauntlets",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bloodbark_gauntlets"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 41649,
+      "buyLimit": 70,
+      "dailyVolume": 482
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 5,
+        "slash": 4,
+        "crush": 6,
+        "magic": 5,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

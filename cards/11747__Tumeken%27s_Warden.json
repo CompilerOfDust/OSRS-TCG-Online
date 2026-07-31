@@ -1,0 +1,66 @@
+{
+  "id": 778,
+  "cardId": "npc_tumekens-warden",
+  "name": "Tumeken's Warden",
+  "cardKind": "npc",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "An ancient automaton imbued with the power of Tumeken.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tumeken%27s_Warden_(level-489).png",
+  "debut": "2022-08-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11747,
+      11749,
+      11760
+    ],
+    "pageSlug": "Tumeken%27s_Warden",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tumeken%27s_Warden"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [
+      "Tombs of Amascut"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 489,
+    "vitality": 140,
+    "peakDamage": "22",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee",
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 8,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 300,
+      "strength": 150,
+      "defence": 100,
+      "magic": 190,
+      "ranged": 190
+    },
+    "aggressiveBonuses": null
+  }
+}

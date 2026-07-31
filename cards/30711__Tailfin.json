@@ -1,0 +1,37 @@
+{
+  "id": 5563,
+  "cardId": "itm_tailfin",
+  "name": "Tailfin",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some nicely cooked tailfin.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tailfin.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30711
+    ],
+    "pageSlug": "Tailfin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tailfin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

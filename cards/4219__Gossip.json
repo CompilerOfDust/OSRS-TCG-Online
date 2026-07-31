@@ -1,0 +1,56 @@
+{
+  "id": 7112,
+  "cardId": "npc_gossip",
+  "name": "Gossip",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "One of those people who love to gossip!",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2003-06-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4219
+    ],
+    "pageSlug": "Gossip",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gossip"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Sinclair Mansion"
+    ],
+    "questLine": "• Murder Mystery • King's Ransom",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

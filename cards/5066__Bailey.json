@@ -1,0 +1,56 @@
+{
+  "id": 7672,
+  "cardId": "npc_bailey",
+  "name": "Bailey",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He smells of fish...",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2002-09-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5066
+    ],
+    "pageSlug": "Bailey",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bailey"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Fishing Platform"
+    ],
+    "questLine": "Sea Slug , The Slug Menace",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

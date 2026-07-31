@@ -1,0 +1,41 @@
+{
+  "id": 8715,
+  "cardId": "itm_tuna-and-corn",
+  "name": "Tuna and corn",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A bowl of cooked tuna and sweetcorn.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tuna_and_corn.png",
+  "debut": "2006-01-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7068
+    ],
+    "pageSlug": "Tuna_and_corn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tuna_and_corn"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 67,
+    "lowAlchemy": 45,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 972,
+      "buyLimit": 13000,
+      "dailyVolume": 1417
+    }
+  }
+}

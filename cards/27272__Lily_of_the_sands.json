@@ -1,0 +1,41 @@
+{
+  "id": 4600,
+  "cardId": "itm_lily-of-the-sands",
+  "name": "Lily of the sands",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A beautiful lily.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lily_of_the_sands.png",
+  "debut": "2022-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27272
+    ],
+    "pageSlug": "Lily_of_the_sands",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lily_of_the_sands"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.003,
+    "market": {
+      "guidePrice": 1823,
+      "buyLimit": 13000,
+      "dailyVolume": 63600
+    }
+  },
+  "special": false
+}

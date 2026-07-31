@@ -1,0 +1,36 @@
+{
+  "id": 2659,
+  "cardId": "itm_bologas-blessing",
+  "name": "Bologa's blessing",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A Zamorakian blessing from Bologa.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bologa%27s_blessing.png",
+  "debut": "2016-09-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20747
+    ],
+    "pageSlug": "Bologa%27s_blessing",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bologa%27s_blessing"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0,
+    "market": null
+  }
+}

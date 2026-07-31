@@ -1,0 +1,41 @@
+{
+  "id": 4216,
+  "cardId": "itm_irit-leaf",
+  "name": "Irit leaf",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A useful herb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Irit_leaf.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      259
+    ],
+    "pageSlug": "Irit_leaf",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Irit_leaf"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 1564,
+      "buyLimit": 13000,
+      "dailyVolume": 362192
+    }
+  },
+  "special": false
+}

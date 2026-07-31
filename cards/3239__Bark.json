@@ -1,0 +1,40 @@
+{
+  "id": 6191,
+  "cardId": "itm_bark",
+  "name": "Bark",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Bark from a hollow tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bark.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3239
+    ],
+    "pageSlug": "Bark",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bark"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 42,
+      "buyLimit": 13000,
+      "dailyVolume": 19093
+    }
+  }
+}

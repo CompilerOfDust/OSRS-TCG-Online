@@ -1,0 +1,71 @@
+{
+  "id": 7879,
+  "cardId": "itm_monks-robe-top",
+  "name": "Monk's robe top",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    20199,
+    23303
+  ],
+  "flavourText": "I feel closer to the gods when I am wearing this.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Monk%27s_robe_top.png",
+  "debut": "2001-07-12",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      544
+    ],
+    "pageSlug": "Monk%27s_robe_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Monk%27s_robe_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 463,
+      "buyLimit": 125,
+      "dailyVolume": 10743
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 6
+      }
+    }
+  },
+  "special": false
+}

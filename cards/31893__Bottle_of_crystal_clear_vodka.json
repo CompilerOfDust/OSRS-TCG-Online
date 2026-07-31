@@ -1,0 +1,37 @@
+{
+  "id": 6043,
+  "cardId": "itm_bottle-of-crystal-clear-vodka",
+  "name": "Bottle of crystal clear vodka",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "You can see straight through it, but you don't know for how much longer.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_crystal_clear_vodka.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31893
+    ],
+    "pageSlug": "Bottle_of_crystal_clear_vodka",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_crystal_clear_vodka"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

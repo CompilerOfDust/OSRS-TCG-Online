@@ -1,0 +1,67 @@
+{
+  "id": 8644,
+  "cardId": "itm_teacher-wand",
+  "name": "Teacher wand",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A teacher level wand.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Teacher_wand.png",
+  "debut": "2006-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6912
+    ],
+    "pageSlug": "Teacher_wand",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Teacher_wand"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 0.226,
+    "market": {
+      "guidePrice": 1956311,
+      "buyLimit": 70,
+      "dailyVolume": 2
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 15,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 8422,
+  "cardId": "itm_turquoise-robe-bottoms",
+  "name": "Turquoise robe bottoms",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Made by Tree Gnomes with a thing for turquoise.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Turquoise_robe_bottoms.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      654
+    ],
+    "pageSlug": "Turquoise_robe_bottoms",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Turquoise_robe_bottoms"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 108,
+    "lowAlchemy": 72,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 1260,
+      "buyLimit": 150,
+      "dailyVolume": 127
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 2,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

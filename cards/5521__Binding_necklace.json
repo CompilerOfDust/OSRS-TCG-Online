@@ -1,0 +1,68 @@
+{
+  "id": 7908,
+  "cardId": "itm_binding-necklace",
+  "name": "Binding necklace",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A necklace embedded with mystical power.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Binding_necklace.png",
+  "debut": "2005-06-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5521
+    ],
+    "pageSlug": "Binding_necklace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Binding_necklace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Destroy"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 855,
+    "lowAlchemy": 570,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 528,
+      "buyLimit": 10000,
+      "dailyVolume": 94511
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

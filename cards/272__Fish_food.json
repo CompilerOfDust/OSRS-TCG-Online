@@ -1,0 +1,41 @@
+{
+  "id": 4612,
+  "cardId": "itm_fish-food",
+  "name": "Fish food",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Keeps your pet fish strong and healthy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fish_food.png",
+  "debut": "2001-01-21",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      272
+    ],
+    "pageSlug": "Fish_food",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fish_food"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 585,
+      "buyLimit": 15,
+      "dailyVolume": 346
+    }
+  },
+  "special": false
+}

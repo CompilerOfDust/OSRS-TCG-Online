@@ -1,0 +1,37 @@
+{
+  "id": 213,
+  "cardId": "itm_tofu",
+  "name": "Tofu",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A block of tofu.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tofu.png",
+  "debut": "2007-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10514
+    ],
+    "pageSlug": "Tofu",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tofu"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

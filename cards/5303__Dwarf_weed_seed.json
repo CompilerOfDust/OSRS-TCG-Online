@@ -1,0 +1,40 @@
+{
+  "id": 7784,
+  "cardId": "itm_dwarf-weed-seed",
+  "name": "Dwarf weed seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A dwarf weed seed - plant in a herb patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dwarf_weed_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5303
+    ],
+    "pageSlug": "Dwarf_weed_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dwarf_weed_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 713,
+      "buyLimit": 200,
+      "dailyVolume": 26926
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 1367,
+  "cardId": "itm_dragon-longsword",
+  "name": "Dragon longsword",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    28033
+  ],
+  "flavourText": "A very powerful sword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_longsword.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1305
+    ],
+    "pageSlug": "Dragon_longsword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_longsword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 59043,
+      "buyLimit": 70,
+      "dailyVolume": 30475
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 58,
+        "slash": 69,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 3,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 71,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

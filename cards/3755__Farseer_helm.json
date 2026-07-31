@@ -1,0 +1,68 @@
+{
+  "id": 6812,
+  "cardId": "itm_farseer-helm",
+  "name": "Farseer helm",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "This helmet is worn by farseers.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Farseer_helm.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3755
+    ],
+    "pageSlug": "Farseer_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Farseer_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 36000,
+    "lowAlchemy": 24000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 39549,
+      "buyLimit": 70,
+      "dailyVolume": 705
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -5,
+        "slash": -5,
+        "crush": -5,
+        "magic": 6,
+        "ranged": -5
+      },
+      "defence": {
+        "stab": 8,
+        "slash": 10,
+        "crush": 12,
+        "magic": 6,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

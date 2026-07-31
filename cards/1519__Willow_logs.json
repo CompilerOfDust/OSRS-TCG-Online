@@ -1,0 +1,41 @@
+{
+  "id": 1929,
+  "cardId": "itm_willow-logs",
+  "name": "Willow logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Logs cut from a willow tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Willow_logs.png",
+  "debut": "2002-03-25",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1519
+    ],
+    "pageSlug": "Willow_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Willow_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 22,
+      "buyLimit": 15000,
+      "dailyVolume": 936506
+    }
+  },
+  "special": false
+}

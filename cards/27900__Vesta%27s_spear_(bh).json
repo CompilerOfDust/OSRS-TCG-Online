@@ -1,0 +1,64 @@
+{
+  "id": 4760,
+  "cardId": "itm_vestas-spear-bh",
+  "name": "Vesta's spear (bh)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A powerful spear.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vesta%27s_spear_%28bh%29.png",
+  "debut": "2023-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27900
+    ],
+    "pageSlug": "Vesta%27s_spear_(bh)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vesta%27s_spear_(bh)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Uncharge",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2.267,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 133,
+        "slash": 113,
+        "crush": 120,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 18,
+        "slash": 21,
+        "crush": 21,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 122,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

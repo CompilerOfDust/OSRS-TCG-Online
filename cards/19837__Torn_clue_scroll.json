@@ -1,0 +1,38 @@
+{
+  "id": 2392,
+  "cardId": "itm_torn-clue-scroll-part-1",
+  "name": "Torn clue scroll (part 1)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A clue scroll, at least partially.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Torn_clue_scroll_%28part_1%29.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19837
+    ],
+    "pageSlug": "Torn_clue_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Torn_clue_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Combine",
+      "Inspect",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

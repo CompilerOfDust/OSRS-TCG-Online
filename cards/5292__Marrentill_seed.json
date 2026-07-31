@@ -1,0 +1,40 @@
+{
+  "id": 7772,
+  "cardId": "itm_marrentill-seed",
+  "name": "Marrentill seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A marrentill seed - plant in a herb patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Marrentill_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5292
+    ],
+    "pageSlug": "Marrentill_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Marrentill_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 18,
+      "buyLimit": 600,
+      "dailyVolume": 20642
+    }
+  }
+}

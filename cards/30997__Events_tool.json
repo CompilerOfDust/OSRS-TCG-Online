@@ -1,0 +1,39 @@
+{
+  "id": 5671,
+  "cardId": "itm_events-tool",
+  "name": "Events tool",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Yuk!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Events_tool.png",
+  "debut": "2025-07-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30997
+    ],
+    "pageSlug": "Events_tool",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Events_tool"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Loot",
+      "Breaches",
+      "Events",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

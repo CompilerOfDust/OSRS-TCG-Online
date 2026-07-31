@@ -1,0 +1,65 @@
+{
+  "id": 8881,
+  "cardId": "npc_abhorrent-spectre",
+  "name": "Abhorrent spectre",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "I'd smell better after completing 3145 laps of an agility course dressed as a monkey.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Abhorrent_spectre.png",
+  "debut": "2016-09-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7402
+    ],
+    "pageSlug": "Abhorrent_spectre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Abhorrent_spectre"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 253,
+    "vitality": null,
+    "peakDamage": "31",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 60,
+      "reward": 2500,
+      "group": "Aberrant Spectres",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

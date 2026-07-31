@@ -1,0 +1,56 @@
+{
+  "id": 639,
+  "cardId": "npc_dipflip",
+  "name": "Dipflip",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An ugly green creature.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2022-02-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11383
+    ],
+    "pageSlug": "Dipflip",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dipflip"
+  },
+  "npcProfile": {
+    "race": "Goblin",
+    "gender": "Male",
+    "locations": [
+      "Goblin Temple"
+    ],
+    "questLine": "Land of the Goblins",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

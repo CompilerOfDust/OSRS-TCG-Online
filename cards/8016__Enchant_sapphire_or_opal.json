@@ -1,0 +1,41 @@
+{
+  "id": 9293,
+  "cardId": "itm_enchant-sapphire-or-opal",
+  "name": "Enchant sapphire or opal",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A tablet containing a magic spell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enchant_sapphire_or_opal.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8016
+    ],
+    "pageSlug": "Enchant_sapphire_or_opal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enchant_sapphire_or_opal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Info",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 107,
+      "buyLimit": 10000,
+      "dailyVolume": 32
+    }
+  }
+}

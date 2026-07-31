@@ -1,0 +1,40 @@
+{
+  "id": 6177,
+  "cardId": "itm_haddock-eye",
+  "name": "Haddock eye",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I wonder what this tastes like.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Haddock_eye.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32357
+    ],
+    "pageSlug": "Haddock_eye",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Haddock_eye"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 69,
+      "buyLimit": null,
+      "dailyVolume": 19579
+    }
+  }
+}

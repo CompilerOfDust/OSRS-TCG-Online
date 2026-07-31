@@ -1,0 +1,63 @@
+{
+  "id": 4908,
+  "cardId": "itm_corrupted-dragon-claws",
+  "name": "Corrupted dragon claws",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A set of fighting claws.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_dragon_claws.png",
+  "debut": "2023-08-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28534
+    ],
+    "pageSlug": "Corrupted_dragon_claws",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_dragon_claws"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 0.907,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 33,
+        "slash": 46,
+        "crush": -4,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 11,
+        "slash": 21,
+        "crush": 6,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 48,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 444,
+  "cardId": "itm_empty-light-orb",
+  "name": "Empty light orb",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Add a wire to complete it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Empty_light_orb.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10980
+    ],
+    "pageSlug": "Empty_light_orb",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Empty_light_orb"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.001,
+    "market": null
+  },
+  "special": false
+}

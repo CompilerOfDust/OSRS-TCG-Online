@@ -1,0 +1,67 @@
+{
+  "id": 7218,
+  "cardId": "itm_team-20-cape",
+  "name": "Team-20 cape",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Ooohhh look at the pretty colours...",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Team-20_cape.png",
+  "debut": "2005-02-22",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4353
+    ],
+    "pageSlug": "Team-20_cape",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Team-20_cape"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 211,
+      "buyLimit": 150,
+      "dailyVolume": 27
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 2
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

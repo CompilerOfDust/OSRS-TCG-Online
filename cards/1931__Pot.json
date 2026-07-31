@@ -1,0 +1,41 @@
+{
+  "id": 2278,
+  "cardId": "itm_pot",
+  "name": "Pot",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This pot is empty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pot.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1931
+    ],
+    "pageSlug": "Pot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 11,
+      "buyLimit": 13000,
+      "dailyVolume": 374927
+    }
+  },
+  "special": false
+}

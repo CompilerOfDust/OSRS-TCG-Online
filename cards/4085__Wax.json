@@ -1,0 +1,36 @@
+{
+  "id": 6985,
+  "cardId": "itm_wax",
+  "name": "Wax",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I can use this to wax my sled.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wax.png",
+  "debut": "2005-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4085
+    ],
+    "pageSlug": "Wax",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wax"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.025,
+    "market": null
+  }
+}

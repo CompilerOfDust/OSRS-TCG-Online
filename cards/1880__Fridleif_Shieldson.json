@@ -1,0 +1,57 @@
+{
+  "id": 2254,
+  "cardId": "npc_fridleif-shieldson",
+  "name": "Fridleif Shieldson",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Commander of Neitiznot's guards.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2007-02-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1880,
+      2983
+    ],
+    "pageSlug": "Fridleif_Shieldson",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fridleif_Shieldson"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Neitiznot"
+    ],
+    "questLine": "The Fremennik Isles",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

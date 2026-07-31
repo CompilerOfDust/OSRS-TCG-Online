@@ -1,0 +1,40 @@
+{
+  "id": 2150,
+  "cardId": "itm_cowhide",
+  "name": "Cowhide",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should take this to the tannery.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cowhide.png",
+  "debut": "2001-06-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1739
+    ],
+    "pageSlug": "Cowhide",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cowhide"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 146,
+      "buyLimit": 13000,
+      "dailyVolume": 249252
+    }
+  }
+}

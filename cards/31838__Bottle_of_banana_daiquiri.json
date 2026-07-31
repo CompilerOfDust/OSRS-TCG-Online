@@ -1,0 +1,37 @@
+{
+  "id": 5983,
+  "cardId": "itm_bottle-of-banana-daiquiri",
+  "name": "Bottle of banana daiquiri",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Seems to be very heavy on the banana. 100% of your daily recommended amount.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_banana_daiquiri.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31838
+    ],
+    "pageSlug": "Bottle_of_banana_daiquiri",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_banana_daiquiri"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

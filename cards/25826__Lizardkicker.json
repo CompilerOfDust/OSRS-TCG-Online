@@ -1,0 +1,42 @@
+{
+  "id": 4166,
+  "cardId": "itm_lizardkicker",
+  "name": "Lizardkicker",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A viscous bright-green ale. Smells like a herpetarium.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lizardkicker.png",
+  "debut": "2021-06-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25826
+    ],
+    "pageSlug": "Lizardkicker",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lizardkicker"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 315,
+      "buyLimit": null,
+      "dailyVolume": 0
+    }
+  },
+  "special": false
+}

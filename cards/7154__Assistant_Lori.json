@@ -1,0 +1,57 @@
+{
+  "id": 8765,
+  "cardId": "npc_assistant-lori",
+  "name": "Assistant Lori",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A helpful assistant.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2016-05-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7154
+    ],
+    "pageSlug": "Assistant_Lori",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Assistant_Lori"
+  },
+  "npcProfile": {
+    "race": "Gnome",
+    "gender": "Male",
+    "locations": [
+      "Grand Tree"
+    ],
+    "questLine": "Monkey Madness II",
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Fly"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

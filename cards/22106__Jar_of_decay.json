@@ -1,0 +1,41 @@
+{
+  "id": 3121,
+  "cardId": "itm_jar-of-decay",
+  "name": "Jar of decay",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Very healthy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jar_of_decay.png",
+  "debut": "2018-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22106
+    ],
+    "pageSlug": "Jar_of_decay",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jar_of_decay"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.04,
+    "market": {
+      "guidePrice": 52770,
+      "buyLimit": 4,
+      "dailyVolume": 26
+    }
+  },
+  "special": false
+}

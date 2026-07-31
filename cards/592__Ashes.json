@@ -1,0 +1,41 @@
+{
+  "id": 8066,
+  "cardId": "itm_ashes",
+  "name": "Ashes",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A heap of ashes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ashes.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      592
+    ],
+    "pageSlug": "Ashes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ashes"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 39,
+      "buyLimit": 13000,
+      "dailyVolume": 69872
+    }
+  },
+  "special": false
+}

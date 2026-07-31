@@ -1,0 +1,41 @@
+{
+  "id": 7775,
+  "cardId": "itm_ranarr-seed",
+  "name": "Ranarr seed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A ranarr seed - plant in a herb patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ranarr_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5295
+    ],
+    "pageSlug": "Ranarr_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ranarr_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 27309,
+      "buyLimit": 200,
+      "dailyVolume": 181676
+    }
+  },
+  "special": false
+}

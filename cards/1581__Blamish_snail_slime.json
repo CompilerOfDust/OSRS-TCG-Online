@@ -1,0 +1,36 @@
+{
+  "id": 2033,
+  "cardId": "itm_blamish-snail-slime",
+  "name": "Blamish snail slime",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Yuck.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blamish_snail_slime.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1581
+    ],
+    "pageSlug": "Blamish_snail_slime",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blamish_snail_slime"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.025,
+    "market": null
+  }
+}

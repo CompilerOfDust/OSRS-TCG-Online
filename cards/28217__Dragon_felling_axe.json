@@ -1,0 +1,67 @@
+{
+  "id": 4811,
+  "cardId": "itm_dragon-felling-axe",
+  "name": "Dragon felling axe",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A very powerful felling axe.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_felling_axe.png",
+  "debut": "2023-10-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28217
+    ],
+    "pageSlug": "Dragon_felling_axe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_felling_axe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 33000,
+    "lowAlchemy": 22000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 2255746,
+      "buyLimit": null,
+      "dailyVolume": 418
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -3,
+        "slash": 60,
+        "crush": 51,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 7,
+      "extras": {
+        "meleeStrength": 67,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

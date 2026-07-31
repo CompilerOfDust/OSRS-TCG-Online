@@ -1,0 +1,68 @@
+{
+  "id": 8418,
+  "cardId": "itm_cream-robe-bottoms",
+  "name": "Cream robe bottoms",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Made by Tree Gnomes with a thing for cream.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cream_robe_bottoms.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      652
+    ],
+    "pageSlug": "Cream_robe_bottoms",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cream_robe_bottoms"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 108,
+    "lowAlchemy": 72,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 308,
+      "buyLimit": 150,
+      "dailyVolume": 3
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 2,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

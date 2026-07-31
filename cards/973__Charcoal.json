@@ -1,0 +1,43 @@
+{
+  "id": 10057,
+  "cardId": "itm_charcoal",
+  "name": "Charcoal",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    704
+  ],
+  "flavourText": "A lump of charcoal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Charcoal.png",
+  "debut": "2003-01-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      973
+    ],
+    "pageSlug": "Charcoal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Charcoal"
+  },
+  "itemProfile": {
+    "questLinked": true,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 27,
+    "lowAlchemy": 18,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 152,
+      "buyLimit": 13000,
+      "dailyVolume": 78134
+    }
+  },
+  "special": false
+}

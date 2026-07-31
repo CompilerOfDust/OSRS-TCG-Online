@@ -1,0 +1,65 @@
+{
+  "id": 3256,
+  "cardId": "itm_enchanted-emerald-sickle-b",
+  "name": "Enchanted emerald sickle (b)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It's a blessed and enchanted silver sickle with an emerald recessed into it.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enchanted_emerald_sickle_%28b%29.png",
+  "debut": "2018-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22435
+    ],
+    "pageSlug": "Enchanted_emerald_sickle_(b)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enchanted_emerald_sickle_(b)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Cast Bloom",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 1.587,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 1,
+        "magic": 1,
+        "ranged": 1
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 3,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,58 @@
+{
+  "id": 659,
+  "cardId": "npc_apprentice-cordelia",
+  "name": "Apprentice Cordelia",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A prideful looking apprentice.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2022-03-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11443,
+      11444,
+      11445
+    ],
+    "pageSlug": "Apprentice_Cordelia",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Apprentice_Cordelia"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Wizards' Tower"
+    ],
+    "questLine": "Temple of the Eye",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

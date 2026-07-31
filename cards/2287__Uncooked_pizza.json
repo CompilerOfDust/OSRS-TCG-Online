@@ -1,0 +1,36 @@
+{
+  "id": 3372,
+  "cardId": "itm_uncooked-pizza",
+  "name": "Uncooked pizza",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This needs cooking.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncooked_pizza.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2287
+    ],
+    "pageSlug": "Uncooked_pizza",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncooked_pizza"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0.8,
+    "market": null
+  }
+}

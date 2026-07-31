@@ -1,0 +1,67 @@
+{
+  "id": 6823,
+  "cardId": "itm_fremennik-red-shirt",
+  "name": "Fremennik red shirt",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The latest in Fremennik fashion.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fremennik_red_shirt.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3773
+    ],
+    "pageSlug": "Fremennik_red_shirt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fremennik_red_shirt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 1488,
+      "buyLimit": 150,
+      "dailyVolume": 66
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 2,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 836,
+  "cardId": "itm_broad-arrowheads",
+  "name": "Broad arrowheads",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Arrowheads with broad tips.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Broad_arrowheads_1.png",
+  "debut": "2014-01-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11874
+    ],
+    "pageSlug": "Broad_arrowheads",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Broad_arrowheads"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 33,
+    "lowAlchemy": 22,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 54,
+      "buyLimit": 7000,
+      "dailyVolume": 310542
+    }
+  },
+  "special": false
+}

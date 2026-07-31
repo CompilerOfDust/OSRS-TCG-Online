@@ -1,0 +1,37 @@
+{
+  "id": 1515,
+  "cardId": "itm_gricollers-can",
+  "name": "Gricoller's can",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Contains far more water than should fit in such a small can.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gricoller%27s_can.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13353
+    ],
+    "pageSlug": "Gricoller%27s_can",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gricoller%27s_can"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 720,
+    "lowAlchemy": 480,
+    "weightKg": 0.98,
+    "market": null
+  }
+}

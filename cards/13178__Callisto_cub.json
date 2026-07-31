@@ -1,0 +1,37 @@
+{
+  "id": 1429,
+  "cardId": "itm_callisto-cub",
+  "name": "Callisto cub",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "I wouldn't want to eat his Porridge.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Callisto_cub.png",
+  "debut": "2015-03-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13178
+    ],
+    "pageSlug": "Callisto_cub",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Callisto_cub"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

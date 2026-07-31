@@ -1,0 +1,68 @@
+{
+  "id": 3013,
+  "cardId": "itm_granite-gloves",
+  "name": "Granite gloves",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Never take these for granite.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Granite_gloves.png",
+  "debut": "2017-10-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21736
+    ],
+    "pageSlug": "Granite_gloves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Granite_gloves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 20400,
+    "lowAlchemy": 13600,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 26951,
+      "buyLimit": 8,
+      "dailyVolume": 467
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 5,
+        "slash": 5,
+        "crush": 9,
+        "magic": -3,
+        "ranged": -1
+      },
+      "defence": {
+        "stab": 8,
+        "slash": 8,
+        "crush": 8,
+        "magic": -3,
+        "ranged": 5
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 7,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

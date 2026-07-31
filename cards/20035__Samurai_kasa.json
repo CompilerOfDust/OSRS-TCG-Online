@@ -1,0 +1,68 @@
+{
+  "id": 2507,
+  "cardId": "itm_samurai-kasa",
+  "name": "Samurai kasa",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A conical hat.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Samurai_kasa.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20035
+    ],
+    "pageSlug": "Samurai_kasa",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Samurai_kasa"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 2400,
+    "lowAlchemy": 1600,
+    "weightKg": 0.6,
+    "market": {
+      "guidePrice": 19442,
+      "buyLimit": 70,
+      "dailyVolume": 47
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 16,
+        "slash": 17,
+        "crush": 15,
+        "magic": 4,
+        "ranged": 16
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

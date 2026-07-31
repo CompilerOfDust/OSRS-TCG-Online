@@ -1,0 +1,65 @@
+{
+  "id": 8189,
+  "cardId": "itm_ghostly-robe__2",
+  "name": "Ghostly robe",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    6108
+  ],
+  "flavourText": "A particularly spooky robe top.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ghostly_robe_%28top%29.png",
+  "debut": "2005-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6107
+    ],
+    "pageSlug": "Ghostly_robe_(top)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ghostly_robe_(top)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.001,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

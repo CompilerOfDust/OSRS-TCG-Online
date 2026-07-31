@@ -1,0 +1,67 @@
+{
+  "id": 1722,
+  "cardId": "itm_mystic-fire-staff",
+  "name": "Mystic fire staff",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It's a slightly magical stick.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mystic_fire_staff.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1401
+    ],
+    "pageSlug": "Mystic_fire_staff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mystic_fire_staff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 25500,
+    "lowAlchemy": 17000,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 24873,
+      "buyLimit": 18000,
+      "dailyVolume": 7763
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 10,
+        "slash": -1,
+        "crush": 40,
+        "magic": 14,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 14,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 50,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

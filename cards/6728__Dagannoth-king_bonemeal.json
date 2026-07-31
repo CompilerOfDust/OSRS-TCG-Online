@@ -1,0 +1,37 @@
+{
+  "id": 8544,
+  "cardId": "itm_dagannoth-king-bonemeal",
+  "name": "Dagannoth-king bonemeal",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pot of crushed Dagannoth-king bones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dagannoth-king_bonemeal.png",
+  "debut": "2005-11-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6728
+    ],
+    "pageSlug": "Dagannoth-king_bonemeal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dagannoth-king_bonemeal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.5,
+    "market": null
+  }
+}

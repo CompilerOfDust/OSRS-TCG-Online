@@ -1,0 +1,61 @@
+{
+  "id": 7423,
+  "cardId": "npc_harpie-bug-swarm",
+  "name": "Harpie Bug Swarm",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A swarm of bugs.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Harpie_Bug_Swarm.png",
+  "debut": "2006-01-30",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      464
+    ],
+    "pageSlug": "Harpie_Bug_Swarm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Harpie_Bug_Swarm"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 46,
+    "vitality": null,
+    "peakDamage": "6",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 25,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 33,
+      "reward": 25,
+      "group": "Harpie Bug Swarms",
+      "masters": [
+        "Vannaka"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

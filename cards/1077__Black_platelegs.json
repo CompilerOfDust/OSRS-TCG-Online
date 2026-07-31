@@ -1,0 +1,70 @@
+{
+  "id": 315,
+  "cardId": "itm_black-platelegs",
+  "name": "Black platelegs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    2585,
+    2593
+  ],
+  "flavourText": "Big, black and heavy looking.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_platelegs.png",
+  "debut": "2001-02-28",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1077
+    ],
+    "pageSlug": "Black_platelegs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_platelegs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 1152,
+    "lowAlchemy": 768,
+    "weightKg": 9.071,
+    "market": {
+      "guidePrice": 994,
+      "buyLimit": 125,
+      "dailyVolume": 2826
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 21,
+        "slash": 20,
+        "crush": 19,
+        "magic": -4,
+        "ranged": 20
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

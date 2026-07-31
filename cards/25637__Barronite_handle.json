@@ -1,0 +1,37 @@
+{
+  "id": 4105,
+  "cardId": "itm_barronite-handle",
+  "name": "Barronite handle",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A robust piece of barronite.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Barronite_handle.png",
+  "debut": "2021-04-14",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25637
+    ],
+    "pageSlug": "Barronite_handle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Barronite_handle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 5119,
+    "lowAlchemy": 3412,
+    "weightKg": 2.5,
+    "market": null
+  },
+  "special": false
+}

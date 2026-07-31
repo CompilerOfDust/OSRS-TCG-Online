@@ -1,0 +1,36 @@
+{
+  "id": 2964,
+  "cardId": "itm_fossilised-roots",
+  "name": "Fossilised roots",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This set of fossilised roots belongs in a museum!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fossilised_roots.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21590
+    ],
+    "pageSlug": "Fossilised_roots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fossilised_roots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

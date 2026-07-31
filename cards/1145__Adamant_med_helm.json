@@ -1,0 +1,69 @@
+{
+  "id": 664,
+  "cardId": "itm_adamant-med-helm",
+  "name": "Adamant med helm",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    6895
+  ],
+  "flavourText": "A medium sized helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_med_helm.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1145
+    ],
+    "pageSlug": "Adamant_med_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_med_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 1152,
+    "lowAlchemy": 768,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 870,
+      "buyLimit": 125,
+      "dailyVolume": 988
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 14,
+        "slash": 15,
+        "crush": 13,
+        "magic": -1,
+        "ranged": 14
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

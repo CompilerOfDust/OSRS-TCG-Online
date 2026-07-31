@@ -1,0 +1,68 @@
+{
+  "id": 3172,
+  "cardId": "itm_snakeskin-shield",
+  "name": "Snakeskin shield",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A solid willow shield covered in snakeskin leather.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snakeskin_shield.png",
+  "debut": "2018-02-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22272
+    ],
+    "pageSlug": "Snakeskin_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snakeskin_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 552,
+    "lowAlchemy": 368,
+    "weightKg": 8,
+    "market": {
+      "guidePrice": 219,
+      "buyLimit": 125,
+      "dailyVolume": 243
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -15,
+        "slash": -15,
+        "crush": -11,
+        "magic": -10,
+        "ranged": 3
+      },
+      "defence": {
+        "stab": 10,
+        "slash": 9,
+        "crush": 8,
+        "magic": 7,
+        "ranged": 10
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

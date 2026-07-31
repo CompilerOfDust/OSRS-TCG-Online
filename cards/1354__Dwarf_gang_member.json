@@ -1,0 +1,70 @@
+{
+  "id": 1608,
+  "cardId": "npc_dwarf-gang-member",
+  "name": "Dwarf gang member",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A short stout menacing fellow.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dwarf_gang_member_(1).png",
+  "debut": "2005-02-28",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1354,
+      1355,
+      1356
+    ],
+    "pageSlug": "Dwarf_gang_member",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dwarf_gang_member"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 44,
+    "vitality": 40,
+    "peakDamage": "5",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 25,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 40,
+      "group": "Dwarves",
+      "masters": [
+        "Turael",
+        "Spria"
+      ]
+    },
+    "combatLevels": {
+      "attack": 40,
+      "strength": 40,
+      "defence": 35,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": 6551,
+  "cardId": "itm_tarnished-halberd",
+  "name": "Tarnished halberd",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A tarnished halberd, not fit for a lord.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tarnished_halberd.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33685
+    ],
+    "pageSlug": "Tarnished_halberd",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tarnished_halberd"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Polish",
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36000,
+    "lowAlchemy": 24000,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

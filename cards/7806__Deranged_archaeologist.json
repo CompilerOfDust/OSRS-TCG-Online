@@ -1,0 +1,64 @@
+{
+  "id": 9134,
+  "cardId": "npc_deranged-archaeologist",
+  "name": "Deranged archaeologist",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "He's seen things that people wouldn't believe.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Deranged_archaeologist.png",
+  "debut": "2017-09-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7806
+    ],
+    "pageSlug": "Deranged_archaeologist",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Deranged_archaeologist"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 276,
+    "vitality": null,
+    "peakDamage": "25 (melee) 25 (range) 56 (special direct hit) 18+ (special indirect hit)",
+    "combatXpBonusPct": 37.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged",
+      "Crush"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 275,
+      "group": "Bosses",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

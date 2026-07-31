@@ -1,0 +1,37 @@
+{
+  "id": 8665,
+  "cardId": "itm_square-sandwich",
+  "name": "Square sandwich",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A freshly made square sandwich.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Square_sandwich.png",
+  "debut": "2006-01-10",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6965
+    ],
+    "pageSlug": "Square_sandwich",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Square_sandwich"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

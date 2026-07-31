@@ -1,0 +1,46 @@
+{
+  "id": 2732,
+  "cardId": "itm_drunk-dragon",
+  "name": "Drunk dragon",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    9574,
+    9575,
+    9576
+  ],
+  "flavourText": "A warm creamy alcoholic beverage.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Drunk_dragon.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2092
+    ],
+    "pageSlug": "Drunk_dragon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Drunk_dragon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 81,
+      "buyLimit": 2000,
+      "dailyVolume": 105
+    }
+  },
+  "special": false
+}

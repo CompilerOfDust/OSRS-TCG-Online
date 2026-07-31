@@ -1,0 +1,41 @@
+{
+  "id": 7333,
+  "cardId": "itm_oil-lamp",
+  "name": "Oil lamp",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Not the genie sort.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oil_lamp.png",
+  "debut": "2005-03-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4522
+    ],
+    "pageSlug": "Oil_lamp",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oil_lamp"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 16,
+    "lowAlchemy": 11,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 1771,
+      "buyLimit": 40,
+      "dailyVolume": 113
+    }
+  },
+  "special": false
+}

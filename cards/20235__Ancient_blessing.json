@@ -1,0 +1,67 @@
+{
+  "id": 2571,
+  "cardId": "itm_ancient-blessing",
+  "name": "Ancient blessing",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The misery that is now upon us is but the passing of greed, the bitterness of those who fear the way of progress.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_blessing.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20235
+    ],
+    "pageSlug": "Ancient_blessing",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_blessing"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Equip",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 48,
+    "lowAlchemy": 32,
+    "weightKg": 0.51,
+    "market": {
+      "guidePrice": 4766,
+      "buyLimit": 5,
+      "dailyVolume": 727
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": 4948,
+  "cardId": "npc_dungeon-rat",
+  "name": "Dungeon rat",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Overgrown vermin.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dungeon_rat.png",
+  "debut": "2002-06-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2865,
+      2866,
+      2867
+    ],
+    "pageSlug": "Dungeon_rat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dungeon_rat"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Rat"
+    ],
+    "tileSize": "2x2",
+    "combatRating": 12,
+    "vitality": 12,
+    "peakDamage": "2",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 12,
+      "group": "Rats",
+      "masters": [
+        "Turael",
+        "Spria"
+      ]
+    },
+    "combatLevels": {
+      "attack": 10,
+      "strength": 10,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

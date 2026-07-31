@@ -1,0 +1,42 @@
+{
+  "id": 3139,
+  "cardId": "itm_toad-crunchies",
+  "name": "Toad crunchies",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It actually smells quite good.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Toad_crunchies.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2217
+    ],
+    "pageSlug": "Toad_crunchies",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Toad_crunchies"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 4906,
+      "buyLimit": 6000,
+      "dailyVolume": 122
+    }
+  },
+  "special": false
+}

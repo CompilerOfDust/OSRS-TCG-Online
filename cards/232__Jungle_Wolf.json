@@ -1,0 +1,63 @@
+{
+  "id": 3467,
+  "cardId": "npc_jungle-wolf",
+  "name": "Jungle Wolf",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A rare jungle wolf - specific to the Kharazi jungle.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jungle_Wolf.png",
+  "debut": "2003-08-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      232
+    ],
+    "pageSlug": "Jungle_Wolf",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jungle_Wolf"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 64,
+    "vitality": null,
+    "peakDamage": "6",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 90,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 70,
+      "group": "Wolves",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

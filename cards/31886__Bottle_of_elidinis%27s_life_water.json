@@ -1,0 +1,37 @@
+{
+  "id": 6035,
+  "cardId": "itm_bottle-of-elidiniss-life-water",
+  "name": "Bottle of elidinis's life water",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Looks like normal water, but if this journey has taught you anything, its that you shouldn't trust a floating sealed crate full of bottles of drink.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_elidinis%27s_life_water.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31886
+    ],
+    "pageSlug": "Bottle_of_elidinis%27s_life_water",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_elidinis%27s_life_water"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

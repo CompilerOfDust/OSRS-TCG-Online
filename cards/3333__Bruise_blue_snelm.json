@@ -1,0 +1,68 @@
+{
+  "id": 6458,
+  "cardId": "itm_bruise-blue-snelm",
+  "name": "Bruise blue snelm",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A moody blue snail shell helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bruise_blue_snelm.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3333
+    ],
+    "pageSlug": "Bruise_blue_snelm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bruise_blue_snelm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 2363,
+      "buyLimit": 150,
+      "dailyVolume": 38
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": -1
+      },
+      "defence": {
+        "stab": 7,
+        "slash": 8,
+        "crush": 6,
+        "magic": -1,
+        "ranged": 7
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,54 @@
+{
+  "id": 9310,
+  "cardId": "npc_robert-the-strong",
+  "name": "Robert the Strong",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A battle hardened hero.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Robert_the_Strong.png",
+  "debut": "2018-01-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8057
+    ],
+    "pageSlug": "Robert_the_Strong",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Robert_the_Strong"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 224,
+    "vitality": null,
+    "peakDamage": "34 (Ranged) 50+ (Special)",
+    "combatXpBonusPct": 5,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

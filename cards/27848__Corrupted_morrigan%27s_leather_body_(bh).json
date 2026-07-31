@@ -1,0 +1,64 @@
+{
+  "id": 4736,
+  "cardId": "itm_corrupted-morrigans-leather-body-bh",
+  "name": "Corrupted morrigan's leather body (bh)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A powerful leather body.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_morrigan%27s_leather_body_%28bh%29.png",
+  "debut": "2023-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27848
+    ],
+    "pageSlug": "Corrupted_morrigan%27s_leather_body_(bh)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_morrigan%27s_leather_body_(bh)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Uncharge",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 6.803,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -13,
+        "ranged": 36
+      },
+      "defence": {
+        "stab": 14,
+        "slash": 10,
+        "crush": 12,
+        "magic": 30,
+        "ranged": 15
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 4,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

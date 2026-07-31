@@ -1,0 +1,65 @@
+{
+  "id": 1990,
+  "cardId": "npc_magma-strykewyrm",
+  "name": "Magma strykewyrm",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A rather hot foe.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magma_strykewyrm.png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15504
+    ],
+    "pageSlug": "Magma_strykewyrm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magma_strykewyrm"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 249,
+    "vitality": null,
+    "peakDamage": "26",
+    "combatXpBonusPct": 7.5,
+    "hostile": false,
+    "assaultStyles": [
+      "Melee",
+      "Ranged"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 62,
+      "reward": 3655,
+      "group": "Wyrms",
+      "masters": [
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

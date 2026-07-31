@@ -1,0 +1,41 @@
+{
+  "id": 3001,
+  "cardId": "itm_mushroom-pie",
+  "name": "Mushroom pie",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Mmm mushroom pie.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mushroom_pie.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21690
+    ],
+    "pageSlug": "Mushroom_pie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mushroom_pie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 10729,
+      "buyLimit": 10000,
+      "dailyVolume": 1374
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 8545,
+  "cardId": "itm_dagannoth-bones",
+  "name": "Dagannoth bones",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    29376
+  ],
+  "flavourText": "These would feed a dogfish for months!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dagannoth_bones.png",
+  "debut": "2005-11-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6729
+    ],
+    "pageSlug": "Dagannoth_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dagannoth_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 1.5,
+    "market": {
+      "guidePrice": 12077,
+      "buyLimit": 7500,
+      "dailyVolume": 106966
+    }
+  }
+}

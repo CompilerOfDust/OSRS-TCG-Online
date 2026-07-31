@@ -1,0 +1,40 @@
+{
+  "id": 6883,
+  "cardId": "itm_raw-manta-ray",
+  "name": "Raw manta ray",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A rare catch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_manta_ray.png",
+  "debut": "2003-07-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      389
+    ],
+    "pageSlug": "Raw_manta_ray",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_manta_ray"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 1072,
+      "buyLimit": 15000,
+      "dailyVolume": 404760
+    }
+  }
+}

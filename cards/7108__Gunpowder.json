@@ -1,0 +1,36 @@
+{
+  "id": 8735,
+  "cardId": "itm_gunpowder",
+  "name": "Gunpowder",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Best keep this away from naked flames.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gunpowder.png",
+  "debut": "2006-02-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7108
+    ],
+    "pageSlug": "Gunpowder",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gunpowder"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 31,
+    "lowAlchemy": 20,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

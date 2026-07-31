@@ -1,0 +1,37 @@
+{
+  "id": 6474,
+  "cardId": "itm_immaculate-mole-skin",
+  "name": "Immaculate mole skin",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The immaculate skin of a large mole.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Immaculate_mole_skin.png",
+  "debut": "2026-05-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33382
+    ],
+    "pageSlug": "Immaculate_mole_skin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Immaculate_mole_skin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 0.001,
+    "market": null
+  },
+  "special": false
+}

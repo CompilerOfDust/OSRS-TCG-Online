@@ -1,0 +1,64 @@
+{
+  "id": 1682,
+  "cardId": "npc_frost-nagua",
+  "name": "Frost Nagua",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Brittle, cold and shimmering with frost magic.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Frost_Nagua.png",
+  "debut": "2024-09-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13728,
+      13787,
+      13788
+    ],
+    "pageSlug": "Frost_Nagua",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Frost_Nagua"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 104,
+    "vitality": null,
+    "peakDamage": "12 total [6+6]",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 48,
+      "reward": 120,
+      "group": "Lesser Nagua",
+      "masters": [
+        "Chaeldar",
+        "Konar"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

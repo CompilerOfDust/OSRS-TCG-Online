@@ -1,0 +1,37 @@
+{
+  "id": 3433,
+  "cardId": "itm_mimic",
+  "name": "Mimic",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Oh great, it's a casket that's come to life.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mimic.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23184
+    ],
+    "pageSlug": "Mimic",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mimic"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Open",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 5,
+    "market": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 9199,
+  "cardId": "itm_jackal-bone",
+  "name": "Jackal bone",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This needs a good polish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jackal_bone.png",
+  "debut": "2006-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7914
+    ],
+    "pageSlug": "Jackal_bone",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jackal_bone"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

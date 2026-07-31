@@ -1,0 +1,68 @@
+{
+  "id": 9790,
+  "cardId": "itm_adamant-crossbow",
+  "name": "Adamant crossbow",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An adamantite crossbow.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_crossbow.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9183
+    ],
+    "pageSlug": "Adamant_crossbow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_crossbow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 1060,
+    "lowAlchemy": 706,
+    "weightKg": 6,
+    "market": {
+      "guidePrice": 1004,
+      "buyLimit": 70,
+      "dailyVolume": 1093
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 78
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

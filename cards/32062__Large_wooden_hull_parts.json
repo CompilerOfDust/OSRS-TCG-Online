@@ -1,0 +1,41 @@
+{
+  "id": 6125,
+  "cardId": "itm_large-wooden-hull-parts",
+  "name": "Large wooden hull parts",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating a wooden hull for larger boats.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Large_wooden_hull_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32062
+    ],
+    "pageSlug": "Large_wooden_hull_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Large_wooden_hull_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 750,
+    "lowAlchemy": 500,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 2449,
+      "buyLimit": 100,
+      "dailyVolume": 256
+    }
+  },
+  "special": false
+}

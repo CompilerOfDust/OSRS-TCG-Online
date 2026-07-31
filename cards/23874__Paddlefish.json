@@ -1,0 +1,37 @@
+{
+  "id": 3588,
+  "cardId": "itm_paddlefish",
+  "name": "Paddlefish",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I could eat this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Paddlefish.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23874
+    ],
+    "pageSlug": "Paddlefish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Paddlefish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.45,
+    "market": null
+  }
+}

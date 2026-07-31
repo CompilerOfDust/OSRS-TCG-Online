@@ -1,0 +1,64 @@
+{
+  "id": 4547,
+  "cardId": "itm_amulet-of-the-eye",
+  "name": "Amulet of the eye",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An amulet in the shape of an eye.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amulet_of_the_eye.png",
+  "debut": "2022-03-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26914
+    ],
+    "pageSlug": "Amulet_of_the_eye",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amulet_of_the_eye"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Teleport",
+      "Destroy"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.25,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

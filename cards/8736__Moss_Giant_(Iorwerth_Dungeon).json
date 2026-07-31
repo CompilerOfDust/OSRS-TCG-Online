@@ -1,0 +1,62 @@
+{
+  "id": 9541,
+  "cardId": "npc_moss-giant",
+  "name": "Moss Giant",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Bigger than your average moss giant.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Moss_Giant_(Iorwerth_Dungeon).png",
+  "debut": "2019-07-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8736
+    ],
+    "pageSlug": "Moss_Giant_(Iorwerth_Dungeon)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Moss_Giant_(Iorwerth_Dungeon)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 84,
+    "vitality": null,
+    "peakDamage": "14",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee",
+      "Magic"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 10,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 120,
+      "group": "Moss Giants",
+      "masters": [
+        "Vannaka"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

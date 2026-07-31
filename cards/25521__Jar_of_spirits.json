@@ -1,0 +1,41 @@
+{
+  "id": 4067,
+  "cardId": "itm_jar-of-spirits",
+  "name": "Jar of spirits",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "How does someone jar this?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jar_of_spirits.png",
+  "debut": "2021-03-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25521
+    ],
+    "pageSlug": "Jar_of_spirits",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jar_of_spirits"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.04,
+    "market": {
+      "guidePrice": 85492,
+      "buyLimit": 4,
+      "dailyVolume": 6
+    }
+  },
+  "special": false
+}

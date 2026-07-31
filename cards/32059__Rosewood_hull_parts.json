@@ -1,0 +1,40 @@
+{
+  "id": 6124,
+  "cardId": "itm_rosewood-hull-parts",
+  "name": "Rosewood hull parts",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating a rosewood hull for a boat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rosewood_hull_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32059
+    ],
+    "pageSlug": "Rosewood_hull_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rosewood_hull_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 11250,
+    "lowAlchemy": 7500,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 11398,
+      "buyLimit": 100,
+      "dailyVolume": 6081
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 480,
+  "cardId": "itm_goblin-village-sphere",
+  "name": "Goblin village sphere",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Oldak's marvellous Moving-Over-Distance Sphere.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Goblin_village_sphere.png",
+  "debut": "2007-04-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11060
+    ],
+    "pageSlug": "Goblin_village_sphere",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Goblin_village_sphere"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0,
+    "market": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 6798,
+  "cardId": "itm_sealed-vase",
+  "name": "Sealed vase",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The lid is screwed on tightly.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sealed_vase.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3738
+    ],
+    "pageSlug": "Sealed_vase",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sealed_vase"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Remove-lid",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

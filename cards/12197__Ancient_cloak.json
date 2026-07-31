@@ -1,0 +1,67 @@
+{
+  "id": 948,
+  "cardId": "itm_ancient-cloak",
+  "name": "Ancient cloak",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An Ancient cloak.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_cloak.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12197
+    ],
+    "pageSlug": "Ancient_cloak",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_cloak"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 0.003,
+    "market": {
+      "guidePrice": 12511,
+      "buyLimit": 8,
+      "dailyVolume": 121
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 1,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 3,
+        "slash": 3,
+        "crush": 3,
+        "magic": 3,
+        "ranged": 3
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

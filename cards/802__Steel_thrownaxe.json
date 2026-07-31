@@ -1,0 +1,67 @@
+{
+  "id": 9303,
+  "cardId": "itm_steel-thrownaxe",
+  "name": "Steel thrownaxe",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A finely balanced throwing axe.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_thrownaxe.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      802
+    ],
+    "pageSlug": "Steel_thrownaxe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_thrownaxe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 48,
+      "buyLimit": 7000,
+      "dailyVolume": 1
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 8
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 11,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

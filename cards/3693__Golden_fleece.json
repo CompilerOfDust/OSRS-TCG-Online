@@ -1,0 +1,36 @@
+{
+  "id": 6767,
+  "cardId": "itm_golden-fleece",
+  "name": "Golden fleece",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I can spin this into golden wool...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golden_fleece.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3693
+    ],
+    "pageSlug": "Golden_fleece",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golden_fleece"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.012,
+    "market": null
+  }
+}

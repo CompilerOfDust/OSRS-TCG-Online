@@ -1,0 +1,37 @@
+{
+  "id": 1832,
+  "cardId": "itm_dry-sticks",
+  "name": "Dry sticks",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some dry wooden sticks.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dry_sticks.png",
+  "debut": "2002-09-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1468
+    ],
+    "pageSlug": "Dry_sticks",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dry_sticks"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Rub-together",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

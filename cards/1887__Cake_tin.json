@@ -1,0 +1,40 @@
+{
+  "id": 2259,
+  "cardId": "itm_cake-tin",
+  "name": "Cake tin",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Useful for baking cakes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cake_tin.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1887
+    ],
+    "pageSlug": "Cake_tin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cake_tin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 65,
+      "buyLimit": 40,
+      "dailyVolume": 8772
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1158,
+  "cardId": "npc_branda-the-fire-queen",
+  "name": "Branda the Fire Queen",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Wields the primal force of fire. Majestic and fearsome.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Branda_the_Fire_Queen.png",
+  "debut": "2025-02-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12596
+    ],
+    "pageSlug": "Branda_the_Fire_Queen",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 350,
+    "vitality": null,
+    "peakDamage": "26 ( Melee ) 12 (Wall)",
+    "combatXpBonusPct": 22.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 7,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 735,
+      "group": "Fire Giants",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": 85,
+  "cardId": "npc_bandit",
+  "name": "Bandit",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    690,
+    691,
+    692,
+    693,
+    694,
+    695,
+    734,
+    735,
+    736,
+    737,
+    1027,
+    11063,
+    11064,
+    11065,
+    12663,
+    12664,
+    12665,
+    12666,
+    12667,
+    13283,
+    13284,
+    13285,
+    13286,
+    13287,
+    13288,
+    13289,
+    13290
+  ],
+  "flavourText": "A wilderness outlaw.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bandit.png",
+  "debut": "2002-02-27",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1026,
+      6605
+    ],
+    "pageSlug": "Bandit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bandit"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 22,
+    "vitality": 27,
+    "peakDamage": "3",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 100,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 27,
+      "group": "Bandits",
+      "masters": [
+        "Krystilia"
+      ]
+    },
+    "combatLevels": {
+      "attack": 17,
+      "strength": 17,
+      "defence": 17,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 2147,
+  "cardId": "itm_thread",
+  "name": "Thread",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Used with a needle to make clothes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Thread.png",
+  "debut": "2001-06-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1734
+    ],
+    "pageSlug": "Thread",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Thread"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 7,
+      "buyLimit": 18000,
+      "dailyVolume": 928104
+    }
+  },
+  "special": false
+}

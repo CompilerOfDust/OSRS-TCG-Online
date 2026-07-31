@@ -1,0 +1,57 @@
+{
+  "id": 1314,
+  "cardId": "npc_ulsquire-shauncy",
+  "name": "Ulsquire Shauncy",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A local villager of Mort'ton.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-10-18",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1287,
+      1288
+    ],
+    "pageSlug": "Ulsquire_Shauncy",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ulsquire_Shauncy"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Mort'ton"
+    ],
+    "questLine": "Shades of Mort'ton",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

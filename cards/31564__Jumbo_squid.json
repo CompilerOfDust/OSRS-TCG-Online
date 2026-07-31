@@ -1,0 +1,41 @@
+{
+  "id": 5885,
+  "cardId": "itm_jumbo-squid",
+  "name": "Jumbo squid",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Doesn't look too appetising, but looks can be deceiving.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jumbo_squid.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31564
+    ],
+    "pageSlug": "Jumbo_squid",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jumbo_squid"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 1028,
+      "buyLimit": null,
+      "dailyVolume": 328
+    }
+  }
+}

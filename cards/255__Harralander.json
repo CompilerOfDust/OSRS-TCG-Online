@@ -1,0 +1,41 @@
+{
+  "id": 4094,
+  "cardId": "itm_harralander",
+  "name": "Harralander",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A useful herb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Harralander.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      255
+    ],
+    "pageSlug": "Harralander",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Harralander"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 357,
+      "buyLimit": 13000,
+      "dailyVolume": 392693
+    }
+  },
+  "special": false
+}

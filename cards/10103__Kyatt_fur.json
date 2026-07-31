@@ -1,0 +1,40 @@
+{
+  "id": 40,
+  "cardId": "itm_kyatt-fur",
+  "name": "Kyatt fur",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It's a perfect-looking kyatt fur.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kyatt_fur.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10103
+    ],
+    "pageSlug": "Kyatt_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kyatt_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 656,
+      "buyLimit": 10000,
+      "dailyVolume": 7740
+    }
+  }
+}

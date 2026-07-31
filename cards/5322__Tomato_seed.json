@@ -1,0 +1,41 @@
+{
+  "id": 7810,
+  "cardId": "itm_tomato-seed",
+  "name": "Tomato seed",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A tomato seed - plant in an allotment.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tomato_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5322
+    ],
+    "pageSlug": "Tomato_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tomato_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 4,
+      "buyLimit": 600,
+      "dailyVolume": 43790
+    }
+  },
+  "special": false
+}

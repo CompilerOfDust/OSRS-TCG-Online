@@ -1,0 +1,68 @@
+{
+  "id": 1765,
+  "cardId": "itm_steel-mace",
+  "name": "Steel mace",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A spiky mace.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_mace.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1424
+    ],
+    "pageSlug": "Steel_mace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_mace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 135,
+    "lowAlchemy": 90,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 16,
+      "buyLimit": 125,
+      "dailyVolume": 2220
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 7,
+        "slash": -2,
+        "crush": 13,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 11,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": 2194,
+  "cardId": "itm_criminals-thread",
+  "name": "Criminal's thread",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some red thread found at the murder scene.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Criminal%27s_thread_%28red%29.png",
+  "debut": "2003-06-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1808
+    ],
+    "pageSlug": "Criminal%27s_thread",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Criminal%27s_thread"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

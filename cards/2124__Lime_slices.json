@@ -1,0 +1,41 @@
+{
+  "id": 2855,
+  "cardId": "itm_lime-slices",
+  "name": "Lime slices",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Fresh lime slices.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lime_slices.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2124
+    ],
+    "pageSlug": "Lime_slices",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lime_slices"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.08,
+    "market": {
+      "guidePrice": 181,
+      "buyLimit": 13000,
+      "dailyVolume": 43
+    }
+  }
+}

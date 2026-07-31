@@ -1,0 +1,46 @@
+{
+  "id": 400,
+  "cardId": "itm_sanfew-serum-1",
+  "name": "Sanfew serum(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    10927,
+    10929,
+    10931
+  ],
+  "flavourText": "A 1 dose Sanfew Serum.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sanfew_serum%284%29.png",
+  "debut": "2007-03-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10925
+    ],
+    "pageSlug": "Sanfew_serum",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sanfew_serum"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 72,
+    "lowAlchemy": 48,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 4914,
+      "buyLimit": 2000,
+      "dailyVolume": 152
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 4372,
+  "cardId": "itm_kwuarm",
+  "name": "Kwuarm",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A powerful herb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kwuarm.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      263
+    ],
+    "pageSlug": "Kwuarm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kwuarm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 32,
+    "lowAlchemy": 21,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 2168,
+      "buyLimit": 13000,
+      "dailyVolume": 353642
+    }
+  },
+  "special": false
+}

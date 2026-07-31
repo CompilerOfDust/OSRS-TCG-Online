@@ -1,0 +1,40 @@
+{
+  "id": 2983,
+  "cardId": "itm_volcanic-ash",
+  "name": "Volcanic ash",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "One of the ingredients for making ultra compost.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Volcanic_ash.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21622
+    ],
+    "pageSlug": "Volcanic_ash",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Volcanic_ash"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 124,
+      "buyLimit": 13000,
+      "dailyVolume": 849489
+    }
+  }
+}

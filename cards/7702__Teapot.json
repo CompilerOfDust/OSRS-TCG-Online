@@ -1,0 +1,36 @@
+{
+  "id": 9070,
+  "cardId": "itm_teapot",
+  "name": "Teapot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This teapot is empty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Teapot_%28clay%29.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7702
+    ],
+    "pageSlug": "Teapot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Teapot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

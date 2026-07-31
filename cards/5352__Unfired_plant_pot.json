@@ -1,0 +1,40 @@
+{
+  "id": 7833,
+  "cardId": "itm_unfired-plant-pot",
+  "name": "Unfired plant pot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An unfired plant pot.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unfired_plant_pot.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5352
+    ],
+    "pageSlug": "Unfired_plant_pot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unfired_plant_pot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 111,
+      "buyLimit": 10000,
+      "dailyVolume": 0
+    }
+  }
+}

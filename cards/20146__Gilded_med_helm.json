@@ -1,0 +1,76 @@
+{
+  "id": 2548,
+  "cardId": "itm_gilded-med-helm",
+  "name": "Gilded med helm",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [
+    1137,
+    1139,
+    1141,
+    1143,
+    1145,
+    1147,
+    1151
+  ],
+  "flavourText": "A medium sized helmet with gold plate.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gilded_med_helm.png",
+  "debut": "2016-07-06",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20146
+    ],
+    "pageSlug": "Gilded_med_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gilded_med_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 11520,
+    "lowAlchemy": 7680,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 1559641,
+      "buyLimit": 70,
+      "dailyVolume": 62
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 22,
+        "slash": 23,
+        "crush": 21,
+        "magic": -1,
+        "ranged": 22
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": true
+}

@@ -1,0 +1,41 @@
+{
+  "id": 3144,
+  "cardId": "itm_yew-bird-house",
+  "name": "Yew bird house",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Feed and catch the birds by placing this in the right spot.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yew_bird_house.png",
+  "debut": "2018-01-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22198
+    ],
+    "pageSlug": "Yew_bird_house",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yew_bird_house"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 1530,
+      "buyLimit": 250,
+      "dailyVolume": 6145
+    }
+  },
+  "special": false
+}

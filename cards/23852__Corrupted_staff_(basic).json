@@ -1,0 +1,67 @@
+{
+  "id": 3570,
+  "cardId": "itm_corrupted-staff-basic",
+  "name": "Corrupted staff (basic)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    23853,
+    23854
+  ],
+  "flavourText": "A basic staff of corrupted crystal.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_staff_%28basic%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23852
+    ],
+    "pageSlug": "Corrupted_staff_(basic)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_staff_(basic)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.36,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 84,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  },
+  "special": false
+}

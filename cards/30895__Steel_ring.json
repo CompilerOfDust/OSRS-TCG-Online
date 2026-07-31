@@ -1,0 +1,67 @@
+{
+  "id": 5633,
+  "cardId": "itm_steel-ring",
+  "name": "Steel ring",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A very old enchanted ring.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_ring.png",
+  "debut": "2025-06-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30895
+    ],
+    "pageSlug": "Steel_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 9000,
+    "lowAlchemy": 6000,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 171831,
+      "buyLimit": null,
+      "dailyVolume": 278
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 24,
+        "slash": 24,
+        "crush": 24,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

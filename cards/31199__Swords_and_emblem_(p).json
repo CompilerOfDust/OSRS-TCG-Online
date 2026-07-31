@@ -1,0 +1,68 @@
+{
+  "id": 5759,
+  "cardId": "itm_swords-and-emblem-p",
+  "name": "Swords and emblem (p)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Sadly, the blades are only decorative [ sic ]",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Swords_and_emblem_%28p%29.png",
+  "debut": "2025-10-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31199
+    ],
+    "pageSlug": "Swords_and_emblem_(p)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Swords_and_emblem_(p)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.3,
+    "market": {
+      "guidePrice": 48429,
+      "buyLimit": null,
+      "dailyVolume": 3
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

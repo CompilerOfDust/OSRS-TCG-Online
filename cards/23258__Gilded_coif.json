@@ -1,0 +1,72 @@
+{
+  "id": 3455,
+  "cardId": "itm_gilded-coif",
+  "name": "Gilded coif",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [
+    1167,
+    1169,
+    6326
+  ],
+  "flavourText": "Made with 100% golden dragonhide.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gilded_coif.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23258
+    ],
+    "pageSlug": "Gilded_coif",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gilded_coif"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 0.9,
+    "market": {
+      "guidePrice": 470545,
+      "buyLimit": 8,
+      "dailyVolume": 29
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -1,
+        "ranged": 4
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 7,
+        "crush": 8,
+        "magic": 4,
+        "ranged": 6
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": true
+}

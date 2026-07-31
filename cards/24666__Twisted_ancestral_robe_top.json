@@ -1,0 +1,63 @@
+{
+  "id": 3793,
+  "cardId": "itm_twisted-ancestral-robe-top",
+  "name": "Twisted ancestral robe top",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "The robe top of a powerful sorceress from a bygone era.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Twisted_ancestral_robe_top.png",
+  "debut": "2020-05-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24666
+    ],
+    "pageSlug": "Twisted_ancestral_robe_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Twisted_ancestral_robe_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Dismantle"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 72000,
+    "lowAlchemy": 48000,
+    "weightKg": 2.721,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 35,
+        "ranged": -8
+      },
+      "defence": {
+        "stab": 42,
+        "slash": 31,
+        "crush": 51,
+        "magic": 28,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 3,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 3832,
+  "cardId": "itm_cooked-mystery-meat",
+  "name": "Cooked mystery meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I don't want to think about what kind of meat it is.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cooked_mystery_meat.png",
+  "debut": "2020-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24785
+    ],
+    "pageSlug": "Cooked_mystery_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cooked_mystery_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.34,
+    "market": {
+      "guidePrice": 167,
+      "buyLimit": null,
+      "dailyVolume": 166
+    }
+  }
+}

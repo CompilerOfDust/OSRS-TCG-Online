@@ -1,0 +1,64 @@
+{
+  "id": 3972,
+  "cardId": "itm_decorative-full-helm__1",
+  "name": "Decorative full helm",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A very decorative full face helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Decorative_full_helm_%28red%29.png",
+  "debut": "2020-12-02",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25165
+    ],
+    "pageSlug": "Decorative_full_helm_(red)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Decorative_full_helm_(red)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 510,
+    "lowAlchemy": 340,
+    "weightKg": 2.721,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 10,
+        "crush": 7,
+        "magic": -1,
+        "ranged": 9
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

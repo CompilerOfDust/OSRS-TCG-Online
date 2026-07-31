@@ -1,0 +1,37 @@
+{
+  "id": 2399,
+  "cardId": "itm_jug-of-bad-wine",
+  "name": "Jug of bad wine",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Oh dear, this wine is terrible!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jug_of_bad_wine.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1991
+    ],
+    "pageSlug": "Jug_of_bad_wine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jug_of_bad_wine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.5,
+    "market": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 9299,
+  "cardId": "itm_enchant-dragonstone",
+  "name": "Enchant dragonstone",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A tablet containing a magic spell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enchant_dragonstone.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8020
+    ],
+    "pageSlug": "Enchant_dragonstone",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enchant_dragonstone"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Info",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 255,
+      "buyLimit": 10000,
+      "dailyVolume": 15
+    }
+  },
+  "special": false
+}

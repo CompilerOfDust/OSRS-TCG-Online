@@ -1,0 +1,54 @@
+{
+  "id": 784,
+  "cardId": "npc_akkhas-phantom",
+  "name": "Akkha's Phantom",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A phantom of Akkha.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2022-08-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11777
+    ],
+    "pageSlug": "Akkha%27s_Phantom",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Akkha%27s_Phantom"
+  },
+  "npcProfile": {
+    "race": "Apparition",
+    "gender": "Male",
+    "locations": [
+      "Tombs of Amascut"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 337,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

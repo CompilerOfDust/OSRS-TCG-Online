@@ -1,0 +1,41 @@
+{
+  "id": 907,
+  "cardId": "itm_jar-of-dirt",
+  "name": "Jar of dirt",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "It's just a jar of dirt.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jar_of_dirt.png",
+  "debut": "2014-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12007
+    ],
+    "pageSlug": "Jar_of_dirt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jar_of_dirt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 42343,
+      "buyLimit": 4,
+      "dailyVolume": 160
+    }
+  },
+  "special": false
+}

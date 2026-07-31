@@ -1,0 +1,67 @@
+{
+  "id": 8646,
+  "cardId": "itm_master-wand",
+  "name": "Master wand",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A master level wand.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Master_wand.png",
+  "debut": "2006-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6914
+    ],
+    "pageSlug": "Master_wand",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Master_wand"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 0.198,
+    "market": {
+      "guidePrice": 4101432,
+      "buyLimit": 70,
+      "dailyVolume": 701
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 20,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 20,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 10,
+        "prayer": 0
+      }
+    }
+  }
+}

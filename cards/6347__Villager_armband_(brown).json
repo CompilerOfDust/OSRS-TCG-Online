@@ -1,0 +1,67 @@
+{
+  "id": 8337,
+  "cardId": "itm_villager-armband__1",
+  "name": "Villager armband",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A brown armband, as worn by the Tai Bwo Wannai locals.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Villager_armband_%28brown%29.png",
+  "debut": "2005-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6347
+    ],
+    "pageSlug": "Villager_armband_(brown)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Villager_armband_(brown)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 0.68,
+    "market": {
+      "guidePrice": 1139,
+      "buyLimit": 150,
+      "dailyVolume": 0
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

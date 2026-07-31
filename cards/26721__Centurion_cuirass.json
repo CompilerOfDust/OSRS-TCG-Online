@@ -1,0 +1,64 @@
+{
+  "id": 4465,
+  "cardId": "itm_centurion-cuirass",
+  "name": "Centurion cuirass",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A chest piece worn by the mightiest warriors of the arena.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Centurion_cuirass.png",
+  "debut": "2022-03-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26721
+    ],
+    "pageSlug": "Centurion_cuirass",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Centurion_cuirass"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 6,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -40,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 72,
+        "slash": 91,
+        "crush": 70,
+        "magic": -10,
+        "ranged": 7
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

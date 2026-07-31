@@ -1,0 +1,57 @@
+{
+  "id": 8789,
+  "cardId": "npc_mummy-ashes",
+  "name": "Mummy ashes",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A tightly-wrapped monster.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-04-18",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      718,
+      719
+    ],
+    "pageSlug": "Mummy_ashes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mummy_ashes"
+  },
+  "npcProfile": {
+    "race": "Mummy",
+    "gender": null,
+    "locations": [
+      "Ancient Pyramid"
+    ],
+    "questLine": "Desert Treasure I",
+    "shop": null,
+    "menuActions": [
+      "None"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": 8431,
+  "cardId": "itm_fire-cape",
+  "name": "Fire cape",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    10566
+  ],
+  "flavourText": "A cape of fire.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fire_cape.png",
+  "debut": "2005-10-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6570
+    ],
+    "pageSlug": "Fire_cape",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fire_cape"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.814,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 1,
+        "magic": 1,
+        "ranged": 1
+      },
+      "defence": {
+        "stab": 11,
+        "slash": 11,
+        "crush": 11,
+        "magic": 11,
+        "ranged": 11
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 5736,
+  "cardId": "itm_pristine-monodon-horn",
+  "name": "Pristine monodon horn",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The pristine horn of a Catherby monodon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pristine_monodon_horn.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31179
+    ],
+    "pageSlug": "Pristine_monodon_horn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pristine_monodon_horn"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.285,
+    "market": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 1770,
+  "cardId": "itm_mithril-mace",
+  "name": "Mithril mace",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A spiky mace.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mithril_mace.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1428
+    ],
+    "pageSlug": "Mithril_mace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mithril_mace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 351,
+    "lowAlchemy": 234,
+    "weightKg": 1.587,
+    "market": {
+      "guidePrice": 114,
+      "buyLimit": 125,
+      "dailyVolume": 1882
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 11,
+        "slash": -2,
+        "crush": 18,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 16,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

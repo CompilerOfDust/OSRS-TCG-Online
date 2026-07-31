@@ -1,0 +1,63 @@
+{
+  "id": 8922,
+  "cardId": "itm_bronze-gloves",
+  "name": "Bronze gloves",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pair of gloves.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_gloves.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7454
+    ],
+    "pageSlug": "Bronze_gloves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_gloves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.226,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 2,
+        "slash": 2,
+        "crush": 2,
+        "magic": 1,
+        "ranged": 2
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 2,
+        "crush": 2,
+        "magic": 1,
+        "ranged": 2
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 2,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

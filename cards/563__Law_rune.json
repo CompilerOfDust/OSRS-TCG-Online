@@ -1,0 +1,42 @@
+{
+  "id": 7991,
+  "cardId": "itm_law-rune",
+  "name": "Law rune",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    11695
+  ],
+  "flavourText": "Used for teleport spells.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Law_rune.png",
+  "debut": "2001-05-24",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      563
+    ],
+    "pageSlug": "Law_rune",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Law_rune"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 144,
+    "lowAlchemy": 96,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 120,
+      "buyLimit": 18000,
+      "dailyVolume": 19581899
+    }
+  }
+}

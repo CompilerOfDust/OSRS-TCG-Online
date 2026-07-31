@@ -1,0 +1,67 @@
+{
+  "id": 4501,
+  "cardId": "itm_guthix-kiteshield",
+  "name": "Guthix kiteshield",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Rune kiteshield in the colours of Guthix.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Guthix_kiteshield.png",
+  "debut": "2004-05-05",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2675
+    ],
+    "pageSlug": "Guthix_kiteshield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Guthix_kiteshield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 32640,
+    "lowAlchemy": 21760,
+    "weightKg": 5.443,
+    "market": {
+      "guidePrice": 35872,
+      "buyLimit": 8,
+      "dailyVolume": 113
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 44,
+        "slash": 48,
+        "crush": 46,
+        "magic": -1,
+        "ranged": 46
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

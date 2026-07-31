@@ -1,0 +1,59 @@
+{
+  "id": 3185,
+  "cardId": "npc_red-axe-cat",
+  "name": "Red Axe Cat",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The cat belongs to the director of the Red Axe.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-05-31",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2229,
+      2230,
+      6026
+    ],
+    "pageSlug": "Red_Axe_Cat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_Axe_Cat"
+  },
+  "npcProfile": {
+    "race": "Cat",
+    "gender": "Male",
+    "locations": [
+      "Keldagrim",
+      "Red Axe"
+    ],
+    "questLine": "The Giant Dwarf , Forgettable Tale...",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

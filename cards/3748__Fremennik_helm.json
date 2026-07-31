@@ -1,0 +1,63 @@
+{
+  "id": 6808,
+  "cardId": "itm_fremennik-helm",
+  "name": "Fremennik helm",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A sturdy helm worn only by Fremennik clan members.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fremennik_helm.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3748
+    ],
+    "pageSlug": "Fremennik_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fremennik_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 2.721,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 19,
+        "slash": 21,
+        "crush": 16,
+        "magic": -1,
+        "ranged": 19
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

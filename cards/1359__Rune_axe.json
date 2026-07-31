@@ -1,0 +1,67 @@
+{
+  "id": 1630,
+  "cardId": "itm_rune-axe",
+  "name": "Rune axe",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A powerful axe.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_axe.png",
+  "debut": "2001-08-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1359
+    ],
+    "pageSlug": "Rune_axe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_axe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 7680,
+    "lowAlchemy": 5120,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 7082,
+      "buyLimit": 40,
+      "dailyVolume": 9511
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -2,
+        "slash": 26,
+        "crush": 24,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 29,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 510,
+  "cardId": "itm_onyx-bracelet",
+  "name": "Onyx bracelet",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Yep, this is most definitely valuable!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Onyx_bracelet.png",
+  "debut": "2007-04-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11130
+    ],
+    "pageSlug": "Onyx_bracelet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Onyx_bracelet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 120600,
+    "lowAlchemy": 80400,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 2398157,
+      "buyLimit": 10000,
+      "dailyVolume": 0
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

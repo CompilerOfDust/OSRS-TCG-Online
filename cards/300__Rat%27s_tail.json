@@ -1,0 +1,36 @@
+{
+  "id": 5398,
+  "cardId": "itm_rats-tail",
+  "name": "Rat's tail",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bit of rat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rat%27s_tail.png",
+  "debut": "2001-04-06",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      300
+    ],
+    "pageSlug": "Rat%27s_tail",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rat%27s_tail"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": 8957,
+  "cardId": "itm_dwarven-rock-cake",
+  "name": "Dwarven rock cake",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Red hot and glowing, ouch! Only for dwarf consumption.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dwarven_rock_cake_%28hot%29.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7509
+    ],
+    "pageSlug": "Dwarven_rock_cake",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dwarven_rock_cake"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Guzzle",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

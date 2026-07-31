@@ -1,0 +1,36 @@
+{
+  "id": 3115,
+  "cardId": "itm_revitalisation-potion",
+  "name": "Revitalisation potion",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Helps people feel better.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Revitalisation_potion_%28Dragon_Slayer_II%29.png",
+  "debut": "2018-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22096
+    ],
+    "pageSlug": "Revitalisation_potion_(Dragon_Slayer_II)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Revitalisation_potion_(Dragon_Slayer_II)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

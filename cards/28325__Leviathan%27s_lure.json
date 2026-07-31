@@ -1,0 +1,37 @@
+{
+  "id": 4850,
+  "cardId": "itm_leviathans-lure",
+  "name": "Leviathan's lure",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "The lure of an ancient beast.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Leviathan%27s_lure.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28325
+    ],
+    "pageSlug": "Leviathan%27s_lure",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Leviathan%27s_lure"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": 9733,
+  "cardId": "npc_corrupted-dark-beast",
+  "name": "Corrupted Dark Beast",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It doesn't look so dark with all those crystals.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_Dark_Beast.png",
+  "debut": "2019-07-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9048
+    ],
+    "pageSlug": "Corrupted_Dark_Beast",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_Dark_Beast"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 258,
+    "vitality": null,
+    "peakDamage": "48",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

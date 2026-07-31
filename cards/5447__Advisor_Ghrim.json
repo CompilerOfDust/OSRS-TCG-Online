@@ -1,0 +1,57 @@
+{
+  "id": 7877,
+  "cardId": "npc_advisor-ghrim",
+  "name": "Advisor Ghrim",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He probably hasn't smiled since the Third Age.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-11-29",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5447,
+      5448
+    ],
+    "pageSlug": "Advisor_Ghrim",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Advisor_Ghrim"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Miscellania"
+    ],
+    "questLine": "Throne of Miscellania , Royal Trouble",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

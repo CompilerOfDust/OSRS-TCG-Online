@@ -1,0 +1,43 @@
+{
+  "id": 5144,
+  "cardId": "itm_perfected-quetzal-whistle-blueprint",
+  "name": "Perfected quetzal whistle blueprint",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A perfected blueprint for a quetzal whistle.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Perfected_quetzal_whistle_blueprint.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29256
+    ],
+    "pageSlug": "Perfected_quetzal_whistle_blueprint",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Perfected_quetzal_whistle_blueprint"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Check",
+      "Craft",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4500,
+    "lowAlchemy": 3000,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 34791,
+      "buyLimit": 50,
+      "dailyVolume": 299
+    }
+  },
+  "special": false
+}

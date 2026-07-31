@@ -1,0 +1,67 @@
+{
+  "id": 2752,
+  "cardId": "itm_twisted-bow",
+  "name": "Twisted bow",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A mystical bow carved from the twisted remains of the Great Olm.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Twisted_bow.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20997
+    ],
+    "pageSlug": "Twisted_bow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Twisted_bow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 2400000,
+    "lowAlchemy": 1600000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 1424440144,
+      "buyLimit": 8,
+      "dailyVolume": 107
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 70
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 20,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

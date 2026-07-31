@@ -1,0 +1,43 @@
+{
+  "id": 7548,
+  "cardId": "itm_zogre-bones",
+  "name": "Zogre bones",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    4852
+  ],
+  "flavourText": "A pile of Zombie Ogre bones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zogre_bones.png",
+  "debut": "2005-05-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4812
+    ],
+    "pageSlug": "Zogre_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zogre_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 697,
+      "buyLimit": 3000,
+      "dailyVolume": 70
+    }
+  }
+}

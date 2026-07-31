@@ -1,0 +1,60 @@
+{
+  "id": 9375,
+  "cardId": "npc_askeladden",
+  "name": "Askeladden",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Looks like a wanna be Fremennik.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-11-02",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8402,
+      8403,
+      8404,
+      8405
+    ],
+    "pageSlug": "Askeladden",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Askeladden"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Rellekka"
+    ],
+    "questLine": "The Fremennik Trials",
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Claim Pet Rock"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

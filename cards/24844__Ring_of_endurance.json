@@ -1,0 +1,67 @@
+{
+  "id": 3867,
+  "cardId": "itm_ring-of-endurance-uncharged",
+  "name": "Ring of endurance (uncharged)",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "I wonder if this ring helps with...",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ring_of_endurance_%28uncharged%29.png",
+  "debut": "2020-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24844
+    ],
+    "pageSlug": "Ring_of_endurance",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ring_of_endurance"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 38400,
+    "lowAlchemy": 25600,
+    "weightKg": 0.006,
+    "market": {
+      "guidePrice": 3825392,
+      "buyLimit": 5,
+      "dailyVolume": 171
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

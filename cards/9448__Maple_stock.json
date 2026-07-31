@@ -1,0 +1,40 @@
+{
+  "id": 9875,
+  "cardId": "itm_maple-stock",
+  "name": "Maple stock",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A maple crossbow stock.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maple_stock.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9448
+    ],
+    "pageSlug": "Maple_stock",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maple_stock"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 18,
+      "buyLimit": 10000,
+      "dailyVolume": 0
+    }
+  }
+}

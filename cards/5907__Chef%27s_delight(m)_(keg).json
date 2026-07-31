@@ -1,0 +1,41 @@
+{
+  "id": 8058,
+  "cardId": "itm_chefs-delight-m1",
+  "name": "Chef's delight(m1)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This keg contains 1 pint of mature Chef's Delight.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chef%27s_delight%28m%29_%28keg%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5907
+    ],
+    "pageSlug": "Chef%27s_delight(m)_(keg)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chef%27s_delight(m)_(keg)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": null,
+      "buyLimit": null,
+      "dailyVolume": null
+    }
+  }
+}

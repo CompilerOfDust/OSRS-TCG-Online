@@ -1,0 +1,36 @@
+{
+  "id": 1548,
+  "cardId": "itm_bologano-seed",
+  "name": "Bologano seed",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Plant it in the land strips in Hosidius.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bologano_seed.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13424
+    ],
+    "pageSlug": "Bologano_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bologano_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0,
+    "market": null
+  }
+}

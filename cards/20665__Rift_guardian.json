@@ -1,0 +1,37 @@
+{
+  "id": 2635,
+  "cardId": "itm_rift-guardian",
+  "name": "Rift guardian",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "An abyssal rift guardian.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rift_guardian_%28fire%29.png",
+  "debut": "2016-09-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20665
+    ],
+    "pageSlug": "Rift_guardian",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rift_guardian"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

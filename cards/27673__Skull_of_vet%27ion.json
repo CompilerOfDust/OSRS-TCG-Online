@@ -1,0 +1,40 @@
+{
+  "id": 4685,
+  "cardId": "itm_skull-of-vetion",
+  "name": "Skull of vet'ion",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "The skull of an oathbound warrior. Severed from its body, it still maintains some power.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Skull_of_vet%27ion.png",
+  "debut": "2023-01-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27673
+    ],
+    "pageSlug": "Skull_of_vet%27ion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Skull_of_vet%27ion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 48000,
+    "lowAlchemy": 32000,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 47218,
+      "buyLimit": 8,
+      "dailyVolume": 59
+    }
+  }
+}

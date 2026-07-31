@@ -1,0 +1,68 @@
+{
+  "id": 9603,
+  "cardId": "itm_bone-dagger",
+  "name": "Bone dagger",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A powerful dagger.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bone_dagger.png",
+  "debut": "2006-06-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8872
+    ],
+    "pageSlug": "Bone_dagger",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bone_dagger"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 4647,
+      "buyLimit": 70,
+      "dailyVolume": 448
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 5,
+        "slash": 3,
+        "crush": -4,
+        "magic": 1,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 1,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

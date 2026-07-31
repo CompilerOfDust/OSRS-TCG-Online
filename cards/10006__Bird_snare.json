@@ -1,0 +1,41 @@
+{
+  "id": 2,
+  "cardId": "itm_bird-snare",
+  "name": "Bird snare",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A simple bird catcher.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bird_snare.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10006
+    ],
+    "pageSlug": "Bird_snare",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bird_snare"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Lay",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 25,
+      "buyLimit": 250,
+      "dailyVolume": 15321
+    }
+  }
+}

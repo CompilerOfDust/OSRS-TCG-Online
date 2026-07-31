@@ -1,0 +1,58 @@
+{
+  "id": 1797,
+  "cardId": "npc_jungle-demon",
+  "name": "Jungle Demon",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6321,
+    6382
+  ],
+  "flavourText": "A Greater Jungle Demon. A magical aura emanates from its hide.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jungle_Demon.png",
+  "debut": "2004-12-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1443
+    ],
+    "pageSlug": "Jungle_Demon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jungle_Demon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 195,
+    "vitality": null,
+    "peakDamage": "32",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Magic"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

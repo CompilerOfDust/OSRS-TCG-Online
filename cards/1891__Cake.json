@@ -1,0 +1,41 @@
+{
+  "id": 2262,
+  "cardId": "itm_cake",
+  "name": "Cake",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A plain sponge cake.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cake.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1891
+    ],
+    "pageSlug": "Cake",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cake"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.3,
+    "market": {
+      "guidePrice": 216,
+      "buyLimit": 6000,
+      "dailyVolume": 119353
+    }
+  }
+}

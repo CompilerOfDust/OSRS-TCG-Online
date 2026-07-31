@@ -1,0 +1,63 @@
+{
+  "id": 4185,
+  "cardId": "itm_dragon-hunter-crossbow-b",
+  "name": "Dragon hunter crossbow (b)",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A crossbow used for dragon hunting.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_hunter_crossbow_%28b%29.png",
+  "debut": "2021-07-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25918
+    ],
+    "pageSlug": "Dragon_hunter_crossbow_(b)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_crossbow_(b)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Dismantle"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 48000,
+    "lowAlchemy": 32000,
+    "weightKg": 7,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 95
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

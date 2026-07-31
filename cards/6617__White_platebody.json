@@ -1,0 +1,68 @@
+{
+  "id": 8468,
+  "cardId": "itm_white-platebody",
+  "name": "White platebody",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Provides excellent protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_platebody.png",
+  "debut": "2005-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6617
+    ],
+    "pageSlug": "White_platebody",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_platebody"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 2304,
+    "lowAlchemy": 1536,
+    "weightKg": 9.979,
+    "market": {
+      "guidePrice": 6647,
+      "buyLimit": 125,
+      "dailyVolume": 62
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -30,
+        "ranged": -15
+      },
+      "defence": {
+        "stab": 41,
+        "slash": 40,
+        "crush": 30,
+        "magic": -6,
+        "ranged": 40
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  },
+  "special": false
+}

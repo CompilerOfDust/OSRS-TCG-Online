@@ -1,0 +1,42 @@
+{
+  "id": 8519,
+  "cardId": "itm_baked-potato",
+  "name": "Baked potato",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It'd taste even better with some toppings.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Baked_potato.png",
+  "debut": "2005-10-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6701
+    ],
+    "pageSlug": "Baked_potato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Baked_potato"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 141,
+      "buyLimit": 13000,
+      "dailyVolume": 4790
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": 4825,
+  "cardId": "itm_blood-quartz",
+  "name": "Blood quartz",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Made of condensed blood energy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blood_quartz.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28268
+    ],
+    "pageSlug": "Blood_quartz",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blood_quartz"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

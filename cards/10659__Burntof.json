@@ -1,0 +1,58 @@
+{
+  "id": 295,
+  "cardId": "npc_burntof",
+  "name": "Burntof",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A master of anything explosive.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2021-04-14",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10659,
+      10660,
+      10664
+    ],
+    "pageSlug": "Burntof",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Burntof"
+  },
+  "npcProfile": {
+    "race": "Dwarf",
+    "gender": "Male",
+    "locations": [
+      "Rising Sun Inn"
+    ],
+    "questLine": "Below Ice Mountain",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

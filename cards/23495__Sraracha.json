@@ -1,0 +1,37 @@
+{
+  "id": 3504,
+  "cardId": "itm_sraracha",
+  "name": "Sraracha",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Good thing there's no such thing as Sarachnophobia.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sraracha.png",
+  "debut": "2019-07-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23495
+    ],
+    "pageSlug": "Sraracha",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sraracha"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": 8059,
+  "cardId": "npc_tentacle",
+  "name": "Tentacle",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    129,
+    5643,
+    5646,
+    5912,
+    5913,
+    12208
+  ],
+  "flavourText": "A protrusion from the Nexus.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tentacle_(Abyssal_Sire,_awake).png",
+  "debut": "2015-10-01",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5909,
+      5910,
+      5911
+    ],
+    "pageSlug": "Tentacle_(Abyssal_Sire)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tentacle_(Abyssal_Sire)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [
+      "Abyssal Nexus"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "9x9",
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": "31",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Typeless",
+      "Melee"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  },
+  "special": false
+}

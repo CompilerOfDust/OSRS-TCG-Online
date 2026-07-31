@@ -1,0 +1,68 @@
+{
+  "id": 1159,
+  "cardId": "itm_rangers-tunic",
+  "name": "Rangers' tunic",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Lightweight body armour ideal for rangers.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rangers%27_tunic.png",
+  "debut": "2014-06-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12596
+    ],
+    "pageSlug": "Rangers%27_tunic",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rangers%27_tunic"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 7200,
+    "lowAlchemy": 4800,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 2073825,
+      "buyLimit": 4,
+      "dailyVolume": 313
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -15,
+        "ranged": 15
+      },
+      "defence": {
+        "stab": 6,
+        "slash": 9,
+        "crush": 12,
+        "magic": 6,
+        "ranged": 6
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": 9892,
+  "cardId": "itm_sawdust",
+  "name": "Sawdust",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "What is left over when a log is made into a plank.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sawdust.png",
+  "debut": "2006-07-31",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9468
+    ],
+    "pageSlug": "Sawdust",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sawdust"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.561,
+    "market": null
+  }
+}

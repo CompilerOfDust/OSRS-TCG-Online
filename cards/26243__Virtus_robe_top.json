@@ -1,0 +1,67 @@
+{
+  "id": 4311,
+  "cardId": "itm_virtus-robe-top",
+  "name": "Virtus robe top",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "An ancient mage's robe top.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Virtus_robe_top.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26243
+    ],
+    "pageSlug": "Virtus_robe_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Virtus_robe_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 360000,
+    "lowAlchemy": 240000,
+    "weightKg": 2.895,
+    "market": {
+      "guidePrice": 34905186,
+      "buyLimit": 8,
+      "dailyVolume": 263
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 35,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 47,
+        "slash": 36,
+        "crush": 56,
+        "magic": 31,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 2,
+        "prayer": 2
+      }
+    }
+  }
+}

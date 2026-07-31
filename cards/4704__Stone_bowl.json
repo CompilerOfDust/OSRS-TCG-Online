@@ -1,0 +1,36 @@
+{
+  "id": 7472,
+  "cardId": "itm_stone-bowl",
+  "name": "Stone bowl",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A magic stone bowl for catching the tears of Guthix.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stone_bowl.png",
+  "debut": "2005-05-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4704
+    ],
+    "pageSlug": "Stone_bowl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stone_bowl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

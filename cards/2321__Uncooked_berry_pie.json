@@ -1,0 +1,41 @@
+{
+  "id": 3444,
+  "cardId": "itm_uncooked-berry-pie",
+  "name": "Uncooked berry pie",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This would be much more appetising cooked.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncooked_berry_pie.png",
+  "debut": "2001-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2321
+    ],
+    "pageSlug": "Uncooked_berry_pie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncooked_berry_pie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 386,
+      "buyLimit": 13000,
+      "dailyVolume": 27048
+    }
+  },
+  "special": false
+}

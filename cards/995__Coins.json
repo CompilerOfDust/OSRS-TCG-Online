@@ -1,0 +1,43 @@
+{
+  "id": 10157,
+  "cardId": "itm_coins",
+  "name": "Coins",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    617,
+    6306,
+    6529,
+    6964,
+    8890
+  ],
+  "flavourText": "Lovely money!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Coins_1.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      995
+    ],
+    "pageSlug": "Coins",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Coins"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  },
+  "special": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": 8835,
+  "cardId": "itm_magic-shortbow-u",
+  "name": "Magic shortbow (u)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An unstrung magic shortbow; I need a bowstring for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_shortbow_%28u%29.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      72
+    ],
+    "pageSlug": "Magic_shortbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_shortbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 480,
+    "lowAlchemy": 320,
+    "weightKg": 0.992,
+    "market": {
+      "guidePrice": 518,
+      "buyLimit": 10000,
+      "dailyVolume": 146156
+    }
+  },
+  "special": false
+}

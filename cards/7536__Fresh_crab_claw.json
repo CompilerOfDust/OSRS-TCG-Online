@@ -1,0 +1,36 @@
+{
+  "id": 8982,
+  "cardId": "itm_fresh-crab-claw",
+  "name": "Fresh crab claw",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Fresh off the crab itself.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fresh_crab_claw.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7536
+    ],
+    "pageSlug": "Fresh_crab_claw",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fresh_crab_claw"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

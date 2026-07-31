@@ -1,0 +1,67 @@
+{
+  "id": 4188,
+  "cardId": "npc_mogre",
+  "name": "Mogre",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    15230,
+    15231,
+    15232,
+    15233
+  ],
+  "flavourText": "An angry Ogre in a funny hat.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mogre.png",
+  "debut": "2005-10-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2592
+    ],
+    "pageSlug": "Mogre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mogre"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 60,
+    "vitality": null,
+    "peakDamage": "8",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 32,
+      "reward": 48,
+      "group": "Mogres, Ogres",
+      "masters": [
+        "Mazchna",
+        "Vannaka"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

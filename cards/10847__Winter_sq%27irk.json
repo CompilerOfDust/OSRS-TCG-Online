@@ -1,0 +1,36 @@
+{
+  "id": 349,
+  "cardId": "itm_winter-sqirk",
+  "name": "Winter sq'irk",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A slightly sq'irky, I mean quirky, fruit.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Winter_sq%27irk.png",
+  "debut": "2007-02-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10847
+    ],
+    "pageSlug": "Winter_sq%27irk",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Winter_sq%27irk"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

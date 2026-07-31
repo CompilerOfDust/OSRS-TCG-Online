@@ -1,0 +1,38 @@
+{
+  "id": 4595,
+  "cardId": "itm_cursed-phalanx",
+  "name": "Cursed phalanx",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Cursed with a strange magical power. Looks like it could be attached to something.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cursed_phalanx.png",
+  "debut": "2022-09-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27248
+    ],
+    "pageSlug": "Cursed_phalanx",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cursed_phalanx"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Attach",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 1,
+    "market": null
+  }
+}

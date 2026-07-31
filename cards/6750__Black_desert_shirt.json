@@ -1,0 +1,68 @@
+{
+  "id": 8561,
+  "cardId": "itm_black-desert-shirt",
+  "name": "Black desert shirt",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A desert shirt stained black.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_desert_shirt.png",
+  "debut": "2005-11-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6750
+    ],
+    "pageSlug": "Black_desert_shirt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_desert_shirt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 199,
+      "buyLimit": 15,
+      "dailyVolume": 43
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

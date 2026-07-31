@@ -1,0 +1,41 @@
+{
+  "id": 450,
+  "cardId": "itm_goblin-book",
+  "name": "Goblin book",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A tattered goblin holy book.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Goblin_book.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10999
+    ],
+    "pageSlug": "Goblin_book",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Goblin_book"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 515,
+      "buyLimit": 15,
+      "dailyVolume": 206
+    }
+  }
+}

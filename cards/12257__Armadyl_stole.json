@@ -1,0 +1,68 @@
+{
+  "id": 966,
+  "cardId": "itm_armadyl-stole",
+  "name": "Armadyl stole",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An Armadyl stole.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Armadyl_stole.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12257
+    ],
+    "pageSlug": "Armadyl_stole",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Armadyl_stole"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 1500,
+    "lowAlchemy": 1000,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 4052,
+      "buyLimit": 8,
+      "dailyVolume": 70
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 2,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 2,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 10
+      }
+    }
+  },
+  "special": false
+}

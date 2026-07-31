@@ -1,0 +1,69 @@
+{
+  "id": 2611,
+  "cardId": "itm_elder-chaos-top",
+  "name": "Elder chaos top",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    27115
+  ],
+  "flavourText": "The robes worn by the dangerous elder druids.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elder_chaos_top.png",
+  "debut": "2016-07-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20517
+    ],
+    "pageSlug": "Elder_chaos_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elder_chaos_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 480,
+    "lowAlchemy": 320,
+    "weightKg": 0.2,
+    "market": {
+      "guidePrice": 227840,
+      "buyLimit": 8,
+      "dailyVolume": 636
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 10,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 8,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

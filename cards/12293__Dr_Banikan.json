@@ -1,0 +1,57 @@
+{
+  "id": 982,
+  "cardId": "npc_dr-banikan",
+  "name": "Dr Banikan",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A mysterious archaeologist.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2023-07-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12293,
+      12294
+    ],
+    "pageSlug": "Dr_Banikan",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dr_Banikan"
+  },
+  "npcProfile": {
+    "race": "Human , Mahjarrat",
+    "gender": "Male",
+    "locations": [
+      "Digsite"
+    ],
+    "questLine": "Desert Treasure II - The Fallen Empire",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

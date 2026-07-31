@@ -1,0 +1,68 @@
+{
+  "id": 3683,
+  "cardId": "itm_swift-blade",
+  "name": "Swift blade",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A dull blade that moves at incredible speed.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Swift_blade.png",
+  "debut": "2019-08-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24219
+    ],
+    "pageSlug": "Swift_blade",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Swift_blade"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 3381435,
+      "buyLimit": null,
+      "dailyVolume": 25
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 3,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

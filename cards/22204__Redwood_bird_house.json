@@ -1,0 +1,40 @@
+{
+  "id": 3149,
+  "cardId": "itm_redwood-bird-house",
+  "name": "Redwood bird house",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Feed and catch the birds by placing this in the right spot.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Redwood_bird_house.png",
+  "debut": "2018-01-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22204
+    ],
+    "pageSlug": "Redwood_bird_house",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Redwood_bird_house"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 2476,
+      "buyLimit": 250,
+      "dailyVolume": 25528
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 1300,
+  "cardId": "itm_target-teleport-scroll",
+  "name": "Target teleport scroll",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Unlocks the level 85 Teleport to Target spell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Target_teleport_scroll.png",
+  "debut": "2014-10-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12846
+    ],
+    "pageSlug": "Target_teleport_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Target_teleport_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18000,
+    "lowAlchemy": 12000,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 7960206,
+      "buyLimit": 5,
+      "dailyVolume": 2
+    }
+  }
+}

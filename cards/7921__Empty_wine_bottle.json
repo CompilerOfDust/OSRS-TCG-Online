@@ -1,0 +1,36 @@
+{
+  "id": 9203,
+  "cardId": "itm_empty-wine-bottle",
+  "name": "Empty wine bottle",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This one has clearly been taken down and passed around.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Empty_wine_bottle.png",
+  "debut": "2006-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7921
+    ],
+    "pageSlug": "Empty_wine_bottle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Empty_wine_bottle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": null
+  }
+}

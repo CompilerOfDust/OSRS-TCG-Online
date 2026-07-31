@@ -1,0 +1,41 @@
+{
+  "id": 6586,
+  "cardId": "itm_cooked-slimy-eel",
+  "name": "Cooked slimy eel",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A cooked slimy eel - not delicious, but pretty nutritious.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cooked_slimy_eel.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3381
+    ],
+    "pageSlug": "Cooked_slimy_eel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cooked_slimy_eel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 23,
+      "buyLimit": 6000,
+      "dailyVolume": 147
+    }
+  }
+}

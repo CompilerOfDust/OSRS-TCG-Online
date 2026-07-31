@@ -1,0 +1,67 @@
+{
+  "id": 5041,
+  "cardId": "itm_sunfire-fanatic-cuirass",
+  "name": "Sunfire fanatic cuirass",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A cuirass forged from sunfire.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sunfire_fanatic_cuirass.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28936
+    ],
+    "pageSlug": "Sunfire_fanatic_cuirass",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sunfire_fanatic_cuirass"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 8.618,
+    "market": {
+      "guidePrice": 2315423,
+      "buyLimit": null,
+      "dailyVolume": 145
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -30,
+        "ranged": -15
+      },
+      "defence": {
+        "stab": 82,
+        "slash": 80,
+        "crush": 72,
+        "magic": -6,
+        "ranged": 80
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 10
+      }
+    }
+  }
+}

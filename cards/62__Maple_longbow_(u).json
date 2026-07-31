@@ -1,0 +1,40 @@
+{
+  "id": 8289,
+  "cardId": "itm_maple-longbow-u",
+  "name": "Maple longbow (u)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An unstrung maple longbow; I need a bowstring for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maple_longbow_%28u%29.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      62
+    ],
+    "pageSlug": "Maple_longbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maple_longbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 192,
+    "lowAlchemy": 128,
+    "weightKg": 1.332,
+    "market": {
+      "guidePrice": 80,
+      "buyLimit": 10000,
+      "dailyVolume": 1966498
+    }
+  }
+}

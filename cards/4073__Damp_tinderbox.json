@@ -1,0 +1,36 @@
+{
+  "id": 6975,
+  "cardId": "itm_damp-tinderbox",
+  "name": "Damp tinderbox",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Not so useful for lighting a fire.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Damp_tinderbox.png",
+  "debut": "2004-12-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4073
+    ],
+    "pageSlug": "Damp_tinderbox",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Damp_tinderbox"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.035,
+    "market": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 9085,
+  "cardId": "itm_tea-leaves",
+  "name": "Tea leaves",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Mmm, how about a nice cup of tea?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tea_leaves.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7738
+    ],
+    "pageSlug": "Tea_leaves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tea_leaves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

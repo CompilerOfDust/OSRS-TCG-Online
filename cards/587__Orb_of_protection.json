@@ -1,0 +1,36 @@
+{
+  "id": 8048,
+  "cardId": "itm_orb-of-protection",
+  "name": "Orb of protection",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A strange glowing green orb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Orb_of_protection.png",
+  "debut": "2002-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      587
+    ],
+    "pageSlug": "Orb_of_protection",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Orb_of_protection"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": null
+  }
+}

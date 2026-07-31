@@ -1,0 +1,84 @@
+{
+  "id": 9698,
+  "cardId": "npc_mourner",
+  "name": "Mourner",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    8771,
+    8844,
+    8845,
+    8846,
+    8970,
+    8971,
+    8972,
+    8975,
+    8999,
+    9000,
+    9003,
+    9004,
+    9007,
+    9008,
+    9009,
+    9010,
+    9018
+  ],
+  "flavourText": "A mourner, or plague healer.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mourner.png",
+  "debut": "2005-07-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9013,
+      9017
+    ],
+    "pageSlug": "Mourner",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mourner"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 11,
+    "vitality": 19,
+    "peakDamage": "2",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": null,
+      "group": "None",
+      "masters": []
+    },
+    "combatLevels": {
+      "attack": 8,
+      "strength": 8,
+      "defence": 8,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

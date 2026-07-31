@@ -1,0 +1,39 @@
+{
+  "id": 6018,
+  "cardId": "itm_large-zombie-monkey-bones",
+  "name": "Large zombie monkey bones",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    4269
+  ],
+  "flavourText": "These are smallish monkey bones. They smell extremely nauseating.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Large_zombie_monkey_bones.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3186
+    ],
+    "pageSlug": "Large_zombie_monkey_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Large_zombie_monkey_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 7362,
+  "cardId": "itm_book-page-2",
+  "name": "Book page 2",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A missing page from Rolad's book! It seems to be the second one.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Book_page_2.png",
+  "debut": "2005-03-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4570
+    ],
+    "pageSlug": "Book_page_2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Book_page_2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

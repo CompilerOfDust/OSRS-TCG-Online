@@ -1,0 +1,56 @@
+{
+  "id": 8729,
+  "cardId": "npc_stunted-demonic-gorilla",
+  "name": "Stunted demonic gorilla",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "One of Glough's tortured creations.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2016-05-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7098
+    ],
+    "pageSlug": "Stunted_demonic_gorilla",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stunted_demonic_gorilla"
+  },
+  "npcProfile": {
+    "race": "Monkey",
+    "gender": null,
+    "locations": [
+      "Glough's laboratory"
+    ],
+    "questLine": "Monkey Madness II",
+    "shop": null,
+    "menuActions": [
+      "Climb-on"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 142,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

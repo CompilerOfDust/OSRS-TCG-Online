@@ -1,0 +1,43 @@
+{
+  "id": 7893,
+  "cardId": "itm_banana-sapling",
+  "name": "Banana sapling",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5481,
+    5489
+  ],
+  "flavourText": "This sapling is ready to be replanted in a fruit tree patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Banana_sapling.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5497
+    ],
+    "pageSlug": "Banana_sapling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Banana_sapling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 84,
+      "buyLimit": 200,
+      "dailyVolume": 2919
+    }
+  }
+}

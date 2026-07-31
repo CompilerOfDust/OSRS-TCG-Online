@@ -1,0 +1,63 @@
+{
+  "id": 6968,
+  "cardId": "itm_decorative-sword__1",
+  "name": "Decorative sword",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A very decorative sword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Decorative_sword_%28red%29.png",
+  "debut": "2004-12-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4068
+    ],
+    "pageSlug": "Decorative_sword_(red)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Decorative_sword_(red)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 1.587,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 13,
+        "slash": 18,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 3,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 16,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

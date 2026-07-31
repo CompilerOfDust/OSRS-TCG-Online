@@ -1,0 +1,67 @@
+{
+  "id": 4416,
+  "cardId": "itm_zamorak-full-helm",
+  "name": "Zamorak full helm",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Rune full helmet in the colours of Zamorak.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zamorak_full_helm.png",
+  "debut": "2004-05-05",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2657
+    ],
+    "pageSlug": "Zamorak_full_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zamorak_full_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 21120,
+    "lowAlchemy": 14080,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 570975,
+      "buyLimit": 8,
+      "dailyVolume": 102
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 30,
+        "slash": 32,
+        "crush": 27,
+        "magic": -1,
+        "ranged": 30
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

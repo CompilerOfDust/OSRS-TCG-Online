@@ -1,0 +1,68 @@
+{
+  "id": 2510,
+  "cardId": "itm_samurai-gloves",
+  "name": "Samurai gloves",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Armoured gloves of the Samurai.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Samurai_gloves.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20041
+    ],
+    "pageSlug": "Samurai_gloves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Samurai_gloves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 1920,
+    "lowAlchemy": 1280,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 45515,
+      "buyLimit": 70,
+      "dailyVolume": 34
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 2,
+        "slash": 2,
+        "crush": 2,
+        "magic": 2,
+        "ranged": 2
+      },
+      "defence": {
+        "stab": 3,
+        "slash": 3,
+        "crush": 3,
+        "magic": 3,
+        "ranged": 3
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

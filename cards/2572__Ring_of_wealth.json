@@ -1,0 +1,71 @@
+{
+  "id": 4136,
+  "cardId": "itm_ring-of-wealth",
+  "name": "Ring of wealth",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    12785
+  ],
+  "flavourText": "It can be charged at the Fountain of Rune.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ring_of_wealth_%28uncharged%29.png",
+  "debut": "2004-04-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2572
+    ],
+    "pageSlug": "Ring_of_wealth",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ring_of_wealth"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Features",
+      "Rub",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 10575,
+    "lowAlchemy": 7050,
+    "weightKg": 0.006,
+    "market": {
+      "guidePrice": 10887,
+      "buyLimit": 10000,
+      "dailyVolume": 28392
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

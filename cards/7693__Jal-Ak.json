@@ -1,0 +1,65 @@
+{
+  "id": 9060,
+  "cardId": "npc_jal-ak",
+  "name": "Jal-Ak",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Slow and powerful. It seems to use its attacks wisely.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jal-Ak.png",
+  "debut": "2017-06-01",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7693
+    ],
+    "pageSlug": "Jal-Ak",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jal-Ak"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 165,
+    "vitality": null,
+    "peakDamage": "29",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged",
+      "Magic",
+      "Crush"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 40,
+      "group": "TzHaar",
+      "masters": [
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

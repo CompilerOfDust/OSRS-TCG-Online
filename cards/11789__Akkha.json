@@ -1,0 +1,63 @@
+{
+  "id": 790,
+  "cardId": "npc_akkha",
+  "name": "Akkha",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A manifestation of vengeance.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Akkha.png",
+  "debut": "2022-08-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11789,
+      11790,
+      11791,
+      11792,
+      11793,
+      11794,
+      11795,
+      11796
+    ],
+    "pageSlug": "Akkha",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Akkha"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 337,
+    "vitality": null,
+    "peakDamage": "55",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

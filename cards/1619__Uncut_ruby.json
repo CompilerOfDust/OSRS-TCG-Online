@@ -1,0 +1,40 @@
+{
+  "id": 2061,
+  "cardId": "itm_uncut-ruby",
+  "name": "Uncut ruby",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This would be worth more cut.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncut_ruby.png",
+  "debut": "2001-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1619
+    ],
+    "pageSlug": "Uncut_ruby",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncut_ruby"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.003,
+    "market": {
+      "guidePrice": 1108,
+      "buyLimit": 10000,
+      "dailyVolume": 1349116
+    }
+  }
+}

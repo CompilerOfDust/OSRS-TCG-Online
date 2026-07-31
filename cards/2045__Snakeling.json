@@ -1,0 +1,70 @@
+{
+  "id": 2608,
+  "cardId": "npc_snakeling__1",
+  "name": "Snakeling",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    2047,
+    2127,
+    2128,
+    2129,
+    2130,
+    2131,
+    2132,
+    15163
+  ],
+  "flavourText": "Spawn of Zulrah.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snakeling.png",
+  "debut": "2015-01-08",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2045,
+      2046
+    ],
+    "pageSlug": "Snakeling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snakeling"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 90,
+    "vitality": 1,
+    "peakDamage": "15",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 140,
+      "strength": 138,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

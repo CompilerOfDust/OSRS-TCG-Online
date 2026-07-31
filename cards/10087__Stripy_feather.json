@@ -1,0 +1,40 @@
+{
+  "id": 27,
+  "cardId": "itm_stripy-feather",
+  "name": "Stripy feather",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Attractive to other birds and hunters alike.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stripy_feather.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10087
+    ],
+    "pageSlug": "Stripy_feather",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stripy_feather"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 21,
+      "buyLimit": 8000,
+      "dailyVolume": 96121
+    }
+  }
+}

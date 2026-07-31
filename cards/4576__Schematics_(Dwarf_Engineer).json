@@ -1,0 +1,39 @@
+{
+  "id": 7370,
+  "cardId": "itm_schematics",
+  "name": "Schematics",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    4577
+  ],
+  "flavourText": "Transparent overlays - details of something?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Schematics_%28Dwarf_Engineer%29.png",
+  "debut": "2005-03-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4576
+    ],
+    "pageSlug": "Schematics_(Dwarf_Engineer)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Schematics_(Dwarf_Engineer)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Assemble",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.004,
+    "market": null
+  }
+}

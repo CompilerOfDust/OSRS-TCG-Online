@@ -1,0 +1,67 @@
+{
+  "id": 6439,
+  "cardId": "itm_myre-snelm",
+  "name": "Myre snelm",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A marshy coloured snail shell helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Myre_snelm.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3327
+    ],
+    "pageSlug": "Myre_snelm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Myre_snelm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 99,
+      "buyLimit": 150,
+      "dailyVolume": 15
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": -1
+      },
+      "defence": {
+        "stab": 7,
+        "slash": 8,
+        "crush": 6,
+        "magic": -1,
+        "ranged": 7
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

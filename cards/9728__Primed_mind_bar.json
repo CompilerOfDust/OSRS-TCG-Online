@@ -1,0 +1,36 @@
+{
+  "id": 10050,
+  "cardId": "itm_primed-mind-bar",
+  "name": "Primed mind bar",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An elemental mind ingot.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Primed_mind_bar.png",
+  "debut": "2006-10-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9728
+    ],
+    "pageSlug": "Primed_mind_bar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Primed_mind_bar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

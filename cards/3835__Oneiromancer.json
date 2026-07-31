@@ -1,0 +1,58 @@
+{
+  "id": 6854,
+  "cardId": "npc_oneiromancer",
+  "name": "Oneiromancer",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Spiritual leader of the Moonclan.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-07-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3835,
+      8049,
+      8158,
+      8166,
+      8174
+    ],
+    "pageSlug": "Oneiromancer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oneiromancer"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Lunar Isle"
+    ],
+    "questLine": "Lunar Diplomacy , Dream Mentor , Dragon Slayer II",
+    "shop": "Lunar equipment",
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

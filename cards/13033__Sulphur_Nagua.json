@@ -1,0 +1,64 @@
+{
+  "id": 1363,
+  "cardId": "npc_sulphur-nagua",
+  "name": "Sulphur Nagua",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    12879
+  ],
+  "flavourText": "Brittle, rocky skin hiding pockets of volatile explosive sulphur.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sulphur_Nagua.png",
+  "debut": "2024-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13033
+    ],
+    "pageSlug": "Sulphur_Nagua",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sulphur_Nagua"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 98,
+    "vitality": null,
+    "peakDamage": "11 total [6+5]",
+    "combatXpBonusPct": 5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 48,
+      "reward": 105,
+      "group": "Lesser Nagua",
+      "masters": [
+        "Chaeldar",
+        "Konar"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

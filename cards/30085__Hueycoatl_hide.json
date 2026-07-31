@@ -1,0 +1,40 @@
+{
+  "id": 5393,
+  "cardId": "itm_hueycoatl-hide",
+  "name": "Hueycoatl hide",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Quite mesmerising to look at.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hueycoatl_hide.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30085
+    ],
+    "pageSlug": "Hueycoatl_hide",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hueycoatl_hide"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 66,
+    "lowAlchemy": 44,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 471338,
+      "buyLimit": null,
+      "dailyVolume": 562
+    }
+  }
+}

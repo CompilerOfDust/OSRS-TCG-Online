@@ -1,0 +1,44 @@
+{
+  "id": 7892,
+  "cardId": "itm_apple-sapling",
+  "name": "Apple sapling",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5480,
+    5488
+  ],
+  "flavourText": "This sapling is ready to be replanted in a fruit tree patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Apple_sapling.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5496
+    ],
+    "pageSlug": "Apple_sapling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Apple_sapling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 212,
+      "buyLimit": 200,
+      "dailyVolume": 4435
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": 373,
+  "cardId": "itm_red-satchel",
+  "name": "Red satchel",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    25620
+  ],
+  "flavourText": "I can keep my grub in here!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_satchel.png",
+  "debut": "2007-02-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10879
+    ],
+    "pageSlug": "Red_satchel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_satchel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Wear",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.15,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

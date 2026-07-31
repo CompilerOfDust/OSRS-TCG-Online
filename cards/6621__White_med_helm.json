@@ -1,0 +1,68 @@
+{
+  "id": 8472,
+  "cardId": "itm_white-med-helm",
+  "name": "White med helm",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A medium sized helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_med_helm.png",
+  "debut": "2005-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6621
+    ],
+    "pageSlug": "White_med_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_med_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 345,
+    "lowAlchemy": 230,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 1361,
+      "buyLimit": 125,
+      "dailyVolume": 1
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 10,
+        "crush": 8,
+        "magic": -1,
+        "ranged": 9
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  },
+  "special": false
+}

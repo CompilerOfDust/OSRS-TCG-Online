@@ -1,0 +1,37 @@
+{
+  "id": 2632,
+  "cardId": "itm_giant-squirrel",
+  "name": "Giant squirrel",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A giant squirrel with beautiful markings.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_squirrel.png",
+  "debut": "2016-09-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20659
+    ],
+    "pageSlug": "Giant_squirrel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giant_squirrel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

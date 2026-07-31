@@ -1,0 +1,64 @@
+{
+  "id": 256,
+  "cardId": "itm_keris",
+  "name": "Keris",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A mystical-feeling dagger.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Keris.png",
+  "debut": "2007-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10581
+    ],
+    "pageSlug": "Keris",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Keris"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Destroy"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 40,
+        "slash": 20,
+        "crush": -10,
+        "magic": 2,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 2,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 30,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": 6020,
+  "cardId": "itm_bottle-of-tangled-toads-legs-cider",
+  "name": "Bottle of tangled toad's legs cider",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Six times more intoxicating than licking the toad raw.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_tangled_toad%27s_legs_cider.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31871
+    ],
+    "pageSlug": "Bottle_of_tangled_toad%27s_legs_cider",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_tangled_toad%27s_legs_cider"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

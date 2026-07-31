@@ -1,0 +1,36 @@
+{
+  "id": 2929,
+  "cardId": "itm_silver-ore-fragment",
+  "name": "Silver ore fragment",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A broken up piece of Silver ore.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silver_ore_fragment.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21533
+    ],
+    "pageSlug": "Silver_ore_fragment",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silver_ore_fragment"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

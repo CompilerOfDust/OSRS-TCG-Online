@@ -1,0 +1,71 @@
+{
+  "id": 2606,
+  "cardId": "npc_zulrah",
+  "name": "Zulrah",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "The green hooded serpent of the poison waste.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zulrah_(serpentine).png",
+  "debut": "2015-01-08",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2042,
+      2043,
+      2044
+    ],
+    "pageSlug": "Zulrah",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zulrah"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 725,
+    "vitality": 500,
+    "peakDamage": "41",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 500,
+      "group": "Bosses",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 300,
+      "magic": 300,
+      "ranged": 300
+    },
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 3288,
+  "cardId": "itm_reduced-cadava-potion",
+  "name": "Reduced cadava potion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Dosage calibrated for consumption by elderly people.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Reduced_cadava_potion.png",
+  "debut": "2018-09-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22589
+    ],
+    "pageSlug": "Reduced_cadava_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Reduced_cadava_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.018,
+    "market": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 4168,
+  "cardId": "itm_slepey-tablet",
+  "name": "Slepey tablet",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Strange glowing symbols are inscribed in this tablet.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Slepey_tablet.png",
+  "debut": "2021-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25837
+    ],
+    "pageSlug": "Slepey_tablet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Slepey_tablet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2,
+    "market": null
+  }
+}

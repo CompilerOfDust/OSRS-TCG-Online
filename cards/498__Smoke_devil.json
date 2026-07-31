@@ -1,0 +1,70 @@
+{
+  "id": 7621,
+  "cardId": "npc_smoke-devil__1",
+  "name": "Smoke devil",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6639,
+    6655,
+    7406,
+    8482,
+    8483,
+    12577
+  ],
+  "flavourText": "Stay away from smoke, kids.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Smoke_devil.png",
+  "debut": "2014-04-10",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      498
+    ],
+    "pageSlug": "Smoke_devil",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Smoke_devil"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 160,
+    "vitality": null,
+    "peakDamage": "20",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Magical ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 7,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 93,
+      "reward": 185,
+      "group": "Smoke Devils",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": 5966,
+  "cardId": "itm_current-duck",
+  "name": "Current duck",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Used to track current flow at sea. There is simply no other way to achieve this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Current_duck.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31805
+    ],
+    "pageSlug": "Current_duck",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Current_duck"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Track-current",
+      "Inspect",
+      "Dismiss"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 6547,
+  "cardId": "itm_tarnished-spear",
+  "name": "Tarnished spear",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A tarnished spear, not fit for a lord.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tarnished_spear.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33679
+    ],
+    "pageSlug": "Tarnished_spear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tarnished_spear"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Polish",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12000,
+    "lowAlchemy": 8000,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

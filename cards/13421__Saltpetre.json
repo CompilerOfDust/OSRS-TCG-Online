@@ -1,0 +1,40 @@
+{
+  "id": 1546,
+  "cardId": "itm_saltpetre",
+  "name": "Saltpetre",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A powder that can be added to compost to make fertiliser.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Saltpetre.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13421
+    ],
+    "pageSlug": "Saltpetre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Saltpetre"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.003,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 13000,
+      "dailyVolume": 532913
+    }
+  }
+}

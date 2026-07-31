@@ -1,0 +1,37 @@
+{
+  "id": 5702,
+  "cardId": "itm_blue-tuna-fin",
+  "name": "Blue tuna fin",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Low fin!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_tuna_fin.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31064
+    ],
+    "pageSlug": "Blue_tuna_fin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_tuna_fin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 0.028,
+    "market": null
+  },
+  "special": false
+}

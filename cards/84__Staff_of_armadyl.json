@@ -1,0 +1,36 @@
+{
+  "id": 9413,
+  "cardId": "itm_staff-of-armadyl",
+  "name": "Staff of armadyl",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The power in this staff causes it to vibrate gently.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Staff_of_armadyl.png",
+  "debut": "2002-06-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      84
+    ],
+    "pageSlug": "Staff_of_armadyl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Staff_of_armadyl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

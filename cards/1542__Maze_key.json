@@ -1,0 +1,36 @@
+{
+  "id": 1969,
+  "cardId": "itm_maze-key",
+  "name": "Maze key",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A key to Melzar's Maze (Used in the Dragon Slayer I quest).",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maze_key.png",
+  "debut": "2001-09-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1542
+    ],
+    "pageSlug": "Maze_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maze_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

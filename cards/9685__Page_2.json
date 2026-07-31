@@ -1,0 +1,39 @@
+{
+  "id": 10027,
+  "cardId": "itm_page-2",
+  "name": "Page 2",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A page from Maledict's holy book.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Page_2.png",
+  "debut": "2006-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9685
+    ],
+    "pageSlug": "Page_2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Page_2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Read",
+      "Shape-Fire",
+      "Shape-Water",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

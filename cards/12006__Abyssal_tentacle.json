@@ -1,0 +1,66 @@
+{
+  "id": 906,
+  "cardId": "itm_abyssal-tentacle",
+  "name": "Abyssal tentacle",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    26484
+  ],
+  "flavourText": "A weapon from the Abyss, embedded in a slimy tentacle.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Abyssal_tentacle.png",
+  "debut": "2014-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12006
+    ],
+    "pageSlug": "Abyssal_tentacle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Abyssal_tentacle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Check",
+      "Dissolve"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 173880,
+    "lowAlchemy": 115920,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 90,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 86,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

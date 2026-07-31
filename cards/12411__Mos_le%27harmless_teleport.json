@@ -1,0 +1,41 @@
+{
+  "id": 1049,
+  "cardId": "itm_mos-leharmless-teleport",
+  "name": "Mos le'harmless teleport",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Teleports you to Mos Le'Harmless.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mos_le%27harmless_teleport.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12411
+    ],
+    "pageSlug": "Mos_le%27harmless_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mos_le%27harmless_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Teleport",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 1044,
+      "buyLimit": 10000,
+      "dailyVolume": 7647
+    }
+  }
+}

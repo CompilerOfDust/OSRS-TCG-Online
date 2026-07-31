@@ -1,0 +1,36 @@
+{
+  "id": 590,
+  "cardId": "itm_anchovy-paste",
+  "name": "Anchovy paste",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Fish paste. Urk.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Anchovy_paste.png",
+  "debut": "2007-06-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11266
+    ],
+    "pageSlug": "Anchovy_paste",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Anchovy_paste"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0,
+    "market": null
+  }
+}

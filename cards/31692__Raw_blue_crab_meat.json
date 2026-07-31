@@ -1,0 +1,40 @@
+{
+  "id": 5922,
+  "cardId": "itm_raw-blue-crab-meat",
+  "name": "Raw blue crab meat",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_blue_crab_meat.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31692
+    ],
+    "pageSlug": "Raw_blue_crab_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_blue_crab_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 195,
+    "lowAlchemy": 130,
+    "weightKg": 0.35,
+    "market": {
+      "guidePrice": 413,
+      "buyLimit": null,
+      "dailyVolume": 24
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 6031,
+  "cardId": "itm_bottle-of-kgp-standard-issue-martini",
+  "name": "Bottle of kgp standard issue martini",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Neither shaken, nor stirred, but rolled down a hill in a snowball.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_kgp_standard_issue_martini.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31882
+    ],
+    "pageSlug": "Bottle_of_kgp_standard_issue_martini",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_kgp_standard_issue_martini"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

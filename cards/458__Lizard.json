@@ -1,0 +1,74 @@
+{
+  "id": 7379,
+  "cardId": "npc_lizard",
+  "name": "Lizard",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    459,
+    460,
+    461,
+    462,
+    463,
+    7597,
+    12003,
+    12004,
+    12458,
+    14429
+  ],
+  "flavourText": "Run away, it's massive!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lizard.png",
+  "debut": "2005-10-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      458
+    ],
+    "pageSlug": "Lizard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lizard"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 42,
+    "vitality": null,
+    "peakDamage": "5",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 25,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 22,
+      "reward": 40,
+      "group": "Lizards",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

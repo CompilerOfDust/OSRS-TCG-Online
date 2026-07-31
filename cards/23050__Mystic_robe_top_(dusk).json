@@ -1,0 +1,67 @@
+{
+  "id": 3412,
+  "cardId": "itm_mystic-robe-top-dusk",
+  "name": "Mystic robe top (dusk)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The upper half of a dusky magical robe.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mystic_robe_top_%28dusk%29.png",
+  "debut": "2019-01-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23050
+    ],
+    "pageSlug": "Mystic_robe_top_(dusk)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mystic_robe_top_(dusk)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 72000,
+    "lowAlchemy": 48000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 108836,
+      "buyLimit": 70,
+      "dailyVolume": 77
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 20,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 20,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

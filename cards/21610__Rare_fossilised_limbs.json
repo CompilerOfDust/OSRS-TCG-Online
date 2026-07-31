@@ -1,0 +1,36 @@
+{
+  "id": 2976,
+  "cardId": "itm_rare-fossilised-limbs",
+  "name": "Rare fossilised limbs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This set of fossilised limbs belongs in a museum!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rare_fossilised_limbs.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21610
+    ],
+    "pageSlug": "Rare_fossilised_limbs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rare_fossilised_limbs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

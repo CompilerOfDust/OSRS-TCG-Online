@@ -1,0 +1,42 @@
+{
+  "id": 10015,
+  "cardId": "itm_initiate-harness-m",
+  "name": "Initiate harness m",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Initiate level armour pack.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Initiate_harness_m.png",
+  "debut": "2006-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9668
+    ],
+    "pageSlug": "Initiate_harness_m",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Initiate_harness_m"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Unpack",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 14.514,
+    "market": {
+      "guidePrice": 23659,
+      "buyLimit": 70,
+      "dailyVolume": 57
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": 9833,
+  "cardId": "itm_topaz-bolts",
+  "name": "Topaz bolts",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Topaz tipped Steel crossbow bolts.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Topaz_bolts_1.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9336
+    ],
+    "pageSlug": "Topaz_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Topaz_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 13,
+    "lowAlchemy": 8,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 187,
+      "buyLimit": 11000,
+      "dailyVolume": 157326
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 66,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

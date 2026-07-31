@@ -1,0 +1,41 @@
+{
+  "id": 9555,
+  "cardId": "itm_saw",
+  "name": "Saw",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Good for cutting wood.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Saw.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8794
+    ],
+    "pageSlug": "Saw",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Saw"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 245,
+      "buyLimit": 40,
+      "dailyVolume": 701
+    }
+  },
+  "special": false
+}

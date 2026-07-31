@@ -1,0 +1,97 @@
+{
+  "id": 8408,
+  "cardId": "npc_ice-troll",
+  "name": "Ice troll",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    648,
+    649,
+    651,
+    654,
+    698,
+    699,
+    700,
+    702,
+    705,
+    1874,
+    1875,
+    1876,
+    1877,
+    5823,
+    5824,
+    5825,
+    5826,
+    5828,
+    5829,
+    5830,
+    5831
+  ],
+  "flavourText": "Brrrrr...he must be cold!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ice_troll_(level_120,_1).png",
+  "debut": "2005-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      650,
+      652,
+      653,
+      701,
+      703,
+      704
+    ],
+    "pageSlug": "Ice_troll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ice_troll"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 120,
+    "vitality": 100,
+    "peakDamage": "21",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 129,
+      "group": "Trolls",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 100,
+      "strength": 100,
+      "defence": 120,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

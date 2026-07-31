@@ -1,0 +1,41 @@
+{
+  "id": 6728,
+  "cardId": "itm_tuna",
+  "name": "Tuna",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Wow, this is a big fish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tuna.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      361
+    ],
+    "pageSlug": "Tuna",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tuna"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 45,
+      "buyLimit": 6000,
+      "dailyVolume": 310949
+    }
+  }
+}

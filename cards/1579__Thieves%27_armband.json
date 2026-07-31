@@ -1,0 +1,36 @@
+{
+  "id": 2031,
+  "cardId": "itm_thieves-armband",
+  "name": "Thieves' armband",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This denotes a Master Thief.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Thieves%27_armband.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1579
+    ],
+    "pageSlug": "Thieves%27_armband",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Thieves%27_armband"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.025,
+    "market": null
+  }
+}

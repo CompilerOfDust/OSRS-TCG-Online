@@ -1,0 +1,37 @@
+{
+  "id": 6520,
+  "cardId": "itm_sap-treated-willow-logs",
+  "name": "Sap-treated willow logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Willow logs treated with bloodwood sap.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sap-treated_willow_logs.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33615
+    ],
+    "pageSlug": "Sap-treated_willow_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sap-treated_willow_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 2,
+    "market": null
+  },
+  "special": false
+}

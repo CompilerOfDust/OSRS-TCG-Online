@@ -1,0 +1,39 @@
+{
+  "id": 4618,
+  "cardId": "itm_blessed-crystal-scarab-1",
+  "name": "Blessed crystal scarab (2)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    27337
+  ],
+  "flavourText": "Restores a large amount of prayer over time.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blessed_crystal_scarab_%282%29.png",
+  "debut": "2022-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27335
+    ],
+    "pageSlug": "Blessed_crystal_scarab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blessed_crystal_scarab"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Crack",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 7049,
+  "cardId": "itm_bag-of-salt",
+  "name": "Bag of salt",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bag of salt.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bag_of_salt.png",
+  "debut": "2005-01-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4161
+    ],
+    "pageSlug": "Bag_of_salt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bag_of_salt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 23,
+      "buyLimit": 8000,
+      "dailyVolume": 7641
+    }
+  }
+}

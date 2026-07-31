@@ -1,0 +1,36 @@
+{
+  "id": 2684,
+  "cardId": "itm_raw-suphi-fish-1",
+  "name": "Raw suphi fish (1)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_suphi_fish_%281%29.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20857
+    ],
+    "pageSlug": "Raw_suphi_fish_(1)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_suphi_fish_(1)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.45,
+    "market": null
+  }
+}

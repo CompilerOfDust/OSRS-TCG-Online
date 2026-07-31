@@ -1,0 +1,43 @@
+{
+  "id": 5767,
+  "cardId": "itm_shaikahan-bones",
+  "name": "Shaikahan bones",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    5615
+  ],
+  "flavourText": "Large glistening bones which glow with a pale yellow aura.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shaikahan_bones.png",
+  "debut": "2004-09-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3123
+    ],
+    "pageSlug": "Shaikahan_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shaikahan_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.5,
+    "market": {
+      "guidePrice": 7395,
+      "buyLimit": 7500,
+      "dailyVolume": 186
+    }
+  }
+}

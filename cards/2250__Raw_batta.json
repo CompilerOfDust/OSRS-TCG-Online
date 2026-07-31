@@ -1,0 +1,36 @@
+{
+  "id": 3273,
+  "cardId": "itm_raw-batta",
+  "name": "Raw batta",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This gnome batta needs cooking.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_batta.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2250
+    ],
+    "pageSlug": "Raw_batta",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_batta"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.25,
+    "market": null
+  }
+}

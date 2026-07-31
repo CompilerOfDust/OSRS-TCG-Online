@@ -1,0 +1,37 @@
+{
+  "id": 8384,
+  "cardId": "itm_white-tree-fruit",
+  "name": "White tree fruit",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Looks delicious.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_tree_fruit.png",
+  "debut": "2005-08-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6469
+    ],
+    "pageSlug": "White_tree_fruit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_tree_fruit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 7867,
+  "cardId": "itm_bananas-1",
+  "name": "Bananas(5)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    5408,
+    5410,
+    5412,
+    5414
+  ],
+  "flavourText": "A fruit basket filled with bananas.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bananas%285%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5416
+    ],
+    "pageSlug": "Bananas",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bananas"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Fill",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": null,
+      "buyLimit": null,
+      "dailyVolume": null
+    }
+  }
+}

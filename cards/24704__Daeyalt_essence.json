@@ -1,0 +1,36 @@
+{
+  "id": 3807,
+  "cardId": "itm_daeyalt-essence",
+  "name": "Daeyalt essence",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Powerful essence made from daeyalt.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Daeyalt_essence.png",
+  "debut": "2020-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24704
+    ],
+    "pageSlug": "Daeyalt_essence",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Daeyalt_essence"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.04,
+    "market": null
+  }
+}

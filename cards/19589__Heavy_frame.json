@@ -1,0 +1,40 @@
+{
+  "id": 2332,
+  "cardId": "itm_heavy-frame",
+  "name": "Heavy frame",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A heavy wooden frame.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Heavy_frame.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19589
+    ],
+    "pageSlug": "Heavy_frame",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Heavy_frame"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 5.25,
+    "market": {
+      "guidePrice": 385760,
+      "buyLimit": 8,
+      "dailyVolume": 82
+    }
+  }
+}

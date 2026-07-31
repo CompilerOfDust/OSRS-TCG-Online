@@ -1,0 +1,36 @@
+{
+  "id": 9277,
+  "cardId": "itm_morytania-painting",
+  "name": "Morytania painting",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A painting of the spooky forests of Morytania.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Morytania_painting.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8003
+    ],
+    "pageSlug": "Morytania_painting",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Morytania_painting"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 1,
+    "market": null
+  }
+}

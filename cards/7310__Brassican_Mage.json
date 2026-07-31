@@ -1,0 +1,55 @@
+{
+  "id": 8840,
+  "cardId": "npc_brassican-mage",
+  "name": "Brassican Mage",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Rather old and smells of cabbage.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Brassican_Mage.png",
+  "debut": "2016-07-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7310
+    ],
+    "pageSlug": "Brassican_Mage",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Brassican_Mage"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 140,
+    "vitality": null,
+    "peakDamage": "16",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Typeless",
+      "Magic"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

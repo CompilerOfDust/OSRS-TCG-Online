@@ -1,0 +1,67 @@
+{
+  "id": 2569,
+  "cardId": "itm_honourable-blessing",
+  "name": "Honourable blessing",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Law is not law if it violates the principles of eternal justice.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Honourable_blessing.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20229
+    ],
+    "pageSlug": "Honourable_blessing",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Honourable_blessing"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Equip",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 48,
+    "lowAlchemy": 32,
+    "weightKg": 0.51,
+    "market": {
+      "guidePrice": 4272,
+      "buyLimit": 5,
+      "dailyVolume": 651
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

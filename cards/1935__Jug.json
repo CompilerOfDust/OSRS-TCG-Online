@@ -1,0 +1,40 @@
+{
+  "id": 2280,
+  "cardId": "itm_jug",
+  "name": "Jug",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This jug is empty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jug.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1935
+    ],
+    "pageSlug": "Jug",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jug"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 3,
+      "buyLimit": 13000,
+      "dailyVolume": 739867
+    }
+  }
+}

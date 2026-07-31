@@ -1,0 +1,36 @@
+{
+  "id": 7966,
+  "cardId": "itm_3f-3f-3f-mixture",
+  "name": "%3F%3F%3F mixture",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A very hot vial of something or other. The label says 'Cupric Sulfate'.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/%3F%3F%3F_mixture_%28hot%29.png",
+  "debut": "2005-06-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5589
+    ],
+    "pageSlug": "%3F%3F%3F_mixture",
+    "pageUrl": "https://oldschool.runescape.wiki/w/%3F%3F%3F_mixture"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

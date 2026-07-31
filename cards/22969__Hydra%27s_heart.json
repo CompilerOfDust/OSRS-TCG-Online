@@ -1,0 +1,36 @@
+{
+  "id": 3392,
+  "cardId": "itm_hydras-heart",
+  "name": "Hydra's heart",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "The heart of a hydra, looks like it can be combined with an eye and a fang.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hydra%27s_heart.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22969
+    ],
+    "pageSlug": "Hydra%27s_heart",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hydra%27s_heart"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

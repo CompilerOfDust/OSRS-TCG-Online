@@ -1,0 +1,36 @@
+{
+  "id": 4069,
+  "cardId": "itm_stardust",
+  "name": "Stardust",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Small, shiny bits of rock. Someone at the Mining Guild might find them interesting.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stardust_1.png",
+  "debut": "2021-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25527
+    ],
+    "pageSlug": "Stardust",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stardust"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

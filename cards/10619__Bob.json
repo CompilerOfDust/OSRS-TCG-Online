@@ -1,0 +1,76 @@
+{
+  "id": 277,
+  "cardId": "npc_bob",
+  "name": "Bob",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    2635,
+    2636,
+    4221,
+    4231,
+    4724,
+    8034,
+    8055,
+    8111,
+    8112,
+    8113,
+    8114,
+    8115,
+    8159,
+    10414,
+    10582,
+    10611,
+    12138
+  ],
+  "flavourText": "An expert on axes.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10619
+    ],
+    "pageSlug": "Bob",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bob"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Lumbridge"
+    ],
+    "questLine": "• The Lost Tribe • Death to the Dorgeshuun",
+    "shop": "Bob's Brilliant Axes.",
+    "menuActions": [
+      "Talk-to",
+      "Trade",
+      "Repair"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

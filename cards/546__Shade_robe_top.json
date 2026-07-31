@@ -1,0 +1,67 @@
+{
+  "id": 7882,
+  "cardId": "itm_shade-robe-top",
+  "name": "Shade robe top",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I feel closer to the gods when I am wearing this.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shade_robe_top.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      546
+    ],
+    "pageSlug": "Shade_robe_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shade_robe_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 465,
+      "buyLimit": 125,
+      "dailyVolume": 80
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  }
+}

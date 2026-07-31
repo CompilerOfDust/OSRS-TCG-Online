@@ -1,0 +1,56 @@
+{
+  "id": 1841,
+  "cardId": "npc_fycie",
+  "name": "Fycie",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This must be Rantz's daughter.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-05-18",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1471
+    ],
+    "pageSlug": "Fycie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fycie"
+  },
+  "npcProfile": {
+    "race": "Ogre",
+    "gender": "Female",
+    "locations": [
+      "Feldip Hills"
+    ],
+    "questLine": "Big Chompy Bird Hunting",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

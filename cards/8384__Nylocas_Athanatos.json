@@ -1,0 +1,61 @@
+{
+  "id": 9372,
+  "cardId": "npc_nylocas-athanatos",
+  "name": "Nylocas Athanatos",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "This strain of nylocas does not die easily.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nylocas_Athanatos.png",
+  "debut": "2018-06-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8384,
+      10844
+    ],
+    "pageSlug": "Nylocas_Athanatos",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nylocas_Athanatos"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 107,
+    "vitality": 30,
+    "peakDamage": "1",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "None"
+    ],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 40,
+      "magic": 40,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

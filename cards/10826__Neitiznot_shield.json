@@ -1,0 +1,67 @@
+{
+  "id": 332,
+  "cardId": "itm_neitiznot-shield",
+  "name": "Neitiznot shield",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A wooden shield with a rope rim.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Neitiznot_shield.png",
+  "debut": "2007-02-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10826
+    ],
+    "pageSlug": "Neitiznot_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Neitiznot_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 3.628,
+    "market": {
+      "guidePrice": 1960,
+      "buyLimit": 70,
+      "dailyVolume": 450
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": -10
+      },
+      "defence": {
+        "stab": 17,
+        "slash": 17,
+        "crush": 31,
+        "magic": -4,
+        "ranged": 33
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

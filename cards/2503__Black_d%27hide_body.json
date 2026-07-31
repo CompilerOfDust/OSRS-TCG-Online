@@ -1,0 +1,70 @@
+{
+  "id": 3929,
+  "cardId": "itm_black-dhide-body",
+  "name": "Black d'hide body",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    12381,
+    12385
+  ],
+  "flavourText": "Made from 100% real dragonhide.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_d%27hide_body.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2503
+    ],
+    "pageSlug": "Black_d%27hide_body",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_d%27hide_body"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 8088,
+    "lowAlchemy": 5392,
+    "weightKg": 6.803,
+    "market": {
+      "guidePrice": 7271,
+      "buyLimit": 70,
+      "dailyVolume": 153963
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -15,
+        "ranged": 30
+      },
+      "defence": {
+        "stab": 30,
+        "slash": 38,
+        "crush": 45,
+        "magic": 45,
+        "ranged": 50
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

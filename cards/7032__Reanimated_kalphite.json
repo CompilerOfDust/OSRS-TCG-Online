@@ -1,0 +1,64 @@
+{
+  "id": 8697,
+  "cardId": "npc_reanimated-kalphite",
+  "name": "Reanimated kalphite",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This creature has been dragged back from the grave.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Reanimated_kalphite.png",
+  "debut": "2016-01-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7032
+    ],
+    "pageSlug": "Reanimated_kalphite",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Reanimated_kalphite"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "4x4",
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": "12",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 35,
+      "group": "Kalphite",
+      "masters": [
+        "Mazchna",
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

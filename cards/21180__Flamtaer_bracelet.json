@@ -1,0 +1,69 @@
+{
+  "id": 2811,
+  "cardId": "itm_flamtaer-bracelet",
+  "name": "Flamtaer bracelet",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Helps when building the Shades of Mort'ton temple.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Flamtaer_bracelet.png",
+  "debut": "2017-02-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21180
+    ],
+    "pageSlug": "Flamtaer_bracelet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Flamtaer_bracelet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 780,
+    "lowAlchemy": 520,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 824,
+      "buyLimit": 10000,
+      "dailyVolume": 800
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

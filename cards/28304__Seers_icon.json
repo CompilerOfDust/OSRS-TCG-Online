@@ -1,0 +1,41 @@
+{
+  "id": 4842,
+  "cardId": "itm_seers-icon",
+  "name": "Seers icon",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "The icon of an archer. [ sic ]",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Seers_icon.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28304
+    ],
+    "pageSlug": "Seers_icon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Seers_icon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4800,
+    "lowAlchemy": 3200,
+    "weightKg": 0.002,
+    "market": {
+      "guidePrice": 712813,
+      "buyLimit": null,
+      "dailyVolume": 23
+    }
+  }
+}

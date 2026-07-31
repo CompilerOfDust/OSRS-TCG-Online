@@ -1,0 +1,65 @@
+{
+  "id": 4179,
+  "cardId": "itm_bow-of-faerdhinen-c",
+  "name": "Bow of faerdhinen (c)",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A magical elven bow, corrupted through the addition of too many shards.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bow_of_faerdhinen_%28c%29.png",
+  "debut": "2021-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25867
+    ],
+    "pageSlug": "Bow_of_faerdhinen_(c)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bow_of_faerdhinen_(c)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Uncharge",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.5,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 128
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 106,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

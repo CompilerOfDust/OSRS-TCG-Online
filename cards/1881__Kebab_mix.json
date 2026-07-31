@@ -1,0 +1,41 @@
+{
+  "id": 2255,
+  "cardId": "itm_kebab-mix",
+  "name": "Kebab mix",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A mixture of chopped tomatoes, onions and ugthanki meat in a bowl.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kebab_mix.png",
+  "debut": "2003-04-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1881
+    ],
+    "pageSlug": "Kebab_mix",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kebab_mix"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 5,
+    "lowAlchemy": 3,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 355,
+      "buyLimit": 11000,
+      "dailyVolume": 0
+    }
+  },
+  "special": false
+}

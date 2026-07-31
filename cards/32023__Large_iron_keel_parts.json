@@ -1,0 +1,40 @@
+{
+  "id": 6110,
+  "cardId": "itm_large-iron-keel-parts",
+  "name": "Large iron keel parts",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating an iron keel for larger boats.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Large_iron_keel_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32023
+    ],
+    "pageSlug": "Large_iron_keel_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Large_iron_keel_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 375,
+    "lowAlchemy": 250,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 7361,
+      "buyLimit": 100,
+      "dailyVolume": 916
+    }
+  }
+}

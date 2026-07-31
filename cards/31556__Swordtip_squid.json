@@ -1,0 +1,42 @@
+{
+  "id": 5882,
+  "cardId": "itm_swordtip-squid",
+  "name": "Swordtip squid",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Doesn't look too appetising, but looks can be deceiving.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Swordtip_squid.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31556
+    ],
+    "pageSlug": "Swordtip_squid",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Swordtip_squid"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 342,
+      "buyLimit": null,
+      "dailyVolume": 1113
+    }
+  },
+  "special": false
+}

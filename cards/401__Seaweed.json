@@ -1,0 +1,42 @@
+{
+  "id": 6935,
+  "cardId": "itm_seaweed",
+  "name": "Seaweed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    6683
+  ],
+  "flavourText": "Slightly damp seaweed.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Seaweed.png",
+  "debut": "2002-03-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      401
+    ],
+    "pageSlug": "Seaweed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Seaweed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.2,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 13000,
+      "dailyVolume": 181466
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 5679,
+  "cardId": "itm_adamant-claws",
+  "name": "Adamant claws",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A set of fighting claws.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_claws.png",
+  "debut": "2004-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3100
+    ],
+    "pageSlug": "Adamant_claws",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_claws"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 720,
+    "lowAlchemy": 480,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 1760,
+      "buyLimit": 125,
+      "dailyVolume": 270
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 18,
+        "slash": 23,
+        "crush": -4,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 6,
+        "slash": 12,
+        "crush": 3,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 24,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

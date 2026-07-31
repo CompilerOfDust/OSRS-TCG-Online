@@ -1,0 +1,63 @@
+{
+  "id": 6972,
+  "cardId": "itm_decorative-helm__1",
+  "name": "Decorative helm",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A very decorative helm.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Decorative_helm_%28red%29.png",
+  "debut": "2004-12-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4071
+    ],
+    "pageSlug": "Decorative_helm_(red)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Decorative_helm_(red)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 1.36,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 7,
+        "slash": 8,
+        "crush": 6,
+        "magic": -1,
+        "ranged": 7
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

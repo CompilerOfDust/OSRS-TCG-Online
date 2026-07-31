@@ -1,0 +1,41 @@
+{
+  "id": 3940,
+  "cardId": "itm_red-dragon-leather",
+  "name": "Red dragon leather",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a piece of prepared red dragonhide.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_dragon_leather.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2507
+    ],
+    "pageSlug": "Red_dragon_leather",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_dragon_leather"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 2703,
+      "buyLimit": 11000,
+      "dailyVolume": 1048768
+    }
+  },
+  "special": false
+}

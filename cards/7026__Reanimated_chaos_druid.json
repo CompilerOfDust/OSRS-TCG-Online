@@ -1,0 +1,61 @@
+{
+  "id": 8690,
+  "cardId": "npc_reanimated-chaos-druid",
+  "name": "Reanimated chaos druid",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This druid has been dragged back from the grave.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Reanimated_chaos_druid.png",
+  "debut": "2016-01-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7026
+    ],
+    "pageSlug": "Reanimated_chaos_druid",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Reanimated_chaos_druid"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": "6",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 35,
+      "group": "Chaos Druids",
+      "masters": [
+        "Krystilia"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

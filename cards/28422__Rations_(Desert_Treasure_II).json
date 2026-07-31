@@ -1,0 +1,37 @@
+{
+  "id": 4876,
+  "cardId": "itm_rations",
+  "name": "Rations",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some very old rations.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rations_%28Desert_Treasure_II%29.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28422
+    ],
+    "pageSlug": "Rations_(Desert_Treasure_II)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rations_(Desert_Treasure_II)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 8543,
+  "cardId": "npc_rock-golem",
+  "name": "Rock Golem",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Rock with attitude.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rock_Golem_(monster).png",
+  "debut": "2004-03-29",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6725,
+      6726,
+      6727,
+      6728,
+      6729,
+      6730
+    ],
+    "pageSlug": "Rock_Golem_(monster)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rock_Golem_(monster)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Golem"
+    ],
+    "tileSize": "1x1",
+    "combatRating": 13,
+    "vitality": 20,
+    "peakDamage": "2",
+    "combatXpBonusPct": -97.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 9,
+      "strength": 9,
+      "defence": 9,
+      "magic": 1,
+      "ranged": 8
+    },
+    "aggressiveBonuses": null
+  }
+}

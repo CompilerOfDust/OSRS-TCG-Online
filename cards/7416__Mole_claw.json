@@ -1,0 +1,40 @@
+{
+  "id": 8897,
+  "cardId": "itm_mole-claw",
+  "name": "Mole claw",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A mole claw.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mole_claw.png",
+  "debut": "2006-03-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7416
+    ],
+    "pageSlug": "Mole_claw",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mole_claw"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 360,
+    "lowAlchemy": 240,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 6295,
+      "buyLimit": 50,
+      "dailyVolume": 40419
+    }
+  }
+}

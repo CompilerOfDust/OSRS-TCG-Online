@@ -1,0 +1,67 @@
+{
+  "id": 3481,
+  "cardId": "itm_3rd-age-druidic-cloak",
+  "name": "3rd age druidic cloak",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A fabulously ancient vine cloak as worn by the druids of old.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/3rd_age_druidic_cloak.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23345
+    ],
+    "pageSlug": "3rd_age_druidic_cloak",
+    "pageUrl": "https://oldschool.runescape.wiki/w/3rd_age_druidic_cloak"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 120000,
+    "lowAlchemy": 80000,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 1069440612,
+      "buyLimit": 8,
+      "dailyVolume": 2
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 1,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 3,
+        "slash": 3,
+        "crush": 3,
+        "magic": 3,
+        "ranged": 3
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

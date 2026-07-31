@@ -1,0 +1,54 @@
+{
+  "id": 10009,
+  "cardId": "npc_r2t2pnsh0ty",
+  "name": "r2t2pnsh0Ty",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Wait, have I seen her before?",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2020-06-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9660
+    ],
+    "pageSlug": "R2t2pnsh0Ty",
+    "pageUrl": "https://oldschool.runescape.wiki/w/R2t2pnsh0Ty"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Hallowed Sepulchre"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 94,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

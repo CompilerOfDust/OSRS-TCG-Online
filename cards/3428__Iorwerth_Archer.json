@@ -1,0 +1,71 @@
+{
+  "id": 6614,
+  "cardId": "npc_iorwerth-archer",
+  "name": "Iorwerth Archer",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "She looks pretty handy with that bow.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iorwerth_Archer_(2).png",
+  "debut": "2004-09-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3428,
+      8760
+    ],
+    "pageSlug": "Iorwerth_Archer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iorwerth_Archer"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 90,
+    "vitality": 105,
+    "peakDamage": "11",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 105,
+      "group": "Elves",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 10,
+      "strength": 10,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 90
+    },
+    "aggressiveBonuses": null
+  }
+}

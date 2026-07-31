@@ -1,0 +1,41 @@
+{
+  "id": 8022,
+  "cardId": "itm_ale-yeast",
+  "name": "Ale yeast",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A pot filled with ale yeast.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ale_yeast.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5767
+    ],
+    "pageSlug": "Ale_yeast",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ale_yeast"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2.834,
+    "market": {
+      "guidePrice": 970,
+      "buyLimit": 11000,
+      "dailyVolume": 578
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": 2662,
+  "cardId": "itm_zamoraks-unfermented-wine",
+  "name": "Zamorak's unfermented wine",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This wine needs to ferment before it can be used.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zamorak%27s_unfermented_wine.png",
+  "debut": "2016-09-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20752
+    ],
+    "pageSlug": "Zamorak%27s_unfermented_wine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zamorak%27s_unfermented_wine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 1.5,
+    "market": null
+  },
+  "special": false
+}

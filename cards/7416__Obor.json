@@ -1,0 +1,84 @@
+{
+  "id": 8898,
+  "cardId": "npc_obor",
+  "name": "Obor",
+  "cardKind": "npc",
+  "tier": 7,
+  "unlocksItems": [
+    2098,
+    2099,
+    2100,
+    2101,
+    2102,
+    2103,
+    7261,
+    10374,
+    10375,
+    10376,
+    11195,
+    11467,
+    12848,
+    12849,
+    12850,
+    13502,
+    13503,
+    13504,
+    15620
+  ],
+  "flavourText": "He looks very dangerous.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Obor.png",
+  "debut": "2016-10-06",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7416
+    ],
+    "pageSlug": "Obor",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Obor"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 106,
+    "vitality": null,
+    "peakDamage": "22 ( Melee ) 26 ( Ranged )",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Ranged"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 129,
+      "group": "Hill Giants",
+      "masters": [
+        "Mazchna",
+        "Vannaka"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  },
+  "special": true
+}

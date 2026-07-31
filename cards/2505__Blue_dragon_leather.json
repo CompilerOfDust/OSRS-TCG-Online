@@ -1,0 +1,40 @@
+{
+  "id": 3939,
+  "cardId": "itm_blue-dragon-leather",
+  "name": "Blue dragon leather",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a piece of prepared blue dragonhide.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_dragon_leather.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2505
+    ],
+    "pageSlug": "Blue_dragon_leather",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_dragon_leather"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 42,
+    "lowAlchemy": 28,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 2173,
+      "buyLimit": 13000,
+      "dailyVolume": 479655
+    }
+  }
+}

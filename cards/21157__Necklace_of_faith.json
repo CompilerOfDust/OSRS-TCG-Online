@@ -1,0 +1,68 @@
+{
+  "id": 2804,
+  "cardId": "itm_necklace-of-faith",
+  "name": "Necklace of faith",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Can grant me prayer in an emergency.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Necklace_of_faith.png",
+  "debut": "2017-02-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21157
+    ],
+    "pageSlug": "Necklace_of_faith",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Necklace_of_faith"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 855,
+    "lowAlchemy": 570,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 1696,
+      "buyLimit": 10000,
+      "dailyVolume": 93
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

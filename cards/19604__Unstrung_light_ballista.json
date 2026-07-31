@@ -1,0 +1,41 @@
+{
+  "id": 2338,
+  "cardId": "itm_unstrung-light-ballista",
+  "name": "Unstrung light ballista",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Needs a suitably simian rope.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unstrung_light_ballista.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19604
+    ],
+    "pageSlug": "Unstrung_light_ballista",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unstrung_light_ballista"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 2.75,
+    "market": {
+      "guidePrice": 86279,
+      "buyLimit": 8,
+      "dailyVolume": 1
+    }
+  },
+  "special": false
+}

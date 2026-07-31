@@ -1,0 +1,41 @@
+{
+  "id": 5346,
+  "cardId": "itm_chilhuac-red",
+  "name": "Chilhuac red",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A smoky and spicy Tlati Red that's known for its dark colour.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chilhuac_red.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29947
+    ],
+    "pageSlug": "Chilhuac_red",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chilhuac_red"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 1300,
+      "buyLimit": null,
+      "dailyVolume": 470
+    }
+  }
+}

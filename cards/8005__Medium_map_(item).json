@@ -1,0 +1,37 @@
+{
+  "id": 9279,
+  "cardId": "itm_medium-map__1",
+  "name": "Medium map",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A medium map of Gielinor.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Medium_map_%28item%29.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8005
+    ],
+    "pageSlug": "Medium_map_(item)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Medium_map_(item)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 1,
+    "market": null
+  },
+  "special": false
+}

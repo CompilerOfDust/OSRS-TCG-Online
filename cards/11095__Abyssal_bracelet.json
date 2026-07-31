@@ -1,0 +1,73 @@
+{
+  "id": 503,
+  "cardId": "itm_abyssal-bracelet-1",
+  "name": "Abyssal bracelet(5)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    11097,
+    11099,
+    11101,
+    11103
+  ],
+  "flavourText": "Makes using the Abyss just slightly safer.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Abyssal_bracelet.png",
+  "debut": "2007-04-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11095
+    ],
+    "pageSlug": "Abyssal_bracelet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Abyssal_bracelet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 2520,
+    "lowAlchemy": 1680,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": null,
+      "buyLimit": null,
+      "dailyVolume": null
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

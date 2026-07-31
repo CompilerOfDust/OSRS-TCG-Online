@@ -1,0 +1,37 @@
+{
+  "id": 5355,
+  "cardId": "itm_xochipaltic-ros",
+  "name": "Xochipaltic rosé",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A sweet and pale Avium Rosé that's no longer produced due to vine rot.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Xochipaltic_ros%C3%A9.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29969
+    ],
+    "pageSlug": "Xochipaltic_ros%C3%A9",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Xochipaltic_ros%C3%A9"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 1,
+    "market": null
+  }
+}

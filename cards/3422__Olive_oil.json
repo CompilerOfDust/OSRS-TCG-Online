@@ -1,0 +1,45 @@
+{
+  "id": 6615,
+  "cardId": "itm_olive-oil-1",
+  "name": "Olive oil(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    3424,
+    3426,
+    3428
+  ],
+  "flavourText": "4 doses of olive oil.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Olive_oil%284%29.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3422
+    ],
+    "pageSlug": "Olive_oil",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Olive_oil"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 8,
+    "lowAlchemy": 5,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 20,
+      "buyLimit": 10000,
+      "dailyVolume": 1
+    }
+  }
+}

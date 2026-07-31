@@ -1,0 +1,67 @@
+{
+  "id": 5069,
+  "cardId": "itm_blood-moon-chestplate",
+  "name": "Blood moon chestplate",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The chestplate of the Blood Moon.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blood_moon_chestplate.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29022
+    ],
+    "pageSlug": "Blood_moon_chestplate",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blood_moon_chestplate"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 174006,
+    "lowAlchemy": 116004,
+    "weightKg": 5.443,
+    "market": {
+      "guidePrice": 3776220,
+      "buyLimit": 15,
+      "dailyVolume": 685
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -15,
+        "ranged": -10
+      },
+      "defence": {
+        "stab": 60,
+        "slash": 80,
+        "crush": 80,
+        "magic": 40,
+        "ranged": 79
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

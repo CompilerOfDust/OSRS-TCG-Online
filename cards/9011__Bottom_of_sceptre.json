@@ -1,0 +1,36 @@
+{
+  "id": 9696,
+  "cardId": "itm_bottom-of-sceptre",
+  "name": "Bottom of sceptre",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Bottom half of a broken Sceptre.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottom_of_sceptre.png",
+  "debut": "2006-07-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9011
+    ],
+    "pageSlug": "Bottom_of_sceptre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottom_of_sceptre"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

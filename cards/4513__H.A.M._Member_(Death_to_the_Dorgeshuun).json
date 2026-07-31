@@ -1,0 +1,58 @@
+{
+  "id": 7327,
+  "cardId": "npc_h-a-m-member__1",
+  "name": "H.A.M. Member",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A member of the 'Humans Against Monsters' group.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-06-21",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4513,
+      4514
+    ],
+    "pageSlug": "H.A.M._Member_(Death_to_the_Dorgeshuun)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/H.A.M._Member_(Death_to_the_Dorgeshuun)"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Lumbridge",
+      "Seth Groats"
+    ],
+    "questLine": "Death to the Dorgeshuun",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

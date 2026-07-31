@@ -1,0 +1,37 @@
+{
+  "id": 2938,
+  "cardId": "itm_volcanic-mine-teleport",
+  "name": "Volcanic mine teleport",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A tablet containing an ancient magic spell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Volcanic_mine_teleport.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21541
+    ],
+    "pageSlug": "Volcanic_mine_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Volcanic_mine_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

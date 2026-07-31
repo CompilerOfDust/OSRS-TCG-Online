@@ -1,0 +1,67 @@
+{
+  "id": 6668,
+  "cardId": "itm_saradomin-plateskirt",
+  "name": "Saradomin plateskirt",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Rune plateskirt in the colours of Saradomin.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Saradomin_plateskirt.png",
+  "debut": "2004-10-26",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3479
+    ],
+    "pageSlug": "Saradomin_plateskirt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Saradomin_plateskirt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 38400,
+    "lowAlchemy": 25600,
+    "weightKg": 9.071,
+    "market": {
+      "guidePrice": 37705,
+      "buyLimit": 8,
+      "dailyVolume": 40
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 51,
+        "slash": 49,
+        "crush": 47,
+        "magic": -4,
+        "ranged": 49
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

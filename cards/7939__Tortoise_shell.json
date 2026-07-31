@@ -1,0 +1,41 @@
+{
+  "id": 9218,
+  "cardId": "itm_tortoise-shell",
+  "name": "Tortoise shell",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A word in your shell-like.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tortoise_shell.png",
+  "debut": "2006-04-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7939
+    ],
+    "pageSlug": "Tortoise_shell",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tortoise_shell"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 6.803,
+    "market": {
+      "guidePrice": 3523,
+      "buyLimit": 7500,
+      "dailyVolume": 48
+    }
+  },
+  "special": false
+}

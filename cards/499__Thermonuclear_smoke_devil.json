@@ -1,0 +1,67 @@
+{
+  "id": 7622,
+  "cardId": "npc_thermonuclear-smoke-devil",
+  "name": "Thermonuclear smoke devil",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [
+    13659,
+    15611
+  ],
+  "flavourText": "Woah.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Thermonuclear_smoke_devil.png",
+  "debut": "2014-04-10",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      499
+    ],
+    "pageSlug": "Thermonuclear_smoke_devil",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Thermonuclear_smoke_devil"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "4x4",
+    "combatRating": 301,
+    "vitality": null,
+    "peakDamage": "8",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Magical ranged",
+      "prayer penetration"
+    ],
+    "attackTempo": 2,
+    "respawnTicks": 15,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 93,
+      "reward": 240,
+      "group": "Bosses, Smoke Devils",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

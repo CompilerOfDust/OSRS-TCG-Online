@@ -1,0 +1,42 @@
+{
+  "id": 3011,
+  "cardId": "itm_black-tourmaline-core",
+  "name": "Black tourmaline core",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "The blackened heart of the Grotesque Guardians.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_tourmaline_core.png",
+  "debut": "2017-10-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21730
+    ],
+    "pageSlug": "Black_tourmaline_core",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_tourmaline_core"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24900,
+    "lowAlchemy": 16600,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 939553,
+      "buyLimit": 5,
+      "dailyVolume": 108
+    }
+  },
+  "special": false
+}

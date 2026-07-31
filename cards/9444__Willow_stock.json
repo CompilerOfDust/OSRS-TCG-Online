@@ -1,0 +1,40 @@
+{
+  "id": 9873,
+  "cardId": "itm_willow-stock",
+  "name": "Willow stock",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A willow crossbow stock.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Willow_stock.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9444
+    ],
+    "pageSlug": "Willow_stock",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Willow_stock"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 31,
+    "lowAlchemy": 21,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 3,
+      "buyLimit": 10000,
+      "dailyVolume": 42
+    }
+  }
+}

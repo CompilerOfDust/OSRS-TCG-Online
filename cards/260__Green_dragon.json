@@ -1,0 +1,78 @@
+{
+  "id": 4251,
+  "cardId": "npc_green-dragon",
+  "name": "Green dragon",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Must be related to Elvarg.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Green_dragon.png",
+  "debut": "2004-03-29",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      260,
+      261,
+      262,
+      263,
+      264,
+      8073,
+      8076,
+      8082
+    ],
+    "pageSlug": "Green_dragon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Green_dragon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Draconic",
+      "Fiery"
+    ],
+    "tileSize": "4x4",
+    "combatRating": 79,
+    "vitality": 75,
+    "peakDamage": "8 ( Slash ) 50 ( Dragonfire )",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Dragonfire"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 75,
+      "group": "Green Dragons",
+      "masters": [
+        "Krystilia"
+      ]
+    },
+    "combatLevels": {
+      "attack": 68,
+      "strength": 68,
+      "defence": 68,
+      "magic": 68,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

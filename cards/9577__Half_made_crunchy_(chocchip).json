@@ -1,0 +1,40 @@
+{
+  "id": 9941,
+  "cardId": "itm_half-made-crunchy",
+  "name": "Half made crunchy",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    9579,
+    9581,
+    9583
+  ],
+  "flavourText": "This choc chip crunchy needs baking and garnishing with chocolate dust.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Half_made_crunchy_%28chocchip%29.png",
+  "debut": "2006-08-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9577
+    ],
+    "pageSlug": "Half_made_crunchy_(chocchip)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Half_made_crunchy_(chocchip)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.35,
+    "market": null
+  }
+}

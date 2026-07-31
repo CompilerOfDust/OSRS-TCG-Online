@@ -1,0 +1,58 @@
+{
+  "id": 7732,
+  "cardId": "npc_kharid-scorpion",
+  "name": "Kharid Scorpion",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Looks vicious!",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2002-03-25",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5228,
+      5229,
+      5230
+    ],
+    "pageSlug": "Kharid_Scorpion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kharid_Scorpion"
+  },
+  "npcProfile": {
+    "race": "Scorpion",
+    "gender": null,
+    "locations": [
+      "Taverley Dungeon"
+    ],
+    "questLine": "Scorpion Catcher",
+    "shop": null,
+    "menuActions": [
+      "Pick-up"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

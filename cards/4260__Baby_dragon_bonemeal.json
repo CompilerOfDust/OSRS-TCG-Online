@@ -1,0 +1,37 @@
+{
+  "id": 7151,
+  "cardId": "itm_baby-dragon-bonemeal",
+  "name": "Baby dragon bonemeal",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pot of crushed baby dragon bones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Baby_dragon_bonemeal.png",
+  "debut": "2005-02-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4260
+    ],
+    "pageSlug": "Baby_dragon_bonemeal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Baby_dragon_bonemeal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.5,
+    "market": null
+  }
+}

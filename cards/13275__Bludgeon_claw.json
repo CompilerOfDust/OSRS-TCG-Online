@@ -1,0 +1,36 @@
+{
+  "id": 1484,
+  "cardId": "itm_bludgeon-claw",
+  "name": "Bludgeon claw",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A claw from a deceased Abyssal Sire.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bludgeon_claw.png",
+  "debut": "2015-10-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13275
+    ],
+    "pageSlug": "Bludgeon_claw",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bludgeon_claw"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 138000,
+    "lowAlchemy": 92000,
+    "weightKg": 2.5,
+    "market": null
+  }
+}

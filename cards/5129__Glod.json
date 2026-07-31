@@ -1,0 +1,57 @@
+{
+  "id": 7709,
+  "cardId": "npc_glod",
+  "name": "Glod",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6297,
+    6358
+  ],
+  "flavourText": "A cloud giant.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Glod.png",
+  "debut": "2007-06-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5129
+    ],
+    "pageSlug": "Glod",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Glod"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "4x4",
+    "combatRating": 138,
+    "vitality": null,
+    "peakDamage": "25",
+    "combatXpBonusPct": 5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

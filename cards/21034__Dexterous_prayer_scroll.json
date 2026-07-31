@@ -1,0 +1,41 @@
+{
+  "id": 2768,
+  "cardId": "itm_dexterous-prayer-scroll",
+  "name": "Dexterous prayer scroll",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Scrawled words that can invoke the power of the gods.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dexterous_prayer_scroll.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21034
+    ],
+    "pageSlug": "Dexterous_prayer_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dexterous_prayer_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 48000,
+    "lowAlchemy": 32000,
+    "weightKg": 0.015,
+    "market": {
+      "guidePrice": 19561078,
+      "buyLimit": 5,
+      "dailyVolume": 527
+    }
+  }
+}

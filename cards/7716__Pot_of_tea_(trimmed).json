@@ -1,0 +1,41 @@
+{
+  "id": 9075,
+  "cardId": "itm_pot-of-tea-1__2",
+  "name": "Pot of tea (4)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    7718,
+    7720,
+    7722
+  ],
+  "flavourText": "I'd really like a nice cup of tea.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pot_of_tea_%28trimmed%29.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7716
+    ],
+    "pageSlug": "Pot_of_tea_(trimmed)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pot_of_tea_(trimmed)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.5,
+    "market": null
+  }
+}

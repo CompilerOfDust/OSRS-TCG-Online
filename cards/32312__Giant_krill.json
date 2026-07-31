@@ -1,0 +1,42 @@
+{
+  "id": 6164,
+  "cardId": "itm_giant-krill",
+  "name": "Giant krill",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Some nicely cooked krill.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_krill.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32312
+    ],
+    "pageSlug": "Giant_krill",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giant_krill"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 102,
+    "lowAlchemy": 68,
+    "weightKg": 0.65,
+    "market": {
+      "guidePrice": 255,
+      "buyLimit": null,
+      "dailyVolume": 11541
+    }
+  },
+  "special": false
+}

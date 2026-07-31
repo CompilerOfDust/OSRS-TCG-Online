@@ -1,0 +1,40 @@
+{
+  "id": 7334,
+  "cardId": "itm_empty-oil-lamp",
+  "name": "Empty oil lamp",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An oil lamp with no oil in it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Empty_oil_lamp.png",
+  "debut": "2005-03-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4525
+    ],
+    "pageSlug": "Empty_oil_lamp",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Empty_oil_lamp"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 3,
+      "buyLimit": 10000,
+      "dailyVolume": 7273
+    }
+  }
+}

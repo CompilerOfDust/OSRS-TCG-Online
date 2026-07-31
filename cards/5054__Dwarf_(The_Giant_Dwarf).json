@@ -1,0 +1,36 @@
+{
+  "id": 7663,
+  "cardId": "itm_dwarf",
+  "name": "Dwarf",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Petit.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dwarf_%28The_Giant_Dwarf%29.png",
+  "debut": "2005-05-31",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5054
+    ],
+    "pageSlug": "Dwarf_(The_Giant_Dwarf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dwarf_(The_Giant_Dwarf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 10,
+    "market": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 3783,
+  "cardId": "itm_blighted-entangle-sack",
+  "name": "Blighted entangle sack",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Enough power for an Entangle, blighted so it can be used only in the Wilderness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blighted_entangle_sack.png",
+  "debut": "2020-04-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24613
+    ],
+    "pageSlug": "Blighted_entangle_sack",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blighted_entangle_sack"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 39,
+      "buyLimit": 15000,
+      "dailyVolume": 847639
+    }
+  },
+  "special": false
+}

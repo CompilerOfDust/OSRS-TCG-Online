@@ -1,0 +1,36 @@
+{
+  "id": 472,
+  "cardId": "itm_artefact",
+  "name": "Artefact",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An ancient goblin object encrusted in dirt.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Artefact_%28armour%29.png",
+  "debut": "2007-04-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11049
+    ],
+    "pageSlug": "Artefact",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Artefact"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

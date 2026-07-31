@@ -1,0 +1,38 @@
+{
+  "id": 379,
+  "cardId": "itm_keg__1",
+  "name": "Keg",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    10898
+  ],
+  "flavourText": "A small keg of gunpowder.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Keg_%28dummy_item%29.png",
+  "debut": "2007-03-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10885
+    ],
+    "pageSlug": "Keg_(dummy_item)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Keg_(dummy_item)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

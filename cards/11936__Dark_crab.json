@@ -1,0 +1,41 @@
+{
+  "id": 860,
+  "cardId": "itm_dark-crab",
+  "name": "Dark crab",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "This looks tricky to eat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dark_crab.png",
+  "debut": "2014-03-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11936
+    ],
+    "pageSlug": "Dark_crab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dark_crab"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 192,
+    "lowAlchemy": 128,
+    "weightKg": 0.35,
+    "market": {
+      "guidePrice": 1298,
+      "buyLimit": 10000,
+      "dailyVolume": 649975
+    }
+  }
+}

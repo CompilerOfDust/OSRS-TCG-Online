@@ -1,0 +1,36 @@
+{
+  "id": 8166,
+  "cardId": "itm_yellow-dye-bellows",
+  "name": "Yellow dye bellows",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A large pair of ogre bellows filled with yellow dye.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yellow_dye_bellows.png",
+  "debut": "2005-07-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6087
+    ],
+    "pageSlug": "Yellow_dye_bellows",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yellow_dye_bellows"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.538,
+    "market": null
+  }
+}

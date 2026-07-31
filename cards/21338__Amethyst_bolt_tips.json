@@ -1,0 +1,40 @@
+{
+  "id": 2887,
+  "cardId": "itm_amethyst-bolt-tips",
+  "name": "Amethyst bolt tips",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Amethyst bolt tips.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amethyst_bolt_tips_1.png",
+  "debut": "2017-06-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21338
+    ],
+    "pageSlug": "Amethyst_bolt_tips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amethyst_bolt_tips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 158,
+      "buyLimit": 11000,
+      "dailyVolume": 348447
+    }
+  }
+}

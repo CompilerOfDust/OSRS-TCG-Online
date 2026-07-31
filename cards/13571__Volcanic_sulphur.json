@@ -1,0 +1,36 @@
+{
+  "id": 1622,
+  "cardId": "itm_volcanic-sulphur",
+  "name": "Volcanic sulphur",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Minerals from an unstable area, very rich in sulphur.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Volcanic_sulphur.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13571
+    ],
+    "pageSlug": "Volcanic_sulphur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Volcanic_sulphur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

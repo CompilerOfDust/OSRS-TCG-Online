@@ -1,0 +1,65 @@
+{
+  "id": 9489,
+  "cardId": "npc_hydra",
+  "name": "Hydra",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    10402,
+    12588
+  ],
+  "flavourText": "A ferocious Hydra!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hydra.png",
+  "debut": "2019-01-10",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8609
+    ],
+    "pageSlug": "Hydra",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hydra"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 194,
+    "vitality": null,
+    "peakDamage": "22",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 25,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 95,
+      "reward": 322.5,
+      "group": "Hydras",
+      "masters": [
+        "Konar"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

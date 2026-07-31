@@ -1,0 +1,36 @@
+{
+  "id": 5820,
+  "cardId": "itm_paper",
+  "name": "Paper",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This is generally used for writing on.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Paper_%28Rocking_Out%29.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31399
+    ],
+    "pageSlug": "Paper_(Rocking_Out)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Paper_(Rocking_Out)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.005,
+    "market": null
+  }
+}

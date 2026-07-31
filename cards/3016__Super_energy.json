@@ -1,0 +1,49 @@
+{
+  "id": 5427,
+  "cardId": "itm_super-energy-1",
+  "name": "Super energy(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    3018,
+    3020,
+    3022,
+    11481,
+    11483
+  ],
+  "flavourText": "4 doses of super energy potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Super_energy%284%29.png",
+  "debut": "2004-09-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3016
+    ],
+    "pageSlug": "Super_energy",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Super_energy"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 930,
+      "buyLimit": 2000,
+      "dailyVolume": 21
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,44 @@
+{
+  "id": 7768,
+  "cardId": "itm_burnt-bones",
+  "name": "Burnt bones",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    4258
+  ],
+  "flavourText": "Bones are for burying!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Burnt_bones.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      528
+    ],
+    "pageSlug": "Burnt_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Burnt_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 316,
+      "buyLimit": 3000,
+      "dailyVolume": 467
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": 7300,
+  "cardId": "itm_mithril-ore",
+  "name": "Mithril ore",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This needs refining.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mithril_ore.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      447
+    ],
+    "pageSlug": "Mithril_ore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mithril_ore"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 97,
+    "lowAlchemy": 64,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 155,
+      "buyLimit": 13000,
+      "dailyVolume": 5220794
+    }
+  }
+}

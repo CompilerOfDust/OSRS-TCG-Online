@@ -1,0 +1,47 @@
+{
+  "id": 4676,
+  "cardId": "itm_forgotten-brew-1",
+  "name": "Forgotten brew(4)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    27632,
+    27635,
+    27638
+  ],
+  "flavourText": "4 doses of forgotten brew.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Forgotten_brew%284%29.png",
+  "debut": "2023-01-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27629
+    ],
+    "pageSlug": "Forgotten_brew",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Forgotten_brew"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.035,
+    "market": {
+      "guidePrice": 1463,
+      "buyLimit": null,
+      "dailyVolume": 801
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": 9626,
+  "cardId": "itm_scrapey-tree-logs",
+  "name": "Scrapey tree logs",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Slimy logs from the Scrapey tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Scrapey_tree_logs.png",
+  "debut": "2006-07-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8934
+    ],
+    "pageSlug": "Scrapey_tree_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Scrapey_tree_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

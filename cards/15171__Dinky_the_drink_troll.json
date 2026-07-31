@@ -1,0 +1,65 @@
+{
+  "id": 1922,
+  "cardId": "npc_dinky-the-drink-troll",
+  "name": "Dinky the drink troll",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Likes drink... hates people stepping on him.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dinky_the_drink_troll.png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15171
+    ],
+    "pageSlug": "Dinky_the_drink_troll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dinky_the_drink_troll"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": "51+",
+    "combatXpBonusPct": -97.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 4,
+      "group": "Trolls",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

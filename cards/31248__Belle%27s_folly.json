@@ -1,0 +1,67 @@
+{
+  "id": 5771,
+  "cardId": "itm_belles-folly",
+  "name": "Belle's folly",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A well balanced blade adorned with gold.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Belle%27s_folly.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31248
+    ],
+    "pageSlug": "Belle%27s_folly",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Belle%27s_folly"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 27000,
+    "lowAlchemy": 18000,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 252984,
+      "buyLimit": 15,
+      "dailyVolume": 1452
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 100,
+        "slash": 78,
+        "crush": -3,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 20,
+        "slash": 15,
+        "crush": -9,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 102,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 5569,
+  "cardId": "itm_larch-blowpipe-empty",
+  "name": "Larch blowpipe (empty)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Breath powered dart delivering system with a hint of larch.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Larch_blowpipe_%28empty%29.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30739
+    ],
+    "pageSlug": "Larch_blowpipe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Larch_blowpipe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 0.3,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 30
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 3,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 20,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

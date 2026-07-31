@@ -1,0 +1,36 @@
+{
+  "id": 4923,
+  "cardId": "itm_warped-extract",
+  "name": "Warped extract",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An abyssal extract amplifying the creation of air, water, earth, fire, mind and body runes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Warped_extract.png",
+  "debut": "2023-09-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28593
+    ],
+    "pageSlug": "Warped_extract",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Warped_extract"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0,
+    "market": null
+  }
+}

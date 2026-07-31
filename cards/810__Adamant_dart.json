@@ -1,0 +1,68 @@
+{
+  "id": 9322,
+  "cardId": "itm_adamant-dart",
+  "name": "Adamant dart",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A deadly throwing dart with an adamant tip.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_dart.png",
+  "debut": "2003-04-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      810
+    ],
+    "pageSlug": "Adamant_dart",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_dart"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 39,
+    "lowAlchemy": 26,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 25,
+      "buyLimit": 11000,
+      "dailyVolume": 14264927
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 3,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 17,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

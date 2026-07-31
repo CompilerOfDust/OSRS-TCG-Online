@@ -1,0 +1,41 @@
+{
+  "id": 11,
+  "cardId": "itm_magic-box",
+  "name": "Magic box",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A magical catching box.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_box.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10025
+    ],
+    "pageSlug": "Magic_box",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_box"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Activate",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 360,
+    "lowAlchemy": 240,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 441,
+      "buyLimit": 250,
+      "dailyVolume": 1727
+    }
+  }
+}

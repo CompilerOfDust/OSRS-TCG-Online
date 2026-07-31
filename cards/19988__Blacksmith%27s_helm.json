@@ -1,0 +1,67 @@
+{
+  "id": 2426,
+  "cardId": "itm_blacksmiths-helm",
+  "name": "Blacksmith's helm",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A helm worn by blacksmiths.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blacksmith%27s_helm.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19988
+    ],
+    "pageSlug": "Blacksmith%27s_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blacksmith%27s_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 1800,
+    "lowAlchemy": 1200,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 17901,
+      "buyLimit": 125,
+      "dailyVolume": 162
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 6,
+        "slash": 7,
+        "crush": 5,
+        "magic": -1,
+        "ranged": 6
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 117,
+  "cardId": "itm_3rd-age-kiteshield",
+  "name": "3rd age kiteshield",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Fabulously ancient armour beaten from magical silver.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/3rd_age_kiteshield.png",
+  "debut": "2006-12-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10352
+    ],
+    "pageSlug": "3rd_age_kiteshield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/3rd_age_kiteshield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 108000,
+    "lowAlchemy": 72000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 64288728,
+      "buyLimit": 8,
+      "dailyVolume": 11
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": -4
+      },
+      "defence": {
+        "stab": 63,
+        "slash": 65,
+        "crush": 61,
+        "magic": -3,
+        "ranged": 63
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

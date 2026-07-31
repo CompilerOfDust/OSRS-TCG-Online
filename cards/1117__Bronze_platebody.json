@@ -1,0 +1,70 @@
+{
+  "id": 528,
+  "cardId": "itm_bronze-platebody",
+  "name": "Bronze platebody",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    12205,
+    12215
+  ],
+  "flavourText": "Provides excellent protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_platebody.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1117
+    ],
+    "pageSlug": "Bronze_platebody",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_platebody"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 9.979,
+    "market": {
+      "guidePrice": 52,
+      "buyLimit": 125,
+      "dailyVolume": 17294
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -30,
+        "ranged": -15
+      },
+      "defence": {
+        "stab": 15,
+        "slash": 14,
+        "crush": 9,
+        "magic": -6,
+        "ranged": 14
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

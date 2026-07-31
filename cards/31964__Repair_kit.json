@@ -1,0 +1,41 @@
+{
+  "id": 6085,
+  "cardId": "itm_repair-kit",
+  "name": "Repair kit",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A simple wooden boat repair kit.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Repair_kit.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31964
+    ],
+    "pageSlug": "Repair_kit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Repair_kit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Apply",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 61,
+      "buyLimit": 13000,
+      "dailyVolume": 8374
+    }
+  }
+}

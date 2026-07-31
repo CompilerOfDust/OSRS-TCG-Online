@@ -1,0 +1,58 @@
+{
+  "id": 7580,
+  "cardId": "npc_karamel",
+  "name": "Karamel",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6310,
+    6371
+  ],
+  "flavourText": "Pure evil lightly whipped with a juicy cherry on top.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Karamel.png",
+  "debut": "2006-03-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4882
+    ],
+    "pageSlug": "Karamel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Karamel"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 136,
+    "vitality": null,
+    "peakDamage": "7x2 ( Magic ) 20 ( Ranged )",
+    "combatXpBonusPct": 5,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

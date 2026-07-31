@@ -1,0 +1,37 @@
+{
+  "id": 6545,
+  "cardId": "itm_maggot-egg",
+  "name": "Maggot egg",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It doesn't look ready.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maggot_egg_%28base%29.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33665
+    ],
+    "pageSlug": "Maggot_egg",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maggot_egg"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Pop",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

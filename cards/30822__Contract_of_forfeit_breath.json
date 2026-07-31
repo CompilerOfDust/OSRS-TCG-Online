@@ -1,0 +1,42 @@
+{
+  "id": 5607,
+  "cardId": "itm_contract-of-forfeit-breath",
+  "name": "Contract of forfeit breath",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A contract issued by Yama. Present it to him to discuss some new terms.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Contract_of_forfeit_breath.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30822
+    ],
+    "pageSlug": "Contract_of_forfeit_breath",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Contract_of_forfeit_breath"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 40041,
+      "buyLimit": 50,
+      "dailyVolume": 1525
+    }
+  },
+  "special": false
+}

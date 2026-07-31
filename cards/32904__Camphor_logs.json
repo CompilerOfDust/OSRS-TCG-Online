@@ -1,0 +1,41 @@
+{
+  "id": 6371,
+  "cardId": "itm_camphor-logs",
+  "name": "Camphor logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Logs cut from a camphor tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Camphor_logs.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32904
+    ],
+    "pageSlug": "Camphor_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Camphor_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 132,
+    "lowAlchemy": 88,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 348,
+      "buyLimit": null,
+      "dailyVolume": 286158
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,42 @@
+{
+  "id": 3378,
+  "cardId": "itm_dragonfruit",
+  "name": "Dragonfruit",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A large ripe dragonfruit.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragonfruit.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22929
+    ],
+    "pageSlug": "Dragonfruit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragonfruit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 57,
+    "lowAlchemy": 38,
+    "weightKg": 0.2,
+    "market": {
+      "guidePrice": 864,
+      "buyLimit": 11000,
+      "dailyVolume": 58381
+    }
+  },
+  "special": false
+}

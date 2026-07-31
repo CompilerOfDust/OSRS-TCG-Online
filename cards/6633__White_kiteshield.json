@@ -1,0 +1,67 @@
+{
+  "id": 8480,
+  "cardId": "itm_white-kiteshield",
+  "name": "White kiteshield",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A large metal shield.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_kiteshield.png",
+  "debut": "2005-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6633
+    ],
+    "pageSlug": "White_kiteshield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_kiteshield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 979,
+    "lowAlchemy": 652,
+    "weightKg": 5.443,
+    "market": {
+      "guidePrice": 1864,
+      "buyLimit": 125,
+      "dailyVolume": 7
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 17,
+        "slash": 19,
+        "crush": 18,
+        "magic": -1,
+        "ranged": 18
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

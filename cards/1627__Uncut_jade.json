@@ -1,0 +1,40 @@
+{
+  "id": 2072,
+  "cardId": "itm_uncut-jade",
+  "name": "Uncut jade",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This would be worth more cut.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncut_jade.png",
+  "debut": "2003-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1627
+    ],
+    "pageSlug": "Uncut_jade",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncut_jade"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.003,
+    "market": {
+      "guidePrice": 132,
+      "buyLimit": 10000,
+      "dailyVolume": 155424
+    }
+  }
+}

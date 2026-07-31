@@ -1,0 +1,36 @@
+{
+  "id": 2724,
+  "cardId": "itm_stinkhorn-mushroom",
+  "name": "Stinkhorn mushroom",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Whatever potion I make out of this, let's hope it tastes better than this smells.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stinkhorn_mushroom.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20910
+    ],
+    "pageSlug": "Stinkhorn_mushroom",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stinkhorn_mushroom"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

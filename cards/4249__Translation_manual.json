@@ -1,0 +1,36 @@
+{
+  "id": 7144,
+  "cardId": "itm_translation-manual",
+  "name": "Translation manual",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A translation manual.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Translation_manual.png",
+  "debut": "2005-02-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4249
+    ],
+    "pageSlug": "Translation_manual",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Translation_manual"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.51,
+    "market": null
+  }
+}

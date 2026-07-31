@@ -1,0 +1,36 @@
+{
+  "id": 9015,
+  "cardId": "itm_snake-over-cooked",
+  "name": "Snake over-cooked",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's a burnt snake.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snake_over-cooked.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7580
+    ],
+    "pageSlug": "Snake_over-cooked",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snake_over-cooked"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.004,
+    "market": null
+  }
+}

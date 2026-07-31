@@ -1,0 +1,42 @@
+{
+  "id": 3491,
+  "cardId": "itm_pestle-and-mortar",
+  "name": "Pestle and mortar",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    23865
+  ],
+  "flavourText": "I can grind things for potions in this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pestle_and_mortar.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      233
+    ],
+    "pageSlug": "Pestle_and_mortar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pestle_and_mortar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 138,
+      "buyLimit": 40,
+      "dailyVolume": 2106
+    }
+  }
+}

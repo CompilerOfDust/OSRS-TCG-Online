@@ -1,0 +1,36 @@
+{
+  "id": 7305,
+  "cardId": "itm_white-pearl-seed",
+  "name": "White pearl seed",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "You can grow this seed even in cold mountain ranges!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_pearl_seed.png",
+  "debut": "2005-03-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4486
+    ],
+    "pageSlug": "White_pearl_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_pearl_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.025,
+    "market": null
+  }
+}

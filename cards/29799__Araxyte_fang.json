@@ -1,0 +1,37 @@
+{
+  "id": 5313,
+  "cardId": "itm_araxyte-fang",
+  "name": "Araxyte fang",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A still dripping venomous fang from a powerful araxyte.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Araxyte_fang.png",
+  "debut": "2024-08-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29799
+    ],
+    "pageSlug": "Araxyte_fang",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Araxyte_fang"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Etch",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120000,
+    "lowAlchemy": 80000,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

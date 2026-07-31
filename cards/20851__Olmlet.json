@@ -1,0 +1,37 @@
+{
+  "id": 2680,
+  "cardId": "itm_olmlet",
+  "name": "Olmlet",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "The cuddly Spawn of the Guardian in the Deep.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Olmlet.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20851
+    ],
+    "pageSlug": "Olmlet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Olmlet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

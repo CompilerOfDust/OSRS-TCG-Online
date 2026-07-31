@@ -1,0 +1,36 @@
+{
+  "id": 2501,
+  "cardId": "itm_uncooked-stew",
+  "name": "Uncooked stew",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to cook this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncooked_stew.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2001
+    ],
+    "pageSlug": "Uncooked_stew",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncooked_stew"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 1.5,
+    "market": null
+  }
+}

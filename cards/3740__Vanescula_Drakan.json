@@ -1,0 +1,59 @@
+{
+  "id": 6801,
+  "cardId": "npc_vanescula-drakan",
+  "name": "Vanescula Drakan",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "She seems almost human.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-09-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3740,
+      3742,
+      8249,
+      9576,
+      9577,
+      15911
+    ],
+    "pageSlug": "Vanescula_Drakan",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vanescula_Drakan"
+  },
+  "npcProfile": {
+    "race": "Vampyre",
+    "gender": "Female",
+    "locations": [
+      "Meiyerditch"
+    ],
+    "questLine": "• Darkness of Hallowvale • A Taste of Hope",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 464,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

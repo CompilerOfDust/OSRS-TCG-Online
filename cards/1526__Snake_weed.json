@@ -1,0 +1,36 @@
+{
+  "id": 1950,
+  "cardId": "itm_snake-weed",
+  "name": "Snake weed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This herb is Snake Weed.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snake_weed.png",
+  "debut": "2002-10-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1526
+    ],
+    "pageSlug": "Snake_weed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snake_weed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.007,
+    "market": null
+  }
+}

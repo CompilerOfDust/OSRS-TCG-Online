@@ -1,0 +1,37 @@
+{
+  "id": 8935,
+  "cardId": "itm_cornflour-mixture",
+  "name": "Cornflour mixture",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A mixture of milk, cream and cornflour.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cornflour_mixture.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7470
+    ],
+    "pageSlug": "Cornflour_mixture",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cornflour_mixture"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.36,
+    "market": null
+  }
+}

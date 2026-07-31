@@ -1,0 +1,67 @@
+{
+  "id": 1767,
+  "cardId": "itm_black-mace",
+  "name": "Black mace",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A spiky mace.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_mace.png",
+  "debut": "2002-02-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1426
+    ],
+    "pageSlug": "Black_mace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_mace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 259,
+    "lowAlchemy": 172,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 733,
+      "buyLimit": 125,
+      "dailyVolume": 379
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 8,
+        "slash": -2,
+        "crush": 16,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 13,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  }
+}

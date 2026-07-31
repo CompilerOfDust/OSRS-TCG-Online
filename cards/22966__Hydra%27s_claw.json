@@ -1,0 +1,40 @@
+{
+  "id": 3391,
+  "cardId": "itm_hydras-claw",
+  "name": "Hydra's claw",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "The claw of a ferocious hydra.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hydra%27s_claw.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22966
+    ],
+    "pageSlug": "Hydra%27s_claw",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hydra%27s_claw"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90000,
+    "lowAlchemy": 60000,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 53179152,
+      "buyLimit": 15,
+      "dailyVolume": 29
+    }
+  }
+}

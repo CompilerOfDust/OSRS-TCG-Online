@@ -1,0 +1,38 @@
+{
+  "id": 8968,
+  "cardId": "itm_kelp",
+  "name": "Kelp",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    7517
+  ],
+  "flavourText": "Slightly damp seaweed.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kelp.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7516
+    ],
+    "pageSlug": "Kelp",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kelp"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

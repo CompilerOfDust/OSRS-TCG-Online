@@ -1,0 +1,40 @@
+{
+  "id": 838,
+  "cardId": "itm_unfinished-broad-bolts",
+  "name": "Unfinished broad bolts",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Add feathers to make broad-tipped crossbow bolts.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unfinished_broad_bolts_1.png",
+  "debut": "2014-01-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11876
+    ],
+    "pageSlug": "Unfinished_broad_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unfinished_broad_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 33,
+    "lowAlchemy": 22,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 57,
+      "buyLimit": 7000,
+      "dailyVolume": 60643
+    }
+  }
+}

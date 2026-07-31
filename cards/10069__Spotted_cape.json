@@ -1,0 +1,67 @@
+{
+  "id": 18,
+  "cardId": "itm_spotted-cape",
+  "name": "Spotted cape",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A surprisingly aerodynamic cape.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spotted_cape.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10069
+    ],
+    "pageSlug": "Spotted_cape",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spotted_cape"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 1393,
+      "buyLimit": 125,
+      "dailyVolume": 143
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 2
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

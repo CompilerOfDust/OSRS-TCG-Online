@@ -1,0 +1,39 @@
+{
+  "id": 6403,
+  "cardId": "itm_bottomless-milk-bucket-empty",
+  "name": "Bottomless milk bucket (empty)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It's a bucket that can hold a lot of milk at once.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottomless_milk_bucket_%28empty%29.png",
+  "debut": "2026-02-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33091
+    ],
+    "pageSlug": "Bottomless_milk_bucket",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottomless_milk_bucket"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Fill",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9000,
+    "lowAlchemy": 6000,
+    "weightKg": 1,
+    "market": null
+  },
+  "special": false
+}

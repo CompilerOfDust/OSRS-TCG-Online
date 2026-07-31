@@ -1,0 +1,67 @@
+{
+  "id": 6498,
+  "cardId": "itm_seeking-iron-arrow",
+  "name": "Seeking iron arrow",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Bloodwood-treated arrows with iron heads.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Seeking_iron_arrow_1.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33559
+    ],
+    "pageSlug": "Seeking_iron_arrow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Seeking_iron_arrow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 20,
+      "buyLimit": null,
+      "dailyVolume": 10
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 20
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 10,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

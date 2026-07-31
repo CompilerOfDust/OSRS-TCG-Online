@@ -1,0 +1,38 @@
+{
+  "id": 7063,
+  "cardId": "itm_stick__2",
+  "name": "Stick",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    9702
+  ],
+  "flavourText": "For playing fetch with.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stick_%28item%29.png",
+  "debut": "2005-01-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4179
+    ],
+    "pageSlug": "Stick_(item)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stick_(item)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

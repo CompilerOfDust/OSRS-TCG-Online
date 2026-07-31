@@ -1,0 +1,37 @@
+{
+  "id": 2873,
+  "cardId": "itm_jal-nib-rek",
+  "name": "Jal-nib-rek",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "It loves to nibble.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jal-nib-rek.png",
+  "debut": "2017-06-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21291
+    ],
+    "pageSlug": "Jal-nib-rek",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jal-nib-rek"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

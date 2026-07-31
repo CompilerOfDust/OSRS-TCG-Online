@@ -1,0 +1,41 @@
+{
+  "id": 6740,
+  "cardId": "itm_bass",
+  "name": "Bass",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Wow, this is a big fish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bass.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      365
+    ],
+    "pageSlug": "Bass",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bass"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.35,
+    "market": {
+      "guidePrice": 48,
+      "buyLimit": 6000,
+      "dailyVolume": 221422
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 4514,
+  "cardId": "itm_ring-of-the-elements",
+  "name": "Ring of the elements",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A mystical ring.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ring_of_the_elements_%28uncharged%29.png",
+  "debut": "2022-03-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26815
+    ],
+    "pageSlug": "Ring_of_the_elements",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ring_of_the_elements"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Rub",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 625210,
+      "buyLimit": null,
+      "dailyVolume": 190
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

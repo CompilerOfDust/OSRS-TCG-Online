@@ -1,0 +1,36 @@
+{
+  "id": 8959,
+  "cardId": "itm_slop-of-compromise",
+  "name": "Slop of compromise",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Two out of two goblin generals prefer it!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Slop_of_compromise.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7511
+    ],
+    "pageSlug": "Slop_of_compromise",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Slop_of_compromise"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

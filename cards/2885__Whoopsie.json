@@ -1,0 +1,37 @@
+{
+  "id": 5016,
+  "cardId": "itm_whoopsie",
+  "name": "Whoopsie",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Just chuck this away, it's useless!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pink_skirt.png",
+  "debut": "2006-02-07",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2885
+    ],
+    "pageSlug": "Whoopsie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Whoopsie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 9.071,
+    "market": null
+  }
+}

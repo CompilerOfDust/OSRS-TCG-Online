@@ -1,0 +1,36 @@
+{
+  "id": 7094,
+  "cardId": "itm_conductor",
+  "name": "Conductor",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A silver lightning conductor.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Conductor.png",
+  "debut": "2005-01-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4201
+    ],
+    "pageSlug": "Conductor",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Conductor"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 3.628,
+    "market": null
+  }
+}

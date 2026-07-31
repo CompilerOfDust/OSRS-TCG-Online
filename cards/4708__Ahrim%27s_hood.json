@@ -1,0 +1,68 @@
+{
+  "id": 7473,
+  "cardId": "itm_ahrims-hood",
+  "name": "Ahrim's hood",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Ahrim the Blighted's leather hood.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ahrim%27s_hood.png",
+  "debut": "2005-05-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4708
+    ],
+    "pageSlug": "Ahrim%27s_hood",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ahrim%27s_hood"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 7800,
+    "lowAlchemy": 5200,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 443651,
+      "buyLimit": 15,
+      "dailyVolume": 536
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 6,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 15,
+        "slash": 13,
+        "crush": 16,
+        "magic": 6,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

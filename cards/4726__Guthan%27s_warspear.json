@@ -1,0 +1,68 @@
+{
+  "id": 7488,
+  "cardId": "itm_guthans-warspear",
+  "name": "Guthan's warspear",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Guthan the Infested's warspear.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Guthan%27s_warspear.png",
+  "debut": "2005-05-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4726
+    ],
+    "pageSlug": "Guthan%27s_warspear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Guthan%27s_warspear"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 82371,
+      "buyLimit": 15,
+      "dailyVolume": 212
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 75,
+        "slash": 75,
+        "crush": 75,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 7,
+        "slash": 7,
+        "crush": 7,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 75,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6693,
+  "cardId": "npc_king-arthur",
+  "name": "King Arthur",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Legendary King of the Britons.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2002-02-27",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3531,
+      4340,
+      5871,
+      8047
+    ],
+    "pageSlug": "King_Arthur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/King_Arthur"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Camelot"
+    ],
+    "questLine": "Merlin's Crystal , Holy Grail , King's Ransom",
+    "shop": null,
+    "menuActions": [
+      "? (edit)"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

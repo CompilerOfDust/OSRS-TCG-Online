@@ -1,0 +1,67 @@
+{
+  "id": 2304,
+  "cardId": "itm_zenyte-bracelet",
+  "name": "Zenyte bracelet",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A fiery glow emanates from this bracelet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zenyte_bracelet.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19532
+    ],
+    "pageSlug": "Zenyte_bracelet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zenyte_bracelet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 120600,
+    "lowAlchemy": 80400,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 21486237,
+      "buyLimit": 8,
+      "dailyVolume": 2
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

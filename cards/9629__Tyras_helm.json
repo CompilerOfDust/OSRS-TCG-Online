@@ -1,0 +1,68 @@
+{
+  "id": 9994,
+  "cardId": "itm_tyras-helm",
+  "name": "Tyras helm",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "As used by King Tyras' personal guard.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tyras_helm.png",
+  "debut": "2006-08-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9629
+    ],
+    "pageSlug": "Tyras_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tyras_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 330,
+    "lowAlchemy": 220,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 1304,
+      "buyLimit": 150,
+      "dailyVolume": 102
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 10,
+        "crush": 7,
+        "magic": -1,
+        "ranged": 9
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

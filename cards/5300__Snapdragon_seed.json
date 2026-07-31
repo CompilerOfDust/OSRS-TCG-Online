@@ -1,0 +1,41 @@
+{
+  "id": 7781,
+  "cardId": "itm_snapdragon-seed",
+  "name": "Snapdragon seed",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A snapdragon seed - plant in a herb patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snapdragon_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5300
+    ],
+    "pageSlug": "Snapdragon_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snapdragon_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 49486,
+      "buyLimit": 200,
+      "dailyVolume": 52972
+    }
+  },
+  "special": false
+}

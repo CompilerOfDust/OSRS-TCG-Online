@@ -1,0 +1,36 @@
+{
+  "id": 8140,
+  "cardId": "itm_hay-sack",
+  "name": "Hay sack",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A sack filled with hay.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hay_sack.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6057
+    ],
+    "pageSlug": "Hay_sack",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hay_sack"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.113,
+    "market": null
+  }
+}

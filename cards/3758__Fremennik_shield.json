@@ -1,0 +1,63 @@
+{
+  "id": 6814,
+  "cardId": "itm_fremennik-shield",
+  "name": "Fremennik shield",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A shield worn by Fremennik warriors.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fremennik_shield.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3758
+    ],
+    "pageSlug": "Fremennik_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fremennik_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 2.267,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 27,
+        "slash": 31,
+        "crush": 29,
+        "magic": -1,
+        "ranged": 29
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

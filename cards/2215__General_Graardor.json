@@ -1,0 +1,67 @@
+{
+  "id": 3135,
+  "cardId": "npc_general-graardor",
+  "name": "General Graardor",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [
+    6494,
+    12444
+  ],
+  "flavourText": "A huge war chief.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/General_Graardor.png",
+  "debut": "2013-10-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2215
+    ],
+    "pageSlug": "General_Graardor",
+    "pageUrl": "https://oldschool.runescape.wiki/w/General_Graardor"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "4x4",
+    "combatRating": 624,
+    "vitality": null,
+    "peakDamage": "60 (melee) 35 (ranged)",
+    "combatXpBonusPct": 32.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Ranged"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 150,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 338,
+      "group": "Bosses",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

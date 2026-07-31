@@ -1,0 +1,56 @@
+{
+  "id": 8089,
+  "cardId": "npc_justiciar-zachariah",
+  "name": "Justiciar Zachariah",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A powerful Saradominist justiciar.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Justiciar_Zachariah.png",
+  "debut": "2018-02-08",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5977,
+      7858
+    ],
+    "pageSlug": "Justiciar_Zachariah",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Justiciar_Zachariah"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 348,
+    "vitality": null,
+    "peakDamage": "43 (melee) 26 (magic)",
+    "combatXpBonusPct": 55,
+    "hostile": false,
+    "assaultStyles": [
+      "Magic",
+      "Slash"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

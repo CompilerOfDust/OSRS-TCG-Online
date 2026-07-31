@@ -1,0 +1,43 @@
+{
+  "id": 1911,
+  "cardId": "itm_logs",
+  "name": "Logs",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    2511
+  ],
+  "flavourText": "A number of wooden logs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Logs.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1511
+    ],
+    "pageSlug": "Logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 24,
+      "buyLimit": 15000,
+      "dailyVolume": 1930328
+    }
+  },
+  "special": false
+}

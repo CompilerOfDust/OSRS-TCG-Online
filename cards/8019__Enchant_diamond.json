@@ -1,0 +1,41 @@
+{
+  "id": 9296,
+  "cardId": "itm_enchant-diamond",
+  "name": "Enchant diamond",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A tablet containing a magic spell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enchant_diamond.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8019
+    ],
+    "pageSlug": "Enchant_diamond",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enchant_diamond"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Info",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 381,
+      "buyLimit": 10000,
+      "dailyVolume": 2
+    }
+  }
+}

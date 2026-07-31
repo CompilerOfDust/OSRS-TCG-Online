@@ -1,0 +1,73 @@
+{
+  "id": 2477,
+  "cardId": "npc_skogre",
+  "name": "Skogre",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's falling apart!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Skogre_(1).png",
+  "debut": "2005-05-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      872,
+      878,
+      879
+    ],
+    "pageSlug": "Skogre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Skogre"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Undead"
+    ],
+    "tileSize": "2x2",
+    "combatRating": 44,
+    "vitality": 71,
+    "peakDamage": "5",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 50,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 71,
+      "group": "Ogres, Skeletons",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Vannaka"
+      ]
+    },
+    "combatLevels": {
+      "attack": 20,
+      "strength": 36,
+      "defence": 35,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

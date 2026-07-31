@@ -1,0 +1,42 @@
+{
+  "id": 2253,
+  "cardId": "itm_weapon-poison__2",
+  "name": "Weapon poison",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "For use on daggers and projectiles.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Weapon_poison.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      187
+    ],
+    "pageSlug": "Weapon_poison",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Weapon_poison"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 86,
+    "lowAlchemy": 57,
+    "weightKg": 0.025,
+    "market": {
+      "guidePrice": 221,
+      "buyLimit": 2000,
+      "dailyVolume": 12719
+    }
+  },
+  "special": false
+}

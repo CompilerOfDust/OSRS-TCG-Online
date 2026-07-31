@@ -1,0 +1,40 @@
+{
+  "id": 6168,
+  "cardId": "itm_raw-yellowfin",
+  "name": "Raw yellowfin",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_yellowfin.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32325
+    ],
+    "pageSlug": "Raw_yellowfin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_yellowfin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 102,
+    "lowAlchemy": 68,
+    "weightKg": 0.7,
+    "market": {
+      "guidePrice": 644,
+      "buyLimit": 15000,
+      "dailyVolume": 86058
+    }
+  }
+}

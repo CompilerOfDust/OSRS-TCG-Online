@@ -1,0 +1,37 @@
+{
+  "id": 5251,
+  "cardId": "itm_druid-pouch",
+  "name": "Druid pouch",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An empty druid pouch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Druid_pouch.png",
+  "debut": "2004-07-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2957
+    ],
+    "pageSlug": "Druid_pouch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Druid_pouch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Fill",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

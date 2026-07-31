@@ -1,0 +1,42 @@
+{
+  "id": 2621,
+  "cardId": "itm_grimy-harralander",
+  "name": "Grimy harralander",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It needs cleaning.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grimy_harralander.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      205
+    ],
+    "pageSlug": "Grimy_harralander",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grimy_harralander"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Clean",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 288,
+      "buyLimit": 13000,
+      "dailyVolume": 444529
+    }
+  },
+  "special": false
+}

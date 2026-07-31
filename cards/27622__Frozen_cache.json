@@ -1,0 +1,37 @@
+{
+  "id": 4673,
+  "cardId": "itm_frozen-cache",
+  "name": "Frozen cache",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Loot that has been frozen in time.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Frozen_cache.png",
+  "debut": "2023-01-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27622
+    ],
+    "pageSlug": "Frozen_cache",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Frozen_cache"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Open",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.489,
+    "market": null
+  }
+}

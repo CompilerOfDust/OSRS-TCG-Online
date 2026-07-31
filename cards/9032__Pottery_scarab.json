@@ -1,0 +1,40 @@
+{
+  "id": 9716,
+  "cardId": "itm_pottery-scarab",
+  "name": "Pottery scarab",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Little ornament in the shape of a scarab.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pottery_scarab.png",
+  "debut": "2006-07-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9032
+    ],
+    "pageSlug": "Pottery_scarab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pottery_scarab"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 89,
+      "buyLimit": 13000,
+      "dailyVolume": 568
+    }
+  }
+}

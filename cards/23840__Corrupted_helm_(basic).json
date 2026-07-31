@@ -1,0 +1,66 @@
+{
+  "id": 3566,
+  "cardId": "itm_corrupted-helm-basic",
+  "name": "Corrupted helm (basic)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    23841,
+    23842
+  ],
+  "flavourText": "A shiny helmet that provides a little protection from corrupted creatures.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_helm_%28basic%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23840
+    ],
+    "pageSlug": "Corrupted_helm_(basic)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_helm_(basic)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2.721,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 2,
+        "slash": 2,
+        "crush": 1,
+        "magic": 2,
+        "ranged": 2
+      },
+      "defence": {
+        "stab": 28,
+        "slash": 28,
+        "crush": 28,
+        "magic": 28,
+        "ranged": 28
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

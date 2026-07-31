@@ -1,0 +1,64 @@
+{
+  "id": 1662,
+  "cardId": "npc_mirrorback-araxyte",
+  "name": "Mirrorback Araxyte",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A colourful spider.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mirrorback_Araxyte.png",
+  "debut": "2024-08-28",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13671
+    ],
+    "pageSlug": "Mirrorback_Araxyte",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mirrorback_Araxyte"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 114,
+    "vitality": null,
+    "peakDamage": "15",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 92,
+      "reward": 58,
+      "group": "Spiders, Araxytes",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

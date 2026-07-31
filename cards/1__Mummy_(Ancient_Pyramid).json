@@ -1,0 +1,81 @@
+{
+  "id": 2459,
+  "cardId": "npc_mummy",
+  "name": "Mummy",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    717,
+    724,
+    949,
+    950,
+    951,
+    952,
+    953,
+    5506,
+    7658,
+    7659,
+    7660,
+    7661,
+    7662
+  ],
+  "flavourText": "A tightly-wrapped monster.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mummy_(level_103).png",
+  "debut": "2005-04-18",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      720,
+      721,
+      722,
+      723,
+      725,
+      726,
+      727,
+      728
+    ],
+    "pageSlug": "Mummy_(Ancient_Pyramid)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mummy_(Ancient_Pyramid)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 103,
+    "vitality": 90,
+    "peakDamage": "24",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 90,
+      "strength": 90,
+      "defence": 90,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

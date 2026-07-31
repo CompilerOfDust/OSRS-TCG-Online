@@ -1,0 +1,36 @@
+{
+  "id": 9239,
+  "cardId": "itm_beam",
+  "name": "Beam",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A wooden beam.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Beam.png",
+  "debut": "2006-05-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7973
+    ],
+    "pageSlug": "Beam",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Beam"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

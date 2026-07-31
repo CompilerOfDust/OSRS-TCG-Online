@@ -1,0 +1,74 @@
+{
+  "id": 9038,
+  "cardId": "itm_rod-of-ivandis-1",
+  "name": "Rod of ivandis (10)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    7640,
+    7641,
+    7642,
+    7643,
+    7644,
+    7645,
+    7646,
+    7647,
+    7648
+  ],
+  "flavourText": "A partially charged rod.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rod_of_ivandis.png",
+  "debut": "2006-03-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7639
+    ],
+    "pageSlug": "Rod_of_ivandis",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rod_of_ivandis"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 0.001,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": -1,
+        "crush": 7,
+        "magic": 4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 4,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 3,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

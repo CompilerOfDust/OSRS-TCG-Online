@@ -1,0 +1,62 @@
+{
+  "id": 9594,
+  "cardId": "npc_arianwyn",
+  "name": "Arianwyn",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    3432,
+    8866,
+    8867,
+    8868,
+    9014,
+    9246
+  ],
+  "flavourText": "A concerned looking elf.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arianwyn_(Song_of_the_Elves).png",
+  "debut": "2019-07-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8865,
+      9248
+    ],
+    "pageSlug": "Arianwyn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arianwyn"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 212,
+    "vitality": null,
+    "peakDamage": "38 47 (special attack)",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

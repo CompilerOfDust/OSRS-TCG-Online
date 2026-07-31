@@ -1,0 +1,40 @@
+{
+  "id": 4949,
+  "cardId": "itm_flighted-ogre-arrow",
+  "name": "Flighted ogre arrow",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A wooden arrow shaft with four flights attached.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Flighted_ogre_arrow_1.png",
+  "debut": "2004-05-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2865
+    ],
+    "pageSlug": "Flighted_ogre_arrow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Flighted_ogre_arrow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 138,
+      "buyLimit": 7000,
+      "dailyVolume": 49532
+    }
+  }
+}

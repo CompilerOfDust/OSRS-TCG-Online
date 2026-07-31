@@ -1,0 +1,36 @@
+{
+  "id": 5637,
+  "cardId": "itm_seal-fur",
+  "name": "Seal fur",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Surprisingly soft and fluffy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Seal_fur.png",
+  "debut": "2025-03-20",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30913
+    ],
+    "pageSlug": "Seal_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Seal_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 3,
+    "market": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 9758,
+  "cardId": "itm_seal-of-passage",
+  "name": "Seal of passage",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A seal of passage issued by Brundt the Chieftain of the Fremennik.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Seal_of_passage.png",
+  "debut": "2006-07-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9083
+    ],
+    "pageSlug": "Seal_of_passage",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Seal_of_passage"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Destroy"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 4.535,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 8005,
+  "cardId": "itm_rotten-potato",
+  "name": "Rotten potato",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Yuk!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rotten_potato.png",
+  "debut": "2005-07-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5733
+    ],
+    "pageSlug": "Rotten_potato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rotten_potato"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Slice",
+      "Peel",
+      "Mash",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

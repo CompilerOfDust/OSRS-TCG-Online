@@ -1,0 +1,61 @@
+{
+  "id": 1577,
+  "cardId": "npc_elite-dark-warrior",
+  "name": "Elite Dark Warrior",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An elite dark warrior with lots of combat experience.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elite_Dark_Warrior_(male).png",
+  "debut": "2024-07-10",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13465,
+      13466
+    ],
+    "pageSlug": "Elite_Dark_Warrior",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elite_Dark_Warrior"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 96,
+    "vitality": 80,
+    "peakDamage": "9",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 80,
+      "strength": 80,
+      "defence": 80,
+      "magic": 40,
+      "ranged": 25
+    },
+    "aggressiveBonuses": null
+  }
+}

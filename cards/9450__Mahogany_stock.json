@@ -1,0 +1,40 @@
+{
+  "id": 9876,
+  "cardId": "itm_mahogany-stock",
+  "name": "Mahogany stock",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A mahogany crossbow stock.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mahogany_stock.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9450
+    ],
+    "pageSlug": "Mahogany_stock",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mahogany_stock"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 79,
+    "lowAlchemy": 53,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 10000,
+      "dailyVolume": 5633
+    }
+  }
+}

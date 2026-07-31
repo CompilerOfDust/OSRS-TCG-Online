@@ -1,0 +1,41 @@
+{
+  "id": 6619,
+  "cardId": "itm_pyre-logs",
+  "name": "Pyre logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Logs prepared with sacred oil for a funeral pyre.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pyre_logs.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3438
+    ],
+    "pageSlug": "Pyre_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pyre_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 3,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 1989,
+      "buyLimit": 11000,
+      "dailyVolume": 805
+    }
+  },
+  "special": false
+}

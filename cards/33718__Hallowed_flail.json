@@ -1,0 +1,65 @@
+{
+  "id": 6564,
+  "cardId": "itm_hallowed-flail",
+  "name": "Hallowed flail",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A legendary flail that has been enhanced with blisterwood and pure silvthrill.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hallowed_flail.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33718
+    ],
+    "pageSlug": "Hallowed_flail",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hallowed_flail"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Bloom",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 32,
+        "slash": 68,
+        "crush": 0,
+        "magic": 10,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 2,
+        "crush": 0,
+        "magic": 10,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 46,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 6
+      }
+    }
+  },
+  "special": false
+}

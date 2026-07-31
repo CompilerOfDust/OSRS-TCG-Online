@@ -1,0 +1,68 @@
+{
+  "id": 8356,
+  "cardId": "itm_menaphite-red-top",
+  "name": "Menaphite red top",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Colourful.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Menaphite_red_top.png",
+  "debut": "2005-08-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6402
+    ],
+    "pageSlug": "Menaphite_red_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Menaphite_red_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 683,
+      "buyLimit": 150,
+      "dailyVolume": 10
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

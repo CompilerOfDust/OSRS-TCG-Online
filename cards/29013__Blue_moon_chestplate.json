@@ -1,0 +1,68 @@
+{
+  "id": 5066,
+  "cardId": "itm_blue-moon-chestplate",
+  "name": "Blue moon chestplate",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The chestplate of the Blue Moon.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_moon_chestplate.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29013
+    ],
+    "pageSlug": "Blue_moon_chestplate",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_moon_chestplate"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 174006,
+    "lowAlchemy": 116004,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 1476274,
+      "buyLimit": 15,
+      "dailyVolume": 482
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 30,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 51,
+        "magic": 28,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 2,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

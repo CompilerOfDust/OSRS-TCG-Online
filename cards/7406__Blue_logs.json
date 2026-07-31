@@ -1,0 +1,36 @@
+{
+  "id": 8887,
+  "cardId": "itm_blue-logs",
+  "name": "Blue logs",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A number of chemical covered wooden logs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_logs.png",
+  "debut": "2006-02-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7406
+    ],
+    "pageSlug": "Blue_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 2,
+    "market": null
+  }
+}

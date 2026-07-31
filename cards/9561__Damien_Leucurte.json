@@ -1,0 +1,70 @@
+{
+  "id": 9923,
+  "cardId": "npc_damien-leucurte",
+  "name": "Damien Leucurte",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "He has an odd look in his eyes.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Damien_Leucurte.png",
+  "debut": "2020-06-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9561,
+      9562,
+      9563,
+      9564
+    ],
+    "pageSlug": "Damien_Leucurte",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Damien_Leucurte"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 204,
+    "vitality": null,
+    "peakDamage": "20",
+    "combatXpBonusPct": -17,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 360,
+      "group": "Vampyres",
+      "masters": [
+        "Mazchna",
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

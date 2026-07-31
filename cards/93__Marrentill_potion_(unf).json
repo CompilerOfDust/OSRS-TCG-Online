@@ -1,0 +1,42 @@
+{
+  "id": 9849,
+  "cardId": "itm_marrentill-potion-unf",
+  "name": "Marrentill potion (unf)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I need another ingredient to finish this Marrentill potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Marrentill_potion_%28unf%29.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      93
+    ],
+    "pageSlug": "Marrentill_potion_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Marrentill_potion_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 332,
+      "buyLimit": 10000,
+      "dailyVolume": 15972
+    }
+  },
+  "special": false
+}

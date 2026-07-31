@@ -1,0 +1,36 @@
+{
+  "id": 7405,
+  "cardId": "itm_strange-implement",
+  "name": "Strange implement",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's pretty, but you wish you knew what it was.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Strange_implement.png",
+  "debut": "2005-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4619
+    ],
+    "pageSlug": "Strange_implement",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Strange_implement"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

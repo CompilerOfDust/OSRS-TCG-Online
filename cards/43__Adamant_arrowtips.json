@@ -1,0 +1,40 @@
+{
+  "id": 7253,
+  "cardId": "itm_adamant-arrowtips",
+  "name": "Adamant arrowtips",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I can make some arrows with these.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_arrowtips.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      43
+    ],
+    "pageSlug": "Adamant_arrowtips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_arrowtips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 111,
+      "buyLimit": 10000,
+      "dailyVolume": 1292624
+    }
+  }
+}

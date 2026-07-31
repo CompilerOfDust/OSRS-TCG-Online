@@ -1,0 +1,42 @@
+{
+  "id": 2281,
+  "cardId": "itm_jug-of-water",
+  "name": "Jug of water",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's full of water.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jug_of_water.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1937
+    ],
+    "pageSlug": "Jug_of_water",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jug_of_water"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Use",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 15,
+      "buyLimit": 13000,
+      "dailyVolume": 9061711
+    }
+  }
+}

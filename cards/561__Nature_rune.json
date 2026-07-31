@@ -1,0 +1,42 @@
+{
+  "id": 7984,
+  "cardId": "itm_nature-rune",
+  "name": "Nature rune",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    11693
+  ],
+  "flavourText": "Used for alchemy spells.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nature_rune.png",
+  "debut": "2001-05-24",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      561
+    ],
+    "pageSlug": "Nature_rune",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nature_rune"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 108,
+    "lowAlchemy": 72,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 147,
+      "buyLimit": 18000,
+      "dailyVolume": 29651934
+    }
+  }
+}

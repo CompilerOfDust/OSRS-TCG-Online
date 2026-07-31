@@ -1,0 +1,60 @@
+{
+  "id": 8389,
+  "cardId": "npc_mutant-tarn",
+  "name": "Mutant tarn",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I preferred him when he was human.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mutant_tarn.png",
+  "debut": "2007-01-22",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6477
+    ],
+    "pageSlug": "Tarn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tarn"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 69,
+    "vitality": null,
+    "peakDamage": "9",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 40,
+      "reward": null,
+      "group": null,
+      "masters": []
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 2050,
+  "cardId": "itm_diamond",
+  "name": "Diamond",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "This looks valuable.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Diamond.png",
+  "debut": "2001-01-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1601
+    ],
+    "pageSlug": "Diamond",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Diamond"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 0.002,
+    "market": {
+      "guidePrice": 1691,
+      "buyLimit": 11000,
+      "dailyVolume": 2040517
+    }
+  },
+  "special": false
+}

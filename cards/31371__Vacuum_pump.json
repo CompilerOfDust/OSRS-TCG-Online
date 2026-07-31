@@ -1,0 +1,37 @@
+{
+  "id": 5809,
+  "cardId": "itm_vacuum-pump",
+  "name": "Vacuum pump",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A very crude vacuum pump",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vacuum_pump.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31371
+    ],
+    "pageSlug": "Vacuum_pump",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vacuum_pump"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Play",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 4,
+    "market": null
+  }
+}

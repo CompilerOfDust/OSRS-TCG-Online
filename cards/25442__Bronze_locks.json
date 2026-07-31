@@ -1,0 +1,41 @@
+{
+  "id": 4031,
+  "cardId": "itm_bronze-locks",
+  "name": "Bronze locks",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Perhaps someone can do something with this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_locks.png",
+  "debut": "2021-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25442
+    ],
+    "pageSlug": "Bronze_locks",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_locks"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 480,
+    "lowAlchemy": 320,
+    "weightKg": 0.283,
+    "market": {
+      "guidePrice": 554,
+      "buyLimit": 8,
+      "dailyVolume": 3
+    }
+  },
+  "special": false
+}

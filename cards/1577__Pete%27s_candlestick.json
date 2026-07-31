@@ -1,0 +1,37 @@
+{
+  "id": 2030,
+  "cardId": "itm_petes-candlestick",
+  "name": "Pete's candlestick",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Scarface Pete's Candlestick.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pete%27s_candlestick.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1577
+    ],
+    "pageSlug": "Pete%27s_candlestick",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pete%27s_candlestick"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

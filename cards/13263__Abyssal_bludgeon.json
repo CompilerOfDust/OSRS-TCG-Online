@@ -1,0 +1,67 @@
+{
+  "id": 1480,
+  "cardId": "itm_abyssal-bludgeon",
+  "name": "Abyssal bludgeon",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Elements of deceased Abyssal Sires have been fused together.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Abyssal_bludgeon.png",
+  "debut": "2015-10-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13263
+    ],
+    "pageSlug": "Abyssal_bludgeon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Abyssal_bludgeon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 156000,
+    "lowAlchemy": 104000,
+    "weightKg": 6,
+    "market": {
+      "guidePrice": 16554281,
+      "buyLimit": 8,
+      "dailyVolume": 951
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 102,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 85,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

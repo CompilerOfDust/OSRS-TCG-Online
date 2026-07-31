@@ -1,0 +1,37 @@
+{
+  "id": 4646,
+  "cardId": "itm_fresh-start-helper",
+  "name": "Fresh start helper",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Helps with stuff [ sic ]",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fresh_start_helper.png",
+  "debut": "2022-10-19",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27462
+    ],
+    "pageSlug": "Fresh_start_helper",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fresh_start_helper"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Help",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

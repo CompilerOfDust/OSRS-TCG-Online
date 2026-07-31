@@ -1,0 +1,41 @@
+{
+  "id": 5098,
+  "cardId": "itm_raw-moonlight-antelope",
+  "name": "Raw moonlight antelope",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should probably cook this first.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_moonlight_antelope.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29113
+    ],
+    "pageSlug": "Raw_moonlight_antelope",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_moonlight_antelope"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.34,
+    "market": {
+      "guidePrice": 2704,
+      "buyLimit": 13000,
+      "dailyVolume": 153241
+    }
+  },
+  "special": false
+}

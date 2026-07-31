@@ -1,0 +1,41 @@
+{
+  "id": 8276,
+  "cardId": "itm_spider-carcass",
+  "name": "Spider carcass",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Its creeping days are over!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spider_carcass.png",
+  "debut": "2005-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6291
+    ],
+    "pageSlug": "Spider_carcass",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spider_carcass"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 236,
+      "buyLimit": 13000,
+      "dailyVolume": 2251
+    }
+  },
+  "special": false
+}

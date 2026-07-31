@@ -1,0 +1,36 @@
+{
+  "id": 6780,
+  "cardId": "itm_legendary-cocktail",
+  "name": "Legendary cocktail",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Probably the greatest cocktail in the world.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Legendary_cocktail.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3707
+    ],
+    "pageSlug": "Legendary_cocktail",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Legendary_cocktail"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.45,
+    "market": null
+  }
+}

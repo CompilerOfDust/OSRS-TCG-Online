@@ -1,0 +1,65 @@
+{
+  "id": 9574,
+  "cardId": "itm_void-knight-gloves",
+  "name": "Void knight gloves",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    26467
+  ],
+  "flavourText": "Gloves as used by the order of the Void Knights.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Void_knight_gloves.png",
+  "debut": "2006-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8842
+    ],
+    "pageSlug": "Void_knight_gloves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Void_knight_gloves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 3631,
+    "lowAlchemy": 2420,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 6,
+        "slash": 6,
+        "crush": 6,
+        "magic": 4,
+        "ranged": 6
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

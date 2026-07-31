@@ -1,0 +1,37 @@
+{
+  "id": 7297,
+  "cardId": "itm_herb-tea-mix",
+  "name": "Herb tea mix",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An unfinished herb tea made up of water and harralander.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Herb_tea_mix_%28harralander%29.png",
+  "debut": "2005-02-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4464
+    ],
+    "pageSlug": "Herb_tea_mix",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Herb_tea_mix"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.05,
+    "market": null
+  }
+}

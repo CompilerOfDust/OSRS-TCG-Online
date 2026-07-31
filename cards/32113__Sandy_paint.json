@@ -1,0 +1,36 @@
+{
+  "id": 6148,
+  "cardId": "itm_sandy-paint",
+  "name": "Sandy paint",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A sandy beige paint. This might look good on a boat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sandy_paint.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32113
+    ],
+    "pageSlug": "Sandy_paint",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sandy_paint"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": null
+  }
+}

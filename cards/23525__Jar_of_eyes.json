@@ -1,0 +1,41 @@
+{
+  "id": 3513,
+  "cardId": "itm_jar-of-eyes",
+  "name": "Jar of eyes",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Stop staring!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jar_of_eyes.png",
+  "debut": "2019-07-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23525
+    ],
+    "pageSlug": "Jar_of_eyes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jar_of_eyes"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 56297,
+      "buyLimit": 4,
+      "dailyVolume": 18
+    }
+  },
+  "special": false
+}

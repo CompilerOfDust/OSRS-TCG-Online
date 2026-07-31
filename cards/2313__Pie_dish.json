@@ -1,0 +1,41 @@
+{
+  "id": 3428,
+  "cardId": "itm_pie-dish",
+  "name": "Pie dish",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Deceptively pie shaped.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pie_dish.png",
+  "debut": "2001-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2313
+    ],
+    "pageSlug": "Pie_dish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pie_dish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 16,
+      "buyLimit": 500,
+      "dailyVolume": 245166
+    }
+  },
+  "special": false
+}

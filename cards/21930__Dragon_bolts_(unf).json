@@ -1,0 +1,41 @@
+{
+  "id": 3070,
+  "cardId": "itm_dragon-bolts-unf",
+  "name": "Dragon bolts (unf)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Unfeathered dragon crossbow bolts.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_bolts_%28unf%29_1.png",
+  "debut": "2018-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21930
+    ],
+    "pageSlug": "Dragon_bolts_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_bolts_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 84,
+    "lowAlchemy": 56,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2710,
+      "buyLimit": 13000,
+      "dailyVolume": 1658770
+    }
+  },
+  "special": false
+}

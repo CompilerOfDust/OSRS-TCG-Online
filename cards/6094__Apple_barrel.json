@@ -1,0 +1,36 @@
+{
+  "id": 8174,
+  "cardId": "itm_apple-barrel",
+  "name": "Apple barrel",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A barrel full of mushed apples.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Apple_barrel.png",
+  "debut": "2005-07-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6094
+    ],
+    "pageSlug": "Apple_barrel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Apple_barrel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 15,
+    "market": null
+  }
+}

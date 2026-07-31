@@ -1,0 +1,41 @@
+{
+  "id": 4153,
+  "cardId": "itm_malicious-ashes",
+  "name": "Malicious ashes",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A heap of ashes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Malicious_ashes.png",
+  "debut": "2021-06-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25772
+    ],
+    "pageSlug": "Malicious_ashes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Malicious_ashes"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Scatter",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 1018,
+      "buyLimit": null,
+      "dailyVolume": 32424
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 5605,
+  "cardId": "itm_contract-of-bloodied-blows",
+  "name": "Contract of bloodied blows",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A contract issued by Yama. Present it to him to discuss some new terms.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Contract_of_bloodied_blows.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30816
+    ],
+    "pageSlug": "Contract_of_bloodied_blows",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Contract_of_bloodied_blows"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 42154,
+      "buyLimit": 50,
+      "dailyVolume": 1992
+    }
+  },
+  "special": false
+}

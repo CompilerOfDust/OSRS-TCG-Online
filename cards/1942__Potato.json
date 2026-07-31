@@ -1,0 +1,41 @@
+{
+  "id": 2286,
+  "cardId": "itm_potato",
+  "name": "Potato",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This could be used to make a good stew.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Potato.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1942
+    ],
+    "pageSlug": "Potato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Potato"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 29,
+      "buyLimit": 13000,
+      "dailyVolume": 517834
+    }
+  }
+}

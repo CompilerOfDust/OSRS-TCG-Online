@@ -1,0 +1,37 @@
+{
+  "id": 3629,
+  "cardId": "itm_cave-nightshade",
+  "name": "Cave nightshade",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Deadly.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cave_nightshade.png",
+  "debut": "2003-05-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2398
+    ],
+    "pageSlug": "Cave_nightshade",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cave_nightshade"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.015,
+    "market": null
+  }
+}

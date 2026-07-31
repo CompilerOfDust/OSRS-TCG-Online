@@ -1,0 +1,36 @@
+{
+  "id": 2951,
+  "cardId": "itm_unidentified-rare-fossil",
+  "name": "Unidentified rare fossil",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An unusual paleontological find ready for cleaning.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unidentified_rare_fossil.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21568
+    ],
+    "pageSlug": "Unidentified_rare_fossil",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unidentified_rare_fossil"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.283,
+    "market": null
+  }
+}

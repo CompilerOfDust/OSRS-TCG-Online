@@ -1,0 +1,36 @@
+{
+  "id": 1894,
+  "cardId": "itm_ibans-ashes",
+  "name": "Iban's ashes",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The burnt remains of Iban.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iban%27s_ashes.png",
+  "debut": "2003-03-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1502
+    ],
+    "pageSlug": "Iban%27s_ashes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iban%27s_ashes"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

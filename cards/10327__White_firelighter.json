@@ -1,0 +1,40 @@
+{
+  "id": 102,
+  "cardId": "itm_white-firelighter",
+  "name": "White firelighter",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Makes firelighting a lot easier.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_firelighter.png",
+  "debut": "2006-12-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10327
+    ],
+    "pageSlug": "White_firelighter",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_firelighter"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 79,
+      "buyLimit": 250,
+      "dailyVolume": 7980
+    }
+  }
+}

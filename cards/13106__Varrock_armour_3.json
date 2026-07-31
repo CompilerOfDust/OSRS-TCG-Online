@@ -1,0 +1,64 @@
+{
+  "id": 1379,
+  "cardId": "itm_varrock-armour-3",
+  "name": "Varrock armour 3",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Varrock smithing armour.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Varrock_armour_3.png",
+  "debut": "2015-03-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13106
+    ],
+    "pageSlug": "Varrock_armour_3",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Varrock_armour_3"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -30,
+        "ranged": -10
+      },
+      "defence": {
+        "stab": 46,
+        "slash": 44,
+        "crush": 38,
+        "magic": -6,
+        "ranged": 44
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

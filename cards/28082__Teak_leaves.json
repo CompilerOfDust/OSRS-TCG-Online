@@ -1,0 +1,36 @@
+{
+  "id": 4775,
+  "cardId": "itm_teak-leaves",
+  "name": "Teak leaves",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pile of Teak tree leaves.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Teak_leaves.png",
+  "debut": "2023-06-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28082
+    ],
+    "pageSlug": "Teak_leaves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Teak_leaves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 2545,
+  "cardId": "itm_robe-bottom-of-darkness",
+  "name": "Robe bottom of darkness",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A dark power is woven into this robe bottom.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Robe_bottom_of_darkness.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20137
+    ],
+    "pageSlug": "Robe_bottom_of_darkness",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Robe_bottom_of_darkness"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 48000,
+    "lowAlchemy": 32000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 47247,
+      "buyLimit": 70,
+      "dailyVolume": 146
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 15,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

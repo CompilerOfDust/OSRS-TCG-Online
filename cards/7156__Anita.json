@@ -1,0 +1,57 @@
+{
+  "id": 8767,
+  "cardId": "npc_anita",
+  "name": "Anita",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Glough's girlfriend.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2002-12-12",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7156,
+      7157
+    ],
+    "pageSlug": "Anita",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Anita"
+  },
+  "npcProfile": {
+    "race": "Gnome",
+    "gender": "Female",
+    "locations": [
+      "Tree Gnome Stronghold"
+    ],
+    "questLine": "The Grand Tree",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

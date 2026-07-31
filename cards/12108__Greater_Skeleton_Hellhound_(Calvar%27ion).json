@@ -1,0 +1,70 @@
+{
+  "id": 938,
+  "cardId": "npc_greater-skeleton-hellhound",
+  "name": "Greater Skeleton Hellhound",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6614
+  ],
+  "flavourText": "Can never possibly go hungry.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Greater_Skeleton_Hellhound_(Calvar%27ion).png",
+  "debut": "2023-01-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12108
+    ],
+    "pageSlug": "Greater_Skeleton_Hellhound_(Calvar%27ion)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Greater_Skeleton_Hellhound_(Calvar%27ion)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 139,
+    "vitality": null,
+    "peakDamage": "18",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 30,
+      "group": "Hellhounds, Skeletons",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Krystilia",
+        "Mazchna",
+        "Vannaka",
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

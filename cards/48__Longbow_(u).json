@@ -1,0 +1,41 @@
+{
+  "id": 7587,
+  "cardId": "itm_longbow-u",
+  "name": "Longbow (u)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to find a string for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Longbow_%28u%29.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      48
+    ],
+    "pageSlug": "Longbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Longbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 1.332,
+    "market": {
+      "guidePrice": 3,
+      "buyLimit": 10000,
+      "dailyVolume": 47677
+    }
+  },
+  "special": false
+}

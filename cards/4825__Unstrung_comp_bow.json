@@ -1,0 +1,41 @@
+{
+  "id": 7562,
+  "cardId": "itm_unstrung-comp-bow",
+  "name": "Unstrung comp bow",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An unstrung composite ogre bow.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unstrung_comp_bow.png",
+  "debut": "2005-05-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4825
+    ],
+    "pageSlug": "Unstrung_comp_bow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unstrung_comp_bow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 5,
+    "market": {
+      "guidePrice": 761,
+      "buyLimit": 10000,
+      "dailyVolume": 1
+    }
+  },
+  "special": false
+}

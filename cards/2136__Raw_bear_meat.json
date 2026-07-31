@@ -1,0 +1,40 @@
+{
+  "id": 2896,
+  "cardId": "itm_raw-bear-meat",
+  "name": "Raw bear meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to cook this first.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_bear_meat.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2136
+    ],
+    "pageSlug": "Raw_bear_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_bear_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.425,
+    "market": {
+      "guidePrice": 130,
+      "buyLimit": 13000,
+      "dailyVolume": 62871
+    }
+  }
+}

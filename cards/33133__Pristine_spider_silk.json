@@ -1,0 +1,37 @@
+{
+  "id": 6414,
+  "cardId": "itm_pristine-spider-silk",
+  "name": "Pristine spider silk",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a sheet of fine silk.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pristine_spider_silk.png",
+  "debut": "2026-02-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33133
+    ],
+    "pageSlug": "Pristine_spider_silk",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pristine_spider_silk"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 1,
+    "market": null
+  },
+  "special": false
+}

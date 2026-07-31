@@ -1,0 +1,41 @@
+{
+  "id": 1039,
+  "cardId": "itm_nardah-teleport",
+  "name": "Nardah teleport",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Teleports you to Nardah.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nardah_teleport.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12402
+    ],
+    "pageSlug": "Nardah_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nardah_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Teleport",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 14698,
+      "buyLimit": 10000,
+      "dailyVolume": 12217
+    }
+  }
+}

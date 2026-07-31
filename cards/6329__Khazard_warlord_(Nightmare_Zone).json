@@ -1,0 +1,61 @@
+{
+  "id": 8320,
+  "cardId": "npc_khazard-warlord__1",
+  "name": "Khazard warlord",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "He looks real nasty, smells bad too.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Khazard_warlord.png",
+  "debut": "2013-09-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6329,
+      6390
+    ],
+    "pageSlug": "Khazard_warlord_(Nightmare_Zone)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Khazard_warlord_(Nightmare_Zone)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 112,
+    "vitality": 170,
+    "peakDamage": "10",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 75,
+      "strength": 78,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

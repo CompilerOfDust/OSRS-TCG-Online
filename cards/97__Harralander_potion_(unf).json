@@ -1,0 +1,41 @@
+{
+  "id": 10096,
+  "cardId": "itm_harralander-potion-unf",
+  "name": "Harralander potion (unf)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I need another ingredient to finish this Harralander potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Harralander_potion_%28unf%29.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      97
+    ],
+    "pageSlug": "Harralander_potion_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Harralander_potion_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 620,
+      "buyLimit": 10000,
+      "dailyVolume": 318014
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 7936,
+  "cardId": "itm_rogue-trousers",
+  "name": "Rogue trousers",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Black banded leather armour, a rogue's dream!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rogue_trousers.png",
+  "debut": "2005-06-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5555
+    ],
+    "pageSlug": "Rogue_trousers",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rogue_trousers"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 7,
+        "slash": 7,
+        "crush": 7,
+        "magic": 7,
+        "ranged": 7
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

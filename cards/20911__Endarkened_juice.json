@@ -1,0 +1,36 @@
+{
+  "id": 2725,
+  "cardId": "itm_endarkened-juice",
+  "name": "Endarkened juice",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A dark magic has imbued this juice.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Endarkened_juice.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20911
+    ],
+    "pageSlug": "Endarkened_juice",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Endarkened_juice"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

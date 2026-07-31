@@ -1,0 +1,39 @@
+{
+  "id": 7369,
+  "cardId": "itm_schematic",
+  "name": "Schematic",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    4578
+  ],
+  "flavourText": "A transparent overlay - details of something?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Schematic_%28Dondakan%29.png",
+  "debut": "2005-03-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4575
+    ],
+    "pageSlug": "Schematic_(Dondakan)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Schematic_(Dondakan)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Assemble",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.004,
+    "market": null
+  }
+}

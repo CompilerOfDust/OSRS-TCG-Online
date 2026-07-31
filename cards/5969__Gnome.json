@@ -1,0 +1,73 @@
+{
+  "id": 8083,
+  "cardId": "npc_gnome",
+  "name": "Gnome",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    4233,
+    4234,
+    5130,
+    5132,
+    5309,
+    5968,
+    5970,
+    8848
+  ],
+  "flavourText": "Like a mini man!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gnome_(2).png",
+  "debut": "2002-07-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5969,
+      6094,
+      6095,
+      6096
+    ],
+    "pageSlug": "Gnome",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gnome"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 1,
+    "vitality": 3,
+    "peakDamage": "1",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush",
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 60,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

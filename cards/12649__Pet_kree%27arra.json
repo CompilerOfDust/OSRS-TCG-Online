@@ -1,0 +1,37 @@
+{
+  "id": 1201,
+  "cardId": "itm_pet-kreearra",
+  "name": "Pet kree'arra",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Is it a bird, is it... no it's a bird.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pet_kree%27arra.png",
+  "debut": "2014-07-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12649
+    ],
+    "pageSlug": "Pet_kree%27arra",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pet_kree%27arra"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

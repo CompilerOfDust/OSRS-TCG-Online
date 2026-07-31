@@ -1,0 +1,40 @@
+{
+  "id": 2048,
+  "cardId": "itm_holy-mould",
+  "name": "Holy mould",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Used to make holy symbols of Saradomin.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Holy_mould.png",
+  "debut": "2001-07-12",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1599
+    ],
+    "pageSlug": "Holy_mould",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Holy_mould"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 14,
+      "buyLimit": 40,
+      "dailyVolume": 129
+    }
+  }
+}

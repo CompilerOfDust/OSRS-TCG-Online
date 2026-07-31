@@ -1,0 +1,68 @@
+{
+  "id": 1302,
+  "cardId": "itm_amulet-of-the-damned-full",
+  "name": "Amulet of the damned (full)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Heirloom of an ancient family of Morytania.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amulet_of_the_damned_%28full%29.png",
+  "debut": "2014-11-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12851
+    ],
+    "pageSlug": "Amulet_of_the_damned",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amulet_of_the_damned"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 34800,
+    "lowAlchemy": 23200,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 33049,
+      "buyLimit": 8,
+      "dailyVolume": 1306
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 10,
+        "slash": 10,
+        "crush": 10,
+        "magic": 10,
+        "ranged": 10
+      },
+      "defence": {
+        "stab": 3,
+        "slash": 3,
+        "crush": 3,
+        "magic": 3,
+        "ranged": 3
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 6,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  },
+  "special": false
+}

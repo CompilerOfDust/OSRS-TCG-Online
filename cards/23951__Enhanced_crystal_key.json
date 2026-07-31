@@ -1,0 +1,36 @@
+{
+  "id": 3616,
+  "cardId": "itm_enhanced-crystal-key",
+  "name": "Enhanced crystal key",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A mysterious key with some added crystal to embellish it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enhanced_crystal_key.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23951
+    ],
+    "pageSlug": "Enhanced_crystal_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enhanced_crystal_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

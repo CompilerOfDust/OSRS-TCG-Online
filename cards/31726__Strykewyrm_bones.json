@@ -1,0 +1,44 @@
+{
+  "id": 5935,
+  "cardId": "itm_strykewyrm-bones",
+  "name": "Strykewyrm bones",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    31333
+  ],
+  "flavourText": "The bones of a deadly strykewyrm.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Strykewyrm_bones.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31726
+    ],
+    "pageSlug": "Strykewyrm_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Strykewyrm_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 1.6,
+    "market": {
+      "guidePrice": 2389,
+      "buyLimit": null,
+      "dailyVolume": 2917
+    }
+  },
+  "special": false
+}

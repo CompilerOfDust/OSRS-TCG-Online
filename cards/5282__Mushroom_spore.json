@@ -1,0 +1,40 @@
+{
+  "id": 7760,
+  "cardId": "itm_mushroom-spore",
+  "name": "Mushroom spore",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A Bittercap mushroom spore - plant in a mushroom patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mushroom_spore_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5282
+    ],
+    "pageSlug": "Mushroom_spore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mushroom_spore"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 51,
+    "lowAlchemy": 34,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 110,
+      "buyLimit": 200,
+      "dailyVolume": 5940
+    }
+  }
+}

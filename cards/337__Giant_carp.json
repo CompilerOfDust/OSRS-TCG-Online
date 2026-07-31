@@ -1,0 +1,37 @@
+{
+  "id": 6577,
+  "cardId": "itm_giant-carp",
+  "name": "Giant carp",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Some nicely cooked giant carp.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_carp.png",
+  "debut": "2002-05-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      337
+    ],
+    "pageSlug": "Giant_carp",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giant_carp"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 3571,
+  "cardId": "itm_corrupted-bow-basic",
+  "name": "Corrupted bow (basic)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    23856,
+    23857
+  ],
+  "flavourText": "A basic bow formed from corrupted crystal and wood.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_bow_%28basic%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23855
+    ],
+    "pageSlug": "Corrupted_bow_(basic)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_bow_(basic)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.814,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 72
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 42,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  },
+  "special": false
+}

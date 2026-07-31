@@ -1,0 +1,41 @@
+{
+  "id": 3020,
+  "cardId": "itm_rock-thrownhammer",
+  "name": "Rock thrownhammer",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Smash gargoyles from a distance.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rock_thrownhammer.png",
+  "debut": "2017-11-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21754
+    ],
+    "pageSlug": "Rock_thrownhammer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rock_thrownhammer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 272,
+      "buyLimit": 11000,
+      "dailyVolume": 28320
+    }
+  },
+  "special": false
+}

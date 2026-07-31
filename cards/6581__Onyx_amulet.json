@@ -1,0 +1,68 @@
+{
+  "id": 8437,
+  "cardId": "itm_onyx-amulet",
+  "name": "Onyx amulet",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "I wonder if I can get this enchanted.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Onyx_amulet.png",
+  "debut": "2005-10-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6581
+    ],
+    "pageSlug": "Onyx_amulet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Onyx_amulet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 120600,
+    "lowAlchemy": 80400,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 2562589,
+      "buyLimit": 10000,
+      "dailyVolume": 1
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

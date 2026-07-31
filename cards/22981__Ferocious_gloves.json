@@ -1,0 +1,63 @@
+{
+  "id": 3398,
+  "cardId": "itm_ferocious-gloves",
+  "name": "Ferocious gloves",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A pair of very very nice gloves.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ferocious_gloves.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22981
+    ],
+    "pageSlug": "Ferocious_gloves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ferocious_gloves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 0.226,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 16,
+        "slash": 16,
+        "crush": 16,
+        "magic": -16,
+        "ranged": -16
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 14,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

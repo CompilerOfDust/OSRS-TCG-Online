@@ -1,0 +1,37 @@
+{
+  "id": 8575,
+  "cardId": "itm_panning-tray",
+  "name": "Panning tray",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An empty tray for panning.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Panning_tray.png",
+  "debut": "2003-07-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      677
+    ],
+    "pageSlug": "Panning_tray",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Panning_tray"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Search",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.085,
+    "market": null
+  }
+}

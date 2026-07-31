@@ -1,0 +1,40 @@
+{
+  "id": 9381,
+  "cardId": "itm_bagged-maple-tree",
+  "name": "Bagged maple tree",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You can plant this in your garden.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bagged_maple_tree.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8425
+    ],
+    "pageSlug": "Bagged_maple_tree",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bagged_maple_tree"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9000,
+    "lowAlchemy": 6000,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 18407,
+      "buyLimit": 10000,
+      "dailyVolume": 3232
+    }
+  }
+}

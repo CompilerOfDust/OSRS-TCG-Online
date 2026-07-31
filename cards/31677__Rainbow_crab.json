@@ -1,0 +1,40 @@
+{
+  "id": 5917,
+  "cardId": "itm_rainbow-crab",
+  "name": "Rainbow crab",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You'll need something to break through that shell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rainbow_crab_%281%29.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31677
+    ],
+    "pageSlug": "Rainbow_crab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rainbow_crab"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.6,
+    "market": {
+      "guidePrice": 798,
+      "buyLimit": null,
+      "dailyVolume": 103
+    }
+  }
+}

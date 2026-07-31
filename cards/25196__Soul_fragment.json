@@ -1,0 +1,36 @@
+{
+  "id": 3976,
+  "cardId": "itm_soul-fragment",
+  "name": "Soul fragment",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Lightly pulsing with energy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Soul_fragment.png",
+  "debut": "2021-01-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25196
+    ],
+    "pageSlug": "Soul_fragment",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Soul_fragment"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

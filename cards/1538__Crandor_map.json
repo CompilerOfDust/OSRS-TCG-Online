@@ -1,0 +1,37 @@
+{
+  "id": 1962,
+  "cardId": "itm_crandor-map",
+  "name": "Crandor map",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A map of the route to Crandor.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crandor_map.png",
+  "debut": "2001-09-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1538
+    ],
+    "pageSlug": "Crandor_map",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crandor_map"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Study",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.015,
+    "market": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 191,
+  "cardId": "itm_purple-sweets",
+  "name": "Purple sweets",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Remember to brush after eating!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Purple_sweets_1.png",
+  "debut": "2006-12-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10476
+    ],
+    "pageSlug": "Purple_sweets",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Purple_sweets"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 5307,
+      "buyLimit": 10000,
+      "dailyVolume": 395704
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 4778,
+  "cardId": "itm_arctic-pine-needles",
+  "name": "Arctic pine needles",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "? (edit)",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arctic_pine_needles.png",
+  "debut": "2023-06-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28091
+    ],
+    "pageSlug": "Arctic_pine_needles",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arctic_pine_needles"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

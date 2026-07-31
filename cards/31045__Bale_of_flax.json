@@ -1,0 +1,41 @@
+{
+  "id": 5690,
+  "cardId": "itm_bale-of-flax",
+  "name": "Bale of flax",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A tightly bound bundle of flax.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bale_of_flax.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31045
+    ],
+    "pageSlug": "Bale_of_flax",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bale_of_flax"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Unpack",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 75,
+    "lowAlchemy": 50,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 116,
+      "buyLimit": 13000,
+      "dailyVolume": 68182
+    }
+  }
+}

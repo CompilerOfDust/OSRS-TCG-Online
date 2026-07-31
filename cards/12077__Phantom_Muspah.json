@@ -1,0 +1,76 @@
+{
+  "id": 929,
+  "cardId": "npc_phantom-muspah",
+  "name": "Phantom Muspah",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Imagination gone wild.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Phantom_Muspah_(ranged).png",
+  "debut": "2023-01-11",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12077,
+      12078,
+      12079,
+      12080,
+      12082
+    ],
+    "pageSlug": "Phantom_Muspah",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Phantom_Muspah"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Spectral"
+    ],
+    "tileSize": "5x5",
+    "combatRating": 741,
+    "vitality": 850,
+    "peakDamage": "61 (Ranged) 72 (Magic)",
+    "combatXpBonusPct": 107.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 1763.7,
+      "group": "Bosses",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 280,
+      "strength": 280,
+      "defence": 200,
+      "magic": 150,
+      "ranged": 280
+    },
+    "aggressiveBonuses": null
+  }
+}

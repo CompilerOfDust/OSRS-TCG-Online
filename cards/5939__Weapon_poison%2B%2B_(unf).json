@@ -1,0 +1,37 @@
+{
+  "id": 8073,
+  "cardId": "itm_weapon-poison-unf",
+  "name": "Weapon poison++ (unf)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A vial of coconut milk and Deadly Nightshade.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Weapon_poison%2B%2B_%28unf%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5939
+    ],
+    "pageSlug": "Weapon_poison%2B%2B_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Weapon_poison%2B%2B_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 8,
+    "lowAlchemy": 5,
+    "weightKg": 0.035,
+    "market": null
+  }
+}

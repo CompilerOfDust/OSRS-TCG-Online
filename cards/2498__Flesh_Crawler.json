@@ -1,0 +1,69 @@
+{
+  "id": 3916,
+  "cardId": "npc_flesh-crawler",
+  "name": "Flesh Crawler",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I don't think insect repellent will work...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Flesh_Crawler.png",
+  "debut": "2006-07-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2498,
+      2499,
+      2500
+    ],
+    "pageSlug": "Flesh_Crawler",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Flesh_Crawler"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 28,
+    "vitality": 25,
+    "peakDamage": "1",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": 15,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 25,
+      "group": "Flesh Crawlers",
+      "masters": [
+        "Mazchna"
+      ]
+    },
+    "combatLevels": {
+      "attack": 60,
+      "strength": 2,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

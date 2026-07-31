@@ -1,0 +1,42 @@
+{
+  "id": 2736,
+  "cardId": "itm_kodai-1",
+  "name": "Kodai (+)(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    20945,
+    20946,
+    20947
+  ],
+  "flavourText": "The potion blends the cruelty and darkness of Xeric's kodai wizards. It was mixed perfectly!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kodai_%28%2B%29%284%29.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20948
+    ],
+    "pageSlug": "Kodai_(%2B)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kodai_(%2B)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.02,
+    "market": null
+  },
+  "special": false
+}

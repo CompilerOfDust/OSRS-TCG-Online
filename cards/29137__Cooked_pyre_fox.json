@@ -1,0 +1,41 @@
+{
+  "id": 5109,
+  "cardId": "itm_cooked-pyre-fox",
+  "name": "Cooked pyre fox",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Mmm, this looks tasty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cooked_pyre_fox.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29137
+    ],
+    "pageSlug": "Cooked_pyre_fox",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cooked_pyre_fox"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.283,
+    "market": {
+      "guidePrice": 539,
+      "buyLimit": 10000,
+      "dailyVolume": 5652
+    }
+  }
+}

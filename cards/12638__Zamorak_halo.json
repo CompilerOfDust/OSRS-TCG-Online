@@ -1,0 +1,63 @@
+{
+  "id": 1189,
+  "cardId": "itm_zamorak-halo",
+  "name": "Zamorak halo",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Halo with the protection of Zamorak.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zamorak_halo.png",
+  "debut": "2014-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12638
+    ],
+    "pageSlug": "Zamorak_halo",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zamorak_halo"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.3,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 11,
+        "slash": 12,
+        "crush": 10,
+        "magic": 11,
+        "ranged": -1
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

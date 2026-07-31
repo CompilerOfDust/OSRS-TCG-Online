@@ -1,0 +1,37 @@
+{
+  "id": 5869,
+  "cardId": "itm_raw-karambwanji",
+  "name": "Raw karambwanji",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Small brightly coloured tropical fish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_karambwanji.png",
+  "debut": "2004-09-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3150
+    ],
+    "pageSlug": "Raw_karambwanji",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_karambwanji"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 11,
+    "lowAlchemy": 7,
+    "weightKg": 0,
+    "market": null
+  },
+  "special": false
+}

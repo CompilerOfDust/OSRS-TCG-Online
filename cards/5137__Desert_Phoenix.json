@@ -1,0 +1,56 @@
+{
+  "id": 7714,
+  "cardId": "npc_desert-phoenix",
+  "name": "Desert Phoenix",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Definitely not a chicken.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-04-11",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5137
+    ],
+    "pageSlug": "Desert_Phoenix",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Desert_Phoenix"
+  },
+  "npcProfile": {
+    "race": "Phoenix",
+    "gender": "Female",
+    "locations": [
+      "Ruins of Uzer"
+    ],
+    "questLine": "The Golem",
+    "shop": null,
+    "menuActions": [
+      "Grab-feather"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

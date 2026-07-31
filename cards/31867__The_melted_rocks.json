@@ -1,0 +1,37 @@
+{
+  "id": 6016,
+  "cardId": "itm_the-melted-rocks",
+  "name": "The melted rocks",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Ice cold and chilling to behold.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/The_melted_rocks.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31867
+    ],
+    "pageSlug": "The_melted_rocks",
+    "pageUrl": "https://oldschool.runescape.wiki/w/The_melted_rocks"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

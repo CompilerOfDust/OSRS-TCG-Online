@@ -1,0 +1,41 @@
+{
+  "id": 6107,
+  "cardId": "itm_rune-keel-parts",
+  "name": "Rune keel parts",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating a runite keel for a boat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_keel_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32014
+    ],
+    "pageSlug": "Rune_keel_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_keel_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12000,
+    "lowAlchemy": 8000,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 57679,
+      "buyLimit": 100,
+      "dailyVolume": 2583
+    }
+  },
+  "special": false
+}

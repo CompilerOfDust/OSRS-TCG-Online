@@ -1,0 +1,67 @@
+{
+  "id": 417,
+  "cardId": "itm_frog-leather-chaps",
+  "name": "Frog-leather chaps",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Chaps made out of frog hide.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Frog-leather_chaps.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10956
+    ],
+    "pageSlug": "Frog-leather_chaps",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Frog-leather_chaps"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 540,
+    "lowAlchemy": 360,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 260,
+      "buyLimit": 70,
+      "dailyVolume": 40
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -5,
+        "ranged": 2
+      },
+      "defence": {
+        "stab": 7,
+        "slash": 7,
+        "crush": 9,
+        "magic": 4,
+        "ranged": 9
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

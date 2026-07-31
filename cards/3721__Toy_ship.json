@@ -1,0 +1,36 @@
+{
+  "id": 6792,
+  "cardId": "itm_toy-ship",
+  "name": "Toy ship",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Might be fun to play with in the bath.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Toy_ship.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3721
+    ],
+    "pageSlug": "Toy_ship",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Toy_ship"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.4,
+    "market": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 4727,
+  "cardId": "itm_vestas-plateskirt-c",
+  "name": "Vesta's plateskirt (c)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A powerful plateskirt.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vesta%27s_plateskirt_%28c%29.png",
+  "debut": "2023-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27843
+    ],
+    "pageSlug": "Vesta%27s_plateskirt_(c)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vesta%27s_plateskirt_(c)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 8.164,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 6,
+        "slash": 6,
+        "crush": 6,
+        "magic": -24,
+        "ranged": -12
+      },
+      "defence": {
+        "stab": 22,
+        "slash": 20,
+        "crush": 18,
+        "magic": -9,
+        "ranged": 22
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 2,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

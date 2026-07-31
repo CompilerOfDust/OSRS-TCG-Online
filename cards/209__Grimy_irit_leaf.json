@@ -1,0 +1,41 @@
+{
+  "id": 2753,
+  "cardId": "itm_grimy-irit-leaf",
+  "name": "Grimy irit leaf",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It needs cleaning.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grimy_irit_leaf.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      209
+    ],
+    "pageSlug": "Grimy_irit_leaf",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grimy_irit_leaf"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Clean",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 10,
+    "lowAlchemy": 6,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 1457,
+      "buyLimit": 13000,
+      "dailyVolume": 515277
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 4926,
+  "cardId": "itm_scarred-extract",
+  "name": "Scarred extract",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An abyssal extract amplifying the creation of blood, soul and wrath runes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Scarred_extract.png",
+  "debut": "2023-09-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28599
+    ],
+    "pageSlug": "Scarred_extract",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Scarred_extract"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 480,
+    "lowAlchemy": 320,
+    "weightKg": 0,
+    "market": null
+  }
+}

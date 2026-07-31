@@ -1,0 +1,48 @@
+{
+  "id": 900,
+  "cardId": "itm_strength-potion-1",
+  "name": "Strength potion(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    115,
+    117,
+    119,
+    11441,
+    11443
+  ],
+  "flavourText": "4 doses of Strength potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Strength_potion%284%29.png",
+  "debut": "2001-02-05",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      113
+    ],
+    "pageSlug": "Strength_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Strength_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 25,
+      "buyLimit": 2000,
+      "dailyVolume": 329
+    }
+  }
+}

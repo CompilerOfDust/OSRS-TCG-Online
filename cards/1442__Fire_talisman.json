@@ -1,0 +1,42 @@
+{
+  "id": 1795,
+  "cardId": "itm_fire-talisman",
+  "name": "Fire talisman",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A mysterious power emanates from the talisman...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fire_talisman.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1442
+    ],
+    "pageSlug": "Fire_talisman",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fire_talisman"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Locate",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.015,
+    "market": {
+      "guidePrice": 3595,
+      "buyLimit": 11000,
+      "dailyVolume": 9446
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,59 @@
+{
+  "id": 1790,
+  "cardId": "npc_karam",
+  "name": "Karam",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "All you see is a glimmer of light and the suggestion of shadow.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-12-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1439,
+      7172,
+      7173,
+      7174
+    ],
+    "pageSlug": "Karam",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Karam"
+  },
+  "npcProfile": {
+    "race": "Gnome",
+    "gender": "Male",
+    "locations": [
+      "Ape Atoll"
+    ],
+    "questLine": "Monkey Madness I",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

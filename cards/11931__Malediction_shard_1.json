@@ -1,0 +1,41 @@
+{
+  "id": 856,
+  "cardId": "itm_malediction-shard-1",
+  "name": "Malediction shard 1",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A broken shield piece.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Malediction_shard_1.png",
+  "debut": "2014-03-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11931
+    ],
+    "pageSlug": "Malediction_shard_1",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Malediction_shard_1"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18600,
+    "lowAlchemy": 12400,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 1142028,
+      "buyLimit": 10000,
+      "dailyVolume": 53
+    }
+  },
+  "special": false
+}

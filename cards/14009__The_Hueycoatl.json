@@ -1,0 +1,68 @@
+{
+  "id": 1720,
+  "cardId": "npc_the-hueycoatl",
+  "name": "The Hueycoatl",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "It's like it's part of the mountain itself.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/The_Hueycoatl.png",
+  "debut": "2024-09-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14009,
+      14010,
+      14011,
+      14012,
+      14013
+    ],
+    "pageSlug": "The_Hueycoatl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/The_Hueycoatl"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Draconic"
+    ],
+    "tileSize": "7x7",
+    "combatRating": 642,
+    "vitality": 2500,
+    "peakDamage": "14",
+    "combatXpBonusPct": 60,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee",
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 150,
+      "strength": 50,
+      "defence": 125,
+      "magic": 50,
+      "ranged": 50
+    },
+    "aggressiveBonuses": null
+  }
+}

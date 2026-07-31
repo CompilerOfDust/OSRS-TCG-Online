@@ -1,0 +1,40 @@
+{
+  "id": 8399,
+  "cardId": "itm_maple-shortbow-u",
+  "name": "Maple shortbow (u)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An unstrung maple shortbow; I need a bowstring for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maple_shortbow_%28u%29.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      64
+    ],
+    "pageSlug": "Maple_shortbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maple_shortbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.992,
+    "market": {
+      "guidePrice": 23,
+      "buyLimit": 10000,
+      "dailyVolume": 102964
+    }
+  }
+}

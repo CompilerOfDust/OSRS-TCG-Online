@@ -1,0 +1,65 @@
+{
+  "id": 1538,
+  "cardId": "itm_xerics-talisman-inert",
+  "name": "Xeric's talisman (inert)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A dormant relic of the ancient times of Kourend.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Xeric%27s_talisman_%28inert%29.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13392
+    ],
+    "pageSlug": "Xeric%27s_talisman",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Xeric%27s_talisman"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 210,
+    "lowAlchemy": 140,
+    "weightKg": 0.06,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 2,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

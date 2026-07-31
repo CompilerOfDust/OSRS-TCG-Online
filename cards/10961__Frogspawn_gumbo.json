@@ -1,0 +1,37 @@
+{
+  "id": 422,
+  "cardId": "itm_frogspawn-gumbo",
+  "name": "Frogspawn gumbo",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A big bowl of frogspawn gumbo.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Frogspawn_gumbo.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10961
+    ],
+    "pageSlug": "Frogspawn_gumbo",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Frogspawn_gumbo"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

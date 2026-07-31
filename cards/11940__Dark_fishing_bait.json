@@ -1,0 +1,40 @@
+{
+  "id": 862,
+  "cardId": "itm_dark-fishing-bait",
+  "name": "Dark fishing bait",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "What on earth would eat this?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dark_fishing_bait.png",
+  "debut": "2014-03-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11940
+    ],
+    "pageSlug": "Dark_fishing_bait",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dark_fishing_bait"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 8000,
+      "dailyVolume": 772654
+    }
+  }
+}

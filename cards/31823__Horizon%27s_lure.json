@@ -1,0 +1,37 @@
+{
+  "id": 5974,
+  "cardId": "itm_horizons-lure",
+  "name": "Horizon's lure",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "For those always looking to the horizon to see what lies beyond.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Horizon%27s_lure.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31823
+    ],
+    "pageSlug": "Horizon%27s_lure",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Horizon%27s_lure"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 5143,
+  "cardId": "itm_enhanced-quetzal-whistle-blueprint",
+  "name": "Enhanced quetzal whistle blueprint",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An enhanced blueprint for a quetzal whistle.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enhanced_quetzal_whistle_blueprint.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29253
+    ],
+    "pageSlug": "Enhanced_quetzal_whistle_blueprint",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enhanced_quetzal_whistle_blueprint"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Check",
+      "Craft",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 32326,
+      "buyLimit": null,
+      "dailyVolume": 400
+    }
+  },
+  "special": false
+}

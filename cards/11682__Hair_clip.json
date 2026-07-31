@@ -1,0 +1,36 @@
+{
+  "id": 718,
+  "cardId": "itm_hair-clip",
+  "name": "Hair clip",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I could use this to pick the lock.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hair_clip.png",
+  "debut": "2007-07-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11682
+    ],
+    "pageSlug": "Hair_clip",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hair_clip"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

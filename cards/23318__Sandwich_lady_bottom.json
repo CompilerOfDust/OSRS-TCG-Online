@@ -1,0 +1,68 @@
+{
+  "id": 3471,
+  "cardId": "itm_sandwich-lady-bottom",
+  "name": "Sandwich lady bottom",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Bottoms worn by a sandwich lady.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sandwich_lady_bottom.png",
+  "debut": "2019-04-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23318
+    ],
+    "pageSlug": "Sandwich_lady_bottom",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sandwich_lady_bottom"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 4513,
+      "buyLimit": 4,
+      "dailyVolume": 38
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,61 @@
+{
+  "id": 5018,
+  "cardId": "npc_aubury",
+  "name": "Aubury",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Runes are his passion.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2886,
+      10681,
+      11434,
+      11435
+    ],
+    "pageSlug": "Aubury",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Aubury"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Varrock"
+    ],
+    "questLine": "Rune Mysteries",
+    "shop": "Aubury's Rune Shop.",
+    "menuActions": [
+      "Talk-to",
+      "Trade",
+      "Teleport"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

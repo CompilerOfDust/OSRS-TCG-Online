@@ -1,0 +1,41 @@
+{
+  "id": 3978,
+  "cardId": "itm_marrentill",
+  "name": "Marrentill",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A herb used in poison cures.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Marrentill.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      251
+    ],
+    "pageSlug": "Marrentill",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Marrentill"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 255,
+      "buyLimit": 13000,
+      "dailyVolume": 161088
+    }
+  },
+  "special": false
+}

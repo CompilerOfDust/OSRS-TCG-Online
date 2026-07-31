@@ -1,0 +1,41 @@
+{
+  "id": 6850,
+  "cardId": "itm_zamorak-page-2",
+  "name": "Zamorak page 2",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This seems to have been torn from a book...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zamorak_page_2.png",
+  "debut": "2004-11-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3832
+    ],
+    "pageSlug": "Zamorak_page_2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zamorak_page_2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 4028,
+      "buyLimit": 5,
+      "dailyVolume": 215
+    }
+  },
+  "special": false
+}

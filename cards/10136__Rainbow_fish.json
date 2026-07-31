@@ -1,0 +1,41 @@
+{
+  "id": 58,
+  "cardId": "itm_rainbow-fish",
+  "name": "Rainbow fish",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Well, this would certainly add some colour to a meal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rainbow_fish.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10136
+    ],
+    "pageSlug": "Rainbow_fish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rainbow_fish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 72,
+    "lowAlchemy": 48,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 105,
+      "buyLimit": 6000,
+      "dailyVolume": 7173
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 4734,
+  "cardId": "itm_corrupted-morrigans-coif-bh",
+  "name": "Corrupted morrigan's coif (bh)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A powerful coif.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_morrigan%27s_coif_%28bh%29.png",
+  "debut": "2023-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27847
+    ],
+    "pageSlug": "Corrupted_morrigan%27s_coif_(bh)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_morrigan%27s_coif_(bh)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Uncharge",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.907,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -4,
+        "ranged": 13
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 5,
+        "crush": 6,
+        "magic": 4,
+        "ranged": 6
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 2,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 9388,
+  "cardId": "itm_thorny-hedge",
+  "name": "Thorny hedge",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You can plant this in your garden.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Thorny_hedge_%28bagged%29.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8437
+    ],
+    "pageSlug": "Thorny_hedge_(bagged)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Thorny_hedge_(bagged)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 5584,
+      "buyLimit": 10000,
+      "dailyVolume": 1
+    }
+  }
+}

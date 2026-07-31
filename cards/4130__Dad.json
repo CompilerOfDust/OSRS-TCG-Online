@@ -1,0 +1,67 @@
+{
+  "id": 7030,
+  "cardId": "npc_dad",
+  "name": "Dad",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    6330,
+    6391
+  ],
+  "flavourText": "An unusually large troll.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dad.png",
+  "debut": "2004-08-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4130
+    ],
+    "pageSlug": "Dad",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dad"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 101,
+    "vitality": null,
+    "peakDamage": "27",
+    "combatXpBonusPct": 5,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 8,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 126,
+      "group": "Trolls",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

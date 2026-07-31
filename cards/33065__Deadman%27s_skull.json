@@ -1,0 +1,41 @@
+{
+  "id": 6399,
+  "cardId": "itm_deadmans-skull",
+  "name": "Deadman's skull",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A Deadman's skull filled with magical power.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Deadman%27s_skull.png",
+  "debut": "2026-01-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33065
+    ],
+    "pageSlug": "Deadman%27s_skull",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Deadman%27s_skull"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Shop",
+      "Unlocks",
+      "Swap (Prayers",
+      "Spellbook)",
+      "Breach Check",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.08,
+    "market": null
+  }
+}

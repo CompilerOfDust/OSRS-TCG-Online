@@ -1,0 +1,36 @@
+{
+  "id": 4922,
+  "cardId": "itm_tainted-essence-chunk",
+  "name": "Tainted essence chunk",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An amalgamation of abyssal tissue, fluids and pure essence.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tainted_essence_chunk.png",
+  "debut": "2023-09-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28591
+    ],
+    "pageSlug": "Tainted_essence_chunk",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tainted_essence_chunk"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.04,
+    "market": null
+  }
+}

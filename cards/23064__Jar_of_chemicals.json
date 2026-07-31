@@ -1,0 +1,41 @@
+{
+  "id": 3416,
+  "cardId": "itm_jar-of-chemicals",
+  "name": "Jar of chemicals",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Looks unstable.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jar_of_chemicals.png",
+  "debut": "2019-01-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23064
+    ],
+    "pageSlug": "Jar_of_chemicals",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jar_of_chemicals"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.04,
+    "market": {
+      "guidePrice": 65235,
+      "buyLimit": 4,
+      "dailyVolume": 16
+    }
+  },
+  "special": false
+}

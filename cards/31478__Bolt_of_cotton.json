@@ -1,0 +1,41 @@
+{
+  "id": 5857,
+  "cardId": "itm_bolt-of-cotton",
+  "name": "Bolt of cotton",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A bolt of cotton.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bolt_of_cotton.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31478
+    ],
+    "pageSlug": "Bolt_of_cotton",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bolt_of_cotton"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 3932,
+      "buyLimit": 13000,
+      "dailyVolume": 5875
+    }
+  },
+  "special": false
+}

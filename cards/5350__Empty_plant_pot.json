@@ -1,0 +1,41 @@
+{
+  "id": 7831,
+  "cardId": "itm_empty-plant-pot",
+  "name": "Empty plant pot",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An empty plant pot.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Empty_plant_pot.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5350
+    ],
+    "pageSlug": "Empty_plant_pot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Empty_plant_pot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 4,
+      "buyLimit": 10000,
+      "dailyVolume": 34905
+    }
+  },
+  "special": false
+}

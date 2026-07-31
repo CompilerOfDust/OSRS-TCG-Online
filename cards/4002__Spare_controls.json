@@ -1,0 +1,37 @@
+{
+  "id": 6919,
+  "cardId": "itm_spare-controls",
+  "name": "Spare controls",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It looks like some kind of control panel.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spare_controls.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4002
+    ],
+    "pageSlug": "Spare_controls",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spare_controls"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "View",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.2,
+    "market": null
+  }
+}

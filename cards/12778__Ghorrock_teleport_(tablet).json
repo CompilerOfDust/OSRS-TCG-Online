@@ -1,0 +1,43 @@
+{
+  "id": 1243,
+  "cardId": "itm_ghorrock-teleport",
+  "name": "Ghorrock teleport",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A teleport to Ghorrock, in level 45 Wilderness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ghorrock_teleport_%28tablet%29.png",
+  "debut": "2014-09-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12778
+    ],
+    "pageSlug": "Ghorrock_teleport_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ghorrock_teleport_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Configure",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 1904,
+      "buyLimit": 10000,
+      "dailyVolume": 15912
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": 3037,
+  "cardId": "itm_ancient-crystal",
+  "name": "Ancient crystal",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "An ancient crystal containing magical energy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_crystal.png",
+  "debut": "2017-11-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21804
+    ],
+    "pageSlug": "Ancient_crystal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_crystal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 13.607,
+    "market": {
+      "guidePrice": 151506,
+      "buyLimit": 250,
+      "dailyVolume": 1114
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 6811,
+  "cardId": "itm_warrior-helm",
+  "name": "Warrior helm",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "This helmet is worn by warriors.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Warrior_helm.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3753
+    ],
+    "pageSlug": "Warrior_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Warrior_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 36000,
+    "lowAlchemy": 24000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 40512,
+      "buyLimit": 70,
+      "dailyVolume": 286
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 5,
+        "crush": 0,
+        "magic": -5,
+        "ranged": -5
+      },
+      "defence": {
+        "stab": 31,
+        "slash": 33,
+        "crush": 29,
+        "magic": 0,
+        "ranged": 30
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

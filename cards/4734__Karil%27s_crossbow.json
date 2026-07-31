@@ -1,0 +1,68 @@
+{
+  "id": 7494,
+  "cardId": "itm_karils-crossbow",
+  "name": "Karil's crossbow",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Karil the Tainted's repeating crossbow.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Karil%27s_crossbow.png",
+  "debut": "2005-05-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4734
+    ],
+    "pageSlug": "Karil%27s_crossbow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Karil%27s_crossbow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 96000,
+    "lowAlchemy": 64000,
+    "weightKg": 3.628,
+    "market": {
+      "guidePrice": 97043,
+      "buyLimit": 15,
+      "dailyVolume": 247
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 84
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

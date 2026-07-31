@@ -1,0 +1,42 @@
+{
+  "id": 3488,
+  "cardId": "itm_watson-teleport",
+  "name": "Watson teleport",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Teleports you to Watson's house in Great Kourend.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Watson_teleport.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23387
+    ],
+    "pageSlug": "Watson_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Watson_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Teleport",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 3957,
+      "buyLimit": 10000,
+      "dailyVolume": 2582
+    }
+  },
+  "special": false
+}

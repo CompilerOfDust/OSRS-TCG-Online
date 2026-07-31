@@ -1,0 +1,63 @@
+{
+  "id": 226,
+  "cardId": "itm_fighter-hat",
+  "name": "Fighter hat",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A Penance Fighter hat.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fighter_hat.png",
+  "debut": "2007-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10548
+    ],
+    "pageSlug": "Fighter_hat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fighter_hat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 5,
+        "slash": 5,
+        "crush": 5,
+        "magic": -7,
+        "ranged": -7
+      },
+      "defence": {
+        "stab": 27,
+        "slash": 29,
+        "crush": 26,
+        "magic": -3,
+        "ranged": 28
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

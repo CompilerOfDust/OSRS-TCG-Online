@@ -1,0 +1,40 @@
+{
+  "id": 4362,
+  "cardId": "itm_ancient-hilt",
+  "name": "Ancient hilt",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Brimming with potential.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_hilt.png",
+  "debut": "2022-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26370
+    ],
+    "pageSlug": "Ancient_hilt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_hilt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 2.5,
+    "market": {
+      "guidePrice": 37780627,
+      "buyLimit": null,
+      "dailyVolume": 11
+    }
+  }
+}

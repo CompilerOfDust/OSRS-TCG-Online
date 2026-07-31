@@ -1,0 +1,41 @@
+{
+  "id": 5214,
+  "cardId": "itm_adamant-seeds",
+  "name": "Adamant seeds",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Magical seeds in an adamant case.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_seeds.png",
+  "debut": "2024-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29458
+    ],
+    "pageSlug": "Adamant_seeds",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_seeds"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Plant",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 93,
+      "buyLimit": 18000,
+      "dailyVolume": 392909
+    }
+  }
+}

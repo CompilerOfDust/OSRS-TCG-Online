@@ -1,0 +1,75 @@
+{
+  "id": 9534,
+  "cardId": "npc_frog",
+  "name": "Frog",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    312,
+    479,
+    3290,
+    5429,
+    5430,
+    5431,
+    5432,
+    5833,
+    10700,
+    12937,
+    12938,
+    12941,
+    12942,
+    12945,
+    12946,
+    12949,
+    12950,
+    12953,
+    12954,
+    13034
+  ],
+  "flavourText": "It eats flies.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_frog.png",
+  "debut": "2015-02-19",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8702
+    ],
+    "pageSlug": "Frog",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Frog"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 5,
+    "vitality": null,
+    "peakDamage": "1",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

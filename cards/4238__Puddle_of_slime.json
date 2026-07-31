@@ -1,0 +1,36 @@
+{
+  "id": 7126,
+  "cardId": "itm_puddle-of-slime",
+  "name": "Puddle of slime",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's a puddle of slime.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Puddle_of_slime.png",
+  "debut": "2005-02-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4238
+    ],
+    "pageSlug": "Puddle_of_slime",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Puddle_of_slime"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

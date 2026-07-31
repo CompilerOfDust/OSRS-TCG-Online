@@ -1,0 +1,69 @@
+{
+  "id": 2806,
+  "cardId": "itm_amulet-of-bounty",
+  "name": "Amulet of bounty",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Saves seeds when planting in allotments.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amulet_of_bounty.png",
+  "debut": "2017-02-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21160
+    ],
+    "pageSlug": "Amulet_of_bounty",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amulet_of_bounty"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 540,
+    "lowAlchemy": 360,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 578,
+      "buyLimit": 10000,
+      "dailyVolume": 1393
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

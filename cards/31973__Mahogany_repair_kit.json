@@ -1,0 +1,41 @@
+{
+  "id": 6089,
+  "cardId": "itm_mahogany-repair-kit",
+  "name": "Mahogany repair kit",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A strong boat repair kit made from mahogany.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mahogany_repair_kit.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31973
+    ],
+    "pageSlug": "Mahogany_repair_kit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mahogany_repair_kit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Apply",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1500,
+    "lowAlchemy": 1000,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 1076,
+      "buyLimit": 13000,
+      "dailyVolume": 742471
+    }
+  }
+}

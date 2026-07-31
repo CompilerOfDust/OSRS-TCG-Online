@@ -1,0 +1,40 @@
+{
+  "id": 3633,
+  "cardId": "itm_white-berries",
+  "name": "White berries",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Sour berries, used in potions.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_berries.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      239
+    ],
+    "pageSlug": "White_berries",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_berries"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 726,
+      "buyLimit": 13000,
+      "dailyVolume": 375035
+    }
+  }
+}

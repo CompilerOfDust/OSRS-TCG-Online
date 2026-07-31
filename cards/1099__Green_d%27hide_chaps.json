@@ -1,0 +1,70 @@
+{
+  "id": 451,
+  "cardId": "itm_green-dhide-chaps",
+  "name": "Green d'hide chaps",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    7378,
+    7380
+  ],
+  "flavourText": "Made from 100% real dragonhide.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Green_d%27hide_chaps.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1099
+    ],
+    "pageSlug": "Green_d%27hide_chaps",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Green_d%27hide_chaps"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 2340,
+    "lowAlchemy": 1560,
+    "weightKg": 5.443,
+    "market": {
+      "guidePrice": 2140,
+      "buyLimit": 125,
+      "dailyVolume": 11748
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 8
+      },
+      "defence": {
+        "stab": 12,
+        "slash": 15,
+        "crush": 18,
+        "magic": 8,
+        "ranged": 17
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

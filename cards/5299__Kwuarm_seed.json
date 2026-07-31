@@ -1,0 +1,41 @@
+{
+  "id": 7779,
+  "cardId": "itm_kwuarm-seed",
+  "name": "Kwuarm seed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A kwuarm seed - plant in a herb patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kwuarm_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5299
+    ],
+    "pageSlug": "Kwuarm_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kwuarm_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2573,
+      "buyLimit": 200,
+      "dailyVolume": 40573
+    }
+  },
+  "special": false
+}

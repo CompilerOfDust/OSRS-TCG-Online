@@ -1,0 +1,69 @@
+{
+  "id": 6294,
+  "cardId": "npc_warrior__3",
+  "name": "Warrior",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    1158,
+    3950,
+    15689
+  ],
+  "flavourText": "Not very fashion conscious.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Warrior_(Thieving,_blond).png",
+  "debut": "2001-05-24",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3260,
+      11925,
+      11926,
+      11927,
+      11928,
+      11929
+    ],
+    "pageSlug": "Warrior_(Thieving)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Warrior_(Thieving)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 24,
+    "vitality": 20,
+    "peakDamage": "3",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 22,
+      "strength": 22,
+      "defence": 22,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

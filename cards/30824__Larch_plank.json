@@ -1,0 +1,37 @@
+{
+  "id": 5608,
+  "cardId": "itm_larch-plank",
+  "name": "Larch plank",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A plank of hardy larch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Larch_plank.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30824
+    ],
+    "pageSlug": "Larch_plank",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Larch_plank"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 0.8,
+    "market": null
+  },
+  "special": false
+}

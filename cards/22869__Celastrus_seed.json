@@ -1,0 +1,40 @@
+{
+  "id": 3366,
+  "cardId": "itm_celastrus-seed",
+  "name": "Celastrus seed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "For growing a Celastrus tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Celastrus_seed_1.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22869
+    ],
+    "pageSlug": "Celastrus_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Celastrus_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 324,
+    "lowAlchemy": 216,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 17961,
+      "buyLimit": 200,
+      "dailyVolume": 5922
+    }
+  }
+}

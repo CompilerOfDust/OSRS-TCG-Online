@@ -1,0 +1,54 @@
+{
+  "id": 1766,
+  "cardId": "npc_emissary-enforcer",
+  "name": "Emissary Enforcer",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Not the kind of person you want to get on the wrong side of.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Emissary_Enforcer.png",
+  "debut": "2025-07-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14268
+    ],
+    "pageSlug": "Emissary_Enforcer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Emissary_Enforcer"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 196,
+    "vitality": null,
+    "peakDamage": "18 (Standard) 30+ (Charge)",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

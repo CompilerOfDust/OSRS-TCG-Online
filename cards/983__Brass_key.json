@@ -1,0 +1,40 @@
+{
+  "id": 10109,
+  "cardId": "itm_brass-key",
+  "name": "Brass key",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Opens a door that leads into a dungeon (Edgeville Dungeon entrance).",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Brass_key.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      983
+    ],
+    "pageSlug": "Brass_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Brass_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 425,
+      "buyLimit": 15,
+      "dailyVolume": 1885
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": 3626,
+  "cardId": "itm_shaman-robe",
+  "name": "Shaman robe",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A tattered old robe.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shaman_robe.png",
+  "debut": "2003-05-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2397
+    ],
+    "pageSlug": "Shaman_robe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shaman_robe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Search",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 1.814,
+    "market": null
+  },
+  "special": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": 9701,
+  "cardId": "itm_star-flower",
+  "name": "Star flower",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A rare flower with magical properties.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Star_flower.png",
+  "debut": "2006-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9017
+    ],
+    "pageSlug": "Star_flower",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Star_flower"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 45,
+    "lowAlchemy": 30,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

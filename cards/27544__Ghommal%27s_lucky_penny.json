@@ -1,0 +1,63 @@
+{
+  "id": 4657,
+  "cardId": "itm_ghommals-lucky-penny",
+  "name": "Ghommal's lucky penny",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I'm sure he won't mind me borrowing this...",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ghommal%27s_lucky_penny.png",
+  "debut": "2022-11-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27544
+    ],
+    "pageSlug": "Ghommal%27s_lucky_penny",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ghommal%27s_lucky_penny"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Equip",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.05,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

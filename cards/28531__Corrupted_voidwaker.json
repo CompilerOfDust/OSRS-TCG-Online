@@ -1,0 +1,63 @@
+{
+  "id": 4907,
+  "cardId": "itm_corrupted-voidwaker",
+  "name": "Corrupted voidwaker",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A truly fearsome weapon.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_voidwaker.png",
+  "debut": "2023-08-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28531
+    ],
+    "pageSlug": "Corrupted_voidwaker",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_voidwaker"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 1.814,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 56,
+        "slash": 64,
+        "crush": -2,
+        "magic": 4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 2,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 64,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

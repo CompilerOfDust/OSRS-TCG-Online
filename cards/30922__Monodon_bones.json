@@ -1,0 +1,37 @@
+{
+  "id": 5639,
+  "cardId": "itm_monodon-bones",
+  "name": "Monodon bones",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Ew it's an extremely large pile of bones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Monodon_bones.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30922
+    ],
+    "pageSlug": "Monodon_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Monodon_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.6,
+    "market": null
+  }
+}

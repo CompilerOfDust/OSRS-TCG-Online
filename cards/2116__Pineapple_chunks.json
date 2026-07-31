@@ -1,0 +1,42 @@
+{
+  "id": 2808,
+  "cardId": "itm_pineapple-chunks",
+  "name": "Pineapple chunks",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Fresh chunks of pineapple.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pineapple_chunks.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2116
+    ],
+    "pageSlug": "Pineapple_chunks",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pineapple_chunks"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.12,
+    "market": {
+      "guidePrice": 268,
+      "buyLimit": 13000,
+      "dailyVolume": 630
+    }
+  },
+  "special": false
+}

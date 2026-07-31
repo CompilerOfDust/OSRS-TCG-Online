@@ -1,0 +1,36 @@
+{
+  "id": 5954,
+  "cardId": "itm_left-handed-banana",
+  "name": "Left-handed banana",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Mmm this looks tasty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Left-handed_banana.png",
+  "debut": "2004-09-14",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3177
+    ],
+    "pageSlug": "Left-handed_banana",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Left-handed_banana"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

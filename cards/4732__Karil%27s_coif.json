@@ -1,0 +1,68 @@
+{
+  "id": 7492,
+  "cardId": "itm_karils-coif",
+  "name": "Karil's coif",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Karil the Tainted's coif.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Karil%27s_coif.png",
+  "debut": "2005-05-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4732
+    ],
+    "pageSlug": "Karil%27s_coif",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Karil%27s_coif"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 7800,
+    "lowAlchemy": 5200,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 59472,
+      "buyLimit": 15,
+      "dailyVolume": 635
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -1,
+        "ranged": 7
+      },
+      "defence": {
+        "stab": 6,
+        "slash": 9,
+        "crush": 12,
+        "magic": 6,
+        "ranged": 10
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

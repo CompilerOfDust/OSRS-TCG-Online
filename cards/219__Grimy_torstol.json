@@ -1,0 +1,42 @@
+{
+  "id": 3099,
+  "cardId": "itm_grimy-torstol",
+  "name": "Grimy torstol",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "It needs cleaning.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grimy_torstol.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      219
+    ],
+    "pageSlug": "Grimy_torstol",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grimy_torstol"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Clean",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 3144,
+      "buyLimit": 11000,
+      "dailyVolume": 565287
+    }
+  },
+  "special": false
+}

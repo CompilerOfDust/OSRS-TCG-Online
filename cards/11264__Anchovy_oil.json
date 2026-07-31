@@ -1,0 +1,37 @@
+{
+  "id": 589,
+  "cardId": "itm_anchovy-oil",
+  "name": "Anchovy oil",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Omega 3 oil. Good for the brain, not so for the nose.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Anchovy_oil.png",
+  "debut": "2007-06-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11264
+    ],
+    "pageSlug": "Anchovy_oil",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Anchovy_oil"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.035,
+    "market": null
+  }
+}

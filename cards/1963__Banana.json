@@ -1,0 +1,41 @@
+{
+  "id": 2354,
+  "cardId": "itm_banana",
+  "name": "Banana",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Mmm this looks tasty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Banana.png",
+  "debut": "2001-04-06",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1963
+    ],
+    "pageSlug": "Banana",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Banana"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 49,
+      "buyLimit": 13000,
+      "dailyVolume": 542019
+    }
+  }
+}

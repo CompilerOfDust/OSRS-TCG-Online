@@ -1,0 +1,41 @@
+{
+  "id": 8803,
+  "cardId": "itm_summer-pie",
+  "name": "Summer pie",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "All the fruits of a very small forest.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Summer_pie.png",
+  "debut": "2006-02-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7218
+    ],
+    "pageSlug": "Summer_pie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Summer_pie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 84,
+    "lowAlchemy": 56,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 685,
+      "buyLimit": 10000,
+      "dailyVolume": 83614
+    }
+  }
+}

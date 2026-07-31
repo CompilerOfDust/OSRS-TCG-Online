@@ -1,0 +1,41 @@
+{
+  "id": 1965,
+  "cardId": "itm_steel-nails",
+  "name": "Steel nails",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Keeps things in place fairly permanently.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_nails.png",
+  "debut": "2001-09-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1539
+    ],
+    "pageSlug": "Steel_nails",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_nails"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 28,
+      "buyLimit": 13000,
+      "dailyVolume": 1286837
+    }
+  },
+  "special": false
+}

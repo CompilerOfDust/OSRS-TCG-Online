@@ -1,0 +1,40 @@
+{
+  "id": 9550,
+  "cardId": "itm_gold-leaf",
+  "name": "Gold leaf",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A very delicate sheet of gold.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gold_leaf.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8784
+    ],
+    "pageSlug": "Gold_leaf",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gold_leaf"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 137747,
+      "buyLimit": 11000,
+      "dailyVolume": 5074
+    }
+  }
+}

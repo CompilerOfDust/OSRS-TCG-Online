@@ -1,0 +1,40 @@
+{
+  "id": 2939,
+  "cardId": "itm_calcite",
+  "name": "Calcite",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A large crystal of calcium carbonate.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Calcite.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21543
+    ],
+    "pageSlug": "Calcite",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Calcite"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 106,
+      "buyLimit": 13000,
+      "dailyVolume": 9471
+    }
+  }
+}

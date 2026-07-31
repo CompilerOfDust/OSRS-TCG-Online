@@ -1,0 +1,67 @@
+{
+  "id": 6530,
+  "cardId": "itm_crimson-kisten",
+  "name": "Crimson kisten",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A nasty war implement. I should be careful not to hit myself.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crimson_kisten.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33631
+    ],
+    "pageSlug": "Crimson_kisten",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crimson_kisten"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 144000,
+    "lowAlchemy": 96000,
+    "weightKg": 2.825,
+    "market": {
+      "guidePrice": 43732268,
+      "buyLimit": 5,
+      "dailyVolume": 674
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 80,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 56,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

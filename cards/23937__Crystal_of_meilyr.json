@@ -1,0 +1,36 @@
+{
+  "id": 3609,
+  "cardId": "itm_crystal-of-meilyr",
+  "name": "Crystal of meilyr",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A crystal of the Meilyr clan.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crystal_of_meilyr.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23937
+    ],
+    "pageSlug": "Crystal_of_meilyr",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crystal_of_meilyr"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

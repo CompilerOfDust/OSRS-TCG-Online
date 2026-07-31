@@ -1,0 +1,40 @@
+{
+  "id": 4321,
+  "cardId": "itm_condensed-gold",
+  "name": "Condensed gold",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The gold standard of gold.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Condensed_gold.png",
+  "debut": "2021-11-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26266
+    ],
+    "pageSlug": "Condensed_gold",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Condensed_gold"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4800000,
+    "lowAlchemy": 3200000,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 10545049,
+      "buyLimit": null,
+      "dailyVolume": 11
+    }
+  }
+}

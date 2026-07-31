@@ -1,0 +1,36 @@
+{
+  "id": 5824,
+  "cardId": "itm_red-coral",
+  "name": "Red coral",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pretty piece of coral with magical properties.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_coral_%28interface_item%29.png",
+  "debut": "2026-05-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31405
+    ],
+    "pageSlug": "Red_coral_(interface_item)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_coral_(interface_item)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.05,
+    "market": null
+  }
+}

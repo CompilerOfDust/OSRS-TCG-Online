@@ -1,0 +1,66 @@
+{
+  "id": 3845,
+  "cardId": "itm_vyre-noble-dress-top__2",
+  "name": "Vyre noble dress top",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    24822,
+    24838
+  ],
+  "flavourText": "Lets you dress like a vampyre noble.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vyre_noble_dress_top_%28red%29.png",
+  "debut": "2020-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24806
+    ],
+    "pageSlug": "Vyre_noble_dress_top_(red)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vyre_noble_dress_top_(red)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.907,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 1545,
+  "cardId": "itm_gricollers-fertiliser",
+  "name": "Gricoller's fertiliser",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's amazing how much fertiliser Gricoller can fit in one bucket.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gricoller%27s_fertiliser.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13420
+    ],
+    "pageSlug": "Gricoller%27s_fertiliser",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gricoller%27s_fertiliser"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 3.55,
+    "market": null
+  }
+}

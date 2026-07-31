@@ -1,0 +1,36 @@
+{
+  "id": 4123,
+  "cardId": "itm_barronite-deposit",
+  "name": "Barronite deposit",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A deposit of strange glowing ore that looks quite smashable. I wonder what's inside?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Barronite_deposit.png",
+  "debut": "2021-04-14",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25684
+    ],
+    "pageSlug": "Barronite_deposit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Barronite_deposit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.2,
+    "market": null
+  }
+}

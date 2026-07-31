@@ -1,0 +1,65 @@
+{
+  "id": 1371,
+  "cardId": "itm_elite-void-robe",
+  "name": "Elite void robe",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    26471
+  ],
+  "flavourText": "Superior leg armour from the order of the Void Knights.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elite_void_robe.png",
+  "debut": "2015-03-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13073
+    ],
+    "pageSlug": "Elite_void_robe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elite_void_robe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 27300,
+    "lowAlchemy": 18200,
+    "weightKg": 8.164,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 30,
+        "slash": 30,
+        "crush": 30,
+        "magic": 30,
+        "ranged": 30
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

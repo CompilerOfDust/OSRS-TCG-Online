@@ -1,0 +1,67 @@
+{
+  "id": 7006,
+  "cardId": "itm_mystic-boots-dark",
+  "name": "Mystic boots (dark)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Dark magical boots.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mystic_boots_%28dark%29.png",
+  "debut": "2005-01-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4107
+    ],
+    "pageSlug": "Mystic_boots_(dark)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mystic_boots_(dark)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 92205,
+      "buyLimit": 70,
+      "dailyVolume": 179
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": 0
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

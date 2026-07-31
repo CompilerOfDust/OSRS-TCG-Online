@@ -1,0 +1,37 @@
+{
+  "id": 8941,
+  "cardId": "itm_brulee-supreme",
+  "name": "Brulee supreme",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pot of brulee supreme.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Brulee_supreme.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7476
+    ],
+    "pageSlug": "Brulee_supreme",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Brulee_supreme"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.3,
+    "market": null
+  }
+}

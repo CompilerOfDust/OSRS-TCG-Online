@@ -1,0 +1,38 @@
+{
+  "id": 5630,
+  "cardId": "itm_rotten-turnip",
+  "name": "Rotten turnip",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Used to assist with developing plugins.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rotten_turnip.png",
+  "debut": "2025-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30890
+    ],
+    "pageSlug": "Rotten_turnip",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rotten_turnip"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Chomp",
+      "Rub",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

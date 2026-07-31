@@ -1,0 +1,36 @@
+{
+  "id": 1822,
+  "cardId": "itm_auto-weed",
+  "name": "Auto-weed",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Nothing like it to keep your crops free of weeds.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Auto-weed.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1459
+    ],
+    "pageSlug": "Auto-weed_(interface_item)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Auto-weed_(interface_item)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.007,
+    "market": null
+  }
+}

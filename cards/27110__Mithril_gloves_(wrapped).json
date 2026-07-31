@@ -1,0 +1,63 @@
+{
+  "id": 4579,
+  "cardId": "itm_mithril-gloves-wrapped",
+  "name": "Mithril gloves (wrapped)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A pair of nice gloves with wristwraps to enhance their qualities.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mithril_gloves_%28wrapped%29.png",
+  "debut": "2022-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27110
+    ],
+    "pageSlug": "Mithril_gloves_(wrapped)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mithril_gloves_(wrapped)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 51000,
+    "lowAlchemy": 34000,
+    "weightKg": 0.25,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 15,
+        "slash": 15,
+        "crush": 15,
+        "magic": 6,
+        "ranged": 15
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 6,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

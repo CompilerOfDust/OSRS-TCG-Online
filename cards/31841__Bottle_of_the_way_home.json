@@ -1,0 +1,37 @@
+{
+  "id": 5987,
+  "cardId": "itm_bottle-of-the-way-home",
+  "name": "Bottle of the way home",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I'm tired and I want to go to bed.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_the_way_home.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31841
+    ],
+    "pageSlug": "Bottle_of_the_way_home",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_the_way_home"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

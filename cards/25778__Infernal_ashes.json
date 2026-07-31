@@ -1,0 +1,41 @@
+{
+  "id": 4155,
+  "cardId": "itm_infernal-ashes",
+  "name": "Infernal ashes",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A heap of ashes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Infernal_ashes.png",
+  "debut": "2021-06-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25778
+    ],
+    "pageSlug": "Infernal_ashes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Infernal_ashes"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Scatter",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 3205,
+      "buyLimit": 7500,
+      "dailyVolume": 66568
+    }
+  }
+}

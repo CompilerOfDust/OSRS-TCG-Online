@@ -1,0 +1,54 @@
+{
+  "id": 7517,
+  "cardId": "npc_parrots",
+  "name": "Parrots",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "What a colourful bunch of parrots!",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-10-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4768
+    ],
+    "pageSlug": "Parrots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Parrots"
+  },
+  "npcProfile": {
+    "race": "Bird",
+    "gender": null,
+    "locations": [
+      "Ardougne Zoo"
+    ],
+    "questLine": "Eadgar's Ruse",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 2226,
+  "cardId": "itm_tenti-pineapple",
+  "name": "Tenti pineapple",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The most delicious of pineapples.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tenti_pineapple.png",
+  "debut": "2003-04-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1851
+    ],
+    "pageSlug": "Tenti_pineapple",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tenti_pineapple"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

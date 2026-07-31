@@ -1,0 +1,38 @@
+{
+  "id": 3543,
+  "cardId": "itm_prifddinas-teleport",
+  "name": "Prifddinas teleport",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This tablet has been redirected to the Prifddinas portal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Prifddinas_teleport.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23771
+    ],
+    "pageSlug": "Prifddinas_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Prifddinas_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Revert",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 1838,
+  "cardId": "npc_doom-of-mokhaiotl",
+  "name": "Doom of Mokhaiotl",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A demonic digger.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Doom_of_Mokhaiotl.png",
+  "debut": "2025-07-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      14707
+    ],
+    "pageSlug": "Doom_of_Mokhaiotl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Doom_of_Mokhaiotl"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Demon"
+    ],
+    "tileSize": "5x5",
+    "combatRating": 558,
+    "vitality": 525,
+    "peakDamage": "47 60 (charge)",
+    "combatXpBonusPct": 62.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee",
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": null,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 300,
+      "strength": 190,
+      "defence": 90,
+      "magic": 275,
+      "ranged": 110
+    },
+    "aggressiveBonuses": null
+  }
+}

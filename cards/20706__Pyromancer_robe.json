@@ -1,0 +1,77 @@
+{
+  "id": 2645,
+  "cardId": "itm_pyromancer-robe",
+  "name": "Pyromancer robe",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    10035,
+    10041,
+    10047,
+    10055,
+    10059,
+    10063,
+    10067,
+    11022,
+    12889,
+    12894,
+    13664,
+    19693,
+    20442
+  ],
+  "flavourText": "The robes of the Pyromancers.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pyromancer_robe.png",
+  "debut": "2016-09-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20706
+    ],
+    "pageSlug": "Pyromancer_robe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pyromancer_robe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 420,
+    "lowAlchemy": 280,
+    "weightKg": 0.18,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

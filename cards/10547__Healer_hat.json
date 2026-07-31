@@ -1,0 +1,63 @@
+{
+  "id": 225,
+  "cardId": "itm_healer-hat",
+  "name": "Healer hat",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A Penance Healer hat.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Healer_hat.png",
+  "debut": "2007-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10547
+    ],
+    "pageSlug": "Healer_hat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Healer_hat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": -5,
+        "slash": -5,
+        "crush": -5,
+        "magic": 6,
+        "ranged": -5
+      },
+      "defence": {
+        "stab": 6,
+        "slash": 8,
+        "crush": 10,
+        "magic": 7,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

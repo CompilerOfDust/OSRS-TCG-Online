@@ -1,0 +1,40 @@
+{
+  "id": 7767,
+  "cardId": "itm_palm-tree-seed",
+  "name": "Palm tree seed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Plant in a plantpot of soil to grow a sapling.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Palm_tree_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5289
+    ],
+    "pageSlug": "Palm_tree_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Palm_tree_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 152,
+    "lowAlchemy": 101,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 16923,
+      "buyLimit": 200,
+      "dailyVolume": 22721
+    }
+  }
+}

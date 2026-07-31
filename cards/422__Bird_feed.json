@@ -1,0 +1,37 @@
+{
+  "id": 7120,
+  "cardId": "itm_bird-feed",
+  "name": "Bird feed",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Birds love this stuff!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bird_feed.png",
+  "debut": "2002-10-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      422
+    ],
+    "pageSlug": "Bird_feed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bird_feed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Throw",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.05,
+    "market": null
+  }
+}

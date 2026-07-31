@@ -1,0 +1,38 @@
+{
+  "id": 2357,
+  "cardId": "itm_hosidius-teleport",
+  "name": "Hosidius teleport",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This tablet has been redirected to Hosidius.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hosidius_teleport.png",
+  "debut": "2016-05-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19651
+    ],
+    "pageSlug": "Hosidius_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hosidius_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Revert",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 7141,
+  "cardId": "itm_book-of-haricanto",
+  "name": "Book of haricanto",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The Book of Haricanto.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Book_of_haricanto.png",
+  "debut": "2005-02-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4248
+    ],
+    "pageSlug": "Book_of_haricanto",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Book_of_haricanto"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

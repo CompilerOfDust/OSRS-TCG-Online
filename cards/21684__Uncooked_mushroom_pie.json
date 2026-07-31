@@ -1,0 +1,40 @@
+{
+  "id": 2999,
+  "cardId": "itm_uncooked-mushroom-pie",
+  "name": "Uncooked mushroom pie",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This would be much tastier cooked.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncooked_mushroom_pie.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21684
+    ],
+    "pageSlug": "Uncooked_mushroom_pie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncooked_mushroom_pie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 11410,
+      "buyLimit": 13000,
+      "dailyVolume": 1
+    }
+  }
+}

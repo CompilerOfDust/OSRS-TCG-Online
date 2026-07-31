@@ -1,0 +1,55 @@
+{
+  "id": 2026,
+  "cardId": "npc_dire-bat",
+  "name": "Dire bat",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A nasty fluffy thing with wings.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dire_bat.png",
+  "debut": "2026-06-30",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15757
+    ],
+    "pageSlug": "Dire_bat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dire_bat"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 142,
+    "vitality": null,
+    "peakDamage": "6",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Typeless",
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

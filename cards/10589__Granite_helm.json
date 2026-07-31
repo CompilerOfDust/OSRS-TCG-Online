@@ -1,0 +1,67 @@
+{
+  "id": 267,
+  "cardId": "itm_granite-helm",
+  "name": "Granite helm",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A stone helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Granite_helm.png",
+  "debut": "2007-01-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10589
+    ],
+    "pageSlug": "Granite_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Granite_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 27600,
+    "lowAlchemy": 18400,
+    "weightKg": 4.535,
+    "market": {
+      "guidePrice": 28006,
+      "buyLimit": 70,
+      "dailyVolume": 109
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -9,
+        "ranged": -7
+      },
+      "defence": {
+        "stab": 31,
+        "slash": 33,
+        "crush": 29,
+        "magic": -1,
+        "ranged": 39
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 3432,
+  "cardId": "itm_strange-device",
+  "name": "Strange device",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You can sense strange powers emanating from it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Strange_device_%28beginner%29.png",
+  "debut": "2019-04-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23183
+    ],
+    "pageSlug": "Strange_device",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Strange_device"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Feel",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

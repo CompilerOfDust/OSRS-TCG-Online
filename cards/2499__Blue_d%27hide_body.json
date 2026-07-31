@@ -1,0 +1,70 @@
+{
+  "id": 3919,
+  "cardId": "itm_blue-dhide-body",
+  "name": "Blue d'hide body",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    7374,
+    7376
+  ],
+  "flavourText": "Made from 100% real dragonhide.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_d%27hide_body.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2499
+    ],
+    "pageSlug": "Blue_d%27hide_body",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_d%27hide_body"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 5616,
+    "lowAlchemy": 3744,
+    "weightKg": 6.803,
+    "market": {
+      "guidePrice": 4904,
+      "buyLimit": 125,
+      "dailyVolume": 154206
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -15,
+        "ranged": 20
+      },
+      "defence": {
+        "stab": 23,
+        "slash": 30,
+        "crush": 30,
+        "magic": 28,
+        "ranged": 40
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 7901,
+  "cardId": "itm_strawberry",
+  "name": "Strawberry",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A freshly picked strawberry.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Strawberry.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5504
+    ],
+    "pageSlug": "Strawberry",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Strawberry"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 10,
+    "lowAlchemy": 6,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 64,
+      "buyLimit": 11000,
+      "dailyVolume": 34290
+    }
+  },
+  "special": false
+}

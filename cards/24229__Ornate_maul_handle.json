@@ -1,0 +1,40 @@
+{
+  "id": 3686,
+  "cardId": "itm_ornate-maul-handle",
+  "name": "Ornate maul handle",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "This handle can be applied to the granite maul.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ornate_maul_handle.png",
+  "debut": "2019-09-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24229
+    ],
+    "pageSlug": "Ornate_maul_handle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ornate_maul_handle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 625129,
+      "buyLimit": 50,
+      "dailyVolume": 3938
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 1540,
+  "cardId": "itm_steel-warhammer",
+  "name": "Steel warhammer",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I don't think it's intended for joinery.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_warhammer.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1339
+    ],
+    "pageSlug": "Steel_warhammer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_warhammer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 384,
+    "lowAlchemy": 256,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 117,
+      "buyLimit": 125,
+      "dailyVolume": 6052
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -4,
+        "slash": -4,
+        "crush": 18,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 18,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

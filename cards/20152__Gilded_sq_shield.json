@@ -1,0 +1,76 @@
+{
+  "id": 2550,
+  "cardId": "itm_gilded-sq-shield",
+  "name": "Gilded sq shield",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [
+    1173,
+    1175,
+    1177,
+    1179,
+    1181,
+    1183,
+    1185
+  ],
+  "flavourText": "A medium square shield in gold plate.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gilded_sq_shield.png",
+  "debut": "2016-07-06",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20152
+    ],
+    "pageSlug": "Gilded_sq_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gilded_sq_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 23040,
+    "lowAlchemy": 15360,
+    "weightKg": 3.628,
+    "market": {
+      "guidePrice": 1366239,
+      "buyLimit": 70,
+      "dailyVolume": 94
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 38,
+        "slash": 40,
+        "crush": 36,
+        "magic": 0,
+        "ranged": 38
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": true
+}

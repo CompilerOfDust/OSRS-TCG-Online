@@ -1,0 +1,36 @@
+{
+  "id": 3323,
+  "cardId": "itm_kq-head-tattered",
+  "name": "Kq head (tattered)",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Good enough for mounting on a wall, but not something a Slayer Master would be interested in. I should get it stuffed!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kq_head_%28tattered%29.png",
+  "debut": "2018-10-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22671
+    ],
+    "pageSlug": "Kq_head_(tattered)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kq_head_(tattered)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 10,
+    "market": null
+  }
+}

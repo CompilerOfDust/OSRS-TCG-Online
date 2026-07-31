@@ -1,0 +1,41 @@
+{
+  "id": 8121,
+  "cardId": "itm_maple-leaves",
+  "name": "Maple leaves",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pile of Maple tree leaves.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maple_leaves.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6028
+    ],
+    "pageSlug": "Maple_leaves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maple_leaves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 354,
+      "buyLimit": null,
+      "dailyVolume": 11934
+    }
+  },
+  "special": false
+}

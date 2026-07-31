@@ -1,0 +1,40 @@
+{
+  "id": 7383,
+  "cardId": "itm_fake-beard",
+  "name": "Fake beard",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Makes me itch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fake_beard.png",
+  "debut": "2005-04-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4593
+    ],
+    "pageSlug": "Fake_beard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fake_beard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.03,
+    "market": {
+      "guidePrice": 704,
+      "buyLimit": 15,
+      "dailyVolume": 288
+    }
+  }
+}

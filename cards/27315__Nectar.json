@@ -1,0 +1,41 @@
+{
+  "id": 4615,
+  "cardId": "itm_nectar-1",
+  "name": "Nectar (4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    27317,
+    27319,
+    27321
+  ],
+  "flavourText": "Provides immediate healing at the cost of combat prowess.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nectar_%284%29.png",
+  "debut": "2022-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27315
+    ],
+    "pageSlug": "Nectar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nectar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 4352,
+  "cardId": "itm_nexling",
+  "name": "Nexling",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "The gods don't quite fear this one.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nexling.png",
+  "debut": "2022-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26348
+    ],
+    "pageSlug": "Nexling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nexling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

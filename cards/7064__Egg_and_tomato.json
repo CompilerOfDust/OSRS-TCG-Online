@@ -1,0 +1,41 @@
+{
+  "id": 8713,
+  "cardId": "itm_egg-and-tomato",
+  "name": "Egg and tomato",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bowl of scrambled eggs and tomato.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Egg_and_tomato.png",
+  "debut": "2006-01-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7064
+    ],
+    "pageSlug": "Egg_and_tomato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Egg_and_tomato"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 4,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 180,
+      "buyLimit": 13000,
+      "dailyVolume": 0
+    }
+  }
+}

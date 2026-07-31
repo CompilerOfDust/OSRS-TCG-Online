@@ -1,0 +1,40 @@
+{
+  "id": 1251,
+  "cardId": "itm_clue-box",
+  "name": "Clue box",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Protects your clue scroll if you die.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Clue_box.png",
+  "debut": "2014-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12789
+    ],
+    "pageSlug": "Clue_box",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Clue_box"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 188250,
+      "buyLimit": 50,
+      "dailyVolume": 93
+    }
+  }
+}

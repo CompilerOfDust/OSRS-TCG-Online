@@ -1,0 +1,67 @@
+{
+  "id": 3480,
+  "cardId": "itm_3rd-age-druidic-staff",
+  "name": "3rd age druidic staff",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A fabulously ancient gnarled staff as used by the druids of old.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/3rd_age_druidic_staff.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23342
+    ],
+    "pageSlug": "3rd_age_druidic_staff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/3rd_age_druidic_staff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 120000,
+    "lowAlchemy": 80000,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 636883343,
+      "buyLimit": 8,
+      "dailyVolume": 1
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 7,
+        "slash": -1,
+        "crush": 25,
+        "magic": 10,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 10,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 32,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 6
+      }
+    }
+  }
+}

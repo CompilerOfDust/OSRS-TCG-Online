@@ -1,0 +1,41 @@
+{
+  "id": 3429,
+  "cardId": "itm_pie-shell",
+  "name": "Pie shell",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to find a filling for this pie.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pie_shell.png",
+  "debut": "2001-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2315
+    ],
+    "pageSlug": "Pie_shell",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pie_shell"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 272,
+      "buyLimit": 13000,
+      "dailyVolume": 127215
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,42 @@
+{
+  "id": 3108,
+  "cardId": "itm_worm-crunchies",
+  "name": "Worm crunchies",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It actually smells quite good.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Worm_crunchies.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2205
+    ],
+    "pageSlug": "Worm_crunchies",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Worm_crunchies"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 4315,
+      "buyLimit": 6000,
+      "dailyVolume": 5
+    }
+  },
+  "special": false
+}

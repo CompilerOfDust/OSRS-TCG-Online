@@ -1,0 +1,57 @@
+{
+  "id": 1891,
+  "cardId": "npc_spencer-brentwood",
+  "name": "Spencer Brentwood",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A book once described him as a philanthropic genius. The book was an autobiography.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2026-05-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15017,
+      15020
+    ],
+    "pageSlug": "Spencer_Brentwood",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spencer_Brentwood"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "The Zenith"
+    ],
+    "questLine": "The Red Reef",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

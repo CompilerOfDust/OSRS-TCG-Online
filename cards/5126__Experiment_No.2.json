@@ -1,0 +1,55 @@
+{
+  "id": 7707,
+  "cardId": "npc_experiment-no-2",
+  "name": "Experiment No.2",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A very odd looking creature.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Experiment_No.2.png",
+  "debut": "2007-06-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5126
+    ],
+    "pageSlug": "Experiment_No.2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Experiment_No.2"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 109,
+    "vitality": null,
+    "peakDamage": "11 (approx)",
+    "combatXpBonusPct": 2.5,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab",
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 10,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": true,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

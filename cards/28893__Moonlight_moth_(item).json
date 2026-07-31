@@ -1,0 +1,45 @@
+{
+  "id": 5025,
+  "cardId": "itm_moonlight-moth",
+  "name": "Moonlight moth",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    29195,
+    29213
+  ],
+  "flavourText": "There's a moonlight moth in here.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Moonlight_moth_%28item%29.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28893
+    ],
+    "pageSlug": "Moonlight_moth_(item)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Moonlight_moth_(item)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Release",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 996,
+      "buyLimit": 125,
+      "dailyVolume": 7125
+    }
+  },
+  "special": false
+}

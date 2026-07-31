@@ -1,0 +1,67 @@
+{
+  "id": 7374,
+  "cardId": "itm_black-spear",
+  "name": "Black spear",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A black tipped spear.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_spear.png",
+  "debut": "2005-05-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4580
+    ],
+    "pageSlug": "Black_spear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_spear"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 390,
+    "lowAlchemy": 260,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 3725,
+      "buyLimit": 8,
+      "dailyVolume": 99
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 15,
+        "slash": 15,
+        "crush": 15,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 16,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

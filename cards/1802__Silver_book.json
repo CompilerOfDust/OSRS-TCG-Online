@@ -1,0 +1,36 @@
+{
+  "id": 2191,
+  "cardId": "itm_silver-book",
+  "name": "Silver book",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "David's shiny silver coated book.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silver_book.png",
+  "debut": "2003-06-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1802
+    ],
+    "pageSlug": "Silver_book",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silver_book"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.226,
+    "market": null
+  }
+}

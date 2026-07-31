@@ -1,0 +1,38 @@
+{
+  "id": 2336,
+  "cardId": "itm_potion__1",
+  "name": "Potion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    2394
+  ],
+  "flavourText": "This is meant to be good for spots.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Potion_%28Apothecary%29.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      195
+    ],
+    "pageSlug": "Potion_(Apothecary)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Potion_(Apothecary)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.025,
+    "market": null
+  }
+}

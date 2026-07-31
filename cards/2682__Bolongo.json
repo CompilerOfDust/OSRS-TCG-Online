@@ -1,0 +1,58 @@
+{
+  "id": 4517,
+  "cardId": "npc_bolongo",
+  "name": "Bolongo",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Perhaps this gardener might look after your crops for you.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-07-11",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2682
+    ],
+    "pageSlug": "Bolongo",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bolongo"
+  },
+  "npcProfile": {
+    "race": "Gnome",
+    "gender": "Male",
+    "locations": [
+      "Tree Gnome Stronghold"
+    ],
+    "questLine": "Fairytale I - Growing Pains",
+    "shop": "Farming supplies",
+    "menuActions": [
+      "Talk-to",
+      "Pay",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

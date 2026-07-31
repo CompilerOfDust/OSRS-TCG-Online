@@ -1,0 +1,67 @@
+{
+  "id": 947,
+  "cardId": "itm_ancient-robe-legs",
+  "name": "Ancient robe legs",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Leggings from the Ancient Vestments.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_robe_legs.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12195
+    ],
+    "pageSlug": "Ancient_robe_legs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_robe_legs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 4200,
+    "lowAlchemy": 2800,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 25543,
+      "buyLimit": 8,
+      "dailyVolume": 75
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 4,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  }
+}

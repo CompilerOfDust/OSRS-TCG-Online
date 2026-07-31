@@ -1,0 +1,40 @@
+{
+  "id": 8226,
+  "cardId": "itm_ribcage-piece",
+  "name": "Ribcage piece",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A slightly damaged ribcage.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ribcage_piece.png",
+  "debut": "2005-08-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6165
+    ],
+    "pageSlug": "Ribcage_piece",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ribcage_piece"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 16137,
+      "buyLimit": 11000,
+      "dailyVolume": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 1715,
+  "cardId": "itm_water-battlestaff",
+  "name": "Water battlestaff",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It's a slightly magical stick.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Water_battlestaff.png",
+  "debut": "2002-03-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1395
+    ],
+    "pageSlug": "Water_battlestaff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Water_battlestaff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 9300,
+    "lowAlchemy": 6200,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 8686,
+      "buyLimit": 18000,
+      "dailyVolume": 148345
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 7,
+        "slash": -1,
+        "crush": 28,
+        "magic": 12,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 12,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 35,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

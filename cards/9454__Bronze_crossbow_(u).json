@@ -1,0 +1,40 @@
+{
+  "id": 9879,
+  "cardId": "itm_bronze-crossbow-u",
+  "name": "Bronze crossbow (u)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An unstrung bronze crossbow.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_crossbow_%28u%29.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9454
+    ],
+    "pageSlug": "Bronze_crossbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_crossbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 8,
+    "market": {
+      "guidePrice": 97,
+      "buyLimit": 10000,
+      "dailyVolume": 25
+    }
+  }
+}

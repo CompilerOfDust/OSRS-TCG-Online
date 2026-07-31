@@ -1,0 +1,64 @@
+{
+  "id": 8467,
+  "cardId": "npc_scorpias-guardian",
+  "name": "Scorpia's guardian",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It lives to protect its queen.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Scorpia%27s_guardian.png",
+  "debut": "2014-03-13",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6617
+    ],
+    "pageSlug": "Scorpia%27s_guardian",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Scorpia%27s_guardian"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 47,
+    "vitality": null,
+    "peakDamage": "4",
+    "combatXpBonusPct": -97.5,
+    "hostile": false,
+    "assaultStyles": [
+      "None"
+    ],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 70,
+      "group": "Scorpions",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Krystilia",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

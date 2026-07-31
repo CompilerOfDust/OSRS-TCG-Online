@@ -1,0 +1,36 @@
+{
+  "id": 3835,
+  "cardId": "itm_long-rope",
+  "name": "Long rope",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Like normal rope, but with extra length.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Long_rope.png",
+  "debut": "2020-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24790
+    ],
+    "pageSlug": "Long_rope",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Long_rope"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24000,
+    "lowAlchemy": 16000,
+    "weightKg": 1.36,
+    "market": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 5915,
+  "cardId": "itm_red-crab",
+  "name": "Red crab",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You'll need something to break through that shell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_crab.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31671
+    ],
+    "pageSlug": "Red_crab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_crab"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.6,
+    "market": {
+      "guidePrice": 120,
+      "buyLimit": null,
+      "dailyVolume": 2112
+    }
+  }
+}

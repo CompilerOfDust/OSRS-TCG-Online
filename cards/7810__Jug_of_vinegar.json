@@ -1,0 +1,37 @@
+{
+  "id": 9139,
+  "cardId": "itm_jug-of-vinegar",
+  "name": "Jug of vinegar",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This wine clearly did not age well.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jug_of_vinegar.png",
+  "debut": "2006-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7810
+    ],
+    "pageSlug": "Jug_of_vinegar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jug_of_vinegar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 2615,
+  "cardId": "npc_chaos-elemental",
+  "name": "Chaos Elemental",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [
+    6505
+  ],
+  "flavourText": "pUre A cHaOs of crEatuRe!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chaos_Elemental.png",
+  "debut": "2006-02-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2054
+    ],
+    "pageSlug": "Chaos_Elemental",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chaos_Elemental"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 305,
+    "vitality": null,
+    "peakDamage": "28",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Ranged",
+      "Melee",
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 14,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": null,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 268.75,
+      "group": "Bosses",
+      "masters": [
+        "Krystilia",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

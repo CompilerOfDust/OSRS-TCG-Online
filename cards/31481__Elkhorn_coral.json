@@ -1,0 +1,41 @@
+{
+  "id": 5859,
+  "cardId": "itm_elkhorn-coral",
+  "name": "Elkhorn coral",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "No elks were harmed in the making of this coral.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elkhorn_coral.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31481
+    ],
+    "pageSlug": "Elkhorn_coral",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elkhorn_coral"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 31,
+    "lowAlchemy": 20,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 1885,
+      "buyLimit": 13000,
+      "dailyVolume": 37221
+    }
+  },
+  "special": false
+}

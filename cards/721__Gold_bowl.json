@@ -1,0 +1,36 @@
+{
+  "id": 8805,
+  "cardId": "itm_gold-bowl",
+  "name": "Gold bowl",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A specially-made bowl constructed out of pure gold.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gold_bowl.png",
+  "debut": "2003-08-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      721
+    ],
+    "pageSlug": "Gold_bowl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gold_bowl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 420,
+    "lowAlchemy": 280,
+    "weightKg": 0.8,
+    "market": null
+  }
+}

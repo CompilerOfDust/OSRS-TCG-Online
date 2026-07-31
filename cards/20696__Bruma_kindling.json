@@ -1,0 +1,36 @@
+{
+  "id": 2640,
+  "cardId": "itm_bruma-kindling",
+  "name": "Bruma kindling",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This should light a brazier nicely.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bruma_kindling.png",
+  "debut": "2016-09-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20696
+    ],
+    "pageSlug": "Bruma_kindling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bruma_kindling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2,
+    "market": null
+  }
+}

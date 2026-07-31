@@ -1,0 +1,67 @@
+{
+  "id": 9527,
+  "cardId": "itm_adamant-knife",
+  "name": "Adamant knife",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A finely balanced throwing knife.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_knife.png",
+  "debut": "2003-04-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      867
+    ],
+    "pageSlug": "Adamant_knife",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_knife"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 39,
+    "lowAlchemy": 26,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 349,
+      "buyLimit": 11000,
+      "dailyVolume": 49774
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 15
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 3,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 14,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

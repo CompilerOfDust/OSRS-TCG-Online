@@ -1,0 +1,36 @@
+{
+  "id": 3494,
+  "cardId": "itm_sliding-piece-theatre-of-blood",
+  "name": "Sliding piece (Theatre of Blood)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "N/A",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sliding_piece_%28Theatre_of_Blood%2C_1%29.png",
+  "debut": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23418
+    ],
+    "pageSlug": "Sliding_piece_(Theatre_of_Blood)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sliding_piece_(Theatre_of_Blood)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

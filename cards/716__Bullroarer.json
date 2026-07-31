@@ -1,0 +1,37 @@
+{
+  "id": 8777,
+  "cardId": "itm_bullroarer",
+  "name": "Bullroarer",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It makes a loud but interesting sound when swung in the air.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bullroarer.png",
+  "debut": "2003-08-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      716
+    ],
+    "pageSlug": "Bullroarer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bullroarer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Swing",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 3401,
+  "cardId": "itm_hydra-tail",
+  "name": "Hydra tail",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Tail of a hydra, can be attached to a bonecrusher.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hydra_tail.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22988
+    ],
+    "pageSlug": "Hydra_tail",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hydra_tail"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 0.226,
+    "market": {
+      "guidePrice": 99103,
+      "buyLimit": 15,
+      "dailyVolume": 184
+    }
+  }
+}

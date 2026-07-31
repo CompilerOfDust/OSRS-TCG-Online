@@ -1,0 +1,68 @@
+{
+  "id": 2637,
+  "cardId": "npc_mounted-terrorbird-gnome",
+  "name": "Mounted terrorbird gnome",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "These gnomes know how to get around!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mounted_terrorbird_gnome.png",
+  "debut": "2004-03-29",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2067
+    ],
+    "pageSlug": "Mounted_terrorbird_gnome",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mounted_terrorbird_gnome"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 31,
+    "vitality": 36,
+    "peakDamage": "3",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 36,
+      "group": "Birds",
+      "masters": [
+        "Turael",
+        "Spria"
+      ]
+    },
+    "combatLevels": {
+      "attack": 25,
+      "strength": 25,
+      "defence": 25,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

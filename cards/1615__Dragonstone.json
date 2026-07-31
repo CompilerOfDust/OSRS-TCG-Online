@@ -1,0 +1,42 @@
+{
+  "id": 2059,
+  "cardId": "itm_dragonstone",
+  "name": "Dragonstone",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    6903
+  ],
+  "flavourText": "This looks valuable.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragonstone.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1615
+    ],
+    "pageSlug": "Dragonstone",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragonstone"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.002,
+    "market": {
+      "guidePrice": 11112,
+      "buyLimit": 11000,
+      "dailyVolume": 285037
+    }
+  }
+}

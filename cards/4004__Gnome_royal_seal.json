@@ -1,0 +1,36 @@
+{
+  "id": 6920,
+  "cardId": "itm_gnome-royal-seal",
+  "name": "Gnome royal seal",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's the official Gnome Royal Seal, signed by King Narnode Shareen.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gnome_royal_seal.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4004
+    ],
+    "pageSlug": "Gnome_royal_seal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gnome_royal_seal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

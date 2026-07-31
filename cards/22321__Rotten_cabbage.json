@@ -1,0 +1,40 @@
+{
+  "id": 3197,
+  "cardId": "itm_rotten-cabbage",
+  "name": "Rotten cabbage",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Eww!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rotten_cabbage.png",
+  "debut": "2018-03-01",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22321
+    ],
+    "pageSlug": "Rotten_cabbage",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rotten_cabbage"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Control",
+      "Spectate",
+      "Info",
+      "Options",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 2730,
+  "cardId": "itm_twisted-1__1",
+  "name": "Twisted (-)(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    20925,
+    20926,
+    20927
+  ],
+  "flavourText": "The potion blends the dexterity and devastation of Xeric's twisted archers. It was mixed particularly badly.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Twisted_%28-%29%284%29.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20928
+    ],
+    "pageSlug": "Twisted_(-)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Twisted_(-)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.02,
+    "market": null
+  },
+  "special": false
+}

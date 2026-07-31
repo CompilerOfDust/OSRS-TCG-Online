@@ -1,0 +1,41 @@
+{
+  "id": 2054,
+  "cardId": "itm_sapphire",
+  "name": "Sapphire",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This looks valuable.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sapphire.png",
+  "debut": "2001-05-08",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1607
+    ],
+    "pageSlug": "Sapphire",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sapphire"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.002,
+    "market": {
+      "guidePrice": 230,
+      "buyLimit": 13000,
+      "dailyVolume": 1467842
+    }
+  },
+  "special": false
+}

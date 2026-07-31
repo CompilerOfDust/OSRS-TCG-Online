@@ -1,0 +1,65 @@
+{
+  "id": 8830,
+  "cardId": "npc_skotizo",
+  "name": "Skotizo",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A darkly altared demon.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Skotizo.png",
+  "debut": "2016-06-16",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7286
+    ],
+    "pageSlug": "Skotizo",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Skotizo"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 321,
+    "vitality": null,
+    "peakDamage": "38",
+    "combatXpBonusPct": 37.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab",
+      "Magic"
+    ],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 618.5,
+      "group": "Black Demons, Greater Demons",
+      "masters": [
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

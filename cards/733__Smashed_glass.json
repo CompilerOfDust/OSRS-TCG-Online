@@ -1,0 +1,36 @@
+{
+  "id": 8857,
+  "cardId": "itm_smashed-glass",
+  "name": "Smashed glass",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Fragments of a broken container.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Smashed_glass.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      733
+    ],
+    "pageSlug": "Smashed_glass",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Smashed_glass"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 10012,
+  "cardId": "npc_c0lect0r890",
+  "name": "c0lect0r890",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "He seems to be struggling with that coffin. He must be having bad RNG.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2020-06-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9665
+    ],
+    "pageSlug": "C0lect0r890",
+    "pageUrl": "https://oldschool.runescape.wiki/w/C0lect0r890"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Hallowed Sepulchre"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 126,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

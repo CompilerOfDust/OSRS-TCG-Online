@@ -1,0 +1,42 @@
+{
+  "id": 3449,
+  "cardId": "itm_apple-pie",
+  "name": "Apple pie",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Mmm Apple pie.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Apple_pie.png",
+  "debut": "2001-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2323
+    ],
+    "pageSlug": "Apple_pie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Apple_pie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 91,
+      "buyLimit": 10000,
+      "dailyVolume": 62428
+    }
+  },
+  "special": false
+}

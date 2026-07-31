@@ -1,0 +1,41 @@
+{
+  "id": 6601,
+  "cardId": "itm_riyl-remains",
+  "name": "Riyl remains",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The remains of a deadly shade.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Riyl_remains.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3400
+    ],
+    "pageSlug": "Riyl_remains",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Riyl_remains"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 1012,
+      "buyLimit": 7500,
+      "dailyVolume": 1641
+    }
+  },
+  "special": false
+}

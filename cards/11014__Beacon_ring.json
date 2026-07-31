@@ -1,0 +1,64 @@
+{
+  "id": 456,
+  "cardId": "itm_beacon-ring",
+  "name": "Beacon ring",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A magical ring.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Beacon_ring.png",
+  "debut": "2007-03-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11014
+    ],
+    "pageSlug": "Beacon_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Beacon_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Operate",
+      "Destroy"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.006,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 2,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 1,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

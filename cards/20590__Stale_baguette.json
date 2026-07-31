@@ -1,0 +1,67 @@
+{
+  "id": 2618,
+  "cardId": "itm_stale-baguette",
+  "name": "Stale baguette",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Baguette ready for pain.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stale_baguette.png",
+  "debut": "2016-08-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20590
+    ],
+    "pageSlug": "Stale_baguette",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stale_baguette"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 135,
+    "lowAlchemy": 90,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 754770,
+      "buyLimit": 5,
+      "dailyVolume": 31
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -100,
+        "slash": -100,
+        "crush": -50,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": -10,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

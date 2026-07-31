@@ -1,0 +1,68 @@
+{
+  "id": 2462,
+  "cardId": "npc_ogress-warrior",
+  "name": "Ogress Warrior",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A large angry ogre lady.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ogress_Warrior_(1).png",
+  "debut": "2017-12-07",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7989,
+      7990
+    ],
+    "pageSlug": "Ogress_Warrior",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ogress_Warrior"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 82,
+    "vitality": 82,
+    "peakDamage": "8",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 40,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 82,
+      "group": "Ogres",
+      "masters": [
+        "Vannaka"
+      ]
+    },
+    "combatLevels": {
+      "attack": 68,
+      "strength": 70,
+      "defence": 82,
+      "magic": 60,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

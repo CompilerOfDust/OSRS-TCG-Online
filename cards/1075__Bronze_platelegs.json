@@ -1,0 +1,70 @@
+{
+  "id": 312,
+  "cardId": "itm_bronze-platelegs",
+  "name": "Bronze platelegs",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    12207,
+    12217
+  ],
+  "flavourText": "These look pretty heavy.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_platelegs.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1075
+    ],
+    "pageSlug": "Bronze_platelegs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_platelegs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 48,
+    "lowAlchemy": 32,
+    "weightKg": 9.071,
+    "market": {
+      "guidePrice": 177,
+      "buyLimit": 125,
+      "dailyVolume": 3303
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 8,
+        "slash": 7,
+        "crush": 6,
+        "magic": -4,
+        "ranged": 7
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

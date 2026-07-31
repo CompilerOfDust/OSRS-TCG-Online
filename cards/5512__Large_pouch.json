@@ -1,0 +1,42 @@
+{
+  "id": 7905,
+  "cardId": "itm_large-pouch",
+  "name": "Large pouch",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    6819
+  ],
+  "flavourText": "A large pouch used for storing essence.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Large_pouch.png",
+  "debut": "2005-06-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5512
+    ],
+    "pageSlug": "Large_pouch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Large_pouch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Fill",
+      "Empty",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 360,
+    "lowAlchemy": 240,
+    "weightKg": 1,
+    "market": null
+  },
+  "special": false
+}

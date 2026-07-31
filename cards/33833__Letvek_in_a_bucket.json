@@ -1,0 +1,37 @@
+{
+  "id": 6589,
+  "cardId": "itm_letvek-in-a-bucket",
+  "name": "Letvek in a bucket",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I should probably get rid of it before it drinks all of my sap.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Letvek_in_a_bucket.png",
+  "debut": "2026-07-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33833
+    ],
+    "pageSlug": "Letvek_in_a_bucket",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Letvek_in_a_bucket"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Release",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 3.4,
+    "market": null
+  }
+}

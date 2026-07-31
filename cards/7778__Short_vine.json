@@ -1,0 +1,36 @@
+{
+  "id": 9113,
+  "cardId": "itm_short-vine",
+  "name": "Short vine",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A short vine.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Short_vine.png",
+  "debut": "2006-03-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7778
+    ],
+    "pageSlug": "Short_vine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Short_vine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 5811,
+  "cardId": "itm_cell-key-2",
+  "name": "Cell key 2",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The key to Mad Eadgar's cell in the troll prison (Used in the Troll Stronghold quest).",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cell_key_2.png",
+  "debut": "2004-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3137
+    ],
+    "pageSlug": "Cell_key_2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cell_key_2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.055,
+    "market": null
+  }
+}

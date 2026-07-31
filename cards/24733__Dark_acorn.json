@@ -1,0 +1,36 @@
+{
+  "id": 3820,
+  "cardId": "itm_dark-acorn",
+  "name": "Dark acorn",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A mysterious looking acorn. Perhaps a squirrel would be interested in this?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dark_acorn.png",
+  "debut": "2020-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24733
+    ],
+    "pageSlug": "Dark_acorn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dark_acorn"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

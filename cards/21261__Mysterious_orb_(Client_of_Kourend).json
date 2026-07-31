@@ -1,0 +1,37 @@
+{
+  "id": 2862,
+  "cardId": "itm_mysterious-orb",
+  "name": "Mysterious orb",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Veos' client has requested me to activate this near the Dark Altar.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mysterious_orb_%28Client_of_Kourend%29.png",
+  "debut": "2017-04-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21261
+    ],
+    "pageSlug": "Mysterious_orb_(Client_of_Kourend)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mysterious_orb_(Client_of_Kourend)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Activate",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 5614,
+  "cardId": "itm_contract-of-worm-acquisition",
+  "name": "Contract of worm acquisition",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A contract issued by Yama. Present it to him to discuss some new terms.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Contract_of_worm_acquisition.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30834
+    ],
+    "pageSlug": "Contract_of_worm_acquisition",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Contract_of_worm_acquisition"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 63783,
+      "buyLimit": 50,
+      "dailyVolume": 46
+    }
+  },
+  "special": false
+}

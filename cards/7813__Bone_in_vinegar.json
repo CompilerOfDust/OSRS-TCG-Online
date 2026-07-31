@@ -1,0 +1,37 @@
+{
+  "id": 9142,
+  "cardId": "itm_bone-in-vinegar",
+  "name": "Bone in vinegar",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "There is a goblin bone in here.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bone_in_vinegar.png",
+  "debut": "2006-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7813
+    ],
+    "pageSlug": "Bone_in_vinegar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bone_in_vinegar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.36,
+    "market": null
+  }
+}

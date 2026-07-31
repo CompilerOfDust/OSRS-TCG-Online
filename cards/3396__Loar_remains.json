@@ -1,0 +1,40 @@
+{
+  "id": 6597,
+  "cardId": "itm_loar-remains",
+  "name": "Loar remains",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The remains of a deadly shade.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Loar_remains.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3396
+    ],
+    "pageSlug": "Loar_remains",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Loar_remains"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 189,
+      "buyLimit": 7500,
+      "dailyVolume": 2779
+    }
+  }
+}

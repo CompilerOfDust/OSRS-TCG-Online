@@ -1,0 +1,37 @@
+{
+  "id": 5352,
+  "cardId": "itm_fortis-ash-white",
+  "name": "Fortis ash white",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A highly aromatic Fortis White that's no longer produced due to vine rot.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fortis_ash_white.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29961
+    ],
+    "pageSlug": "Fortis_ash_white",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fortis_ash_white"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 1,
+    "market": null
+  }
+}

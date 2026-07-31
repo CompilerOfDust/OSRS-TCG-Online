@@ -1,0 +1,70 @@
+{
+  "id": 2136,
+  "cardId": "itm_holy-symbol",
+  "name": "Holy symbol",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    4682
+  ],
+  "flavourText": "A blessed holy symbol of Saradomin.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Holy_symbol.png",
+  "debut": "2001-07-12",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1718
+    ],
+    "pageSlug": "Holy_symbol",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Holy_symbol"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 354,
+      "buyLimit": 125,
+      "dailyVolume": 3106
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 2,
+        "crush": 2,
+        "magic": 2,
+        "ranged": 2
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 8
+      }
+    }
+  },
+  "special": false
+}

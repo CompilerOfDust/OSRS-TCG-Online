@@ -1,0 +1,65 @@
+{
+  "id": 5258,
+  "cardId": "itm_purging-staff",
+  "name": "Purging staff",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Fire and lightning sizzle in the brazier.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Purging_staff.png",
+  "debut": "2024-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29594
+    ],
+    "pageSlug": "Purging_staff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Purging_staff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Revert",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 480000,
+    "lowAlchemy": 320000,
+    "weightKg": 2.721,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 10,
+        "slash": -5,
+        "crush": 83,
+        "magic": 37,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 0,
+        "magic": 25,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 62,
+        "rangedStrength": 0,
+        "magicDamagePct": 10,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

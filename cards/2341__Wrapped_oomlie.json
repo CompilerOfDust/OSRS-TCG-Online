@@ -1,0 +1,40 @@
+{
+  "id": 3495,
+  "cardId": "itm_wrapped-oomlie",
+  "name": "Wrapped oomlie",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Oomlie meat in a palm leaf pouch. It just needs to be cooked.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wrapped_oomlie.png",
+  "debut": "2003-08-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2341
+    ],
+    "pageSlug": "Wrapped_oomlie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wrapped_oomlie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.325,
+    "market": {
+      "guidePrice": 6200,
+      "buyLimit": 15,
+      "dailyVolume": 84
+    }
+  }
+}

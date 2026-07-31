@@ -1,0 +1,41 @@
+{
+  "id": 2430,
+  "cardId": "itm_grimy-guam-leaf",
+  "name": "Grimy guam leaf",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It needs cleaning.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grimy_guam_leaf.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      199
+    ],
+    "pageSlug": "Grimy_guam_leaf",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grimy_guam_leaf"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Clean",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 5,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 186,
+      "buyLimit": 13000,
+      "dailyVolume": 193170
+    }
+  }
+}

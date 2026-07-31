@@ -1,0 +1,81 @@
+{
+  "id": 10104,
+  "cardId": "npc_dagannoth-mother",
+  "name": "Dagannoth mother",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6361,
+    6362,
+    6363,
+    6364,
+    6365,
+    6366
+  ],
+  "flavourText": "A horror from the ocean depths...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dagannoth_mother_white.png",
+  "debut": "2004-11-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      980,
+      981,
+      982,
+      983,
+      984,
+      985,
+      986,
+      987,
+      988
+    ],
+    "pageSlug": "Dagannoth_mother",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dagannoth_mother"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 100,
+    "vitality": null,
+    "peakDamage": "9 ( Melee ) 12×2 ( Ranged )",
+    "combatXpBonusPct": 5,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee",
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 126,
+      "group": "Dagannoth",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 2882,
+  "cardId": "itm_amethyst-broad-bolts",
+  "name": "Amethyst broad bolts",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Crossbow bolts with amethyst broad tips.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amethyst_broad_bolts_1.png",
+  "debut": "2017-06-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21316
+    ],
+    "pageSlug": "Amethyst_broad_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amethyst_broad_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 144,
+    "lowAlchemy": 96,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 186,
+      "buyLimit": 11000,
+      "dailyVolume": 620940
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 115,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 4083,
+  "cardId": "itm_damp-egg",
+  "name": "Damp egg",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This egg appears to have been for a swim recently. It probably wouldn't taste very nice.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Damp_egg.png",
+  "debut": "2021-03-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25571
+    ],
+    "pageSlug": "Damp_egg",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Damp_egg"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": 4621,
+  "cardId": "itm_ambrosia-1",
+  "name": "Ambrosia (2)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    27349
+  ],
+  "flavourText": "Restores and boosts health and prayer while also curing poison.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ambrosia_%282%29.png",
+  "debut": "2022-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27347
+    ],
+    "pageSlug": "Ambrosia",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ambrosia"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

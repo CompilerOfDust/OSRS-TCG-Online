@@ -1,0 +1,66 @@
+{
+  "id": 9853,
+  "cardId": "npc_phosanis-nightmare",
+  "name": "Phosani's Nightmare",
+  "cardKind": "npc",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Sweet dreams are most definitely not made of this.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/The_Nightmare.png",
+  "debut": "2021-06-30",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9416,
+      9417,
+      9418,
+      9419,
+      9420,
+      9421,
+      9422,
+      9424,
+      11153,
+      11154,
+      11155
+    ],
+    "pageSlug": "Phosani%27s_Nightmare",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Phosani%27s_Nightmare"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 1024,
+    "vitality": null,
+    "peakDamage": "73 (melee) 80 (magic/ranged) ~85 (dash)",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

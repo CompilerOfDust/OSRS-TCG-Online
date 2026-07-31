@@ -1,0 +1,67 @@
+{
+  "id": 6592,
+  "cardId": "itm_splitbark-legs",
+  "name": "Splitbark legs",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "These should protect my legs.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Splitbark_legs.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3389
+    ],
+    "pageSlug": "Splitbark_legs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Splitbark_legs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 24000,
+    "lowAlchemy": 16000,
+    "weightKg": 3.628,
+    "market": {
+      "guidePrice": 23280,
+      "buyLimit": 70,
+      "dailyVolume": 439
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 7,
+        "ranged": -7
+      },
+      "defence": {
+        "stab": 22,
+        "slash": 20,
+        "crush": 25,
+        "magic": 10,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

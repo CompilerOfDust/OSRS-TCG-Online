@@ -1,0 +1,40 @@
+{
+  "id": 5060,
+  "cardId": "itm_insect-repellent",
+  "name": "Insect repellent",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Drives away all known 6 legged creatures.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Insect_repellent.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28
+    ],
+    "pageSlug": "Insect_repellent",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Insect_repellent"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 313,
+      "buyLimit": 15,
+      "dailyVolume": 106
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 9857,
+  "cardId": "itm_blurite-limbs",
+  "name": "Blurite limbs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A pair of blurite crossbow limbs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blurite_limbs.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9422
+    ],
+    "pageSlug": "Blurite_limbs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blurite_limbs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 19,
+    "lowAlchemy": 13,
+    "weightKg": 1,
+    "market": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 1460,
+  "cardId": "itm_eternal-crystal",
+  "name": "Eternal crystal",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A powerful crystal of magic.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Eternal_crystal.png",
+  "debut": "2015-08-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13227
+    ],
+    "pageSlug": "Eternal_crystal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Eternal_crystal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 27000,
+    "lowAlchemy": 18000,
+    "weightKg": 0.05,
+    "market": {
+      "guidePrice": 2792744,
+      "buyLimit": 15,
+      "dailyVolume": 155
+    }
+  }
+}

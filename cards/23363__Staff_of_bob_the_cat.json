@@ -1,0 +1,67 @@
+{
+  "id": 3486,
+  "cardId": "itm_staff-of-bob-the-cat",
+  "name": "Staff of bob the cat",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A staff styled after the elusive cat.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Staff_of_bob_the_cat.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23363
+    ],
+    "pageSlug": "Staff_of_bob_the_cat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Staff_of_bob_the_cat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 98060,
+      "buyLimit": 8,
+      "dailyVolume": 18
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 2,
+        "slash": -1,
+        "crush": 10,
+        "magic": 10,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 10,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 7,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

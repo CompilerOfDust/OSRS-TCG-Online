@@ -1,0 +1,67 @@
+{
+  "id": 1524,
+  "cardId": "itm_shayzien-platebody-4",
+  "name": "Shayzien platebody (4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    13361,
+    13366,
+    13371
+  ],
+  "flavourText": "Dress like a tier 4 Shayzien soldier.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shayzien_platebody_%284%29.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13376
+    ],
+    "pageSlug": "Shayzien_platebody_(4)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shayzien_platebody_(4)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 42,
+    "lowAlchemy": 28,
+    "weightKg": 9.979,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -9,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 28,
+        "slash": 35,
+        "crush": 37,
+        "magic": -4,
+        "ranged": 25
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

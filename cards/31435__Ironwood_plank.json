@@ -1,0 +1,41 @@
+{
+  "id": 5842,
+  "cardId": "itm_ironwood-plank",
+  "name": "Ironwood plank",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A plank of robust ironwood.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ironwood_plank.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31435
+    ],
+    "pageSlug": "Ironwood_plank",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ironwood_plank"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 3996,
+      "buyLimit": 13000,
+      "dailyVolume": 138503
+    }
+  },
+  "special": false
+}

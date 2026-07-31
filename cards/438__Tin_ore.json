@@ -1,0 +1,41 @@
+{
+  "id": 7247,
+  "cardId": "itm_tin-ore",
+  "name": "Tin ore",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This needs refining.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tin_ore.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      438
+    ],
+    "pageSlug": "Tin_ore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tin_ore"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 11,
+      "buyLimit": 13000,
+      "dailyVolume": 159954
+    }
+  },
+  "special": false
+}

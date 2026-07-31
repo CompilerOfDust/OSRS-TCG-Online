@@ -1,0 +1,37 @@
+{
+  "id": 9047,
+  "cardId": "itm_treasure-stone",
+  "name": "Treasure stone",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It knows where the treasure is.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Treasure_stone.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7677
+    ],
+    "pageSlug": "Treasure_stone",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Treasure_stone"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Feel",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

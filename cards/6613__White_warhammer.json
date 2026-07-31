@@ -1,0 +1,68 @@
+{
+  "id": 8462,
+  "cardId": "itm_white-warhammer",
+  "name": "White warhammer",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I don't think it's intended for joinery.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_warhammer.png",
+  "debut": "2005-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6613
+    ],
+    "pageSlug": "White_warhammer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_warhammer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 588,
+    "lowAlchemy": 392,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 1494,
+      "buyLimit": 125,
+      "dailyVolume": 0
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -4,
+        "slash": -4,
+        "crush": 22,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 22,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  },
+  "special": false
+}

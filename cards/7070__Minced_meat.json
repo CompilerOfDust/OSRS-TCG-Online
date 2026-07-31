@@ -1,0 +1,42 @@
+{
+  "id": 8717,
+  "cardId": "itm_minced-meat",
+  "name": "Minced meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bowl of finely minced meat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Minced_meat.png",
+  "debut": "2006-01-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7070
+    ],
+    "pageSlug": "Minced_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Minced_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 3,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 302,
+      "buyLimit": 13000,
+      "dailyVolume": 1100
+    }
+  },
+  "special": false
+}

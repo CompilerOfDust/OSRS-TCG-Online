@@ -1,0 +1,41 @@
+{
+  "id": 4176,
+  "cardId": "itm_enhanced-crystal-weapon-seed",
+  "name": "Enhanced crystal weapon seed",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A seed to be sung into the most powerful crystal weaponry.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enhanced_crystal_weapon_seed.png",
+  "debut": "2021-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25859
+    ],
+    "pageSlug": "Enhanced_crystal_weapon_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enhanced_crystal_weapon_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.018,
+    "market": {
+      "guidePrice": 115380211,
+      "buyLimit": 70,
+      "dailyVolume": 154
+    }
+  },
+  "special": false
+}

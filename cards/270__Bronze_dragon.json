@@ -1,0 +1,75 @@
+{
+  "id": 4578,
+  "cardId": "npc_bronze-dragon",
+  "name": "Bronze dragon",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Its scales seem to be made of bronze.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_dragon.png",
+  "debut": "2005-01-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      270,
+      271,
+      7253
+    ],
+    "pageSlug": "Bronze_dragon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_dragon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Draconic",
+      "Fiery"
+    ],
+    "tileSize": "4x4",
+    "combatRating": 131,
+    "vitality": 122,
+    "peakDamage": "12 ( Melee ) 50 ( Dragonfire )",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Dragonfire"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 125,
+      "group": "Metal Dragons",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 112,
+      "strength": 112,
+      "defence": 112,
+      "magic": 100,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

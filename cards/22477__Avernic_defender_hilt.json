@@ -1,0 +1,41 @@
+{
+  "id": 3266,
+  "cardId": "itm_avernic-defender-hilt",
+  "name": "Avernic defender hilt",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Perhaps this could be used to create a defensive weapon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Avernic_defender_hilt.png",
+  "debut": "2018-06-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22477
+    ],
+    "pageSlug": "Avernic_defender_hilt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Avernic_defender_hilt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1500000,
+    "lowAlchemy": 1000000,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 28857876,
+      "buyLimit": 8,
+      "dailyVolume": 458
+    }
+  }
+}

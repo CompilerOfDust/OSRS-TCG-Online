@@ -1,0 +1,64 @@
+{
+  "id": 8925,
+  "cardId": "itm_black-gloves",
+  "name": "Black gloves",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A pair of nice gloves.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_gloves.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7457
+    ],
+    "pageSlug": "Black_gloves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_gloves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 0.226,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 5,
+        "slash": 5,
+        "crush": 5,
+        "magic": 3,
+        "ranged": 5
+      },
+      "defence": {
+        "stab": 5,
+        "slash": 5,
+        "crush": 5,
+        "magic": 3,
+        "ranged": 5
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 5,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

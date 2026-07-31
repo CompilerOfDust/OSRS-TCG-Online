@@ -1,0 +1,67 @@
+{
+  "id": 418,
+  "cardId": "itm_frog-leather-boots",
+  "name": "Frog-leather boots",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Boots made out of frog hide.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Frog-leather_boots.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10958
+    ],
+    "pageSlug": "Frog-leather_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Frog-leather_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 923,
+      "buyLimit": 70,
+      "dailyVolume": 38
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": 2
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 1
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

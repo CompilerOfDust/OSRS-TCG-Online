@@ -1,0 +1,64 @@
+{
+  "id": 5713,
+  "cardId": "itm_avernic-treads-pr-pe",
+  "name": "Avernic treads (pr)(pe)",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A pair of boots with the power of Primordial and Pegasian boots.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Avernic_treads_%28pr%29%28pe%29.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31094
+    ],
+    "pageSlug": "Avernic_treads_(pr)(pe)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Avernic_treads_(pr)(pe)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 115200,
+    "lowAlchemy": 76800,
+    "weightKg": 1.814,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 5,
+        "slash": 5,
+        "crush": 5,
+        "magic": 11,
+        "ranged": 15
+      },
+      "defence": {
+        "stab": 21,
+        "slash": 25,
+        "crush": 25,
+        "magic": 10,
+        "ranged": 10
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 6,
+        "rangedStrength": 3,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

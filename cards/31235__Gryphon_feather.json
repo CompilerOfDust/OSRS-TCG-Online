@@ -1,0 +1,40 @@
+{
+  "id": 5766,
+  "cardId": "itm_gryphon-feather",
+  "name": "Gryphon feather",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A feather from a gryphon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gryphon_feather.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31235
+    ],
+    "pageSlug": "Gryphon_feather",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gryphon_feather"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 31,
+      "buyLimit": 11000,
+      "dailyVolume": 950521
+    }
+  }
+}

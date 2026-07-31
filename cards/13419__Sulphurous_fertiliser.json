@@ -1,0 +1,37 @@
+{
+  "id": 1543,
+  "cardId": "itm_sulphurous-fertiliser",
+  "name": "Sulphurous fertiliser",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Used in the farming industry of Hosidius.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sulphurous_fertiliser.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13419
+    ],
+    "pageSlug": "Sulphurous_fertiliser",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sulphurous_fertiliser"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 3.05,
+    "market": null
+  }
+}

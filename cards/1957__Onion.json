@@ -1,0 +1,41 @@
+{
+  "id": 2327,
+  "cardId": "itm_onion",
+  "name": "Onion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A strong smelling onion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Onion.png",
+  "debut": "2001-02-28",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1957
+    ],
+    "pageSlug": "Onion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Onion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.15,
+    "market": {
+      "guidePrice": 21,
+      "buyLimit": 13000,
+      "dailyVolume": 210353
+    }
+  }
+}

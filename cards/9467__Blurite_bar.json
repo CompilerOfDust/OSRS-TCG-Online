@@ -1,0 +1,37 @@
+{
+  "id": 9890,
+  "cardId": "itm_blurite-bar",
+  "name": "Blurite bar",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a bar of blurite.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blurite_bar.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9467
+    ],
+    "pageSlug": "Blurite_bar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blurite_bar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 10,
+    "lowAlchemy": 7,
+    "weightKg": 1.814,
+    "market": null
+  },
+  "special": false
+}

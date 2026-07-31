@@ -1,0 +1,41 @@
+{
+  "id": 2116,
+  "cardId": "itm_diamond-amulet-u",
+  "name": "Diamond amulet (u)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It needs a string so I can wear it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Diamond_amulet_%28u%29.png",
+  "debut": "2001-05-08",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1681
+    ],
+    "pageSlug": "Diamond_amulet_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Diamond_amulet_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2115,
+    "lowAlchemy": 1410,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 1848,
+      "buyLimit": 10000,
+      "dailyVolume": 252735
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,59 @@
+{
+  "id": 1796,
+  "cardId": "npc_zooknock",
+  "name": "Zooknock",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A wizened little Gnome dressed in brightly coloured clothes.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-12-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1442,
+      7113,
+      7170,
+      7171
+    ],
+    "pageSlug": "Zooknock",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zooknock"
+  },
+  "npcProfile": {
+    "race": "Gnome",
+    "gender": "Male",
+    "locations": [
+      "Ape Atoll Dungeon"
+    ],
+    "questLine": "Monkey Madness I , Monkey Madness II",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

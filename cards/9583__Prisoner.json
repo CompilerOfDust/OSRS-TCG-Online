@@ -1,0 +1,56 @@
+{
+  "id": 9950,
+  "cardId": "npc_prisoner",
+  "name": "Prisoner",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A prisoner captured by the werewolves.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2020-06-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9583,
+      9584,
+      9585
+    ],
+    "pageSlug": "Prisoner",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Prisoner"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Haunted Woods"
+    ],
+    "questLine": "Sins of the Father",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

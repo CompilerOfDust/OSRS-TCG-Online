@@ -1,0 +1,41 @@
+{
+  "id": 7343,
+  "cardId": "itm_bullseye-lantern-unf",
+  "name": "Bullseye lantern (unf)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You need to add a lens before you can use it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bullseye_lantern_%28unf%29.png",
+  "debut": "2005-03-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4544
+    ],
+    "pageSlug": "Bullseye_lantern_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bullseye_lantern_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 303,
+      "buyLimit": 10000,
+      "dailyVolume": 186
+    }
+  },
+  "special": false
+}

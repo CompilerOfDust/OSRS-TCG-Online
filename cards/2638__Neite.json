@@ -1,0 +1,59 @@
+{
+  "id": 4368,
+  "cardId": "npc_neite",
+  "name": "Neite",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A graceful feline.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-04-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2638,
+      4230,
+      4236,
+      8035,
+      8118
+    ],
+    "pageSlug": "Neite",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Neite"
+  },
+  "npcProfile": {
+    "race": "Cat",
+    "gender": "Female",
+    "locations": [
+      "Sophanem",
+      "Burthorpe"
+    ],
+    "questLine": "A Tail of Two Cats",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

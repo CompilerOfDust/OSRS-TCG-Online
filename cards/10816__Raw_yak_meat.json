@@ -1,0 +1,40 @@
+{
+  "id": 325,
+  "cardId": "itm_raw-yak-meat",
+  "name": "Raw yak meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to cook this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_yak_meat.png",
+  "debut": "2007-02-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10816
+    ],
+    "pageSlug": "Raw_yak_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_yak_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.34,
+    "market": {
+      "guidePrice": 205,
+      "buyLimit": 11000,
+      "dailyVolume": 11119
+    }
+  }
+}

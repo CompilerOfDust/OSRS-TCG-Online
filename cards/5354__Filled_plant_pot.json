@@ -1,0 +1,40 @@
+{
+  "id": 7835,
+  "cardId": "itm_filled-plant-pot",
+  "name": "Filled plant pot",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A plant pot filled with soil.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Filled_plant_pot.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5354
+    ],
+    "pageSlug": "Filled_plant_pot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Filled_plant_pot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 2000,
+      "dailyVolume": 231006
+    }
+  }
+}

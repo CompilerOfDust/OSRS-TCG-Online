@@ -1,0 +1,41 @@
+{
+  "id": 6981,
+  "cardId": "itm_oyster",
+  "name": "Oyster",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Maybe there are pearls inside?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oyster.png",
+  "debut": "2002-09-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      407
+    ],
+    "pageSlug": "Oyster",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oyster"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Open",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 48,
+      "buyLimit": 11000,
+      "dailyVolume": 20445
+    }
+  }
+}

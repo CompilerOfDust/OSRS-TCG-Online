@@ -1,0 +1,58 @@
+{
+  "id": 8849,
+  "cardId": "npc_fred-the-farmer",
+  "name": "Fred the Farmer",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    14814
+  ],
+  "flavourText": "A well fed looking farmer.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      732
+    ],
+    "pageSlug": "Fred_the_Farmer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fred_the_Farmer"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Lumbridge"
+    ],
+    "questLine": "• Sheep Shearer • Cold War • One Small Favour",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

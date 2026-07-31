@@ -1,0 +1,58 @@
+{
+  "id": 7726,
+  "cardId": "npc_charlie-the-tramp",
+  "name": "Charlie the Tramp",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    14193
+  ],
+  "flavourText": "Looks down on his luck.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5209
+    ],
+    "pageSlug": "Charlie_the_Tramp",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Charlie_the_Tramp"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Varrock"
+    ],
+    "questLine": "Shield of Arrav",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

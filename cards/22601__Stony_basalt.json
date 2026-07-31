@@ -1,0 +1,44 @@
+{
+  "id": 3297,
+  "cardId": "itm_stony-basalt",
+  "name": "Stony basalt",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The crushed rock seems to glow and is warm to the touch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stony_basalt.png",
+  "debut": "2018-09-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22601
+    ],
+    "pageSlug": "Stony_basalt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stony_basalt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Troll Stronghold",
+      "Troll Stronghold entrance",
+      "Troll Stronghold roof",
+      "Toggle",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 1388,
+      "buyLimit": 10000,
+      "dailyVolume": 10843
+    }
+  }
+}

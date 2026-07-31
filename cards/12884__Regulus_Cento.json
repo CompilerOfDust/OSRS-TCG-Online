@@ -1,0 +1,58 @@
+{
+  "id": 1315,
+  "cardId": "npc_regulus-cento",
+  "name": "Regulus Cento",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A fancy-looking man with a fancy-looking bird.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2024-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12884,
+      12885
+    ],
+    "pageSlug": "Regulus_Cento",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Regulus_Cento"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Misthalin"
+    ],
+    "questLine": "Twilight's Promise , Ethically Acquired Antiquities",
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Travel"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 5981,
+  "cardId": "itm_bottle-of-spinners-last-gasp",
+  "name": "Bottle of spinner's last gasp",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Despite its name, has a cork rather than a screw top.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_spinner%27s_last_gasp.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31836
+    ],
+    "pageSlug": "Bottle_of_spinner%27s_last_gasp",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_spinner%27s_last_gasp"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

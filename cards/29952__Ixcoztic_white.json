@@ -1,0 +1,41 @@
+{
+  "id": 5349,
+  "cardId": "itm_ixcoztic-white",
+  "name": "Ixcoztic white",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A crisp and citrusy Aldarin White that's popular for all occasions.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ixcoztic_white.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29952
+    ],
+    "pageSlug": "Ixcoztic_white",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ixcoztic_white"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 186,
+      "buyLimit": null,
+      "dailyVolume": 27
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 8099,
+  "cardId": "itm_asgarnian-hops",
+  "name": "Asgarnian hops",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A handful of Asgarnian Hops.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Asgarnian_hops.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5996
+    ],
+    "pageSlug": "Asgarnian_hops",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Asgarnian_hops"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 344,
+      "buyLimit": 11000,
+      "dailyVolume": 120
+    }
+  }
+}

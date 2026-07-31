@@ -1,0 +1,63 @@
+{
+  "id": 5651,
+  "cardId": "itm_potato-sack",
+  "name": "Potato sack",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An empty potato sack with convenient eye holes.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Potato_sack.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30947
+    ],
+    "pageSlug": "Potato_sack",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Potato_sack"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Destroy"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.3,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": -1,
+        "slash": -1,
+        "crush": -1,
+        "magic": -1,
+        "ranged": -1
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

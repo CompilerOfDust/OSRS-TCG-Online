@@ -1,0 +1,40 @@
+{
+  "id": 1262,
+  "cardId": "itm_ward-upgrade-kit",
+  "name": "Ward upgrade kit",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Makes a malediction or odium ward more beautiful.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ward_upgrade_kit.png",
+  "debut": "2014-10-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12802
+    ],
+    "pageSlug": "Ward_upgrade_kit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ward_upgrade_kit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 915646,
+      "buyLimit": 50,
+      "dailyVolume": 22
+    }
+  }
+}

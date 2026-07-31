@@ -1,0 +1,67 @@
+{
+  "id": 9340,
+  "cardId": "npc_wormbrain",
+  "name": "Wormbrain",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A badly-behaved goblin.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wormbrain.png",
+  "debut": "2001-09-23",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      820
+    ],
+    "pageSlug": "Wormbrain",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wormbrain"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 2,
+    "vitality": null,
+    "peakDamage": "1",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 5,
+      "group": "Goblins",
+      "masters": [
+        "Turael",
+        "Spria"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  },
+  "combine": {
+    "combinesInto": [
+      "npc_elvarg"
+    ]
+  }
+}

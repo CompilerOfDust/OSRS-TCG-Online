@@ -1,0 +1,56 @@
+{
+  "id": 1093,
+  "cardId": "npc_terrorbird-guard-72",
+  "name": "Terrorbird Guard 72",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He looks bored.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Poison_Waste_dungeon_map.png",
+  "debut": "2023-09-13",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12481,
+      12483,
+      12485
+    ],
+    "pageSlug": "Terrorbird_Guard_72",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Terrorbird_Guard_72"
+  },
+  "npcProfile": {
+    "race": "Engineered terrorbird",
+    "gender": null,
+    "locations": [
+      "Cutscene"
+    ],
+    "questLine": "The Path of Glouphrie",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

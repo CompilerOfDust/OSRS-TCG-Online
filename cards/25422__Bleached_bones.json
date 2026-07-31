@@ -1,0 +1,37 @@
+{
+  "id": 4021,
+  "cardId": "itm_bleached-bones",
+  "name": "Bleached bones",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A worthy offering to a dark god.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bleached_bones.png",
+  "debut": "2021-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25422
+    ],
+    "pageSlug": "Bleached_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bleached_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

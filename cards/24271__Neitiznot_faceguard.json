@@ -1,0 +1,64 @@
+{
+  "id": 3696,
+  "cardId": "itm_neitiznot-faceguard",
+  "name": "Neitiznot faceguard",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A gift from Neitiznot's Burgher enhanced with the jaw of a Basilisk.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Neitiznot_faceguard.png",
+  "debut": "2019-09-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24271
+    ],
+    "pageSlug": "Neitiznot_faceguard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Neitiznot_faceguard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 330000,
+    "lowAlchemy": 220000,
+    "weightKg": 2.721,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 36,
+        "slash": 34,
+        "crush": 38,
+        "magic": 3,
+        "ranged": 34
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 6,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

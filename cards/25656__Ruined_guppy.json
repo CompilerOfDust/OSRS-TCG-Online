@@ -1,0 +1,36 @@
+{
+  "id": 4111,
+  "cardId": "itm_ruined-guppy",
+  "name": "Ruined guppy",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A guppy you ruined during preparation.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ruined_guppy.png",
+  "debut": "2021-04-14",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25656
+    ],
+    "pageSlug": "Ruined_guppy",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ruined_guppy"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.12,
+    "market": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": 6710,
+  "cardId": "npc_desert-spirit",
+  "name": "Desert Spirit",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It was trapped inside the boneguard.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-01-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3572
+    ],
+    "pageSlug": "Desert_Spirit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Desert_Spirit"
+  },
+  "npcProfile": {
+    "race": "Ghost",
+    "gender": null,
+    "locations": [
+      "Enakhra's Temple"
+    ],
+    "questLine": "Enakhra's Lament",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

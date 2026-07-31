@@ -1,0 +1,41 @@
+{
+  "id": 7467,
+  "cardId": "itm_pearl-bolt-tips",
+  "name": "Pearl bolt tips",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Pearl bolt tips.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pearl_bolt_tips_1.png",
+  "debut": "2002-09-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      46
+    ],
+    "pageSlug": "Pearl_bolt_tips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pearl_bolt_tips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 6,
+      "buyLimit": 11000,
+      "dailyVolume": 273462
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": 1374,
+  "cardId": "itm_iron-2h-sword",
+  "name": "Iron 2h sword",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A two handed sword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_2h_sword.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1309
+    ],
+    "pageSlug": "Iron_2h_sword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_2h_sword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 168,
+    "lowAlchemy": 112,
+    "weightKg": 3.628,
+    "market": {
+      "guidePrice": 63,
+      "buyLimit": 125,
+      "dailyVolume": 2889
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -4,
+        "slash": 13,
+        "crush": 10,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": -1
+      },
+      "slot": "2h",
+      "attackSpeed": 7,
+      "extras": {
+        "meleeStrength": 14,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

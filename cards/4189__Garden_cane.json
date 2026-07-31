@@ -1,0 +1,36 @@
+{
+  "id": 7081,
+  "cardId": "itm_garden-cane",
+  "name": "Garden cane",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A length of garden cane.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Garden_cane.png",
+  "debut": "2005-01-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4189
+    ],
+    "pageSlug": "Garden_cane",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Garden_cane"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.1,
+    "market": null
+  }
+}

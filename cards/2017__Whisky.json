@@ -1,0 +1,41 @@
+{
+  "id": 2556,
+  "cardId": "itm_whisky",
+  "name": "Whisky",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bottle of Draynor Malt.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Whisky.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2017
+    ],
+    "pageSlug": "Whisky",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Whisky"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 112,
+      "buyLimit": 13000,
+      "dailyVolume": 1111
+    }
+  }
+}

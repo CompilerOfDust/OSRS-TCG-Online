@@ -1,0 +1,41 @@
+{
+  "id": 8731,
+  "cardId": "itm_magic-longbow-u",
+  "name": "Magic longbow (u)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An unstrung magic longbow; I need a bowstring for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_longbow_%28u%29.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      70
+    ],
+    "pageSlug": "Magic_longbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_longbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 768,
+    "lowAlchemy": 512,
+    "weightKg": 1.332,
+    "market": {
+      "guidePrice": 751,
+      "buyLimit": 10000,
+      "dailyVolume": 2352611
+    }
+  },
+  "special": false
+}

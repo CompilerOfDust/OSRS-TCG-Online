@@ -1,0 +1,37 @@
+{
+  "id": 5319,
+  "cardId": "itm_nid",
+  "name": "Nid",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Looks like a respectable gentleman.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nid.png",
+  "debut": "2024-08-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29836
+    ],
+    "pageSlug": "Nid",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nid"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

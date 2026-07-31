@@ -1,0 +1,67 @@
+{
+  "id": 3388,
+  "cardId": "itm_devout-boots",
+  "name": "Devout boots",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A pair of Devout Boots.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Devout_boots.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22954
+    ],
+    "pageSlug": "Devout_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Devout_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Dismantle"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 12000,
+    "lowAlchemy": 8000,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 860044,
+      "buyLimit": 70,
+      "dailyVolume": 437
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  }
+}

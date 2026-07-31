@@ -1,0 +1,67 @@
+{
+  "id": 2588,
+  "cardId": "itm_cabbage-round-shield",
+  "name": "Cabbage round shield",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An adamant shield shaped like a cabbage.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cabbage_round_shield.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20272
+    ],
+    "pageSlug": "Cabbage_round_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cabbage_round_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 1800,
+    "lowAlchemy": 1200,
+    "weightKg": 4.535,
+    "market": {
+      "guidePrice": 6433,
+      "buyLimit": 125,
+      "dailyVolume": 164
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 24,
+        "slash": 26,
+        "crush": 22,
+        "magic": 0,
+        "ranged": 24
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

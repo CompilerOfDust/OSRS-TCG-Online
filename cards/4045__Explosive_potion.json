@@ -1,0 +1,38 @@
+{
+  "id": 6958,
+  "cardId": "itm_explosive-potion",
+  "name": "Explosive potion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    25211
+  ],
+  "flavourText": "I could use this to destroy things...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Explosive_potion.png",
+  "debut": "2004-12-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4045
+    ],
+    "pageSlug": "Explosive_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Explosive_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.035,
+    "market": null
+  }
+}

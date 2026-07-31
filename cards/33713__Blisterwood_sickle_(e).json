@@ -1,0 +1,65 @@
+{
+  "id": 6562,
+  "cardId": "itm_blisterwood-sickle-e",
+  "name": "Blisterwood sickle (e)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A diamond sickle with a blade of silver and blisterwood.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blisterwood_sickle_%28e%29.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33713
+    ],
+    "pageSlug": "Blisterwood_sickle_(e)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blisterwood_sickle_(e)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Cast Bloom",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.587,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 44,
+        "slash": 56,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 2,
+        "crush": 2,
+        "magic": 2,
+        "ranged": 2
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 56,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  },
+  "special": false
+}

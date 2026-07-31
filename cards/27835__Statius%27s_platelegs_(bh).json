@@ -1,0 +1,65 @@
+{
+  "id": 4711,
+  "cardId": "itm_statiuss-platelegs-bh",
+  "name": "Statius's platelegs (bh)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A powerful pair of platelegs.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Statius%27s_platelegs_%28bh%29.png",
+  "debut": "2023-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27835
+    ],
+    "pageSlug": "Statius%27s_platelegs_(bh)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Statius%27s_platelegs_(bh)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Uncharge",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 9.071,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 10,
+        "magic": -30,
+        "ranged": -12
+      },
+      "defence": {
+        "stab": 73,
+        "slash": 71,
+        "crush": 68,
+        "magic": -14,
+        "ranged": 95
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 3,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  },
+  "special": false
+}

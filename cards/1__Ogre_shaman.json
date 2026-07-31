@@ -1,0 +1,77 @@
+{
+  "id": 2461,
+  "cardId": "npc_ogre-shaman",
+  "name": "Ogre shaman",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    2417,
+    2418,
+    4382,
+    4384,
+    4386,
+    4388,
+    4390,
+    4392,
+    4394,
+    4396,
+    4571
+  ],
+  "flavourText": "Seems intelligent... for an ogre.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ogre_shaman.png",
+  "debut": "2006-12-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4383,
+      4387,
+      4389,
+      4391,
+      4393,
+      4395
+    ],
+    "pageSlug": "Ogre_shaman",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ogre_shaman"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 113,
+    "vitality": 1,
+    "peakDamage": "30",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 51,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

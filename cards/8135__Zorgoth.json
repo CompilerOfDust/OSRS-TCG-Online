@@ -1,0 +1,61 @@
+{
+  "id": 9324,
+  "cardId": "npc_zorgoth",
+  "name": "Zorgoth",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This can't end well.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2018-01-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8135,
+      8136,
+      8167,
+      8175,
+      8176,
+      12139
+    ],
+    "pageSlug": "Zorgoth",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zorgoth"
+  },
+  "npcProfile": {
+    "race": "Dragonkin",
+    "gender": "Male",
+    "locations": [
+      "Lithkren"
+    ],
+    "questLine": "Dragon Slayer II",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

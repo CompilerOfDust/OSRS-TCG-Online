@@ -1,0 +1,40 @@
+{
+  "id": 2300,
+  "cardId": "itm_redberries",
+  "name": "Redberries",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Very bright red berries.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Redberries.png",
+  "debut": "2001-02-28",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1951
+    ],
+    "pageSlug": "Redberries",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Redberries"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 52,
+      "buyLimit": 13000,
+      "dailyVolume": 21806
+    }
+  }
+}

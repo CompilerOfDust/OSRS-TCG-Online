@@ -1,0 +1,40 @@
+{
+  "id": 9387,
+  "cardId": "itm_bagged-plant-3",
+  "name": "Bagged plant 3",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You can plant this in your garden.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bagged_plant_3.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8435
+    ],
+    "pageSlug": "Bagged_plant_3",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bagged_plant_3"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 12944,
+      "buyLimit": 10000,
+      "dailyVolume": 9043
+    }
+  }
+}

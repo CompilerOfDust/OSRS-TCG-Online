@@ -1,0 +1,37 @@
+{
+  "id": 9008,
+  "cardId": "itm_tchiki-monkey-nuts",
+  "name": "Tchiki monkey nuts",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Like Monkey Nuts only Tchikier.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tchiki_monkey_nuts.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7573
+    ],
+    "pageSlug": "Tchiki_monkey_nuts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tchiki_monkey_nuts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

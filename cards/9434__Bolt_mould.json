@@ -1,0 +1,40 @@
+{
+  "id": 9864,
+  "cardId": "itm_bolt-mould",
+  "name": "Bolt mould",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A mould for creating silver crossbow bolts.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bolt_mould.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9434
+    ],
+    "pageSlug": "Bolt_mould",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bolt_mould"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 20,
+      "buyLimit": 40,
+      "dailyVolume": 14
+    }
+  }
+}

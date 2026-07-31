@@ -1,0 +1,59 @@
+{
+  "id": 9309,
+  "cardId": "npc_golden-sheep",
+  "name": "Golden sheep",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Lovely thick wool.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-11-02",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      804,
+      805,
+      806,
+      807
+    ],
+    "pageSlug": "Golden_sheep",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golden_sheep"
+  },
+  "npcProfile": {
+    "race": "Sheep",
+    "gender": "Male",
+    "locations": [
+      "Fremennik Slayer Dungeon"
+    ],
+    "questLine": "The Fremennik Trials",
+    "shop": null,
+    "menuActions": [
+      "None"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

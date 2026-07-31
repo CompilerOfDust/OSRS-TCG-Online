@@ -1,0 +1,42 @@
+{
+  "id": 1042,
+  "cardId": "itm_lunar-isle-teleport",
+  "name": "Lunar isle teleport",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Teleports you to Lunar isle.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lunar_isle_teleport.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12405
+    ],
+    "pageSlug": "Lunar_isle_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lunar_isle_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Teleport",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2950,
+      "buyLimit": 10000,
+      "dailyVolume": 14599
+    }
+  },
+  "special": false
+}

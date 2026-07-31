@@ -1,0 +1,38 @@
+{
+  "id": 6873,
+  "cardId": "itm_stool",
+  "name": "Stool",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    5732
+  ],
+  "flavourText": "A comfy stool.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stool_%28Games%29.png",
+  "debut": "2004-11-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3893
+    ],
+    "pageSlug": "Stool_(Games)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stool_(Games)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 480,
+    "lowAlchemy": 320,
+    "weightKg": 5,
+    "market": null
+  }
+}

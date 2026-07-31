@@ -1,0 +1,36 @@
+{
+  "id": 5697,
+  "cardId": "itm_halibut-tail",
+  "name": "Halibut tail",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I wonder if I could make this into a bone whip?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Halibut_tail.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31058
+    ],
+    "pageSlug": "Halibut_tail",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Halibut_tail"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.3,
+    "market": null
+  }
+}

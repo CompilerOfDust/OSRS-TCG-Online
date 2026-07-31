@@ -1,0 +1,36 @@
+{
+  "id": 388,
+  "cardId": "itm_brain-tongs",
+  "name": "Brain tongs",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some tongs for use with brains.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Brain_tongs.png",
+  "debut": "2007-03-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10894
+    ],
+    "pageSlug": "Brain_tongs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Brain_tongs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

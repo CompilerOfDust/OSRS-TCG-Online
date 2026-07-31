@@ -1,0 +1,67 @@
+{
+  "id": 541,
+  "cardId": "itm_dwarven-helmet",
+  "name": "Dwarven helmet",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A sturdy helmet that belonged to Rupert the Beard.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dwarven_helmet.png",
+  "debut": "2007-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11200
+    ],
+    "pageSlug": "Dwarven_helmet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dwarven_helmet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 36000,
+    "lowAlchemy": 24000,
+    "weightKg": 1.9,
+    "market": {
+      "guidePrice": 35769,
+      "buyLimit": 50,
+      "dailyVolume": 317
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 6,
+        "magic": -2,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 27,
+        "slash": 28,
+        "crush": 31,
+        "magic": 5,
+        "ranged": 24
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

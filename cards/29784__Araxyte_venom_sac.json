@@ -1,0 +1,42 @@
+{
+  "id": 5304,
+  "cardId": "itm_araxyte-venom-sac",
+  "name": "Araxyte venom sac",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Looks spicy!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Araxyte_venom_sac.png",
+  "debut": "2024-08-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29784
+    ],
+    "pageSlug": "Araxyte_venom_sac",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Araxyte_venom_sac"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2100,
+      "buyLimit": 11000,
+      "dailyVolume": 359247
+    }
+  },
+  "special": false
+}

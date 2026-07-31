@@ -1,0 +1,44 @@
+{
+  "id": 9287,
+  "cardId": "itm_camelot-teleport",
+  "name": "Camelot teleport",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A teleport to Camelot.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Camelot_teleport_%28tablet%29.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8010
+    ],
+    "pageSlug": "Camelot_teleport_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Camelot_teleport_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Camelot",
+      "Seers' Village",
+      "Toggle",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 539,
+      "buyLimit": 15000,
+      "dailyVolume": 202750
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 5794,
+  "cardId": "itm_marinated-j-bones",
+  "name": "Marinated j' bones",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Burnt Jogre bones marinated in a lovely Karambwanji sauce. Perfect.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Marinated_j%27_bones_%28burnt%29.png",
+  "debut": "2004-09-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3130
+    ],
+    "pageSlug": "Marinated_j%27_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Marinated_j%27_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.8,
+    "market": null
+  }
+}

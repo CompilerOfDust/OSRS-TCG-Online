@@ -1,0 +1,42 @@
+{
+  "id": 7907,
+  "cardId": "itm_elemental-talisman",
+  "name": "Elemental talisman",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A mysterious power emanates from the talisman...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elemental_talisman.png",
+  "debut": "2005-06-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5516
+    ],
+    "pageSlug": "Elemental_talisman",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elemental_talisman"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Locate",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.015,
+    "market": {
+      "guidePrice": 3071,
+      "buyLimit": 40,
+      "dailyVolume": 1109
+    }
+  },
+  "special": false
+}

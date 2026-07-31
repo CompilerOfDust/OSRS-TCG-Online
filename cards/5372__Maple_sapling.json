@@ -1,0 +1,43 @@
+{
+  "id": 7852,
+  "cardId": "itm_maple-sapling",
+  "name": "Maple sapling",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5360,
+    5366
+  ],
+  "flavourText": "This sapling is ready to be replanted in a tree patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maple_sapling.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5372
+    ],
+    "pageSlug": "Maple_sapling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maple_sapling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 4158,
+      "buyLimit": 200,
+      "dailyVolume": 32163
+    }
+  }
+}

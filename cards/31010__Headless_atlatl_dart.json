@@ -1,0 +1,40 @@
+{
+  "id": 5680,
+  "cardId": "itm_headless-atlatl-dart",
+  "name": "Headless atlatl dart",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An atlatl dart shaft with flights attached.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Headless_atlatl_dart_1.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31010
+    ],
+    "pageSlug": "Headless_atlatl_dart",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Headless_atlatl_dart"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 147,
+    "lowAlchemy": 98,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 65,
+      "buyLimit": 11000,
+      "dailyVolume": 612036
+    }
+  }
+}

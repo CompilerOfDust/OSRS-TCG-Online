@@ -1,0 +1,54 @@
+{
+  "id": 7088,
+  "cardId": "npc_icthlarin",
+  "name": "Icthlarin",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A jackal headed demi-god.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-04-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4199
+    ],
+    "pageSlug": "Icthlarin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Icthlarin"
+  },
+  "npcProfile": {
+    "race": "Jackal",
+    "gender": "Male",
+    "locations": [
+      "Klenter's Pyramid"
+    ],
+    "questLine": "Icthlarin's Little Helper",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

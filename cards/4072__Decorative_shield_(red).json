@@ -1,0 +1,64 @@
+{
+  "id": 6973,
+  "cardId": "itm_decorative-shield__1",
+  "name": "Decorative shield",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A very decorative shield.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Decorative_shield_%28red%29.png",
+  "debut": "2004-12-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4072
+    ],
+    "pageSlug": "Decorative_shield_(red)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Decorative_shield_(red)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 510,
+    "lowAlchemy": 340,
+    "weightKg": 4.535,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 13,
+        "slash": 15,
+        "crush": 14,
+        "magic": -1,
+        "ranged": 14
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

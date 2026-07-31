@@ -1,0 +1,41 @@
+{
+  "id": 1940,
+  "cardId": "itm_oak-logs",
+  "name": "Oak logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Logs cut from an oak tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oak_logs.png",
+  "debut": "2002-03-25",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1521
+    ],
+    "pageSlug": "Oak_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oak_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 35,
+      "buyLimit": 15000,
+      "dailyVolume": 3369298
+    }
+  },
+  "special": false
+}

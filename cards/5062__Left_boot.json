@@ -1,0 +1,37 @@
+{
+  "id": 7668,
+  "cardId": "itm_left-boot",
+  "name": "Left boot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "One of a pair I assume.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Left_boot.png",
+  "debut": "2005-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5062
+    ],
+    "pageSlug": "Left_boot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Left_boot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

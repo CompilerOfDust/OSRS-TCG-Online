@@ -1,0 +1,41 @@
+{
+  "id": 3240,
+  "cardId": "itm_premade-wm-crun",
+  "name": "Premade w'm crun'",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some Premade Worm Crunchies.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Premade_w%27m_crun%27.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2237
+    ],
+    "pageSlug": "Premade_w%27m_crun%27",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Premade_w%27m_crun%27"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 51,
+    "lowAlchemy": 34,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 47,
+      "buyLimit": 6000,
+      "dailyVolume": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": 2443,
+  "cardId": "npc_demonic-gorilla",
+  "name": "Demonic gorilla",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "One of Glough's demonic creations.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Demonic_gorilla.png",
+  "debut": "2016-05-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7144,
+      7145,
+      7146
+    ],
+    "pageSlug": "Demonic_gorilla",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Demonic_gorilla"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Demon"
+    ],
+    "tileSize": "2x2",
+    "combatRating": 275,
+    "vitality": 380,
+    "peakDamage": "31 (normal) 40 (special attack)",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 100,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": null,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 408.5,
+      "group": "Black Demons, Monkeys",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Chaeldar",
+        "Steve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 205,
+      "strength": 195,
+      "defence": 200,
+      "magic": 195,
+      "ranged": 195
+    },
+    "aggressiveBonuses": null
+  }
+}

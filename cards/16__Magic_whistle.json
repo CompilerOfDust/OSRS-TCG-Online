@@ -1,0 +1,37 @@
+{
+  "id": 2127,
+  "cardId": "itm_magic-whistle",
+  "name": "Magic whistle",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A small tin whistle.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_whistle.png",
+  "debut": "2002-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      16
+    ],
+    "pageSlug": "Magic_whistle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_whistle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Blow",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.005,
+    "market": null
+  }
+}

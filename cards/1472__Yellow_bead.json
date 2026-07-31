@@ -1,0 +1,40 @@
+{
+  "id": 1843,
+  "cardId": "itm_yellow-bead",
+  "name": "Yellow bead",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A small round yellow bead.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yellow_bead.png",
+  "debut": "2001-02-16",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1472
+    ],
+    "pageSlug": "Yellow_bead",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yellow_bead"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.003,
+    "market": {
+      "guidePrice": 1260,
+      "buyLimit": 11000,
+      "dailyVolume": 1203
+    }
+  }
+}

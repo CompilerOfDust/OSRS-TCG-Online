@@ -1,0 +1,49 @@
+{
+  "id": 1163,
+  "cardId": "itm_attack-potion-1",
+  "name": "Attack potion(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    121,
+    123,
+    125,
+    11429,
+    11431
+  ],
+  "flavourText": "4 doses of Attack potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Attack_potion%284%29.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2428
+    ],
+    "pageSlug": "Attack_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Attack_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 4,
+      "buyLimit": 2000,
+      "dailyVolume": 49
+    }
+  },
+  "special": false
+}

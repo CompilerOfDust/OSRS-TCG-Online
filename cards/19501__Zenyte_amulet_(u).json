@@ -1,0 +1,40 @@
+{
+  "id": 2297,
+  "cardId": "itm_zenyte-amulet-u",
+  "name": "Zenyte amulet (u)",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "It needs a string so I can wear it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zenyte_amulet_%28u%29.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19501
+    ],
+    "pageSlug": "Zenyte_amulet_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zenyte_amulet_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 45000,
+    "lowAlchemy": 30000,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 15718279,
+      "buyLimit": 10000,
+      "dailyVolume": 0
+    }
+  }
+}

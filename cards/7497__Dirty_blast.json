@@ -1,0 +1,37 @@
+{
+  "id": 8952,
+  "cardId": "itm_dirty-blast",
+  "name": "Dirty blast",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A cool refreshing fruit mix. With ash in for some reason.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dirty_blast.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7497
+    ],
+    "pageSlug": "Dirty_blast",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dirty_blast"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

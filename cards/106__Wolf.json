@@ -1,0 +1,92 @@
+{
+  "id": 308,
+  "cardId": "npc_wolf",
+  "name": "Wolf",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    107,
+    108,
+    109,
+    115,
+    116,
+    117,
+    231,
+    232,
+    645,
+    646,
+    3426,
+    4649,
+    4650,
+    4651,
+    9181,
+    10522,
+    10533,
+    13813
+  ],
+  "flavourText": "Not man's best friend.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wolf_(level_11).png",
+  "debut": "2006-07-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      106,
+      110,
+      2490,
+      2491,
+      3912
+    ],
+    "pageSlug": "Wolf",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wolf"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 11,
+    "vitality": 10,
+    "peakDamage": "2",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 90,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 10,
+      "group": "Wolves",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": {
+      "attack": 10,
+      "strength": 10,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

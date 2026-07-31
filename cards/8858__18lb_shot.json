@@ -1,0 +1,36 @@
+{
+  "id": 9587,
+  "cardId": "itm_18lb-shot",
+  "name": "18lb shot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Just landed 18lb shot.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/18lb_shot.png",
+  "debut": "2006-06-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8858
+    ],
+    "pageSlug": "18lb_shot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/18lb_shot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 8.164,
+    "market": null
+  }
+}

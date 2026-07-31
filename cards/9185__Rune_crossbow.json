@@ -1,0 +1,70 @@
+{
+  "id": 9791,
+  "cardId": "itm_rune-crossbow",
+  "name": "Rune crossbow",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    26486
+  ],
+  "flavourText": "A runite crossbow.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_crossbow.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9185
+    ],
+    "pageSlug": "Rune_crossbow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_crossbow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 9720,
+    "lowAlchemy": 6480,
+    "weightKg": 6,
+    "market": {
+      "guidePrice": 9300,
+      "buyLimit": 70,
+      "dailyVolume": 7050
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 90
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

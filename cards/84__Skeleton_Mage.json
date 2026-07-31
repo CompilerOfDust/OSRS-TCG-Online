@@ -1,0 +1,73 @@
+{
+  "id": 9412,
+  "cardId": "npc_skeleton-mage",
+  "name": "Skeleton Mage",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An undead worker of dark magic.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Skeleton_Mage_(lv_16).png",
+  "debut": "2002-09-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      84,
+      4319
+    ],
+    "pageSlug": "Skeleton_Mage",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Skeleton_Mage"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Undead"
+    ],
+    "tileSize": "1x1",
+    "combatRating": 16,
+    "vitality": 17,
+    "peakDamage": "3",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 25,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 17,
+      "group": "Skeletons",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": {
+      "attack": 14,
+      "strength": 14,
+      "defence": 14,
+      "magic": 18,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

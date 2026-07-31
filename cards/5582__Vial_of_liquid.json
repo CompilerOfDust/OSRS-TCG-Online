@@ -1,0 +1,36 @@
+{
+  "id": 7961,
+  "cardId": "itm_vial-of-liquid",
+  "name": "Vial of liquid",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A vial of something labelled 'Dihydrogen Monoxide'.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vial_of_liquid.png",
+  "debut": "2005-06-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5582
+    ],
+    "pageSlug": "Vial_of_liquid",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vial_of_liquid"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 5932,
+  "cardId": "itm_nickel-ore",
+  "name": "Nickel ore",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "This needs refining.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nickel_ore.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31719
+    ],
+    "pageSlug": "Nickel_ore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nickel_ore"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 1678,
+      "buyLimit": null,
+      "dailyVolume": 10640
+    }
+  },
+  "special": false
+}

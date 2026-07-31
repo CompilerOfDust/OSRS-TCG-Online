@@ -1,0 +1,37 @@
+{
+  "id": 4849,
+  "cardId": "itm_sirens-staff",
+  "name": "Siren's staff",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A staff that writhes with shadows.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Siren%27s_staff.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28323
+    ],
+    "pageSlug": "Siren%27s_staff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Siren%27s_staff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

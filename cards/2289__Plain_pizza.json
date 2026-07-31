@@ -1,0 +1,41 @@
+{
+  "id": 3377,
+  "cardId": "itm_plain-pizza",
+  "name": "Plain pizza",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A cheese and tomato pizza.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Plain_pizza.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2289
+    ],
+    "pageSlug": "Plain_pizza",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Plain_pizza"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 393,
+      "buyLimit": 10000,
+      "dailyVolume": 66976
+    }
+  }
+}

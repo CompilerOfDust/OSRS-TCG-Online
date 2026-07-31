@@ -1,0 +1,67 @@
+{
+  "id": 7013,
+  "cardId": "itm_mystic-robe-top-light",
+  "name": "Mystic robe top (light)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The upper half of a bright magical robe.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mystic_robe_top_%28light%29.png",
+  "debut": "2005-01-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4111
+    ],
+    "pageSlug": "Mystic_robe_top_(light)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mystic_robe_top_(light)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 72000,
+    "lowAlchemy": 48000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 71331,
+      "buyLimit": 70,
+      "dailyVolume": 715
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 20,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 20,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

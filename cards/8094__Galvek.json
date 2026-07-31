@@ -1,0 +1,70 @@
+{
+  "id": 9319,
+  "cardId": "npc_galvek",
+  "name": "Galvek",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "This is what fear looks like. When dead: This is what death looks like.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Galvek.png",
+  "debut": "2018-01-04",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8094,
+      8095,
+      8096,
+      8097,
+      8177
+    ],
+    "pageSlug": "Galvek",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Galvek"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Draconic",
+      "Fiery"
+    ],
+    "tileSize": "7x7",
+    "combatRating": 608,
+    "vitality": 1200,
+    "peakDamage": "28 ( Ranged ) 28 ( Slash ) 28 ( Magic ) 121 ( Dragonfire )",
+    "combatXpBonusPct": 42.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Ranged",
+      "Magic",
+      "Dragonfire"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 632,
+      "strength": 268,
+      "defence": 188,
+      "magic": 160,
+      "ranged": 246
+    },
+    "aggressiveBonuses": null
+  }
+}

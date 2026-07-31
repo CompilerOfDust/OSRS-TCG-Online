@@ -1,0 +1,40 @@
+{
+  "id": 7462,
+  "cardId": "itm_smoke-rune",
+  "name": "Smoke rune",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A combined Air and Fire Rune.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Smoke_rune.png",
+  "debut": "2005-06-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4697
+    ],
+    "pageSlug": "Smoke_rune",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Smoke_rune"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 62,
+      "buyLimit": 18000,
+      "dailyVolume": 2398396
+    }
+  }
+}

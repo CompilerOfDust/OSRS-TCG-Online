@@ -1,0 +1,67 @@
+{
+  "id": 4006,
+  "cardId": "itm_swampbark-body",
+  "name": "Swampbark body",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Keeps my chest protected.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Swampbark_body.png",
+  "debut": "2021-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25389
+    ],
+    "pageSlug": "Swampbark_body",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Swampbark_body"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 72000,
+    "lowAlchemy": 48000,
+    "weightKg": 4.535,
+    "market": {
+      "guidePrice": 85738,
+      "buyLimit": null,
+      "dailyVolume": 121
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 38,
+        "slash": 44,
+        "crush": 48,
+        "magic": 21,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

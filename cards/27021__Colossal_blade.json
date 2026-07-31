@@ -1,0 +1,64 @@
+{
+  "id": 4566,
+  "cardId": "itm_colossal-blade",
+  "name": "Colossal blade",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It takes a lot of guts to wield a blade this big.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Colossal_blade.png",
+  "debut": "2022-06-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27021
+    ],
+    "pageSlug": "Colossal_blade",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Colossal_blade"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 30,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": -4,
+        "slash": 98,
+        "crush": 65,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": -1
+      },
+      "slot": "2h",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 100,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

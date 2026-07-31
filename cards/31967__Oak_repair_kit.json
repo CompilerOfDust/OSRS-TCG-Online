@@ -1,0 +1,42 @@
+{
+  "id": 6086,
+  "cardId": "itm_oak-repair-kit",
+  "name": "Oak repair kit",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A boat repair kit made from oak.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oak_repair_kit.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31967
+    ],
+    "pageSlug": "Oak_repair_kit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oak_repair_kit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Apply",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 120,
+      "buyLimit": 13000,
+      "dailyVolume": 11662
+    }
+  },
+  "special": false
+}

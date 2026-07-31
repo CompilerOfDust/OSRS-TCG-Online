@@ -1,0 +1,41 @@
+{
+  "id": 1537,
+  "cardId": "itm_lizardman-fang",
+  "name": "Lizardman fang",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Ripped from the maw of a dying lizardman of Kourend.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lizardman_fang.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13391
+    ],
+    "pageSlug": "Lizardman_fang",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lizardman_fang"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 8,
+      "buyLimit": 13000,
+      "dailyVolume": 2030785
+    }
+  },
+  "special": false
+}

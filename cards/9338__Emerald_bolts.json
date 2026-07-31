@@ -1,0 +1,67 @@
+{
+  "id": 9835,
+  "cardId": "itm_emerald-bolts",
+  "name": "Emerald bolts",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Emerald tipped Mithril crossbow bolts.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Emerald_bolts_1.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9338
+    ],
+    "pageSlug": "Emerald_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Emerald_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 31,
+    "lowAlchemy": 21,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 69,
+      "buyLimit": 11000,
+      "dailyVolume": 397039
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 85,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

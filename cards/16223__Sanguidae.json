@@ -1,0 +1,61 @@
+{
+  "id": 2066,
+  "cardId": "npc_sanguidae",
+  "name": "Sanguidae",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A flying blood sucker.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sanguidae_(empty).png",
+  "debut": "2026-06-30",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      16223,
+      16225
+    ],
+    "pageSlug": "Sanguidae",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sanguidae"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 106,
+    "vitality": 10,
+    "peakDamage": "10",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 200,
+      "strength": 90,
+      "defence": 30,
+      "magic": 30,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

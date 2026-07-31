@@ -1,0 +1,67 @@
+{
+  "id": 3443,
+  "cardId": "itm_dual-sai",
+  "name": "Dual sai",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A pair of aggressive Sai. [ sic ]",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dual_sai.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23206
+    ],
+    "pageSlug": "Dual_sai",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dual_sai"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 3600,
+    "lowAlchemy": 2400,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 3864,
+      "buyLimit": 8,
+      "dailyVolume": 53
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 11,
+        "slash": 8,
+        "crush": -4,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 14,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": 5622,
+  "cardId": "itm_infernal-shale",
+  "name": "Infernal shale",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    30848
+  ],
+  "flavourText": "Flaky, chalky, and warm.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Infernal_shale.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30846
+    ],
+    "pageSlug": "Infernal_shale",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Infernal_shale"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 48,
+    "lowAlchemy": 32,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

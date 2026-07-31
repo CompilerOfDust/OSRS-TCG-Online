@@ -1,0 +1,55 @@
+{
+  "id": 9399,
+  "cardId": "npc_butterfly__3",
+  "name": "Butterfly",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A troll of Weiss.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2018-09-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8456,
+      8459
+    ],
+    "pageSlug": "Butterfly_(troll)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Butterfly_(troll)"
+  },
+  "npcProfile": {
+    "race": "Troll",
+    "gender": "Male",
+    "locations": [
+      "Weiss"
+    ],
+    "questLine": "Making Friends with My Arm",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

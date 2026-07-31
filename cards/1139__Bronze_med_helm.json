@@ -1,0 +1,67 @@
+{
+  "id": 640,
+  "cardId": "itm_bronze-med-helm",
+  "name": "Bronze med helm",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A medium sized helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_med_helm.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1139
+    ],
+    "pageSlug": "Bronze_med_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_med_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 14,
+    "lowAlchemy": 9,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 61,
+      "buyLimit": 125,
+      "dailyVolume": 4170
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 3,
+        "slash": 4,
+        "crush": 2,
+        "magic": -1,
+        "ranged": 3
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

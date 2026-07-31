@@ -1,0 +1,85 @@
+{
+  "id": 3789,
+  "cardId": "npc_cyclops",
+  "name": "Cyclops",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    2097,
+    2137,
+    2138,
+    2139,
+    2140,
+    2141,
+    2142,
+    2235,
+    2236,
+    2464,
+    2466,
+    2468,
+    7270,
+    7271
+  ],
+  "flavourText": "A one-eyed man eater.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cyclops.png",
+  "debut": "2006-06-13",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2463,
+      2465,
+      2467
+    ],
+    "pageSlug": "Cyclops",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cyclops"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 56,
+    "vitality": 75,
+    "peakDamage": "6",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 75,
+      "group": "Hill Giants",
+      "masters": [
+        "Mazchna",
+        "Vannaka"
+      ]
+    },
+    "combatLevels": {
+      "attack": 47,
+      "strength": 50,
+      "defence": 26,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

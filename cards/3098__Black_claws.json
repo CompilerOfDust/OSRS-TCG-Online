@@ -1,0 +1,67 @@
+{
+  "id": 5670,
+  "cardId": "itm_black-claws",
+  "name": "Black claws",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A set of fighting claws.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_claws.png",
+  "debut": "2004-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3098
+    ],
+    "pageSlug": "Black_claws",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_claws"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 216,
+    "lowAlchemy": 144,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 8066,
+      "buyLimit": 125,
+      "dailyVolume": 166
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 10,
+        "slash": 14,
+        "crush": -4,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 7,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 14,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

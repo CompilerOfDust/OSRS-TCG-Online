@@ -1,0 +1,37 @@
+{
+  "id": 8249,
+  "cardId": "itm_fishlike-thing",
+  "name": "Fishlike thing",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's a fishlike thing that appears to already be cooked. It looks disgusting.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fishlike_thing.png",
+  "debut": "2005-08-09",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6202
+    ],
+    "pageSlug": "Fishlike_thing",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fishlike_thing"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.7,
+    "market": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 7932,
+  "cardId": "itm_gricollers-can-refill",
+  "name": "Gricoller's can (refill)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Contains far more water than should fit in such a small can.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gricoller%27s_can_%28refill%29.png",
+  "debut": "2025-03-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5551
+    ],
+    "pageSlug": "Gricoller%27s_can_(refill)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gricoller%27s_can_(refill)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.007,
+    "market": null
+  }
+}

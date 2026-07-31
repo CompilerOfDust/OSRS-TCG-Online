@@ -1,0 +1,36 @@
+{
+  "id": 9100,
+  "cardId": "itm_paintbrush",
+  "name": "Paintbrush",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Try dipping it in paint and applying it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Paintbrush.png",
+  "debut": "2006-03-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7756
+    ],
+    "pageSlug": "Paintbrush",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Paintbrush"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

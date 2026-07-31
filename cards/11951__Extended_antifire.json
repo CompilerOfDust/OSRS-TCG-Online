@@ -1,0 +1,49 @@
+{
+  "id": 867,
+  "cardId": "itm_extended-antifire-1",
+  "name": "Extended antifire(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    11953,
+    11955,
+    11957,
+    11960,
+    11962
+  ],
+  "flavourText": "4 doses of extended anti-firebreath potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Extended_antifire%284%29.png",
+  "debut": "2014-03-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11951
+    ],
+    "pageSlug": "Extended_antifire",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Extended_antifire"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 66,
+    "lowAlchemy": 44,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 133,
+      "buyLimit": 2000,
+      "dailyVolume": 26048
+    }
+  },
+  "special": false
+}

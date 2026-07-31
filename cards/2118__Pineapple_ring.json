@@ -1,0 +1,41 @@
+{
+  "id": 2814,
+  "cardId": "itm_pineapple-ring",
+  "name": "Pineapple ring",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Exotic fruit.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pineapple_ring.png",
+  "debut": "2002-08-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2118
+    ],
+    "pageSlug": "Pineapple_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pineapple_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.03,
+    "market": {
+      "guidePrice": 87,
+      "buyLimit": 13000,
+      "dailyVolume": 1578
+    }
+  }
+}

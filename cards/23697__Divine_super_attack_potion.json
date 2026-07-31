@@ -1,0 +1,47 @@
+{
+  "id": 3532,
+  "cardId": "itm_divine-super-attack-potion-1",
+  "name": "Divine super attack potion(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    23700,
+    23703,
+    23706
+  ],
+  "flavourText": "4 doses of divine super attack potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Divine_super_attack_potion%284%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23697
+    ],
+    "pageSlug": "Divine_super_attack_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Divine_super_attack_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.03,
+    "market": {
+      "guidePrice": 676,
+      "buyLimit": 2000,
+      "dailyVolume": 171
+    }
+  },
+  "special": false
+}

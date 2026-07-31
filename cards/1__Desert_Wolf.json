@@ -1,0 +1,71 @@
+{
+  "id": 2444,
+  "cardId": "npc_desert-wolf",
+  "name": "Desert Wolf",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A vicious desert wolf.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Desert_Wolf.png",
+  "debut": "2003-04-14",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4649,
+      4650,
+      4651
+    ],
+    "pageSlug": "Desert_Wolf",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Desert_Wolf"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 27,
+    "vitality": 34,
+    "peakDamage": "3",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 34,
+      "group": "Wolves",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": {
+      "attack": 20,
+      "strength": 21,
+      "defence": 22,
+      "magic": 0,
+      "ranged": 0
+    },
+    "aggressiveBonuses": null
+  }
+}

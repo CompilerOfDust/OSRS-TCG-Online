@@ -1,0 +1,66 @@
+{
+  "id": 1401,
+  "cardId": "itm_explorers-ring-2",
+  "name": "Explorer's ring 2",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A Lumbridge explorer's ring.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Explorer%27s_ring_2.png",
+  "debut": "2015-03-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13126
+    ],
+    "pageSlug": "Explorer%27s_ring_2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Explorer%27s_ring_2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Teleport",
+      "Functions",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.006,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

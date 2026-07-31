@@ -1,0 +1,56 @@
+{
+  "id": 224,
+  "cardId": "npc_mac",
+  "name": "Mac",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A dodgy guy with a sack. Doesn't say much.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2015-10-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1053
+    ],
+    "pageSlug": "Mac",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mac"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Mac's island"
+    ],
+    "questLine": null,
+    "shop": "Max cape",
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 126,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

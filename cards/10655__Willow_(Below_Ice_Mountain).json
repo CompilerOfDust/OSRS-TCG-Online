@@ -1,0 +1,57 @@
+{
+  "id": 291,
+  "cardId": "npc_willow",
+  "name": "Willow",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A shifty looking gal.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2021-04-14",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10655,
+      10661
+    ],
+    "pageSlug": "Willow_(Below_Ice_Mountain)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Willow_(Below_Ice_Mountain)"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Ice Mountain"
+    ],
+    "questLine": "Below Ice Mountain",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 3093,
+  "cardId": "itm_dragonstone-dragon-bolts",
+  "name": "Dragonstone dragon bolts",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Dragon crossbow bolts, tipped with dragonstone. Double dragon!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragonstone_dragon_bolts_1.png",
+  "debut": "2018-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21971
+    ],
+    "pageSlug": "Dragonstone_dragon_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragonstone_dragon_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 597,
+    "lowAlchemy": 398,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 3238,
+      "buyLimit": 11000,
+      "dailyVolume": 42497
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 122,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

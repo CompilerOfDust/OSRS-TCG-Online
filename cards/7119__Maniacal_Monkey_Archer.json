@@ -1,0 +1,62 @@
+{
+  "id": 8745,
+  "cardId": "npc_maniacal-monkey-archer",
+  "name": "Maniacal Monkey Archer",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It looks like someone has tampered with its mind.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maniacal_Monkey_Archer.png",
+  "debut": "2016-05-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7119
+    ],
+    "pageSlug": "Maniacal_Monkey_Archer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maniacal_Monkey_Archer"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 132,
+    "vitality": null,
+    "peakDamage": "24",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": null,
+      "group": "Monkeys",
+      "masters": [
+        "Turael",
+        "Spria"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

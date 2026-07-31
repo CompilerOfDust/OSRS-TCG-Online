@@ -1,0 +1,57 @@
+{
+  "id": 9297,
+  "cardId": "npc_king-narnode-shareen",
+  "name": "King Narnode Shareen",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An important looking gnome.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2002-12-12",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8019,
+      8020
+    ],
+    "pageSlug": "King_Narnode_Shareen",
+    "pageUrl": "https://oldschool.runescape.wiki/w/King_Narnode_Shareen"
+  },
+  "npcProfile": {
+    "race": "Gnome",
+    "gender": "Male",
+    "locations": [
+      "Grand Tree"
+    ],
+    "questLine": "The Grand Tree , Monkey Madness I , Monkey Madness II , The Eyes of Glouphrie",
+    "shop": "King Narnode's Royal Seed Pods",
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

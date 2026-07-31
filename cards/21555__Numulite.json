@@ -1,0 +1,40 @@
+{
+  "id": 2947,
+  "cardId": "itm_numulite",
+  "name": "Numulite",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A form of currency on Fossil Island.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Numulite_1.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21555
+    ],
+    "pageSlug": "Numulite",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Numulite"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 40,
+      "buyLimit": 30000,
+      "dailyVolume": 3455679
+    }
+  }
+}

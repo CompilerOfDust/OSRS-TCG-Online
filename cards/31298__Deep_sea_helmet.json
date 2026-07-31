@@ -1,0 +1,66 @@
+{
+  "id": 5791,
+  "cardId": "itm_deep-sea-helmet",
+  "name": "Deep sea helmet",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    31401
+  ],
+  "flavourText": "You'll look daft, but at least you won't drown!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Deep_sea_helmet.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31298
+    ],
+    "pageSlug": "Deep_sea_helmet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Deep_sea_helmet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Inspect",
+      "Destroy"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 5,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

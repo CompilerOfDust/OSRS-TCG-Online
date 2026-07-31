@@ -1,0 +1,41 @@
+{
+  "id": 3420,
+  "cardId": "itm_bread-dough",
+  "name": "Bread dough",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some uncooked dough.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bread_dough.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2307
+    ],
+    "pageSlug": "Bread_dough",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bread_dough"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.6,
+    "market": {
+      "guidePrice": 118,
+      "buyLimit": 13000,
+      "dailyVolume": 2397
+    }
+  },
+  "special": false
+}

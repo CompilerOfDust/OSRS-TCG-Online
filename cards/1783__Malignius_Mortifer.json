@@ -1,0 +1,56 @@
+{
+  "id": 2176,
+  "cardId": "npc_malignius-mortifer",
+  "name": "Malignius Mortifer",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A master of necromancy!",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-09-26",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1783
+    ],
+    "pageSlug": "Malignius_Mortifer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Malignius_Mortifer"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Falador"
+    ],
+    "questLine": "Fairytale I - Growing Pains , Swan Song",
+    "shop": "Magic secateurs",
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

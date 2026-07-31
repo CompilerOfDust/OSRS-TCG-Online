@@ -1,0 +1,42 @@
+{
+  "id": 6078,
+  "cardId": "itm_bottled-storm",
+  "name": "Bottled storm",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A violently shaking container with the furious power of the sea inside.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottled_storm.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31949
+    ],
+    "pageSlug": "Bottled_storm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottled_storm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4800,
+    "lowAlchemy": 3200,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 1891895,
+      "buyLimit": null,
+      "dailyVolume": 613
+    }
+  },
+  "special": false
+}

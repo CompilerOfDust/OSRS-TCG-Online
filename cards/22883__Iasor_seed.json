@@ -1,0 +1,37 @@
+{
+  "id": 3374,
+  "cardId": "itm_iasor-seed",
+  "name": "Iasor seed",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Plant this in an anima farming patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iasor_seed_1.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22883
+    ],
+    "pageSlug": "Iasor_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iasor_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 0,
+    "market": null
+  },
+  "special": false
+}

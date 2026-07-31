@@ -1,0 +1,63 @@
+{
+  "id": 8825,
+  "cardId": "npc_warped-jelly",
+  "name": "Warped Jelly",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Needs cream.....",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Warped_Jelly.png",
+  "debut": "2016-06-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7277
+    ],
+    "pageSlug": "Warped_Jelly",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Warped_Jelly"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 112,
+    "vitality": null,
+    "peakDamage": "10",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Magical melee"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 15,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 52,
+      "reward": 140,
+      "group": "Jellies",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Konar"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

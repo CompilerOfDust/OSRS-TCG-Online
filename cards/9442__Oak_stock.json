@@ -1,0 +1,41 @@
+{
+  "id": 9872,
+  "cardId": "itm_oak-stock",
+  "name": "Oak stock",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An oak crossbow stock.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oak_stock.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9442
+    ],
+    "pageSlug": "Oak_stock",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oak_stock"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 16,
+    "lowAlchemy": 10,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 10000,
+      "dailyVolume": 133
+    }
+  },
+  "special": false
+}

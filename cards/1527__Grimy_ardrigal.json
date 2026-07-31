@@ -1,0 +1,37 @@
+{
+  "id": 1951,
+  "cardId": "itm_grimy-ardrigal",
+  "name": "Grimy ardrigal",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It needs cleaning.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grimy_ardrigal.png",
+  "debut": "2002-10-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1527
+    ],
+    "pageSlug": "Grimy_ardrigal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grimy_ardrigal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Clean",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.007,
+    "market": null
+  }
+}

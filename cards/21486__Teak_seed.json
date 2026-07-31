@@ -1,0 +1,40 @@
+{
+  "id": 2915,
+  "cardId": "itm_teak-seed",
+  "name": "Teak seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Plant this in a plantpot of soil to grow a sapling.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Teak_seed_1.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21486
+    ],
+    "pageSlug": "Teak_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Teak_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 28,
+    "lowAlchemy": 19,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 66,
+      "buyLimit": 200,
+      "dailyVolume": 2518
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 41,
+  "cardId": "itm_kebbit-spike",
+  "name": "Kebbit spike",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "These bone spikes are both very tough and very sharp.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kebbit_spike.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10105
+    ],
+    "pageSlug": "Kebbit_spike",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kebbit_spike"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 779,
+      "buyLimit": 10000,
+      "dailyVolume": 505
+    }
+  }
+}

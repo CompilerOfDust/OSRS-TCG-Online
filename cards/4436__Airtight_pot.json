@@ -1,0 +1,42 @@
+{
+  "id": 7278,
+  "cardId": "itm_airtight-pot",
+  "name": "Airtight pot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This is pretty well sealed.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Airtight_pot.png",
+  "debut": "2005-02-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4436
+    ],
+    "pageSlug": "Airtight_pot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Airtight_pot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Open",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.595,
+    "market": {
+      "guidePrice": 1622,
+      "buyLimit": 15,
+      "dailyVolume": 98
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,65 @@
+{
+  "id": 9860,
+  "cardId": "npc_the-nightmare",
+  "name": "The Nightmare",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Sweet dreams are most definitely not made of this.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/The_Nightmare.png",
+  "debut": "2020-02-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9425,
+      9426,
+      9427,
+      9428,
+      9429,
+      9430,
+      9431,
+      9432,
+      9433,
+      9460
+    ],
+    "pageSlug": "The_Nightmare",
+    "pageUrl": "https://oldschool.runescape.wiki/w/The_Nightmare"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 814,
+    "vitality": null,
+    "peakDamage": "50/60 ( Melee ) 33/39 ( Ranged and Magic ) Increased by 20% if using incorrect protection prayer",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Slash",
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 4927,
+  "cardId": "itm_wolf-bones",
+  "name": "Wolf bones",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    4262
+  ],
+  "flavourText": "Bones of a recently slain wolf.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wolf_bones.png",
+  "debut": "2004-05-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2859
+    ],
+    "pageSlug": "Wolf_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wolf_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 408,
+      "buyLimit": 13000,
+      "dailyVolume": 1960
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": 1691,
+  "cardId": "npc_frost-crab",
+  "name": "Frost Crab",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "No one likes crabs...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Frost_Crab.png",
+  "debut": "2024-09-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13789,
+      13791
+    ],
+    "pageSlug": "Frost_Crab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Frost_Crab"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 15,
+    "vitality": 60,
+    "peakDamage": "1",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": true,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 60,
+      "group": "Crabs",
+      "masters": [
+        "Mazchna",
+        "Vannaka",
+        "Chaeldar"
+      ]
+    },
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

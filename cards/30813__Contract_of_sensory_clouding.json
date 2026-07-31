@@ -1,0 +1,41 @@
+{
+  "id": 5604,
+  "cardId": "itm_contract-of-sensory-clouding",
+  "name": "Contract of sensory clouding",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A contract issued by Yama. Present it to him to discuss some new terms.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Contract_of_sensory_clouding.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30813
+    ],
+    "pageSlug": "Contract_of_sensory_clouding",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Contract_of_sensory_clouding"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 205070,
+      "buyLimit": 50,
+      "dailyVolume": 2093
+    }
+  }
+}

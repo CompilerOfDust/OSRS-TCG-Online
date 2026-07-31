@@ -1,0 +1,68 @@
+{
+  "id": 8434,
+  "cardId": "itm_onyx-ring",
+  "name": "Onyx ring",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A valuable ring.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Onyx_ring.png",
+  "debut": "2005-10-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6575
+    ],
+    "pageSlug": "Onyx_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Onyx_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 120600,
+    "lowAlchemy": 80400,
+    "weightKg": 0.006,
+    "market": {
+      "guidePrice": 1797324,
+      "buyLimit": 10000,
+      "dailyVolume": 5
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,70 @@
+{
+  "id": 4694,
+  "cardId": "itm_thammarons-sceptre-au",
+  "name": "Thammaron's sceptre (au)",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A mighty sceptre used in long forgotten battles.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Thammaron%27s_sceptre_%28au%29.png",
+  "debut": "2023-02-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27785
+    ],
+    "pageSlug": "Thammaron%27s_sceptre_(a)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Thammaron%27s_sceptre_(a)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Dismantle",
+      "Swap",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 72000,
+    "lowAlchemy": 48000,
+    "weightKg": 0.198,
+    "market": {
+      "guidePrice": 4053344,
+      "buyLimit": 8,
+      "dailyVolume": 14
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 20,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

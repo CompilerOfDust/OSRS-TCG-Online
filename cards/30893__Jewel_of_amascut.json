@@ -1,0 +1,39 @@
+{
+  "id": 5632,
+  "cardId": "itm_jewel-of-amascut",
+  "name": "Jewel of amascut",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A jewel that amascut [ sic ] once used and has now discarded.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jewel_of_amascut.png",
+  "debut": "2025-06-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30893
+    ],
+    "pageSlug": "Jewel_of_amascut",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jewel_of_amascut"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Attach",
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180000,
+    "lowAlchemy": 120000,
+    "weightKg": 0.951,
+    "market": null
+  },
+  "special": false
+}

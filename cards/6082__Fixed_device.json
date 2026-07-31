@@ -1,0 +1,64 @@
+{
+  "id": 8161,
+  "cardId": "itm_fixed-device",
+  "name": "Fixed device",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A device for firing dye.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fixed_device.png",
+  "debut": "2005-07-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6082
+    ],
+    "pageSlug": "Fixed_device",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fixed_device"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 4,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

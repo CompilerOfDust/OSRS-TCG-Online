@@ -1,0 +1,36 @@
+{
+  "id": 8244,
+  "cardId": "itm_bone-beads",
+  "name": "Bone beads",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Beads carved out of a bone.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bone_beads.png",
+  "debut": "2003-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      618
+    ],
+    "pageSlug": "Bone_beads",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bone_beads"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

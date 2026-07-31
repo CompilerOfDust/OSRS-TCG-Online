@@ -1,0 +1,73 @@
+{
+  "id": 2478,
+  "cardId": "npc_sleepwalker__2",
+  "name": "Sleepwalker",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    1029,
+    1030,
+    1031,
+    1032,
+    9470,
+    9801,
+    9802
+  ],
+  "flavourText": "A sleepwalking citizen of Slepe.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sleepwalker_(1).png",
+  "debut": "2020-02-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9446,
+      9447,
+      9448,
+      9449,
+      9450,
+      9451
+    ],
+    "pageSlug": "Sleepwalker_(monster)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sleepwalker_(monster)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 3,
+    "vitality": 10,
+    "peakDamage": "1",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "None"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 0,
+      "magic": 0,
+      "ranged": 0
+    },
+    "aggressiveBonuses": null
+  }
+}

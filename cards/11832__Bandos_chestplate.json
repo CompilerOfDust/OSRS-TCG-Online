@@ -1,0 +1,69 @@
+{
+  "id": 817,
+  "cardId": "itm_bandos-chestplate",
+  "name": "Bandos chestplate",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [
+    26718
+  ],
+  "flavourText": "A sturdy chestplate.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bandos_chestplate.png",
+  "debut": "2013-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11832
+    ],
+    "pageSlug": "Bandos_chestplate",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bandos_chestplate"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 174006,
+    "lowAlchemy": 116004,
+    "weightKg": 12,
+    "market": {
+      "guidePrice": 21317041,
+      "buyLimit": 8,
+      "dailyVolume": 1757
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -15,
+        "ranged": -10
+      },
+      "defence": {
+        "stab": 98,
+        "slash": 93,
+        "crush": 105,
+        "magic": -6,
+        "ranged": 133
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

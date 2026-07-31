@@ -1,0 +1,65 @@
+{
+  "id": 5787,
+  "cardId": "itm_sailing-cape",
+  "name": "Sailing cape",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "The cape worn by the world's best sailors.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sailing_cape.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31288
+    ],
+    "pageSlug": "Sailing_cape",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sailing_cape"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Teleport",
+      "Rename boat",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 59400,
+    "lowAlchemy": 39600,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 9,
+        "crush": 9,
+        "magic": 9,
+        "ranged": 9
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

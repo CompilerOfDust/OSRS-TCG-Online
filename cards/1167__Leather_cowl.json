@@ -1,0 +1,67 @@
+{
+  "id": 717,
+  "cardId": "itm_leather-cowl",
+  "name": "Leather cowl",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Better than no armour!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Leather_cowl.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1167
+    ],
+    "pageSlug": "Leather_cowl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Leather_cowl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 14,
+    "lowAlchemy": 9,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 6,
+      "buyLimit": 125,
+      "dailyVolume": 5346
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 1
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 4,
+        "magic": 2,
+        "ranged": 3
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

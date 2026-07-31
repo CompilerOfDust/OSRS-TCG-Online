@@ -1,0 +1,67 @@
+{
+  "id": 8412,
+  "cardId": "itm_toktz-xil-ek",
+  "name": "Toktz-xil-ek",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A large knife of obsidian.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Toktz-xil-ek.png",
+  "debut": "2005-09-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6525
+    ],
+    "pageSlug": "Toktz-xil-ek",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Toktz-xil-ek"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 15000,
+    "lowAlchemy": 10000,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 73980,
+      "buyLimit": 70,
+      "dailyVolume": 23
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 16,
+        "slash": 48,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 39,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

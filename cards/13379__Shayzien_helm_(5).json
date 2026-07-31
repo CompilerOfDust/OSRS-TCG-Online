@@ -1,0 +1,67 @@
+{
+  "id": 1527,
+  "cardId": "itm_shayzien-helm-5",
+  "name": "Shayzien helm (5)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    13359,
+    13364,
+    13369
+  ],
+  "flavourText": "Dress like a tier 5 Shayzien soldier.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shayzien_helm_%285%29.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13379
+    ],
+    "pageSlug": "Shayzien_helm_(5)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shayzien_helm_(5)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 42,
+    "lowAlchemy": 28,
+    "weightKg": 2.721,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": 4
+      },
+      "defence": {
+        "stab": 10,
+        "slash": 14,
+        "crush": 12,
+        "magic": -2,
+        "ranged": 13
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

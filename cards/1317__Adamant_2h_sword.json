@@ -1,0 +1,67 @@
+{
+  "id": 1431,
+  "cardId": "itm_adamant-2h-sword",
+  "name": "Adamant 2h sword",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A two handed sword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_2h_sword.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1317
+    ],
+    "pageSlug": "Adamant_2h_sword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_2h_sword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 3840,
+    "lowAlchemy": 2560,
+    "weightKg": 4.082,
+    "market": {
+      "guidePrice": 3422,
+      "buyLimit": 125,
+      "dailyVolume": 13722
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -4,
+        "slash": 43,
+        "crush": 30,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": -1
+      },
+      "slot": "2h",
+      "attackSpeed": 7,
+      "extras": {
+        "meleeStrength": 44,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 8034,
+  "cardId": "npc_ice-troll-king",
+  "name": "Ice Troll King",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6294,
+    6356
+  ],
+  "flavourText": "Normal: An impressive-looking troll. Dead: Not so impressive anymore! Decapitated: Even less impressive!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ice_Troll_King.png",
+  "debut": "2007-02-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5822
+    ],
+    "pageSlug": "Ice_Troll_King",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ice_Troll_King"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 122,
+    "vitality": null,
+    "peakDamage": "21 (melee) 16 (special) 11 (Magic) 7 (Ranged)",
+    "combatXpBonusPct": -100,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 161,
+      "group": "Trolls",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

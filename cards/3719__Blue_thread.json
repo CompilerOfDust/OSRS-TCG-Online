@@ -1,0 +1,36 @@
+{
+  "id": 6789,
+  "cardId": "itm_blue-thread",
+  "name": "Blue thread",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some blue thread.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_thread.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3719
+    ],
+    "pageSlug": "Blue_thread",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_thread"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

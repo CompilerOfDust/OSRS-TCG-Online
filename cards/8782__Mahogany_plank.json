@@ -1,0 +1,41 @@
+{
+  "id": 9549,
+  "cardId": "itm_mahogany-plank",
+  "name": "Mahogany plank",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A plank of expensive mahogany.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mahogany_plank.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8782
+    ],
+    "pageSlug": "Mahogany_plank",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mahogany_plank"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 1915,
+      "buyLimit": 13000,
+      "dailyVolume": 10022451
+    }
+  },
+  "special": false
+}

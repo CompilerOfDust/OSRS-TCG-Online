@@ -1,0 +1,36 @@
+{
+  "id": 9222,
+  "cardId": "itm_fresh-monkfish",
+  "name": "Fresh monkfish",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Freshly caught. Needs cooking.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fresh_monkfish.png",
+  "debut": "2006-05-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7942
+    ],
+    "pageSlug": "Fresh_monkfish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fresh_monkfish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.45,
+    "market": null
+  }
+}

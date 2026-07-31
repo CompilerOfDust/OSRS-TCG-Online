@@ -1,0 +1,56 @@
+{
+  "id": 279,
+  "cardId": "npc_unbound-jaltok-jad",
+  "name": "Unbound JalTok-Jad",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Large, destructive, enthralling.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/JalTok-Jad.png",
+  "debut": "2023-11-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10623
+    ],
+    "pageSlug": "Unbound_JalTok-Jad",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unbound_JalTok-Jad"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 1350,
+    "vitality": null,
+    "peakDamage": "154",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged",
+      "Magic",
+      "Stab"
+    ],
+    "attackTempo": 8,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

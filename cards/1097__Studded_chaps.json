@@ -1,0 +1,71 @@
+{
+  "id": 443,
+  "cardId": "itm_studded-chaps",
+  "name": "Studded chaps",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    7366,
+    7368
+  ],
+  "flavourText": "Those studs should provide a bit more protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Studded_chaps.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1097
+    ],
+    "pageSlug": "Studded_chaps",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Studded_chaps"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 450,
+    "lowAlchemy": 300,
+    "weightKg": 4.535,
+    "market": {
+      "guidePrice": 237,
+      "buyLimit": 125,
+      "dailyVolume": 916
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -5,
+        "ranged": 6
+      },
+      "defence": {
+        "stab": 15,
+        "slash": 16,
+        "crush": 17,
+        "magic": 6,
+        "ranged": 16
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

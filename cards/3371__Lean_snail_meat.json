@@ -1,0 +1,42 @@
+{
+  "id": 6565,
+  "cardId": "itm_lean-snail-meat",
+  "name": "Lean snail meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A succulently slimy slice of sumptuous snail.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lean_snail_meat.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3371
+    ],
+    "pageSlug": "Lean_snail_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lean_snail_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 3390,
+      "buyLimit": 6000,
+      "dailyVolume": 81
+    }
+  },
+  "special": false
+}

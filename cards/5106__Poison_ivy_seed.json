@@ -1,0 +1,40 @@
+{
+  "id": 7702,
+  "cardId": "itm_poison-ivy-seed",
+  "name": "Poison ivy seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A poison ivy bush seed - plant in a bush patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Poison_ivy_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5106
+    ],
+    "pageSlug": "Poison_ivy_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Poison_ivy_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 99,
+    "lowAlchemy": 66,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 13,
+      "buyLimit": 200,
+      "dailyVolume": 17618
+    }
+  }
+}

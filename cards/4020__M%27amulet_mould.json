@@ -1,0 +1,36 @@
+{
+  "id": 6936,
+  "cardId": "itm_mamulet-mould",
+  "name": "M'amulet mould",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's an amulet mould shaped like a monkey head.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/M%27amulet_mould.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4020
+    ],
+    "pageSlug": "M%27amulet_mould",
+    "pageUrl": "https://oldschool.runescape.wiki/w/M%27amulet_mould"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.007,
+    "market": null
+  }
+}

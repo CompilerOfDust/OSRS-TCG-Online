@@ -1,0 +1,40 @@
+{
+  "id": 7382,
+  "cardId": "itm_kharidian-headpiece",
+  "name": "Kharidian headpiece",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Wear it on your head.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kharidian_headpiece.png",
+  "debut": "2005-04-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4591
+    ],
+    "pageSlug": "Kharidian_headpiece",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kharidian_headpiece"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.07,
+    "market": {
+      "guidePrice": 301,
+      "buyLimit": 15,
+      "dailyVolume": 22
+    }
+  }
+}

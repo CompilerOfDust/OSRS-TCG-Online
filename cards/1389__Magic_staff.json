@@ -1,0 +1,67 @@
+{
+  "id": 1710,
+  "cardId": "itm_magic-staff",
+  "name": "Magic staff",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A Magical staff.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_staff.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1389
+    ],
+    "pageSlug": "Magic_staff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_staff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 313,
+      "buyLimit": 125,
+      "dailyVolume": 1663
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 2,
+        "slash": -1,
+        "crush": 10,
+        "magic": 10,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 10,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 7,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

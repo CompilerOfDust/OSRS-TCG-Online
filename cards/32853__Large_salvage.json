@@ -1,0 +1,36 @@
+{
+  "id": 6358,
+  "cardId": "itm_large-salvage",
+  "name": "Large salvage",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Salvage from a large shipwreck. You can sort through it at a salvaging station.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Large_salvage.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32853
+    ],
+    "pageSlug": "Large_salvage",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Large_salvage"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 3,
+    "market": null
+  }
+}

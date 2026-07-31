@@ -1,0 +1,64 @@
+{
+  "id": 9001,
+  "cardId": "npc_vasa-nistirio",
+  "name": "Vasa Nistirio",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A former High Priest, fused with the rock and bound to the dark crystals.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vasa_Nistirio.png",
+  "debut": "2017-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7566,
+      7567
+    ],
+    "pageSlug": "Vasa_Nistirio",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vasa_Nistirio"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Xerician"
+    ],
+    "tileSize": "5x5",
+    "combatRating": 1,
+    "vitality": 300,
+    "peakDamage": "Varies",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 175,
+      "magic": 230,
+      "ranged": 230
+    },
+    "aggressiveBonuses": null
+  }
+}

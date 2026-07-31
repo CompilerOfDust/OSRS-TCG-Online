@@ -1,0 +1,64 @@
+{
+  "id": 4546,
+  "cardId": "itm_lost-bag",
+  "name": "Lost bag",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bag with strange markings on it... How did it fit into that small pouch?",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lost_bag.png",
+  "debut": "2022-03-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26912
+    ],
+    "pageSlug": "Lost_bag",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lost_bag"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Inspect",
+      "Destroy"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.25,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

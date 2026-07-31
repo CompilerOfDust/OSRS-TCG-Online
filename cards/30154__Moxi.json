@@ -1,0 +1,37 @@
+{
+  "id": 5412,
+  "cardId": "itm_moxi",
+  "name": "Moxi",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A tiny frost nagua.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Moxi.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30154
+    ],
+    "pageSlug": "Moxi",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Moxi"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

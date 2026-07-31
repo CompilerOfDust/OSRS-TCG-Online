@@ -1,0 +1,36 @@
+{
+  "id": 2206,
+  "cardId": "itm_unknown-print",
+  "name": "Unknown print",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An unidentified fingerprint taken from the murder weapon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unknown_print.png",
+  "debut": "2003-06-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1822
+    ],
+    "pageSlug": "Unknown_print",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unknown_print"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

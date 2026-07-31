@@ -1,0 +1,56 @@
+{
+  "id": 7041,
+  "cardId": "npc_burntmeat",
+  "name": "Burntmeat",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Human is his speciality.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-08-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4157
+    ],
+    "pageSlug": "Burntmeat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Burntmeat"
+  },
+  "npcProfile": {
+    "race": "Troll",
+    "gender": "Male",
+    "locations": [
+      "Troll Stronghold kitchen"
+    ],
+    "questLine": "Eadgar's Ruse , My Arm's Big Adventure , Making Friends with My Arm",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

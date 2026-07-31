@@ -1,0 +1,41 @@
+{
+  "id": 2770,
+  "cardId": "itm_kodai-insignia",
+  "name": "Kodai insignia",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "An insignia representing Kodai, Xeric's fearsome wizards.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kodai_insignia.png",
+  "debut": "2017-01-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21043
+    ],
+    "pageSlug": "Kodai_insignia",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kodai_insignia"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90000,
+    "lowAlchemy": 60000,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 57375306,
+      "buyLimit": 8,
+      "dailyVolume": 17
+    }
+  }
+}

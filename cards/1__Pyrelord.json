@@ -1,0 +1,76 @@
+{
+  "id": 2467,
+  "cardId": "npc_pyrelord",
+  "name": "Pyrelord",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    7394,
+    9465,
+    12563,
+    12564
+  ],
+  "flavourText": "A large fire demon.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pyrelord.png",
+  "debut": "2020-02-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6762,
+      6795
+    ],
+    "pageSlug": "Pyrelord",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pyrelord"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Demon"
+    ],
+    "tileSize": "2x2",
+    "combatRating": 60,
+    "vitality": 80,
+    "peakDamage": "5",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Magical melee"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 15,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 30,
+      "reward": 80,
+      "group": "Pyrefiends",
+      "masters": [
+        "Mazchna",
+        "Vannaka"
+      ]
+    },
+    "combatLevels": {
+      "attack": 60,
+      "strength": 40,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

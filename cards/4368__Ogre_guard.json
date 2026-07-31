@@ -1,0 +1,63 @@
+{
+  "id": 7229,
+  "cardId": "npc_ogre-guard",
+  "name": "Ogre guard",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    864,
+    865
+  ],
+  "flavourText": "An ogre that guards.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2003-05-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4368,
+      4369,
+      4370,
+      4371,
+      4372
+    ],
+    "pageSlug": "Ogre_guard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ogre_guard"
+  },
+  "npcProfile": {
+    "race": "Ogre",
+    "gender": "Male",
+    "locations": [
+      "Gu'Tanoth"
+    ],
+    "questLine": "Watchtower",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

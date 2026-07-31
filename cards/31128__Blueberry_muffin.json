@@ -1,0 +1,38 @@
+{
+  "id": 5725,
+  "cardId": "itm_blueberry-muffin",
+  "name": "Blueberry muffin",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A tasty treat that can't be beat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blueberry_muffin.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31128
+    ],
+    "pageSlug": "Blueberry_muffin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blueberry_muffin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.025,
+    "market": null
+  },
+  "special": false
+}

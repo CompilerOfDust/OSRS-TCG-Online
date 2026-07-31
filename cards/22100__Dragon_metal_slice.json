@@ -1,0 +1,40 @@
+{
+  "id": 3119,
+  "cardId": "itm_dragon-metal-slice",
+  "name": "Dragon metal slice",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A badly damaged slice of dragon metal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_metal_slice.png",
+  "debut": "2018-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22100
+    ],
+    "pageSlug": "Dragon_metal_slice",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_metal_slice"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 74115256,
+      "buyLimit": 50,
+      "dailyVolume": 3
+    }
+  }
+}

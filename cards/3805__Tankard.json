@@ -1,0 +1,38 @@
+{
+  "id": 6843,
+  "cardId": "itm_tankard",
+  "name": "Tankard",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    31254
+  ],
+  "flavourText": "A big cup for a big thirst.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tankard.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3805
+    ],
+    "pageSlug": "Tankard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tankard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.05,
+    "market": null
+  }
+}

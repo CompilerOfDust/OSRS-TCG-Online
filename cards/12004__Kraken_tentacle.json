@@ -1,0 +1,40 @@
+{
+  "id": 905,
+  "cardId": "itm_kraken-tentacle",
+  "name": "Kraken tentacle",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Ewwww... it's still sucky.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kraken_tentacle.png",
+  "debut": "2014-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12004
+    ],
+    "pageSlug": "Kraken_tentacle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kraken_tentacle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 50004,
+    "lowAlchemy": 33336,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 258660,
+      "buyLimit": 70,
+      "dailyVolume": 1673
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 5365,
+  "cardId": "itm_aldarium",
+  "name": "Aldarium",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A special alchemical ingredient used for creating potions.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Aldarium.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29993
+    ],
+    "pageSlug": "Aldarium",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Aldarium"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 72707,
+      "buyLimit": 13000,
+      "dailyVolume": 35150
+    }
+  },
+  "special": false
+}

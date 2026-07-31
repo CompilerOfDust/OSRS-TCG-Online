@@ -1,0 +1,60 @@
+{
+  "id": 531,
+  "cardId": "npc_nylocas-queen",
+  "name": "Nylocas Queen",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A nylocas of extraordinary power.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2021-07-28",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11181,
+      15967,
+      15968,
+      15969,
+      16190
+    ],
+    "pageSlug": "Nylocas_Queen",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nylocas_Queen"
+  },
+  "npcProfile": {
+    "race": "Nylocas / araxyte / vampyre tribrid",
+    "gender": "Female",
+    "locations": [
+      "Ver Sinhaza"
+    ],
+    "questLine": "A Night at the Theatre",
+    "shop": null,
+    "menuActions": [
+      "None"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

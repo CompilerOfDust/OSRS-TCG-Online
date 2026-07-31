@@ -1,0 +1,67 @@
+{
+  "id": 179,
+  "cardId": "itm_guthix-mitre",
+  "name": "Guthix mitre",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A Guthix mitre.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Guthix_mitre.png",
+  "debut": "2006-12-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10454
+    ],
+    "pageSlug": "Guthix_mitre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Guthix_mitre"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.3,
+    "market": {
+      "guidePrice": 15178,
+      "buyLimit": 8,
+      "dailyVolume": 195
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 4,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  }
+}

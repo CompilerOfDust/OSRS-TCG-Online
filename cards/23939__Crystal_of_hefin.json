@@ -1,0 +1,36 @@
+{
+  "id": 3610,
+  "cardId": "itm_crystal-of-hefin",
+  "name": "Crystal of hefin",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A crystal of the Hefin clan.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crystal_of_hefin.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23939
+    ],
+    "pageSlug": "Crystal_of_hefin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crystal_of_hefin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

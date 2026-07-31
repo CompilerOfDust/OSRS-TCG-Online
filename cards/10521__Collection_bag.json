@@ -1,0 +1,38 @@
+{
+  "id": 216,
+  "cardId": "itm_collection-bag",
+  "name": "Collection bag",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A very small collection bag.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Collection_bag_%28very_small%29.png",
+  "debut": "2007-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10521
+    ],
+    "pageSlug": "Collection_bag",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Collection_bag"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Look-in",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

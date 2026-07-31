@@ -1,0 +1,41 @@
+{
+  "id": 6369,
+  "cardId": "itm_cupronickel-bar",
+  "name": "Cupronickel bar",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a bar of cupronickel.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cupronickel_bar.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32892
+    ],
+    "pageSlug": "Cupronickel_bar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cupronickel_bar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 16,
+    "lowAlchemy": 11,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 2615,
+      "buyLimit": 10000,
+      "dailyVolume": 16204
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": 2404,
+  "cardId": "itm_armadyl-dhide-boots",
+  "name": "Armadyl d'hide boots",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Armadyl blessed dragonhide boots.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Armadyl_d%27hide_boots.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19930
+    ],
+    "pageSlug": "Armadyl_d%27hide_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Armadyl_d%27hide_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 5580,
+    "lowAlchemy": 3720,
+    "weightKg": 1.4,
+    "market": {
+      "guidePrice": 336642,
+      "buyLimit": 8,
+      "dailyVolume": 434
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 7
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 4,
+        "crush": 4,
+        "magic": 4,
+        "ranged": 4
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

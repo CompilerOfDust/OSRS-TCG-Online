@@ -1,0 +1,70 @@
+{
+  "id": 536,
+  "cardId": "itm_digsite-pendant-1",
+  "name": "Digsite pendant (5)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    11190,
+    11191,
+    11192,
+    11193
+  ],
+  "flavourText": "An enchanted necklace.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Digsite_pendant.png",
+  "debut": "2007-05-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11194
+    ],
+    "pageSlug": "Digsite_pendant",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Digsite_pendant"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Rub",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 1440,
+    "lowAlchemy": 960,
+    "weightKg": 0.01,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": 9863,
+  "cardId": "itm_runite-limbs",
+  "name": "Runite limbs",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A pair of runite crossbow limbs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Runite_limbs.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9431
+    ],
+    "pageSlug": "Runite_limbs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Runite_limbs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9600,
+    "lowAlchemy": 6400,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 9075,
+      "buyLimit": 10000,
+      "dailyVolume": 1317
+    }
+  }
+}

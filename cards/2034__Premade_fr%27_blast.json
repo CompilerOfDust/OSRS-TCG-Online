@@ -1,0 +1,42 @@
+{
+  "id": 2596,
+  "cardId": "itm_premade-fr-blast",
+  "name": "Premade fr' blast",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A premade Fruit Blast.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Premade_fr%27_blast.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2034
+    ],
+    "pageSlug": "Premade_fr%27_blast",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Premade_fr%27_blast"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 35,
+      "buyLimit": 2000,
+      "dailyVolume": 23
+    }
+  },
+  "special": false
+}

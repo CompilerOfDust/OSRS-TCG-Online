@@ -1,0 +1,69 @@
+{
+  "id": 2292,
+  "cardId": "itm_heavy-ballista",
+  "name": "Heavy ballista",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    26712
+  ],
+  "flavourText": "A powerful weapon forged from the wreckage of an airship.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Heavy_ballista.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19481
+    ],
+    "pageSlug": "Heavy_ballista",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Heavy_ballista"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 570000,
+    "lowAlchemy": 380000,
+    "weightKg": 6,
+    "market": {
+      "guidePrice": 996384,
+      "buyLimit": 8,
+      "dailyVolume": 1095
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 125
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 7,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 15,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

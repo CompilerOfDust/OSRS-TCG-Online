@@ -1,0 +1,36 @@
+{
+  "id": 1892,
+  "cardId": "itm_dwarf-brew",
+  "name": "Dwarf brew",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Smells stronger than most spirits.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dwarf_brew.png",
+  "debut": "2003-03-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1501
+    ],
+    "pageSlug": "Dwarf_brew",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dwarf_brew"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.15,
+    "market": null
+  }
+}

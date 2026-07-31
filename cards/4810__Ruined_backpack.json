@@ -1,0 +1,37 @@
+{
+  "id": 7546,
+  "cardId": "itm_ruined-backpack",
+  "name": "Ruined backpack",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A broken and useless looking backpack with the moniker,'B.Vahn' in it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ruined_backpack.png",
+  "debut": "2005-05-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4810
+    ],
+    "pageSlug": "Ruined_backpack",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ruined_backpack"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Open",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

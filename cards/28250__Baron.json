@@ -1,0 +1,37 @@
+{
+  "id": 4816,
+  "cardId": "itm_baron",
+  "name": "Baron",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Better keep an eye on this one.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Baron.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28250
+    ],
+    "pageSlug": "Baron",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Baron"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

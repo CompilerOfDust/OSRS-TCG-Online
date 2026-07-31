@@ -1,0 +1,41 @@
+{
+  "id": 5386,
+  "cardId": "itm_soiled-page",
+  "name": "Soiled page",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a bit dirty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Soiled_page.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30068
+    ],
+    "pageSlug": "Soiled_page",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Soiled_page"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 2689,
+      "buyLimit": 11000,
+      "dailyVolume": 69992
+    }
+  },
+  "special": false
+}

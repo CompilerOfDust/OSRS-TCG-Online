@@ -1,0 +1,60 @@
+{
+  "id": 1839,
+  "cardId": "npc_rantz",
+  "name": "Rantz",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A large dim looking humanoid.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-05-18",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1470,
+      4855,
+      4856,
+      4857
+    ],
+    "pageSlug": "Rantz",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rantz"
+  },
+  "npcProfile": {
+    "race": "Ogre",
+    "gender": "Male",
+    "locations": [
+      "Feldip Hills"
+    ],
+    "questLine": "Big Chompy Bird Hunting , One Small Favour , Recipe for Disaster",
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Claim-arrows"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

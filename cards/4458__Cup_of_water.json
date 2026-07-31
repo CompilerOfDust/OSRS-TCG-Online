@@ -1,0 +1,42 @@
+{
+  "id": 7294,
+  "cardId": "itm_cup-of-water",
+  "name": "Cup of water",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A cup of water.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cup_of_water.png",
+  "debut": "2005-02-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4458
+    ],
+    "pageSlug": "Cup_of_water",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cup_of_water"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.05,
+    "market": {
+      "guidePrice": 59,
+      "buyLimit": 13000,
+      "dailyVolume": 110
+    }
+  },
+  "special": false
+}

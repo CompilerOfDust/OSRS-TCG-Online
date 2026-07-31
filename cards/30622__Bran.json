@@ -1,0 +1,37 @@
+{
+  "id": 5541,
+  "cardId": "itm_bran",
+  "name": "Bran",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Might have a short temper.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bran.png",
+  "debut": "2025-02-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30622
+    ],
+    "pageSlug": "Bran",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bran"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

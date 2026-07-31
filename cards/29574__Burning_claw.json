@@ -1,0 +1,41 @@
+{
+  "id": 5249,
+  "cardId": "itm_burning-claw",
+  "name": "Burning claw",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "An intact, lightly smouldering claw.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Burning_claw.png",
+  "debut": "2024-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29574
+    ],
+    "pageSlug": "Burning_claw",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Burning_claw"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240000,
+    "lowAlchemy": 160000,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 1783246,
+      "buyLimit": 8,
+      "dailyVolume": 227
+    }
+  },
+  "special": false
+}

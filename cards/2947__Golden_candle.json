@@ -1,0 +1,36 @@
+{
+  "id": 5218,
+  "cardId": "itm_golden-candle",
+  "name": "Golden candle",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A replica candle made of solid gold.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golden_candle.png",
+  "debut": "2004-06-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2947
+    ],
+    "pageSlug": "Golden_candle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golden_candle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

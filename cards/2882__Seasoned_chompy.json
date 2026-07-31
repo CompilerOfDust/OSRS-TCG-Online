@@ -1,0 +1,36 @@
+{
+  "id": 5011,
+  "cardId": "itm_seasoned-chompy",
+  "name": "Seasoned chompy",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It has been deliciously seasoned to taste wonderful for ogres.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Seasoned_chompy.png",
+  "debut": "2004-05-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2882
+    ],
+    "pageSlug": "Seasoned_chompy",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Seasoned_chompy"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 10,
+    "market": null
+  }
+}

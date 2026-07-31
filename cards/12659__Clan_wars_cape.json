@@ -1,0 +1,36 @@
+{
+  "id": 1211,
+  "cardId": "itm_clan-wars-cape",
+  "name": "Clan wars cape",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An imaginary team cape.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Clan_wars_cape_%28yellow%29.png",
+  "debut": "2014-07-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12659
+    ],
+    "pageSlug": "Clan_wars_cape",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Clan_wars_cape"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Discard"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

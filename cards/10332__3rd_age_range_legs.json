@@ -1,0 +1,67 @@
+{
+  "id": 106,
+  "cardId": "itm_3rd-age-range-legs",
+  "name": "3rd age range legs",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Fabulously ancient range protection crafted from white dragonhide.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/3rd_age_range_legs.png",
+  "debut": "2006-12-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10332
+    ],
+    "pageSlug": "3rd_age_range_legs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/3rd_age_range_legs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 30360,
+    "lowAlchemy": 20240,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 15806803,
+      "buyLimit": 8,
+      "dailyVolume": 14
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 17
+      },
+      "defence": {
+        "stab": 31,
+        "slash": 25,
+        "crush": 33,
+        "magic": 30,
+        "ranged": 31
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

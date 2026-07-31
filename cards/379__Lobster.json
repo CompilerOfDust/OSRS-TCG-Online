@@ -1,0 +1,42 @@
+{
+  "id": 6840,
+  "cardId": "itm_lobster",
+  "name": "Lobster",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "This looks tricky to eat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lobster.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      379
+    ],
+    "pageSlug": "Lobster",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lobster"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 42,
+    "lowAlchemy": 28,
+    "weightKg": 0.35,
+    "market": {
+      "guidePrice": 91,
+      "buyLimit": 6000,
+      "dailyVolume": 1003351
+    }
+  },
+  "special": false
+}

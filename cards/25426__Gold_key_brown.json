@@ -1,0 +1,36 @@
+{
+  "id": 4023,
+  "cardId": "itm_gold-key-brown",
+  "name": "Gold key brown",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A gold key with a brown painted eyelet (Opens chests found in the Mort'ton catacombs).",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gold_key_brown.png",
+  "debut": "2021-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25426
+    ],
+    "pageSlug": "Gold_key_brown",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gold_key_brown"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 3772,
+  "cardId": "itm_rune-pouch-note",
+  "name": "Rune pouch note",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A note that may be exchanged at a bank for a Rune Pouch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_pouch_note.png",
+  "debut": "2020-04-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24587
+    ],
+    "pageSlug": "Rune_pouch_note",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_pouch_note"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 126,
+    "lowAlchemy": 84,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 3429090,
+      "buyLimit": 40,
+      "dailyVolume": 236
+    }
+  }
+}

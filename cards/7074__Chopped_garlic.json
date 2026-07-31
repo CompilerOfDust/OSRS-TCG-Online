@@ -1,0 +1,41 @@
+{
+  "id": 8719,
+  "cardId": "itm_chopped-garlic",
+  "name": "Chopped garlic",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bowl of chopped garlic.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chopped_garlic.png",
+  "debut": "2006-01-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7074
+    ],
+    "pageSlug": "Chopped_garlic",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chopped_garlic"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 2,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 305,
+      "buyLimit": 13000,
+      "dailyVolume": 0
+    }
+  },
+  "special": false
+}

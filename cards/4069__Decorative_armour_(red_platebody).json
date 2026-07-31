@@ -1,0 +1,63 @@
+{
+  "id": 6969,
+  "cardId": "itm_decorative-armour__9",
+  "name": "Decorative armour",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Very decorative armour.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Decorative_armour_%28red_platebody%29.png",
+  "debut": "2004-12-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4069
+    ],
+    "pageSlug": "Decorative_armour_(red_platebody)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Decorative_armour_(red_platebody)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 8.618,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -30,
+        "ranged": -15
+      },
+      "defence": {
+        "stab": 32,
+        "slash": 31,
+        "crush": 24,
+        "magic": -6,
+        "ranged": 31
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

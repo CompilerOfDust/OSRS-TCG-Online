@@ -1,0 +1,36 @@
+{
+  "id": 4653,
+  "cardId": "itm_poisoned-fish-food",
+  "name": "Poisoned fish food",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Doesn't seem very nice to the poor fishes.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Poisoned_fish_food.png",
+  "debut": "2001-01-21",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      274
+    ],
+    "pageSlug": "Poisoned_fish_food",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Poisoned_fish_food"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.03,
+    "market": null
+  }
+}

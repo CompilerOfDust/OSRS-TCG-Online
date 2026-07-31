@@ -1,0 +1,37 @@
+{
+  "id": 9256,
+  "cardId": "itm_stuffed-kq-head",
+  "name": "Stuffed kq head",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "I could mount this on my wall!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stuffed_kq_head.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7988
+    ],
+    "pageSlug": "Stuffed_kq_head",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stuffed_kq_head"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Unstuff",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 10,
+    "market": null
+  }
+}

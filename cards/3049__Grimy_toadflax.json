@@ -1,0 +1,42 @@
+{
+  "id": 5502,
+  "cardId": "itm_grimy-toadflax",
+  "name": "Grimy toadflax",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It needs cleaning.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grimy_toadflax.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3049
+    ],
+    "pageSlug": "Grimy_toadflax",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grimy_toadflax"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Clean",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 11,
+    "lowAlchemy": 7,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 1932,
+      "buyLimit": 13000,
+      "dailyVolume": 482666
+    }
+  },
+  "special": false
+}

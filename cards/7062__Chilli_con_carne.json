@@ -1,0 +1,42 @@
+{
+  "id": 8712,
+  "cardId": "itm_chilli-con-carne",
+  "name": "Chilli con carne",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bowl of meat in chilli-con-carne sauce.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chilli_con_carne.png",
+  "debut": "2006-01-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7062
+    ],
+    "pageSlug": "Chilli_con_carne",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chilli_con_carne"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 5,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 43,
+      "buyLimit": 13000,
+      "dailyVolume": 0
+    }
+  },
+  "special": false
+}

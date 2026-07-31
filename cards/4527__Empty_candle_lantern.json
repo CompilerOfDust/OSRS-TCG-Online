@@ -1,0 +1,40 @@
+{
+  "id": 7335,
+  "cardId": "itm_empty-candle-lantern",
+  "name": "Empty candle lantern",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Put a candle in to complete it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Empty_candle_lantern.png",
+  "debut": "2005-03-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4527
+    ],
+    "pageSlug": "Empty_candle_lantern",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Empty_candle_lantern"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 3,
+      "buyLimit": 10000,
+      "dailyVolume": 15555
+    }
+  }
+}

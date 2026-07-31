@@ -1,0 +1,36 @@
+{
+  "id": 5085,
+  "cardId": "itm_sulphurous-essence",
+  "name": "Sulphurous essence",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Brimming with unstable magic. It stings when it touches skin.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sulphurous_essence.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29087
+    ],
+    "pageSlug": "Sulphurous_essence",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sulphurous_essence"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

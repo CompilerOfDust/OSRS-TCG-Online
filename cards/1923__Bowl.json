@@ -1,0 +1,41 @@
+{
+  "id": 2274,
+  "cardId": "itm_bowl",
+  "name": "Bowl",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Useful for mixing things.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bowl.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1923
+    ],
+    "pageSlug": "Bowl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bowl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 13,
+      "buyLimit": 13000,
+      "dailyVolume": 16410
+    }
+  },
+  "special": false
+}

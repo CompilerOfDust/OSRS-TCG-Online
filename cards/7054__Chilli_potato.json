@@ -1,0 +1,41 @@
+{
+  "id": 8707,
+  "cardId": "itm_chilli-potato",
+  "name": "Chilli potato",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A baked potato with chilli con carne.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chilli_potato.png",
+  "debut": "2006-01-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7054
+    ],
+    "pageSlug": "Chilli_potato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chilli_potato"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 5,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 156,
+      "buyLimit": 13000,
+      "dailyVolume": 2270
+    }
+  }
+}

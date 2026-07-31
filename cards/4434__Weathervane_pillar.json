@@ -1,0 +1,36 @@
+{
+  "id": 7277,
+  "cardId": "itm_weathervane-pillar",
+  "name": "Weathervane pillar",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A fixed weathervane rotating pillar.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Weathervane_pillar.png",
+  "debut": "2005-02-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4434
+    ],
+    "pageSlug": "Weathervane_pillar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Weathervane_pillar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

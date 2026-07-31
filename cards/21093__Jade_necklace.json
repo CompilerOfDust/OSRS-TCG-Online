@@ -1,0 +1,67 @@
+{
+  "id": 2785,
+  "cardId": "itm_jade-necklace",
+  "name": "Jade necklace",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I wonder if this is valuable.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jade_necklace.png",
+  "debut": "2017-02-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21093
+    ],
+    "pageSlug": "Jade_necklace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jade_necklace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 765,
+    "lowAlchemy": 510,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 865,
+      "buyLimit": 10000,
+      "dailyVolume": 30690
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

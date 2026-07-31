@@ -1,0 +1,42 @@
+{
+  "id": 3771,
+  "cardId": "itm_looting-bag-note",
+  "name": "Looting bag note",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A note that may be exchanged at a bank for a Looting Bag.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Looting_bag_note.png",
+  "debut": "2020-04-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24585
+    ],
+    "pageSlug": "Looting_bag_note",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Looting_bag_note"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 45741,
+      "buyLimit": 40,
+      "dailyVolume": 12029
+    }
+  },
+  "special": false
+}

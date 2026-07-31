@@ -1,0 +1,42 @@
+{
+  "id": 2897,
+  "cardId": "itm_master-scroll-book-empty",
+  "name": "Master scroll book (empty)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I can store my teleport scrolls in this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Master_scroll_book_%28empty%29.png",
+  "debut": "2017-07-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21387
+    ],
+    "pageSlug": "Master_scroll_book",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Master_scroll_book"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Open",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 47992,
+      "buyLimit": 100,
+      "dailyVolume": 388
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": 6131,
+  "cardId": "itm_large-rosewood-hull-parts",
+  "name": "Large rosewood hull parts",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating a rosewood hull for a boat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Large_rosewood_hull_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32080
+    ],
+    "pageSlug": "Large_rosewood_hull_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Large_rosewood_hull_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 56250,
+    "lowAlchemy": 37500,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 71045,
+      "buyLimit": 100,
+      "dailyVolume": 1646
+    }
+  },
+  "special": false
+}

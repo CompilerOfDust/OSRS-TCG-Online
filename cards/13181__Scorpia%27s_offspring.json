@@ -1,0 +1,37 @@
+{
+  "id": 1433,
+  "cardId": "itm_scorpias-offspring",
+  "name": "Scorpia's offspring",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A scuttling little scorpion with an incredibly vicious tail.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Scorpia%27s_offspring.png",
+  "debut": "2015-03-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13181
+    ],
+    "pageSlug": "Scorpia%27s_offspring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Scorpia%27s_offspring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

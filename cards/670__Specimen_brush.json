@@ -1,0 +1,36 @@
+{
+  "id": 8525,
+  "cardId": "itm_specimen-brush",
+  "name": "Specimen brush",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A small brush used to clean rock samples.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Specimen_brush.png",
+  "debut": "2003-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      670
+    ],
+    "pageSlug": "Specimen_brush",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Specimen_brush"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

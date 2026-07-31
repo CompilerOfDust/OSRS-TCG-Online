@@ -1,0 +1,36 @@
+{
+  "id": 6782,
+  "cardId": "itm_promissory-note",
+  "name": "Promissory note",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A legally binding contract promising not to enter the longhall.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Promissory_note.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3709
+    ],
+    "pageSlug": "Promissory_note",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Promissory_note"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.005,
+    "market": null
+  }
+}

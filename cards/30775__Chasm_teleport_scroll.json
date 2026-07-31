@@ -1,0 +1,42 @@
+{
+  "id": 5587,
+  "cardId": "itm_chasm-teleport-scroll",
+  "name": "Chasm teleport scroll",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Ancient glyphs cover the paper, resembling those in the chasm of fire.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chasm_teleport_scroll.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30775
+    ],
+    "pageSlug": "Chasm_teleport_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chasm_teleport_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Teleport",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 37387,
+      "buyLimit": null,
+      "dailyVolume": 12076
+    }
+  },
+  "special": false
+}

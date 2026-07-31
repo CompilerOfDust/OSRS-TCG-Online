@@ -1,0 +1,67 @@
+{
+  "id": 1705,
+  "cardId": "itm_staff-of-water",
+  "name": "Staff of water",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A Magical staff.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Staff_of_water.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1383
+    ],
+    "pageSlug": "Staff_of_water",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Staff_of_water"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 923,
+      "buyLimit": 125,
+      "dailyVolume": 1392
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": -1,
+        "crush": 7,
+        "magic": 10,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 10,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 3,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

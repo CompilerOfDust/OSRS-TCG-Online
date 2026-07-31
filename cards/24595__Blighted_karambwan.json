@@ -1,0 +1,42 @@
+{
+  "id": 3776,
+  "cardId": "itm_blighted-karambwan",
+  "name": "Blighted karambwan",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A nutritious octopus, now blighted so it can be eaten only in the Wilderness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blighted_karambwan.png",
+  "debut": "2020-04-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24595
+    ],
+    "pageSlug": "Blighted_karambwan",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blighted_karambwan"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 0.65,
+    "market": {
+      "guidePrice": 54,
+      "buyLimit": 10000,
+      "dailyVolume": 1339682
+    }
+  },
+  "special": false
+}

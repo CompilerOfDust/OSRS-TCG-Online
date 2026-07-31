@@ -1,0 +1,67 @@
+{
+  "id": 8562,
+  "cardId": "itm_black-desert-robe",
+  "name": "Black desert robe",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A desert robe stained black.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_desert_robe.png",
+  "debut": "2005-11-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6752
+    ],
+    "pageSlug": "Black_desert_robe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_desert_robe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 83,
+      "buyLimit": 15,
+      "dailyVolume": 35
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

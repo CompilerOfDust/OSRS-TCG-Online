@@ -1,0 +1,41 @@
+{
+  "id": 5618,
+  "cardId": "itm_contract-of-familiar-acquisition",
+  "name": "Contract of familiar acquisition",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A contract issued by Yama. Present it to him to discuss some new terms.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Contract_of_familiar_acquisition.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30840
+    ],
+    "pageSlug": "Contract_of_familiar_acquisition",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Contract_of_familiar_acquisition"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 115529,
+      "buyLimit": 50,
+      "dailyVolume": 406
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 6405,
+  "cardId": "itm_mooleta",
+  "name": "Mooleta",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A defensive weapon.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mooleta.png",
+  "debut": "2026-02-25",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33101
+    ],
+    "pageSlug": "Mooleta",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mooleta"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 5,
+        "slash": 7,
+        "crush": 7,
+        "magic": -1,
+        "ranged": -1
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 8,
+        "crush": 8,
+        "magic": -2,
+        "ranged": -1
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 1,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

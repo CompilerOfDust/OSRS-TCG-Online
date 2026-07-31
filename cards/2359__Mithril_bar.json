@@ -1,0 +1,40 @@
+{
+  "id": 3518,
+  "cardId": "itm_mithril-bar",
+  "name": "Mithril bar",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a bar of mithril.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mithril_bar.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2359
+    ],
+    "pageSlug": "Mithril_bar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mithril_bar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 1.587,
+    "market": {
+      "guidePrice": 975,
+      "buyLimit": 10000,
+      "dailyVolume": 3193651
+    }
+  }
+}

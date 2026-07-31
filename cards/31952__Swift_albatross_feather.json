@@ -1,0 +1,41 @@
+{
+  "id": 6080,
+  "cardId": "itm_swift-albatross-feather",
+  "name": "Swift albatross feather",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "An elegant feather from an albatross. Not so swift anymore.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Swift_albatross_feather.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31952
+    ],
+    "pageSlug": "Swift_albatross_feather",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Swift_albatross_feather"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4800,
+    "lowAlchemy": 3200,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 339211,
+      "buyLimit": 15,
+      "dailyVolume": 430
+    }
+  }
+}

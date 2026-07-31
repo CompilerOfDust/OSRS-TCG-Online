@@ -1,0 +1,43 @@
+{
+  "id": 8060,
+  "cardId": "itm_tinderbox",
+  "name": "Tinderbox",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    7156
+  ],
+  "flavourText": "Useful for lighting a fire.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tinderbox.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      590
+    ],
+    "pageSlug": "Tinderbox",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tinderbox"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.035,
+    "market": {
+      "guidePrice": 98,
+      "buyLimit": 40,
+      "dailyVolume": 7651
+    }
+  },
+  "special": false
+}

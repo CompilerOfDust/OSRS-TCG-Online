@@ -1,0 +1,36 @@
+{
+  "id": 5832,
+  "cardId": "itm_orangefin",
+  "name": "Orangefin",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's an orangefin! I should get this stuffed!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Orangefin.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31416
+    ],
+    "pageSlug": "Orangefin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Orangefin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.7,
+    "market": null
+  }
+}

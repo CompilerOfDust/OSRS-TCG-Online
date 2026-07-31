@@ -1,0 +1,64 @@
+{
+  "id": 1442,
+  "cardId": "itm_magma-helm-uncharged",
+  "name": "Magma helm (uncharged)",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Needs to be charged with Zulrah's scales.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magma_helm_%28uncharged%29.png",
+  "debut": "2015-04-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13198
+    ],
+    "pageSlug": "Magma_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magma_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Restore",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 66240,
+    "lowAlchemy": 44160,
+    "weightKg": 0.9,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -5,
+        "ranged": -5
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

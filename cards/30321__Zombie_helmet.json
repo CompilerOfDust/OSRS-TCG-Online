@@ -1,0 +1,69 @@
+{
+  "id": 5439,
+  "cardId": "itm_zombie-helmet",
+  "name": "Zombie helmet",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    30324
+  ],
+  "flavourText": "A rusty yet tough helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zombie_helmet.png",
+  "debut": "2024-11-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30321
+    ],
+    "pageSlug": "Zombie_helmet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zombie_helmet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 96000,
+    "lowAlchemy": 64000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 194176,
+      "buyLimit": 50,
+      "dailyVolume": 130
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 8,
+        "magic": -4,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 30,
+        "slash": 32,
+        "crush": 38,
+        "magic": 0,
+        "ranged": 30
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 2,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

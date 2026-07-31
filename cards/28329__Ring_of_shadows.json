@@ -1,0 +1,65 @@
+{
+  "id": 4851,
+  "cardId": "itm_ring-of-shadows-uncharged",
+  "name": "Ring of shadows (uncharged)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A powerful ring used to see into other realms...",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ring_of_shadows_%28uncharged%29.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28329
+    ],
+    "pageSlug": "Ring_of_shadows",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ring_of_shadows"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Charge",
+      "Destroy"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 45000,
+    "lowAlchemy": 30000,
+    "weightKg": 0.004,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 4,
+        "slash": 4,
+        "crush": 4,
+        "magic": 5,
+        "ranged": 4
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 2,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": 9847,
+  "cardId": "itm_runite-bolts-unf",
+  "name": "Runite bolts (unf)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Unfeathered runite crossbow bolts.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Runite_bolts_%28unf%29_1.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9381
+    ],
+    "pageSlug": "Runite_bolts_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Runite_bolts_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 116,
+      "buyLimit": 13000,
+      "dailyVolume": 424205
+    }
+  }
+}

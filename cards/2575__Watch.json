@@ -1,0 +1,36 @@
+{
+  "id": 4148,
+  "cardId": "itm_watch",
+  "name": "Watch",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A fine looking time piece.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Watch.png",
+  "debut": "2004-05-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2575
+    ],
+    "pageSlug": "Watch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Watch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.1,
+    "market": null
+  }
+}

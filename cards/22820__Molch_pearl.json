@@ -1,0 +1,36 @@
+{
+  "id": 3348,
+  "cardId": "itm_molch-pearl",
+  "name": "Molch pearl",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Alry might be interested in trading for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Molch_pearl_1.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22820
+    ],
+    "pageSlug": "Molch_pearl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Molch_pearl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0,
+    "market": null
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": 9358,
+  "cardId": "npc_swamp-crab",
+  "name": "Swamp Crab",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "No one likes crabs...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Swamp_Crab.png",
+  "debut": "2018-05-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8297,
+      8298,
+      8299
+    ],
+    "pageSlug": "Swamp_Crab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Swamp_Crab"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 55,
+    "vitality": 75,
+    "peakDamage": "1",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 75,
+      "group": "Crabs",
+      "masters": [
+        "Mazchna",
+        "Vannaka",
+        "Chaeldar"
+      ]
+    },
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 50,
+      "magic": 50,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": 1985,
+  "cardId": "npc_aquanite",
+  "name": "Aquanite",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    15502,
+    15503
+  ],
+  "flavourText": "It has a light on its forehead. What a pretty light... So shiny!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Aquanite.png",
+  "debut": "2025-11-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15497,
+      15498
+    ],
+    "pageSlug": "Aquanite",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Aquanite"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 145,
+    "vitality": 180,
+    "peakDamage": "18",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 15,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": true,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 78,
+      "reward": 180,
+      "group": "Aquanite",
+      "masters": [
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 70,
+      "magic": 170,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

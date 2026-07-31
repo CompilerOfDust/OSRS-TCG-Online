@@ -1,0 +1,40 @@
+{
+  "id": 810,
+  "cardId": "itm_godsword-shard-2",
+  "name": "Godsword shard 2",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A part of the Godsword blade.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Godsword_shard_2.png",
+  "debut": "2013-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11820
+    ],
+    "pageSlug": "Godsword_shard_2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Godsword_shard_2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 2.5,
+    "market": {
+      "guidePrice": 155813,
+      "buyLimit": 11000,
+      "dailyVolume": 178
+    }
+  }
+}

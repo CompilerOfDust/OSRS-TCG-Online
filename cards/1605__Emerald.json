@@ -1,0 +1,43 @@
+{
+  "id": 2053,
+  "cardId": "itm_emerald",
+  "name": "Emerald",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    6896
+  ],
+  "flavourText": "This looks valuable.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Emerald.png",
+  "debut": "2001-05-08",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1605
+    ],
+    "pageSlug": "Emerald",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Emerald"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.002,
+    "market": {
+      "guidePrice": 435,
+      "buyLimit": 13000,
+      "dailyVolume": 2022669
+    }
+  },
+  "special": false
+}

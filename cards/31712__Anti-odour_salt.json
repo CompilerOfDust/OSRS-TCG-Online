@@ -1,0 +1,41 @@
+{
+  "id": 5930,
+  "cardId": "itm_anti-odour-salt",
+  "name": "Anti-odour salt",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A special salt used by experienced hunters to remove their sent [ sic ] from traps.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Anti-odour_salt.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31712
+    ],
+    "pageSlug": "Anti-odour_salt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Anti-odour_salt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 194,
+      "buyLimit": null,
+      "dailyVolume": 28720
+    }
+  },
+  "special": false
+}

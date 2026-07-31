@@ -1,0 +1,40 @@
+{
+  "id": 9793,
+  "cardId": "itm_topaz-bolt-tips",
+  "name": "Topaz bolt tips",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Red Topaz bolt tips.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Topaz_bolt_tips_1.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9188
+    ],
+    "pageSlug": "Topaz_bolt_tips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Topaz_bolt_tips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 5,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 97,
+      "buyLimit": 11000,
+      "dailyVolume": 64089
+    }
+  }
+}

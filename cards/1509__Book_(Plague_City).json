@@ -1,0 +1,43 @@
+{
+  "id": 1909,
+  "cardId": "itm_book",
+  "name": "Book",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    3839,
+    3841,
+    3843,
+    12607,
+    12609,
+    12611
+  ],
+  "flavourText": "Turnip growing for beginners.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Book_%28Plague_City%29.png",
+  "debut": "2002-08-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1509
+    ],
+    "pageSlug": "Book_(Plague_City)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Book_(Plague_City)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.51,
+    "market": null
+  }
+}

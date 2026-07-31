@@ -1,0 +1,39 @@
+{
+  "id": 5799,
+  "cardId": "itm_mayor-of-catherby",
+  "name": "Mayor of catherby",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "When you look into this little fish's eyes, democracy suddenly makes total sense.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mayor_of_catherby.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31331
+    ],
+    "pageSlug": "Mayor_of_catherby",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mayor_of_catherby"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Consult",
+      "Feed",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2.267,
+    "market": null
+  },
+  "special": false
+}

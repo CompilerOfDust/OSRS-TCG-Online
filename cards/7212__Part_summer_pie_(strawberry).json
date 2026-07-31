@@ -1,0 +1,38 @@
+{
+  "id": 8800,
+  "cardId": "itm_part-summer-pie",
+  "name": "Part summer pie",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    7214
+  ],
+  "flavourText": "Still needs two more ingredients.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Part_summer_pie_%28strawberry%29.png",
+  "debut": "2006-02-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7212
+    ],
+    "pageSlug": "Part_summer_pie_(strawberry)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Part_summer_pie_(strawberry)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

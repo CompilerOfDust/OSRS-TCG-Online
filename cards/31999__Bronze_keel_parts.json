@@ -1,0 +1,41 @@
+{
+  "id": 6097,
+  "cardId": "itm_bronze-keel-parts",
+  "name": "Bronze keel parts",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating a bronze keel for a boat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_keel_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31999
+    ],
+    "pageSlug": "Bronze_keel_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_keel_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 21,
+    "lowAlchemy": 14,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 477,
+      "buyLimit": 100,
+      "dailyVolume": 394
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": 6516,
+  "cardId": "itm_sap-treated-magic-logs",
+  "name": "Sap-treated magic logs",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Magic logs treated with bloodwood sap.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sap-treated_magic_logs.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33609
+    ],
+    "pageSlug": "Sap-treated_magic_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sap-treated_magic_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 192,
+    "lowAlchemy": 128,
+    "weightKg": 2,
+    "market": null
+  }
+}

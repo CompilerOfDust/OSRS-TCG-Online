@@ -1,0 +1,41 @@
+{
+  "id": 2073,
+  "cardId": "itm_uncut-red-topaz",
+  "name": "Uncut red topaz",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This would be worth more cut.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncut_red_topaz.png",
+  "debut": "2003-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1629
+    ],
+    "pageSlug": "Uncut_red_topaz",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncut_red_topaz"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.003,
+    "market": {
+      "guidePrice": 2123,
+      "buyLimit": 10000,
+      "dailyVolume": 83667
+    }
+  },
+  "special": false
+}

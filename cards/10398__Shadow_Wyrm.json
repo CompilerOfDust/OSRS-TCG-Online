@@ -1,0 +1,75 @@
+{
+  "id": 139,
+  "cardId": "npc_shadow-wyrm",
+  "name": "Shadow Wyrm",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Is it wyrm in here or is it just me?",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shadow_Wyrm.png",
+  "debut": "2020-07-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10398,
+      10399
+    ],
+    "pageSlug": "Shadow_Wyrm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shadow_Wyrm"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Draconic"
+    ],
+    "tileSize": "5x5",
+    "combatRating": 259,
+    "vitality": 290,
+    "peakDamage": "28",
+    "combatXpBonusPct": 10,
+    "hostile": false,
+    "assaultStyles": [
+      "Magic",
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 62,
+      "reward": 3520,
+      "group": "Wyrms",
+      "masters": [
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 300,
+      "strength": 180,
+      "defence": 125,
+      "magic": 160,
+      "ranged": 125
+    },
+    "aggressiveBonuses": null
+  },
+  "special": false
+}

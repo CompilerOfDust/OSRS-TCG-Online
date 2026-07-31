@@ -1,0 +1,42 @@
+{
+  "id": 563,
+  "cardId": "itm_gourmet-impling-jar",
+  "name": "Gourmet impling jar",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A gourmet impling in a jar.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gourmet_impling_jar.png",
+  "debut": "2007-06-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11242
+    ],
+    "pageSlug": "Gourmet_impling_jar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gourmet_impling_jar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Loot",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 3932,
+      "buyLimit": 18000,
+      "dailyVolume": 205018
+    }
+  },
+  "special": false
+}

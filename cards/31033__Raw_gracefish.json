@@ -1,0 +1,37 @@
+{
+  "id": 5686,
+  "cardId": "itm_raw-gracefish",
+  "name": "Raw gracefish",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_gracefish.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31033
+    ],
+    "pageSlug": "Raw_gracefish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_gracefish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 102,
+    "lowAlchemy": 68,
+    "weightKg": 0.7,
+    "market": null
+  },
+  "special": false
+}

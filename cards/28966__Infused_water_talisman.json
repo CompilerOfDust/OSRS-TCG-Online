@@ -1,0 +1,37 @@
+{
+  "id": 5051,
+  "cardId": "itm_infused-water-talisman",
+  "name": "Infused water talisman",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It rumbles near water...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Infused_water_talisman.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28966
+    ],
+    "pageSlug": "Infused_water_talisman",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Infused_water_talisman"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Locate",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": 397,
+  "cardId": "itm_adamant-plateskirt",
+  "name": "Adamant plateskirt",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    3474,
+    3475
+  ],
+  "flavourText": "Designer leg protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_plateskirt.png",
+  "debut": "2001-02-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1091
+    ],
+    "pageSlug": "Adamant_plateskirt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_plateskirt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 3840,
+    "lowAlchemy": 2560,
+    "weightKg": 9.071,
+    "market": {
+      "guidePrice": 3479,
+      "buyLimit": 125,
+      "dailyVolume": 2995
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 33,
+        "slash": 31,
+        "crush": 29,
+        "magic": -4,
+        "ranged": 31
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

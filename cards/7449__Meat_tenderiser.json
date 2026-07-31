@@ -1,0 +1,67 @@
+{
+  "id": 8918,
+  "cardId": "itm_meat-tenderiser",
+  "name": "Meat tenderiser",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Often used to soften tough meat up.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Meat_tenderiser.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7449
+    ],
+    "pageSlug": "Meat_tenderiser",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Meat_tenderiser"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 24900,
+    "lowAlchemy": 16600,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 27163,
+      "buyLimit": 50,
+      "dailyVolume": 4
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -4,
+        "slash": -4,
+        "crush": 53,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 48,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

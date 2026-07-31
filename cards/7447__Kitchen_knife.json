@@ -1,0 +1,67 @@
+{
+  "id": 8917,
+  "cardId": "itm_kitchen-knife",
+  "name": "Kitchen knife",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A sharp, dependable knife, for filleting meat.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kitchen_knife.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7447
+    ],
+    "pageSlug": "Kitchen_knife",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kitchen_knife"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 4800,
+    "lowAlchemy": 3200,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 8513,
+      "buyLimit": 50,
+      "dailyVolume": 6
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 25,
+        "slash": 12,
+        "crush": -4,
+        "magic": 1,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 1,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 24,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

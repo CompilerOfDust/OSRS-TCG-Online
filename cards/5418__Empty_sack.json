@@ -1,0 +1,43 @@
+{
+  "id": 7869,
+  "cardId": "itm_empty-sack",
+  "name": "Empty sack",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    10486
+  ],
+  "flavourText": "An empty vegetable sack.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Empty_sack.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5418
+    ],
+    "pageSlug": "Empty_sack",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Empty_sack"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Fill",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 2,
+      "buyLimit": 10000,
+      "dailyVolume": 1039009
+    }
+  }
+}

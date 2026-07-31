@@ -1,0 +1,40 @@
+{
+  "id": 7342,
+  "cardId": "itm_lantern-lens",
+  "name": "Lantern lens",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A roughly circular disc of glass.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lantern_lens.png",
+  "debut": "2005-03-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4542
+    ],
+    "pageSlug": "Lantern_lens",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lantern_lens"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 42,
+    "lowAlchemy": 28,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 10000,
+      "dailyVolume": 919366
+    }
+  }
+}

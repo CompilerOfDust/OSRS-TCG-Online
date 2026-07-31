@@ -1,0 +1,65 @@
+{
+  "id": 9545,
+  "cardId": "npc_memory-of-seren",
+  "name": "Memory of Seren",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A memory left behind by the crystalline goddess of the elves.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2019-07-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8775,
+      8776,
+      8777,
+      8778,
+      8779,
+      8780,
+      8781,
+      8782,
+      8783,
+      8784
+    ],
+    "pageSlug": "Memory_of_Seren",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Memory_of_Seren"
+  },
+  "npcProfile": {
+    "race": "N/A",
+    "gender": null,
+    "locations": [
+      "Grand Library"
+    ],
+    "questLine": "Song of the Elves",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

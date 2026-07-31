@@ -1,0 +1,63 @@
+{
+  "id": 4640,
+  "cardId": "itm_giant-stopwatch",
+  "name": "Giant stopwatch",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "You won't forget the time with this.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_stopwatch.png",
+  "debut": "2022-10-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27414
+    ],
+    "pageSlug": "Giant_stopwatch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giant_stopwatch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.5,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": -100,
+        "slash": -100,
+        "crush": -50,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": -10,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

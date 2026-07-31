@@ -1,0 +1,40 @@
+{
+  "id": 1991,
+  "cardId": "itm_garlic",
+  "name": "Garlic",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A clove of garlic.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Garlic.png",
+  "debut": "2001-01-28",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1550
+    ],
+    "pageSlug": "Garlic",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Garlic"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 25,
+      "buyLimit": 11000,
+      "dailyVolume": 356607
+    }
+  }
+}

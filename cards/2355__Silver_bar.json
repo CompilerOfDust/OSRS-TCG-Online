@@ -1,0 +1,40 @@
+{
+  "id": 3516,
+  "cardId": "itm_silver-bar",
+  "name": "Silver bar",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a bar of silver.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silver_bar.png",
+  "debut": "2001-07-12",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2355
+    ],
+    "pageSlug": "Silver_bar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silver_bar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 106,
+      "buyLimit": 10000,
+      "dailyVolume": 298732
+    }
+  }
+}

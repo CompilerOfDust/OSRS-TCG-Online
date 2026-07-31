@@ -1,0 +1,40 @@
+{
+  "id": 6659,
+  "cardId": "itm_fine-cloth",
+  "name": "Fine cloth",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Amazingly untouched by time.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fine_cloth.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3470
+    ],
+    "pageSlug": "Fine_cloth",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fine_cloth"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 6821,
+      "buyLimit": 11000,
+      "dailyVolume": 6178
+    }
+  }
+}

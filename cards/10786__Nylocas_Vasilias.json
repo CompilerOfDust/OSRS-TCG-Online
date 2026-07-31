@@ -1,0 +1,66 @@
+{
+  "id": 316,
+  "cardId": "npc_nylocas-vasilias",
+  "name": "Nylocas Vasilias",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "One of Verzik's rather large pets.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nylocas_Vasilias_(melee).png",
+  "debut": "2021-06-03",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10786,
+      10787,
+      10788,
+      10789
+    ],
+    "pageSlug": "Nylocas_Vasilias",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nylocas_Vasilias"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "4x4",
+    "combatRating": 301,
+    "vitality": 1440,
+    "peakDamage": "24",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab",
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 160,
+      "strength": 140,
+      "defence": 50,
+      "magic": 20,
+      "ranged": 140
+    },
+    "aggressiveBonuses": null
+  },
+  "special": false
+}

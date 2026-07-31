@@ -1,0 +1,67 @@
+{
+  "id": 5312,
+  "cardId": "itm_noxious-halberd",
+  "name": "Noxious halberd",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A venomous halberd created from the parts of an araxyte.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Noxious_halberd.png",
+  "debut": "2024-08-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29796
+    ],
+    "pageSlug": "Noxious_halberd",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Noxious_halberd"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 39819207,
+      "buyLimit": 8,
+      "dailyVolume": 1788
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 80,
+        "slash": 132,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 142,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

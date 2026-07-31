@@ -1,0 +1,80 @@
+{
+  "id": 7834,
+  "cardId": "npc_nazastarool",
+  "name": "Nazastarool",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    6337,
+    6338,
+    6339,
+    6398,
+    6399,
+    6400
+  ],
+  "flavourText": "A giant zombie of huge strength and devastating power.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nazastarool.png",
+  "debut": "2003-01-27",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5353,
+      5354,
+      5355
+    ],
+    "pageSlug": "Nazastarool",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nazastarool"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Undead"
+    ],
+    "tileSize": "2x2",
+    "combatRating": 91,
+    "vitality": 70,
+    "peakDamage": "9",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 70,
+      "group": "Zombies",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": {
+      "attack": 85,
+      "strength": 80,
+      "defence": 80,
+      "magic": 0,
+      "ranged": 0
+    },
+    "aggressiveBonuses": null
+  }
+}

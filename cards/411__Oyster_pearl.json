@@ -1,0 +1,41 @@
+{
+  "id": 7021,
+  "cardId": "itm_oyster-pearl",
+  "name": "Oyster pearl",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I could work wonders with a chisel on this pearl.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oyster_pearl.png",
+  "debut": "2002-09-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      411
+    ],
+    "pageSlug": "Oyster_pearl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oyster_pearl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 67,
+    "lowAlchemy": 44,
+    "weightKg": 0.002,
+    "market": {
+      "guidePrice": 30,
+      "buyLimit": 11000,
+      "dailyVolume": 8283
+    }
+  },
+  "special": false
+}

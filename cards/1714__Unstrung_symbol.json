@@ -1,0 +1,40 @@
+{
+  "id": 2134,
+  "cardId": "itm_unstrung-symbol",
+  "name": "Unstrung symbol",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It needs a string so I can wear it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unstrung_symbol.png",
+  "debut": "2001-07-12",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1714
+    ],
+    "pageSlug": "Unstrung_symbol",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unstrung_symbol"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 75,
+      "buyLimit": 10000,
+      "dailyVolume": 7476
+    }
+  }
+}

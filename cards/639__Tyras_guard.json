@@ -1,0 +1,63 @@
+{
+  "id": 8354,
+  "cardId": "npc_tyras-guard",
+  "name": "Tyras guard",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "One of King Tyras's men.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tyras_guard.png",
+  "debut": "2004-09-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      639,
+      1327,
+      3433,
+      3434,
+      3436,
+      8945,
+      8961,
+      8962,
+      8963,
+      8964
+    ],
+    "pageSlug": "Tyras_guard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tyras_guard"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 110,
+    "vitality": null,
+    "peakDamage": "15",
+    "combatXpBonusPct": 5,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

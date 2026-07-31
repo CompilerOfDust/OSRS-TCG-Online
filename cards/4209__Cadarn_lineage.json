@@ -1,0 +1,37 @@
+{
+  "id": 7102,
+  "cardId": "itm_cadarn-lineage",
+  "name": "Cadarn lineage",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A book on Cadarn clan history.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cadarn_lineage.png",
+  "debut": "2005-02-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4209
+    ],
+    "pageSlug": "Cadarn_lineage",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cadarn_lineage"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.51,
+    "market": null
+  }
+}

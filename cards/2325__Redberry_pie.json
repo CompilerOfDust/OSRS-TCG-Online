@@ -1,0 +1,42 @@
+{
+  "id": 3456,
+  "cardId": "itm_redberry-pie",
+  "name": "Redberry pie",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Looks tasty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Redberry_pie.png",
+  "debut": "2001-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2325
+    ],
+    "pageSlug": "Redberry_pie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Redberry_pie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 4,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 133,
+      "buyLimit": 15,
+      "dailyVolume": 4504
+    }
+  },
+  "special": false
+}

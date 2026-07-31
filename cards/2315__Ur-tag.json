@@ -1,0 +1,56 @@
+{
+  "id": 3430,
+  "cardId": "npc_ur-tag",
+  "name": "Ur-tag",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He's the head of the Dorgeshuun Council.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-05-31",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2315,
+      5156,
+      5326
+    ],
+    "pageSlug": "Ur-tag",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ur-tag"
+  },
+  "npcProfile": {
+    "race": "Dorgeshuun",
+    "gender": "Male",
+    "locations": [
+      "Dorgesh-Kaan"
+    ],
+    "questLine": "• The Lost Tribe • Death to the Dorgeshuun • Another Slice of H.A.M.",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

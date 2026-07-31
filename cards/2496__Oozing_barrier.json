@@ -1,0 +1,56 @@
+{
+  "id": 3903,
+  "cardId": "npc_oozing-barrier",
+  "name": "Oozing barrier",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Are you sure you want to touch that?",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-07-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2496
+    ],
+    "pageSlug": "Oozing_barrier",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oozing_barrier"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [
+      "Stronghold of Security"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [
+      "talk"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 1,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

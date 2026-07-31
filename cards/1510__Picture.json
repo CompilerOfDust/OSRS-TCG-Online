@@ -1,0 +1,36 @@
+{
+  "id": 1910,
+  "cardId": "itm_picture",
+  "name": "Picture",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A picture of a lady called Elena.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Picture.png",
+  "debut": "2002-08-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1510
+    ],
+    "pageSlug": "Picture",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Picture"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

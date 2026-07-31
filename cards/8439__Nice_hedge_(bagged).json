@@ -1,0 +1,40 @@
+{
+  "id": 9389,
+  "cardId": "itm_nice-hedge",
+  "name": "Nice hedge",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You can plant this in your garden.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nice_hedge_%28bagged%29.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8439
+    ],
+    "pageSlug": "Nice_hedge_(bagged)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nice_hedge_(bagged)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 11687,
+      "buyLimit": 10000,
+      "dailyVolume": 35
+    }
+  }
+}

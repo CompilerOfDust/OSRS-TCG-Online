@@ -1,0 +1,64 @@
+{
+  "id": 515,
+  "cardId": "itm_karamja-gloves-3",
+  "name": "Karamja gloves 3",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A pair of gloves from Karamja.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Karamja_gloves_3.png",
+  "debut": "2007-05-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11140
+    ],
+    "pageSlug": "Karamja_gloves_3",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Karamja_gloves_3"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Gem Mine",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.226,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 1,
+        "magic": 1,
+        "ranged": 1
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 1,
+        "magic": 1,
+        "ranged": 1
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 1,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 3808,
+  "cardId": "itm_daeyalt-shard",
+  "name": "Daeyalt shard",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Magical shards which can be turned into daeyalt essence.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Daeyalt_shard.png",
+  "debut": "2020-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24706
+    ],
+    "pageSlug": "Daeyalt_shard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Daeyalt_shard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0,
+    "market": null
+  }
+}

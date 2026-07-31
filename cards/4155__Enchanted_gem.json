@@ -1,0 +1,40 @@
+{
+  "id": 7039,
+  "cardId": "itm_enchanted-gem",
+  "name": "Enchanted gem",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I can contact the Slayer Masters with this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enchanted_gem.png",
+  "debut": "2005-01-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4155
+    ],
+    "pageSlug": "Enchanted_gem",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enchanted_gem"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Activate",
+      "Check",
+      "Partner",
+      "Log",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

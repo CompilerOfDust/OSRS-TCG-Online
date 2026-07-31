@@ -1,0 +1,69 @@
+{
+  "id": 3698,
+  "cardId": "itm_dagonhai-hat",
+  "name": "Dagon'hai hat",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    27123
+  ],
+  "flavourText": "A hat worn by members of the Dagon'hai.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dagon%27hai_hat.png",
+  "debut": "2019-10-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24288
+    ],
+    "pageSlug": "Dagon%27hai_hat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dagon%27hai_hat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 10200,
+    "lowAlchemy": 6800,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 212571,
+      "buyLimit": null,
+      "dailyVolume": 214
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 2
+      }
+    }
+  }
+}

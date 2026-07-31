@@ -1,0 +1,36 @@
+{
+  "id": 8591,
+  "cardId": "itm_nuggets",
+  "name": "Nuggets",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Pure, lovely gold!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nuggets.png",
+  "debut": "2003-07-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      680
+    ],
+    "pageSlug": "Nuggets",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nuggets"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

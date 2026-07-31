@@ -1,0 +1,46 @@
+{
+  "id": 3537,
+  "cardId": "itm_divine-ranging-potion-1",
+  "name": "Divine ranging potion(4)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    23736,
+    23739,
+    23742
+  ],
+  "flavourText": "4 doses of divine ranging potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Divine_ranging_potion%284%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23733
+    ],
+    "pageSlug": "Divine_ranging_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Divine_ranging_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 0.03,
+    "market": {
+      "guidePrice": 1799,
+      "buyLimit": 2000,
+      "dailyVolume": 14233
+    }
+  }
+}

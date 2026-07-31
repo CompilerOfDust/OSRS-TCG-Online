@@ -1,0 +1,40 @@
+{
+  "id": 2818,
+  "cardId": "itm_lava-staff-upgrade-kit",
+  "name": "Lava staff upgrade kit",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Makes a lava battlestaff or mystic lava staff more beautiful.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lava_staff_upgrade_kit.png",
+  "debut": "2017-02-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21202
+    ],
+    "pageSlug": "Lava_staff_upgrade_kit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lava_staff_upgrade_kit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 560150,
+      "buyLimit": 50,
+      "dailyVolume": 15
+    }
+  }
+}

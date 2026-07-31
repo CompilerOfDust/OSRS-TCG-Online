@@ -1,0 +1,36 @@
+{
+  "id": 5707,
+  "cardId": "itm_alchemists-signet",
+  "name": "Alchemist's signet",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A ring that presumably belonged to an alchemist.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Alchemist%27s_signet.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31084
+    ],
+    "pageSlug": "Alchemist%27s_signet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Alchemist%27s_signet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.06,
+    "market": null
+  }
+}

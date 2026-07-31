@@ -1,0 +1,37 @@
+{
+  "id": 5348,
+  "cardId": "itm_principum-red",
+  "name": "Principum red",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An incredibly rare Aldarin Red that was infamously used to poison the Kourend royal family.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Principum_red.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29950
+    ],
+    "pageSlug": "Principum_red",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Principum_red"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 1,
+    "market": null
+  }
+}

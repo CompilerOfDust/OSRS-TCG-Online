@@ -1,0 +1,67 @@
+{
+  "id": 1025,
+  "cardId": "itm_black-cane",
+  "name": "Black cane",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A ruby topped cane.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_cane.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12375
+    ],
+    "pageSlug": "Black_cane",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_cane"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 360,
+    "lowAlchemy": 240,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 2549,
+      "buyLimit": 4,
+      "dailyVolume": 43
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 8,
+        "slash": -2,
+        "crush": 16,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 13,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  }
+}

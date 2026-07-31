@@ -1,0 +1,68 @@
+{
+  "id": 3795,
+  "cardId": "itm_yellow-flowers",
+  "name": "Yellow flowers",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A posy of flowers.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yellow_flowers.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2466
+    ],
+    "pageSlug": "Yellow_flowers",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yellow_flowers"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 118,
+      "buyLimit": 150,
+      "dailyVolume": 583
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -100,
+        "slash": -100,
+        "crush": -50,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": -10,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,42 @@
+{
+  "id": 3989,
+  "cardId": "itm_black-toy-horsey",
+  "name": "Black toy horsey",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A black toy horse.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_toy_horsey.png",
+  "debut": "2004-04-01",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2524
+    ],
+    "pageSlug": "Black_toy_horsey",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_toy_horsey"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Play-with",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.05,
+    "market": {
+      "guidePrice": 231,
+      "buyLimit": 150,
+      "dailyVolume": 71
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": 8603,
+  "cardId": "itm_sealed-letter",
+  "name": "Sealed letter",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A sealed letter of recommendation.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sealed_letter.png",
+  "debut": "2003-07-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      683
+    ],
+    "pageSlug": "Sealed_letter",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sealed_letter"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

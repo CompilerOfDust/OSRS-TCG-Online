@@ -1,0 +1,67 @@
+{
+  "id": 5159,
+  "cardId": "itm_mixed-hide-cape",
+  "name": "Mixed hide cape",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Made from the hide of a few different creatures.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mixed_hide_cape.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29289
+    ],
+    "pageSlug": "Mixed_hide_cape",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mixed_hide_cape"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 19638,
+      "buyLimit": 100,
+      "dailyVolume": 8380
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -15,
+        "ranged": 5
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 2,
+        "crush": 2,
+        "magic": 5,
+        "ranged": 1
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 1,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

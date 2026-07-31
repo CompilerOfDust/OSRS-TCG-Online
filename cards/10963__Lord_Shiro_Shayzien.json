@@ -1,0 +1,59 @@
+{
+  "id": 425,
+  "cardId": "npc_lord-shiro-shayzien",
+  "name": "Lord Shiro Shayzien",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The lord of Shayzien and commander-in-chief of the Shayzien Army.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2018-04-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10963,
+      10964,
+      10965,
+      11038
+    ],
+    "pageSlug": "Lord_Shiro_Shayzien",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lord_Shiro_Shayzien"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Shayzien Encampment"
+    ],
+    "questLine": "Tale of the Righteous , A Kingdom Divided",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

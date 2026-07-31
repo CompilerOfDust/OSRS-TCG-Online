@@ -1,0 +1,37 @@
+{
+  "id": 1202,
+  "cardId": "itm_pet-general-graardor",
+  "name": "Pet general graardor",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Totally inaudible.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pet_general_graardor.png",
+  "debut": "2014-07-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12650
+    ],
+    "pageSlug": "Pet_general_graardor",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pet_general_graardor"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

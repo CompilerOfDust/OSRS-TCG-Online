@@ -1,0 +1,64 @@
+{
+  "id": 5570,
+  "cardId": "itm_cedar-blowpipe",
+  "name": "Cedar blowpipe",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Breath powered dart delivering system with a hint of cedar.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cedar_blowpipe.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30741
+    ],
+    "pageSlug": "Cedar_blowpipe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cedar_blowpipe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Check",
+      "Unload"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 0.5,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 30
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 3,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 20,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

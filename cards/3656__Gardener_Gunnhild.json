@@ -1,0 +1,57 @@
+{
+  "id": 6739,
+  "cardId": "npc_gardener-gunnhild",
+  "name": "Gardener Gunnhild",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "She's looking a bit weedy.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-11-29",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3656
+    ],
+    "pageSlug": "Gardener_Gunnhild",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gardener_Gunnhild"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Miscellania"
+    ],
+    "questLine": "Throne of Miscellania",
+    "shop": "Through dialogue; sells rakes and iron sickles for 15gp each.",
+    "menuActions": [
+      "Talk-to",
+      "Check-Approval"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

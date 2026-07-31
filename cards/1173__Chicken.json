@@ -1,0 +1,86 @@
+{
+  "id": 768,
+  "cardId": "npc_chicken",
+  "name": "Chicken",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    2804,
+    2805,
+    2806,
+    3316,
+    3563,
+    3661,
+    3662,
+    10494,
+    10495,
+    10496,
+    10497,
+    10498,
+    10499,
+    10556,
+    14510
+  ],
+  "flavourText": "Yep. Definitely a chicken.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chicken_(1).png",
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1173,
+      1174,
+      9488
+    ],
+    "pageSlug": "Chicken",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chicken"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 1,
+    "vitality": 3,
+    "peakDamage": "0",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 25,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 3,
+      "group": "Birds",
+      "masters": [
+        "Turael",
+        "Spria"
+      ]
+    },
+    "combatLevels": {
+      "attack": 1,
+      "strength": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

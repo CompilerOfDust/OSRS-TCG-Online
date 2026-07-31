@@ -1,0 +1,40 @@
+{
+  "id": 2167,
+  "cardId": "itm_green-dye",
+  "name": "Green dye",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A little bottle of green dye.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Green_dye.png",
+  "debut": "2001-12-08",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1771
+    ],
+    "pageSlug": "Green_dye",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Green_dye"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 210,
+      "buyLimit": 150,
+      "dailyVolume": 1669
+    }
+  }
+}

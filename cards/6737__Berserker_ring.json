@@ -1,0 +1,69 @@
+{
+  "id": 8550,
+  "cardId": "itm_berserker-ring",
+  "name": "Berserker ring",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    11773
+  ],
+  "flavourText": "A ring reputed to bring out a berserk fury in its wearer.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Berserker_ring.png",
+  "debut": "2005-11-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6737
+    ],
+    "pageSlug": "Berserker_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Berserker_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 2941009,
+      "buyLimit": 8,
+      "dailyVolume": 2795
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 4,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 7695,
+  "cardId": "itm_shortbow-u",
+  "name": "Shortbow (u)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to find a string for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shortbow_%28u%29.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      50
+    ],
+    "pageSlug": "Shortbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shortbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 13,
+    "lowAlchemy": 9,
+    "weightKg": 0.992,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 10000,
+      "dailyVolume": 5516
+    }
+  },
+  "special": false
+}

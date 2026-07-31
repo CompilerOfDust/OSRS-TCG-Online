@@ -1,0 +1,67 @@
+{
+  "id": 1298,
+  "cardId": "itm_black-sword",
+  "name": "Black sword",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A razor sharp sword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_sword.png",
+  "debut": "2001-12-08",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1283
+    ],
+    "pageSlug": "Black_sword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_sword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 374,
+    "lowAlchemy": 249,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 405,
+      "buyLimit": 125,
+      "dailyVolume": 731
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 14,
+        "slash": 10,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 2,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 12,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

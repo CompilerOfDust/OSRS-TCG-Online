@@ -1,0 +1,41 @@
+{
+  "id": 6401,
+  "cardId": "itm_facility-bottle-empty",
+  "name": "Facility bottle (empty)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "With proper application of directed exhalations, this complicated technology doubles as a folk instrument.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Facility_bottle_%28empty%29.png",
+  "debut": "2026-01-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33074
+    ],
+    "pageSlug": "Facility_bottle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Facility_bottle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 34615,
+    "lowAlchemy": 23077,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 33718,
+      "buyLimit": 100,
+      "dailyVolume": 3910
+    }
+  },
+  "special": false
+}

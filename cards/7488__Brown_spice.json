@@ -1,0 +1,40 @@
+{
+  "id": 8949,
+  "cardId": "itm_brown-spice-1",
+  "name": "Brown spice (4)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    7489,
+    7490,
+    7491
+  ],
+  "flavourText": "Allows for equal distribution of spice.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Brown_spice_%284%29.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7488
+    ],
+    "pageSlug": "Brown_spice",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Brown_spice"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 66,
+    "lowAlchemy": 44,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

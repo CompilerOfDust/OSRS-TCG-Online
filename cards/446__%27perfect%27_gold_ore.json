@@ -1,0 +1,36 @@
+{
+  "id": 7298,
+  "cardId": "itm_perfect-gold-ore",
+  "name": "'perfect' gold ore",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This needs refining.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/%27perfect%27_gold_ore.png",
+  "debut": "2002-04-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      446
+    ],
+    "pageSlug": "%27perfect%27_gold_ore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/%27perfect%27_gold_ore"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 2.267,
+    "market": null
+  }
+}

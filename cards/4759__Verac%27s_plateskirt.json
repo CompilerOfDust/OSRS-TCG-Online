@@ -1,0 +1,69 @@
+{
+  "id": 7515,
+  "cardId": "itm_veracs-plateskirt",
+  "name": "Verac's plateskirt",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Verac the Defiled's plate skirt.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Verac%27s_plateskirt.png",
+  "debut": "2005-05-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4759
+    ],
+    "pageSlug": "Verac%27s_plateskirt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Verac%27s_plateskirt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 165000,
+    "lowAlchemy": 110000,
+    "weightKg": 4.535,
+    "market": {
+      "guidePrice": 376934,
+      "buyLimit": 15,
+      "dailyVolume": 448
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 85,
+        "slash": 82,
+        "crush": 83,
+        "magic": 0,
+        "ranged": 84
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 4
+      }
+    }
+  },
+  "special": false
+}

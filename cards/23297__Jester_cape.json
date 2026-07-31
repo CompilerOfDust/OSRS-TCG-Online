@@ -1,0 +1,67 @@
+{
+  "id": 3466,
+  "cardId": "itm_jester-cape",
+  "name": "Jester cape",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A jester cape.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jester_cape.png",
+  "debut": "2019-04-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23297
+    ],
+    "pageSlug": "Jester_cape",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jester_cape"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 19533,
+      "buyLimit": 4,
+      "dailyVolume": 149
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

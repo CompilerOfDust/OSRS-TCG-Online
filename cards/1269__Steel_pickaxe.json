@@ -1,0 +1,67 @@
+{
+  "id": 1217,
+  "cardId": "itm_steel-pickaxe",
+  "name": "Steel pickaxe",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Used for mining.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_pickaxe.png",
+  "debut": "2003-05-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1269
+    ],
+    "pageSlug": "Steel_pickaxe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_pickaxe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 234,
+      "buyLimit": 40,
+      "dailyVolume": 720
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 8,
+        "slash": -2,
+        "crush": 6,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 9,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

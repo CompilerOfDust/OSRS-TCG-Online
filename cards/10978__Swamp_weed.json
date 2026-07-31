@@ -1,0 +1,40 @@
+{
+  "id": 441,
+  "cardId": "itm_swamp-weed",
+  "name": "Swamp weed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Swamp weed found in the caves near Dorgesh-Kaan.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Swamp_weed.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10978
+    ],
+    "pageSlug": "Swamp_weed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Swamp_weed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.2,
+    "market": {
+      "guidePrice": 481,
+      "buyLimit": 13000,
+      "dailyVolume": 444
+    }
+  }
+}

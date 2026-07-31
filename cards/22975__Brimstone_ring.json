@@ -1,0 +1,68 @@
+{
+  "id": 3395,
+  "cardId": "itm_brimstone-ring",
+  "name": "Brimstone ring",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A well balanced ring that aids in piercing magic defence.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Brimstone_ring.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22975
+    ],
+    "pageSlug": "Brimstone_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Brimstone_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 2704606,
+      "buyLimit": 8,
+      "dailyVolume": 943
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 4,
+        "slash": 4,
+        "crush": 4,
+        "magic": 6,
+        "ranged": 4
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 4,
+        "crush": 4,
+        "magic": 6,
+        "ranged": 4
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

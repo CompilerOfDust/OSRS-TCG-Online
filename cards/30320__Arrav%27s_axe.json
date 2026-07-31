@@ -1,0 +1,37 @@
+{
+  "id": 5438,
+  "cardId": "itm_arravs-axe",
+  "name": "Arrav's axe",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The axe of a legendary hero.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arrav%27s_axe.png",
+  "debut": "2024-11-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30320
+    ],
+    "pageSlug": "Arrav%27s_axe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arrav%27s_axe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 2.721,
+    "market": null
+  }
+}

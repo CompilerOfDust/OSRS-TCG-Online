@@ -1,0 +1,56 @@
+{
+  "id": 550,
+  "cardId": "npc_r0ck-5masher",
+  "name": "R0ck 5masher",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Seems like she is taking iron ore over to the forge.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2021-10-06",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11228
+    ],
+    "pageSlug": "R0ck_5masher",
+    "pageUrl": "https://oldschool.runescape.wiki/w/R0ck_5masher"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "The Node"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [
+      "None"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 3,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

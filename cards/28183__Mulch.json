@@ -1,0 +1,39 @@
+{
+  "id": 4800,
+  "cardId": "itm_mulch",
+  "name": "Mulch",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A nutritional mulch made of different natural ingredients.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mulch_%28one_ingredient%29.png",
+  "debut": "2023-06-28",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28183,
+      28648
+    ],
+    "pageSlug": "Mulch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mulch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Check",
+      "History",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.35,
+    "market": null
+  }
+}

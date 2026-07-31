@@ -1,0 +1,46 @@
+{
+  "id": 2207,
+  "cardId": "itm_waterskin-0",
+  "name": "Waterskin(4)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    1825,
+    1827,
+    1829,
+    1831
+  ],
+  "flavourText": "A completely empty waterskin - you'll need to fill it up.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Waterskin%284%29.png",
+  "debut": "2003-04-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1823
+    ],
+    "pageSlug": "Waterskin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Waterskin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 13,
+      "buyLimit": 10000,
+      "dailyVolume": 585
+    }
+  },
+  "special": false
+}

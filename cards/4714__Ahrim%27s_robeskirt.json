@@ -1,0 +1,68 @@
+{
+  "id": 7477,
+  "cardId": "itm_ahrims-robeskirt",
+  "name": "Ahrim's robeskirt",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Ahrim the Blighted's armoured robe skirt.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ahrim%27s_robeskirt.png",
+  "debut": "2005-05-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4714
+    ],
+    "pageSlug": "Ahrim%27s_robeskirt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ahrim%27s_robeskirt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 28200,
+    "lowAlchemy": 18800,
+    "weightKg": 11.339,
+    "market": {
+      "guidePrice": 1541630,
+      "buyLimit": 15,
+      "dailyVolume": 1101
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 22,
+        "ranged": -7
+      },
+      "defence": {
+        "stab": 33,
+        "slash": 30,
+        "crush": 36,
+        "magic": 22,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 3547,
+  "cardId": "itm_ardougne-knight-tabard",
+  "name": "Ardougne knight tabard",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A tabard worn by the Knights of Ardougne.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ardougne_knight_tabard.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23791
+    ],
+    "pageSlug": "Ardougne_knight_tabard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ardougne_knight_tabard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1,
+    "market": null
+  }
+}

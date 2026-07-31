@@ -1,0 +1,42 @@
+{
+  "id": 3902,
+  "cardId": "itm_ice-plateau-teleport",
+  "name": "Ice plateau teleport",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A teleport to the Ice Plateau in level 53 Wilderness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ice_plateau_teleport_%28tablet%29.png",
+  "debut": "2020-09-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24963
+    ],
+    "pageSlug": "Ice_plateau_teleport_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ice_plateau_teleport_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Configure",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 1409,
+      "buyLimit": 10000,
+      "dailyVolume": 11947
+    }
+  }
+}

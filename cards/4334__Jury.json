@@ -1,0 +1,56 @@
+{
+  "id": 7204,
+  "cardId": "npc_jury",
+  "name": "Jury",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Twelve bored men and women.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2007-07-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4334
+    ],
+    "pageSlug": "Jury",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jury"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": null,
+    "locations": [
+      "Seers' Village courthouse"
+    ],
+    "questLine": "King's Ransom",
+    "shop": null,
+    "menuActions": [
+      "None"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

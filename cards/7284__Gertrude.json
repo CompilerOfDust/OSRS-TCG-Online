@@ -1,0 +1,59 @@
+{
+  "id": 8829,
+  "cardId": "npc_gertrude",
+  "name": "Gertrude",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    14175
+  ],
+  "flavourText": "A busy housewife.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2003-07-28",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7284,
+      7723
+    ],
+    "pageSlug": "Gertrude",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gertrude"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Varrock"
+    ],
+    "questLine": "Gertrude's Cat , A Tail of Two Cats , Ratcatchers",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

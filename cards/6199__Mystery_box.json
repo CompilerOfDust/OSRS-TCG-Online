@@ -1,0 +1,37 @@
+{
+  "id": 8245,
+  "cardId": "itm_mystery-box",
+  "name": "Mystery box",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Oooh, I wonder what could be inside?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mystery_box.png",
+  "debut": "2005-08-01",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6199
+    ],
+    "pageSlug": "Mystery_box",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mystery_box"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Open",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 1,
+    "market": null
+  }
+}

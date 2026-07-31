@@ -1,0 +1,66 @@
+{
+  "id": 3021,
+  "cardId": "itm_kharedsts-memoirs",
+  "name": "Kharedst's memoirs",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The memoirs of a former ruler, written by his young heir.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kharedst%27s_memoirs.png",
+  "debut": "2017-11-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21760
+    ],
+    "pageSlug": "Kharedst%27s_memoirs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kharedst%27s_memoirs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Reminisce",
+      "Wield",
+      "Read",
+      "Check",
+      "Destroy"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.2,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

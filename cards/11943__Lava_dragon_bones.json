@@ -1,0 +1,43 @@
+{
+  "id": 865,
+  "cardId": "itm_lava-dragon-bones",
+  "name": "Lava dragon bones",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    11922
+  ],
+  "flavourText": "Bones of a lava dragon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lava_dragon_bones.png",
+  "debut": "2014-03-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11943
+    ],
+    "pageSlug": "Lava_dragon_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lava_dragon_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 1.6,
+    "market": {
+      "guidePrice": 5196,
+      "buyLimit": 7500,
+      "dailyVolume": 43801
+    }
+  }
+}

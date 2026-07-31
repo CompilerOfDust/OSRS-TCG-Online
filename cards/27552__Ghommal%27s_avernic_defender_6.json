@@ -1,0 +1,65 @@
+{
+  "id": 4659,
+  "cardId": "itm_ghommals-avernic-defender-6",
+  "name": "Ghommal's avernic defender 6",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A defensive weapon with prestigious ornamentation.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ghommal%27s_avernic_defender_6.png",
+  "debut": "2022-11-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27552
+    ],
+    "pageSlug": "Ghommal%27s_avernic_defender_6",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ghommal%27s_avernic_defender_6"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Destinations",
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 1500000,
+    "lowAlchemy": 1000000,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 30,
+        "slash": 29,
+        "crush": 28,
+        "magic": -5,
+        "ranged": -4
+      },
+      "defence": {
+        "stab": 30,
+        "slash": 29,
+        "crush": 28,
+        "magic": -5,
+        "ranged": -4
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 8,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

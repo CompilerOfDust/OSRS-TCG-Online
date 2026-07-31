@@ -1,0 +1,40 @@
+{
+  "id": 9719,
+  "cardId": "itm_golden-statuette",
+  "name": "Golden statuette",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A small golden statuette.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golden_statuette.png",
+  "debut": "2006-07-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9034
+    ],
+    "pageSlug": "Golden_statuette",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golden_statuette"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 1277,
+      "buyLimit": 13000,
+      "dailyVolume": 1834
+    }
+  }
+}

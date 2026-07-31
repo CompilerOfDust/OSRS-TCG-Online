@@ -1,0 +1,37 @@
+{
+  "id": 3035,
+  "cardId": "itm_enchanted-symbol",
+  "name": "Enchanted symbol",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An enchanted symbol used to locate magical beings in the Wilderness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Enchanted_symbol.png",
+  "debut": "2017-11-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21800
+    ],
+    "pageSlug": "Enchanted_symbol",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Enchanted_symbol"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Activate",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.004,
+    "market": null
+  }
+}

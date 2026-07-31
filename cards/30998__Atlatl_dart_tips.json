@@ -1,0 +1,40 @@
+{
+  "id": 5672,
+  "cardId": "itm_atlatl-dart-tips",
+  "name": "Atlatl dart tips",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I can make some atlatl darts with these.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Atlatl_dart_tips_1.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30998
+    ],
+    "pageSlug": "Atlatl_dart_tips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Atlatl_dart_tips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 147,
+    "lowAlchemy": 98,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 109,
+      "buyLimit": 10000,
+      "dailyVolume": 152285
+    }
+  }
+}

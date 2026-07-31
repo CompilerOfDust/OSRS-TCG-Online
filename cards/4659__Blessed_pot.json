@@ -1,0 +1,37 @@
+{
+  "id": 7434,
+  "cardId": "itm_blessed-pot",
+  "name": "Blessed pot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A silver pot made by Ruantun and blessed on Entrana.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blessed_pot_%28empty%29.png",
+  "debut": "2005-04-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4659
+    ],
+    "pageSlug": "Blessed_pot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blessed_pot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.453,
+    "market": null
+  },
+  "special": false
+}

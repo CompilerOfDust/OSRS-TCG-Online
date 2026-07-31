@@ -1,0 +1,58 @@
+{
+  "id": 9104,
+  "cardId": "npc_junior-navigator",
+  "name": "Junior Navigator",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Looks very young.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2017-09-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7763,
+      7764
+    ],
+    "pageSlug": "Junior_Navigator",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Junior_Navigator"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Digsite"
+    ],
+    "questLine": "Bone Voyage",
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Travel"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

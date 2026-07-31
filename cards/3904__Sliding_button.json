@@ -1,0 +1,36 @@
+{
+  "id": 6886,
+  "cardId": "itm_sliding-button",
+  "name": "Sliding button",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "N/A",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sliding_button_1.png",
+  "debut": "2004-12-06",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3904
+    ],
+    "pageSlug": "Sliding_button",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sliding_button"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

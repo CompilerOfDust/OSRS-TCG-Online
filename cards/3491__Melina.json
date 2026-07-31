@@ -1,0 +1,57 @@
+{
+  "id": 6679,
+  "cardId": "npc_melina",
+  "name": "Melina",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Sullen looking Ghost Woman.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-11-22",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3491,
+      3492
+    ],
+    "pageSlug": "Melina",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Melina"
+  },
+  "npcProfile": {
+    "race": "Undead",
+    "gender": "Female",
+    "locations": [
+      "Port Phasmatys"
+    ],
+    "questLine": "Making History",
+    "shop": null,
+    "menuActions": [
+      "Talk-To"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

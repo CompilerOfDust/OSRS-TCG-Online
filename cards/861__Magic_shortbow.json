@@ -1,0 +1,69 @@
+{
+  "id": 9500,
+  "cardId": "itm_magic-shortbow",
+  "name": "Magic shortbow",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    12788
+  ],
+  "flavourText": "Short and magical, but still effective.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_shortbow.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      861
+    ],
+    "pageSlug": "Magic_shortbow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_shortbow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 960,
+    "lowAlchemy": 640,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 717,
+      "buyLimit": 18000,
+      "dailyVolume": 180341
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 69
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

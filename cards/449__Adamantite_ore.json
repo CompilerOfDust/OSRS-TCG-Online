@@ -1,0 +1,41 @@
+{
+  "id": 7319,
+  "cardId": "itm_adamantite-ore",
+  "name": "Adamantite ore",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This needs refining.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamantite_ore.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      449
+    ],
+    "pageSlug": "Adamantite_ore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamantite_ore"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 545,
+      "buyLimit": 4500,
+      "dailyVolume": 5645880
+    }
+  },
+  "special": false
+}

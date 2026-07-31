@@ -1,0 +1,37 @@
+{
+  "id": 8155,
+  "cardId": "itm_eastern-settlement",
+  "name": "Eastern settlement",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A book on the settlement of the eastern realm.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Eastern_settlement.png",
+  "debut": "2005-07-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6077
+    ],
+    "pageSlug": "Eastern_settlement",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Eastern_settlement"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.51,
+    "market": null
+  }
+}

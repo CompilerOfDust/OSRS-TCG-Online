@@ -1,0 +1,63 @@
+{
+  "id": 9577,
+  "cardId": "itm_steel-defender",
+  "name": "Steel defender",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A defensive weapon.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_defender.png",
+  "debut": "2006-06-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8846
+    ],
+    "pageSlug": "Steel_defender",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_defender"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 7,
+        "slash": 6,
+        "crush": 5,
+        "magic": -3,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 7,
+        "slash": 6,
+        "crush": 5,
+        "magic": -3,
+        "ranged": -2
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 1,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

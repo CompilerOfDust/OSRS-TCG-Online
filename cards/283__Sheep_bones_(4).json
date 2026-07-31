@@ -1,0 +1,40 @@
+{
+  "id": 4872,
+  "cardId": "itm_sheep-bones-4",
+  "name": "Sheep bones (4)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    280,
+    281,
+    282
+  ],
+  "flavourText": "The suspicious-looking remains of a suspicious-looking sheep.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sheep_bones_%284%29.png",
+  "debut": "2002-08-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      283
+    ],
+    "pageSlug": "Sheep_bones_(4)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sheep_bones_(4)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.36,
+    "market": null
+  }
+}

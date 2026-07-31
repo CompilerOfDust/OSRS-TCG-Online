@@ -1,0 +1,70 @@
+{
+  "id": 706,
+  "cardId": "itm_rune-full-helm",
+  "name": "Rune full helm",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    2619,
+    2627
+  ],
+  "flavourText": "A full face helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_full_helm.png",
+  "debut": "2001-08-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1163
+    ],
+    "pageSlug": "Rune_full_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_full_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 21120,
+    "lowAlchemy": 14080,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 20463,
+      "buyLimit": 70,
+      "dailyVolume": 53727
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 30,
+        "slash": 32,
+        "crush": 27,
+        "magic": -1,
+        "ranged": 30
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

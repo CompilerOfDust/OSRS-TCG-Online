@@ -1,0 +1,89 @@
+plugins {
+	id 'java'
+}
+
+repositories {
+	maven {
+		url = 'https://repo.runelite.net'
+		content {
+			includeGroupByRegex("net\\.runelite.*")
+		}
+	}
+	maven {
+		url = 'https://repo1.maven.org/maven2'
+	}
+	mavenCentral()
+}
+
+def runeLiteVersion = 'latest.release'
+def pluginMainClass = 'com.thecardexchange.tcg.TheCardExchangeTcgPluginTest'
+
+dependencies {
+	compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
+
+	compileOnly 'org.projectlombok:lombok:1.18.30'
+	annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+	testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
+	testImplementation group: 'net.runelite', name: 'jshell', version: runeLiteVersion
+	testImplementation 'junit:junit:4.13.2'
+}
+
+group = 'com.thecardexchange'
+version = '0.1.0'
+
+tasks.withType(JavaCompile).configureEach {
+	options.encoding = 'UTF-8'
+	options.release.set(11)
+}
+
+tasks.register('run', JavaExec) {
+	classpath = sourceSets.test.runtimeClasspath
+	mainClass = pluginMainClass
+
+	jvmArgs "-ea", "-Xmx768m"
+
+	// JetBrains runtimes (Android Studio / Rider JBR) don't ship the Windows-ROOT keystore provider,
+	// so okhttp throws "No System TLS" at start-up. Point the default trust store at the run JVM's own
+	// bundled cacerts (PKCS12 on modern JVMs, JKS on older ones — the JVM default reads either). Inert
+	// on a standard JDK (Temurin etc.), which loads Windows-ROOT itself.
+	def caCerts = file("${System.getProperty('java.home')}/lib/security/cacerts")
+	if (caCerts.exists()) {
+		jvmArgs "-Djavax.net.ssl.trustStore=${caCerts.absolutePath}",
+			"-Djavax.net.ssl.trustStorePassword=changeit"
+	}
+
+	// Let `-PapiUrl=https://…` point the plugin at a different exchange API for this run (the launch
+	// script passes it through). The plugin reads this system property before its config default.
+	if (project.hasProperty('apiUrl')) {
+		systemProperty 'thecardexchange.apiUrl', project.property('apiUrl')
+	}
+
+	args "--developer-mode", "--debug"
+}
+
+tasks.register('shadowJar', Jar) {
+	dependsOn configurations.testRuntimeClasspath
+	manifest {
+		attributes('Main-Class': pluginMainClass, 'Multi-Release': true)
+	}
+
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	from sourceSets.main.output
+	from sourceSets.test.output
+	from {
+		configurations.testRuntimeClasspath.collect { file ->
+			file.isDirectory() ? file : zipTree(file)
+		}
+	}
+
+	exclude 'META-INF/INDEX.LIST'
+	exclude 'META-INF/*.SF'
+	exclude 'META-INF/*.DSA'
+	exclude 'META-INF/*.RSA'
+	exclude '**/module-info.class'
+
+	group = BasePlugin.BUILD_GROUP
+	archiveClassifier.set('shadow')
+	archiveFileName.set("${rootProject.name}-${project.version}-all.jar")
+}

@@ -1,0 +1,37 @@
+{
+  "id": 5411,
+  "cardId": "itm_huberte",
+  "name": "Huberte",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Looks very polite.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Huberte.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30152
+    ],
+    "pageSlug": "Huberte",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Huberte"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

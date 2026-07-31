@@ -1,0 +1,36 @@
+{
+  "id": 5950,
+  "cardId": "itm_tiny-pearl",
+  "name": "Tiny pearl",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Looks like it might be worth a bit of money.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tiny_pearl.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31770
+    ],
+    "pageSlug": "Tiny_pearl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tiny_pearl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

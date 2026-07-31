@@ -1,0 +1,43 @@
+{
+  "id": 6604,
+  "cardId": "itm_unfinished-potion",
+  "name": "Unfinished potion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    4840
+  ],
+  "flavourText": "I need another ingredient to finish this potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unfinished_potion.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3406
+    ],
+    "pageSlug": "Unfinished_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unfinished_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 286,
+      "buyLimit": 10000,
+      "dailyVolume": 311
+    }
+  },
+  "special": false
+}

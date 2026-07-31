@@ -1,0 +1,44 @@
+{
+  "id": 8015,
+  "cardId": "itm_chefs-delight",
+  "name": "Chef's delight",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5827,
+    7754
+  ],
+  "flavourText": "A fruity, full-bodied ale.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chef%27s_delight.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5755
+    ],
+    "pageSlug": "Chef%27s_delight",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chef%27s_delight"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 187,
+      "buyLimit": 2000,
+      "dailyVolume": 1812
+    }
+  }
+}

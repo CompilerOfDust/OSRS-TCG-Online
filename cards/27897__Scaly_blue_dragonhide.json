@@ -1,0 +1,40 @@
+{
+  "id": 4758,
+  "cardId": "itm_scaly-blue-dragonhide",
+  "name": "Scaly blue dragonhide",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A scaled blue dragonhide.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Scaly_blue_dragonhide.png",
+  "debut": "2023-05-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27897
+    ],
+    "pageSlug": "Scaly_blue_dragonhide",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Scaly_blue_dragonhide"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 716,
+      "buyLimit": null,
+      "dailyVolume": 1727
+    }
+  }
+}

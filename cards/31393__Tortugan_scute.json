@@ -1,0 +1,36 @@
+{
+  "id": 5817,
+  "cardId": "itm_tortugan-scute",
+  "name": "Tortugan scute",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A scute from a tortugan shell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tortugan_scute.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31393
+    ],
+    "pageSlug": "Tortugan_scute",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tortugan_scute"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.7,
+    "market": null
+  }
+}

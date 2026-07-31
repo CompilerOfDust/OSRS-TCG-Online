@@ -1,0 +1,41 @@
+{
+  "id": 2997,
+  "cardId": "itm_gnomebowl-mould",
+  "name": "Gnomebowl mould",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A large ovenproof bowl.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gnomebowl_mould.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2166
+    ],
+    "pageSlug": "Gnomebowl_mould",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gnomebowl_mould"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.15,
+    "market": {
+      "guidePrice": 717,
+      "buyLimit": 40,
+      "dailyVolume": 140
+    }
+  },
+  "special": false
+}

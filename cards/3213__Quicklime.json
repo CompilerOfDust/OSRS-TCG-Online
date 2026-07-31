@@ -1,0 +1,36 @@
+{
+  "id": 6151,
+  "cardId": "itm_quicklime",
+  "name": "Quicklime",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some quicklime.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Quicklime.png",
+  "debut": "2004-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3213
+    ],
+    "pageSlug": "Quicklime",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Quicklime"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 2.267,
+    "market": null
+  }
+}

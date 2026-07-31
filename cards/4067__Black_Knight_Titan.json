@@ -1,0 +1,57 @@
+{
+  "id": 6966,
+  "cardId": "npc_black-knight-titan",
+  "name": "Black Knight Titan",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    6299,
+    6360
+  ],
+  "flavourText": "He looks mean and powerful.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_Knight_Titan.png",
+  "debut": "2002-07-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4067
+    ],
+    "pageSlug": "Black_Knight_Titan",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_Knight_Titan"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 120,
+    "vitality": null,
+    "peakDamage": "15",
+    "combatXpBonusPct": -75,
+    "hostile": null,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 7,
+    "respawnTicks": 5,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

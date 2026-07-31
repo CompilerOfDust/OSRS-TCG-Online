@@ -1,0 +1,64 @@
+{
+  "id": 7710,
+  "cardId": "npc_dark-wizard",
+  "name": "Dark wizard",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He works evil magic.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dark_wizard.png",
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      512,
+      2056,
+      2057,
+      5086,
+      5087
+    ],
+    "pageSlug": "Dark_wizard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dark_wizard"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 7,
+    "vitality": 12,
+    "peakDamage": "2",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 5,
+      "strength": 2,
+      "defence": 5,
+      "magic": 6,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

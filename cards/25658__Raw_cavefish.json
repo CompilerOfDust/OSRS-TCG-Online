@@ -1,0 +1,36 @@
+{
+  "id": 4112,
+  "cardId": "itm_raw-cavefish",
+  "name": "Raw cavefish",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This needs to be prepared on the preparation table.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_cavefish.png",
+  "debut": "2021-04-14",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25658
+    ],
+    "pageSlug": "Raw_cavefish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_cavefish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.12,
+    "market": null
+  }
+}

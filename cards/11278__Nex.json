@@ -1,0 +1,60 @@
+{
+  "id": 599,
+  "cardId": "npc_nex",
+  "name": "Nex",
+  "cardKind": "npc",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Even the gods fear her.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nex.png",
+  "debut": "2022-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11278,
+      11279,
+      11280,
+      11281,
+      11282
+    ],
+    "pageSlug": "Nex",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nex"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 1001,
+    "vitality": null,
+    "peakDamage": "33 (Magic) 60 (Ranged) 27 (Melee) 50 (Smoke Dash) 50 (Shadow Smash) 80 (Blood Sacrifice) 60 (Containment) 75 (Ice Prison)",
+    "combatXpBonusPct": 100,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Ranged",
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 2675,
+  "cardId": "itm_water-filled-gourd-vial",
+  "name": "Water-filled gourd vial",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A hollowed out fruit filled with water.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Water-filled_gourd_vial.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20801
+    ],
+    "pageSlug": "Water-filled_gourd_vial",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Water-filled_gourd_vial"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.035,
+    "market": null
+  }
+}

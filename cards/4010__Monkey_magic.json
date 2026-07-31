@@ -1,0 +1,36 @@
+{
+  "id": 6928,
+  "cardId": "itm_monkey-magic",
+  "name": "Monkey magic",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A small sample of monkey magic.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Monkey_magic.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4010
+    ],
+    "pageSlug": "Monkey_magic",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Monkey_magic"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.007,
+    "market": null
+  }
+}

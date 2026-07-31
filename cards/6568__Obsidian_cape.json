@@ -1,0 +1,67 @@
+{
+  "id": 8429,
+  "cardId": "itm_obsidian-cape",
+  "name": "Obsidian cape",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A cape of woven obsidian plates.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Obsidian_cape.png",
+  "debut": "2005-10-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6568
+    ],
+    "pageSlug": "Obsidian_cape",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Obsidian_cape"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 36000,
+    "lowAlchemy": 24000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 500541,
+      "buyLimit": 70,
+      "dailyVolume": 1252
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 9,
+        "crush": 9,
+        "magic": 9,
+        "ranged": 9
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

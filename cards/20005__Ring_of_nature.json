@@ -1,0 +1,67 @@
+{
+  "id": 2495,
+  "cardId": "itm_ring-of-nature",
+  "name": "Ring of nature",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A ring shaped like the nature rune symbol.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ring_of_nature.png",
+  "debut": "2016-07-06",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20005
+    ],
+    "pageSlug": "Ring_of_nature",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ring_of_nature"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 4800,
+    "lowAlchemy": 3200,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 6581358,
+      "buyLimit": 4,
+      "dailyVolume": 24
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

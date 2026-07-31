@@ -1,0 +1,67 @@
+{
+  "id": 1288,
+  "cardId": "itm_spectral-spirit-shield",
+  "name": "Spectral spirit shield",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "An ethereal shield with a spectral sigil attached to it.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spectral_spirit_shield.png",
+  "debut": "2014-10-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12821
+    ],
+    "pageSlug": "Spectral_spirit_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spectral_spirit_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 1200000,
+    "lowAlchemy": 800000,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 25311658,
+      "buyLimit": 8,
+      "dailyVolume": 192
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 53,
+        "slash": 55,
+        "crush": 73,
+        "magic": 30,
+        "ranged": 52
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

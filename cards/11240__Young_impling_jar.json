@@ -1,0 +1,42 @@
+{
+  "id": 562,
+  "cardId": "itm_young-impling-jar",
+  "name": "Young impling jar",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A young impling in a jar. Don't trap me, man.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Young_impling_jar.png",
+  "debut": "2007-06-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11240
+    ],
+    "pageSlug": "Young_impling_jar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Young_impling_jar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Loot",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 2768,
+      "buyLimit": 18000,
+      "dailyVolume": 22062
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,36 @@
+{
+  "id": 7681,
+  "cardId": "itm_birds-egg",
+  "name": "Bird's egg",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A red bird's egg.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bird%27s_egg_%28red%29.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5076
+    ],
+    "pageSlug": "Bird%27s_egg",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bird%27s_egg"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

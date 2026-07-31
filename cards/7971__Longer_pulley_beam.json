@@ -1,0 +1,36 @@
+{
+  "id": 9238,
+  "cardId": "itm_longer-pulley-beam",
+  "name": "Longer pulley beam",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A very long beam with a pulley attached.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Longer_pulley_beam.png",
+  "debut": "2006-05-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7971
+    ],
+    "pageSlug": "Longer_pulley_beam",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Longer_pulley_beam"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 573,
+  "cardId": "itm_nature-impling-jar",
+  "name": "Nature impling jar",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Nature impling in a jar.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nature_impling_jar.png",
+  "debut": "2007-06-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11250
+    ],
+    "pageSlug": "Nature_impling_jar",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nature_impling_jar"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Loot",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 4993,
+      "buyLimit": 18000,
+      "dailyVolume": 45346
+    }
+  },
+  "special": false
+}

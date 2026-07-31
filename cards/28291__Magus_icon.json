@@ -1,0 +1,38 @@
+{
+  "id": 4837,
+  "cardId": "itm_magus-icon",
+  "name": "Magus icon",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Ancient energy that has been fused with the symbol of a seer.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magus_icon.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28291
+    ],
+    "pageSlug": "Magus_icon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magus_icon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 34800,
+    "lowAlchemy": 23200,
+    "weightKg": 0.006,
+    "market": null
+  },
+  "special": false
+}

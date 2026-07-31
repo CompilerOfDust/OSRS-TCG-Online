@@ -1,0 +1,37 @@
+{
+  "id": 6410,
+  "cardId": "itm_abyssal-potato",
+  "name": "Abyssal potato",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Seems like something a bovine would still eat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Abyssal_potato.png",
+  "debut": "2026-02-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33118
+    ],
+    "pageSlug": "Abyssal_potato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Abyssal_potato"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.666,
+    "market": null
+  }
+}

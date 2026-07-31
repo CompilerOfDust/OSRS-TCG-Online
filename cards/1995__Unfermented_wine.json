@@ -1,0 +1,36 @@
+{
+  "id": 2414,
+  "cardId": "itm_unfermented-wine",
+  "name": "Unfermented wine",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This wine needs to ferment before it can be drunk.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unfermented_wine.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1995
+    ],
+    "pageSlug": "Unfermented_wine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unfermented_wine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 1.5,
+    "market": null
+  }
+}

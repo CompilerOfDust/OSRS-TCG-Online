@@ -1,0 +1,41 @@
+{
+  "id": 5110,
+  "cardId": "itm_cooked-sunlight-antelope",
+  "name": "Cooked sunlight antelope",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Mmm, this looks tasty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cooked_sunlight_antelope.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29140
+    ],
+    "pageSlug": "Cooked_sunlight_antelope",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cooked_sunlight_antelope"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.283,
+    "market": {
+      "guidePrice": 1169,
+      "buyLimit": 10000,
+      "dailyVolume": 7790
+    }
+  }
+}

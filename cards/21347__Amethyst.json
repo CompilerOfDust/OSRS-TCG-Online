@@ -1,0 +1,41 @@
+{
+  "id": 2891,
+  "cardId": "itm_amethyst",
+  "name": "Amethyst",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Maybe I can make something with this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amethyst.png",
+  "debut": "2017-06-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21347
+    ],
+    "pageSlug": "Amethyst",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amethyst"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2340,
+    "lowAlchemy": 1560,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 2913,
+      "buyLimit": 13000,
+      "dailyVolume": 628467
+    }
+  },
+  "special": false
+}

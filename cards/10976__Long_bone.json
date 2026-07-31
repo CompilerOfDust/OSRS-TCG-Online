@@ -1,0 +1,37 @@
+{
+  "id": 439,
+  "cardId": "itm_long-bone",
+  "name": "Long bone",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A Construction bone.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Long_bone.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10976
+    ],
+    "pageSlug": "Long_bone",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Long_bone"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 1,
+    "market": null
+  }
+}

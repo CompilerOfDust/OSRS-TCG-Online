@@ -1,0 +1,67 @@
+{
+  "id": 1057,
+  "cardId": "itm_3rd-age-bow",
+  "name": "3rd age bow",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A beautifully crafted bow carved by ancient archers.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/3rd_age_bow.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12424
+    ],
+    "pageSlug": "3rd_age_bow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/3rd_age_bow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 90000,
+    "lowAlchemy": 60000,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 1217274162,
+      "buyLimit": 8,
+      "dailyVolume": 2
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 80
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

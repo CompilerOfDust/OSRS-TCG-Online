@@ -1,0 +1,37 @@
+{
+  "id": 3265,
+  "cardId": "itm_lil-zik",
+  "name": "Lil' zik",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "What has eight legs and runs a Vampyric Theatre?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lil%27_zik.png",
+  "debut": "2018-06-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22473
+    ],
+    "pageSlug": "Lil%27_zik",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lil%27_zik"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

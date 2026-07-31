@@ -1,0 +1,36 @@
+{
+  "id": 6494,
+  "cardId": "itm_seeking-arrow-shaft",
+  "name": "Seeking arrow shaft",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bloodwood-treated arrow shaft.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Seeking_arrow_shaft_1.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33541
+    ],
+    "pageSlug": "Seeking_arrow_shaft",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Seeking_arrow_shaft"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

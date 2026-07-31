@@ -1,0 +1,42 @@
+{
+  "id": 2509,
+  "cardId": "itm_stew",
+  "name": "Stew",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a meat and potato stew.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stew.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2003
+    ],
+    "pageSlug": "Stew",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stew"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 1.5,
+    "market": {
+      "guidePrice": 126,
+      "buyLimit": 10000,
+      "dailyVolume": 54518
+    }
+  },
+  "special": false
+}

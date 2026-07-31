@@ -1,0 +1,40 @@
+{
+  "id": 6178,
+  "cardId": "itm_yellow-fin",
+  "name": "Yellow fin",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "High fin!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yellow_fin.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32360
+    ],
+    "pageSlug": "Yellow_fin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yellow_fin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 148,
+      "buyLimit": 11000,
+      "dailyVolume": 191987
+    }
+  }
+}

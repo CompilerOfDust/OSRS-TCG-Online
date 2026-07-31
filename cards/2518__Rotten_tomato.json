@@ -1,0 +1,36 @@
+{
+  "id": 3974,
+  "cardId": "itm_rotten-tomato",
+  "name": "Rotten tomato",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Pretty smelly.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rotten_tomato.png",
+  "debut": "2004-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2518
+    ],
+    "pageSlug": "Rotten_tomato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rotten_tomato"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.08,
+    "market": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 119,
+  "cardId": "itm_strength-amulet-t",
+  "name": "Strength amulet (t)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An enchanted ruby amulet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Strength_amulet_%28t%29.png",
+  "debut": "2006-12-05",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10364
+    ],
+    "pageSlug": "Strength_amulet_(t)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Strength_amulet_(t)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 1215,
+    "lowAlchemy": 810,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 23054,
+      "buyLimit": 5,
+      "dailyVolume": 517
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 10,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

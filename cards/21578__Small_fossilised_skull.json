@@ -1,0 +1,36 @@
+{
+  "id": 2957,
+  "cardId": "itm_small-fossilised-skull",
+  "name": "Small fossilised skull",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This fossilised skull belongs in a museum!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Small_fossilised_skull.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21578
+    ],
+    "pageSlug": "Small_fossilised_skull",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Small_fossilised_skull"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": 8967,
+  "cardId": "npc_gnormadium-avlafrim",
+  "name": "Gnormadium Avlafrim",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Enthusiastic gnome construction engineer.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-02-28",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7516,
+      7517
+    ],
+    "pageSlug": "Gnormadium_Avlafrim",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gnormadium_Avlafrim"
+  },
+  "npcProfile": {
+    "race": "Gnome",
+    "gender": "Male",
+    "locations": [
+      "Feldip Hills"
+    ],
+    "questLine": "One Small Favour",
+    "shop": null,
+    "menuActions": [
+      "Glider",
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

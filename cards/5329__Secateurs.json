@@ -1,0 +1,40 @@
+{
+  "id": 7817,
+  "cardId": "itm_secateurs",
+  "name": "Secateurs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Good for pruning away diseased leaves.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Secateurs.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5329
+    ],
+    "pageSlug": "Secateurs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Secateurs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 120,
+      "buyLimit": 40,
+      "dailyVolume": 427
+    }
+  }
+}

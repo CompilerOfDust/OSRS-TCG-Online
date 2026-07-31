@@ -1,0 +1,36 @@
+{
+  "id": 9112,
+  "cardId": "itm_long-vine",
+  "name": "Long vine",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A long vine made up of multiple shorter ones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Long_vine.png",
+  "debut": "2006-03-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7777
+    ],
+    "pageSlug": "Long_vine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Long_vine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.36,
+    "market": null
+  }
+}

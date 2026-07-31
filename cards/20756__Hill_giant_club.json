@@ -1,0 +1,68 @@
+{
+  "id": 2664,
+  "cardId": "itm_hill-giant-club",
+  "name": "Hill giant club",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A brutal weapon popular among giants.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hill_giant_club.png",
+  "debut": "2016-10-06",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20756
+    ],
+    "pageSlug": "Hill_giant_club",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hill_giant_club"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 36000,
+    "lowAlchemy": 24000,
+    "weightKg": 3.628,
+    "market": {
+      "guidePrice": 1173446,
+      "buyLimit": 125,
+      "dailyVolume": 214
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -4,
+        "slash": 50,
+        "crush": 65,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": -1
+      },
+      "slot": "2h",
+      "attackSpeed": 7,
+      "extras": {
+        "meleeStrength": 70,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

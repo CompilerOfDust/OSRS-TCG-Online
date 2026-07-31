@@ -1,0 +1,37 @@
+{
+  "id": 4513,
+  "cardId": "itm_abyssal-needle",
+  "name": "Abyssal needle",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A needle designed for use with abyssal materials.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Abyssal_needle.png",
+  "debut": "2022-03-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26813
+    ],
+    "pageSlug": "Abyssal_needle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Abyssal_needle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

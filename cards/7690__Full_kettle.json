@@ -1,0 +1,36 @@
+{
+  "id": 9056,
+  "cardId": "itm_full-kettle",
+  "name": "Full kettle",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's full of cold water.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Full_kettle.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7690
+    ],
+    "pageSlug": "Full_kettle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Full_kettle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

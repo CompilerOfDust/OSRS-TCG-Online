@@ -1,0 +1,36 @@
+{
+  "id": 1517,
+  "cardId": "itm_juniper-logs",
+  "name": "Juniper logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The strange wood of a mature juniper tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Juniper_logs.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13355
+    ],
+    "pageSlug": "Juniper_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Juniper_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 48,
+    "lowAlchemy": 32,
+    "weightKg": 1.3,
+    "market": null
+  }
+}

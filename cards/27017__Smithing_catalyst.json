@@ -1,0 +1,36 @@
+{
+  "id": 4565,
+  "cardId": "itm_smithing-catalyst",
+  "name": "Smithing catalyst",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "This makes smithing easier and more rewarding.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Smithing_catalyst.png",
+  "debut": "2022-06-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27017
+    ],
+    "pageSlug": "Smithing_catalyst",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Smithing_catalyst"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

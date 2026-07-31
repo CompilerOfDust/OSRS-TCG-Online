@@ -1,0 +1,69 @@
+{
+  "id": 3705,
+  "cardId": "itm_bounty-hunter-hat-tier-1",
+  "name": "Bounty hunter hat (tier 1)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    24340,
+    24342,
+    24344,
+    24346,
+    24348
+  ],
+  "flavourText": "A hat fit for the newest of player killers.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bounty_hunter_hat_%28tier_1%29.png",
+  "debut": "2019-11-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24338
+    ],
+    "pageSlug": "Bounty_hunter_hat_(tier_1)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bounty_hunter_hat_(tier_1)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

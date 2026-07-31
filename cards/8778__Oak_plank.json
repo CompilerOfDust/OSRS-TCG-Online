@@ -1,0 +1,40 @@
+{
+  "id": 9546,
+  "cardId": "itm_oak-plank",
+  "name": "Oak plank",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A plank of sturdy oak.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oak_plank.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8778
+    ],
+    "pageSlug": "Oak_plank",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oak_plank"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 428,
+      "buyLimit": 13000,
+      "dailyVolume": 5713757
+    }
+  }
+}

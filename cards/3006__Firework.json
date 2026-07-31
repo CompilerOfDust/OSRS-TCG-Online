@@ -1,0 +1,36 @@
+{
+  "id": 5387,
+  "cardId": "itm_firework",
+  "name": "Firework",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A firework potion; this'll look pretty!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Firework.png",
+  "debut": "2004-07-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3006
+    ],
+    "pageSlug": "Firework",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Firework"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.035,
+    "market": null
+  }
+}

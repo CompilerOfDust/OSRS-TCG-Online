@@ -1,0 +1,36 @@
+{
+  "id": 5754,
+  "cardId": "itm_deep-sea-kraken-tentacle",
+  "name": "Deep sea kraken tentacle",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A tentacle from a deep sea kraken.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Deep_sea_kraken_tentacle.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31196
+    ],
+    "pageSlug": "Deep_sea_kraken_tentacle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Deep_sea_kraken_tentacle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.285,
+    "market": null
+  }
+}

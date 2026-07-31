@@ -1,0 +1,37 @@
+{
+  "id": 9265,
+  "cardId": "itm_arthur-portrait",
+  "name": "Arthur portrait",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A portrait of King Arthur.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arthur_portrait.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7995
+    ],
+    "pageSlug": "Arthur_portrait",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arthur_portrait"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 1,
+    "market": null
+  },
+  "special": false
+}

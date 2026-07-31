@@ -1,0 +1,67 @@
+{
+  "id": 2406,
+  "cardId": "itm_zamorak-dhide-boots",
+  "name": "Zamorak d'hide boots",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Zamorak blessed dragonhide boots.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zamorak_d%27hide_boots.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19936
+    ],
+    "pageSlug": "Zamorak_d%27hide_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zamorak_d%27hide_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 5580,
+    "lowAlchemy": 3720,
+    "weightKg": 1.4,
+    "market": {
+      "guidePrice": 254303,
+      "buyLimit": 8,
+      "dailyVolume": 209
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 7
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 4,
+        "crush": 4,
+        "magic": 4,
+        "ranged": 4
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

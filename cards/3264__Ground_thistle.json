@@ -1,0 +1,36 @@
+{
+  "id": 6311,
+  "cardId": "itm_ground-thistle",
+  "name": "Ground thistle",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's ready for mixing.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ground_thistle.png",
+  "debut": "2004-10-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3264
+    ],
+    "pageSlug": "Ground_thistle",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ground_thistle"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

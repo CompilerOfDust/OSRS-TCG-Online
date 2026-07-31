@@ -1,0 +1,41 @@
+{
+  "id": 1334,
+  "cardId": "itm_magic-fang",
+  "name": "Magic fang",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "This can be attached to a Staff of the Dead or a Trident of the Seas.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_fang.png",
+  "debut": "2015-01-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12932
+    ],
+    "pageSlug": "Magic_fang",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_fang"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 61200,
+    "lowAlchemy": 40800,
+    "weightKg": 0.3,
+    "market": {
+      "guidePrice": 3238164,
+      "buyLimit": 5,
+      "dailyVolume": 195
+    }
+  }
+}

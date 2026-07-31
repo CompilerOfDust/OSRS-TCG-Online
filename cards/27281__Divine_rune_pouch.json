@@ -1,0 +1,40 @@
+{
+  "id": 4602,
+  "cardId": "itm_divine-rune-pouch",
+  "name": "Divine rune pouch",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A vessel used to store runes that's been imbued with the powers of Elidinis.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Divine_rune_pouch.png",
+  "debut": "2022-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27281
+    ],
+    "pageSlug": "Divine_rune_pouch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Divine_rune_pouch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Open",
+      "Revert",
+      "Empty",
+      "Configure",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.878,
+    "market": null
+  }
+}

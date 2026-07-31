@@ -1,0 +1,37 @@
+{
+  "id": 5009,
+  "cardId": "itm_dizanas-quiver-broken",
+  "name": "Dizana's quiver (broken)",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A broken Quiver awarded to those who have proved their worth in the Colosseum.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dizana%27s_quiver_%28broken%29.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28826
+    ],
+    "pageSlug": "Dizana%27s_quiver_(broken)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dizana%27s_quiver_(broken)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

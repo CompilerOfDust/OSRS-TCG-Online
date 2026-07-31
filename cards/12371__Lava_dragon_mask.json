@@ -1,0 +1,67 @@
+{
+  "id": 1023,
+  "cardId": "itm_lava-dragon-mask",
+  "name": "Lava dragon mask",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Do I look scary?",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lava_dragon_mask.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12371
+    ],
+    "pageSlug": "Lava_dragon_mask",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lava_dragon_mask"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 888662,
+      "buyLimit": 4,
+      "dailyVolume": 6
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

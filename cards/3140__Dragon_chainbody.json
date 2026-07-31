@@ -1,0 +1,72 @@
+{
+  "id": 5827,
+  "cardId": "itm_dragon-chainbody",
+  "name": "Dragon chainbody",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    2513,
+    12414,
+    28065
+  ],
+  "flavourText": "A series of connected metal rings.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_chainbody.png",
+  "debut": "2004-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3140
+    ],
+    "pageSlug": "Dragon_chainbody",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_chainbody"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 6.803,
+    "market": {
+      "guidePrice": 176187,
+      "buyLimit": 70,
+      "dailyVolume": 1263
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 81,
+        "slash": 93,
+        "crush": 98,
+        "magic": -3,
+        "ranged": 82
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

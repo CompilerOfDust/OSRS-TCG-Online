@@ -1,0 +1,38 @@
+{
+  "id": 8785,
+  "cardId": "itm_part-fish-pie__1",
+  "name": "Part fish pie",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    7184
+  ],
+  "flavourText": "Still needs two more ingredients.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Part_fish_pie_%28trout%29.png",
+  "debut": "2006-02-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7182
+    ],
+    "pageSlug": "Part_fish_pie_(trout)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Part_fish_pie_(trout)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 14,
+    "lowAlchemy": 9,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

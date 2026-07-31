@@ -1,0 +1,61 @@
+{
+  "id": 10168,
+  "cardId": "npc_sir-lancelot",
+  "name": "Sir Lancelot",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "One of the Knights of the Round Table.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sir_Lancelot.png",
+  "debut": "2007-07-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4344,
+      4354
+    ],
+    "pageSlug": "Sir_Lancelot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sir_Lancelot"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 127,
+    "vitality": null,
+    "peakDamage": "23",
+    "combatXpBonusPct": 17.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  },
+  "combine": {
+    "combinesInto": [
+      "npc_merlin"
+    ]
+  },
+  "special": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": 9301,
+  "cardId": "itm_telekinetic-grab",
+  "name": "Telekinetic grab",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A tablet containing a magic spell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Telekinetic_grab_%28tablet%29.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8022
+    ],
+    "pageSlug": "Telekinetic_grab_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Telekinetic_grab_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

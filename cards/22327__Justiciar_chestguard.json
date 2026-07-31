@@ -1,0 +1,67 @@
+{
+  "id": 3206,
+  "cardId": "itm_justiciar-chestguard",
+  "name": "Justiciar chestguard",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A Justiciar's chestguard. They once roamed the land casting judgements on wrongdoers, their decisions were never questioned.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Justiciar_chestguard.png",
+  "debut": "2018-06-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22327
+    ],
+    "pageSlug": "Justiciar_chestguard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Justiciar_chestguard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 3600000,
+    "lowAlchemy": 2400000,
+    "weightKg": 9.979,
+    "market": {
+      "guidePrice": 8991405,
+      "buyLimit": 8,
+      "dailyVolume": 319
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -40,
+        "ranged": -20
+      },
+      "defence": {
+        "stab": 132,
+        "slash": 130,
+        "crush": 117,
+        "magic": -16,
+        "ranged": 142
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 4
+      }
+    }
+  }
+}

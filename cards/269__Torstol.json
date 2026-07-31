@@ -1,0 +1,41 @@
+{
+  "id": 4559,
+  "cardId": "itm_torstol",
+  "name": "Torstol",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A powerful herb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Torstol.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      269
+    ],
+    "pageSlug": "Torstol",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Torstol"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 45,
+    "lowAlchemy": 30,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 3269,
+      "buyLimit": 11000,
+      "dailyVolume": 290535
+    }
+  },
+  "special": false
+}

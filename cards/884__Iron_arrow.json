@@ -1,0 +1,67 @@
+{
+  "id": 9582,
+  "cardId": "itm_iron-arrow",
+  "name": "Iron arrow",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Arrows with iron heads.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_arrow_1.png",
+  "debut": "2002-03-25",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      884
+    ],
+    "pageSlug": "Iron_arrow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_arrow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 7000,
+      "dailyVolume": 9478538
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 10,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

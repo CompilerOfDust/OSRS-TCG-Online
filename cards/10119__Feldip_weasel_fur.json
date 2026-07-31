@@ -1,0 +1,41 @@
+{
+  "id": 49,
+  "cardId": "itm_feldip-weasel-fur",
+  "name": "Feldip weasel fur",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Not actually from a weasel, but it is, at least, furry.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Feldip_weasel_fur.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10119
+    ],
+    "pageSlug": "Feldip_weasel_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Feldip_weasel_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 8,
+    "lowAlchemy": 5,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 114,
+      "buyLimit": 10000,
+      "dailyVolume": 46352
+    }
+  },
+  "special": false
+}

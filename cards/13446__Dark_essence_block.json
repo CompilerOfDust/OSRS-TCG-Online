@@ -1,0 +1,36 @@
+{
+  "id": 1560,
+  "cardId": "itm_dark-essence-block",
+  "name": "Dark essence block",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A dark power infests this dense essence block.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dark_essence_block.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13446
+    ],
+    "pageSlug": "Dark_essence_block",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dark_essence_block"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

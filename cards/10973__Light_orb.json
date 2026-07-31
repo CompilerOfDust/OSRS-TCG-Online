@@ -1,0 +1,40 @@
+{
+  "id": 437,
+  "cardId": "itm_light-orb",
+  "name": "Light orb",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A component of cave goblin Magic.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Light_orb.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10973
+    ],
+    "pageSlug": "Light_orb",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Light_orb"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 210,
+    "lowAlchemy": 140,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 708,
+      "buyLimit": 10000,
+      "dailyVolume": 6288
+    }
+  }
+}

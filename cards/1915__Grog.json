@@ -1,0 +1,42 @@
+{
+  "id": 2270,
+  "cardId": "itm_grog",
+  "name": "Grog",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A murky glass of some sort of drink.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grog.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1915
+    ],
+    "pageSlug": "Grog",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grog"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 268,
+      "buyLimit": 2000,
+      "dailyVolume": 191
+    }
+  },
+  "special": false
+}

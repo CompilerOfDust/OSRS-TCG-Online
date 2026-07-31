@@ -1,0 +1,40 @@
+{
+  "id": 2303,
+  "cardId": "itm_zenyte-shard",
+  "name": "Zenyte shard",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A shard of unstable zenyte.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zenyte_shard.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19529
+    ],
+    "pageSlug": "Zenyte_shard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zenyte_shard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 45000,
+    "lowAlchemy": 30000,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 14648298,
+      "buyLimit": 11000,
+      "dailyVolume": 222
+    }
+  }
+}

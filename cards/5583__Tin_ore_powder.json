@@ -1,0 +1,36 @@
+{
+  "id": 7962,
+  "cardId": "itm_tin-ore-powder",
+  "name": "Tin ore powder",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A vial of something labelled 'Powdered Tin Ore'.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tin_ore_powder.png",
+  "debut": "2005-06-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5583
+    ],
+    "pageSlug": "Tin_ore_powder",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tin_ore_powder"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

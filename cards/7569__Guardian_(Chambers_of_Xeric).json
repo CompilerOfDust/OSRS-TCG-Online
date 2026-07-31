@@ -1,0 +1,63 @@
+{
+  "id": 9004,
+  "cardId": "npc_guardian",
+  "name": "Guardian",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "• A guardian statue carved from the rock. • A demolished statue.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Guardian_(Chambers_of_Xeric,_female).png",
+  "debut": "2017-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7569,
+      7571
+    ],
+    "pageSlug": "Guardian_(Chambers_of_Xeric)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Guardian_(Chambers_of_Xeric)"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Xerician"
+    ],
+    "tileSize": null,
+    "combatRating": 1,
+    "vitality": 250,
+    "peakDamage": "20",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": true,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 140,
+      "strength": 140,
+      "defence": 100,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

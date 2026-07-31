@@ -1,0 +1,41 @@
+{
+  "id": 7798,
+  "cardId": "itm_willow-seed",
+  "name": "Willow seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Plant this in a plantpot of soil to grow a sapling.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Willow_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5313
+    ],
+    "pageSlug": "Willow_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Willow_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 54,
+      "buyLimit": 200,
+      "dailyVolume": 13180
+    }
+  },
+  "special": false
+}

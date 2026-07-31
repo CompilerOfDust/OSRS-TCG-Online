@@ -1,0 +1,40 @@
+{
+  "id": 2180,
+  "cardId": "itm_unfired-bowl",
+  "name": "Unfired bowl",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to put this in a pottery oven.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unfired_bowl.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1791
+    ],
+    "pageSlug": "Unfired_bowl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unfired_bowl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.68,
+    "market": {
+      "guidePrice": 147,
+      "buyLimit": 10000,
+      "dailyVolume": 6001
+    }
+  }
+}

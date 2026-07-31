@@ -1,0 +1,66 @@
+{
+  "id": 6862,
+  "cardId": "itm_book-of-balance",
+  "name": "Book of balance",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    26488
+  ],
+  "flavourText": "The holy book of Guthix.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Book_of_balance.png",
+  "debut": "2004-11-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3844
+    ],
+    "pageSlug": "Book_of_balance",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Book_of_balance"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Preach",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 1,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 4,
+        "slash": 4,
+        "crush": 4,
+        "magic": 4,
+        "ranged": 4
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 4,
+        "crush": 4,
+        "magic": 4,
+        "ranged": 4
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  }
+}

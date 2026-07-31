@@ -1,0 +1,42 @@
+{
+  "id": 5213,
+  "cardId": "itm_teleport-anchoring-scroll",
+  "name": "Teleport anchoring scroll",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A formidable magic spell which prevents unwanted teleportation.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Teleport_anchoring_scroll.png",
+  "debut": "2024-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29455
+    ],
+    "pageSlug": "Teleport_anchoring_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Teleport_anchoring_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 0.015,
+    "market": {
+      "guidePrice": 41330,
+      "buyLimit": 5,
+      "dailyVolume": 145
+    }
+  },
+  "special": false
+}

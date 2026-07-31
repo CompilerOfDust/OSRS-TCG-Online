@@ -1,0 +1,36 @@
+{
+  "id": 6785,
+  "cardId": "itm_low-alcohol-keg",
+  "name": "Low alcohol keg",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Suspiciously close to beer, but without the side effects.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Low_alcohol_keg.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3712
+    ],
+    "pageSlug": "Low_alcohol_keg",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Low_alcohol_keg"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 20,
+    "market": null
+  }
+}

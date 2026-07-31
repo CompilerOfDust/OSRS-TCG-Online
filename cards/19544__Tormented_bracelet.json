@@ -1,0 +1,69 @@
+{
+  "id": 2309,
+  "cardId": "itm_tormented-bracelet",
+  "name": "Tormented bracelet",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    23444
+  ],
+  "flavourText": "A deep sense of torment burns within this powerful bracelet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tormented_bracelet.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19544
+    ],
+    "pageSlug": "Tormented_bracelet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tormented_bracelet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 120600,
+    "lowAlchemy": 80400,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 17854802,
+      "buyLimit": 8,
+      "dailyVolume": 462
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 10,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 5,
+        "prayer": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": 1370,
+  "cardId": "itm_elite-void-top",
+  "name": "Elite void top",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    26469
+  ],
+  "flavourText": "Superior torso armour from the order of the Void Knights.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elite_void_top.png",
+  "debut": "2015-03-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13072
+    ],
+    "pageSlug": "Elite_void_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elite_void_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 29100,
+    "lowAlchemy": 19400,
+    "weightKg": 6.803,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 45,
+        "slash": 45,
+        "crush": 45,
+        "magic": 45,
+        "ranged": 45
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

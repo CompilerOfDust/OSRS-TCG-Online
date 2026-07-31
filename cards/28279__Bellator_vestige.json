@@ -1,0 +1,37 @@
+{
+  "id": 4830,
+  "cardId": "itm_bellator-vestige",
+  "name": "Bellator vestige",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A fragment of ancient power.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bellator_vestige.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28279
+    ],
+    "pageSlug": "Bellator_vestige",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bellator_vestige"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 0.004,
+    "market": null
+  }
+}

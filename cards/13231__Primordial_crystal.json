@@ -1,0 +1,40 @@
+{
+  "id": 1462,
+  "cardId": "itm_primordial-crystal",
+  "name": "Primordial crystal",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A powerful crystal of strength.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Primordial_crystal.png",
+  "debut": "2015-08-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13231
+    ],
+    "pageSlug": "Primordial_crystal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Primordial_crystal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 27000,
+    "lowAlchemy": 18000,
+    "weightKg": 0.05,
+    "market": {
+      "guidePrice": 17634202,
+      "buyLimit": 15,
+      "dailyVolume": 125
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": 6726,
+  "cardId": "npc_loading-crane",
+  "name": "Loading crane",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Those are some of the biggest teeth I've ever seen.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2004-12-21",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3618
+    ],
+    "pageSlug": "Loading_crane",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Loading_crane"
+  },
+  "npcProfile": {
+    "race": "N/A",
+    "gender": null,
+    "locations": [
+      "Abandoned Mine"
+    ],
+    "questLine": "Haunted Mine",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

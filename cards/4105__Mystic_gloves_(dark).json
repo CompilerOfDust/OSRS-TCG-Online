@@ -1,0 +1,68 @@
+{
+  "id": 7004,
+  "cardId": "itm_mystic-gloves-dark",
+  "name": "Mystic gloves (dark)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Dark magical gloves.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mystic_gloves_%28dark%29.png",
+  "debut": "2005-01-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4105
+    ],
+    "pageSlug": "Mystic_gloves_(dark)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mystic_gloves_(dark)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 5640,
+      "buyLimit": 70,
+      "dailyVolume": 243
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

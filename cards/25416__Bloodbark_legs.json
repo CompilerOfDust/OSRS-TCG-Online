@@ -1,0 +1,67 @@
+{
+  "id": 4019,
+  "cardId": "itm_bloodbark-legs",
+  "name": "Bloodbark legs",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Strong leg protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bloodbark_legs.png",
+  "debut": "2021-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25416
+    ],
+    "pageSlug": "Bloodbark_legs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bloodbark_legs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 48000,
+    "lowAlchemy": 32000,
+    "weightKg": 3.628,
+    "market": {
+      "guidePrice": 211822,
+      "buyLimit": 70,
+      "dailyVolume": 2272
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 16,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 33,
+        "slash": 31,
+        "crush": 38,
+        "magic": 17,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 5080,
+  "cardId": "itm_cooked-moss-lizard",
+  "name": "Cooked moss lizard",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Mmm, this looks tasty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cooked_moss_lizard.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29077
+    ],
+    "pageSlug": "Cooked_moss_lizard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cooked_moss_lizard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.141,
+    "market": null
+  }
+}

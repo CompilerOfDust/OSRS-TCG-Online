@@ -1,0 +1,36 @@
+{
+  "id": 2663,
+  "cardId": "itm_giant-key",
+  "name": "Giant key",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A key to the chest of Obor, the Hill Titan.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giant_key.png",
+  "debut": "2016-10-06",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20754
+    ],
+    "pageSlug": "Giant_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giant_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

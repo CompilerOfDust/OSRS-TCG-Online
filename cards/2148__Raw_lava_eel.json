@@ -1,0 +1,36 @@
+{
+  "id": 2917,
+  "cardId": "itm_raw-lava-eel",
+  "name": "Raw lava eel",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A very strange eel.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_lava_eel.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2148
+    ],
+    "pageSlug": "Raw_lava_eel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_lava_eel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 0.226,
+    "market": null
+  }
+}

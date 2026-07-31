@@ -1,0 +1,69 @@
+{
+  "id": 8989,
+  "cardId": "npc_tekton",
+  "name": "Tekton",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Xeric's former artisan.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tekton.png",
+  "debut": "2017-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7540,
+      7541,
+      7542,
+      7543,
+      7544,
+      7545
+    ],
+    "pageSlug": "Tekton",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tekton"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Xerician"
+    ],
+    "tileSize": "4x4",
+    "combatRating": 1,
+    "vitality": 300,
+    "peakDamage": "52",
+    "combatXpBonusPct": 35,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab",
+      "Slash",
+      "Crush"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 390,
+      "strength": 390,
+      "defence": 205,
+      "magic": 205,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

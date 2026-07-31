@@ -1,0 +1,61 @@
+{
+  "id": 4353,
+  "cardId": "npc_myre-blamish-snail",
+  "name": "Myre Blamish Snail",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A marsh coloured blamish snail, these types are said to spit acid.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Myre_blamish_snail_(rounded).png",
+  "debut": "2004-10-14",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2634,
+      2649
+    ],
+    "pageSlug": "Myre_Blamish_Snail",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Myre_Blamish_Snail"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 9,
+    "vitality": 8,
+    "peakDamage": "2",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 0,
+      "strength": 0,
+      "defence": 22,
+      "magic": 1,
+      "ranged": 5
+    },
+    "aggressiveBonuses": null
+  }
+}

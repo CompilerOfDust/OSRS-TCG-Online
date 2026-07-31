@@ -1,0 +1,42 @@
+{
+  "id": 1192,
+  "cardId": "itm_lumberyard-teleport",
+  "name": "Lumberyard teleport",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Teleports you to the Lumberyard.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lumberyard_teleport.png",
+  "debut": "2014-07-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12642
+    ],
+    "pageSlug": "Lumberyard_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lumberyard_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Teleport",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 3999,
+      "buyLimit": 15000,
+      "dailyVolume": 13570
+    }
+  },
+  "special": false
+}

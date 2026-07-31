@@ -1,0 +1,36 @@
+{
+  "id": 7303,
+  "cardId": "itm_safety-guarantee",
+  "name": "Safety guarantee",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The strange characters supposedly grant Svidi safe passage into Rellekka.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Safety_guarantee.png",
+  "debut": "2005-03-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4484
+    ],
+    "pageSlug": "Safety_guarantee",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Safety_guarantee"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.3,
+    "market": null
+  }
+}

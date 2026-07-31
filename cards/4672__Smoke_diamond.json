@@ -1,0 +1,37 @@
+{
+  "id": 7439,
+  "cardId": "itm_smoke-diamond",
+  "name": "Smoke diamond",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The Diamond of Smoke.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Smoke_diamond.png",
+  "debut": "2005-04-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4672
+    ],
+    "pageSlug": "Smoke_diamond",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Smoke_diamond"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.001,
+    "market": null
+  },
+  "special": false
+}

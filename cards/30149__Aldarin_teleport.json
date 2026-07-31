@@ -1,0 +1,38 @@
+{
+  "id": 5408,
+  "cardId": "itm_aldarin-teleport",
+  "name": "Aldarin teleport",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This tablet has been redirected to the Aldarin portal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Aldarin_teleport.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30149
+    ],
+    "pageSlug": "Aldarin_teleport",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Aldarin_teleport"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Revert",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

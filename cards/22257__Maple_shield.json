@@ -1,0 +1,67 @@
+{
+  "id": 3166,
+  "cardId": "itm_maple-shield",
+  "name": "Maple shield",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A solid maple shield.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maple_shield.png",
+  "debut": "2018-02-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22257
+    ],
+    "pageSlug": "Maple_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maple_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 192,
+    "lowAlchemy": 128,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 82,
+      "buyLimit": 18000,
+      "dailyVolume": 73922
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 7,
+        "slash": 8,
+        "crush": 6,
+        "magic": 2,
+        "ranged": 7
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

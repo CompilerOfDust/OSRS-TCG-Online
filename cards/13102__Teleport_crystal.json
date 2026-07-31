@@ -1,0 +1,44 @@
+{
+  "id": 8185,
+  "cardId": "itm_teleport-crystal-1",
+  "name": "Teleport crystal (5)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    6099,
+    6100,
+    6101,
+    6102
+  ],
+  "flavourText": "An enchanted teleportation crystal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Teleport_crystal.png",
+  "debut": "2005-07-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13102
+    ],
+    "pageSlug": "Teleport_crystal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Teleport_crystal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Lletya",
+      "Prifddinas",
+      "Toggle",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

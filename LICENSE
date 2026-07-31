@@ -1,0 +1,83 @@
+# Licensing
+
+Copyright © 2026 CompilerOfDust
+
+This repository contains software source code and separately licensed game content. Different parts of the repository are governed by different terms.
+
+## 1. Software Source Code
+
+Except for the excluded materials identified below, the software source code in this repository is licensed under the GNU Affero General Public License version 3 only:
+
+```
+SPDX-License-Identifier: AGPL-3.0-only
+```
+
+A complete copy of the GNU Affero General Public License version 3 is provided in the `COPYING` file.
+
+The software license covers source code, application logic, server code, client code, build scripts, tests, development tools, and configuration templates unless a file or directory contains a different license notice.
+
+You may use, study, modify, and redistribute the covered software under the terms of the AGPL-3.0-only license.
+
+## 2. Excluded Game Content
+
+The AGPL-3.0-only license does not apply to the official game content, intellectual property, or media assets identified below.
+
+Excluded materials include, without limitation:
+
+* official trading-card data and card databases;
+* card names, characters, factions, settings, and lore;
+* card descriptions, flavor text, and original rules text;
+* card illustrations, frames, templates, icons, animations, and visual designs;
+* logos, product names, project names, and other branding;
+* music, sound effects, voice recordings, and video;
+* promotional materials and marketing artwork;
+* unreleased card sets, balancing information, and design documents;
+* files located in `src/main/resources/` (bundled icons and media) and the top-level `icon.png`;
+* the official card catalogue under the top-level `cards/` directory (per-card JSON data together with its changelog and unlock indexes), and any card data or card databases bundled under `src/main/resources/`; and
+* any file carrying an “All Rights Reserved,” proprietary, or separate third-party license notice.
+
+These excluded materials are not open-source software and are not licensed under the AGPL merely because they appear in the same repository, package, release, or application.
+
+Unless a separate written license expressly states otherwise, excluded materials are Copyright © 2026 CompilerOfDust. All rights reserved.
+
+See the applicable asset license file for the exact terms governing these materials.
+
+## 3. Demo and Community Content
+
+Example, placeholder, or demonstration cards may be distributed under separate terms stated in their directory.
+
+A license applying to demo content does not apply to official game content.
+
+Community-created cards and modifications remain subject to their authors’ rights and to any applicable contribution or community-content policy.
+
+## 4. Trademarks
+
+The software license does not grant permission to use the names, logos, trade dress, domain names, or trademarks of CompilerOfDust or `OSRS TCG (TheCardExchange)`.
+
+Forks and modified versions must not imply sponsorship, endorsement, certification, or official status.
+
+Modified versions should use a clearly distinguishable name and branding unless written permission has been granted.
+
+## 5. Contributions
+
+Unless otherwise agreed in writing, source-code contributions submitted to this repository are provided under AGPL-3.0-only.
+
+Submitting artwork, card content, lore, audio, branding, or other non-code materials does not transfer ownership or grant the project a license unless the contributor expressly agrees to appropriate written contribution terms.
+
+Contributors must only submit material they created or have permission to contribute.
+
+## 6. Third-Party Materials
+
+Third-party libraries, artwork, fonts, audio, datasets, and other materials remain subject to their respective licenses and notices.
+
+Nothing in this document grants rights that CompilerOfDust does not own or have authority to license.
+
+## 7. No Implied License
+
+No rights are granted by implication, estoppel, or otherwise beyond the rights expressly granted by the applicable license.
+
+Permission to use the open-source software does not include permission to copy, redistribute, extract, publish, or commercially exploit the excluded official game content.
+
+For licensing questions or commercial permission concerning official game content, contact:
+
+https://www.osrscardexchange.com/contact

@@ -1,0 +1,68 @@
+{
+  "id": 3101,
+  "cardId": "itm_dragonfire-ward",
+  "name": "Dragonfire ward",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A light shield with a haunting, skeletal visage.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragonfire_ward_%28uncharged%29.png",
+  "debut": "2018-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22003
+    ],
+    "pageSlug": "Dragonfire_ward",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragonfire_ward"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 1200000,
+    "lowAlchemy": 800000,
+    "weightKg": 4.082,
+    "market": {
+      "guidePrice": 13302318,
+      "buyLimit": 8,
+      "dailyVolume": 571
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -10,
+        "slash": -10,
+        "crush": -10,
+        "magic": -10,
+        "ranged": 15
+      },
+      "defence": {
+        "stab": -25,
+        "slash": -20,
+        "crush": -22,
+        "magic": 28,
+        "ranged": 18
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": -2,
+        "rangedStrength": 8,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

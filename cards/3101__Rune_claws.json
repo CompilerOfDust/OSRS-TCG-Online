@@ -1,0 +1,68 @@
+{
+  "id": 5682,
+  "cardId": "itm_rune-claws",
+  "name": "Rune claws",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A set of fighting claws.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_claws.png",
+  "debut": "2004-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3101
+    ],
+    "pageSlug": "Rune_claws",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_claws"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 7200,
+    "lowAlchemy": 4800,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 6468,
+      "buyLimit": 70,
+      "dailyVolume": 2222
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 26,
+        "slash": 38,
+        "crush": -4,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 10,
+        "slash": 19,
+        "crush": 5,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 39,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

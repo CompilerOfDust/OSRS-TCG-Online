@@ -1,0 +1,74 @@
+{
+  "id": 7128,
+  "cardId": "npc_dust-devil",
+  "name": "Dust devil",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The vacuumed face of evil.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dust_devil.png",
+  "debut": "2005-04-18",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      423,
+      7249,
+      11238
+    ],
+    "pageSlug": "Dust_devil",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dust_devil"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 93,
+    "vitality": 105,
+    "peakDamage": "8 16 (without Facemask )",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Ranged melee"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 15,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 65,
+      "reward": 105,
+      "group": "Dust Devils",
+      "masters": [
+        "Krystilia",
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 105,
+      "strength": 70,
+      "defence": 40,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

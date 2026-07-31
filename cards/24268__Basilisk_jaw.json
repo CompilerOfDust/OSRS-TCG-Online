@@ -1,0 +1,41 @@
+{
+  "id": 3695,
+  "cardId": "itm_basilisk-jaw",
+  "name": "Basilisk jaw",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "The jaw of a Basilisk Knight.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Basilisk_jaw.png",
+  "debut": "2019-09-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24268
+    ],
+    "pageSlug": "Basilisk_jaw",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Basilisk_jaw"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 15383304,
+      "buyLimit": null,
+      "dailyVolume": 1076
+    }
+  }
+}

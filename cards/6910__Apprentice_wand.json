@@ -1,0 +1,67 @@
+{
+  "id": 8643,
+  "cardId": "itm_apprentice-wand",
+  "name": "Apprentice wand",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An apprentice level wand.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Apprentice_wand.png",
+  "debut": "2006-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6910
+    ],
+    "pageSlug": "Apprentice_wand",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Apprentice_wand"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 900,
+    "lowAlchemy": 600,
+    "weightKg": 0.255,
+    "market": {
+      "guidePrice": 692463,
+      "buyLimit": 125,
+      "dailyVolume": 16
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 10,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 10,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

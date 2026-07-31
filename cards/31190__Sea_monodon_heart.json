@@ -1,0 +1,36 @@
+{
+  "id": 5747,
+  "cardId": "itm_sea-monodon-heart",
+  "name": "Sea monodon heart",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The heart of a sea monodon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sea_monodon_heart.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31190
+    ],
+    "pageSlug": "Sea_monodon_heart",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sea_monodon_heart"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.285,
+    "market": null
+  }
+}

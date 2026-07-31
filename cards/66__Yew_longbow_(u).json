@@ -1,0 +1,40 @@
+{
+  "id": 8517,
+  "cardId": "itm_yew-longbow-u",
+  "name": "Yew longbow (u)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An unstrung yew longbow; I need a bowstring for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yew_longbow_%28u%29.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      66
+    ],
+    "pageSlug": "Yew_longbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yew_longbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 384,
+    "lowAlchemy": 256,
+    "weightKg": 1.332,
+    "market": {
+      "guidePrice": 175,
+      "buyLimit": 10000,
+      "dailyVolume": 991545
+    }
+  }
+}

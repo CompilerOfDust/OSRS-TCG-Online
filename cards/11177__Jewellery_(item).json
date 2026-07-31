@@ -1,0 +1,36 @@
+{
+  "id": 525,
+  "cardId": "itm_jewellery",
+  "name": "Jewellery",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Jewellery that looks dusty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jewellery_%28item%29.png",
+  "debut": "2007-05-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11177
+    ],
+    "pageSlug": "Jewellery_(item)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jewellery_(item)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

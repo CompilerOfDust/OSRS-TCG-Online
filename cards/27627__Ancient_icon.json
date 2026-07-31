@@ -1,0 +1,37 @@
+{
+  "id": 4675,
+  "cardId": "itm_ancient-icon",
+  "name": "Ancient icon",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A mysterious icon of ancient origin.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_icon.png",
+  "debut": "2023-01-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27627
+    ],
+    "pageSlug": "Ancient_icon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_icon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

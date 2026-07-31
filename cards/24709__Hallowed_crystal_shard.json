@@ -1,0 +1,37 @@
+{
+  "id": 3809,
+  "cardId": "itm_hallowed-crystal-shard",
+  "name": "Hallowed crystal shard",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A teleport crystal for the Hallowed Sepulchre lobby.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hallowed_crystal_shard.png",
+  "debut": "2020-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24709
+    ],
+    "pageSlug": "Hallowed_crystal_shard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hallowed_crystal_shard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Activate",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0,
+    "market": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 4291,
+  "cardId": "itm_ancient-ceremonial-top",
+  "name": "Ancient ceremonial top",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Some ceremonial robes dedicated to an ancient god.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_ceremonial_top.png",
+  "debut": "2021-12-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26221
+    ],
+    "pageSlug": "Ancient_ceremonial_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_ceremonial_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 0.9,
+    "market": {
+      "guidePrice": 58971,
+      "buyLimit": 8,
+      "dailyVolume": 184
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 6
+      }
+    }
+  }
+}

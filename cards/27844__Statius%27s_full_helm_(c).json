@@ -1,0 +1,63 @@
+{
+  "id": 4729,
+  "cardId": "itm_statiuss-full-helm-c",
+  "name": "Statius's full helm (c)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A powerful helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Statius%27s_full_helm_%28c%29.png",
+  "debut": "2023-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27844
+    ],
+    "pageSlug": "Statius%27s_full_helm_(c)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Statius%27s_full_helm_(c)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 2.721,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 3,
+        "slash": 3,
+        "crush": 4,
+        "magic": -6,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 17,
+        "slash": 20,
+        "crush": 14,
+        "magic": -1,
+        "ranged": 18
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 2,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 6312,
+  "cardId": "itm_troll-potion",
+  "name": "Troll potion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's part of Eadgar's plan.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Troll_potion.png",
+  "debut": "2004-10-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3265
+    ],
+    "pageSlug": "Troll_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Troll_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

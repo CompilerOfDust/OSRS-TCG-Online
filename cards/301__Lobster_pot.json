@@ -1,0 +1,40 @@
+{
+  "id": 5423,
+  "cardId": "itm_lobster-pot",
+  "name": "Lobster pot",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Useful for catching lobsters.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lobster_pot.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      301
+    ],
+    "pageSlug": "Lobster_pot",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lobster_pot"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.255,
+    "market": {
+      "guidePrice": 148,
+      "buyLimit": 40,
+      "dailyVolume": 2792
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": 5275,
+  "cardId": "itm_silver-sickle-b",
+  "name": "Silver sickle (b)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a blessed silver sickle.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silver_sickle_%28b%29.png",
+  "debut": "2004-07-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2963
+    ],
+    "pageSlug": "Silver_sickle_(b)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silver_sickle_(b)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Cast Bloom",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 1.587,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 1,
+        "magic": 1,
+        "ranged": 1
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 1,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  },
+  "special": false
+}

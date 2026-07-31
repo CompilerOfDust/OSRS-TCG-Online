@@ -1,0 +1,45 @@
+{
+  "id": 9042,
+  "cardId": "itm_guthix-balance-1",
+  "name": "Guthix balance(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    7662,
+    7664,
+    7666
+  ],
+  "flavourText": "A potion of harralander, red spiders eggs, garlic and silver dust.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Guthix_balance%284%29.png",
+  "debut": "2006-03-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7660
+    ],
+    "pageSlug": "Guthix_balance",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Guthix_balance"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.035,
+    "market": {
+      "guidePrice": 294,
+      "buyLimit": 2000,
+      "dailyVolume": 0
+    }
+  }
+}

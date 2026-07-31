@@ -1,0 +1,68 @@
+{
+  "id": 1221,
+  "cardId": "itm_adamant-pickaxe",
+  "name": "Adamant pickaxe",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Used for mining.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_pickaxe.png",
+  "debut": "2003-05-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1271
+    ],
+    "pageSlug": "Adamant_pickaxe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_pickaxe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 1920,
+    "lowAlchemy": 1280,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 1574,
+      "buyLimit": 40,
+      "dailyVolume": 2729
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 17,
+        "slash": -2,
+        "crush": 15,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 19,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": 8326,
+  "cardId": "itm_mahogany-logs",
+  "name": "Mahogany logs",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Some well-cut mahogany logs.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mahogany_logs.png",
+  "debut": "2005-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6332
+    ],
+    "pageSlug": "Mahogany_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mahogany_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 155,
+      "buyLimit": 11000,
+      "dailyVolume": 9776709
+    }
+  }
+}

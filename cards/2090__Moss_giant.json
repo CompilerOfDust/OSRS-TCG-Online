@@ -1,0 +1,73 @@
+{
+  "id": 2723,
+  "cardId": "npc_moss-giant__1",
+  "name": "Moss giant",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "His beard seems to have a life of its own.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Moss_giant.png",
+  "debut": "2001-02-05",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2090,
+      2091,
+      2092,
+      2093,
+      7262,
+      14422
+    ],
+    "pageSlug": "Moss_giant",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Moss_giant"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 42,
+    "vitality": 60,
+    "peakDamage": "6",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 60,
+      "group": "Moss Giants",
+      "masters": [
+        "Krystilia",
+        "Vannaka"
+      ]
+    },
+    "combatLevels": {
+      "attack": 30,
+      "strength": 30,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 2034,
+  "cardId": "itm_blamish-oil",
+  "name": "Blamish oil",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Made from the finest snail slime.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blamish_oil.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1582
+    ],
+    "pageSlug": "Blamish_oil",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blamish_oil"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.025,
+    "market": null
+  }
+}

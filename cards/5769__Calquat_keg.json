@@ -1,0 +1,41 @@
+{
+  "id": 8023,
+  "cardId": "itm_calquat-keg",
+  "name": "Calquat keg",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Sliced and hollowed out to form a keg.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Calquat_keg.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5769
+    ],
+    "pageSlug": "Calquat_keg",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Calquat_keg"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": 176,
+      "buyLimit": 10000,
+      "dailyVolume": 1622
+    }
+  },
+  "special": false
+}

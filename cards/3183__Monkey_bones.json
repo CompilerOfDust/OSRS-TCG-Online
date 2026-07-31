@@ -1,0 +1,44 @@
+{
+  "id": 5985,
+  "cardId": "itm_monkey-bones",
+  "name": "Monkey bones",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    4267
+  ],
+  "flavourText": "These are small monkey bones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Monkey_bones.png",
+  "debut": "2004-09-14",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3183
+    ],
+    "pageSlug": "Monkey_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Monkey_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 308,
+      "buyLimit": 3000,
+      "dailyVolume": 656
+    }
+  },
+  "special": false
+}

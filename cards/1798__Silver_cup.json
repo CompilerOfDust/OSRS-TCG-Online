@@ -1,0 +1,36 @@
+{
+  "id": 2186,
+  "cardId": "itm_silver-cup",
+  "name": "Silver cup",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Bob's shiny silver coated tea cup.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Silver_cup.png",
+  "debut": "2003-06-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1798
+    ],
+    "pageSlug": "Silver_cup",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Silver_cup"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.07,
+    "market": null
+  }
+}

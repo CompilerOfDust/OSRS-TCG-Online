@@ -1,0 +1,36 @@
+{
+  "id": 9692,
+  "cardId": "itm_right-skull-half",
+  "name": "Right skull half",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Ooooh spooky!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Right_skull_half.png",
+  "debut": "2006-07-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9007
+    ],
+    "pageSlug": "Right_skull_half",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Right_skull_half"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.08,
+    "market": null
+  }
+}

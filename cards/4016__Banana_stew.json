@@ -1,0 +1,41 @@
+{
+  "id": 6933,
+  "cardId": "itm_banana-stew",
+  "name": "Banana stew",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a bowl full of mushy banana.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Banana_stew.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4016
+    ],
+    "pageSlug": "Banana_stew",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Banana_stew"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 39,
+      "buyLimit": 6000,
+      "dailyVolume": 2
+    }
+  }
+}

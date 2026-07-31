@@ -1,0 +1,42 @@
+{
+  "id": 2591,
+  "cardId": "itm_premade-blurb-sp",
+  "name": "Premade blurb' sp.",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A premade Blurberry Special [ sic ]",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Premade_blurb%27_sp..png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2028
+    ],
+    "pageSlug": "Premade_blurb%27_sp.",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Premade_blurb%27_sp."
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 623,
+      "buyLimit": 2000,
+      "dailyVolume": 409
+    }
+  },
+  "special": false
+}

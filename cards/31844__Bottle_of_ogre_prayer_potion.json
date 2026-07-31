@@ -1,0 +1,37 @@
+{
+  "id": 5990,
+  "cardId": "itm_bottle-of-ogre-prayer-potion",
+  "name": "Bottle of ogre prayer potion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Noted ogre herbalists formulated this potion from strong beer, snake tails and rancid weeds.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_ogre_prayer_potion.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31844
+    ],
+    "pageSlug": "Bottle_of_ogre_prayer_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_ogre_prayer_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

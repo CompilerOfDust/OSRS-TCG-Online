@@ -1,0 +1,39 @@
+{
+  "id": 6794,
+  "cardId": "itm_vase",
+  "name": "Vase",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    710
+  ],
+  "flavourText": "An unusually shaped vase. You can see something glinting inside.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vase.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3734
+    ],
+    "pageSlug": "Vase",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vase"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Shake",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

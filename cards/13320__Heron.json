@@ -1,0 +1,37 @@
+{
+  "id": 1496,
+  "cardId": "itm_heron",
+  "name": "Heron",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Smells a little fishy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Heron.png",
+  "debut": "2015-11-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13320
+    ],
+    "pageSlug": "Heron",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Heron"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

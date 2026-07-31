@@ -1,0 +1,56 @@
+{
+  "id": 1022,
+  "cardId": "npc_arzinian-being-of-bordanzan",
+  "name": "Arzinian Being of Bordanzan",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "It's the Arzinian Being, whatever that is, that comes from Bordanzan, wherever that is.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-03-21",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1236
+    ],
+    "pageSlug": "Arzinian_Being_of_Bordanzan",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arzinian_Being_of_Bordanzan"
+  },
+  "npcProfile": {
+    "race": "Demon",
+    "gender": null,
+    "locations": [
+      "Dondakan's mine"
+    ],
+    "questLine": "Between a Rock...",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 781,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 2339,
+  "cardId": "itm_unstrung-heavy-ballista",
+  "name": "Unstrung heavy ballista",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Needs a suitably simian rope.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unstrung_heavy_ballista.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19607
+    ],
+    "pageSlug": "Unstrung_heavy_ballista",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unstrung_heavy_ballista"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 5.75,
+    "market": {
+      "guidePrice": 376838,
+      "buyLimit": 8,
+      "dailyVolume": 0
+    }
+  }
+}

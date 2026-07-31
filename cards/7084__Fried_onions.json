@@ -1,0 +1,41 @@
+{
+  "id": 8725,
+  "cardId": "itm_fried-onions",
+  "name": "Fried onions",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A bowl of sliced, fried onions.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fried_onions.png",
+  "debut": "2006-01-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7084
+    ],
+    "pageSlug": "Fried_onions",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fried_onions"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 2,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 30,
+      "buyLimit": 13000,
+      "dailyVolume": 17
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 548,
+  "cardId": "npc_boar31337killer",
+  "name": "Boar31337Killer",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "He hates boars so much.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2021-10-06",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11226
+    ],
+    "pageSlug": "Boar31337Killer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Boar31337Killer"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "The Node"
+    ],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": 27,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

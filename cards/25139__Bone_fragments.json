@@ -1,0 +1,40 @@
+{
+  "id": 3965,
+  "cardId": "itm_bone-fragments",
+  "name": "Bone fragments",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Ground down bone fragments.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bone_fragments_1.png",
+  "debut": "2020-11-18",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25139
+    ],
+    "pageSlug": "Bone_fragments",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bone_fragments"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 537,
+      "buyLimit": 500,
+      "dailyVolume": 10400
+    }
+  }
+}

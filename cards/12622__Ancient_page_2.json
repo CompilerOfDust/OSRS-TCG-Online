@@ -1,0 +1,41 @@
+{
+  "id": 1183,
+  "cardId": "itm_ancient-page-2",
+  "name": "Ancient page 2",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This seems to have been torn from a book...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_page_2.png",
+  "debut": "2014-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12622
+    ],
+    "pageSlug": "Ancient_page_2",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_page_2"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 1902,
+      "buyLimit": 5,
+      "dailyVolume": 381
+    }
+  },
+  "special": false
+}

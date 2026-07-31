@@ -1,0 +1,56 @@
+{
+  "id": 9490,
+  "cardId": "npc_grish",
+  "name": "Grish",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An ogre shaman.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-05-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      860
+    ],
+    "pageSlug": "Grish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grish"
+  },
+  "npcProfile": {
+    "race": "Ogre",
+    "gender": "Male",
+    "locations": [
+      "Jiggig"
+    ],
+    "questLine": "Zogre Flesh Eaters",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

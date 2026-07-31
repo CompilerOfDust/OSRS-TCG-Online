@@ -1,0 +1,36 @@
+{
+  "id": 5625,
+  "cardId": "itm_cooled-infernal-chunk",
+  "name": "Cooled infernal chunk",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A chunk of cooled infernal metal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cooled_infernal_chunk.png",
+  "debut": "2025-05-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30860
+    ],
+    "pageSlug": "Cooled_infernal_chunk",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cooled_infernal_chunk"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

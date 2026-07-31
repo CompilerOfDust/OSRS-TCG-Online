@@ -1,0 +1,46 @@
+{
+  "id": 1647,
+  "cardId": "itm_bird-nest__2",
+  "name": "Bird nest",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5070,
+    5073,
+    5074,
+    5075,
+    7413,
+    22798,
+    22800
+  ],
+  "flavourText": "It's a bird's nest with some seeds in it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bird_nest_%28Wyson%2C_2016-2019%29.png",
+  "debut": "2016-02-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13653
+    ],
+    "pageSlug": "Bird_nest_(Wyson,_2016-2019)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bird_nest_(Wyson,_2016-2019)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Search",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 271,
+    "lowAlchemy": 181,
+    "weightKg": 0.002,
+    "market": null
+  },
+  "special": false
+}

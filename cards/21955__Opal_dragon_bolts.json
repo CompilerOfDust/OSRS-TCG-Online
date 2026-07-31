@@ -1,0 +1,67 @@
+{
+  "id": 3084,
+  "cardId": "itm_opal-dragon-bolts",
+  "name": "Opal dragon bolts",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Dragon crossbow bolts, tipped with opal.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Opal_dragon_bolts_1.png",
+  "debut": "2018-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21955
+    ],
+    "pageSlug": "Opal_dragon_bolts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Opal_dragon_bolts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 330,
+    "lowAlchemy": 220,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2719,
+      "buyLimit": 11000,
+      "dailyVolume": 20103
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 122,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

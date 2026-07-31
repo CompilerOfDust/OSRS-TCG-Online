@@ -1,0 +1,38 @@
+{
+  "id": 3592,
+  "cardId": "itm_phren-bark",
+  "name": "Phren bark",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    23838
+  ],
+  "flavourText": "This could help hold together a piece of armour.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Phren_bark.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23878
+    ],
+    "pageSlug": "Phren_bark",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Phren_bark"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1,
+    "market": null
+  }
+}

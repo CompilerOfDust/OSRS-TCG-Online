@@ -1,0 +1,67 @@
+{
+  "id": 1603,
+  "cardId": "itm_bronze-axe",
+  "name": "Bronze axe",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A woodcutter's axe.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_axe.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1351
+    ],
+    "pageSlug": "Bronze_axe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_axe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 97,
+      "buyLimit": 40,
+      "dailyVolume": 41797
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -2,
+        "slash": 4,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 5,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

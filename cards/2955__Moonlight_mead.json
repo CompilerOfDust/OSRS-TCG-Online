@@ -1,0 +1,44 @@
+{
+  "id": 5239,
+  "cardId": "itm_moonlight-mead",
+  "name": "Moonlight mead",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5811,
+    7750
+  ],
+  "flavourText": "A foul smelling brew.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Moonlight_mead.png",
+  "debut": "2004-06-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2955
+    ],
+    "pageSlug": "Moonlight_mead",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Moonlight_mead"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 97,
+      "buyLimit": 2000,
+      "dailyVolume": 36
+    }
+  }
+}

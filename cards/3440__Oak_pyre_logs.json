@@ -1,0 +1,41 @@
+{
+  "id": 6621,
+  "cardId": "itm_oak-pyre-logs",
+  "name": "Oak pyre logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Oak logs prepared with sacred oil for a funeral pyre.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oak_pyre_logs.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3440
+    ],
+    "pageSlug": "Oak_pyre_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oak_pyre_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 2165,
+      "buyLimit": 11000,
+      "dailyVolume": 3124
+    }
+  },
+  "special": false
+}

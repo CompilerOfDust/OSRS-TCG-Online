@@ -1,0 +1,41 @@
+{
+  "id": 5872,
+  "cardId": "itm_umbral-frag",
+  "name": "Umbral frag",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This can be propagated in a coral nursery.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Umbral_frag.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31515
+    ],
+    "pageSlug": "Umbral_frag",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Umbral_frag"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 46,
+    "lowAlchemy": 31,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 4390,
+      "buyLimit": 200,
+      "dailyVolume": 2768
+    }
+  },
+  "special": false
+}

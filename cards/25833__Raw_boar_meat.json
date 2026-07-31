@@ -1,0 +1,40 @@
+{
+  "id": 4167,
+  "cardId": "itm_raw-boar-meat",
+  "name": "Raw boar meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to cook this first.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_boar_meat.png",
+  "debut": "2021-06-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25833
+    ],
+    "pageSlug": "Raw_boar_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_boar_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.425,
+    "market": {
+      "guidePrice": 764,
+      "buyLimit": null,
+      "dailyVolume": 88
+    }
+  }
+}

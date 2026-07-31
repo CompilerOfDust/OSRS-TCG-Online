@@ -1,0 +1,41 @@
+{
+  "id": 2175,
+  "cardId": "itm_bucket-of-sand",
+  "name": "Bucket of sand",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "One of the ingredients for making glass.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bucket_of_sand.png",
+  "debut": "2002-03-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1783
+    ],
+    "pageSlug": "Bucket_of_sand",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bucket_of_sand"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 2.5,
+    "market": {
+      "guidePrice": 8,
+      "buyLimit": 13000,
+      "dailyVolume": 3365237
+    }
+  }
+}

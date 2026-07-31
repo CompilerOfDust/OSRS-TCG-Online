@@ -1,0 +1,36 @@
+{
+  "id": 2754,
+  "cardId": "itm_white-cog",
+  "name": "White cog",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A cog from some machinery.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_cog.png",
+  "debut": "2002-06-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20
+    ],
+    "pageSlug": "White_cog",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_cog"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": null
+  }
+}

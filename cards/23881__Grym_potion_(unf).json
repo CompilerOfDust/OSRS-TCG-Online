@@ -1,0 +1,37 @@
+{
+  "id": 3596,
+  "cardId": "itm_grym-potion-unf",
+  "name": "Grym potion (unf)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need another ingredient to finish this Grym potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grym_potion_%28unf%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23881
+    ],
+    "pageSlug": "Grym_potion_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grym_potion_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

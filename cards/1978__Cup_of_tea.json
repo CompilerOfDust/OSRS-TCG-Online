@@ -1,0 +1,53 @@
+{
+  "id": 2387,
+  "cardId": "itm_cup-of-tea",
+  "name": "Cup of tea",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    1978,
+    4242,
+    4243,
+    4245,
+    4838,
+    7730,
+    7733,
+    7736,
+    30985,
+    30987
+  ],
+  "flavourText": "A nice cup of tea.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cup_of_tea.png",
+  "debut": "2002-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1978
+    ],
+    "pageSlug": "Cup_of_tea",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cup_of_tea"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.15,
+    "market": {
+      "guidePrice": 81,
+      "buyLimit": 2000,
+      "dailyVolume": 20681
+    }
+  },
+  "special": false
+}

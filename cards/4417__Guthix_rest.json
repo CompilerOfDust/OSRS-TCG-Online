@@ -1,0 +1,47 @@
+{
+  "id": 7267,
+  "cardId": "itm_guthix-rest-1",
+  "name": "Guthix rest(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    4419,
+    4421,
+    4423
+  ],
+  "flavourText": "A cup of Guthix Rest.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Guthix_rest%284%29.png",
+  "debut": "2005-02-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4417
+    ],
+    "pageSlug": "Guthix_rest",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Guthix_rest"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.05,
+    "market": {
+      "guidePrice": 676,
+      "buyLimit": 2000,
+      "dailyVolume": 190
+    }
+  },
+  "special": false
+}

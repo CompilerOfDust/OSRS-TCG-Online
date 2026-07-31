@@ -1,0 +1,43 @@
+{
+  "id": 5963,
+  "cardId": "itm_raw-shrimps",
+  "name": "Raw shrimps",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    2514
+  ],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_shrimps.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      317
+    ],
+    "pageSlug": "Raw_shrimps",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_shrimps"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.12,
+    "market": {
+      "guidePrice": 28,
+      "buyLimit": 15000,
+      "dailyVolume": 128551
+    }
+  },
+  "special": false
+}

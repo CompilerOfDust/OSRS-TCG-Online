@@ -1,0 +1,41 @@
+{
+  "id": 8793,
+  "cardId": "itm_admiral-pie",
+  "name": "Admiral pie",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Much tastier than a normal fish pie.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Admiral_pie.png",
+  "debut": "2006-02-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7198
+    ],
+    "pageSlug": "Admiral_pie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Admiral_pie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 186,
+    "lowAlchemy": 124,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 85,
+      "buyLimit": 10000,
+      "dailyVolume": 24117
+    }
+  }
+}

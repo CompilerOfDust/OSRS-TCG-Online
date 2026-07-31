@@ -1,0 +1,43 @@
+{
+  "id": 7897,
+  "cardId": "itm_pineapple-sapling",
+  "name": "Pineapple sapling",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5484,
+    5492
+  ],
+  "flavourText": "This sapling is ready to be replanted in a fruit tree patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pineapple_sapling.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5500
+    ],
+    "pageSlug": "Pineapple_sapling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pineapple_sapling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 312,
+      "buyLimit": 200,
+      "dailyVolume": 8328
+    }
+  }
+}

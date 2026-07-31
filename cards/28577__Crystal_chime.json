@@ -1,0 +1,37 @@
+{
+  "id": 4920,
+  "cardId": "itm_crystal-chime",
+  "name": "Crystal chime",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It makes a sound.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crystal_chime.png",
+  "debut": "2023-09-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28577
+    ],
+    "pageSlug": "Crystal_chime",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crystal_chime"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Ring",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1,
+    "market": null
+  }
+}

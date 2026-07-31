@@ -1,0 +1,37 @@
+{
+  "id": 198,
+  "cardId": "itm_research-notes__1",
+  "name": "Research notes",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "These make no sense at all.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Research_notes_%28Animal_Magnetism%29.png",
+  "debut": "2006-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10492
+    ],
+    "pageSlug": "Research_notes_(Animal_Magnetism)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Research_notes_(Animal_Magnetism)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Translate",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.2,
+    "market": null
+  }
+}

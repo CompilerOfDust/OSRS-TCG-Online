@@ -1,0 +1,63 @@
+{
+  "id": 229,
+  "cardId": "itm_ranger-hat",
+  "name": "Ranger hat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A Penance Ranger hat.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ranger_hat.png",
+  "debut": "2007-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10550
+    ],
+    "pageSlug": "Ranger_hat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ranger_hat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": -5,
+        "slash": -5,
+        "crush": -5,
+        "magic": -5,
+        "ranged": 6
+      },
+      "defence": {
+        "stab": 7,
+        "slash": 10,
+        "crush": 11,
+        "magic": 5,
+        "ranged": 8
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 6155,
+  "cardId": "itm_raw-anchovies",
+  "name": "Raw anchovies",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_anchovies.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      321
+    ],
+    "pageSlug": "Raw_anchovies",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_anchovies"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.12,
+    "market": {
+      "guidePrice": 21,
+      "buyLimit": 13000,
+      "dailyVolume": 308186
+    }
+  }
+}

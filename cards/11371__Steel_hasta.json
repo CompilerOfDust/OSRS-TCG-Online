@@ -1,0 +1,67 @@
+{
+  "id": 634,
+  "cardId": "itm_steel-hasta",
+  "name": "Steel hasta",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A steel-tipped, one-handed hasta.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_hasta.png",
+  "debut": "2007-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11371
+    ],
+    "pageSlug": "Steel_hasta",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_hasta"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 195,
+    "lowAlchemy": 130,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 56,
+      "buyLimit": 125,
+      "dailyVolume": 3
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 12,
+        "slash": 12,
+        "crush": 12,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": -3,
+        "slash": -3,
+        "crush": -3,
+        "magic": 0,
+        "ranged": -3
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 12,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 8511,
+  "cardId": "itm_saradomin-brew-1",
+  "name": "Saradomin brew(4)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    6687,
+    6689,
+    6691
+  ],
+  "flavourText": "4 doses of Saradomin brew.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Saradomin_brew%284%29.png",
+  "debut": "2005-10-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6685
+    ],
+    "pageSlug": "Saradomin_brew",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Saradomin_brew"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 75,
+    "lowAlchemy": 50,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 1737,
+      "buyLimit": 2000,
+      "dailyVolume": 5613
+    }
+  }
+}

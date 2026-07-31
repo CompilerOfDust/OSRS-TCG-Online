@@ -1,0 +1,36 @@
+{
+  "id": 5735,
+  "cardId": "itm_reef-shark-tooth",
+  "name": "Reef shark tooth",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A large tooth from a reef shark.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Reef_shark_tooth.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31177
+    ],
+    "pageSlug": "Reef_shark_tooth",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Reef_shark_tooth"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.285,
+    "market": null
+  }
+}

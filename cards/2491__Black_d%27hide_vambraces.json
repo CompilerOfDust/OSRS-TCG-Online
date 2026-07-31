@@ -1,0 +1,67 @@
+{
+  "id": 3888,
+  "cardId": "itm_black-dhide-vambraces",
+  "name": "Black d'hide vambraces",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Vambraces made from 100% real dragonhide.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_d%27hide_vambraces.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2491
+    ],
+    "pageSlug": "Black_d%27hide_vambraces",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_d%27hide_vambraces"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 2592,
+    "lowAlchemy": 1728,
+    "weightKg": 0.283,
+    "market": {
+      "guidePrice": 1980,
+      "buyLimit": 70,
+      "dailyVolume": 7356
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 11
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 5,
+        "crush": 5,
+        "magic": 8,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

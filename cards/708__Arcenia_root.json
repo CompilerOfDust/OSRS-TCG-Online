@@ -1,0 +1,36 @@
+{
+  "id": 8728,
+  "cardId": "itm_arcenia-root",
+  "name": "Arcenia root",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The root of an arcenia plant.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arcenia_root.png",
+  "debut": "2003-07-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      708
+    ],
+    "pageSlug": "Arcenia_root",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arcenia_root"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

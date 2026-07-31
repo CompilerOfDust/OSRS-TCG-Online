@@ -1,0 +1,39 @@
+{
+  "id": 4619,
+  "cardId": "itm_liquid-adrenaline-1",
+  "name": "Liquid adrenaline (2)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    27341
+  ],
+  "flavourText": "Reduces how much energy is used when performing a special attack.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Liquid_adrenaline_%282%29.png",
+  "debut": "2022-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27339
+    ],
+    "pageSlug": "Liquid_adrenaline",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Liquid_adrenaline"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

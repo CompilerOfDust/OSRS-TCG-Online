@@ -1,0 +1,40 @@
+{
+  "id": 2322,
+  "cardId": "itm_bronze-javelin-tips",
+  "name": "Bronze javelin tips",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Needs a shaft.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_javelin_tips_1.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19570
+    ],
+    "pageSlug": "Bronze_javelin_tips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_javelin_tips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 40,
+      "buyLimit": 10000,
+      "dailyVolume": 1010
+    }
+  }
+}

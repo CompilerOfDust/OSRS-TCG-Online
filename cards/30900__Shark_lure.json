@@ -1,0 +1,42 @@
+{
+  "id": 5636,
+  "cardId": "itm_shark-lure",
+  "name": "Shark lure",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Sharks just can't get enough of these [ sic ]",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Shark_lure.png",
+  "debut": "2025-06-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30900
+    ],
+    "pageSlug": "Shark_lure",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Shark_lure"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Configure",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 348,
+      "buyLimit": 10000,
+      "dailyVolume": 456217
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,43 @@
+{
+  "id": 4994,
+  "cardId": "itm_cooked-chompy",
+  "name": "Cooked chompy",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    7228
+  ],
+  "flavourText": "It might look delicious to an ogre.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cooked_chompy.png",
+  "debut": "2004-05-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2878
+    ],
+    "pageSlug": "Cooked_chompy",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cooked_chompy"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 78,
+    "lowAlchemy": 52,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 498,
+      "buyLimit": 6000,
+      "dailyVolume": 1582
+    }
+  }
+}

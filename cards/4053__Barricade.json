@@ -1,0 +1,40 @@
+{
+  "id": 6962,
+  "cardId": "itm_barricade",
+  "name": "Barricade",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    25209,
+    28390
+  ],
+  "flavourText": "Use these to block enemy team movement.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Barricade.png",
+  "debut": "2004-12-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4053
+    ],
+    "pageSlug": "Barricade",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Barricade"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Set-up",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 5,
+    "market": null
+  }
+}

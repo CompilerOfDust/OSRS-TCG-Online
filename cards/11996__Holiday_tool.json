@@ -1,0 +1,37 @@
+{
+  "id": 895,
+  "cardId": "itm_holiday-tool",
+  "name": "Holiday tool",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Spawns an allowance of holiday gifts each day.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Holiday_tool.png",
+  "debut": "2014-12-18",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11996
+    ],
+    "pageSlug": "Holiday_tool",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Holiday_tool"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Spawn Item",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": 903,
+  "cardId": "npc_spindels-spiderling",
+  "name": "Spindel's Spiderling",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's more scared of you than you are of it... right?",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spindel%27s_Spiderling.png",
+  "debut": "2023-01-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12001
+    ],
+    "pageSlug": "Spindel%27s_Spiderling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spindel%27s_Spiderling"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 12,
+    "vitality": null,
+    "peakDamage": "3",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

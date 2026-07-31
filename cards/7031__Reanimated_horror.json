@@ -1,0 +1,62 @@
+{
+  "id": 8696,
+  "cardId": "npc_reanimated-horror",
+  "name": "Reanimated horror",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This creature has been dragged back from the grave.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Reanimated_horror.png",
+  "debut": "2016-01-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7031
+    ],
+    "pageSlug": "Reanimated_horror",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Reanimated_horror"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": "8",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 35,
+      "group": "Jungle Horrors",
+      "masters": [
+        "Vannaka",
+        "Chaeldar"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

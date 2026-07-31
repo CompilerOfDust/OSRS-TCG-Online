@@ -1,0 +1,36 @@
+{
+  "id": 9154,
+  "cardId": "itm_bark-sample",
+  "name": "Bark sample",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A sample of the bark from the Grand Tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bark_sample.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      783
+    ],
+    "pageSlug": "Bark_sample",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bark_sample"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  }
+}

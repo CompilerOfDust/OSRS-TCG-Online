@@ -1,0 +1,70 @@
+{
+  "id": 7637,
+  "cardId": "itm_woven-top__1",
+  "name": "Woven top",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5026,
+    5028
+  ],
+  "flavourText": "Far too small to wear.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Woven_top_%28brown%29.png",
+  "debut": "2005-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5024
+    ],
+    "pageSlug": "Woven_top_(brown)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Woven_top_(brown)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.07,
+    "market": {
+      "guidePrice": 905,
+      "buyLimit": 150,
+      "dailyVolume": 1
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

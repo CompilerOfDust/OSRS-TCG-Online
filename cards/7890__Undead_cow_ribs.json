@@ -1,0 +1,36 @@
+{
+  "id": 9180,
+  "cardId": "itm_undead-cow-ribs",
+  "name": "Undead cow ribs",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This needs a good polish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Undead_cow_ribs.png",
+  "debut": "2006-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7890
+    ],
+    "pageSlug": "Undead_cow_ribs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Undead_cow_ribs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

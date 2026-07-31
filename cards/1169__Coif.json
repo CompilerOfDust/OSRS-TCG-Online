@@ -1,0 +1,67 @@
+{
+  "id": 735,
+  "cardId": "itm_coif",
+  "name": "Coif",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Light weight head protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Coif.png",
+  "debut": "2004-03-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1169
+    ],
+    "pageSlug": "Coif",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Coif"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 19,
+      "buyLimit": 125,
+      "dailyVolume": 18438
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -1,
+        "ranged": 2
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 6,
+        "crush": 8,
+        "magic": 4,
+        "ranged": 4
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 2986,
+  "cardId": "itm_king-worm",
+  "name": "King worm",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "They're a gnome delicacy apparently.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/King_worm.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2162
+    ],
+    "pageSlug": "King_worm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/King_worm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.12,
+    "market": {
+      "guidePrice": 496,
+      "buyLimit": 13000,
+      "dailyVolume": 23605
+    }
+  }
+}

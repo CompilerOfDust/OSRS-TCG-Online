@@ -1,0 +1,37 @@
+{
+  "id": 6000,
+  "cardId": "itm_bottle-of-zul-rye-beer",
+  "name": "Bottle of zul-rye beer",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Intoxication guaranteed.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_zul-rye_beer.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31853
+    ],
+    "pageSlug": "Bottle_of_zul-rye_beer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_zul-rye_beer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

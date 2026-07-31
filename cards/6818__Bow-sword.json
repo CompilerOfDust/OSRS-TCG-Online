@@ -1,0 +1,37 @@
+{
+  "id": 8595,
+  "cardId": "itm_bow-sword",
+  "name": "Bow-sword",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A sharp sword that can also fire arrows.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bow-sword.png",
+  "debut": "2005-12-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6818
+    ],
+    "pageSlug": "Bow-sword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bow-sword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 3.175,
+    "market": null
+  }
+}

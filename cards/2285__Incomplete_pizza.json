@@ -1,0 +1,36 @@
+{
+  "id": 3363,
+  "cardId": "itm_incomplete-pizza",
+  "name": "Incomplete pizza",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to add some cheese next.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Incomplete_pizza.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2285
+    ],
+    "pageSlug": "Incomplete_pizza",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Incomplete_pizza"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.6,
+    "market": null
+  }
+}

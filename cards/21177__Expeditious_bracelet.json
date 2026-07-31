@@ -1,0 +1,70 @@
+{
+  "id": 2810,
+  "cardId": "itm_expeditious-bracelet",
+  "name": "Expeditious bracelet",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Allows one slayer kill to count as two.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Expeditious_bracelet.png",
+  "debut": "2017-02-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21177
+    ],
+    "pageSlug": "Expeditious_bracelet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Expeditious_bracelet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 690,
+    "lowAlchemy": 460,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 1836,
+      "buyLimit": 15000,
+      "dailyVolume": 103106
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

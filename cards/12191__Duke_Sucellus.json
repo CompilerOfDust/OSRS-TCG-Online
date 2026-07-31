@@ -1,0 +1,72 @@
+{
+  "id": 945,
+  "cardId": "npc_duke-sucellus",
+  "name": "Duke Sucellus",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "That's a lot of eyes...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Duke_Sucellus.png",
+  "debut": "2023-07-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12191
+    ],
+    "pageSlug": "Duke_Sucellus",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Duke_Sucellus"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Demon"
+    ],
+    "tileSize": "7x7",
+    "combatRating": 758,
+    "vitality": 485,
+    "peakDamage": "56 ( Melee ) 48 ( Magic ) 101 (Gaze)",
+    "combatXpBonusPct": 52.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Crush"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 20,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": null,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 305,
+      "group": "Bosses",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 300,
+      "strength": 345,
+      "defence": 275,
+      "magic": 310,
+      "ranged": 0
+    },
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 3034,
+  "cardId": "itm_grimy-dwarf-weed",
+  "name": "Grimy dwarf weed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It needs cleaning.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grimy_dwarf_weed.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      217
+    ],
+    "pageSlug": "Grimy_dwarf_weed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grimy_dwarf_weed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Clean",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 14,
+    "lowAlchemy": 9,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 1404,
+      "buyLimit": 11000,
+      "dailyVolume": 527687
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 5212,
+  "cardId": "itm_zombie-pirate-key",
+  "name": "Zombie pirate key",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The key to a zombie pirate's locker.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zombie_pirate_key_1.png",
+  "debut": "2024-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29449
+    ],
+    "pageSlug": "Zombie_pirate_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zombie_pirate_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 15226,
+      "buyLimit": 250,
+      "dailyVolume": 26030
+    }
+  }
+}

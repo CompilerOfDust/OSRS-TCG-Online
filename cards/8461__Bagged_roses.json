@@ -1,0 +1,40 @@
+{
+  "id": 9403,
+  "cardId": "itm_bagged-roses",
+  "name": "Bagged roses",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You can plant this in your garden.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bagged_roses.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8461
+    ],
+    "pageSlug": "Bagged_roses",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bagged_roses"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9000,
+    "lowAlchemy": 6000,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 18314,
+      "buyLimit": 10000,
+      "dailyVolume": 56
+    }
+  }
+}

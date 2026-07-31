@@ -1,0 +1,42 @@
+{
+  "id": 3126,
+  "cardId": "itm_wrath-talisman",
+  "name": "Wrath talisman",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A mysterious power emanates from the talisman...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wrath_talisman.png",
+  "debut": "2018-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22118
+    ],
+    "pageSlug": "Wrath_talisman",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wrath_talisman"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Locate",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.015,
+    "market": {
+      "guidePrice": 288,
+      "buyLimit": 11000,
+      "dailyVolume": 629
+    }
+  },
+  "special": false
+}

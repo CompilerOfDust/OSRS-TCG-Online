@@ -1,0 +1,41 @@
+{
+  "id": 1556,
+  "cardId": "itm_raw-anglerfish",
+  "name": "Raw anglerfish",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_anglerfish.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13439
+    ],
+    "pageSlug": "Raw_anglerfish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_anglerfish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 270,
+    "lowAlchemy": 180,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 2278,
+      "buyLimit": 15000,
+      "dailyVolume": 1624546
+    }
+  },
+  "special": false
+}

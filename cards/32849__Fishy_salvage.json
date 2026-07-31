@@ -1,0 +1,36 @@
+{
+  "id": 6355,
+  "cardId": "itm_fishy-salvage",
+  "name": "Fishy salvage",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Salvage from a fisherman's shipwreck. You can sort through it at a salvaging station.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fishy_salvage.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32849
+    ],
+    "pageSlug": "Fishy_salvage",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fishy_salvage"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 3,
+    "market": null
+  }
+}

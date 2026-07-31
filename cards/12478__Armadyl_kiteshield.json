@@ -1,0 +1,67 @@
+{
+  "id": 1089,
+  "cardId": "itm_armadyl-kiteshield",
+  "name": "Armadyl kiteshield",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Rune kiteshield in the colours of Armadyl.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Armadyl_kiteshield.png",
+  "debut": "2014-06-12",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12478
+    ],
+    "pageSlug": "Armadyl_kiteshield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Armadyl_kiteshield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 32640,
+    "lowAlchemy": 21760,
+    "weightKg": 5.443,
+    "market": {
+      "guidePrice": 34182,
+      "buyLimit": 8,
+      "dailyVolume": 117
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 44,
+        "slash": 48,
+        "crush": 46,
+        "magic": -1,
+        "ranged": 46
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

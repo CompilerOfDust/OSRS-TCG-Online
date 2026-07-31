@@ -1,0 +1,66 @@
+{
+  "id": 4635,
+  "cardId": "itm_adventurers-trousers-t1",
+  "name": "Adventurer's trousers (t1)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    27398,
+    27406
+  ],
+  "flavourText": "The clothing of an adventurer.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adventurer%27s_trousers_%28t1%29.png",
+  "debut": "2022-10-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27390
+    ],
+    "pageSlug": "Adventurer%27s_trousers_(t1)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adventurer%27s_trousers_(t1)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.9,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

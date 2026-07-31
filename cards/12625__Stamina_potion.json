@@ -1,0 +1,49 @@
+{
+  "id": 1186,
+  "cardId": "itm_stamina-potion-1",
+  "name": "Stamina potion(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    12627,
+    12629,
+    12631,
+    12633,
+    12635
+  ],
+  "flavourText": "4 doses of stamina potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stamina_potion%284%29.png",
+  "debut": "2014-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12625
+    ],
+    "pageSlug": "Stamina_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stamina_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 889,
+      "buyLimit": 2000,
+      "dailyVolume": 17871
+    }
+  },
+  "special": false
+}

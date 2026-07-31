@@ -1,0 +1,70 @@
+{
+  "id": 1232,
+  "cardId": "itm_rune-pickaxe",
+  "name": "Rune pickaxe",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    11719
+  ],
+  "flavourText": "Used for mining.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_pickaxe.png",
+  "debut": "2003-05-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1275
+    ],
+    "pageSlug": "Rune_pickaxe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_pickaxe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 19200,
+    "lowAlchemy": 12800,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 18391,
+      "buyLimit": 40,
+      "dailyVolume": 33582
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 26,
+        "slash": -2,
+        "crush": 24,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 29,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

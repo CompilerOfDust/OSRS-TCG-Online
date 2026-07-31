@@ -1,0 +1,67 @@
+{
+  "id": 8738,
+  "cardId": "itm_stripy-pirate-shirt",
+  "name": "Stripy pirate shirt",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A sea worthy shirt.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stripy_pirate_shirt_%28beige%29.png",
+  "debut": "2006-02-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7110
+    ],
+    "pageSlug": "Stripy_pirate_shirt_(beige)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stripy_pirate_shirt_(beige)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 200,
+      "buyLimit": 150,
+      "dailyVolume": 1
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

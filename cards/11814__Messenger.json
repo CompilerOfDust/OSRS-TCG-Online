@@ -1,0 +1,61 @@
+{
+  "id": 805,
+  "cardId": "npc_messenger",
+  "name": "Messenger",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    11287
+  ],
+  "flavourText": "Maybe they have something for you.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2022-08-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11814,
+      11815,
+      11816,
+      11817
+    ],
+    "pageSlug": "Messenger",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Messenger"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Anywhere"
+    ],
+    "questLine": "Into the Tombs , Children of the Sun",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

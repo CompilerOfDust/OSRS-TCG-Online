@@ -1,0 +1,37 @@
+{
+  "id": 4623,
+  "cardId": "itm_tumekens-guardian",
+  "name": "Tumeken's guardian",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A tiny automaton imbued with a trace of Tumeken's power.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tumeken%27s_guardian.png",
+  "debut": "2022-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27352
+    ],
+    "pageSlug": "Tumeken%27s_guardian",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tumeken%27s_guardian"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

@@ -1,0 +1,68 @@
+{
+  "id": 1773,
+  "cardId": "itm_adamant-mace",
+  "name": "Adamant mace",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A spiky mace.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_mace.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1430
+    ],
+    "pageSlug": "Adamant_mace",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_mace"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 864,
+    "lowAlchemy": 576,
+    "weightKg": 2.041,
+    "market": {
+      "guidePrice": 544,
+      "buyLimit": 125,
+      "dailyVolume": 3239
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 13,
+        "slash": -2,
+        "crush": 25,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 23,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  },
+  "special": false
+}

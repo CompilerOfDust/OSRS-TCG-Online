@@ -1,0 +1,36 @@
+{
+  "id": 368,
+  "cardId": "itm_coloured-ball",
+  "name": "Coloured ball",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Bound to have some use.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Coloured_ball.png",
+  "debut": "2007-02-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10874
+    ],
+    "pageSlug": "Coloured_ball",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Coloured_ball"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

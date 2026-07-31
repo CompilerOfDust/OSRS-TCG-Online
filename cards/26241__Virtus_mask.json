@@ -1,0 +1,67 @@
+{
+  "id": 4309,
+  "cardId": "itm_virtus-mask",
+  "name": "Virtus mask",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "An ancient mage's mask.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Virtus_mask.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26241
+    ],
+    "pageSlug": "Virtus_mask",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Virtus_mask"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 120000,
+    "lowAlchemy": 80000,
+    "weightKg": 1.206,
+    "market": {
+      "guidePrice": 5925325,
+      "buyLimit": 8,
+      "dailyVolume": 313
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 8,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 15,
+        "slash": 14,
+        "crush": 16,
+        "magic": 6,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 2,
+        "prayer": 1
+      }
+    }
+  }
+}

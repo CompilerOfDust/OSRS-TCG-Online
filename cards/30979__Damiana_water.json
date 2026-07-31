@@ -1,0 +1,38 @@
+{
+  "id": 5663,
+  "cardId": "itm_damiana-water",
+  "name": "Damiana water",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's a bowl of water, with some damiana leaves in it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Damiana_water.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30979
+    ],
+    "pageSlug": "Damiana_water",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Damiana_water"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

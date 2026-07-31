@@ -1,0 +1,62 @@
+{
+  "id": 7983,
+  "cardId": "npc_swamp-snake",
+  "name": "Swamp snake",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A large snake that thrives in swamps.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Swamp_snake.png",
+  "debut": "2006-03-28",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5615,
+      5616,
+      5617
+    ],
+    "pageSlug": "Swamp_snake",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Swamp_snake"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 80,
+    "vitality": 120,
+    "peakDamage": "6",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 50,
+      "strength": 50,
+      "defence": 70,
+      "magic": 30,
+      "ranged": 30
+    },
+    "aggressiveBonuses": null
+  }
+}

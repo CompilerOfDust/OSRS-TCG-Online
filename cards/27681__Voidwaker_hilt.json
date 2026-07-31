@@ -1,0 +1,42 @@
+{
+  "id": 4688,
+  "cardId": "itm_voidwaker-hilt",
+  "name": "Voidwaker hilt",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "The hilt of a broken sword.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Voidwaker_hilt.png",
+  "debut": "2023-01-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27681
+    ],
+    "pageSlug": "Voidwaker_hilt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Voidwaker_hilt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 480000,
+    "lowAlchemy": 320000,
+    "weightKg": 0.514,
+    "market": {
+      "guidePrice": 2369868,
+      "buyLimit": 8,
+      "dailyVolume": 202
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,42 @@
+{
+  "id": 2601,
+  "cardId": "itm_premade-p-punch",
+  "name": "Premade p' punch",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A premade Pineapple punch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Premade_p%27_punch.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2036
+    ],
+    "pageSlug": "Premade_p%27_punch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Premade_p%27_punch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 28,
+      "buyLimit": 2000,
+      "dailyVolume": 2
+    }
+  },
+  "special": false
+}

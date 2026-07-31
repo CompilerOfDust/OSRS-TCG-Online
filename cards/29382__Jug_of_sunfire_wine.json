@@ -1,0 +1,36 @@
+{
+  "id": 5198,
+  "cardId": "itm_jug-of-sunfire-wine",
+  "name": "Jug of sunfire wine",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A jug of sunfire wine. Not for drinking.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jug_of_sunfire_wine.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29382
+    ],
+    "pageSlug": "Jug_of_sunfire_wine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jug_of_sunfire_wine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.3,
+    "market": null
+  }
+}

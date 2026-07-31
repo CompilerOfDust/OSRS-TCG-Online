@@ -1,0 +1,67 @@
+{
+  "id": 10054,
+  "cardId": "itm_mind-helmet",
+  "name": "Mind helmet",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A magic helmet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mind_helmet.png",
+  "debut": "2006-10-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9733
+    ],
+    "pageSlug": "Mind_helmet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mind_helmet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Equip",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 1800,
+    "lowAlchemy": 1200,
+    "weightKg": 0.113,
+    "market": {
+      "guidePrice": 1277,
+      "buyLimit": 70,
+      "dailyVolume": 108
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 6,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

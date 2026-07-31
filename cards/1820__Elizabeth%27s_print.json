@@ -1,0 +1,36 @@
+{
+  "id": 2204,
+  "cardId": "itm_elizabeths-print",
+  "name": "Elizabeth's print",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An imprint of Elizabeth's fingerprint.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elizabeth%27s_print.png",
+  "debut": "2003-06-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1820
+    ],
+    "pageSlug": "Elizabeth%27s_print",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elizabeth%27s_print"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

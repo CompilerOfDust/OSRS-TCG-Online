@@ -1,0 +1,63 @@
+{
+  "id": 8077,
+  "cardId": "npc_spinolyp",
+  "name": "Spinolyp",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A sneaky, spiny, subterranean sea-dwelling scamp.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spinolyp.png",
+  "debut": "2005-11-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5947,
+      5961,
+      5963
+    ],
+    "pageSlug": "Spinolyp",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spinolyp"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 76,
+    "vitality": 100,
+    "peakDamage": "10",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged magic",
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 10,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 10,
+      "strength": 10,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 100
+    },
+    "aggressiveBonuses": null
+  }
+}

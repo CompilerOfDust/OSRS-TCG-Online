@@ -1,0 +1,36 @@
+{
+  "id": 3591,
+  "cardId": "itm_crystal-ore",
+  "name": "Crystal ore",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This could help strengthen a piece of armour.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crystal_ore.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23877
+    ],
+    "pageSlug": "Crystal_ore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crystal_ore"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2.267,
+    "market": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 2359,
+  "cardId": "itm_uncooked-botanical-pie",
+  "name": "Uncooked botanical pie",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This would be much tastier cooked.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncooked_botanical_pie.png",
+  "debut": "2016-05-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19656
+    ],
+    "pageSlug": "Uncooked_botanical_pie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncooked_botanical_pie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 2138,
+      "buyLimit": 13000,
+      "dailyVolume": 2353
+    }
+  },
+  "special": false
+}

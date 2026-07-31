@@ -1,0 +1,37 @@
+{
+  "id": 1550,
+  "cardId": "itm_golovanova-fruit",
+  "name": "Golovanova fruit",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Full of Vitamin G.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golovanova_fruit.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13426
+    ],
+    "pageSlug": "Golovanova_fruit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golovanova_fruit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0,
+    "market": null
+  }
+}

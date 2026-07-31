@@ -1,0 +1,68 @@
+{
+  "id": 7481,
+  "cardId": "itm_dharoks-platebody",
+  "name": "Dharok's platebody",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Dharok the Wretched's platebody armour.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dharok%27s_platebody.png",
+  "debut": "2005-05-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4720
+    ],
+    "pageSlug": "Dharok%27s_platebody",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dharok%27s_platebody"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 168000,
+    "lowAlchemy": 112000,
+    "weightKg": 9.979,
+    "market": {
+      "guidePrice": 878227,
+      "buyLimit": 15,
+      "dailyVolume": 457
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -30,
+        "ranged": -10
+      },
+      "defence": {
+        "stab": 122,
+        "slash": 120,
+        "crush": 107,
+        "magic": -6,
+        "ranged": 132
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 6381,
+  "cardId": "itm_salmon",
+  "name": "Salmon",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Some nicely cooked salmon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Salmon.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      329
+    ],
+    "pageSlug": "Salmon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Salmon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 32,
+      "buyLimit": 6000,
+      "dailyVolume": 156327
+    }
+  }
+}

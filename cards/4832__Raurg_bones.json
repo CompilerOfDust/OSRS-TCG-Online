@@ -1,0 +1,43 @@
+{
+  "id": 7566,
+  "cardId": "itm_raurg-bones",
+  "name": "Raurg bones",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    4854
+  ],
+  "flavourText": "Ancient ogre bones from the ogre burial tomb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raurg_bones.png",
+  "debut": "2005-05-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4832
+    ],
+    "pageSlug": "Raurg_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raurg_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 7472,
+      "buyLimit": 7500,
+      "dailyVolume": 3
+    }
+  }
+}

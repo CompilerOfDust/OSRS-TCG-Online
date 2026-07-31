@@ -1,0 +1,63 @@
+{
+  "id": 8145,
+  "cardId": "npc_tower-archer",
+  "name": "Tower Archer",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Defender of the north tower.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tower_Archer_(Level_19).png",
+  "debut": "2004-03-29",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6065,
+      6066,
+      6067,
+      6068
+    ],
+    "pageSlug": "Tower_Archer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tower_Archer"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 19,
+    "vitality": 30,
+    "peakDamage": "4",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 10,
+      "strength": 10,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 20
+    },
+    "aggressiveBonuses": null
+  }
+}

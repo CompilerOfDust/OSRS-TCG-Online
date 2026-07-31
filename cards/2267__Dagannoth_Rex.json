@@ -1,0 +1,69 @@
+{
+  "id": 3326,
+  "cardId": "npc_dagannoth-rex",
+  "name": "Dagannoth Rex",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [
+    6498,
+    12439,
+    15620
+  ],
+  "flavourText": "Firstborn of the legendary dagannoth kings.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dagannoth_Rex.png",
+  "debut": "2005-11-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2267
+    ],
+    "pageSlug": "Dagannoth_Rex",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dagannoth_Rex"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 303,
+    "vitality": null,
+    "peakDamage": "26",
+    "combatXpBonusPct": 30,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 150,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": null,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 331.4,
+      "group": "Bosses, Dagannoth",
+      "masters": [
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

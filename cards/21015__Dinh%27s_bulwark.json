@@ -1,0 +1,67 @@
+{
+  "id": 2760,
+  "cardId": "itm_dinhs-bulwark",
+  "name": "Dinh's bulwark",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Is it... looking at me?",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dinh%27s_bulwark.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21015
+    ],
+    "pageSlug": "Dinh%27s_bulwark",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dinh%27s_bulwark"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 336000,
+    "lowAlchemy": 224000,
+    "weightKg": 30,
+    "market": {
+      "guidePrice": 12517712,
+      "buyLimit": 8,
+      "dailyVolume": 560
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 124,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 106,
+        "slash": 109,
+        "crush": 109,
+        "magic": -10,
+        "ranged": 148
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 38,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

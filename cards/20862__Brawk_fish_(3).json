@@ -1,0 +1,37 @@
+{
+  "id": 2689,
+  "cardId": "itm_brawk-fish-3",
+  "name": "Brawk fish (3)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I should try eating this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Brawk_fish_%283%29.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20862
+    ],
+    "pageSlug": "Brawk_fish_(3)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Brawk_fish_(3)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.4,
+    "market": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": 591,
+  "cardId": "npc_skoblin",
+  "name": "Skoblin",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A skeletal goblin!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Skoblin.png",
+  "debut": "2022-02-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11268
+    ],
+    "pageSlug": "Skoblin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Skoblin"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 29,
+    "vitality": null,
+    "peakDamage": "5",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": true,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 30,
+      "group": "Goblins, Skeletons",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

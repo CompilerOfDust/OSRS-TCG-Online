@@ -1,0 +1,41 @@
+{
+  "id": 5155,
+  "cardId": "itm_trappers-tipple",
+  "name": "Trapper's tipple",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A glass of frothy ale.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Trapper%27s_tipple.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29277
+    ],
+    "pageSlug": "Trapper%27s_tipple",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Trapper%27s_tipple"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 205,
+      "buyLimit": null,
+      "dailyVolume": 15
+    }
+  }
+}

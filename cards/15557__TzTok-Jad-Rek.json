@@ -1,0 +1,56 @@
+{
+  "id": 1996,
+  "cardId": "npc_tztok-jad-rek",
+  "name": "TzTok-Jad-Rek",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "This is going to hurt... Slightly.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/TzTok-Jad-Rek.png",
+  "debut": "2026-01-21",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15557
+    ],
+    "pageSlug": "TzTok-Jad-Rek",
+    "pageUrl": "https://oldschool.runescape.wiki/w/TzTok-Jad-Rek"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 186,
+    "vitality": null,
+    "peakDamage": "25 (Melee) ?",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab",
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 8,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

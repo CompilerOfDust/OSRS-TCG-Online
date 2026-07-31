@@ -1,0 +1,41 @@
+{
+  "id": 2358,
+  "cardId": "itm_golovanova-fruit-top",
+  "name": "Golovanova fruit top",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The top of a Golovanova fruit - edible once cooked and full of Vitamin G.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golovanova_fruit_top.png",
+  "debut": "2016-05-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19653
+    ],
+    "pageSlug": "Golovanova_fruit_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golovanova_fruit_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 743,
+      "buyLimit": 100,
+      "dailyVolume": 1663
+    }
+  },
+  "special": false
+}

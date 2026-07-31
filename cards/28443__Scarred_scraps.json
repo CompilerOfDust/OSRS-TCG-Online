@@ -1,0 +1,37 @@
+{
+  "id": 4879,
+  "cardId": "itm_scarred-scraps",
+  "name": "Scarred scraps",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I'm sure this was food at one point.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Scarred_scraps.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28443
+    ],
+    "pageSlug": "Scarred_scraps",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Scarred_scraps"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Consume",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

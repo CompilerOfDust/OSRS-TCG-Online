@@ -1,0 +1,67 @@
+{
+  "id": 2877,
+  "cardId": "itm_obsidian-helmet",
+  "name": "Obsidian helmet",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Provides excellent protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Obsidian_helmet.png",
+  "debut": "2017-06-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21298
+    ],
+    "pageSlug": "Obsidian_helmet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Obsidian_helmet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 33792,
+    "lowAlchemy": 22528,
+    "weightKg": 3.628,
+    "market": {
+      "guidePrice": 704770,
+      "buyLimit": 70,
+      "dailyVolume": 412
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 25,
+        "slash": 23,
+        "crush": 26,
+        "magic": 0,
+        "ranged": 24
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 3,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 7783,
+  "cardId": "itm_lantadyme-seed",
+  "name": "Lantadyme seed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A lantadyme seed - plant in a herb patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lantadyme_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5302
+    ],
+    "pageSlug": "Lantadyme_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lantadyme_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 5,
+    "lowAlchemy": 3,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 130,
+      "buyLimit": 200,
+      "dailyVolume": 58169
+    }
+  }
+}

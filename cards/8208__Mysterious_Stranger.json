@@ -1,0 +1,61 @@
+{
+  "id": 9338,
+  "cardId": "npc_mysterious-stranger",
+  "name": "Mysterious Stranger",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I can't see their face.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2018-05-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8208,
+      10875,
+      10876,
+      10877,
+      11162
+    ],
+    "pageSlug": "Mysterious_Stranger",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mysterious_Stranger"
+  },
+  "npcProfile": {
+    "race": "Aranei",
+    "gender": null,
+    "locations": [
+      "Ver Sinhaza"
+    ],
+    "questLine": "A Night at the Theatre",
+    "shop": "Mysterious Stranger (shop)",
+    "menuActions": [
+      "Talk-to",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

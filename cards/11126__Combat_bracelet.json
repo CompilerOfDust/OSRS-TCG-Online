@@ -1,0 +1,68 @@
+{
+  "id": 508,
+  "cardId": "itm_combat-bracelet",
+  "name": "Combat bracelet",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "You will need to recharge the bracelet at the Legends Guild.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Combat_bracelet_%28uncharged%29.png",
+  "debut": "2007-04-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11126
+    ],
+    "pageSlug": "Combat_bracelet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Combat_bracelet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Rub",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 12624,
+    "lowAlchemy": 8416,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 11997,
+      "buyLimit": 10000,
+      "dailyVolume": 136063
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 7,
+        "slash": 7,
+        "crush": 7,
+        "magic": 3,
+        "ranged": 7
+      },
+      "defence": {
+        "stab": 5,
+        "slash": 5,
+        "crush": 5,
+        "magic": 3,
+        "ranged": 5
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 6,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

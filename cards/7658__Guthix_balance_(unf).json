@@ -1,0 +1,37 @@
+{
+  "id": 9040,
+  "cardId": "itm_guthix-balance-unf",
+  "name": "Guthix balance (unf)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An unfinished potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Guthix_balance_%28unf%29_%281%29.png",
+  "debut": "2006-03-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7658
+    ],
+    "pageSlug": "Guthix_balance_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Guthix_balance_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 66,
+    "lowAlchemy": 44,
+    "weightKg": 0.035,
+    "market": null
+  }
+}

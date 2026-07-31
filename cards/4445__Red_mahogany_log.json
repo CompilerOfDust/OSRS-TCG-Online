@@ -1,0 +1,36 @@
+{
+  "id": 7289,
+  "cardId": "itm_red-mahogany-log",
+  "name": "Red mahogany log",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some mahogany logs which have been professionally cured.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_mahogany_log.png",
+  "debut": "2005-02-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4445
+    ],
+    "pageSlug": "Red_mahogany_log",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_mahogany_log"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.36,
+    "market": null
+  }
+}

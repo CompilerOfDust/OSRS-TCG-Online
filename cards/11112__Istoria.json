@@ -1,0 +1,58 @@
+{
+  "id": 504,
+  "cardId": "npc_istoria",
+  "name": "Istoria",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Chief historian and curator of the Library Historical Archive.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2017-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11112,
+      11113
+    ],
+    "pageSlug": "Istoria",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Istoria"
+  },
+  "npcProfile": {
+    "race": "Citizen of Arceuus",
+    "gender": "Female",
+    "locations": [
+      "Library Historical Archive"
+    ],
+    "questLine": "Tale of the Righteous",
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Teleport"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

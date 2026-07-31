@@ -1,0 +1,58 @@
+{
+  "id": 9613,
+  "cardId": "npc_moss-guardian",
+  "name": "Moss Guardian",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    6325,
+    6386
+  ],
+  "flavourText": "Bigger than your average moss giant.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Moss_Guardian.png",
+  "debut": "2005-02-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      891
+    ],
+    "pageSlug": "Moss_Guardian",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Moss_Guardian"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 84,
+    "vitality": null,
+    "peakDamage": "14",
+    "combatXpBonusPct": -97.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Magical melee"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 10,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

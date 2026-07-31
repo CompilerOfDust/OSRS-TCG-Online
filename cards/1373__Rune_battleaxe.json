@@ -1,0 +1,68 @@
+{
+  "id": 1684,
+  "cardId": "itm_rune-battleaxe",
+  "name": "Rune battleaxe",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A vicious looking axe.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_battleaxe.png",
+  "debut": "2001-08-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1373
+    ],
+    "pageSlug": "Rune_battleaxe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_battleaxe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 24960,
+    "lowAlchemy": 16640,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 24317,
+      "buyLimit": 70,
+      "dailyVolume": 18977
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -2,
+        "slash": 48,
+        "crush": 43,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": -1
+      },
+      "slot": "weapon",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 64,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

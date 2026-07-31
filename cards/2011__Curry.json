@@ -1,0 +1,41 @@
+{
+  "id": 2539,
+  "cardId": "itm_curry",
+  "name": "Curry",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a spicy hot curry.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Curry.png",
+  "debut": "2002-05-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2011
+    ],
+    "pageSlug": "Curry",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Curry"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 1.5,
+    "market": {
+      "guidePrice": 384,
+      "buyLimit": 10000,
+      "dailyVolume": 21934
+    }
+  }
+}

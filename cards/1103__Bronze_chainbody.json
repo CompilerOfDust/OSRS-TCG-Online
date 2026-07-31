@@ -1,0 +1,68 @@
+{
+  "id": 467,
+  "cardId": "itm_bronze-chainbody",
+  "name": "Bronze chainbody",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A series of connected metal rings.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_chainbody.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1103
+    ],
+    "pageSlug": "Bronze_chainbody",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_chainbody"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 6.803,
+    "market": {
+      "guidePrice": 26,
+      "buyLimit": 125,
+      "dailyVolume": 6982
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 7,
+        "slash": 11,
+        "crush": 13,
+        "magic": -3,
+        "ranged": 9
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

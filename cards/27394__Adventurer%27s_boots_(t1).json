@@ -1,0 +1,66 @@
+{
+  "id": 4637,
+  "cardId": "itm_adventurers-boots-t1",
+  "name": "Adventurer's boots (t1)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    27402,
+    27410
+  ],
+  "flavourText": "The boots of an adventurer.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adventurer%27s_boots_%28t1%29.png",
+  "debut": "2022-10-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27394
+    ],
+    "pageSlug": "Adventurer%27s_boots_(t1)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adventurer%27s_boots_(t1)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.7,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 5227,
+  "cardId": "itm_unconscious-broav",
+  "name": "Unconscious broav",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's unconscious, poor thing.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unconscious_broav.png",
+  "debut": "2024-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29518
+    ],
+    "pageSlug": "Unconscious_broav",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unconscious_broav"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Release"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 6,
+    "market": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 2395,
+  "cardId": "itm_grapes",
+  "name": "Grapes",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Good grapes for wine making.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grapes.png",
+  "debut": "2001-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1987
+    ],
+    "pageSlug": "Grapes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grapes"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 68,
+      "buyLimit": 20000,
+      "dailyVolume": 9160126
+    }
+  }
+}

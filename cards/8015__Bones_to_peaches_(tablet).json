@@ -1,0 +1,41 @@
+{
+  "id": 9292,
+  "cardId": "itm_bones-to-peaches",
+  "name": "Bones to peaches",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A tablet containing a magic spell.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bones_to_peaches_%28tablet%29.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8015
+    ],
+    "pageSlug": "Bones_to_peaches_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bones_to_peaches_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 933,
+      "buyLimit": 10000,
+      "dailyVolume": 178581
+    }
+  }
+}

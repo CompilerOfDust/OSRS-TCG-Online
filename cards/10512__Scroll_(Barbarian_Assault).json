@@ -1,0 +1,41 @@
+{
+  "id": 211,
+  "cardId": "itm_scroll",
+  "name": "Scroll",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    10485
+  ],
+  "flavourText": "A recruitment scroll.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Scroll_%28Barbarian_Assault%29.png",
+  "debut": "2007-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10512
+    ],
+    "pageSlug": "Scroll_(Barbarian_Assault)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Scroll_(Barbarian_Assault)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Read",
+      "Write-Role",
+      "Clear",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.005,
+    "market": null
+  }
+}

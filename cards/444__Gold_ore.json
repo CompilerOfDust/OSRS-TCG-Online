@@ -1,0 +1,40 @@
+{
+  "id": 7292,
+  "cardId": "itm_gold-ore",
+  "name": "Gold ore",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This needs refining.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gold_ore.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      444
+    ],
+    "pageSlug": "Gold_ore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gold_ore"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 153,
+      "buyLimit": 30000,
+      "dailyVolume": 17969753
+    }
+  }
+}

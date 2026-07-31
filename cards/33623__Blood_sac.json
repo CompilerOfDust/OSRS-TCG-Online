@@ -1,0 +1,38 @@
+{
+  "id": 6525,
+  "cardId": "itm_blood-sac",
+  "name": "Blood sac",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A rather unpleasant-looking blood sac.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blood_sac.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33623
+    ],
+    "pageSlug": "Blood_sac",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blood_sac"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Squeeze",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 13,
+    "lowAlchemy": 9,
+    "weightKg": 0,
+    "market": null
+  },
+  "special": false
+}

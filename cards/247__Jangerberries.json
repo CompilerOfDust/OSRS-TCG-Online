@@ -1,0 +1,41 @@
+{
+  "id": 3841,
+  "cardId": "itm_jangerberries",
+  "name": "Jangerberries",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "They don't look very ripe.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jangerberries.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      247
+    ],
+    "pageSlug": "Jangerberries",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jangerberries"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 425,
+      "buyLimit": 13000,
+      "dailyVolume": 61761
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 4921,
+  "cardId": "itm_warped-sceptre-uncharged",
+  "name": "Warped sceptre (uncharged)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A magical warped weapon.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Warped_sceptre_%28uncharged%29.png",
+  "debut": "2023-09-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28583
+    ],
+    "pageSlug": "Warped_sceptre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Warped_sceptre"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Charge",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 90000,
+    "lowAlchemy": 60000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 90887,
+      "buyLimit": null,
+      "dailyVolume": 58
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 12,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 12,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

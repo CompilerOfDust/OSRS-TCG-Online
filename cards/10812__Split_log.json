@@ -1,0 +1,41 @@
+{
+  "id": 323,
+  "cardId": "itm_split-log",
+  "name": "Split log",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Used to repair bridges.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Split_log.png",
+  "debut": "2007-02-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10812
+    ],
+    "pageSlug": "Split_log",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Split_log"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 1220,
+      "buyLimit": 11000,
+      "dailyVolume": 1266
+    }
+  },
+  "special": false
+}

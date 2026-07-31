@@ -1,0 +1,65 @@
+{
+  "id": 8994,
+  "cardId": "npc_great-olm",
+  "name": "Great Olm",
+  "cardKind": "npc",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Ferocious. It's unnerving.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Great_Olm.png",
+  "debut": "2017-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7551,
+      7554
+    ],
+    "pageSlug": "Great_Olm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Great_Olm"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Draconic",
+      "Xerician"
+    ],
+    "tileSize": "5x5",
+    "combatRating": 1043,
+    "vitality": 800,
+    "peakDamage": "27 28 29 (phase 4)",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 250,
+      "strength": 250,
+      "defence": 150,
+      "magic": 250,
+      "ranged": 250
+    },
+    "aggressiveBonuses": null
+  }
+}

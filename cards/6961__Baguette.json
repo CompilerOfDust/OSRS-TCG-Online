@@ -1,0 +1,37 @@
+{
+  "id": 8661,
+  "cardId": "itm_baguette",
+  "name": "Baguette",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A freshly baked baguette.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Baguette.png",
+  "debut": "2006-01-10",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6961
+    ],
+    "pageSlug": "Baguette",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Baguette"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

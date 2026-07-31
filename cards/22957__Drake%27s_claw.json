@@ -1,0 +1,40 @@
+{
+  "id": 3389,
+  "cardId": "itm_drakes-claw",
+  "name": "Drake's claw",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The claw of a ferocious drake. They could be combined with the boots of stone.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Drake%27s_claw.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22957
+    ],
+    "pageSlug": "Drake%27s_claw",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Drake%27s_claw"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 246664,
+      "buyLimit": 15,
+      "dailyVolume": 114
+    }
+  }
+}

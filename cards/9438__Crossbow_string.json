@@ -1,0 +1,41 @@
+{
+  "id": 9868,
+  "cardId": "itm_crossbow-string",
+  "name": "Crossbow string",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A string for a crossbow.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crossbow_string.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9438
+    ],
+    "pageSlug": "Crossbow_string",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crossbow_string"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.002,
+    "market": {
+      "guidePrice": 310,
+      "buyLimit": 11000,
+      "dailyVolume": 4254
+    }
+  },
+  "special": false
+}

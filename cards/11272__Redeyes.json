@@ -1,0 +1,65 @@
+{
+  "id": 596,
+  "cardId": "npc_redeyes",
+  "name": "Redeyes",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A goblin high priest, back from the grave.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Redeyes.png",
+  "debut": "2022-02-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11272,
+      11299
+    ],
+    "pageSlug": "Redeyes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Redeyes"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 121,
+    "vitality": null,
+    "peakDamage": "14",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee",
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": true,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 160,
+      "group": "Goblins, Skeletons",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

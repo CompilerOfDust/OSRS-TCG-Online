@@ -1,0 +1,36 @@
+{
+  "id": 5136,
+  "cardId": "itm_raw-bream",
+  "name": "Raw bream",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Fresh from the stream.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_bream.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29216
+    ],
+    "pageSlug": "Raw_bream",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_bream"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.45,
+    "market": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 4599,
+  "cardId": "itm_armadylean-plate",
+  "name": "Armadylean plate",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "High grade material.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Armadylean_plate.png",
+  "debut": "2022-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27269
+    ],
+    "pageSlug": "Armadylean_plate",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Armadylean_plate"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 9328582,
+      "buyLimit": null,
+      "dailyVolume": 26
+    }
+  }
+}

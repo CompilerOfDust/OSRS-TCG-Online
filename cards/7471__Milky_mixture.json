@@ -1,0 +1,37 @@
+{
+  "id": 8936,
+  "cardId": "itm_milky-mixture",
+  "name": "Milky mixture",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's a bucket of milk and cream.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Milky_mixture.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7471
+    ],
+    "pageSlug": "Milky_mixture",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Milky_mixture"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.36,
+    "market": null
+  }
+}

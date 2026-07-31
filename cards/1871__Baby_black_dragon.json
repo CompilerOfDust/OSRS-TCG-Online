@@ -1,0 +1,73 @@
+{
+  "id": 2242,
+  "cardId": "npc_baby-black-dragon",
+  "name": "Baby black dragon",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Young but still dangerous.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Baby_black_dragon.png",
+  "debut": "2006-03-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1871,
+      1872,
+      7955
+    ],
+    "pageSlug": "Baby_black_dragon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Baby_black_dragon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Draconic"
+    ],
+    "tileSize": "2x2",
+    "combatRating": 83,
+    "vitality": 80,
+    "peakDamage": "11",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 80,
+      "group": "Black Dragons",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 70,
+      "strength": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

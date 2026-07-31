@@ -1,0 +1,43 @@
+{
+  "id": 9552,
+  "cardId": "itm_magic-stone",
+  "name": "Magic stone",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    4703
+  ],
+  "flavourText": "A magic stone to make high-level furniture.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_stone.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8788
+    ],
+    "pageSlug": "Magic_stone",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_stone"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 450000,
+    "lowAlchemy": 300000,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 1009137,
+      "buyLimit": 11000,
+      "dailyVolume": 2517
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": 6382,
+  "cardId": "itm_holy-moleys",
+  "name": "Holy moleys",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The lesser spotted Talpidae Saradominus.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Holy_moleys.png",
+  "debut": "2026-01-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33002
+    ],
+    "pageSlug": "Holy_moleys",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Holy_moleys"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 0.6,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

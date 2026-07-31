@@ -1,0 +1,42 @@
+{
+  "id": 3549,
+  "cardId": "itm_unicorn-horn",
+  "name": "Unicorn horn",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    1487
+  ],
+  "flavourText": "This horn has restorative properties.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unicorn_horn.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      237
+    ],
+    "pageSlug": "Unicorn_horn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unicorn_horn"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 458,
+      "buyLimit": 13000,
+      "dailyVolume": 31772
+    }
+  }
+}

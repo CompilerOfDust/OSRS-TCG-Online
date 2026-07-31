@@ -1,0 +1,68 @@
+{
+  "id": 1098,
+  "cardId": "itm_ancient-bracers",
+  "name": "Ancient bracers",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Ancient blessed dragonhide vambraces.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancient_bracers.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12490
+    ],
+    "pageSlug": "Ancient_bracers",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancient_bracers"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 2400,
+    "lowAlchemy": 1600,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 27145,
+      "buyLimit": 8,
+      "dailyVolume": 199
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 11
+      },
+      "defence": {
+        "stab": 6,
+        "slash": 5,
+        "crush": 7,
+        "magic": 8,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  },
+  "special": false
+}

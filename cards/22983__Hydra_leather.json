@@ -1,0 +1,41 @@
+{
+  "id": 3399,
+  "cardId": "itm_hydra-leather",
+  "name": "Hydra leather",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Hide from a ferocious Hydra. It looks pretty tough.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hydra_leather.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22983
+    ],
+    "pageSlug": "Hydra_leather",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hydra_leather"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60000,
+    "lowAlchemy": 40000,
+    "weightKg": 0.226,
+    "market": {
+      "guidePrice": 13029262,
+      "buyLimit": 15,
+      "dailyVolume": 537
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 2594,
+  "cardId": "itm_premade-dr-dragon",
+  "name": "Premade dr' dragon",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A premade Drunk Dragon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Premade_dr%27_dragon.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2032
+    ],
+    "pageSlug": "Premade_dr%27_dragon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Premade_dr%27_dragon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 32,
+      "buyLimit": 2000,
+      "dailyVolume": 0
+    }
+  }
+}

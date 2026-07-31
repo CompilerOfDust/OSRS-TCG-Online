@@ -1,0 +1,43 @@
+{
+  "id": 7850,
+  "cardId": "itm_willow-sapling",
+  "name": "Willow sapling",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5359,
+    5365
+  ],
+  "flavourText": "This sapling is ready to be replanted in a tree patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Willow_sapling.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5371
+    ],
+    "pageSlug": "Willow_sapling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Willow_sapling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 491,
+      "buyLimit": 200,
+      "dailyVolume": 6312
+    }
+  }
+}

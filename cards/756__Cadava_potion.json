@@ -1,0 +1,38 @@
+{
+  "id": 9005,
+  "cardId": "itm_cadava-potion",
+  "name": "Cadava potion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I'm meant to give this to Juliet.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cadava_potion.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      756
+    ],
+    "pageSlug": "Cadava_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cadava_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Look-at",
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.025,
+    "market": null
+  }
+}

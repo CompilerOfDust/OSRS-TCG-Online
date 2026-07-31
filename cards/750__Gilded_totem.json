@@ -1,0 +1,36 @@
+{
+  "id": 8958,
+  "cardId": "itm_gilded-totem",
+  "name": "Gilded totem",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A gilded totem pole, given to you as a gift from the Kharazi tribe.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gilded_totem.png",
+  "debut": "2003-08-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      750
+    ],
+    "pageSlug": "Gilded_totem",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gilded_totem"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 3,
+    "market": null
+  }
+}

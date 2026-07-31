@@ -1,0 +1,43 @@
+{
+  "id": 8273,
+  "cardId": "itm_snake-hide",
+  "name": "Snake hide",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    7801
+  ],
+  "flavourText": "Scaly but not slimy! It could be a useful material if it were tanned.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snake_hide.png",
+  "debut": "2005-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6287
+    ],
+    "pageSlug": "Snake_hide",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snake_hide"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 21,
+    "lowAlchemy": 14,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 199,
+      "buyLimit": 13000,
+      "dailyVolume": 40
+    }
+  },
+  "special": false
+}

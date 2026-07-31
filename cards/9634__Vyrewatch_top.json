@@ -1,0 +1,67 @@
+{
+  "id": 9996,
+  "cardId": "itm_vyrewatch-top",
+  "name": "Vyrewatch top",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Dress like the powerful vyrewatch!",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vyrewatch_top.png",
+  "debut": "2006-09-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9634
+    ],
+    "pageSlug": "Vyrewatch_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vyrewatch_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 2639,
+      "buyLimit": 150,
+      "dailyVolume": 46
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 2,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 8782,
+  "cardId": "itm_garden-pie",
+  "name": "Garden pie",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "What I wouldn't give for a good steak about now...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Garden_pie.png",
+  "debut": "2006-02-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7178
+    ],
+    "pageSlug": "Garden_pie",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Garden_pie"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 14,
+    "lowAlchemy": 9,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 49,
+      "buyLimit": 10000,
+      "dailyVolume": 7671
+    }
+  }
+}

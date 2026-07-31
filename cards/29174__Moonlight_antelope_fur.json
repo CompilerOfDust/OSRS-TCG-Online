@@ -1,0 +1,40 @@
+{
+  "id": 5122,
+  "cardId": "itm_moonlight-antelope-fur",
+  "name": "Moonlight antelope fur",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I can make something out of this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Moonlight_antelope_fur.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29174
+    ],
+    "pageSlug": "Moonlight_antelope_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Moonlight_antelope_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 599,
+      "buyLimit": 18000,
+      "dailyVolume": 932181
+    }
+  }
+}

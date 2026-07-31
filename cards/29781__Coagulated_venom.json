@@ -1,0 +1,36 @@
+{
+  "id": 5302,
+  "cardId": "itm_coagulated-venom",
+  "name": "Coagulated venom",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Looks nourishing, to the right beast.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Coagulated_venom.png",
+  "debut": "2024-08-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29781
+    ],
+    "pageSlug": "Coagulated_venom",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Coagulated_venom"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.19,
+    "market": null
+  }
+}

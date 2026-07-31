@@ -1,0 +1,41 @@
+{
+  "id": 7764,
+  "cardId": "itm_curry-tree-seed",
+  "name": "Curry tree seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Plant in a plantpot of soil to grow a sapling.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Curry_tree_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5286
+    ],
+    "pageSlug": "Curry_tree_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Curry_tree_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 23,
+    "lowAlchemy": 15,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 35,
+      "buyLimit": 200,
+      "dailyVolume": 10892
+    }
+  },
+  "special": false
+}

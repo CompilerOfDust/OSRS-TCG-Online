@@ -1,0 +1,38 @@
+{
+  "id": 8999,
+  "cardId": "itm_balloon-toad",
+  "name": "Balloon toad",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An inflated toad tied to a rock like a balloon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Balloon_toad.png",
+  "debut": "2006-03-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7564
+    ],
+    "pageSlug": "Balloon_toad",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Balloon_toad"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop",
+      "Release-all",
+      "Release"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 4,
+    "market": null
+  }
+}

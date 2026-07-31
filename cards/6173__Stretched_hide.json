@@ -1,0 +1,41 @@
+{
+  "id": 8231,
+  "cardId": "itm_stretched-hide",
+  "name": "Stretched hide",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A weathered chunk of dagannoth hide.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stretched_hide.png",
+  "debut": "2005-08-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6173
+    ],
+    "pageSlug": "Stretched_hide",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stretched_hide"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 2570,
+      "buyLimit": 11000,
+      "dailyVolume": 2
+    }
+  },
+  "special": false
+}

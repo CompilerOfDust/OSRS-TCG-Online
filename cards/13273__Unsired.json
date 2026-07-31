@@ -1,0 +1,36 @@
+{
+  "id": 1482,
+  "cardId": "itm_unsired",
+  "name": "Unsired",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Doesn't seem to have survived the death of its Sire.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unsired.png",
+  "debut": "2015-10-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13273
+    ],
+    "pageSlug": "Unsired",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unsired"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.4,
+    "market": null
+  }
+}

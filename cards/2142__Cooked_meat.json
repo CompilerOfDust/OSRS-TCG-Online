@@ -1,0 +1,43 @@
+{
+  "id": 2905,
+  "cardId": "itm_cooked-meat",
+  "name": "Cooked meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    4293
+  ],
+  "flavourText": "Mmm this looks tasty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cooked_meat.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2142
+    ],
+    "pageSlug": "Cooked_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cooked_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.283,
+    "market": {
+      "guidePrice": 57,
+      "buyLimit": 6000,
+      "dailyVolume": 25241
+    }
+  }
+}

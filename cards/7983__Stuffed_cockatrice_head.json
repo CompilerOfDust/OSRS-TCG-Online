@@ -1,0 +1,37 @@
+{
+  "id": 9251,
+  "cardId": "itm_stuffed-cockatrice-head",
+  "name": "Stuffed cockatrice head",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I could mount this on my wall!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stuffed_cockatrice_head.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7983
+    ],
+    "pageSlug": "Stuffed_cockatrice_head",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stuffed_cockatrice_head"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Unstuff",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 10,
+    "market": null
+  }
+}

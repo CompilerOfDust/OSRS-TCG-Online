@@ -1,0 +1,40 @@
+{
+  "id": 6096,
+  "cardId": "itm_dragon-metal-sheet",
+  "name": "Dragon metal sheet",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A very old sheet of dragon metal.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_metal_sheet.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31996
+    ],
+    "pageSlug": "Dragon_metal_sheet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_metal_sheet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 190944,
+      "buyLimit": 64,
+      "dailyVolume": 8261
+    }
+  }
+}

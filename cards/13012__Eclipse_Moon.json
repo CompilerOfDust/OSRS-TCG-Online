@@ -1,0 +1,61 @@
+{
+  "id": 1356,
+  "cardId": "npc_eclipse-moon",
+  "name": "Eclipse Moon",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "The blinding embodiment of an eclipse.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Eclipse_Moon.png",
+  "debut": "2024-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13012
+    ],
+    "pageSlug": "Eclipse_Moon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Eclipse_Moon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 329,
+    "vitality": 500,
+    "peakDamage": "32 total [4+8+20]",
+    "combatXpBonusPct": 17.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Typeless",
+      "slash"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 258,
+      "strength": 100,
+      "defence": 60,
+      "magic": 100,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

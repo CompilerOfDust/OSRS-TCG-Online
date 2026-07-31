@@ -1,0 +1,40 @@
+{
+  "id": 7701,
+  "cardId": "itm_whiteberry-seed",
+  "name": "Whiteberry seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A whiteberry bush seed - plant in a bush patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Whiteberry_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5105
+    ],
+    "pageSlug": "Whiteberry_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Whiteberry_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 79,
+    "lowAlchemy": 53,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 6,
+      "buyLimit": 200,
+      "dailyVolume": 7935
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 2391,
+  "cardId": "itm_tomato",
+  "name": "Tomato",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This would make good ketchup.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tomato.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1982
+    ],
+    "pageSlug": "Tomato",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tomato"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.08,
+    "market": {
+      "guidePrice": 19,
+      "buyLimit": 13000,
+      "dailyVolume": 300551
+    }
+  }
+}

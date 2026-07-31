@@ -1,0 +1,42 @@
+{
+  "id": 7997,
+  "cardId": "itm_cosmic-rune",
+  "name": "Cosmic rune",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    11696
+  ],
+  "flavourText": "Used for enchant spells.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cosmic_rune.png",
+  "debut": "2001-05-24",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      564
+    ],
+    "pageSlug": "Cosmic_rune",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cosmic_rune"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 112,
+      "buyLimit": 18000,
+      "dailyVolume": 14517614
+    }
+  }
+}

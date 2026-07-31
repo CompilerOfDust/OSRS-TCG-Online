@@ -1,0 +1,67 @@
+{
+  "id": 5314,
+  "cardId": "itm_amulet-of-rancour",
+  "name": "Amulet of rancour",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A very powerful zenyte amulet, infused with araxyte venom.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amulet_of_rancour.png",
+  "debut": "2024-08-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29801
+    ],
+    "pageSlug": "Amulet_of_rancour",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amulet_of_rancour"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 240000,
+    "lowAlchemy": 160000,
+    "weightKg": 0.012,
+    "market": {
+      "guidePrice": 51722630,
+      "buyLimit": 8,
+      "dailyVolume": 1005
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 25,
+        "slash": 25,
+        "crush": 25,
+        "magic": -6,
+        "ranged": -8
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 12,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  }
+}

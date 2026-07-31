@@ -1,0 +1,36 @@
+{
+  "id": 2641,
+  "cardId": "itm_rejuvenation-potion-unf",
+  "name": "Rejuvenation potion (unf)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An unfinished potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rejuvenation_potion_%28unf%29.png",
+  "debut": "2016-09-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20697
+    ],
+    "pageSlug": "Rejuvenation_potion_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rejuvenation_potion_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.035,
+    "market": null
+  }
+}

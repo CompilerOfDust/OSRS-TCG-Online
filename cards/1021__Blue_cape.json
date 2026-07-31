@@ -1,0 +1,69 @@
+{
+  "id": 81,
+  "cardId": "itm_blue-cape",
+  "name": "Blue cape",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    25195
+  ],
+  "flavourText": "A thick blue cape.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_cape.png",
+  "debut": "2001-02-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1021
+    ],
+    "pageSlug": "Blue_cape",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_cape"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "cape",
+    "highAlchemy": 19,
+    "lowAlchemy": 12,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 189,
+      "buyLimit": 150,
+      "dailyVolume": 1618
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 2
+      },
+      "slot": "cape",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

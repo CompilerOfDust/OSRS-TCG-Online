@@ -1,0 +1,64 @@
+{
+  "id": 9405,
+  "cardId": "npc_troll__2",
+  "name": "Troll",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    133,
+    2833,
+    10588,
+    15613
+  ],
+  "flavourText": "A troll.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2018-09-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8470,
+      8471,
+      8472,
+      8473
+    ],
+    "pageSlug": "Troll_(Making_Friends_with_My_Arm)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Troll_(Making_Friends_with_My_Arm)"
+  },
+  "npcProfile": {
+    "race": "Troll",
+    "gender": "Male",
+    "locations": [
+      "Keldagrim"
+    ],
+    "questLine": "Making Friends with My Arm",
+    "shop": null,
+    "menuActions": [
+      "None"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

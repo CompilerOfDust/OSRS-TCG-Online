@@ -1,0 +1,42 @@
+{
+  "id": 2602,
+  "cardId": "itm_premade-sgg",
+  "name": "Premade sgg",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A premade Short Green Guy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Premade_sgg.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2038
+    ],
+    "pageSlug": "Premade_sgg",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Premade_sgg"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 27,
+      "buyLimit": 2000,
+      "dailyVolume": 0
+    }
+  },
+  "special": false
+}

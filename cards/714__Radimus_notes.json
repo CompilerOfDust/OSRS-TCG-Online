@@ -1,0 +1,38 @@
+{
+  "id": 8762,
+  "cardId": "itm_radimus-notes",
+  "name": "Radimus notes",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Notes given to you by Radimus Erkle, including a partially-completed map of the Kharazi jungle.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Radimus_notes_%28incomplete%29.png",
+  "debut": "2003-08-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      714
+    ],
+    "pageSlug": "Radimus_notes",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Radimus_notes"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Read",
+      "Complete",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

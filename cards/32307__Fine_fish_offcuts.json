@@ -1,0 +1,40 @@
+{
+  "id": 6162,
+  "cardId": "itm_fine-fish-offcuts",
+  "name": "Fine fish offcuts",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Slices of fine inedible fish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fine_fish_offcuts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32307
+    ],
+    "pageSlug": "Fine_fish_offcuts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fine_fish_offcuts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 441,
+      "buyLimit": 8000,
+      "dailyVolume": 450696
+    }
+  }
+}

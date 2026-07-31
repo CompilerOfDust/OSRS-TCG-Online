@@ -1,0 +1,67 @@
+{
+  "id": 5158,
+  "cardId": "itm_mixed-hide-boots",
+  "name": "Mixed hide boots",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Made from the hide of a few different creatures.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mixed_hide_boots.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29286
+    ],
+    "pageSlug": "Mixed_hide_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mixed_hide_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 16607,
+      "buyLimit": null,
+      "dailyVolume": 4932
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 5
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 5,
+        "crush": 6,
+        "magic": 3,
+        "ranged": 3
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 2,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

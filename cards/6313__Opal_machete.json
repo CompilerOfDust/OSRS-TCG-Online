@@ -1,0 +1,67 @@
+{
+  "id": 8301,
+  "cardId": "itm_opal-machete",
+  "name": "Opal machete",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A jungle specific slashing device.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Opal_machete.png",
+  "debut": "2005-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6313
+    ],
+    "pageSlug": "Opal_machete",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Opal_machete"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 277,
+      "buyLimit": 15,
+      "dailyVolume": 600
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 8,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 1,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

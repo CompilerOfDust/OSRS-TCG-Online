@@ -1,0 +1,37 @@
+{
+  "id": 4870,
+  "cardId": "itm_detonator",
+  "name": "Detonator",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Magically detonates the nearest satchel of explosives. Cool!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Detonator.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28393
+    ],
+    "pageSlug": "Detonator",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Detonator"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Squeeze",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

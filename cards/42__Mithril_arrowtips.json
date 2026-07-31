@@ -1,0 +1,40 @@
+{
+  "id": 7178,
+  "cardId": "itm_mithril-arrowtips",
+  "name": "Mithril arrowtips",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I can make some arrows with these.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mithril_arrowtips.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      42
+    ],
+    "pageSlug": "Mithril_arrowtips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mithril_arrowtips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 52,
+      "buyLimit": 10000,
+      "dailyVolume": 1144484
+    }
+  }
+}

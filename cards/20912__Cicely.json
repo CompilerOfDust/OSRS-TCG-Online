@@ -1,0 +1,36 @@
+{
+  "id": 2726,
+  "cardId": "itm_cicely",
+  "name": "Cicely",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This flower feels very cold to the touch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cicely.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20912
+    ],
+    "pageSlug": "Cicely",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cicely"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

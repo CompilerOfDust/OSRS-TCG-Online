@@ -1,0 +1,36 @@
+{
+  "id": 1627,
+  "cardId": "itm_arceuus-icon",
+  "name": "Arceuus icon",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "? (edit)",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arceuus_icon.png",
+  "debut": "2016-01-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13578
+    ],
+    "pageSlug": "Arceuus_icon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arceuus_icon"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

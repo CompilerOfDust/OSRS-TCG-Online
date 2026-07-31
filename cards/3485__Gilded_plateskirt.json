@@ -1,0 +1,76 @@
+{
+  "id": 6675,
+  "cardId": "itm_gilded-plateskirt",
+  "name": "Gilded plateskirt",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [
+    1081,
+    1083,
+    1085,
+    1087,
+    1089,
+    1091,
+    1093
+  ],
+  "flavourText": "Rune plateskirt with gold plate.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gilded_plateskirt.png",
+  "debut": "2004-10-26",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3485
+    ],
+    "pageSlug": "Gilded_plateskirt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gilded_plateskirt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 38400,
+    "lowAlchemy": 25600,
+    "weightKg": 9.071,
+    "market": {
+      "guidePrice": 978039,
+      "buyLimit": 8,
+      "dailyVolume": 44
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 51,
+        "slash": 49,
+        "crush": 47,
+        "magic": -4,
+        "ranged": 49
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": true
+}

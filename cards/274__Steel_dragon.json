@@ -1,0 +1,78 @@
+{
+  "id": 4654,
+  "cardId": "npc_steel-dragon",
+  "name": "Steel dragon",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    139,
+    8086
+  ],
+  "flavourText": "Its scales seem to be made of steel.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_dragon.png",
+  "debut": "2005-01-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      274,
+      275,
+      7255
+    ],
+    "pageSlug": "Steel_dragon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_dragon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Draconic",
+      "Fiery"
+    ],
+    "tileSize": "4x4",
+    "combatRating": 246,
+    "vitality": 210,
+    "peakDamage": "22 ( Melee ) 50 ( Dragonfire )",
+    "combatXpBonusPct": 2.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Dragonfire"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 215.2,
+      "group": "Metal Dragons",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 215,
+      "strength": 215,
+      "defence": 215,
+      "magic": 100,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

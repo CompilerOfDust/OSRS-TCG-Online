@@ -1,0 +1,41 @@
+{
+  "id": 7820,
+  "cardId": "itm_watering-can",
+  "name": "Watering can",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This watering can is empty.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Watering_can.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5331
+    ],
+    "pageSlug": "Watering_can",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Watering_can"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 3,
+    "weightKg": 0.1,
+    "market": {
+      "guidePrice": 100,
+      "buyLimit": 40,
+      "dailyVolume": 2002
+    }
+  },
+  "special": false
+}

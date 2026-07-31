@@ -1,0 +1,67 @@
+{
+  "id": 65,
+  "cardId": "itm_orange-salamander",
+  "name": "Orange salamander",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Slightly slimy but kind of cute.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Orange_salamander.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10146
+    ],
+    "pageSlug": "Orange_salamander",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Orange_salamander"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Release"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 156,
+      "buyLimit": 125,
+      "dailyVolume": 3119
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 19,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 29
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 31,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

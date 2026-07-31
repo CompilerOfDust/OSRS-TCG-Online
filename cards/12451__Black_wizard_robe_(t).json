@@ -1,0 +1,67 @@
+{
+  "id": 1069,
+  "cardId": "itm_black-wizard-robe-t",
+  "name": "Black wizard robe (t)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I can do magic better in this.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_wizard_robe_%28t%29.png",
+  "debut": "2014-06-12",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12451
+    ],
+    "pageSlug": "Black_wizard_robe_(t)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_wizard_robe_(t)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 9,
+    "lowAlchemy": 6,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 104225,
+      "buyLimit": 4,
+      "dailyVolume": 74
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

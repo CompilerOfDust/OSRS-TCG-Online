@@ -1,0 +1,63 @@
+{
+  "id": 2885,
+  "cardId": "itm_amethyst-fire-arrow",
+  "name": "Amethyst fire arrow",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Arrows with amethyst heads wrapped in oily cloth.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amethyst_fire_arrow_1.png",
+  "debut": "2017-06-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21328
+    ],
+    "pageSlug": "Amethyst_fire_arrow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amethyst_fire_arrow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 55,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

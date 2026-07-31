@@ -1,0 +1,40 @@
+{
+  "id": 9886,
+  "cardId": "itm_adamant-crossbow-u",
+  "name": "Adamant crossbow (u)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An unstrung adamantite crossbow.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_crossbow_%28u%29.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9463
+    ],
+    "pageSlug": "Adamant_crossbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_crossbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1039,
+    "lowAlchemy": 693,
+    "weightKg": 8,
+    "market": {
+      "guidePrice": 1036,
+      "buyLimit": 10000,
+      "dailyVolume": 71
+    }
+  }
+}

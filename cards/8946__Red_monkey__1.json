@@ -1,0 +1,37 @@
+{
+  "id": 9634,
+  "cardId": "itm_red-monkey",
+  "name": "Red monkey",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A well red monkey.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_monkey.png",
+  "debut": "2006-07-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8946
+    ],
+    "pageSlug": "Red_monkey",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_monkey"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Talk-To",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

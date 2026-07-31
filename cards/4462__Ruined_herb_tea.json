@@ -1,0 +1,37 @@
+{
+  "id": 7296,
+  "cardId": "itm_ruined-herb-tea",
+  "name": "Ruined herb tea",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A ruined herb tea.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ruined_herb_tea.png",
+  "debut": "2005-02-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4462
+    ],
+    "pageSlug": "Ruined_herb_tea",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ruined_herb_tea"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.05,
+    "market": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 5839,
+  "cardId": "itm_raw-karambwan",
+  "name": "Raw karambwan",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A raw green octopus.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_karambwan.png",
+  "debut": "2004-09-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3142
+    ],
+    "pageSlug": "Raw_karambwan",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_karambwan"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.7,
+    "market": {
+      "guidePrice": 273,
+      "buyLimit": 13000,
+      "dailyVolume": 2956448
+    }
+  },
+  "special": false
+}

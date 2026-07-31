@@ -1,0 +1,67 @@
+{
+  "id": 544,
+  "cardId": "itm_dragon-arrow",
+  "name": "Dragon arrow",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "An arrow made using a dragon's talon.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_arrow_1.png",
+  "debut": "2007-06-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11212
+    ],
+    "pageSlug": "Dragon_arrow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_arrow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 480,
+    "lowAlchemy": 320,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 1882,
+      "buyLimit": 11000,
+      "dailyVolume": 5384225
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 60,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

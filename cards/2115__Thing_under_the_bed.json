@@ -1,0 +1,54 @@
+{
+  "id": 2805,
+  "cardId": "npc_thing-under-the-bed",
+  "name": "Thing under the bed",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's just like that dream I use [ sic ] to have when I was little!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Thing_under_the_bed.png",
+  "debut": "2005-06-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2115
+    ],
+    "pageSlug": "Thing_under_the_bed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Thing_under_the_bed"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": "1",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "Melee"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

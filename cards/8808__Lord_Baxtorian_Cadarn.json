@@ -1,0 +1,62 @@
+{
+  "id": 9562,
+  "cardId": "npc_baxtorian",
+  "name": "Baxtorian",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Former king of the elves.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2019-07-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8808,
+      8809,
+      8810,
+      8811,
+      8812,
+      8813,
+      9120
+    ],
+    "pageSlug": "Lord_Baxtorian_Cadarn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lord_Baxtorian_Cadarn"
+  },
+  "npcProfile": {
+    "race": "Elf",
+    "gender": "Male",
+    "locations": [
+      "Prifddinas"
+    ],
+    "questLine": "Song of the Elves",
+    "shop": null,
+    "menuActions": [
+      "? (edit)"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

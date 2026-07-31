@@ -1,0 +1,37 @@
+{
+  "id": 5978,
+  "cardId": "itm_bottle-of-fish-bladder-stout",
+  "name": "Bottle of fish bladder stout",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "No one knows why you'd want fish bladder in your stout, but I'm sure it will be fun finding out.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_fish_bladder_stout.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31833
+    ],
+    "pageSlug": "Bottle_of_fish_bladder_stout",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_fish_bladder_stout"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

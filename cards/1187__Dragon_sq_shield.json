@@ -1,0 +1,71 @@
+{
+  "id": 839,
+  "cardId": "itm_dragon-sq-shield",
+  "name": "Dragon sq shield",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    12418,
+    28059
+  ],
+  "flavourText": "An ancient and powerful looking Dragon Square shield.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_sq_shield.png",
+  "debut": "2003-08-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1187
+    ],
+    "pageSlug": "Dragon_sq_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_sq_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 304849,
+      "buyLimit": 70,
+      "dailyVolume": 630
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 50,
+        "slash": 52,
+        "crush": 48,
+        "magic": 0,
+        "ranged": 50
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

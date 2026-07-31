@@ -1,0 +1,41 @@
+{
+  "id": 762,
+  "cardId": "itm_super-magic-potion-1",
+  "name": "Super magic potion (4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    11727,
+    11728,
+    11729
+  ],
+  "flavourText": "4 doses of super magic potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Super_magic_potion_%284%29.png",
+  "debut": "2013-09-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11726
+    ],
+    "pageSlug": "Super_magic_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Super_magic_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

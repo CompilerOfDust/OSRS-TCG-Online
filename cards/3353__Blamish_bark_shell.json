@@ -1,0 +1,40 @@
+{
+  "id": 6492,
+  "cardId": "itm_blamish-bark-shell",
+  "name": "Blamish bark shell",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A large bark coloured blamish snail shell, looks protective.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blamish_bark_shell.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3353
+    ],
+    "pageSlug": "Blamish_bark_shell",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blamish_bark_shell"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 976,
+      "buyLimit": 13000,
+      "dailyVolume": 62
+    }
+  }
+}

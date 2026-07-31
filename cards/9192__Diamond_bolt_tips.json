@@ -1,0 +1,41 @@
+{
+  "id": 9797,
+  "cardId": "itm_diamond-bolt-tips",
+  "name": "Diamond bolt tips",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Diamond bolt tips.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Diamond_bolt_tips_1.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9192
+    ],
+    "pageSlug": "Diamond_bolt_tips",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Diamond_bolt_tips"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 79,
+    "lowAlchemy": 53,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 169,
+      "buyLimit": 11000,
+      "dailyVolume": 1383049
+    }
+  },
+  "special": false
+}

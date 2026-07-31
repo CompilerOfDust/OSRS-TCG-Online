@@ -1,0 +1,48 @@
+{
+  "id": 5437,
+  "cardId": "itm_super-restore-1",
+  "name": "Super restore(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    3026,
+    3028,
+    3030,
+    11493,
+    11495
+  ],
+  "flavourText": "4 doses of super restore potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Super_restore%284%29.png",
+  "debut": "2004-07-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3024
+    ],
+    "pageSlug": "Super_restore",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Super_restore"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 72,
+    "lowAlchemy": 48,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 2476,
+      "buyLimit": 2000,
+      "dailyVolume": 3660
+    }
+  }
+}

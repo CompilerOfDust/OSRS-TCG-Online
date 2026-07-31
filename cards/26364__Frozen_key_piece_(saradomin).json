@@ -1,0 +1,37 @@
+{
+  "id": 4360,
+  "cardId": "itm_frozen-key-piece-saradomin",
+  "name": "Frozen key piece (saradomin)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "One of four pieces of a mysterious frozen key.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Frozen_key_piece_%28saradomin%29.png",
+  "debut": "2021-12-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26364
+    ],
+    "pageSlug": "Frozen_key_piece_(saradomin)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Frozen_key_piece_(saradomin)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Assemble",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 8816,
+  "cardId": "itm_golden-bowl",
+  "name": "Golden bowl",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A specially-made golden bowl filled with water.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golden_bowl_%28water%29.png",
+  "debut": "2003-08-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      723
+    ],
+    "pageSlug": "Golden_bowl",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golden_bowl"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 420,
+    "lowAlchemy": 280,
+    "weightKg": 1,
+    "market": null
+  }
+}

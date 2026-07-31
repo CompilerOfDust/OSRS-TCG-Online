@@ -1,0 +1,62 @@
+{
+  "id": 8587,
+  "cardId": "npc_nieve",
+  "name": "Nieve",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "She looks rich and dangerous!",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2013-12-12",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6797,
+      7108,
+      7109,
+      7110
+    ],
+    "pageSlug": "Nieve",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nieve"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "Tree Gnome Stronghold"
+    ],
+    "questLine": "Monkey Madness II",
+    "shop": "Slayer Equipment , Slayer Rewards",
+    "menuActions": [
+      "Talk-to",
+      "Assignment",
+      "Trade",
+      "Rewards"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

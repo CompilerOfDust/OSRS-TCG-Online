@@ -1,0 +1,67 @@
+{
+  "id": 9428,
+  "cardId": "itm_maple-longbow",
+  "name": "Maple longbow",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A nice sturdy bow made out of Maple.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maple_longbow.png",
+  "debut": "2002-03-25",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      851
+    ],
+    "pageSlug": "Maple_longbow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maple_longbow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 384,
+    "lowAlchemy": 256,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 269,
+      "buyLimit": 18000,
+      "dailyVolume": 427465
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 29
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

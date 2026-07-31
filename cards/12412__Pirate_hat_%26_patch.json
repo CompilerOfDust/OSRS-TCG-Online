@@ -1,0 +1,67 @@
+{
+  "id": 1050,
+  "cardId": "itm_pirate-hat-patch",
+  "name": "Pirate hat & patch",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "All I need now is a parrot.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pirate_hat_%26_patch.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12412
+    ],
+    "pageSlug": "Pirate_hat_%26_patch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pirate_hat_%26_patch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 1800,
+    "lowAlchemy": 1200,
+    "weightKg": 0.002,
+    "market": {
+      "guidePrice": 143999,
+      "buyLimit": 150,
+      "dailyVolume": 32
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

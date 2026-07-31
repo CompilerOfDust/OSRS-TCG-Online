@@ -1,0 +1,64 @@
+{
+  "id": 5546,
+  "cardId": "itm_giantsoul-amulet-uncharged",
+  "name": "Giantsoul amulet (uncharged)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "An enchanted amulet.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Giantsoul_amulet_%28uncharged%29.png",
+  "debut": "2025-02-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30637
+    ],
+    "pageSlug": "Giantsoul_amulet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Giantsoul_amulet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Charge",
+      "Drop"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.01,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

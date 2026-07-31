@@ -1,0 +1,38 @@
+{
+  "id": 9250,
+  "cardId": "itm_stuffed-crawling-hand",
+  "name": "Stuffed crawling hand",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I could mount this on my wall!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stuffed_crawling_hand.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7982
+    ],
+    "pageSlug": "Stuffed_crawling_hand",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stuffed_crawling_hand"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Unstuff",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 10,
+    "market": null
+  },
+  "special": false
+}

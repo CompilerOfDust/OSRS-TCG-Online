@@ -1,0 +1,111 @@
+{
+  "id": 5091,
+  "cardId": "npc_dwarf",
+  "name": "Dwarf",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    4512,
+    5170,
+    5171,
+    5172,
+    5173,
+    5174,
+    5175,
+    5904,
+    7712,
+    7713,
+    7714,
+    7715,
+    7721,
+    12708,
+    12709,
+    12710,
+    12711,
+    12712,
+    15396,
+    15397,
+    15398,
+    15399,
+    15400,
+    15401,
+    15402,
+    15403,
+    15404,
+    15405,
+    15406
+  ],
+  "flavourText": "A short angry guy.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dwarf.png",
+  "debut": "2001-04-06",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      290,
+      292,
+      294,
+      295,
+      296,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405,
+      1406,
+      1407,
+      1408,
+      8496
+    ],
+    "pageSlug": "Dwarf",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dwarf"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 10,
+    "vitality": 16,
+    "peakDamage": "2",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 25,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 16,
+      "group": "Dwarves",
+      "masters": [
+        "Turael",
+        "Spria"
+      ]
+    },
+    "combatLevels": {
+      "attack": 8,
+      "strength": 8,
+      "defence": 6,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

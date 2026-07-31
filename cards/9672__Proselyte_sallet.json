@@ -1,0 +1,67 @@
+{
+  "id": 10018,
+  "cardId": "itm_proselyte-sallet",
+  "name": "Proselyte sallet",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A Proselyte Temple Knight's helm.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Proselyte_sallet.png",
+  "debut": "2006-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9672
+    ],
+    "pageSlug": "Proselyte_sallet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Proselyte_sallet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 4800,
+    "lowAlchemy": 3200,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 4172,
+      "buyLimit": 70,
+      "dailyVolume": 433
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 19,
+        "slash": 21,
+        "crush": 16,
+        "magic": -1,
+        "ranged": 19
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 4
+      }
+    }
+  }
+}

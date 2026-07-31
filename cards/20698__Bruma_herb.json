@@ -1,0 +1,36 @@
+{
+  "id": 2642,
+  "cardId": "itm_bruma-herb",
+  "name": "Bruma herb",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A herb from a bruma root.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bruma_herb.png",
+  "debut": "2016-09-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20698
+    ],
+    "pageSlug": "Bruma_herb",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bruma_herb"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.007,
+    "market": null
+  }
+}

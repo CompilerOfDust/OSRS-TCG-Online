@@ -1,0 +1,38 @@
+{
+  "id": 3330,
+  "cardId": "itm_fake-dragon-hasta-kp",
+  "name": "Fake dragon hasta(kp)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A fake karambwan poison-tipped, one-handed dragon hasta. Can be converted into the real item.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fake_dragon_hasta%28kp%29.png",
+  "debut": "2019-01-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22744
+    ],
+    "pageSlug": "Fake_dragon_hasta(kp)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fake_dragon_hasta(kp)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Convert",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 37440,
+    "lowAlchemy": 24960,
+    "weightKg": 0,
+    "market": null
+  },
+  "special": false
+}

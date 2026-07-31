@@ -1,0 +1,67 @@
+{
+  "id": 1290,
+  "cardId": "itm_arcane-spirit-shield",
+  "name": "Arcane spirit shield",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "An ethereal shield with an arcane sigil attached to it.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arcane_spirit_shield.png",
+  "debut": "2014-10-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12825
+    ],
+    "pageSlug": "Arcane_spirit_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arcane_spirit_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 1200000,
+    "lowAlchemy": 800000,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 117493767,
+      "buyLimit": 8,
+      "dailyVolume": 91
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 20,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 53,
+        "slash": 55,
+        "crush": 73,
+        "magic": 2,
+        "ranged": 52
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 3,
+        "prayer": 3
+      }
+    }
+  }
+}

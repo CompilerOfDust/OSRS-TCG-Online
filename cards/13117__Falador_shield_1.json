@@ -1,0 +1,65 @@
+{
+  "id": 1390,
+  "cardId": "itm_falador-shield-1",
+  "name": "Falador shield 1",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A shield from Falador.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Falador_shield_1.png",
+  "debut": "2015-03-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13117
+    ],
+    "pageSlug": "Falador_shield_1",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Falador_shield_1"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Recharge-prayer",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 5.443,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 8,
+        "slash": 10,
+        "crush": 9,
+        "magic": -1,
+        "ranged": 9
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

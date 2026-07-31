@@ -1,0 +1,67 @@
+{
+  "id": 5077,
+  "cardId": "itm_red-robe-top",
+  "name": "Red robe top",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some fine werewolf clothing.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Red_robe_top.png",
+  "debut": "2004-06-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2906
+    ],
+    "pageSlug": "Red_robe_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Red_robe_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 1104,
+      "buyLimit": 150,
+      "dailyVolume": 39
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 2,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

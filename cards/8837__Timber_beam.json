@@ -1,0 +1,40 @@
+{
+  "id": 9569,
+  "cardId": "itm_timber-beam",
+  "name": "Timber beam",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A hefty beam of timber, perfect for building temples.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Timber_beam.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8837
+    ],
+    "pageSlug": "Timber_beam",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Timber_beam"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 523,
+      "buyLimit": 13000,
+      "dailyVolume": 2210
+    }
+  }
+}

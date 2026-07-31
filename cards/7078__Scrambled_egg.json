@@ -1,0 +1,41 @@
+{
+  "id": 8721,
+  "cardId": "itm_scrambled-egg",
+  "name": "Scrambled egg",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bowl of scrambled egg.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Scrambled_egg.png",
+  "debut": "2006-01-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7078
+    ],
+    "pageSlug": "Scrambled_egg",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Scrambled_egg"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 4,
+    "lowAlchemy": 3,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 37,
+      "buyLimit": 13000,
+      "dailyVolume": 32
+    }
+  }
+}

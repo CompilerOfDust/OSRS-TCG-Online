@@ -1,0 +1,36 @@
+{
+  "id": 5720,
+  "cardId": "itm_mokhaiotl-cloth",
+  "name": "Mokhaiotl cloth",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A rare cloth imbued with wild magic, left behind by a fallen monster.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mokhaiotl_cloth.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31109
+    ],
+    "pageSlug": "Mokhaiotl_cloth",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mokhaiotl_cloth"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120000,
+    "lowAlchemy": 80000,
+    "weightKg": 0.34,
+    "market": null
+  }
+}

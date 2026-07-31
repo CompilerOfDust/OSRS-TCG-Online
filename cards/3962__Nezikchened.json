@@ -1,0 +1,58 @@
+{
+  "id": 6905,
+  "cardId": "npc_nezikchened",
+  "name": "Nezikchened",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6318,
+    6379
+  ],
+  "flavourText": "An ancient, powerful demon of the underworld.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nezikchened.png",
+  "debut": "2003-08-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3962
+    ],
+    "pageSlug": "Nezikchened",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nezikchened"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 187,
+    "vitality": null,
+    "peakDamage": "18 (Melee & Magic) ~20 (Dark Dagger)",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash",
+      "Magic"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

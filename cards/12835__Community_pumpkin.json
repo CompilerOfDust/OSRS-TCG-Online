@@ -1,0 +1,36 @@
+{
+  "id": 1296,
+  "cardId": "itm_community-pumpkin",
+  "name": "Community pumpkin",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "The gift that keeps on giving!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Community_pumpkin.png",
+  "debut": "2014-10-23",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12835
+    ],
+    "pageSlug": "Community_pumpkin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Community_pumpkin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 20,
+    "market": null
+  }
+}

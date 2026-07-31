@@ -1,0 +1,41 @@
+{
+  "id": 8018,
+  "cardId": "itm_earth-orb",
+  "name": "Earth orb",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A magic glowing orb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Earth_orb.png",
+  "debut": "2002-03-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      575
+    ],
+    "pageSlug": "Earth_orb",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Earth_orb"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 1667,
+      "buyLimit": 11000,
+      "dailyVolume": 563860
+    }
+  },
+  "special": false
+}

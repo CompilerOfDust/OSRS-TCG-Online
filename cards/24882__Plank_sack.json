@@ -1,0 +1,39 @@
+{
+  "id": 3884,
+  "cardId": "itm_plank-sack",
+  "name": "Plank sack",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Lets you carry some extra planks.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Plank_sack.png",
+  "debut": "2020-08-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24882
+    ],
+    "pageSlug": "Plank_sack",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Plank_sack"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Fill",
+      "Check",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 5.25,
+    "market": null
+  }
+}

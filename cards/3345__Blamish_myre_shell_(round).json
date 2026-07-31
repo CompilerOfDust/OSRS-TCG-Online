@@ -1,0 +1,42 @@
+{
+  "id": 6485,
+  "cardId": "itm_blamish-myre-shell__1",
+  "name": "Blamish myre shell",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    3355
+  ],
+  "flavourText": "A large 'Myre' coloured blamish snail shell, looks protective.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blamish_myre_shell_%28round%29.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3345
+    ],
+    "pageSlug": "Blamish_myre_shell_(round)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blamish_myre_shell_(round)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 301,
+      "buyLimit": 13000,
+      "dailyVolume": 24
+    }
+  }
+}

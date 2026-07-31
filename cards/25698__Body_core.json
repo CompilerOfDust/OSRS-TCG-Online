@@ -1,0 +1,36 @@
+{
+  "id": 4131,
+  "cardId": "itm_body-core",
+  "name": "Body core",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The corrupted core of a Body Golem.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Body_core.png",
+  "debut": "2021-04-14",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25698
+    ],
+    "pageSlug": "Body_core",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Body_core"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 8,
+    "lowAlchemy": 5,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

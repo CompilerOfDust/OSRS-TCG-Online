@@ -1,0 +1,66 @@
+{
+  "id": 3567,
+  "cardId": "itm_corrupted-body-basic",
+  "name": "Corrupted body (basic)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    23844,
+    23845
+  ],
+  "flavourText": "A not so sturdy piece of armour with a little protection from corrupted creatures.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_body_%28basic%29.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23843
+    ],
+    "pageSlug": "Corrupted_body_(basic)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_body_(basic)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 9.979,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 8,
+        "slash": 8,
+        "crush": 3,
+        "magic": 8,
+        "ranged": 8
+      },
+      "defence": {
+        "stab": 86,
+        "slash": 86,
+        "crush": 86,
+        "magic": 86,
+        "ranged": 86
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

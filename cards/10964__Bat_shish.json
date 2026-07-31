@@ -1,0 +1,37 @@
+{
+  "id": 426,
+  "cardId": "itm_bat-shish",
+  "name": "Bat shish",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Bat shish kebab.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bat_shish.png",
+  "debut": "2007-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10964
+    ],
+    "pageSlug": "Bat_shish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bat_shish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

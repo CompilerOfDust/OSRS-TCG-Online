@@ -1,0 +1,42 @@
+{
+  "id": 5599,
+  "cardId": "itm_fishing-rod",
+  "name": "Fishing rod",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    6662
+  ],
+  "flavourText": "Useful for catching sardine or herring.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fishing_rod.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      307
+    ],
+    "pageSlug": "Fishing_rod",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fishing_rod"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 48,
+      "buyLimit": 40,
+      "dailyVolume": 8534
+    }
+  }
+}

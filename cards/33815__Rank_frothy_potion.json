@@ -1,0 +1,41 @@
+{
+  "id": 6584,
+  "cardId": "itm_rank-frothy-potion-1",
+  "name": "Rank frothy potion (4)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    33816,
+    33817,
+    33818
+  ],
+  "flavourText": "Wonder what gives it that froth?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rank_frothy_potion_%284%29.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33815
+    ],
+    "pageSlug": "Rank_frothy_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rank_frothy_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  }
+}

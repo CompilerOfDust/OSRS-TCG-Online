@@ -1,0 +1,68 @@
+{
+  "id": 4680,
+  "cardId": "itm_webweaver-bow-u",
+  "name": "Webweaver bow (u)",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A bow of a follower of Armadyl, corrupted by the power of Venenatis.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Webweaver_bow_%28u%29.png",
+  "debut": "2023-01-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27652
+    ],
+    "pageSlug": "Webweaver_bow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Webweaver_bow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 105000,
+    "lowAlchemy": 70000,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 17947536,
+      "buyLimit": null,
+      "dailyVolume": 498
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 85
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 65,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 534,
+  "cardId": "itm_museum-map",
+  "name": "Museum map",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A map of Varrock Museum.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Museum_map.png",
+  "debut": "2007-05-29",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11184
+    ],
+    "pageSlug": "Museum_map",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Museum_map"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Look-at",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

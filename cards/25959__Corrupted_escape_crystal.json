@@ -1,0 +1,37 @@
+{
+  "id": 4197,
+  "cardId": "itm_corrupted-escape-crystal",
+  "name": "Corrupted escape crystal",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A corrupted crystal enchanted to allow the user to escape the Gauntlet.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_escape_crystal.png",
+  "debut": "2021-07-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25959
+    ],
+    "pageSlug": "Corrupted_escape_crystal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_escape_crystal"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Activate",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

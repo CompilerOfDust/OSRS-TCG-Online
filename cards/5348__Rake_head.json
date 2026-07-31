@@ -1,0 +1,41 @@
+{
+  "id": 7829,
+  "cardId": "itm_rake-head",
+  "name": "Rake head",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "combine": {
+    "combinesInto": [
+      "itm_rake"
+    ]
+  },
+  "flavourText": "I need to reattach this to its handle.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rake_head.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5348
+    ],
+    "pageSlug": "Rake_head",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rake_head"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

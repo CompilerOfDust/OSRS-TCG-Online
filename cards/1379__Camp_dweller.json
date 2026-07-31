@@ -1,0 +1,65 @@
+{
+  "id": 1693,
+  "cardId": "npc_camp-dweller",
+  "name": "Camp dweller",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "One of the inhabitants of the camp.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Camp_dweller_(level_25).png",
+  "debut": "2005-03-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1379,
+      1380,
+      1381,
+      1382,
+      1383
+    ],
+    "pageSlug": "Camp_dweller",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Camp_dweller"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 25,
+    "vitality": 25,
+    "peakDamage": "3",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 20,
+      "strength": 25,
+      "defence": 20,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  },
+  "special": false
+}

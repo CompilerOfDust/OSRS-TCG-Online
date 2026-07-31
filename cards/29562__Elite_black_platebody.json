@@ -1,0 +1,64 @@
+{
+  "id": 5242,
+  "cardId": "itm_elite-black-platebody",
+  "name": "Elite black platebody",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Provides excellent protection for someone considered elite.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elite_black_platebody.png",
+  "debut": "2024-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29562
+    ],
+    "pageSlug": "Elite_black_platebody",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elite_black_platebody"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 9.979,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -30,
+        "ranged": -15
+      },
+      "defence": {
+        "stab": 46,
+        "slash": 44,
+        "crush": 38,
+        "magic": -6,
+        "ranged": 44
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 8
+      }
+    }
+  },
+  "special": false
+}

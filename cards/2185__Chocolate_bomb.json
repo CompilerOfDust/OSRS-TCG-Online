@@ -1,0 +1,41 @@
+{
+  "id": 3047,
+  "cardId": "itm_chocolate-bomb",
+  "name": "Chocolate bomb",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Full of creamy, chocolately goodness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chocolate_bomb.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2185
+    ],
+    "pageSlug": "Chocolate_bomb",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chocolate_bomb"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.35,
+    "market": {
+      "guidePrice": 432,
+      "buyLimit": 6000,
+      "dailyVolume": 137
+    }
+  }
+}

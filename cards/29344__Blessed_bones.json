@@ -1,0 +1,37 @@
+{
+  "id": 5177,
+  "cardId": "itm_blessed-bones",
+  "name": "Blessed bones",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Bones blessed at an exposed altar.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blessed_bones.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29344
+    ],
+    "pageSlug": "Blessed_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blessed_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Break-down",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

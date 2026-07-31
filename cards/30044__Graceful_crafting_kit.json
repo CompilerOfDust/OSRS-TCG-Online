@@ -1,0 +1,36 @@
+{
+  "id": 5383,
+  "cardId": "itm_graceful-crafting-kit",
+  "name": "Graceful crafting kit",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Gives your graceful kit a Varlamore-themed makeover.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Graceful_crafting_kit.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30044
+    ],
+    "pageSlug": "Graceful_crafting_kit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Graceful_crafting_kit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": null
+  }
+}

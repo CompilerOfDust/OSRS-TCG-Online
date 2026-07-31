@@ -1,0 +1,72 @@
+{
+  "id": 8856,
+  "cardId": "itm_rune-shield-h1",
+  "name": "Rune shield (h1)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    7342,
+    7348,
+    7354,
+    7360
+  ],
+  "flavourText": "A shield with a heraldic design",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rune_shield_%28h1%29.png",
+  "debut": "2006-02-20",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7336
+    ],
+    "pageSlug": "Rune_shield_(h1)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rune_shield_(h1)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 32640,
+    "lowAlchemy": 21760,
+    "weightKg": 5.443,
+    "market": {
+      "guidePrice": 74192,
+      "buyLimit": 70,
+      "dailyVolume": 70
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 44,
+        "slash": 48,
+        "crush": 46,
+        "magic": -1,
+        "ranged": 46
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

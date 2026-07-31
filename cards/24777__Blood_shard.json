@@ -1,0 +1,40 @@
+{
+  "id": 3828,
+  "cardId": "itm_blood-shard",
+  "name": "Blood shard",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A magical shard filled with a dark power.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blood_shard.png",
+  "debut": "2020-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24777
+    ],
+    "pageSlug": "Blood_shard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blood_shard"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120000,
+    "lowAlchemy": 80000,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 7923365,
+      "buyLimit": 8,
+      "dailyVolume": 1227
+    }
+  }
+}

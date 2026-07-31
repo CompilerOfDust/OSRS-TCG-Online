@@ -1,0 +1,40 @@
+{
+  "id": 3534,
+  "cardId": "itm_steel-studs",
+  "name": "Steel studs",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A set of studs for leather armour.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_studs.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2370
+    ],
+    "pageSlug": "Steel_studs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_studs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 277,
+      "buyLimit": 13000,
+      "dailyVolume": 153
+    }
+  }
+}

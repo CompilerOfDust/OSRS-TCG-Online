@@ -1,0 +1,63 @@
+{
+  "id": 3425,
+  "cardId": "itm_oily-pearl-fishing-rod",
+  "name": "Oily pearl fishing rod",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Useful for fishing in lava while looking a little bit fancy.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Oily_pearl_fishing_rod.png",
+  "debut": "2019-03-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23122
+    ],
+    "pageSlug": "Oily_pearl_fishing_rod",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Oily_pearl_fishing_rod"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 48,
+    "lowAlchemy": 32,
+    "weightKg": 0.481,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

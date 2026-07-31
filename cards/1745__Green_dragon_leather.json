@@ -1,0 +1,41 @@
+{
+  "id": 2154,
+  "cardId": "itm_green-dragon-leather",
+  "name": "Green dragon leather",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "It's a piece of prepared green dragonhide.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Green_dragon_leather.png",
+  "debut": "2004-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1745
+    ],
+    "pageSlug": "Green_dragon_leather",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Green_dragon_leather"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 1926,
+      "buyLimit": 13000,
+      "dailyVolume": 651523
+    }
+  },
+  "special": false
+}

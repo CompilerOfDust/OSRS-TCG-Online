@@ -1,0 +1,67 @@
+{
+  "id": 2761,
+  "cardId": "itm_ancestral-hat",
+  "name": "Ancestral hat",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "The hat of a powerful sorceress from a bygone era.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ancestral_hat.png",
+  "debut": "2017-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21018
+    ],
+    "pageSlug": "Ancestral_hat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ancestral_hat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 27000,
+    "lowAlchemy": 18000,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 50748157,
+      "buyLimit": 8,
+      "dailyVolume": 267
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 8,
+        "ranged": -2
+      },
+      "defence": {
+        "stab": 12,
+        "slash": 11,
+        "crush": 13,
+        "magic": 5,
+        "ranged": 0
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 3,
+        "prayer": 0
+      }
+    }
+  }
+}

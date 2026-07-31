@@ -1,0 +1,36 @@
+{
+  "id": 2198,
+  "cardId": "itm_criminals-dagger",
+  "name": "Criminal's dagger",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A flimsy-looking dagger found at the crime scene.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Criminal%27s_dagger.png",
+  "debut": "2003-06-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1813
+    ],
+    "pageSlug": "Criminal%27s_dagger",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Criminal%27s_dagger"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

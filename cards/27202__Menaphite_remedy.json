@@ -1,0 +1,47 @@
+{
+  "id": 4585,
+  "cardId": "itm_menaphite-remedy-1",
+  "name": "Menaphite remedy(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    27205,
+    27208,
+    27211
+  ],
+  "flavourText": "4 doses of Menaphite remedy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Menaphite_remedy%284%29.png",
+  "debut": "2022-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27202
+    ],
+    "pageSlug": "Menaphite_remedy",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Menaphite_remedy"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 66,
+    "lowAlchemy": 44,
+    "weightKg": 0.035,
+    "market": {
+      "guidePrice": 646,
+      "buyLimit": null,
+      "dailyVolume": 4740
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": 1821,
+  "cardId": "itm_law-talisman",
+  "name": "Law talisman",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A mysterious power emanates from the talisman...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Law_talisman.png",
+  "debut": "2004-08-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1458
+    ],
+    "pageSlug": "Law_talisman",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Law_talisman"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Locate",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 2,
+    "lowAlchemy": 1,
+    "weightKg": 0.015,
+    "market": null
+  }
+}

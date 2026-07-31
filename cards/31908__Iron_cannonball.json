@@ -1,0 +1,40 @@
+{
+  "id": 6056,
+  "cardId": "itm_iron-cannonball",
+  "name": "Iron cannonball",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Ammo suited for a boat's cannon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_cannonball.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31908
+    ],
+    "pageSlug": "Iron_cannonball",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_cannonball"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 14,
+      "buyLimit": 11000,
+      "dailyVolume": 1542575
+    }
+  }
+}

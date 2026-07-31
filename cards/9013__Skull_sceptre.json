@@ -1,0 +1,67 @@
+{
+  "id": 9699,
+  "cardId": "itm_skull-sceptre",
+  "name": "Skull sceptre",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    21276
+  ],
+  "flavourText": "A fragile magical Sceptre.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Skull_sceptre.png",
+  "debut": "2006-07-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9013
+    ],
+    "pageSlug": "Skull_sceptre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Skull_sceptre"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Teleport",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.814,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": -1,
+        "crush": 7,
+        "magic": 10,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 4,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 3,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

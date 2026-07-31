@@ -1,0 +1,37 @@
+{
+  "id": 7394,
+  "cardId": "itm_snake-charm",
+  "name": "Snake charm",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Makes a hissing sound.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snake_charm.png",
+  "debut": "2005-04-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4605
+    ],
+    "pageSlug": "Snake_charm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snake_charm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Play",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.1,
+    "market": null
+  }
+}

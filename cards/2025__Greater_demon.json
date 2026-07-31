@@ -1,0 +1,90 @@
+{
+  "id": 2582,
+  "cardId": "npc_greater-demon",
+  "name": "Greater demon",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    7871,
+    7872,
+    7873,
+    10582,
+    12387,
+    15607
+  ],
+  "flavourText": "• Big, red, and incredibly evil. • Big, purple, and incredibly evil.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Greater_demon.png",
+  "debut": "2001-08-13",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      7244,
+      7245,
+      7246
+    ],
+    "pageSlug": "Greater_demon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Greater_demon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Demon"
+    ],
+    "tileSize": "3x3",
+    "combatRating": 92,
+    "vitality": 87,
+    "peakDamage": "9",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 15,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 87,
+      "group": "Greater Demons",
+      "masters": [
+        "Krystilia",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 76,
+      "strength": 78,
+      "defence": 81,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 7582,
+  "cardId": "npc_gelatinnoth-mother",
+  "name": "Gelatinnoth Mother",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [
+    6373,
+    6374,
+    6375,
+    6376,
+    6377,
+    6378
+  ],
+  "flavourText": "Deadly AND fruity!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gelatinnoth_Mother_(air).png",
+  "debut": "2006-03-15",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4884,
+      4885,
+      4886,
+      4887,
+      4888,
+      4889
+    ],
+    "pageSlug": "Gelatinnoth_Mother",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gelatinnoth_Mother"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 130,
+    "vitality": null,
+    "peakDamage": "9 (melee) 20x2 (ranged/magic)",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged",
+      "Magic",
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

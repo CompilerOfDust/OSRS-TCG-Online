@@ -1,0 +1,42 @@
+{
+  "id": 5717,
+  "cardId": "itm_mokhaiotl-waystone",
+  "name": "Mokhaiotl waystone",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A magical shard linked to Mokhaiotl.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mokhaiotl_waystone_1.png",
+  "debut": "2025-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31099
+    ],
+    "pageSlug": "Mokhaiotl_waystone",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mokhaiotl_waystone"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Channel",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 41831,
+      "buyLimit": 100,
+      "dailyVolume": 12474
+    }
+  },
+  "special": false
+}

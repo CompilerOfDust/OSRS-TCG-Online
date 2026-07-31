@@ -1,0 +1,64 @@
+{
+  "id": 4738,
+  "cardId": "itm_corrupted-morrigans-leather-chaps-bh",
+  "name": "Corrupted morrigan's leather chaps (bh)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A powerful pair of leather chaps.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_morrigan%27s_leather_chaps_%28bh%29.png",
+  "debut": "2023-05-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27849
+    ],
+    "pageSlug": "Corrupted_morrigan%27s_leather_chaps_(bh)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_morrigan%27s_leather_chaps_(bh)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Uncharge",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 5.443,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": 23
+      },
+      "defence": {
+        "stab": 9,
+        "slash": 7,
+        "crush": 8,
+        "magic": 20,
+        "ranged": 11
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 4,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

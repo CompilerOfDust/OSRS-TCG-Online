@@ -1,0 +1,41 @@
+{
+  "id": 4502,
+  "cardId": "itm_colossal-pouch",
+  "name": "Colossal pouch",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    26906
+  ],
+  "flavourText": "A colossal-sized pouch used for storing essence.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Colossal_pouch.png",
+  "debut": "2022-03-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26784
+    ],
+    "pageSlug": "Colossal_pouch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Colossal_pouch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Fill",
+      "Empty",
+      "Check",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1,
+    "market": null
+  }
+}

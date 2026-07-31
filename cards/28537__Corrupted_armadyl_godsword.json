@@ -1,0 +1,63 @@
+{
+  "id": 4909,
+  "cardId": "itm_corrupted-armadyl-godsword",
+  "name": "Corrupted armadyl godsword",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A beautiful, heavy sword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_armadyl_godsword.png",
+  "debut": "2023-08-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28537
+    ],
+    "pageSlug": "Corrupted_armadyl_godsword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_armadyl_godsword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 10,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 106,
+        "crush": 64,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 6,
+      "extras": {
+        "meleeStrength": 106,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 7
+      }
+    }
+  }
+}

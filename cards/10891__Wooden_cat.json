@@ -1,0 +1,41 @@
+{
+  "id": 386,
+  "cardId": "itm_wooden-cat",
+  "name": "Wooden cat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A wooden cat toy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wooden_cat.png",
+  "debut": "2007-03-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10891
+    ],
+    "pageSlug": "Wooden_cat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wooden_cat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.03,
+    "market": {
+      "guidePrice": 4182,
+      "buyLimit": 15,
+      "dailyVolume": 853
+    }
+  },
+  "special": false
+}

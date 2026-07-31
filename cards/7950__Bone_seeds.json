@@ -1,0 +1,37 @@
+{
+  "id": 9227,
+  "cardId": "itm_bone-seeds",
+  "name": "Bone seeds",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A highly portable army of skeletal magi.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bone_seeds.png",
+  "debut": "2006-05-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7950
+    ],
+    "pageSlug": "Bone_seeds",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bone_seeds"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Open",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

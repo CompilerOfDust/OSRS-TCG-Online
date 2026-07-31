@@ -1,0 +1,41 @@
+{
+  "id": 8072,
+  "cardId": "itm_weapon-poison__1",
+  "name": "Weapon poison(+)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A vial of extra strong weapon poison, for spears and daggers.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Weapon_poison%28%2B%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5937
+    ],
+    "pageSlug": "Weapon_poison(%2B)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Weapon_poison(%2B)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 172,
+    "lowAlchemy": 115,
+    "weightKg": 0.035,
+    "market": {
+      "guidePrice": 849,
+      "buyLimit": 2000,
+      "dailyVolume": 2825
+    }
+  }
+}

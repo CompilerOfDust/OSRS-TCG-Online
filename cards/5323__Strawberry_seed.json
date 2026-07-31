@@ -1,0 +1,41 @@
+{
+  "id": 7811,
+  "cardId": "itm_strawberry-seed",
+  "name": "Strawberry seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A strawberry seed - plant in an allotment.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Strawberry_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5323
+    ],
+    "pageSlug": "Strawberry_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Strawberry_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 10,
+    "lowAlchemy": 7,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 7,
+      "buyLimit": 600,
+      "dailyVolume": 51115
+    }
+  },
+  "special": false
+}

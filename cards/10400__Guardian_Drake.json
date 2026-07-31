@@ -1,0 +1,64 @@
+{
+  "id": 144,
+  "cardId": "npc_guardian-drake",
+  "name": "Guardian Drake",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "It's really winging the whole dragon thing, isn't it?",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Guardian_Drake.png",
+  "debut": "2020-07-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10400
+    ],
+    "pageSlug": "Guardian_Drake",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Guardian_Drake"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 376,
+    "vitality": null,
+    "peakDamage": "35 (melee) 39+ (spec)",
+    "combatXpBonusPct": 15,
+    "hostile": false,
+    "assaultStyles": [
+      "Ranged melee",
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 84,
+      "reward": 7087,
+      "group": "Drakes",
+      "masters": [
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": 4071,
+  "cardId": "itm_celestial-signet-uncharged",
+  "name": "Celestial signet (uncharged)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A ring forged in the heart of a shooting star. It provides some useful mining boosts.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Celestial_signet_%28uncharged%29.png",
+  "debut": "2021-03-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25543
+    ],
+    "pageSlug": "Celestial_signet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Celestial_signet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Charge",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.006,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

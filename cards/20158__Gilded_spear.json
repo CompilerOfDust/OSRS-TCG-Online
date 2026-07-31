@@ -1,0 +1,76 @@
+{
+  "id": 2552,
+  "cardId": "itm_gilded-spear",
+  "name": "Gilded spear",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [
+    1237,
+    1239,
+    1241,
+    1243,
+    1245,
+    1247,
+    4580
+  ],
+  "flavourText": "A rune tipped spear with gold plate.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gilded_spear.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20158
+    ],
+    "pageSlug": "Gilded_spear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gilded_spear"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 12480,
+    "lowAlchemy": 8320,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 987554,
+      "buyLimit": 70,
+      "dailyVolume": 8
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 36,
+        "slash": 36,
+        "crush": 36,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 42,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": true
+}

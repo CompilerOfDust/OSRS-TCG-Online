@@ -1,0 +1,39 @@
+{
+  "id": 1389,
+  "cardId": "itm_bonecrusher",
+  "name": "Bonecrusher",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Crushes bones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bonecrusher.png",
+  "debut": "2015-03-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13116
+    ],
+    "pageSlug": "Bonecrusher",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bonecrusher"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Check",
+      "Activity",
+      "Uncharge",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.025,
+    "market": null
+  }
+}

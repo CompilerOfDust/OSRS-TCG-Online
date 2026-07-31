@@ -1,0 +1,36 @@
+{
+  "id": 5082,
+  "cardId": "itm_moonlight-grub-paste",
+  "name": "Moonlight grub paste",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A gooey, sparkling, grub-based paste.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Moonlight_grub_paste.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29079
+    ],
+    "pageSlug": "Moonlight_grub_paste",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Moonlight_grub_paste"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

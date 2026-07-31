@@ -1,0 +1,36 @@
+{
+  "id": 2049,
+  "cardId": "itm_holy-table-napkin",
+  "name": "Holy table napkin",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A cloth given to me by Sir Galahad.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Holy_table_napkin.png",
+  "debut": "2002-07-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      15
+    ],
+    "pageSlug": "Holy_table_napkin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Holy_table_napkin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

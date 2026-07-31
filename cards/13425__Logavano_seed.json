@@ -1,0 +1,36 @@
+{
+  "id": 1549,
+  "cardId": "itm_logavano-seed",
+  "name": "Logavano seed",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Plant it in the land strips in Hosidius.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Logavano_seed.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13425
+    ],
+    "pageSlug": "Logavano_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Logavano_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0,
+    "market": null
+  }
+}

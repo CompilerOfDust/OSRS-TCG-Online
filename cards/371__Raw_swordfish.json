@@ -1,0 +1,40 @@
+{
+  "id": 6790,
+  "cardId": "itm_raw-swordfish",
+  "name": "Raw swordfish",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_swordfish.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      371
+    ],
+    "pageSlug": "Raw_swordfish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_swordfish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 48,
+    "lowAlchemy": 32,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 190,
+      "buyLimit": 15000,
+      "dailyVolume": 1103585
+    }
+  }
+}

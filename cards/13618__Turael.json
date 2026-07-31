@@ -1,0 +1,59 @@
+{
+  "id": 1632,
+  "cardId": "npc_turael",
+  "name": "Turael",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "He looks dangerous!",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-01-26",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13618
+    ],
+    "pageSlug": "Turael",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Turael"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Burthorpe"
+    ],
+    "questLine": "Animal Magnetism",
+    "shop": "Slayer Equipment , Slayer Rewards",
+    "menuActions": [
+      "Talk-to",
+      "Assignment",
+      "Trade",
+      "Rewards"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

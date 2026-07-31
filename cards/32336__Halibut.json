@@ -1,0 +1,42 @@
+{
+  "id": 6171,
+  "cardId": "itm_halibut",
+  "name": "Halibut",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Some nicely cooked halibut.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Halibut.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32336
+    ],
+    "pageSlug": "Halibut",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Halibut"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 102,
+    "lowAlchemy": 68,
+    "weightKg": 0.65,
+    "market": {
+      "guidePrice": 1885,
+      "buyLimit": 10000,
+      "dailyVolume": 239221
+    }
+  },
+  "special": false
+}

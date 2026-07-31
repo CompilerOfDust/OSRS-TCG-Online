@@ -1,0 +1,41 @@
+{
+  "id": 3252,
+  "cardId": "itm_premade-sy-crunch",
+  "name": "Premade s'y crunch",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some premade Spicy Crunchies.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Premade_s%27y_crunch.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2241
+    ],
+    "pageSlug": "Premade_s%27y_crunch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Premade_s%27y_crunch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 51,
+    "lowAlchemy": 34,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 47,
+      "buyLimit": 6000,
+      "dailyVolume": 0
+    }
+  }
+}

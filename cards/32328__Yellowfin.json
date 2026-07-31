@@ -1,0 +1,41 @@
+{
+  "id": 6169,
+  "cardId": "itm_yellowfin",
+  "name": "Yellowfin",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Some nicely cooked yellowfin.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yellowfin.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32328
+    ],
+    "pageSlug": "Yellowfin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yellowfin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 102,
+    "lowAlchemy": 68,
+    "weightKg": 0.65,
+    "market": {
+      "guidePrice": 896,
+      "buyLimit": null,
+      "dailyVolume": 1193
+    }
+  }
+}

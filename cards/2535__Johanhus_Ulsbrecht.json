@@ -1,0 +1,57 @@
+{
+  "id": 4003,
+  "cardId": "npc_johanhus-ulsbrecht",
+  "name": "Johanhus Ulsbrecht",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The leader of the 'Humans Against Monsters' group.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-02-22",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2535,
+      4330
+    ],
+    "pageSlug": "Johanhus_Ulsbrecht",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Johanhus_Ulsbrecht"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "H.A.M. Dungeon"
+    ],
+    "questLine": "The Lost Tribe , Death to the Dorgeshuun , One Small Favour",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

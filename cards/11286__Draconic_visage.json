@@ -1,0 +1,40 @@
+{
+  "id": 608,
+  "cardId": "itm_draconic-visage",
+  "name": "Draconic visage",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "It looks like this could be attached to a shield somehow.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Draconic_visage.png",
+  "debut": "2007-06-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11286
+    ],
+    "pageSlug": "Draconic_visage",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Draconic_visage"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 450000,
+    "lowAlchemy": 300000,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 3784847,
+      "buyLimit": 5,
+      "dailyVolume": 191
+    }
+  }
+}

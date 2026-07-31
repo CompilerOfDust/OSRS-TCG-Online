@@ -1,0 +1,36 @@
+{
+  "id": 2075,
+  "cardId": "itm_crushed-gem",
+  "name": "Crushed gem",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This gem is crushed and broken.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Crushed_gem.png",
+  "debut": "2003-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1633
+    ],
+    "pageSlug": "Crushed_gem",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Crushed_gem"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

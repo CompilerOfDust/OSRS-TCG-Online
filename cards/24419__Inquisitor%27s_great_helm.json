@@ -1,0 +1,67 @@
+{
+  "id": 3731,
+  "cardId": "itm_inquisitors-great-helm",
+  "name": "Inquisitor's great helm",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "The great helmet of the turncloak justiciar.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Inquisitor%27s_great_helm.png",
+  "debut": "2020-02-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24419
+    ],
+    "pageSlug": "Inquisitor%27s_great_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Inquisitor%27s_great_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 2.721,
+    "market": {
+      "guidePrice": 68063950,
+      "buyLimit": 8,
+      "dailyVolume": 138
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 10,
+        "magic": -5,
+        "ranged": -5
+      },
+      "defence": {
+        "stab": 19,
+        "slash": 10,
+        "crush": 21,
+        "magic": 0,
+        "ranged": 12
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 6,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

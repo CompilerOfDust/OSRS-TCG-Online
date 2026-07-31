@@ -1,0 +1,36 @@
+{
+  "id": 5226,
+  "cardId": "itm_golden-feather__1",
+  "name": "Golden feather",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A replica feather made of solid gold.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golden_feather_%28Priest_in_Peril%29.png",
+  "debut": "2004-06-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2950
+    ],
+    "pageSlug": "Golden_feather_(Priest_in_Peril)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golden_feather_(Priest_in_Peril)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 180,
+    "lowAlchemy": 120,
+    "weightKg": 0.002,
+    "market": null
+  }
+}

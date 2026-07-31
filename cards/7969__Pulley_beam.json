@@ -1,0 +1,36 @@
+{
+  "id": 9234,
+  "cardId": "itm_pulley-beam",
+  "name": "Pulley beam",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A beam with a pulley attached.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pulley_beam.png",
+  "debut": "2006-05-22",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7969
+    ],
+    "pageSlug": "Pulley_beam",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pulley_beam"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 5781,
+  "cardId": "itm_blessed-strykewyrm-bones",
+  "name": "Blessed strykewyrm bones",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Bones blessed at an exposed altar.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blessed_strykewyrm_bones.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31264
+    ],
+    "pageSlug": "Blessed_strykewyrm_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blessed_strykewyrm_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Break-down",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 1.6,
+    "market": null
+  }
+}

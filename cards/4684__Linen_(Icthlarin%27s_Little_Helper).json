@@ -1,0 +1,40 @@
+{
+  "id": 7450,
+  "cardId": "itm_linen",
+  "name": "Linen",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "One sheet of mummy wrap.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Linen_%28Icthlarin%27s_Little_Helper%29.png",
+  "debut": "2005-04-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4684
+    ],
+    "pageSlug": "Linen_(Icthlarin%27s_Little_Helper)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Linen_(Icthlarin%27s_Little_Helper)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 1197,
+      "buyLimit": 15,
+      "dailyVolume": 447
+    }
+  }
+}

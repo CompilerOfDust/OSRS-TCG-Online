@@ -1,0 +1,44 @@
+{
+  "id": 5778,
+  "cardId": "itm_jogre-bones",
+  "name": "Jogre bones",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    4271
+  ],
+  "flavourText": "Fairly big bones which smell distinctly of Jogre.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jogre_bones.png",
+  "debut": "2004-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3125
+    ],
+    "pageSlug": "Jogre_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jogre_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.8,
+    "market": {
+      "guidePrice": 703,
+      "buyLimit": 3000,
+      "dailyVolume": 1834
+    }
+  },
+  "special": false
+}

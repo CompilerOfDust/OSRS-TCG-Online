@@ -1,0 +1,58 @@
+{
+  "id": 6192,
+  "cardId": "npc_tree",
+  "name": "Tree",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Its bark is worse than its swipe.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2001-01-04",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3240,
+      4416,
+      4417
+    ],
+    "pageSlug": "Undead_tree",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Undead_tree"
+  },
+  "npcProfile": {
+    "race": "Plant",
+    "gender": null,
+    "locations": [
+      "Draynor Manor"
+    ],
+    "questLine": "Animal Magnetism",
+    "shop": null,
+    "menuActions": [
+      "None"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

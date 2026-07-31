@@ -1,0 +1,67 @@
+{
+  "id": 494,
+  "cardId": "itm_black-chainbody",
+  "name": "Black chainbody",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A series of connected metal rings.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_chainbody.png",
+  "debut": "2001-12-08",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1107
+    ],
+    "pageSlug": "Black_chainbody",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_chainbody"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 864,
+    "lowAlchemy": 576,
+    "weightKg": 6.803,
+    "market": {
+      "guidePrice": 2151,
+      "buyLimit": 125,
+      "dailyVolume": 392
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 22,
+        "slash": 32,
+        "crush": 39,
+        "magic": -3,
+        "ranged": 24
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

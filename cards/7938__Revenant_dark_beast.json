@@ -1,0 +1,66 @@
+{
+  "id": 9216,
+  "cardId": "npc_revenant-dark-beast",
+  "name": "Revenant dark beast",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The ghost of a dark beast slain long ago.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Revenant_dark_beast.png",
+  "debut": "2017-11-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7938
+    ],
+    "pageSlug": "Revenant_dark_beast",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Revenant_dark_beast"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 120,
+    "vitality": null,
+    "peakDamage": "23",
+    "combatXpBonusPct": 12.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 27,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 157,
+      "group": "Revenants, Ghosts",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Krystilia",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

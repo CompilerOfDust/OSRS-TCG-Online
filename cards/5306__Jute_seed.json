@@ -1,0 +1,40 @@
+{
+  "id": 7787,
+  "cardId": "itm_jute-seed",
+  "name": "Jute seed",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A jute plant seed - plant in a hops patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jute_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5306
+    ],
+    "pageSlug": "Jute_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jute_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 6,
+      "buyLimit": 2000,
+      "dailyVolume": 822566
+    }
+  }
+}

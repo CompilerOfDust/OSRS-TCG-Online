@@ -1,0 +1,41 @@
+{
+  "id": 2778,
+  "cardId": "itm_arcane-prayer-scroll",
+  "name": "Arcane prayer scroll",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "Scrawled words that can invoke the power of the gods.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arcane_prayer_scroll.png",
+  "debut": "2017-01-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21079
+    ],
+    "pageSlug": "Arcane_prayer_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arcane_prayer_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 48000,
+    "lowAlchemy": 32000,
+    "weightKg": 0.015,
+    "market": {
+      "guidePrice": 6173632,
+      "buyLimit": 5,
+      "dailyVolume": 465
+    }
+  }
+}

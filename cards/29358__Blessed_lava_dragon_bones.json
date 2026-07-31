@@ -1,0 +1,37 @@
+{
+  "id": 5185,
+  "cardId": "itm_blessed-lava-dragon-bones",
+  "name": "Blessed lava dragon bones",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Bones blessed at an exposed altar.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blessed_lava_dragon_bones.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29358
+    ],
+    "pageSlug": "Blessed_lava_dragon_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blessed_lava_dragon_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Break-down",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 1.6,
+    "market": null
+  }
+}

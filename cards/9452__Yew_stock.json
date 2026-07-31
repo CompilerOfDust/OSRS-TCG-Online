@@ -1,0 +1,40 @@
+{
+  "id": 9878,
+  "cardId": "itm_yew-stock",
+  "name": "Yew stock",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A yew crossbow stock.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yew_stock.png",
+  "debut": "2006-07-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9452
+    ],
+    "pageSlug": "Yew_stock",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yew_stock"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 100,
+    "lowAlchemy": 66,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 139,
+      "buyLimit": 10000,
+      "dailyVolume": 283
+    }
+  }
+}

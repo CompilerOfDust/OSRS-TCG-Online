@@ -1,0 +1,41 @@
+{
+  "id": 3773,
+  "cardId": "itm_blighted-manta-ray",
+  "name": "Blighted manta ray",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A rare catch, now blighted so it can be eaten only in the Wilderness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blighted_manta_ray.png",
+  "debut": "2020-04-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24589
+    ],
+    "pageSlug": "Blighted_manta_ray",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blighted_manta_ray"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 110,
+      "buyLimit": 10000,
+      "dailyVolume": 1346176
+    }
+  }
+}

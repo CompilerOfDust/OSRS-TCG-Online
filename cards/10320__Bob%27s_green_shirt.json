@@ -1,0 +1,67 @@
+{
+  "id": 98,
+  "cardId": "itm_bobs-green-shirt",
+  "name": "Bob's green shirt",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "'Bob says: Never trade in the wilderness!'",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bob%27s_green_shirt.png",
+  "debut": "2006-12-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10320
+    ],
+    "pageSlug": "Bob%27s_green_shirt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bob%27s_green_shirt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 7401,
+      "buyLimit": 4,
+      "dailyVolume": 39
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": 3690,
+  "cardId": "itm_fang",
+  "name": "Fang",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    27219
+  ],
+  "flavourText": "A fang, dripping with venom.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fang_%28The_Fremennik_Exiles%29.png",
+  "debut": "2019-09-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24254
+    ],
+    "pageSlug": "Fang_(The_Fremennik_Exiles)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fang_(The_Fremennik_Exiles)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Investigate",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.005,
+    "market": null
+  }
+}

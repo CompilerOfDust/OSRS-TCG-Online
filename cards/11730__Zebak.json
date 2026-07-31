@@ -1,0 +1,63 @@
+{
+  "id": 763,
+  "cardId": "npc_zebak",
+  "name": "Zebak",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A big gluttonous croc.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Zebak.png",
+  "debut": "2022-08-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11730,
+      11732
+    ],
+    "pageSlug": "Zebak",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zebak"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "9x9",
+    "combatRating": 371,
+    "vitality": 580,
+    "peakDamage": "38 ( Melee ) 16 ( Magic ) 16 ( Ranged )",
+    "combatXpBonusPct": 62.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Melee",
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 7,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 250,
+      "strength": 140,
+      "defence": 70,
+      "magic": 100,
+      "ranged": 120
+    },
+    "aggressiveBonuses": null
+  }
+}

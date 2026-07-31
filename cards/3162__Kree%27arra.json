@@ -1,0 +1,68 @@
+{
+  "id": 5898,
+  "cardId": "npc_kreearra",
+  "name": "Kree'arra",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [
+    6492
+  ],
+  "flavourText": "Graceful avatar of Armadyl.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kree%27arra.png",
+  "debut": "2013-10-17",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3162
+    ],
+    "pageSlug": "Kree%27arra",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kree%27arra"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "5x5",
+    "combatRating": 580,
+    "vitality": null,
+    "peakDamage": "69 (Ranged) 21 (Magic) 25 (Melee)",
+    "combatXpBonusPct": 40,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged",
+      "Ranged magic",
+      "Magical melee"
+    ],
+    "attackTempo": 3,
+    "respawnTicks": 150,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 357,
+      "group": "Aviansie, Bosses",
+      "masters": [
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

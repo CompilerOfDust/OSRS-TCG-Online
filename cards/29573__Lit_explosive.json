@@ -1,0 +1,36 @@
+{
+  "id": 5248,
+  "cardId": "itm_lit-explosive",
+  "name": "Lit explosive",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's going to blow!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lit_explosive.png",
+  "debut": "2024-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29573
+    ],
+    "pageSlug": "Lit_explosive",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lit_explosive"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.1,
+    "market": null
+  }
+}

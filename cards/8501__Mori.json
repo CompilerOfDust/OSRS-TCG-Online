@@ -1,0 +1,57 @@
+{
+  "id": 9415,
+  "cardId": "npc_mori",
+  "name": "Mori",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "She looks distressed.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2019-01-10",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8501,
+      8502
+    ],
+    "pageSlug": "Mori",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mori"
+  },
+  "npcProfile": {
+    "race": "Citizen of Arceuus",
+    "gender": "Female",
+    "locations": [
+      "Arceuus"
+    ],
+    "questLine": "The Ascent of Arceuus , A Kingdom Divided",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

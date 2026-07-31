@@ -1,0 +1,40 @@
+{
+  "id": 3379,
+  "cardId": "itm_white-lily",
+  "name": "White lily",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A fully bloomed White lily.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/White_lily.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22932
+    ],
+    "pageSlug": "White_lily",
+    "pageUrl": "https://oldschool.runescape.wiki/w/White_lily"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 508,
+      "buyLimit": 600,
+      "dailyVolume": 1338
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": 208,
+  "cardId": "npc_headless-beast",
+  "name": "Headless Beast",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    10492,
+    10493
+  ],
+  "flavourText": "Looks like it might have been a bear once.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Headless_Beast.png",
+  "debut": "2020-11-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10506
+    ],
+    "pageSlug": "Headless_Beast",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Headless_Beast"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 82,
+    "vitality": null,
+    "peakDamage": "10 (Melee) 16 (Special attack)",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": true,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

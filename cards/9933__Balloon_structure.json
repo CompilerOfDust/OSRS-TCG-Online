@@ -1,0 +1,36 @@
+{
+  "id": 10149,
+  "cardId": "itm_balloon-structure",
+  "name": "Balloon structure",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An incomplete origami balloon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Balloon_structure.png",
+  "debut": "2006-11-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9933
+    ],
+    "pageSlug": "Balloon_structure",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Balloon_structure"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.001,
+    "market": null
+  }
+}

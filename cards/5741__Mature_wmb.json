@@ -1,0 +1,42 @@
+{
+  "id": 8008,
+  "cardId": "itm_mature-wmb",
+  "name": "Mature wmb",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This looks a good deal stronger than normal Wizards Mind Bomb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mature_wmb.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5741
+    ],
+    "pageSlug": "Mature_wmb",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mature_wmb"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 35060,
+      "buyLimit": 2000,
+      "dailyVolume": 1
+    }
+  },
+  "special": false
+}

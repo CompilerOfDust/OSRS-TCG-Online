@@ -1,0 +1,69 @@
+{
+  "id": 3343,
+  "cardId": "itm_dragon-knife",
+  "name": "Dragon knife",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    22812
+  ],
+  "flavourText": "A finely balanced and powerful throwing knife.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_knife.png",
+  "debut": "2019-01-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22804
+    ],
+    "pageSlug": "Dragon_knife",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_knife"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 100,
+    "lowAlchemy": 66,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 4633,
+      "buyLimit": 11000,
+      "dailyVolume": 130346
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 28
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 3,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 30,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

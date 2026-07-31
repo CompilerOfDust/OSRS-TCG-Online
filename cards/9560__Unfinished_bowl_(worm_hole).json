@@ -1,0 +1,39 @@
+{
+  "id": 9922,
+  "cardId": "itm_unfinished-bowl__4",
+  "name": "Unfinished bowl",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    9562,
+    9564
+  ],
+  "flavourText": "This unfinished worm hole needs garnishing with equa leaves.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Unfinished_bowl_%28worm_hole%29.png",
+  "debut": "2006-08-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9560
+    ],
+    "pageSlug": "Unfinished_bowl_(worm_hole)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Unfinished_bowl_(worm_hole)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.275,
+    "market": null
+  }
+}

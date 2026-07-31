@@ -1,0 +1,36 @@
+{
+  "id": 5568,
+  "cardId": "itm_coral-key",
+  "name": "Coral key",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Used to open Coral Chests on the Great Conch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Coral_key.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30735
+    ],
+    "pageSlug": "Coral_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Coral_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.01,
+    "market": null
+  }
+}

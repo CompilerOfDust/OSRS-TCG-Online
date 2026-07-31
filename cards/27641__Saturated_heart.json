@@ -1,0 +1,41 @@
+{
+  "id": 4677,
+  "cardId": "itm_saturated-heart",
+  "name": "Saturated heart",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "This heart holds an ancient magical power within.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Saturated_heart.png",
+  "debut": "2023-01-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27641
+    ],
+    "pageSlug": "Saturated_heart",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Saturated_heart"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Invigorate",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 360000,
+    "lowAlchemy": 240000,
+    "weightKg": 0.45,
+    "market": {
+      "guidePrice": 82352568,
+      "buyLimit": 8,
+      "dailyVolume": 241
+    }
+  }
+}

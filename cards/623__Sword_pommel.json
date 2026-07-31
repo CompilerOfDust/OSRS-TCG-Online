@@ -1,0 +1,36 @@
+{
+  "id": 8261,
+  "cardId": "itm_sword-pommel",
+  "name": "Sword pommel",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An ivory sword pommel.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sword_pommel.png",
+  "debut": "2003-01-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      623
+    ],
+    "pageSlug": "Sword_pommel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sword_pommel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.085,
+    "market": null
+  }
+}

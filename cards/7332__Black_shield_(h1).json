@@ -1,0 +1,72 @@
+{
+  "id": 8853,
+  "cardId": "itm_black-shield-h1",
+  "name": "Black shield (h1)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    7338,
+    7344,
+    7350,
+    7356
+  ],
+  "flavourText": "A shield with a heraldic design",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Black_shield_%28h1%29.png",
+  "debut": "2006-02-20",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7332
+    ],
+    "pageSlug": "Black_shield_(h1)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Black_shield_(h1)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 979,
+    "lowAlchemy": 652,
+    "weightKg": 5.443,
+    "market": {
+      "guidePrice": 1987,
+      "buyLimit": 70,
+      "dailyVolume": 27
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 17,
+        "slash": 19,
+        "crush": 18,
+        "magic": -1,
+        "ranged": 18
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

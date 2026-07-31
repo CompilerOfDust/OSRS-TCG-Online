@@ -1,0 +1,60 @@
+{
+  "id": 7478,
+  "cardId": "npc_auguste",
+  "name": "Auguste",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Balloonist extraordinaire.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2006-11-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4715,
+      4716,
+      4717,
+      4718
+    ],
+    "pageSlug": "Auguste",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Auguste"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Entrana"
+    ],
+    "questLine": "Enlightened Journey , Monkey Madness II",
+    "shop": null,
+    "menuActions": [
+      "Talk-to",
+      "Fly"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

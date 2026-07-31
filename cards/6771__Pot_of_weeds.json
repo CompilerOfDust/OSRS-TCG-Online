@@ -1,0 +1,36 @@
+{
+  "id": 8571,
+  "cardId": "itm_pot-of-weeds",
+  "name": "Pot of weeds",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Contains garden weeds.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pot_of_weeds.png",
+  "debut": "2005-11-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6771
+    ],
+    "pageSlug": "Pot_of_weeds",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pot_of_weeds"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.6,
+    "market": null
+  }
+}

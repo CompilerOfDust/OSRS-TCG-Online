@@ -1,0 +1,43 @@
+{
+  "id": 1241,
+  "cardId": "itm_carrallanger-teleport",
+  "name": "Carrallanger teleport",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A teleport to Carrallanger, in level 19 Wilderness.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Carrallanger_teleport_%28tablet%29.png",
+  "debut": "2014-09-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12776
+    ],
+    "pageSlug": "Carrallanger_teleport_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Carrallanger_teleport_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Configure",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2268,
+      "buyLimit": 10000,
+      "dailyVolume": 4578
+    }
+  },
+  "special": false
+}

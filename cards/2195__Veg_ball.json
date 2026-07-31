@@ -1,0 +1,42 @@
+{
+  "id": 3087,
+  "cardId": "itm_veg-ball",
+  "name": "Veg ball",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This looks pretty healthy.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Veg_ball.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2195
+    ],
+    "pageSlug": "Veg_ball",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Veg_ball"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.35,
+    "market": {
+      "guidePrice": 2002,
+      "buyLimit": 6000,
+      "dailyVolume": 17
+    }
+  },
+  "special": false
+}

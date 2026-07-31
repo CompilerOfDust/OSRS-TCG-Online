@@ -1,0 +1,65 @@
+{
+  "id": 8973,
+  "cardId": "npc_vanguard",
+  "name": "Vanguard",
+  "cardKind": "npc",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Formerly a member of Xeric's elite tactical unit.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vanguard_(magic).png",
+  "debut": "2017-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7526,
+      7527,
+      7528,
+      7529
+    ],
+    "pageSlug": "Vanguard",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vanguard"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Xerician"
+    ],
+    "tileSize": "3x3",
+    "combatRating": 1,
+    "vitality": 180,
+    "peakDamage": "22",
+    "combatXpBonusPct": 27.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 150,
+      "strength": 150,
+      "defence": 160,
+      "magic": 150,
+      "ranged": 150
+    },
+    "aggressiveBonuses": null
+  }
+}

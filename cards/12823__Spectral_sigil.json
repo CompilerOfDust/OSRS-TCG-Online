@@ -1,0 +1,40 @@
+{
+  "id": 1289,
+  "cardId": "itm_spectral-sigil",
+  "name": "Spectral sigil",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "A sigil in the shape of a spectral symbol.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Spectral_sigil.png",
+  "debut": "2014-10-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12823
+    ],
+    "pageSlug": "Spectral_sigil",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Spectral_sigil"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 450000,
+    "lowAlchemy": 300000,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 27169194,
+      "buyLimit": 5,
+      "dailyVolume": 0
+    }
+  }
+}

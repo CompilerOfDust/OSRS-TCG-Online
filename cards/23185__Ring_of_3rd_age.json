@@ -1,0 +1,67 @@
+{
+  "id": 3434,
+  "cardId": "itm_ring-of-3rd-age",
+  "name": "Ring of 3rd age",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Makes you look like something really old, for those moments when you want that.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ring_of_3rd_age.png",
+  "debut": "2019-04-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23185
+    ],
+    "pageSlug": "Ring_of_3rd_age",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ring_of_3rd_age"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 7200,
+    "lowAlchemy": 4800,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 1349935,
+      "buyLimit": 4,
+      "dailyVolume": 81
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

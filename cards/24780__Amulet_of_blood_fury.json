@@ -1,0 +1,64 @@
+{
+  "id": 3830,
+  "cardId": "itm_amulet-of-blood-fury",
+  "name": "Amulet of blood fury",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A very powerful onyx amulet, imbued with blood magic.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Amulet_of_blood_fury.png",
+  "debut": "2020-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24780
+    ],
+    "pageSlug": "Amulet_of_blood_fury",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Amulet_of_blood_fury"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Check",
+      "Revert"
+    ],
+    "gearSlot": "neck",
+    "highAlchemy": 241200,
+    "lowAlchemy": 160800,
+    "weightKg": 0.02,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 10,
+        "slash": 10,
+        "crush": 10,
+        "magic": 10,
+        "ranged": 10
+      },
+      "defence": {
+        "stab": 15,
+        "slash": 15,
+        "crush": 15,
+        "magic": 15,
+        "ranged": 15
+      },
+      "slot": "neck",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 8,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  }
+}

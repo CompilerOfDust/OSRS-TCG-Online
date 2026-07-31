@@ -1,0 +1,76 @@
+{
+  "id": 3463,
+  "cardId": "itm_gilded-axe",
+  "name": "Gilded axe",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [
+    1349,
+    1351,
+    1353,
+    1355,
+    1357,
+    1359,
+    1361
+  ],
+  "flavourText": "A powerful axe.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gilded_axe.png",
+  "debut": "2019-04-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23279
+    ],
+    "pageSlug": "Gilded_axe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gilded_axe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 21000,
+    "lowAlchemy": 14000,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 4794056,
+      "buyLimit": 4,
+      "dailyVolume": 29
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -2,
+        "slash": 26,
+        "crush": 24,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 1,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 29,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": true
+}

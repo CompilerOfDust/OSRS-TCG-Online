@@ -1,0 +1,59 @@
+{
+  "id": 7720,
+  "cardId": "npc_builder",
+  "name": "Builder",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A worker on the train link.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2007-04-24",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5178,
+      5179,
+      5180,
+      5181
+    ],
+    "pageSlug": "Builder",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Builder"
+  },
+  "npcProfile": {
+    "race": "Dwarf",
+    "gender": "Male",
+    "locations": [
+      "Dorgesh-Kaan–Keldagrim train system"
+    ],
+    "questLine": "Another Slice of H.A.M.",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

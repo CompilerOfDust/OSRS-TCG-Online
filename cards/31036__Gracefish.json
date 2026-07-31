@@ -1,0 +1,38 @@
+{
+  "id": 5688,
+  "cardId": "itm_gracefish",
+  "name": "Gracefish",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Some nicely cooked gracefish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Gracefish.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31036
+    ],
+    "pageSlug": "Gracefish",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Gracefish"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 102,
+    "lowAlchemy": 68,
+    "weightKg": 0.65,
+    "market": null
+  },
+  "special": false
+}

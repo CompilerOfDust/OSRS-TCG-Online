@@ -1,0 +1,37 @@
+{
+  "id": 4161,
+  "cardId": "itm_sulphur-potion",
+  "name": "Sulphur potion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A defence potion with sulphur in. It needs enchanting.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sulphur_potion.png",
+  "debut": "2021-06-16",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      25812
+    ],
+    "pageSlug": "Sulphur_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sulphur_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.056,
+    "market": null
+  }
+}

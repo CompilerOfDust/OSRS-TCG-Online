@@ -1,0 +1,67 @@
+{
+  "id": 1330,
+  "cardId": "itm_toxic-blowpipe-empty",
+  "name": "Toxic blowpipe (empty)",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "Fires darts while coating them with venom.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Toxic_blowpipe_%28empty%29.png",
+  "debut": "2015-01-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12924
+    ],
+    "pageSlug": "Toxic_blowpipe",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Toxic_blowpipe"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Dismantle",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 72000,
+    "lowAlchemy": 48000,
+    "weightKg": 0.3,
+    "market": {
+      "guidePrice": 9855613,
+      "buyLimit": 8,
+      "dailyVolume": 874
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 30
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 3,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

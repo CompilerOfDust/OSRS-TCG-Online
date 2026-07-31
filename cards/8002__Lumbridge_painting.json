@@ -1,0 +1,36 @@
+{
+  "id": 9276,
+  "cardId": "itm_lumbridge-painting",
+  "name": "Lumbridge painting",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Oxtable's famous painting of the Lumbridge water mill.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lumbridge_painting.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8002
+    ],
+    "pageSlug": "Lumbridge_painting",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lumbridge_painting"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 1,
+    "market": null
+  }
+}

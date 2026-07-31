@@ -1,0 +1,77 @@
+{
+  "id": 7769,
+  "cardId": "npc_monk-of-zamorak",
+  "name": "Monk of Zamorak",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    527,
+    8400,
+    12618,
+    12619,
+    16154,
+    16155,
+    16156,
+    16271,
+    16272,
+    16273
+  ],
+  "flavourText": "An evil human cleric.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Monk_of_Zamorak_(level_17).png",
+  "debut": "2001-04-06",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      528,
+      529,
+      3485,
+      3486,
+      8401,
+      8698
+    ],
+    "pageSlug": "Monk_of_Zamorak",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Monk_of_Zamorak"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 17,
+    "vitality": 10,
+    "peakDamage": "5",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush",
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 250,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 8,
+      "strength": 8,
+      "defence": 12,
+      "magic": 25,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

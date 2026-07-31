@@ -1,0 +1,78 @@
+{
+  "id": 2647,
+  "cardId": "itm_pyromancer-boots",
+  "name": "Pyromancer boots",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    11019,
+    12891,
+    12896,
+    13182,
+    19695,
+    20433,
+    23285,
+    23288,
+    23291,
+    23294,
+    26310,
+    27806,
+    27808,
+    33093
+  ],
+  "flavourText": "The boots of the Pyromancers.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pyromancer_boots.png",
+  "debut": "2016-09-08",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20710
+    ],
+    "pageSlug": "Pyromancer_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pyromancer_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 1.36,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

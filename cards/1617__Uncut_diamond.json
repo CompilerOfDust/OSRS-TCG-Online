@@ -1,0 +1,40 @@
+{
+  "id": 2060,
+  "cardId": "itm_uncut-diamond",
+  "name": "Uncut diamond",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "This would be worth more cut.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Uncut_diamond.png",
+  "debut": "2001-03-17",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1617
+    ],
+    "pageSlug": "Uncut_diamond",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Uncut_diamond"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 120,
+    "lowAlchemy": 80,
+    "weightKg": 0.003,
+    "market": {
+      "guidePrice": 2436,
+      "buyLimit": 10000,
+      "dailyVolume": 883730
+    }
+  }
+}

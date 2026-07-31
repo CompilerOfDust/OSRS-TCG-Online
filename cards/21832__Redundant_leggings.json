@@ -1,0 +1,41 @@
+{
+  "id": 3045,
+  "cardId": "itm_redundant-leggings",
+  "name": "Redundant leggings",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Never used.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Redundant_leggings.png",
+  "debut": "2017-11-30",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21832
+    ],
+    "pageSlug": "Redundant_leggings",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Redundant_leggings"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 9.071,
+    "market": {
+      "guidePrice": 22000000,
+      "buyLimit": null,
+      "dailyVolume": null
+    }
+  }
+}

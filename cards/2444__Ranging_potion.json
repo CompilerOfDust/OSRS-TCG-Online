@@ -1,0 +1,49 @@
+{
+  "id": 2151,
+  "cardId": "itm_ranging-potion-1",
+  "name": "Ranging potion(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    169,
+    171,
+    173,
+    11509,
+    11511
+  ],
+  "flavourText": "4 doses of ranging potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ranging_potion%284%29.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2444
+    ],
+    "pageSlug": "Ranging_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ranging_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 86,
+    "lowAlchemy": 57,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 580,
+      "buyLimit": 2000,
+      "dailyVolume": 6824
+    }
+  },
+  "special": false
+}

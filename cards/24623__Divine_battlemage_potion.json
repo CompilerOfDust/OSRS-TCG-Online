@@ -1,0 +1,46 @@
+{
+  "id": 3788,
+  "cardId": "itm_divine-battlemage-potion-1",
+  "name": "Divine battlemage potion(4)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    24626,
+    24629,
+    24632
+  ],
+  "flavourText": "4 doses of divine battlemage potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Divine_battlemage_potion%284%29.png",
+  "debut": "2020-04-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24623
+    ],
+    "pageSlug": "Divine_battlemage_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Divine_battlemage_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 108,
+    "lowAlchemy": 72,
+    "weightKg": 0.03,
+    "market": {
+      "guidePrice": 5563,
+      "buyLimit": 2000,
+      "dailyVolume": 18
+    }
+  }
+}

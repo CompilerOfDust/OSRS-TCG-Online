@@ -1,0 +1,68 @@
+{
+  "id": 5202,
+  "cardId": "itm_purple-robe-bottoms",
+  "name": "Purple robe bottoms",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Made by werewolves for werewolves.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Purple_robe_bottoms.png",
+  "debut": "2004-06-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2938
+    ],
+    "pageSlug": "Purple_robe_bottoms",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Purple_robe_bottoms"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 562,
+      "buyLimit": 150,
+      "dailyVolume": 3
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 2,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

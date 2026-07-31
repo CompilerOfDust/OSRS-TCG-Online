@@ -1,0 +1,37 @@
+{
+  "id": 597,
+  "cardId": "itm_impling-scroll",
+  "name": "Impling scroll",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Lets you easily identify your prey.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Impling_scroll.png",
+  "debut": "2007-06-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11273
+    ],
+    "pageSlug": "Impling_scroll",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Impling_scroll"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Toggle-view",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

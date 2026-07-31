@@ -1,0 +1,63 @@
+{
+  "id": 8992,
+  "cardId": "npc_scavenger-beast",
+  "name": "Scavenger beast",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A feral denizen of the caves.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_scavenger.png",
+  "debut": "2017-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7548,
+      7549
+    ],
+    "pageSlug": "Scavenger_beast",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Scavenger_beast"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Xerician"
+    ],
+    "tileSize": "2x2",
+    "combatRating": 1,
+    "vitality": 30,
+    "peakDamage": "13",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 120,
+      "strength": 120,
+      "defence": 45,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

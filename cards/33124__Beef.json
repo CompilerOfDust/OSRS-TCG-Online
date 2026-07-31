@@ -1,0 +1,37 @@
+{
+  "id": 6412,
+  "cardId": "itm_beef",
+  "name": "Beef",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Commonly referred to as Sir Loin.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Beef.png",
+  "debut": "2026-02-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33124
+    ],
+    "pageSlug": "Beef",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Beef"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

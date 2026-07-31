@@ -1,0 +1,36 @@
+{
+  "id": 9167,
+  "cardId": "itm_snake-spine",
+  "name": "Snake spine",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This needs a good polish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Snake_spine.png",
+  "debut": "2006-04-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7860
+    ],
+    "pageSlug": "Snake_spine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Snake_spine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

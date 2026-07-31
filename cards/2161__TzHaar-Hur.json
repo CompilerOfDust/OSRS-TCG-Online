@@ -1,0 +1,74 @@
+{
+  "id": 2981,
+  "cardId": "npc_tzhaar-hur",
+  "name": "TzHaar-Hur",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Looks like a craftsman of some kind.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/TzHaar-Hur.png",
+  "debut": "2005-09-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2161,
+      2162,
+      2163,
+      2164,
+      2165,
+      2166,
+      7682,
+      7683,
+      7684,
+      7685,
+      7686,
+      7687
+    ],
+    "pageSlug": "TzHaar-Hur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/TzHaar-Hur"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 74,
+    "vitality": null,
+    "peakDamage": "7",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 80,
+      "group": "TzHaar",
+      "masters": [
+        "Chaeldar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

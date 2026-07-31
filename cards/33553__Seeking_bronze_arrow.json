@@ -1,0 +1,67 @@
+{
+  "id": 6497,
+  "cardId": "itm_seeking-bronze-arrow",
+  "name": "Seeking bronze arrow",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Bloodwood-treated arrows with bronze heads.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Seeking_bronze_arrow_1.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33553
+    ],
+    "pageSlug": "Seeking_bronze_arrow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Seeking_bronze_arrow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 15,
+      "buyLimit": null,
+      "dailyVolume": 32
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 20
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 7,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

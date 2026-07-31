@@ -1,0 +1,37 @@
+{
+  "id": 5194,
+  "cardId": "itm_blessed-ourg-bones",
+  "name": "Blessed ourg bones",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Bones blessed at an exposed altar.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blessed_ourg_bones.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29374
+    ],
+    "pageSlug": "Blessed_ourg_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blessed_ourg_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Break-down",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 0.8,
+    "market": null
+  }
+}

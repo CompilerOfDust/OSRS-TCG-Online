@@ -1,0 +1,37 @@
+{
+  "id": 4814,
+  "cardId": "itm_wisp",
+  "name": "Wisp",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Born in the shadows.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wisp.png",
+  "debut": "2023-07-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28246
+    ],
+    "pageSlug": "Wisp",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wisp"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

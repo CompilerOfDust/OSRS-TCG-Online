@@ -1,0 +1,41 @@
+{
+  "id": 8257,
+  "cardId": "itm_teak-pyre-logs",
+  "name": "Teak pyre logs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Teak logs prepared with sacred oil for a funeral pyre.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Teak_pyre_logs.png",
+  "debut": "2005-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6211
+    ],
+    "pageSlug": "Teak_pyre_logs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Teak_pyre_logs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 3793,
+      "buyLimit": 11000,
+      "dailyVolume": 453
+    }
+  },
+  "special": false
+}

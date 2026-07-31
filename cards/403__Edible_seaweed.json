@@ -1,0 +1,42 @@
+{
+  "id": 6953,
+  "cardId": "itm_edible-seaweed",
+  "name": "Edible seaweed",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Slightly damp seaweed.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Edible_seaweed.png",
+  "debut": "2003-07-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      403
+    ],
+    "pageSlug": "Edible_seaweed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Edible_seaweed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 10,
+      "buyLimit": 13000,
+      "dailyVolume": 331
+    }
+  },
+  "special": false
+}

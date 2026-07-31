@@ -1,0 +1,40 @@
+{
+  "id": 8056,
+  "cardId": "itm_willow-longbow-u",
+  "name": "Willow longbow (u)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An unstrung willow longbow; I need a bowstring for this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Willow_longbow_%28u%29.png",
+  "debut": "2002-03-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      58
+    ],
+    "pageSlug": "Willow_longbow_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Willow_longbow_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 96,
+    "lowAlchemy": 64,
+    "weightKg": 1.332,
+    "market": {
+      "guidePrice": 22,
+      "buyLimit": 10000,
+      "dailyVolume": 168702
+    }
+  }
+}

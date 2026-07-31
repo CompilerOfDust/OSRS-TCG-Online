@@ -1,0 +1,36 @@
+{
+  "id": 5740,
+  "cardId": "itm_ogre-monodon-horn",
+  "name": "Ogre monodon horn",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A complete ogre monodon horn.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ogre_monodon_horn.png",
+  "debut": "2025-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31182
+    ],
+    "pageSlug": "Ogre_monodon_horn",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ogre_monodon_horn"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.285,
+    "market": null
+  }
+}

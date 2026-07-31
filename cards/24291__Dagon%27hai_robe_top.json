@@ -1,0 +1,69 @@
+{
+  "id": 3699,
+  "cardId": "itm_dagonhai-robe-top",
+  "name": "Dagon'hai robe top",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    27125
+  ],
+  "flavourText": "A robe worn by members of the Dagon'hai.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dagon%27hai_robe_top.png",
+  "debut": "2019-10-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24291
+    ],
+    "pageSlug": "Dagon%27hai_robe_top",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dagon%27hai_robe_top"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 84000,
+    "lowAlchemy": 56000,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 366507,
+      "buyLimit": null,
+      "dailyVolume": 272
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 25,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 21,
+        "ranged": 0
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 1,
+        "prayer": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 3659,
+  "cardId": "itm_staff-of-balance",
+  "name": "Staff of balance",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "A ghastly weapon with evil origins combined with an icon of balance.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Staff_of_balance.png",
+  "debut": "2019-08-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24144
+    ],
+    "pageSlug": "Staff_of_balance",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Staff_of_balance"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 600002,
+    "lowAlchemy": 400001,
+    "weightKg": 1.5,
+    "market": {
+      "guidePrice": 29888309,
+      "buyLimit": null,
+      "dailyVolume": 1
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 55,
+        "slash": 70,
+        "crush": 0,
+        "magic": 17,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 3,
+        "crush": 3,
+        "magic": 17,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 72,
+        "rangedStrength": 0,
+        "magicDamagePct": 15,
+        "prayer": 0
+      }
+    }
+  }
+}

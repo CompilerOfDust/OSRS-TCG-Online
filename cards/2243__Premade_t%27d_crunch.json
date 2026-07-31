@@ -1,0 +1,41 @@
+{
+  "id": 3258,
+  "cardId": "itm_premade-td-crunch",
+  "name": "Premade t'd crunch",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Some premade Toad Crunchies.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Premade_t%27d_crunch.png",
+  "debut": "2002-12-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2243
+    ],
+    "pageSlug": "Premade_t%27d_crunch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Premade_t%27d_crunch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 51,
+    "lowAlchemy": 34,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 935,
+      "buyLimit": 6000,
+      "dailyVolume": 148
+    }
+  }
+}

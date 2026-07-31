@@ -1,0 +1,71 @@
+{
+  "id": 343,
+  "cardId": "itm_steel-plateskirt",
+  "name": "Steel plateskirt",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    20175,
+    20190
+  ],
+  "flavourText": "Designer leg protection.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_plateskirt.png",
+  "debut": "2001-02-13",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1083
+    ],
+    "pageSlug": "Steel_plateskirt",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_plateskirt"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 8.164,
+    "market": {
+      "guidePrice": 312,
+      "buyLimit": 125,
+      "dailyVolume": 1197
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 17,
+        "slash": 16,
+        "crush": 15,
+        "magic": -4,
+        "ranged": 16
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

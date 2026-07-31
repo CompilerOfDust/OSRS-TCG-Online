@@ -1,0 +1,41 @@
+{
+  "id": 7757,
+  "cardId": "itm_cactus-seed",
+  "name": "Cactus seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A Cactus seed - plant in a cactus patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cactus_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5280
+    ],
+    "pageSlug": "Cactus_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cactus_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 59,
+    "lowAlchemy": 39,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 48,
+      "buyLimit": 200,
+      "dailyVolume": 16924
+    }
+  },
+  "special": false
+}

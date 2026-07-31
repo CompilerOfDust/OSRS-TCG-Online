@@ -1,0 +1,36 @@
+{
+  "id": 2971,
+  "cardId": "itm_large-fossilised-spine",
+  "name": "Large fossilised spine",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "This fossilised spine belongs in a museum!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Large_fossilised_spine.png",
+  "debut": "2017-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21602
+    ],
+    "pageSlug": "Large_fossilised_spine",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Large_fossilised_spine"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

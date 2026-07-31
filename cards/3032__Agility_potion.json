@@ -1,0 +1,48 @@
+{
+  "id": 5457,
+  "cardId": "itm_agility-potion-1",
+  "name": "Agility potion(4)",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    3034,
+    3036,
+    3038,
+    11461,
+    11463
+  ],
+  "flavourText": "4 doses of Agility potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Agility_potion%284%29.png",
+  "debut": "2004-07-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3032
+    ],
+    "pageSlug": "Agility_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Agility_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30,
+    "lowAlchemy": 20,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 97,
+      "buyLimit": 2000,
+      "dailyVolume": 290
+    }
+  }
+}

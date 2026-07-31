@@ -1,0 +1,38 @@
+{
+  "id": 9259,
+  "cardId": "itm_stuffed-big-bass",
+  "name": "Stuffed big bass",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I should mount this on my wall!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Stuffed_big_bass.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7990
+    ],
+    "pageSlug": "Stuffed_big_bass",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Stuffed_big_bass"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Unstuff",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 600,
+    "lowAlchemy": 400,
+    "weightKg": 0.35,
+    "market": null
+  },
+  "special": false
+}

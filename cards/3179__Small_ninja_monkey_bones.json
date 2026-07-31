@@ -1,0 +1,37 @@
+{
+  "id": 5962,
+  "cardId": "itm_small-ninja-monkey-bones",
+  "name": "Small ninja monkey bones",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "These are smallish monkey bones.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Small_ninja_monkey_bones.png",
+  "debut": "2004-12-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3179
+    ],
+    "pageSlug": "Small_ninja_monkey_bones",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Small_ninja_monkey_bones"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Bury",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": null
+  }
+}

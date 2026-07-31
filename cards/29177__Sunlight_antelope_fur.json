@@ -1,0 +1,40 @@
+{
+  "id": 5123,
+  "cardId": "itm_sunlight-antelope-fur",
+  "name": "Sunlight antelope fur",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I can make something out of this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sunlight_antelope_fur.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29177
+    ],
+    "pageSlug": "Sunlight_antelope_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sunlight_antelope_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 805,
+      "buyLimit": null,
+      "dailyVolume": 157768
+    }
+  }
+}

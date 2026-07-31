@@ -1,0 +1,70 @@
+{
+  "id": 1166,
+  "cardId": "itm_treasonous-ring",
+  "name": "Treasonous ring",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    12692
+  ],
+  "flavourText": "A razor sharp ring.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Treasonous_ring.png",
+  "debut": "2014-06-26",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12605
+    ],
+    "pageSlug": "Treasonous_ring",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Treasonous_ring"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "ring",
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 90467,
+      "buyLimit": 8,
+      "dailyVolume": 105
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 4,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ring",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

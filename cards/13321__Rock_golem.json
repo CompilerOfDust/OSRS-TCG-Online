@@ -1,0 +1,37 @@
+{
+  "id": 1497,
+  "cardId": "itm_rock-golem",
+  "name": "Rock golem",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Found somewhere between a rock and a hard place.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rock_golem.png",
+  "debut": "2015-11-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13321
+    ],
+    "pageSlug": "Rock_golem",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rock_golem"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.015,
+    "market": null
+  },
+  "special": false
+}

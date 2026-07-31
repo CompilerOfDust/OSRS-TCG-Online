@@ -1,0 +1,41 @@
+{
+  "id": 5372,
+  "cardId": "itm_chugging-barrel-disassembled",
+  "name": "Chugging barrel (disassembled)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Can be assembled to consume multiple potions.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chugging_barrel_%28disassembled%29.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30002
+    ],
+    "pageSlug": "Chugging_barrel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chugging_barrel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Assemble",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 8947261,
+      "buyLimit": 5,
+      "dailyVolume": 219
+    }
+  }
+}

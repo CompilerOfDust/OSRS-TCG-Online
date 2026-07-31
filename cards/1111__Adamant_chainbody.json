@@ -1,0 +1,67 @@
+{
+  "id": 507,
+  "cardId": "itm_adamant-chainbody",
+  "name": "Adamant chainbody",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A series of connected metal rings.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_chainbody.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1111
+    ],
+    "pageSlug": "Adamant_chainbody",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_chainbody"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 2880,
+    "lowAlchemy": 1920,
+    "weightKg": 7.711,
+    "market": {
+      "guidePrice": 2530,
+      "buyLimit": 125,
+      "dailyVolume": 12870
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -15,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 36,
+        "slash": 50,
+        "crush": 61,
+        "magic": -3,
+        "ranged": 38
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

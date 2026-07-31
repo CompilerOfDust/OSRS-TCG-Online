@@ -1,0 +1,67 @@
+{
+  "id": 7951,
+  "cardId": "itm_initiate-sallet",
+  "name": "Initiate sallet",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "An initiate Temple Knight's helm.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Initiate_sallet.png",
+  "debut": "2005-06-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5574
+    ],
+    "pageSlug": "Initiate_sallet",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Initiate_sallet"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 3600,
+    "lowAlchemy": 2400,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 2999,
+      "buyLimit": 125,
+      "dailyVolume": 341
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -6,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 13,
+        "slash": 14,
+        "crush": 11,
+        "magic": -1,
+        "ranged": 13
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  }
+}

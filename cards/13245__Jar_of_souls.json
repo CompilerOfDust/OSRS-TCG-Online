@@ -1,0 +1,41 @@
+{
+  "id": 1470,
+  "cardId": "itm_jar-of-souls",
+  "name": "Jar of souls",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "This may be of use for a certain person.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jar_of_souls.png",
+  "debut": "2015-08-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13245
+    ],
+    "pageSlug": "Jar_of_souls",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jar_of_souls"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 63297,
+      "buyLimit": 4,
+      "dailyVolume": 18
+    }
+  },
+  "special": false
+}

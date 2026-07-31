@@ -1,0 +1,36 @@
+{
+  "id": 8176,
+  "cardId": "itm_toxic-naphtha",
+  "name": "Toxic naphtha",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A barrel full of toxic naphtha.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Toxic_naphtha.png",
+  "debut": "2005-07-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6096
+    ],
+    "pageSlug": "Toxic_naphtha",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Toxic_naphtha"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 32,
+    "market": null
+  }
+}

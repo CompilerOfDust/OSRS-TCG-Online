@@ -1,0 +1,58 @@
+{
+  "id": 5021,
+  "cardId": "npc_asyff",
+  "name": "Asyff",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Sells interesting clothing items you just can't find elsewhere.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2002-10-23",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2887
+    ],
+    "pageSlug": "Asyff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Asyff"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Varrock"
+    ],
+    "questLine": "Eagles' Peak",
+    "shop": "Fancy Clothes Store",
+    "menuActions": [
+      "Talk-to",
+      "Trade",
+      "Fur Clothing"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

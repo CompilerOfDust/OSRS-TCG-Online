@@ -1,0 +1,62 @@
+{
+  "id": 990,
+  "cardId": "npc_arzinian-avatar-of-ranging",
+  "name": "Arzinian Avatar of Ranging",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It is the avatar of the Arzinian Being of Bordanzan, representing ranging.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Arzinian_Avatar_of_Ranging.png",
+  "debut": "2005-03-21",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1230,
+      1231,
+      1232
+    ],
+    "pageSlug": "Arzinian_Avatar_of_Ranging",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Arzinian_Avatar_of_Ranging"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": null,
+    "vitality": 200,
+    "peakDamage": "17",
+    "combatXpBonusPct": 5,
+    "hostile": true,
+    "assaultStyles": [
+      "Ranged"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 20,
+      "strength": 110,
+      "defence": 130,
+      "magic": 0,
+      "ranged": 140
+    },
+    "aggressiveBonuses": null
+  }
+}

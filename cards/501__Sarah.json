@@ -1,0 +1,62 @@
+{
+  "id": 7635,
+  "cardId": "npc_sarah",
+  "name": "Sarah",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [
+    7005,
+    8134,
+    10416,
+    14181
+  ],
+  "flavourText": "She sells farming equipment.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2005-07-11",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      501
+    ],
+    "pageSlug": "Sarah",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sarah"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Female",
+    "locations": [
+      "South Falador Farm"
+    ],
+    "questLine": "A Porcine of Interest",
+    "shop": "Sarah's Farming shop.",
+    "menuActions": [
+      "Talk-to",
+      "Trade"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

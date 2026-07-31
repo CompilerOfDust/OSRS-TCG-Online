@@ -1,0 +1,67 @@
+{
+  "id": 5388,
+  "cardId": "itm_dragon-hunter-wand",
+  "name": "Dragon hunter wand",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A wand that is uniquely attuned to draconic creatures.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_hunter_wand.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30070
+    ],
+    "pageSlug": "Dragon_hunter_wand",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_wand"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 180000,
+    "lowAlchemy": 120000,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 9669930,
+      "buyLimit": 8,
+      "dailyVolume": 597
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 16,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 16,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 10,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": 6766,
+  "cardId": "itm_branch",
+  "name": "Branch",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    7773
+  ],
+  "flavourText": "I can use this to make a lyre.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Branch.png",
+  "debut": "2004-11-02",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3692
+    ],
+    "pageSlug": "Branch",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Branch"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

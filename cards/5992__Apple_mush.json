@@ -1,0 +1,41 @@
+{
+  "id": 8097,
+  "cardId": "itm_apple-mush",
+  "name": "Apple mush",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A bucket of apple mush.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Apple_mush.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5992
+    ],
+    "pageSlug": "Apple_mush",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Apple_mush"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 5,
+    "weightKg": 1.1,
+    "market": {
+      "guidePrice": 1271,
+      "buyLimit": 11000,
+      "dailyVolume": 101
+    }
+  }
+}

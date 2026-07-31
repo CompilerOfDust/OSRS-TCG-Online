@@ -1,0 +1,40 @@
+{
+  "id": 6147,
+  "cardId": "itm_merchants-paint",
+  "name": "Merchant's paint",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A vibrant gold paint. This might look good on a boat.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Merchant%27s_paint.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32110
+    ],
+    "pageSlug": "Merchant%27s_paint",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Merchant%27s_paint"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 11374738,
+      "buyLimit": null,
+      "dailyVolume": 10
+    }
+  }
+}

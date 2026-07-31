@@ -1,0 +1,56 @@
+{
+  "id": 382,
+  "cardId": "npc_asteros-arceuus",
+  "name": "Asteros Arceuus",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The only son of Lord Trobin Arceuus.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2019-01-10",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10889
+    ],
+    "pageSlug": "Asteros_Arceuus",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Asteros_Arceuus"
+  },
+  "npcProfile": {
+    "race": "Citizen of Arceuus",
+    "gender": "Male",
+    "locations": [
+      "Tower of Magic"
+    ],
+    "questLine": "The Ascent of Arceuus",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

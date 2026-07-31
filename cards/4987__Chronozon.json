@@ -1,0 +1,57 @@
+{
+  "id": 7619,
+  "cardId": "npc_chronozon",
+  "name": "Chronozon",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    6292,
+    6354
+  ],
+  "flavourText": "Chronozon the blood demon.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Chronozon.png",
+  "debut": "2002-04-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4987
+    ],
+    "pageSlug": "Chronozon",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Chronozon"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 170,
+    "vitality": null,
+    "peakDamage": "18",
+    "combatXpBonusPct": -97.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

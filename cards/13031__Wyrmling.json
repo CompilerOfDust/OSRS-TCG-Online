@@ -1,0 +1,73 @@
+{
+  "id": 1362,
+  "cardId": "npc_wyrmling",
+  "name": "Wyrmling",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Don't let it wyrm its way in.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Wyrmling.png",
+  "debut": "2024-03-20",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13031,
+      13032
+    ],
+    "pageSlug": "Wyrmling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Wyrmling"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Draconic"
+    ],
+    "tileSize": "2x2",
+    "combatRating": 55,
+    "vitality": 65,
+    "peakDamage": "5",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": 62,
+      "reward": 65,
+      "group": "Wyrms",
+      "masters": [
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 20,
+      "strength": 30,
+      "defence": 40,
+      "magic": 60,
+      "ranged": 15
+    },
+    "aggressiveBonuses": null
+  }
+}

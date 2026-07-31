@@ -1,0 +1,40 @@
+{
+  "id": 8119,
+  "cardId": "itm_willow-leaves",
+  "name": "Willow leaves",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pile of Willow tree leaves.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Willow_leaves.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6024
+    ],
+    "pageSlug": "Willow_leaves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Willow_leaves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 157,
+      "buyLimit": null,
+      "dailyVolume": 7022
+    }
+  }
+}

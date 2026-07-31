@@ -1,0 +1,61 @@
+{
+  "id": 276,
+  "cardId": "npc_angry-bear",
+  "name": "Angry bear",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "He looks a little on the cross side!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Angry_bear_(level_40).png",
+  "debut": "2006-04-03",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1060,
+      4692
+    ],
+    "pageSlug": "Angry_bear",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Angry_bear"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 40,
+    "vitality": 200,
+    "peakDamage": "5",
+    "combatXpBonusPct": -100,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 37,
+      "strength": 38,
+      "defence": 38,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

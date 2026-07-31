@@ -1,0 +1,40 @@
+{
+  "id": 3831,
+  "cardId": "itm_raw-mystery-meat",
+  "name": "Raw mystery meat",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "I need to cook this, though I don't know if I want to.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_mystery_meat.png",
+  "debut": "2020-06-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      24782
+    ],
+    "pageSlug": "Raw_mystery_meat",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_mystery_meat"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.34,
+    "market": {
+      "guidePrice": 543,
+      "buyLimit": null,
+      "dailyVolume": 0
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 623,
+  "cardId": "itm_leaping-trout",
+  "name": "Leaping trout",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A sad-looking trout.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Leaping_trout.png",
+  "debut": "2007-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11328
+    ],
+    "pageSlug": "Leaping_trout",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Leaping_trout"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 3,
+      "buyLimit": 13000,
+      "dailyVolume": 234523
+    }
+  }
+}

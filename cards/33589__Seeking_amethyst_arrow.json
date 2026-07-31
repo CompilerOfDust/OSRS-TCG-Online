@@ -1,0 +1,68 @@
+{
+  "id": 6508,
+  "cardId": "itm_seeking-amethyst-arrow",
+  "name": "Seeking amethyst arrow",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Bloodwood-treated arrows with amethyst heads.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Seeking_amethyst_arrow_1.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33589
+    ],
+    "pageSlug": "Seeking_amethyst_arrow",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Seeking_amethyst_arrow"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "ammo",
+    "highAlchemy": 294,
+    "lowAlchemy": 196,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 657,
+      "buyLimit": null,
+      "dailyVolume": 707708
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 20
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "ammo",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 55,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

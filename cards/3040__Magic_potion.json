@@ -1,0 +1,48 @@
+{
+  "id": 5495,
+  "cardId": "itm_magic-potion-1",
+  "name": "Magic potion(4)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    3042,
+    3044,
+    3046,
+    11513,
+    11515
+  ],
+  "flavourText": "4 doses of Magic potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_potion%284%29.png",
+  "debut": "2004-09-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3040
+    ],
+    "pageSlug": "Magic_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 0.02,
+    "market": {
+      "guidePrice": 48,
+      "buyLimit": 2000,
+      "dailyVolume": 26809
+    }
+  }
+}

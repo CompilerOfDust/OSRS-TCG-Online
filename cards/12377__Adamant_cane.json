@@ -1,0 +1,68 @@
+{
+  "id": 1026,
+  "cardId": "itm_adamant-cane",
+  "name": "Adamant cane",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A diamond topped cane.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Adamant_cane.png",
+  "debut": "2014-06-12",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12377
+    ],
+    "pageSlug": "Adamant_cane",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Adamant_cane"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 864,
+    "lowAlchemy": 576,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 883,
+      "buyLimit": 4,
+      "dailyVolume": 24
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 13,
+        "slash": -2,
+        "crush": 25,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 23,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 3
+      }
+    }
+  },
+  "special": false
+}

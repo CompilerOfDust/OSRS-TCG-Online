@@ -1,0 +1,40 @@
+{
+  "id": 9344,
+  "cardId": "itm_mithril-dart-tip",
+  "name": "Mithril dart tip",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A deadly looking dart tip made of mithril - needs feathers for flight.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mithril_dart_tip.png",
+  "debut": "2003-04-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      822
+    ],
+    "pageSlug": "Mithril_dart_tip",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mithril_dart_tip"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 7,
+    "lowAlchemy": 4,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 112,
+      "buyLimit": 20000,
+      "dailyVolume": 6620174
+    }
+  }
+}

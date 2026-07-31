@@ -1,0 +1,44 @@
+{
+  "id": 7898,
+  "cardId": "itm_papaya-sapling",
+  "name": "Papaya sapling",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    5485,
+    5493
+  ],
+  "flavourText": "This sapling is ready to be replanted in a fruit tree patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Papaya_sapling.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5501
+    ],
+    "pageSlug": "Papaya_sapling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Papaya_sapling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 2215,
+      "buyLimit": 200,
+      "dailyVolume": 29955
+    }
+  },
+  "special": false
+}

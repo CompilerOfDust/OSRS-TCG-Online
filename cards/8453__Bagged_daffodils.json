@@ -1,0 +1,40 @@
+{
+  "id": 9397,
+  "cardId": "itm_bagged-daffodils",
+  "name": "Bagged daffodils",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You can plant this in your garden.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bagged_daffodils.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8453
+    ],
+    "pageSlug": "Bagged_daffodils",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bagged_daffodils"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 12116,
+      "buyLimit": 10000,
+      "dailyVolume": 34
+    }
+  }
+}

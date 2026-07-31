@@ -1,0 +1,64 @@
+{
+  "id": 8985,
+  "cardId": "npc_vespine-soldier",
+  "name": "Vespine soldier",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A soldier of Queen Vespula.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Vespine_soldier.png",
+  "debut": "2017-01-05",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7538,
+      7539
+    ],
+    "pageSlug": "Vespine_soldier",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Vespine_soldier"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Xerician",
+      "Flying"
+    ],
+    "tileSize": "3x3",
+    "combatRating": 1,
+    "vitality": 100,
+    "peakDamage": "14",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": true,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": {
+      "attack": 150,
+      "strength": 150,
+      "defence": 40,
+      "magic": 40,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

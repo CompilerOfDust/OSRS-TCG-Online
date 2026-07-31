@@ -1,0 +1,67 @@
+{
+  "id": 820,
+  "cardId": "itm_saradomin-sword",
+  "name": "Saradomin sword",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "The incredible blade of an Icyene.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Saradomin_sword.png",
+  "debut": "2013-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11838
+    ],
+    "pageSlug": "Saradomin_sword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Saradomin_sword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 78000,
+    "lowAlchemy": 52000,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 130103,
+      "buyLimit": 8,
+      "dailyVolume": 372
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 82,
+        "crush": 60,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 4,
+      "extras": {
+        "meleeStrength": 82,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 2
+      }
+    }
+  }
+}

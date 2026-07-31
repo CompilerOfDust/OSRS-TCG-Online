@@ -1,0 +1,41 @@
+{
+  "id": 6092,
+  "cardId": "itm_rosewood-repair-kit",
+  "name": "Rosewood repair kit",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An excellent boat repair kit made from rosewood.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rosewood_repair_kit.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31982
+    ],
+    "pageSlug": "Rosewood_repair_kit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rosewood_repair_kit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Apply",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3000,
+    "lowAlchemy": 2000,
+    "weightKg": 0.5,
+    "market": {
+      "guidePrice": 21433,
+      "buyLimit": 13000,
+      "dailyVolume": 4715
+    }
+  }
+}

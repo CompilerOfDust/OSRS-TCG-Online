@@ -1,0 +1,55 @@
+{
+  "id": 1690,
+  "cardId": "npc_prince-itzla-arkan",
+  "name": "Prince Itzla Arkan",
+  "cardKind": "npc",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "The heir to the throne of Varlamore, going undercover.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Prince_Itzla_Arkan_(disguised,_sword).png",
+  "debut": "2024-09-25",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13784,
+      13785
+    ],
+    "pageSlug": "Prince_Itzla_Arkan",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Prince_Itzla_Arkan"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": 167,
+    "vitality": null,
+    "peakDamage": "12 (normal) 16 (special attack)",
+    "combatXpBonusPct": null,
+    "hostile": true,
+    "assaultStyles": [
+      "Slash"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 100,
+    "venomResistancePct": 100,
+    "cannonImmune": true,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

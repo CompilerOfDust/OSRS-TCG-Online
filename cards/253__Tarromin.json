@@ -1,0 +1,41 @@
+{
+  "id": 4012,
+  "cardId": "itm_tarromin",
+  "name": "Tarromin",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A useful herb.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tarromin.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      253
+    ],
+    "pageSlug": "Tarromin",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tarromin"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.007,
+    "market": {
+      "guidePrice": 224,
+      "buyLimit": 13000,
+      "dailyVolume": 251921
+    }
+  },
+  "special": false
+}

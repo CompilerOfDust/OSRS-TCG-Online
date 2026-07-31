@@ -1,0 +1,38 @@
+{
+  "id": 5854,
+  "cardId": "itm_poison-karambwan",
+  "name": "Poison karambwan",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Cooked octopus. It looks poorly cooked and quite dangerous.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Poison_karambwan.png",
+  "debut": "2004-09-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3146
+    ],
+    "pageSlug": "Poison_karambwan",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Poison_karambwan"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0.65,
+    "market": null
+  },
+  "special": false
+}

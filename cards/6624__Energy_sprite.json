@@ -1,0 +1,54 @@
+{
+  "id": 8474,
+  "cardId": "npc_energy-sprite",
+  "name": "Energy sprite",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A source of energy.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Energy_sprite.png",
+  "debut": "2014-06-19",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6624
+    ],
+    "pageSlug": "Energy_sprite",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Energy_sprite"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "1x1",
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": "0 (doesn't attack)",
+    "combatXpBonusPct": null,
+    "hostile": false,
+    "assaultStyles": [
+      "None"
+    ],
+    "attackTempo": null,
+    "respawnTicks": 100,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 9893,
+  "cardId": "itm_grand-seed-pod",
+  "name": "Grand seed pod",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A seed pod of the Grand Tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Grand_seed_pod.png",
+  "debut": "2006-08-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9469
+    ],
+    "pageSlug": "Grand_seed_pod",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Grand_seed_pod"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Launch",
+      "Squash",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 150,
+    "lowAlchemy": 100,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 232575,
+      "buyLimit": 15,
+      "dailyVolume": 221
+    }
+  }
+}

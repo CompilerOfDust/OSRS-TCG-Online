@@ -1,0 +1,43 @@
+{
+  "id": 6599,
+  "cardId": "itm_cod",
+  "name": "Cod",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    7528
+  ],
+  "flavourText": "Some nicely cooked cod.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Cod.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      339
+    ],
+    "pageSlug": "Cod",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Cod"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.4,
+    "market": {
+      "guidePrice": 23,
+      "buyLimit": 6000,
+      "dailyVolume": 37317
+    }
+  }
+}

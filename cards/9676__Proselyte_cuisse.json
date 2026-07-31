@@ -1,0 +1,68 @@
+{
+  "id": 10020,
+  "cardId": "itm_proselyte-cuisse",
+  "name": "Proselyte cuisse",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A Proselyte Temple Knight's leg armour.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Proselyte_cuisse.png",
+  "debut": "2006-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9676
+    ],
+    "pageSlug": "Proselyte_cuisse",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Proselyte_cuisse"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 6000,
+    "lowAlchemy": 4000,
+    "weightKg": 7.711,
+    "market": {
+      "guidePrice": 5394,
+      "buyLimit": 70,
+      "dailyVolume": 2216
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 33,
+        "slash": 31,
+        "crush": 29,
+        "magic": -4,
+        "ranged": 31
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 6
+      }
+    }
+  },
+  "special": false
+}

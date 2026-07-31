@@ -1,0 +1,36 @@
+{
+  "id": 9769,
+  "cardId": "itm_childs-blanket",
+  "name": "Child's blanket",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "It's very soft!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Child%27s_blanket.png",
+  "debut": "2002-05-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      90
+    ],
+    "pageSlug": "Child%27s_blanket",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Child%27s_blanket"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.907,
+    "market": null
+  }
+}

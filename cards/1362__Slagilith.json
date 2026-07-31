@@ -1,0 +1,58 @@
+{
+  "id": 1634,
+  "cardId": "npc_slagilith",
+  "name": "Slagilith",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [
+    6324,
+    6385
+  ],
+  "flavourText": "This monster totally rocks!",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Slagilith.png",
+  "debut": "2005-02-28",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1362,
+      1364
+    ],
+    "pageSlug": "Slagilith",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Slagilith"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 92,
+    "vitality": null,
+    "peakDamage": "13",
+    "combatXpBonusPct": 3,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": null,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 6068,
+  "cardId": "itm_iron-halberd",
+  "name": "Iron halberd",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An iron halberd.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Iron_halberd.png",
+  "debut": "2004-09-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3192
+    ],
+    "pageSlug": "Iron_halberd",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Iron_halberd"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "2h",
+    "highAlchemy": 168,
+    "lowAlchemy": 112,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 921,
+      "buyLimit": 125,
+      "dailyVolume": 2
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 9,
+        "slash": 12,
+        "crush": 0,
+        "magic": -4,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": -1,
+        "slash": 1,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "2h",
+      "attackSpeed": 7,
+      "extras": {
+        "meleeStrength": 12,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,70 @@
+{
+  "id": 819,
+  "cardId": "itm_bandos-boots",
+  "name": "Bandos boots",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    26720
+  ],
+  "flavourText": "Some sturdy boots.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bandos_boots.png",
+  "debut": "2013-10-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11836
+    ],
+    "pageSlug": "Bandos_boots",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bandos_boots"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "feet",
+    "highAlchemy": 173406,
+    "lowAlchemy": 115604,
+    "weightKg": 6,
+    "market": {
+      "guidePrice": 848037,
+      "buyLimit": 8,
+      "dailyVolume": 367
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -5,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 17,
+        "slash": 18,
+        "crush": 19,
+        "magic": 0,
+        "ranged": 15
+      },
+      "slot": "feet",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  },
+  "special": false
+}

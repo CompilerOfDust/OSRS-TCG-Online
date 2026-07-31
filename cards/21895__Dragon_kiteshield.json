@@ -1,0 +1,69 @@
+{
+  "id": 3057,
+  "cardId": "itm_dragon-kiteshield",
+  "name": "Dragon kiteshield",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    22244
+  ],
+  "flavourText": "An ancient and powerful looking Dragon Kiteshield.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragon_kiteshield.png",
+  "debut": "2018-01-04",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      21895
+    ],
+    "pageSlug": "Dragon_kiteshield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragon_kiteshield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 960000,
+    "lowAlchemy": 640000,
+    "weightKg": 6.803,
+    "market": {
+      "guidePrice": 68851673,
+      "buyLimit": 70,
+      "dailyVolume": 8
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -8,
+        "ranged": -3
+      },
+      "defence": {
+        "stab": 56,
+        "slash": 60,
+        "crush": 58,
+        "magic": -1,
+        "ranged": 58
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

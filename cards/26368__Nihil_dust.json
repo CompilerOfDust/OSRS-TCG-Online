@@ -1,0 +1,40 @@
+{
+  "id": 4361,
+  "cardId": "itm_nihil-dust",
+  "name": "Nihil dust",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Dust from a crushed magical shard.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Nihil_dust.png",
+  "debut": "2022-01-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26368
+    ],
+    "pageSlug": "Nihil_dust",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Nihil_dust"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 6851,
+      "buyLimit": 11000,
+      "dailyVolume": 62272
+    }
+  }
+}

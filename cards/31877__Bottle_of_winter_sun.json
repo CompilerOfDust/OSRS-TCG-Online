@@ -1,0 +1,37 @@
+{
+  "id": 6026,
+  "cardId": "itm_bottle-of-winter-sun",
+  "name": "Bottle of winter sun",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Will warm you up on the coldest nights.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_of_winter_sun.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31877
+    ],
+    "pageSlug": "Bottle_of_winter_sun",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_of_winter_sun"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drink",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.003,
+    "market": null
+  }
+}

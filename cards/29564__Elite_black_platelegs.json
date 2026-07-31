@@ -1,0 +1,63 @@
+{
+  "id": 5243,
+  "cardId": "itm_elite-black-platelegs",
+  "name": "Elite black platelegs",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "These look pretty heavy and very elite.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Elite_black_platelegs.png",
+  "debut": "2024-07-10",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29564
+    ],
+    "pageSlug": "Elite_black_platelegs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Elite_black_platelegs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 9.071,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -21,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 24,
+        "slash": 22,
+        "crush": 20,
+        "magic": -4,
+        "ranged": 22
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": 2271,
+  "cardId": "itm_beer",
+  "name": "Beer",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    7740
+  ],
+  "flavourText": "A glass of frothy ale.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Beer.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1917
+    ],
+    "pageSlug": "Beer",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Beer"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 73,
+      "buyLimit": 2000,
+      "dailyVolume": 219938
+    }
+  }
+}

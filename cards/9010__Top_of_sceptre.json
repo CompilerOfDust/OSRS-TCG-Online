@@ -1,0 +1,36 @@
+{
+  "id": 9695,
+  "cardId": "itm_top-of-sceptre",
+  "name": "Top of sceptre",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Top half of a broken Sceptre.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Top_of_sceptre.png",
+  "debut": "2006-07-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9010
+    ],
+    "pageSlug": "Top_of_sceptre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Top_of_sceptre"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

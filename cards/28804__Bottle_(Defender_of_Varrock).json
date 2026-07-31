@@ -1,0 +1,36 @@
+{
+  "id": 5002,
+  "cardId": "itm_bottle",
+  "name": "Bottle",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "An empty bottle.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bottle_%28Defender_of_Varrock%29.png",
+  "debut": "2024-02-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28804
+    ],
+    "pageSlug": "Bottle_(Defender_of_Varrock)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bottle_(Defender_of_Varrock)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18,
+    "lowAlchemy": 12,
+    "weightKg": 0.04,
+    "market": null
+  }
+}

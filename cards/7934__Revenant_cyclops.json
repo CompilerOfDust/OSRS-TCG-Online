@@ -1,0 +1,66 @@
+{
+  "id": 9209,
+  "cardId": "npc_revenant-cyclops",
+  "name": "Revenant cyclops",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "The ghost of a cyclops slain long ago.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Revenant_cyclops.png",
+  "debut": "2017-11-23",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7934
+    ],
+    "pageSlug": "Revenant_cyclops",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Revenant_cyclops"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "3x3",
+    "combatRating": 82,
+    "vitality": null,
+    "peakDamage": "16",
+    "combatXpBonusPct": 7.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush",
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 119,
+      "group": "Revenants, Ghosts",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Krystilia",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

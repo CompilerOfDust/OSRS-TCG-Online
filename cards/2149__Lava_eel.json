@@ -1,0 +1,37 @@
+{
+  "id": 2919,
+  "cardId": "itm_lava-eel",
+  "name": "Lava eel",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Strange, it looks cooler now it's been cooked.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Lava_eel.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2149
+    ],
+    "pageSlug": "Lava_eel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Lava_eel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 90,
+    "lowAlchemy": 60,
+    "weightKg": 0.198,
+    "market": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": 3321,
+  "cardId": "itm_rubber-chicken__1",
+  "name": "Rubber chicken",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Perhaps not the most powerful weapon in Gielinor.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Rubber_chicken_%28rotten%29.png",
+  "debut": "2018-09-27",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      22666
+    ],
+    "pageSlug": "Rubber_chicken_(rotten)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Rubber_chicken_(rotten)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wield",
+      "Kill Area",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.453,
+    "market": null
+  }
+}

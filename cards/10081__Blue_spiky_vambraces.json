@@ -1,0 +1,68 @@
+{
+  "id": 24,
+  "cardId": "itm_blue-spiky-vambraces",
+  "name": "Blue spiky vambraces",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Vambraces made from 100% real dragonhide. Now with added spikiness.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Blue_spiky_vambraces.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10081
+    ],
+    "pageSlug": "Blue_spiky_vambraces",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Blue_spiky_vambraces"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 1800,
+    "lowAlchemy": 1200,
+    "weightKg": 0.283,
+    "market": {
+      "guidePrice": 1918,
+      "buyLimit": 125,
+      "dailyVolume": 9
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 9
+      },
+      "defence": {
+        "stab": 4,
+        "slash": 3,
+        "crush": 5,
+        "magic": 4,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 2,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

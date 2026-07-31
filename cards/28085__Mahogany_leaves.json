@@ -1,0 +1,36 @@
+{
+  "id": 4776,
+  "cardId": "itm_mahogany-leaves",
+  "name": "Mahogany leaves",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A pile of Mahogany tree leaves.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mahogany_leaves.png",
+  "debut": "2023-06-05",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28085
+    ],
+    "pageSlug": "Mahogany_leaves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mahogany_leaves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": null
+  }
+}

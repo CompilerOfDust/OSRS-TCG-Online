@@ -1,0 +1,37 @@
+{
+  "id": 1552,
+  "cardId": "itm_logavano-fruit",
+  "name": "Logavano fruit",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Smells like a combination of honey and cadavers.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Logavano_fruit.png",
+  "debut": "2016-01-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      13428
+    ],
+    "pageSlug": "Logavano_fruit",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Logavano_fruit"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0,
+    "market": null
+  }
+}

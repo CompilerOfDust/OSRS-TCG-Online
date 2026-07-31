@@ -1,0 +1,36 @@
+{
+  "id": 5400,
+  "cardId": "itm_redberry-antelope",
+  "name": "Redberry antelope",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Sunlight antelope meat prepared with redberries.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Redberry_antelope.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30103
+    ],
+    "pageSlug": "Redberry_antelope",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Redberry_antelope"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.283,
+    "market": null
+  }
+}

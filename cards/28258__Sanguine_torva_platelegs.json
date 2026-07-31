@@ -1,0 +1,64 @@
+{
+  "id": 4820,
+  "cardId": "itm_sanguine-torva-platelegs",
+  "name": "Sanguine torva platelegs",
+  "cardKind": "item",
+  "tier": 6,
+  "unlocksItems": [],
+  "flavourText": "An ancient warrior's platelegs.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Sanguine_torva_platelegs.png",
+  "debut": "2023-07-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28258
+    ],
+    "pageSlug": "Sanguine_torva_platelegs",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Sanguine_torva_platelegs"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Revert"
+    ],
+    "gearSlot": "legs",
+    "highAlchemy": 360000,
+    "lowAlchemy": 240000,
+    "weightKg": 9.071,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -24,
+        "ranged": -11
+      },
+      "defence": {
+        "stab": 87,
+        "slash": 78,
+        "crush": 79,
+        "magic": -9,
+        "ranged": 102
+      },
+      "slot": "legs",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  },
+  "special": false
+}

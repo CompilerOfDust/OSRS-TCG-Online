@@ -1,0 +1,37 @@
+{
+  "id": 3620,
+  "cardId": "itm_magic-ogre-potion",
+  "name": "Magic ogre potion",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A dangerous magical liquid.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Magic_ogre_potion.png",
+  "debut": "2003-05-07",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      2395
+    ],
+    "pageSlug": "Magic_ogre_potion",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Magic_ogre_potion"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 72,
+    "lowAlchemy": 48,
+    "weightKg": 0.025,
+    "market": null
+  },
+  "special": false
+}

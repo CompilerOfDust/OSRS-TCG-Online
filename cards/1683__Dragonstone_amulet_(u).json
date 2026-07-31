@@ -1,0 +1,40 @@
+{
+  "id": 2118,
+  "cardId": "itm_dragonstone-amulet-u",
+  "name": "Dragonstone amulet (u)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "It needs a string so I can wear it.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Dragonstone_amulet_%28u%29.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1683
+    ],
+    "pageSlug": "Dragonstone_amulet_(u)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Dragonstone_amulet_(u)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 10575,
+    "lowAlchemy": 7050,
+    "weightKg": 0.004,
+    "market": {
+      "guidePrice": 10704,
+      "buyLimit": 10000,
+      "dailyVolume": 51008
+    }
+  }
+}

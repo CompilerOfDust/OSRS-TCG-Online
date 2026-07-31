@@ -1,0 +1,37 @@
+{
+  "id": 6535,
+  "cardId": "itm_maggot-marquess",
+  "name": "Maggot marquess",
+  "cardKind": "item",
+  "tier": 7,
+  "unlocksItems": [],
+  "flavourText": "Best not to think too much about the venator it inhabits.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Maggot_marquess.png",
+  "debut": "2026-06-30",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      33642
+    ],
+    "pageSlug": "Maggot_marquess",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Maggot_marquess"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 15,
+    "market": null
+  },
+  "special": false
+}

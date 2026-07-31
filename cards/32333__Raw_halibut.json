@@ -1,0 +1,40 @@
+{
+  "id": 6170,
+  "cardId": "itm_raw-halibut",
+  "name": "Raw halibut",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "I should try cooking this.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_halibut.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32333
+    ],
+    "pageSlug": "Raw_halibut",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_halibut"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 102,
+    "lowAlchemy": 68,
+    "weightKg": 0.7,
+    "market": {
+      "guidePrice": 1468,
+      "buyLimit": 15000,
+      "dailyVolume": 162940
+    }
+  }
+}

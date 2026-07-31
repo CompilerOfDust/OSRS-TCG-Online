@@ -1,0 +1,58 @@
+{
+  "id": 9228,
+  "cardId": "npc_captain-tock",
+  "name": "Captain Tock",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The dashing leader of the pirates of Corsair Cove.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2017-12-07",
+  "retired": null,
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7956,
+      7957,
+      7958
+    ],
+    "pageSlug": "Captain_Tock",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Captain_Tock"
+  },
+  "npcProfile": {
+    "race": "Human",
+    "gender": "Male",
+    "locations": [
+      "Port Sarim"
+    ],
+    "questLine": "The Corsair Curse",
+    "shop": null,
+    "menuActions": [
+      "Talk-to"
+    ],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

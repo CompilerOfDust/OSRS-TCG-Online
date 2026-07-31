@@ -1,0 +1,72 @@
+{
+  "id": 8764,
+  "cardId": "npc_tortured-gorilla",
+  "name": "Tortured gorilla",
+  "cardKind": "npc",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "One of Glough's tortured creations.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Tortured_gorilla.png",
+  "debut": "2016-05-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7150,
+      7151,
+      7153
+    ],
+    "pageSlug": "Tortured_gorilla",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Tortured_gorilla"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 141,
+    "vitality": 210,
+    "peakDamage": "13",
+    "combatXpBonusPct": 12.5,
+    "hostile": true,
+    "assaultStyles": [
+      "Magic",
+      "Ranged",
+      "Crush"
+    ],
+    "attackTempo": 5,
+    "respawnTicks": 100,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 210,
+      "group": "Monkeys",
+      "masters": [
+        "Turael",
+        "Spria"
+      ]
+    },
+    "combatLevels": {
+      "attack": 105,
+      "strength": 95,
+      "defence": 95,
+      "magic": 95,
+      "ranged": 95
+    },
+    "aggressiveBonuses": null
+  }
+}

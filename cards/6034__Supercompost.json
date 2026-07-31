@@ -1,0 +1,41 @@
+{
+  "id": 8124,
+  "cardId": "itm_supercompost",
+  "name": "Supercompost",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Super-good for the smallest or largest of plants.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Supercompost.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6034
+    ],
+    "pageSlug": "Supercompost",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Supercompost"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 51,
+    "lowAlchemy": 34,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 27,
+      "buyLimit": 2000,
+      "dailyVolume": 581641
+    }
+  }
+}

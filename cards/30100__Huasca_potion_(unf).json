@@ -1,0 +1,41 @@
+{
+  "id": 5399,
+  "cardId": "itm_huasca-potion-unf",
+  "name": "Huasca potion (unf)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "I need another ingredient to finish this Huasca potion.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Huasca_potion_%28unf%29.png",
+  "debut": "2024-09-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      30100
+    ],
+    "pageSlug": "Huasca_potion_(unf)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Huasca_potion_(unf)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Empty",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 15,
+    "lowAlchemy": 10,
+    "weightKg": 0.056,
+    "market": {
+      "guidePrice": 7919,
+      "buyLimit": 10000,
+      "dailyVolume": 33667
+    }
+  }
+}

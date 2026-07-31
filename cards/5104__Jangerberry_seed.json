@@ -1,0 +1,41 @@
+{
+  "id": 7700,
+  "cardId": "itm_jangerberry-seed",
+  "name": "Jangerberry seed",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A jangerberry bush seed - plant in a bush patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Jangerberry_seed_1.png",
+  "debut": "2005-06-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5104
+    ],
+    "pageSlug": "Jangerberry_seed",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Jangerberry_seed"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 5,
+      "buyLimit": 200,
+      "dailyVolume": 10166
+    }
+  },
+  "special": false
+}

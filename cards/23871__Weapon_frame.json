@@ -1,0 +1,38 @@
+{
+  "id": 3586,
+  "cardId": "itm_weapon-frame",
+  "name": "Weapon frame",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [
+    23834
+  ],
+  "flavourText": "Could be used to make some kind of weapon.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Weapon_frame.png",
+  "debut": "2019-07-25",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23871
+    ],
+    "pageSlug": "Weapon_frame",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Weapon_frame"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 1.814,
+    "market": null
+  }
+}

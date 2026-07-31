@@ -1,0 +1,41 @@
+{
+  "id": 8053,
+  "cardId": "itm_moonlight-mead-m1",
+  "name": "Moonlight mead(m1)",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "This keg contains 1 pint of mature Moonlight Mead.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Moonlight_mead%28m%29_%28keg%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5891
+    ],
+    "pageSlug": "Moonlight_mead(m)_(keg)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Moonlight_mead(m)_(keg)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.028,
+    "market": {
+      "guidePrice": null,
+      "buyLimit": null,
+      "dailyVolume": null
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 9553,
+  "cardId": "itm_bolt-of-cloth",
+  "name": "Bolt of cloth",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A bolt of ordinary cloth.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bolt_of_cloth.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8790
+    ],
+    "pageSlug": "Bolt_of_cloth",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bolt_of_cloth"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 300,
+    "lowAlchemy": 200,
+    "weightKg": 1,
+    "market": {
+      "guidePrice": 399,
+      "buyLimit": 13000,
+      "dailyVolume": 49967
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 6646,
+  "cardId": "itm_steel-key-purple",
+  "name": "Steel key purple",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A steel key with a purple painted eyelet (Opens chests found in the Mort'ton catacombs).",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Steel_key_purple.png",
+  "debut": "2004-10-18",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3459
+    ],
+    "pageSlug": "Steel_key_purple",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Steel_key_purple"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 54,
+    "lowAlchemy": 36,
+    "weightKg": 0.01,
+    "market": null
+  },
+  "special": false
+}

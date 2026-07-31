@@ -1,0 +1,42 @@
+{
+  "id": 8009,
+  "cardId": "itm_greenmans-ale-m",
+  "name": "Greenman's ale(m)",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "This looks a good deal stronger than normal Greenman's Ale.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Greenman%27s_ale%28m%29.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5743
+    ],
+    "pageSlug": "Greenman%27s_ale(m)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Greenman%27s_ale(m)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drink",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 0,
+    "weightKg": 0.55,
+    "market": {
+      "guidePrice": 34881,
+      "buyLimit": 2000,
+      "dailyVolume": 189
+    }
+  },
+  "special": false
+}

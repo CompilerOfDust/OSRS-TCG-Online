@@ -1,0 +1,36 @@
+{
+  "id": 909,
+  "cardId": "itm_golden-nugget",
+  "name": "Golden nugget",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A nugget of gold from the Motherlode Mine.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Golden_nugget.png",
+  "debut": "2014-04-24",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12012
+    ],
+    "pageSlug": "Golden_nugget",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Golden_nugget"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0,
+    "market": null
+  }
+}

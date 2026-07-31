@@ -1,0 +1,67 @@
+{
+  "id": 3441,
+  "cardId": "itm_armadyl-dhide-shield",
+  "name": "Armadyl d'hide shield",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Armadyl blessed wooden shield covered in dragon leather.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Armadyl_d%27hide_shield.png",
+  "debut": "2019-04-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      23200
+    ],
+    "pageSlug": "Armadyl_d%27hide_shield",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Armadyl_d%27hide_shield"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 17000,
+    "lowAlchemy": 11333,
+    "weightKg": 8,
+    "market": {
+      "guidePrice": 369699,
+      "buyLimit": 8,
+      "dailyVolume": 49
+    },
+    "gearStats": {
+      "offence": {
+        "stab": -15,
+        "slash": -15,
+        "crush": -11,
+        "magic": -10,
+        "ranged": 7
+      },
+      "defence": {
+        "stab": 21,
+        "slash": 18,
+        "crush": 16,
+        "magic": 15,
+        "ranged": 14
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 1
+      }
+    }
+  }
+}

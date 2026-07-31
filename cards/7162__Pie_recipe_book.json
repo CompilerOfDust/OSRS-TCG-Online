@@ -1,0 +1,41 @@
+{
+  "id": 8773,
+  "cardId": "itm_pie-recipe-book",
+  "name": "Pie recipe book",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Lots of pie recipes for me to try.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Pie_recipe_book.png",
+  "debut": "2006-02-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7162
+    ],
+    "pageSlug": "Pie_recipe_book",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Pie_recipe_book"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Read",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.001,
+    "market": {
+      "guidePrice": 144,
+      "buyLimit": 15,
+      "dailyVolume": 0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 2428,
+  "cardId": "itm_ranger-gloves",
+  "name": "Ranger gloves",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "Lightweight gloves ideal for rangers.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ranger_gloves.png",
+  "debut": "2016-07-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19994
+    ],
+    "pageSlug": "Ranger_gloves",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ranger_gloves"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "hands",
+    "highAlchemy": 2040,
+    "lowAlchemy": 1360,
+    "weightKg": 0.226,
+    "market": {
+      "guidePrice": 247265,
+      "buyLimit": 8,
+      "dailyVolume": 152
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": -10,
+        "ranged": 11
+      },
+      "defence": {
+        "stab": 1,
+        "slash": 2,
+        "crush": 1,
+        "magic": 2,
+        "ranged": 0
+      },
+      "slot": "hands",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": 2317,
+  "cardId": "itm_royal-seed-pod",
+  "name": "Royal seed pod",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "King Narnode's personal seed pod, for travelling to the Grand Tree.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Royal_seed_pod.png",
+  "debut": "2016-05-06",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      19564
+    ],
+    "pageSlug": "Royal_seed_pod",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Royal_seed_pod"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Commune",
+      "Destroy"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 12,
+    "lowAlchemy": 8,
+    "weightKg": 0.005,
+    "market": null
+  }
+}

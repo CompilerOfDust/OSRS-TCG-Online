@@ -1,0 +1,40 @@
+{
+  "id": 52,
+  "cardId": "itm_desert-devil-fur",
+  "name": "Desert devil fur",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Sandy coloured kebbit fur.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Desert_devil_fur.png",
+  "debut": "2006-11-21",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10123
+    ],
+    "pageSlug": "Desert_devil_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Desert_devil_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 10,
+    "lowAlchemy": 6,
+    "weightKg": 0.453,
+    "market": {
+      "guidePrice": 538,
+      "buyLimit": 10000,
+      "dailyVolume": 49
+    }
+  }
+}

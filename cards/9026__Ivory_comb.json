@@ -1,0 +1,41 @@
+{
+  "id": 9707,
+  "cardId": "itm_ivory-comb",
+  "name": "Ivory comb",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "Gets knots and kinks out of your hair.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ivory_comb.png",
+  "debut": "2006-07-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      9026
+    ],
+    "pageSlug": "Ivory_comb",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ivory_comb"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 0.01,
+    "market": {
+      "guidePrice": 2098,
+      "buyLimit": 13000,
+      "dailyVolume": 163
+    }
+  },
+  "special": false
+}

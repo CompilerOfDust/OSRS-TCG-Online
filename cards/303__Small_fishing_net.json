@@ -1,0 +1,43 @@
+{
+  "id": 5466,
+  "cardId": "itm_small-fishing-net",
+  "name": "Small fishing net",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    6209
+  ],
+  "flavourText": "Useful for catching small fish.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Small_fishing_net.png",
+  "debut": "2001-06-11",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      303
+    ],
+    "pageSlug": "Small_fishing_net",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Small_fishing_net"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 4.535,
+    "market": {
+      "guidePrice": 230,
+      "buyLimit": 40,
+      "dailyVolume": 3551
+    }
+  },
+  "special": false
+}

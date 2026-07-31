@@ -1,0 +1,63 @@
+{
+  "id": 5262,
+  "cardId": "itm_corrupted-volatile-nightmare-staff",
+  "name": "Corrupted volatile nightmare staff",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "An ancient staff corrupted by darkness. A volatile orb has been added to it.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Corrupted_volatile_nightmare_staff.png",
+  "debut": "2024-07-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29602
+    ],
+    "pageSlug": "Corrupted_volatile_nightmare_staff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Corrupted_volatile_nightmare_staff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 150000,
+    "lowAlchemy": 100000,
+    "weightKg": 1.6,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 16,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 14,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 15,
+        "prayer": 0
+      }
+    }
+  }
+}

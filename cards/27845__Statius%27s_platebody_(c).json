@@ -1,0 +1,64 @@
+{
+  "id": 4731,
+  "cardId": "itm_statiuss-platebody-c",
+  "name": "Statius's platebody (c)",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A powerful platebody.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Statius%27s_platebody_%28c%29.png",
+  "debut": "2023-03-29",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27845
+    ],
+    "pageSlug": "Statius%27s_platebody_(c)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Statius%27s_platebody_(c)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "body",
+    "highAlchemy": 300000,
+    "lowAlchemy": 200000,
+    "weightKg": 9.979,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 5,
+        "slash": 5,
+        "crush": 7,
+        "magic": -30,
+        "ranged": -15
+      },
+      "defence": {
+        "stab": 50,
+        "slash": 46,
+        "crush": 44,
+        "magic": -12,
+        "ranged": 45
+      },
+      "slot": "body",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 4,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  },
+  "special": false
+}

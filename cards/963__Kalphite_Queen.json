@@ -1,0 +1,87 @@
+{
+  "id": 10000,
+  "cardId": "npc_kalphite-queen",
+  "name": "Kalphite Queen",
+  "cardKind": "npc",
+  "tier": 6,
+  "unlocksItems": [
+    128,
+    965,
+    4304,
+    6500,
+    6501,
+    15616,
+    15617
+  ],
+  "flavourText": "I don't think insect repellent will work...",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kalphite_Queen.png",
+  "debut": "2004-09-07",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      963,
+      4303
+    ],
+    "pageSlug": "Kalphite_Queen",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kalphite_Queen"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Kalphite"
+    ],
+    "tileSize": "5x5",
+    "combatRating": 333,
+    "vitality": 255,
+    "peakDamage": "31",
+    "combatXpBonusPct": 5,
+    "hostile": true,
+    "assaultStyles": [
+      "Stab",
+      "Ranged",
+      "Magic"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": null,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 535.4,
+      "group": "Kalphite, Bosses",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna",
+        "Vannaka",
+        "Chaeldar",
+        "Konar",
+        "Nieve",
+        "Duradel"
+      ]
+    },
+    "combatLevels": {
+      "attack": 300,
+      "strength": 300,
+      "defence": 300,
+      "magic": 150,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

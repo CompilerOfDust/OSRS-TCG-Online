@@ -1,0 +1,70 @@
+{
+  "id": 8260,
+  "cardId": "itm_broodoo-shield__2",
+  "name": "Broodoo shield",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [
+    6257,
+    6279
+  ],
+  "flavourText": "A scary broodoo shield.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Broodoo_shield_%28poison%29.png",
+  "debut": "2005-08-09",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6235
+    ],
+    "pageSlug": "Broodoo_shield_(poison)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Broodoo_shield_(poison)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "shield",
+    "highAlchemy": 1800,
+    "lowAlchemy": 1200,
+    "weightKg": 5.443,
+    "market": {
+      "guidePrice": 4725,
+      "buyLimit": 125,
+      "dailyVolume": 6
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 3,
+        "ranged": -7
+      },
+      "defence": {
+        "stab": 10,
+        "slash": 10,
+        "crush": 15,
+        "magic": 5,
+        "ranged": 0
+      },
+      "slot": "shield",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 5
+      }
+    }
+  }
+}

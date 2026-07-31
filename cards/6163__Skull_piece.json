@@ -1,0 +1,41 @@
+{
+  "id": 8225,
+  "cardId": "itm_skull-piece",
+  "name": "Skull piece",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A fearsome looking skull.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Skull_piece.png",
+  "debut": "2005-08-01",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      6163
+    ],
+    "pageSlug": "Skull_piece",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Skull_piece"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 36,
+    "lowAlchemy": 24,
+    "weightKg": 3.175,
+    "market": {
+      "guidePrice": 75998,
+      "buyLimit": 11000,
+      "dailyVolume": 0
+    }
+  },
+  "special": false
+}

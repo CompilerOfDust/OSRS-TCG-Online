@@ -1,0 +1,41 @@
+{
+  "id": 6126,
+  "cardId": "itm_large-oak-hull-parts",
+  "name": "Large oak hull parts",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "Parts for creating an oak hull for larger boats.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Large_oak_hull_parts.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      32065
+    ],
+    "pageSlug": "Large_oak_hull_parts",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Large_oak_hull_parts"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1875,
+    "lowAlchemy": 1250,
+    "weightKg": 4,
+    "market": {
+      "guidePrice": 3970,
+      "buyLimit": null,
+      "dailyVolume": 427
+    }
+  },
+  "special": false
+}

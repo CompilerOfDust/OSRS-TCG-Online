@@ -1,0 +1,36 @@
+{
+  "id": 4511,
+  "cardId": "itm_abyssal-blue-dye",
+  "name": "Abyssal blue dye",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A strange blue dye made from abyssal materials.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Abyssal_blue_dye.png",
+  "debut": "2022-03-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      26809
+    ],
+    "pageSlug": "Abyssal_blue_dye",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Abyssal_blue_dye"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": null,
+    "lowAlchemy": null,
+    "weightKg": 0.02,
+    "market": null
+  }
+}

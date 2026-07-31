@@ -1,0 +1,41 @@
+{
+  "id": 853,
+  "cardId": "itm_odium-shard-1",
+  "name": "Odium shard 1",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "A broken shield piece.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Odium_shard_1.png",
+  "debut": "2014-03-13",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11928
+    ],
+    "pageSlug": "Odium_shard_1",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Odium_shard_1"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 18600,
+    "lowAlchemy": 12400,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 2445524,
+      "buyLimit": 10000,
+      "dailyVolume": 33
+    }
+  },
+  "special": false
+}

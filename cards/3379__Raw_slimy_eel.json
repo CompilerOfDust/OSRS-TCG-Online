@@ -1,0 +1,40 @@
+{
+  "id": 6576,
+  "cardId": "itm_raw-slimy-eel",
+  "name": "Raw slimy eel",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "A slime covered eel - yuck!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Raw_slimy_eel.png",
+  "debut": "2004-10-14",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      3379
+    ],
+    "pageSlug": "Raw_slimy_eel",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Raw_slimy_eel"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 2,
+    "market": {
+      "guidePrice": 60,
+      "buyLimit": 13000,
+      "dailyVolume": 2266
+    }
+  }
+}

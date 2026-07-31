@@ -1,0 +1,36 @@
+{
+  "id": 4768,
+  "cardId": "itm_fishing-pass",
+  "name": "Fishing pass",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "Pass to the Hemenster fishing contest.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fishing_pass.png",
+  "debut": "2002-05-28",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      27
+    ],
+    "pageSlug": "Fishing_pass",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fishing_pass"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.006,
+    "market": null
+  }
+}

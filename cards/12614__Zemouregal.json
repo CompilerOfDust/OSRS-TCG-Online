@@ -1,0 +1,55 @@
+{
+  "id": 1173,
+  "cardId": "npc_zemouregal",
+  "name": "Zemouregal",
+  "cardKind": "npc",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "The infamous enemy of Varrock.",
+  "tags": [
+    "NPC"
+  ],
+  "artUrl": null,
+  "debut": "2024-02-21",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12614,
+      12615
+    ],
+    "pageSlug": "Zemouregal",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Zemouregal"
+  },
+  "npcProfile": {
+    "race": "Mahjarrat",
+    "gender": null,
+    "locations": [
+      "Zemouregal's Base"
+    ],
+    "questLine": "Defender of Varrock",
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": null,
+    "combatRating": null,
+    "vitality": null,
+    "peakDamage": null,
+    "combatXpBonusPct": null,
+    "hostile": null,
+    "assaultStyles": [],
+    "attackTempo": null,
+    "respawnTicks": null,
+    "inflictsPoison": null,
+    "inflictsVenom": null,
+    "poisonResistancePct": null,
+    "venomResistancePct": null,
+    "cannonImmune": null,
+    "thrallImmune": null,
+    "elementalWeakness": null,
+    "slayer": null,
+    "combatLevels": null,
+    "aggressiveBonuses": null
+  }
+}

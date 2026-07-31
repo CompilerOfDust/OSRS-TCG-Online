@@ -1,0 +1,41 @@
+{
+  "id": 1176,
+  "cardId": "itm_armadyl-page-1",
+  "name": "Armadyl page 1",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This seems to have been torn from a book...",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Armadyl_page_1.png",
+  "debut": "2014-07-03",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      12617
+    ],
+    "pageSlug": "Armadyl_page_1",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Armadyl_page_1"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 240,
+    "lowAlchemy": 160,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 2191,
+      "buyLimit": 5,
+      "dailyVolume": 377
+    }
+  },
+  "special": false
+}

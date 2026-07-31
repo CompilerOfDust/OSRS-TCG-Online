@@ -1,0 +1,36 @@
+{
+  "id": 6917,
+  "cardId": "itm_hardy-gout-tuber",
+  "name": "Hardy gout tuber",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "A hardy gout tuber.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Hardy_gout_tuber.png",
+  "debut": "2006-10-23",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      4001
+    ],
+    "pageSlug": "Hardy_gout_tuber",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Hardy_gout_tuber"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 3,
+    "lowAlchemy": 2,
+    "weightKg": 0.1,
+    "market": null
+  }
+}

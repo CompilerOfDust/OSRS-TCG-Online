@@ -1,0 +1,43 @@
+{
+  "id": 7854,
+  "cardId": "itm_yew-sapling",
+  "name": "Yew sapling",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [
+    5361,
+    5367
+  ],
+  "flavourText": "This sapling is ready to be replanted in a tree patch.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Yew_sapling.png",
+  "debut": "2005-07-11",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      5373
+    ],
+    "pageSlug": "Yew_sapling",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Yew_sapling"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0.907,
+    "market": {
+      "guidePrice": 22903,
+      "buyLimit": 200,
+      "dailyVolume": 19394
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 10136,
+  "cardId": "itm_loop-half-of-key",
+  "name": "Loop half of key",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [
+    30107
+  ],
+  "flavourText": "The loop end of the mysterious Crystal Key. Can you find the other half?",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Loop_half_of_key.png",
+  "debut": "2002-02-27",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      987
+    ],
+    "pageSlug": "Loop_half_of_key",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Loop_half_of_key"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 60,
+    "lowAlchemy": 40,
+    "weightKg": 0.005,
+    "market": {
+      "guidePrice": 10030,
+      "buyLimit": 11000,
+      "dailyVolume": 14417
+    }
+  }
+}

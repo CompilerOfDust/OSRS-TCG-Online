@@ -1,0 +1,41 @@
+{
+  "id": 5116,
+  "cardId": "itm_fox-fur",
+  "name": "Fox fur",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "This would make warm clothing.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Fox_fur.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      29163
+    ],
+    "pageSlug": "Fox_fur",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Fox_fur"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 6,
+    "lowAlchemy": 4,
+    "weightKg": 3,
+    "market": {
+      "guidePrice": 4928,
+      "buyLimit": null,
+      "dailyVolume": 18014
+    }
+  },
+  "special": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": 5770,
+  "cardId": "itm_belles-folly-tarnished",
+  "name": "Belle's folly (tarnished)",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [],
+  "flavourText": "This blade needs some work before it will be useable.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Belle%27s_folly_%28tarnished%29.png",
+  "debut": "2025-11-19",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      31245
+    ],
+    "pageSlug": "Belle%27s_folly_(tarnished)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Belle%27s_folly_(tarnished)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Inspect",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 27000,
+    "lowAlchemy": 18000,
+    "weightKg": 1.36,
+    "market": {
+      "guidePrice": 255885,
+      "buyLimit": null,
+      "dailyVolume": 547
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 1326,
+  "cardId": "itm_bronze-longsword",
+  "name": "Bronze longsword",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A razor sharp longsword.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bronze_longsword.png",
+  "debut": "2001-01-04",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1291
+    ],
+    "pageSlug": "Bronze_longsword",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bronze_longsword"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 24,
+    "lowAlchemy": 16,
+    "weightKg": 1.814,
+    "market": {
+      "guidePrice": 66,
+      "buyLimit": 125,
+      "dailyVolume": 3680
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 4,
+        "slash": 5,
+        "crush": -2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 0,
+        "slash": 3,
+        "crush": 2,
+        "magic": 0,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 7,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

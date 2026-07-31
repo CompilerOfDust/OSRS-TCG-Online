@@ -1,0 +1,82 @@
+{
+  "id": 2449,
+  "cardId": "npc_forgotten-soul",
+  "name": "Forgotten Soul",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    10523,
+    10524,
+    10525,
+    10526,
+    10534,
+    10535,
+    10536,
+    10537
+  ],
+  "flavourText": "All that they once were has been lost to time.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Forgotten_Soul.png",
+  "debut": "2021-01-06",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      10544,
+      10545
+    ],
+    "pageSlug": "Forgotten_Soul",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Forgotten_Soul"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [
+      "Undead",
+      "Spectral"
+    ],
+    "tileSize": "1x1",
+    "combatRating": 20,
+    "vitality": 50,
+    "peakDamage": "2",
+    "combatXpBonusPct": 0,
+    "hostile": false,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 4,
+    "respawnTicks": 50,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 50,
+      "group": "Ghosts",
+      "masters": [
+        "Turael",
+        "Spria",
+        "Mazchna"
+      ]
+    },
+    "combatLevels": {
+      "attack": 8,
+      "strength": 8,
+      "defence": 12,
+      "magic": 10,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 5008,
+  "cardId": "itm_civitas-illa-fortis-teleport",
+  "name": "Civitas illa fortis teleport",
+  "cardKind": "item",
+  "tier": 3,
+  "unlocksItems": [],
+  "flavourText": "A teleport to Civitas illa Fortis.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Civitas_illa_fortis_teleport_%28tablet%29.png",
+  "debut": "2024-03-20",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      28824
+    ],
+    "pageSlug": "Civitas_illa_fortis_teleport_(tablet)",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Civitas_illa_fortis_teleport_(tablet)"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": true,
+    "convertible": false,
+    "interactions": [
+      "Break",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 0,
+    "lowAlchemy": 0,
+    "weightKg": 0,
+    "market": {
+      "guidePrice": 834,
+      "buyLimit": null,
+      "dailyVolume": 52884
+    }
+  }
+}

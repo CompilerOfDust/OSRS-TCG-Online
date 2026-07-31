@@ -1,0 +1,65 @@
+{
+  "id": 715,
+  "cardId": "itm_void-melee-helm",
+  "name": "Void melee helm",
+  "cardKind": "item",
+  "tier": 5,
+  "unlocksItems": [
+    26477
+  ],
+  "flavourText": "A melee helm from the order of the Void Knights.",
+  "tags": [
+    "Armour"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Void_melee_helm.png",
+  "debut": "2007-07-17",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      11665
+    ],
+    "pageSlug": "Void_melee_helm",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Void_melee_helm"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Wear",
+      "Drop"
+    ],
+    "gearSlot": "head",
+    "highAlchemy": 5910,
+    "lowAlchemy": 3940,
+    "weightKg": 0.453,
+    "market": null,
+    "gearStats": {
+      "offence": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 6,
+        "slash": 6,
+        "crush": 6,
+        "magic": 6,
+        "ranged": 6
+      },
+      "slot": "head",
+      "attackSpeed": null,
+      "extras": {
+        "meleeStrength": 0,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

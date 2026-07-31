@@ -1,0 +1,74 @@
+{
+  "id": 1674,
+  "cardId": "npc_ogre",
+  "name": "Ogre",
+  "cardKind": "npc",
+  "tier": 2,
+  "unlocksItems": [
+    4362,
+    7028
+  ],
+  "flavourText": "A large dim looking humanoid.",
+  "tags": [
+    "Monster"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Ogre.png",
+  "debut": "2002-04-09",
+  "retired": null,
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      136,
+      1153,
+      2095,
+      2096,
+      2233
+    ],
+    "pageSlug": "Ogre",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Ogre"
+  },
+  "npcProfile": {
+    "race": null,
+    "gender": null,
+    "locations": [],
+    "questLine": null,
+    "shop": null,
+    "menuActions": [],
+    "creatureTraits": [],
+    "tileSize": "2x2",
+    "combatRating": 53,
+    "vitality": 60,
+    "peakDamage": "7",
+    "combatXpBonusPct": 0,
+    "hostile": true,
+    "assaultStyles": [
+      "Crush"
+    ],
+    "attackTempo": 6,
+    "respawnTicks": 30,
+    "inflictsPoison": false,
+    "inflictsVenom": null,
+    "poisonResistancePct": 0,
+    "venomResistancePct": 0,
+    "cannonImmune": false,
+    "thrallImmune": false,
+    "elementalWeakness": null,
+    "slayer": {
+      "requirement": null,
+      "reward": 60,
+      "group": "Ogres",
+      "masters": [
+        "Vannaka"
+      ]
+    },
+    "combatLevels": {
+      "attack": 43,
+      "strength": 43,
+      "defence": 43,
+      "magic": 1,
+      "ranged": 1
+    },
+    "aggressiveBonuses": null
+  }
+}

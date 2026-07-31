@@ -1,0 +1,41 @@
+{
+  "id": 2379,
+  "cardId": "itm_kebab",
+  "name": "Kebab",
+  "cardKind": "item",
+  "tier": 1,
+  "unlocksItems": [],
+  "flavourText": "A meaty kebab.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kebab.png",
+  "debut": "2001-01-21",
+  "membersOnly": false,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      1971
+    ],
+    "pageSlug": "Kebab",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kebab"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Eat",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1,
+    "lowAlchemy": 1,
+    "weightKg": 0.25,
+    "market": {
+      "guidePrice": 70,
+      "buyLimit": 6000,
+      "dailyVolume": 64147
+    }
+  }
+}

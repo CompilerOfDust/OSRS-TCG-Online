@@ -1,0 +1,37 @@
+{
+  "id": 9248,
+  "cardId": "itm_kbd-heads",
+  "name": "Kbd heads",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "I should get them stuffed!",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Kbd_heads.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      7980
+    ],
+    "pageSlug": "Kbd_heads",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Kbd_heads"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": false,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": false,
+    "interactions": [
+      "Separate",
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 30000,
+    "lowAlchemy": 20000,
+    "weightKg": 10,
+    "market": null
+  }
+}

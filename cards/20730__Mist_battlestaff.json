@@ -1,0 +1,67 @@
+{
+  "id": 2655,
+  "cardId": "itm_mist-battlestaff",
+  "name": "Mist battlestaff",
+  "cardKind": "item",
+  "tier": 4,
+  "unlocksItems": [],
+  "flavourText": "It's a slightly magical stick.",
+  "tags": [
+    "Weapon"
+  ],
+  "artUrl": "https://oldschool.runescape.wiki/images/Mist_battlestaff.png",
+  "debut": "2016-09-15",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      20730
+    ],
+    "pageSlug": "Mist_battlestaff",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Mist_battlestaff"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": true,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Wield",
+      "Drop"
+    ],
+    "gearSlot": "weapon",
+    "highAlchemy": 9300,
+    "lowAlchemy": 6200,
+    "weightKg": 2.267,
+    "market": {
+      "guidePrice": 68249,
+      "buyLimit": 8,
+      "dailyVolume": 306
+    },
+    "gearStats": {
+      "offence": {
+        "stab": 7,
+        "slash": -1,
+        "crush": 28,
+        "magic": 12,
+        "ranged": 0
+      },
+      "defence": {
+        "stab": 2,
+        "slash": 3,
+        "crush": 1,
+        "magic": 12,
+        "ranged": 0
+      },
+      "slot": "weapon",
+      "attackSpeed": 5,
+      "extras": {
+        "meleeStrength": 35,
+        "rangedStrength": 0,
+        "magicDamagePct": 0,
+        "prayer": 0
+      }
+    }
+  }
+}

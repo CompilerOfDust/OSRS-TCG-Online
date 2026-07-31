@@ -1,0 +1,41 @@
+{
+  "id": 9377,
+  "cardId": "itm_bagged-nice-tree",
+  "name": "Bagged nice tree",
+  "cardKind": "item",
+  "tier": 2,
+  "unlocksItems": [],
+  "flavourText": "You can plant this in your garden.",
+  "tags": [],
+  "artUrl": "https://oldschool.runescape.wiki/images/Bagged_nice_tree.png",
+  "debut": "2006-05-31",
+  "membersOnly": true,
+  "source": {
+    "registry": "osrs-wiki",
+    "gameIds": [
+      8419
+    ],
+    "pageSlug": "Bagged_nice_tree",
+    "pageUrl": "https://oldschool.runescape.wiki/w/Bagged_nice_tree"
+  },
+  "itemProfile": {
+    "questLinked": false,
+    "marketable": true,
+    "wieldable": false,
+    "poolable": false,
+    "convertible": true,
+    "interactions": [
+      "Drop"
+    ],
+    "gearSlot": null,
+    "highAlchemy": 1200,
+    "lowAlchemy": 800,
+    "weightKg": 10,
+    "market": {
+      "guidePrice": 3367,
+      "buyLimit": 10000,
+      "dailyVolume": 308
+    }
+  },
+  "special": false
+}
