@@ -17,6 +17,8 @@ import net.runelite.api.Client;
 import net.runelite.api.GameState;
 import net.runelite.client.input.MouseAdapter;
 import net.runelite.client.input.MouseManager;
+import com.thecardexchange.tcg.FeatureGate;
+import com.thecardexchange.tcg.ui.BlockedNotice;
 import net.runelite.client.ui.overlay.Overlay;
 import net.runelite.client.ui.overlay.OverlayLayer;
 import net.runelite.client.ui.overlay.OverlayManager;
@@ -49,6 +51,8 @@ public class PackOpeningOrb extends Overlay
 	private final Client client;
 	private final OverlayManager overlayManager;
 	private final MouseManager mouseManager;
+	private final FeatureGate gate;
+	private final BlockedNotice notice;
 	private final TooltipManager tooltipManager;
 	private final TheCardExchangeTcgConfig config;
 	private final PackOpeningInterface opening;
@@ -66,6 +70,8 @@ public class PackOpeningOrb extends Overlay
 		Client client,
 		OverlayManager overlayManager,
 		MouseManager mouseManager,
+		FeatureGate gate,
+		BlockedNotice notice,
 		TooltipManager tooltipManager,
 		TheCardExchangeTcgConfig config,
 		PackOpeningInterface opening)
@@ -73,6 +79,8 @@ public class PackOpeningOrb extends Overlay
 		this.client = client;
 		this.overlayManager = overlayManager;
 		this.mouseManager = mouseManager;
+		this.gate = gate;
+		this.notice = notice;
 		this.tooltipManager = tooltipManager;
 		this.config = config;
 		this.opening = opening;
@@ -188,6 +196,15 @@ public class PackOpeningOrb extends Overlay
 			hovered = true;
 			if (event.getButton() == MouseEvent.BUTTON1)
 			{
+				// Blocked characters get the reason, not the window. Showing the
+				// interface and refusing inside it would look like a bug; refusing
+				// at the door and saying why is the honest version.
+				if (!gate.isPlayable())
+				{
+					notice.show();
+					event.consume();
+					return event;
+				}
 				opening.toggle();
 			}
 			// Consume either button: a right-click on the orb shouldn't open the game's menu behind it.

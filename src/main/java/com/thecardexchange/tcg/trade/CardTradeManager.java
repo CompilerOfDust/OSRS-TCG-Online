@@ -30,7 +30,9 @@ import net.runelite.client.util.LinkBrowser;
 import net.runelite.client.util.Text;
 import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
 import com.thecardexchange.tcg.account.AccountLinkManager;
+import com.thecardexchange.tcg.FeatureGate;
 import com.thecardexchange.tcg.network.NetworkPresence;
+import com.thecardexchange.tcg.ui.BlockedNotice;
 import com.thecardexchange.tcg.packs.CardPacksInterface;
 import com.thecardexchange.tcg.packs.CatalogueCard;
 
@@ -68,6 +70,8 @@ public class CardTradeManager
 	private final CardPacksInterface packs;
 	private final TradeSocket socket;
 	private final NetworkPresence presence;
+	private final FeatureGate gate;
+	private final BlockedNotice notice;
 
 	@Nullable
 	private volatile String currentRsn;
@@ -113,7 +117,9 @@ public class CardTradeManager
 		TradeWindow window,
 		CardPacksInterface packs,
 		TradeSocket socket,
-		NetworkPresence presence)
+		NetworkPresence presence,
+		FeatureGate gate,
+		BlockedNotice notice)
 	{
 		this.client = client;
 		this.chatMessageManager = chatMessageManager;
@@ -123,6 +129,8 @@ public class CardTradeManager
 		this.packs = packs;
 		this.socket = socket;
 		this.presence = presence;
+		this.gate = gate;
+		this.notice = notice;
 	}
 
 	// ── Lifecycle ─────────────────────────────────────────────────────────────
@@ -325,9 +333,14 @@ public class CardTradeManager
 			return;
 		}
 
-		if (!linkManager.isLinked())
+		// The same gate the orbs use, so a held or unlinked character cannot trade
+		// either. The server refuses these anyway; this is so the player is told
+		// why here rather than watching an offer fail for no visible reason.
+		String blocked = gate.blockedReason();
+		if (blocked != null)
 		{
-			announce("ff9040", "Link your account in the OSRS TCG Online side panel to trade cards.");
+			announce("ff9040", blocked);
+			notice.show();
 			return;
 		}
 		if (!socket.isConnected())

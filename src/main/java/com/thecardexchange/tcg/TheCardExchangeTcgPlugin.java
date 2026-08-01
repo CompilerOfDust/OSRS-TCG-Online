@@ -29,6 +29,7 @@ import com.thecardexchange.tcg.account.AccountLinkManager;
 import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.items.ItemLockManager;
 import com.thecardexchange.tcg.packs.CardPacksManager;
+import com.thecardexchange.tcg.ui.BlockedNotice;
 import com.thecardexchange.tcg.network.NetworkBadge;
 import com.thecardexchange.tcg.network.NetworkBadgeDecorator;
 import com.thecardexchange.tcg.network.NetworkBadgeOverlay;
@@ -89,6 +90,12 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	private ChatMessageManager chatMessageManager;
 
 	@Inject
+	private FeatureGate featureGate;
+
+	@Inject
+	private BlockedNotice blockedNotice;
+
+	@Inject
 	private NetworkPresence networkPresence;
 
 	@Inject
@@ -116,7 +123,18 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		// Redraw the panel whenever the link state changes (runs off the scheduler thread; the panel
 		// hops to the EDT itself).
 		linkManager.setStatusListener(panel::refresh);
-		characterTracker.setListener(panel::refresh);
+		characterTracker.setListener(() ->
+		{
+			panel.refresh();
+			// A hold or an unlink can land mid-session, so the windows have to shut
+			// themselves rather than wait for the next click to be refused — a
+			// collection you can still browse does not look blocked.
+			if (!featureGate.isPlayable())
+			{
+				cardPacksManager.closeAll();
+				blockedNotice.show();
+			}
+		});
 		// The item lock reads a per-character collection, so it waits for the bind
 		// rather than racing it on the login tick.
 		characterTracker.setOnBound(itemLockManager::refresh);
@@ -142,6 +160,7 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		characterTracker.start();
 		// The network badge: who else is online, and the icon that marks them.
 		overlayManager.add(networkBadgeOverlay);
+		blockedNotice.start();
 		// The mod-icon table only exists once the game has loaded, so this is a
 		// no-op until then and is retried on every login.
 		clientThread.invokeLater(() -> networkBadge.install(client));
@@ -161,6 +180,7 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		cardPacksManager.stop();
 		itemLockManager.stop();
 		overlayManager.remove(networkBadgeOverlay);
+		blockedNotice.stop();
 		networkPresence.clear();
 		if (navButton != null)
 		{

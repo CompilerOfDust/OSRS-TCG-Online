@@ -152,6 +152,19 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
     only on players who are on the network, because an offer to anyone else is one the broker can never
     deliver. So "Show me as online" is not purely cosmetic — hiding yourself also stops others
     right-clicking you into a trade. Keep the config copy honest about that.
+- **`FeatureGate` is the single answer to "may this character play".** Blocked when the install is not
+  linked, the character was released from the account's profile, it belongs to a different account, or
+  it is held for review. The pack orb, the collection orb and `requestTrade` all consult it, so they
+  cannot disagree — before it existed the panel showed a hold while the orbs still opened, which reads
+  as the hold not being real. Every reason in it is one the **server** decided; nothing is judged
+  locally, so a modified client can re-enable its own buttons and still be refused by every endpoint
+  behind them. It is honesty for the player, not a security boundary.
+- **`ui/BlockedNotice` is the dialogue that says why** — painted on the canvas like the other windows,
+  not a Swing pop-up, which would steal focus mid-game and can land on another monitor. It shows the
+  server's own words, because the reasons need different actions (link an account, re-link a character
+  on the website, wait for a review) and "unavailable" leaves a player nowhere to go. It closes itself
+  if the reason clears while it is up, and `CharacterTracker`'s listener shuts the open windows when a
+  hold lands mid-session rather than waiting for the next click to be refused.
 - `ui/OsrsSkin` — the shared painted look (palette + plate/bevel/well/text primitives) every in-game
   interface is built from, so the trade window and card packs can't drift apart.
 - **Both painted windows are alt-draggable** (alt+click anywhere moves them; without alt, clicks work the

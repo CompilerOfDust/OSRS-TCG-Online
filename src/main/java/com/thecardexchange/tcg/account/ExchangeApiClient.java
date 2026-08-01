@@ -339,6 +339,20 @@ public class ExchangeApiClient
 		}
 	}
 
+	/**
+	 * Thrown when the account holder unlinked this character from their profile.
+	 *
+	 * <p>Distinct from {@link CharacterNotBound}: that is "bind and carry on", this is a deliberate
+	 * decision only they can undo, so retrying is pointless and the plugin says so instead.
+	 */
+	public static final class CharacterReleased extends IOException
+	{
+		CharacterReleased(String message)
+		{
+			super(message);
+		}
+	}
+
 	/** Thrown when this account has not bound the character the request is for. */
 	public static final class CharacterNotBound extends IOException
 	{
@@ -559,6 +573,11 @@ public class ExchangeApiClient
 					{
 						throw new CharacterClaimed(message.isEmpty()
 							? "That character is linked to a different Card Exchange account." : message);
+					}
+					if ("released".equals(asString(json, "status")))
+					{
+						throw new CharacterReleased(message.isEmpty()
+							? "This character was unlinked from your account." : message);
 					}
 					throw new CharacterNotBound(message.isEmpty() ? "Character not linked yet." : message);
 				case 422:

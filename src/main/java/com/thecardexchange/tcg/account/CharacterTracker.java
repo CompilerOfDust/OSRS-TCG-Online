@@ -71,6 +71,14 @@ public class CharacterTracker
 	/** The character we have successfully bound, normalised — null when none. */
 	private final AtomicReference<String> boundRsn = new AtomicReference<>(null);
 	private final AtomicReference<String> mismatchMessage = new AtomicReference<>(null);
+	/**
+	 * Set when the account holder unlinked this character from their profile.
+	 *
+	 * <p>Kept separate from {@link #mismatchMessage}: one is "this belongs to somebody else", the other
+	 * is "you released this yourself". They need different words, and only the second is undone from
+	 * the player's own profile page.
+	 */
+	private final AtomicReference<String> releasedMessage = new AtomicReference<>(null);
 
 	private final AtomicBoolean started = new AtomicBoolean(false);
 	private final AtomicBoolean binding = new AtomicBoolean(false);
@@ -156,6 +164,13 @@ public class CharacterTracker
 	{
 		CharacterState current = state.get();
 		return current.isBound() ? current.getGameMode() : gameModeManager.getGameMode();
+	}
+
+	/** Set when this character was unlinked from the account's profile; null otherwise. */
+	@Nullable
+	public String getReleasedMessage()
+	{
+		return releasedMessage.get();
 	}
 
 	public CharacterState getState()
@@ -306,6 +321,7 @@ public class CharacterTracker
 				CharacterState bound = api.bindCharacter(token, current);
 				boundRsn.set(rsnKey(current.getRsn()));
 				mismatchMessage.set(null);
+				releasedMessage.set(null);
 				applyState(bound);
 				startHeartbeat();
 				Runnable callback = onBound;
@@ -321,6 +337,14 @@ public class CharacterTracker
 				// while the panel still claims to be linked.
 				clearCharacter();
 				linkManager.onUnauthorised();
+			}
+			catch (ExchangeApiClient.CharacterReleased ex)
+			{
+				// Unlinked by its own holder. Only they can undo it, from the
+				// profile page, so there is nothing to retry into.
+				releasedMessage.set(ex.getMessage());
+				state.set(CharacterState.UNKNOWN);
+				notifyListener();
 			}
 			catch (ExchangeApiClient.CharacterClaimed ex)
 			{
