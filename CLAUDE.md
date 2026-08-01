@@ -1,7 +1,13 @@
 # CLAUDE.md — thecardexchange-tcg (RuneLite plugin)
 
-The **TheCardExchange TCG** RuneLite plugin (`com.thecardexchange.tcg.TheCardExchangeTcgPlugin`) — our
-card game for Old School RuneScape, wired to the OSRS Card Exchange. Java / Gradle.
+The **OSRS TCG Online** RuneLite plugin (`com.thecardexchange.tcg.TheCardExchangeTcgPlugin`) — our card
+game for Old School RuneScape, wired to the OSRS Card Exchange. Java / Gradle.
+
+> The directory and Java package still say `thecardexchange`; only the *display* name changed (the
+> `@PluginDescriptor` name and `runelite-plugin.properties` displayName). Renaming the package would
+> break every stored config key, including the plugin token — the config group is `thecardexchangetcg`
+> and that string is load-bearing. `panel_icon.png` is the brand mark: a card with a green centre dot,
+> reused as the network badge, so the dot doubles as the "online" signal.
 
 - `./gradlew.bat run` side-loads the plugin via the `*PluginTest` main (`ExternalPluginManager.loadBuiltin`
   → `RuneLite.main`) in `--developer-mode`; stops at the login screen, click **Play**.
@@ -89,6 +95,23 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   withdraw), drop/destroy/examine/remove, and *all* skilling — the lock never touches world objects.
   Config: "Lock uncollected items". Written from our own data. Known limitation of any menu-based lock:
   keybind and spacebar-"make" actions bypass `MenuOptionClicked` and can't be consumed.
+- **Two URLs, two origins.** `apiBaseUrl` is the Bun api; `webAppUrl` is the website (the game-mode
+  guide, the marketplace). Both resolve property → env → baked-in local default, so a deployment points
+  them without a rebuild. Don't build website links off the api base — in production they are different
+  hosts.
+- **`CharacterTracker.activeGameMode()` is the single answer to "which mode are we in"** — the server's
+  reply once bound, the cache only for the gap before the first bind. The panel and all three card
+  renderers read it; a second copy of that decision is how you get rose-tinted cards next to a panel
+  saying Normal.
+- **CardMan cards carry a silvery-rose wash** (`CardFace.CARDMAN_WASH`, blended at
+  `CARDMAN_WASH_STRENGTH`), so the two economies — which cannot trade with each other — are tellable
+  apart at a glance. A *blend*, not a replacement: the backdrop colour **is** the gem tier, so a flat
+  wash would trade the mode signal for the rarity one. Set the strength to 1.0 if that ever inverts.
+- **The panel greys out "Play CardMan" for a character that has already trained**
+  (`CharacterSnapshot.isBrandNew()` — every skill 1, Hitpoints 10, derived per skill, never hardcoded to
+  33). A **pre-check only**: the server still runs the real ironman + freshness + hiscores gate, because
+  anything a client decides is forgeable. "Unknown" (no snapshot yet) reads as *not* allowed, never as
+  allowed. The panel also links to `/guide/game-modes` on the website for the full rules.
 - `mode/` — the **game mode**: `GameMode` (`NOT_SELECTED` / `NORMAL` / `CARDMAN`) and `GameModeManager`.
   The mode is **per character**, stored in RSProfile config (`getRSProfileKey()` is null before login, so
   the panel has an explicit logged-out state), and **the server is the authority** — `cacheServerMode()`
@@ -105,6 +128,24 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   seasonal/beta/tournament worlds. `CharacterState` is the server's answer; the plugin renders it and
   decides none of it. **The full contract is `../api/docs/cardman-mode.md` — read it before changing any
   of this.**
+- `network/` — the **in-game network badge**: an icon beside other OSRS TCG Online players who are
+  logged in. `NetworkPresence` polls `GET /api/v1/plugin/network/online` every 30s and holds the online
+  set; `NetworkBadge` appends the mark to `client.getModIcons()` so chat and menu names can carry an
+  `<img=N>` tag (the same mechanism as clan/ironman icons — client thread only, and idempotent, or a
+  world hop leaks a slot per hop); `NetworkBadgeDecorator` prefixes chat names and player menu entries;
+  `NetworkBadgeOverlay` draws it above nearby members, capped at 30 a frame so a crowded bank stays
+  readable. Config: "Show network badges" plus a toggle per placement, and **"Show me as online"**,
+  which pushes to the server (`POST /network/visibility`) because only the server can actually stop
+  publishing you.
+  - **Nothing about who is nearby leaves the machine.** The list is downloaded whole and matched
+    locally, deliberately: per-name lookups would mean sending third parties' names to a server, which
+    plugin review refuses. Do not "optimise" it into a lookup.
+  - **This cannot change how anyone appears in the normal game.** Only players running this plugin see
+    the badge; Jagex renders the client and nothing here touches an actual RuneScape account.
+  - **The presence set also gates "Trade Cards"** (`CardTradeManager.addTradeCards`): the entry appears
+    only on players who are on the network, because an offer to anyone else is one the broker can never
+    deliver. So "Show me as online" is not purely cosmetic — hiding yourself also stops others
+    right-clicking you into a trade. Keep the config copy honest about that.
 - `ui/OsrsSkin` — the shared painted look (palette + plate/bevel/well/text primitives) every in-game
   interface is built from, so the trade window and card packs can't drift apart.
 - **Both painted windows are alt-draggable** (alt+click anywhere moves them; without alt, clicks work the

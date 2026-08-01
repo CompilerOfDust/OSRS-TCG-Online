@@ -59,6 +59,41 @@ final class CardFace
 	private static final double BOX_MAX_WIDTH = 0.72;
 	/** Ink for text sitting on the template's parchment panels, where the skin's light tones vanish. */
 	private static final Color PARCHMENT_INK = new Color(62, 46, 24);
+
+	/**
+	 * The wash that marks a CardMan card — a silvery rose.
+	 *
+	 * <p>CardMan and Normal cards are otherwise identical, and telling them apart matters: they are
+	 * separate economies that cannot trade with each other, so "which of these can I actually swap"
+	 * should be answerable at a glance.
+	 */
+	private static final Color CARDMAN_WASH = new Color(0xCB, 0xAE, 0xB4);
+
+	/**
+	 * How far a CardMan card's colour is pulled toward the wash.
+	 *
+	 * <p>Deliberately a blend rather than a replacement. The backdrop's colour <em>is</em> the gem
+	 * tier — it is how rarity reads at a glance — so painting every CardMan card one flat colour would
+	 * trade one distinction for a more important one. At this strength the rose is unmistakable while a
+	 * Zenyte still plainly outranks a Sapphire. Raise it to 1.0 for a flat wash if the mode signal
+	 * should win outright.
+	 */
+	private static final float CARDMAN_WASH_STRENGTH = 0.62f;
+
+	/** The gem-tier colour to actually paint with, rose-washed for a CardMan character. */
+	private static Color modeTint(Color tier, boolean cardman)
+	{
+		return cardman ? blend(tier, CARDMAN_WASH, CARDMAN_WASH_STRENGTH) : tier;
+	}
+
+	private static Color blend(Color from, Color to, float amount)
+	{
+		float keep = 1f - amount;
+		return new Color(
+			Math.round(from.getRed() * keep + to.getRed() * amount),
+			Math.round(from.getGreen() * keep + to.getGreen() * amount),
+			Math.round(from.getBlue() * keep + to.getBlue() * amount));
+	}
 	/** Diamond and up (5, 6, 7) wear the premium backdrop rather than the plain gradient. */
 	private static final int PREMIUM_TIER = 5;
 	/** Spokes in the premium sunburst, and the art-window width below which they aren't worth drawing. */
@@ -74,9 +109,9 @@ final class CardFace
 	 * toward the bottom, or from Diamond up the {@linkplain #premiumBackdrop premium} treatment. The
 	 * collection grid uses this alone: its tiles are too small for the text layers.
 	 */
-	static void backdrop(Graphics2D g, Rectangle rect, CatalogueCard card)
+	static void backdrop(Graphics2D g, Rectangle rect, CatalogueCard card, boolean cardman)
 	{
-		Color tier = card.getTierColour();
+		Color tier = modeTint(card.getTierColour(), cardman);
 		int windowX = rect.x + (int) (rect.width * WINDOW_LEFT);
 		int windowY = rect.y + (int) (rect.height * WINDOW_TOP);
 		int windowW = (int) (rect.width * (WINDOW_RIGHT - WINDOW_LEFT));
@@ -155,9 +190,9 @@ final class CardFace
 	}
 
 	static void paint(Graphics2D g, Rectangle rect, @Nullable BufferedImage front,
-		@Nullable BufferedImage art, CatalogueCard card)
+		@Nullable BufferedImage art, CatalogueCard card, boolean cardman)
 	{
-		backdrop(g, rect, card);
+		backdrop(g, rect, card, cardman);
 
 		if (front != null)
 		{

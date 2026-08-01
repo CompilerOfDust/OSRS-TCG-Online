@@ -9,25 +9,34 @@ import net.runelite.api.GameState;
 import net.runelite.api.Player;
 import net.runelite.api.events.GameStateChanged;
 import net.runelite.api.events.GameTick;
+import net.runelite.api.events.ChatMessage;
 import net.runelite.api.events.MenuEntryAdded;
 import net.runelite.api.events.MenuOptionClicked;
 import net.runelite.api.events.MenuOpened;
 import net.runelite.api.events.StatChanged;
 import net.runelite.client.config.ConfigManager;
+import net.runelite.client.events.ConfigChanged;
+import net.runelite.client.chat.ChatMessageManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
+import net.runelite.client.callback.ClientThread;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
+import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.ImageUtil;
 import com.thecardexchange.tcg.account.AccountLinkManager;
 import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.items.ItemLockManager;
 import com.thecardexchange.tcg.packs.CardPacksManager;
+import com.thecardexchange.tcg.network.NetworkBadge;
+import com.thecardexchange.tcg.network.NetworkBadgeDecorator;
+import com.thecardexchange.tcg.network.NetworkBadgeOverlay;
+import com.thecardexchange.tcg.network.NetworkPresence;
 import com.thecardexchange.tcg.trade.CardTradeManager;
 
 /**
- * OSRS TCG (TheCardExchange) — turns Old School RuneScape into a card game backed by the
+ * OSRS TCG Online — turns Old School RuneScape into a card game backed by the
  * OSRS Card Exchange.
  *
  * <p>This first cut is the front door: it links the plugin to an exchange account
@@ -38,7 +47,7 @@ import com.thecardexchange.tcg.trade.CardTradeManager;
  */
 @Slf4j
 @PluginDescriptor(
-	name = "OSRS TCG (TheCardExchange)",
+	name = "OSRS TCG Online",
 	description = "Turn Old School RuneScape into a card game. Link your osrscardexchange.com account to start."
 )
 public class TheCardExchangeTcgPlugin extends Plugin
@@ -67,6 +76,30 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	@Inject
 	private Client client;
 
+	@Inject
+	private TheCardExchangeTcgConfig config;
+
+	@Inject
+	private ClientThread clientThread;
+
+	@Inject
+	private OverlayManager overlayManager;
+
+	@Inject
+	private ChatMessageManager chatMessageManager;
+
+	@Inject
+	private NetworkPresence networkPresence;
+
+	@Inject
+	private NetworkBadge networkBadge;
+
+	@Inject
+	private NetworkBadgeDecorator networkBadgeDecorator;
+
+	@Inject
+	private NetworkBadgeOverlay networkBadgeOverlay;
+
 	private NavigationButton navButton;
 
 	@Provides
@@ -78,7 +111,7 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	@Override
 	protected void startUp()
 	{
-		log.info("OSRS TCG (TheCardExchange) starting up");
+		log.info("OSRS TCG Online starting up");
 
 		// Redraw the panel whenever the link state changes (runs off the scheduler thread; the panel
 		// hops to the EDT itself).
@@ -90,7 +123,7 @@ public class TheCardExchangeTcgPlugin extends Plugin
 
 		BufferedImage icon = ImageUtil.loadImageResource(getClass(), "/com/thecardexchange/tcg/panel_icon.png");
 		navButton = NavigationButton.builder()
-			.tooltip("OSRS TCG (TheCardExchange)")
+			.tooltip("OSRS TCG Online")
 			.icon(icon)
 			.priority(8)
 			.panel(panel)
@@ -107,13 +140,18 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		itemLockManager.start();
 		// Bind the character on login, then report while it plays.
 		characterTracker.start();
+		// The network badge: who else is online, and the icon that marks them.
+		overlayManager.add(networkBadgeOverlay);
+		// The mod-icon table only exists once the game has loaded, so this is a
+		// no-op until then and is retried on every login.
+		clientThread.invokeLater(() -> networkBadge.install(client));
 		panel.refresh();
 	}
 
 	@Override
 	protected void shutDown()
 	{
-		log.info("OSRS TCG (TheCardExchange) shutting down");
+		log.info("OSRS TCG Online shutting down");
 		linkManager.setStatusListener(null);
 		characterTracker.setListener(null);
 		characterTracker.setOnBound(null);
@@ -122,6 +160,8 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		cardTradeManager.stop();
 		cardPacksManager.stop();
 		itemLockManager.stop();
+		overlayManager.remove(networkBadgeOverlay);
+		networkPresence.clear();
 		if (navButton != null)
 		{
 			clientToolbar.removeNavigation(navButton);
@@ -158,6 +198,8 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		linkManager.setPendingSnapshot(characterTracker.currentSnapshot());
 		// Keep an incoming trade-request chat line clickable while it's live.
 		cardTradeManager.onGameTick();
+		// Refreshes the online-member list when it's due; free while logged out.
+		networkPresence.tick();
 	}
 
 	@Subscribe
@@ -169,6 +211,9 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		{
 			// Find out what this character has unlocked before they can click anything.
 			itemLockManager.onLoggedIn();
+			// The mod-icon table is built as the game loads, so the badge can only be
+			// registered once we are in. Idempotent — a world hop must not leak a slot.
+			networkBadge.install(client);
 			return;
 		}
 
@@ -185,6 +230,7 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		// Closes the server-side session, so a night away is not an unwatched gap.
 		characterTracker.onLoggedOut();
 		itemLockManager.onLoggedOut();
+		networkPresence.clear();
 
 		// Losing the character closes every painted interface. They swallow all mouse
 		// and key input inside their bounds by design, so one left open after a
@@ -202,6 +248,45 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	public void onMenuEntryAdded(MenuEntryAdded event)
 	{
 		itemLockManager.onMenuEntryAdded(event);
+		networkBadgeDecorator.decorateMenuEntry(event);
+	}
+
+	/**
+	 * Puts the network badge in front of a member's name in chat.
+	 *
+	 * <p>A chat line is already built by the time this fires, so the name is rewritten on the message
+	 * node and the chat manager asked to render it again — the only way to change one after the fact.
+	 */
+	/**
+	 * Pushes the "Show me as online" setting to the server when it changes.
+	 *
+	 * <p>The setting has to live server-side to mean anything — a client can decline to draw its own
+	 * badge, but only the server can stop publishing somebody. This handler is just the way the choice
+	 * gets there; the server is what enforces it.
+	 */
+	@Subscribe
+	public void onConfigChanged(ConfigChanged event)
+	{
+		if (!TheCardExchangeTcgConfig.GROUP.equals(event.getGroup()))
+		{
+			return;
+		}
+		if ("networkShowMeOnline".equals(event.getKey()))
+		{
+			networkPresence.setVisibility(config.networkShowMeOnline());
+		}
+	}
+
+	@Subscribe
+	public void onChatMessage(ChatMessage event)
+	{
+		String decorated = networkBadgeDecorator.decorateChatName(event);
+		if (decorated == null)
+		{
+			return;
+		}
+		event.getMessageNode().setName(decorated);
+		chatMessageManager.update(event.getMessageNode());
 	}
 
 	/** Blocks the click on a locked item — everything the lock allows is decided in the manager. */

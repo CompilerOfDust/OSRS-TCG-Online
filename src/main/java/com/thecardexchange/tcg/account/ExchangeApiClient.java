@@ -348,6 +348,20 @@ public class ExchangeApiClient
 	}
 
 	/** Thrown when the character belongs to a different exchange account. */
+	/**
+	 * The server rejected our plugin token — revoked, or its account no longer exists.
+	 *
+	 * <p>Terminal, unlike every other failure here: retrying cannot fix it, so the caller unlinks and
+	 * asks the player to link again rather than looping.
+	 */
+	public static final class Unauthorised extends IOException
+	{
+		Unauthorised(String message)
+		{
+			super(message);
+		}
+	}
+
 	public static final class CharacterClaimed extends IOException
 	{
 		CharacterClaimed(String message)
@@ -382,6 +396,72 @@ public class ExchangeApiClient
 	public CharacterState bindCharacter(String token, CharacterSnapshot snapshot) throws IOException
 	{
 		return characterCall("/api/v1/plugin/character/bind", token, snapshot, null);
+	}
+
+	/**
+	 * The Card Exchange characters logged in right now, for the network badge.
+	 *
+	 * <p>The whole list comes down and the matching happens on this machine. It would be cheaper to
+	 * ask the server "is this player one of yours?" for each name we see — and that is exactly what
+	 * must not happen: those names belong to third parties who agreed to nothing, and shipping them
+	 * off the client is the kind of thing RuneLite's plugin review refuses, rightly.
+	 *
+	 * @return display names, lowercased for matching
+	 */
+	public Set<String> onlineNetworkPlayers(String token) throws IOException
+	{
+		Request request = authorised(get("/api/v1/plugin/network/online"), token).build();
+		try (Response response = execute(request))
+		{
+			JsonObject json = response.body() == null
+				? new JsonObject()
+				: gson.fromJson(response.body().charStream(), JsonObject.class);
+			if (json == null || !json.has("rsns"))
+			{
+				return Collections.emptySet();
+			}
+
+			JsonArray rsns = json.getAsJsonArray("rsns");
+			Set<String> names = new HashSet<>(rsns.size());
+			for (JsonElement element : rsns)
+			{
+				String rsn = element.getAsString();
+				if (rsn != null && !rsn.isEmpty())
+				{
+					names.add(normaliseRsn(rsn));
+				}
+			}
+			return names;
+		}
+	}
+
+	/**
+	 * Publishes, or stops publishing, this account's online status to the badge.
+	 *
+	 * <p>Server-side, deliberately: a client can hide itself but can never un-hide somebody who
+	 * chose to opt out.
+	 */
+	public void setNetworkVisibility(String token, boolean visible) throws IOException
+	{
+		JsonObject body = new JsonObject();
+		body.addProperty("visible", visible);
+		Request request = authorised(
+			new Request.Builder()
+				.url(url("/api/v1/plugin/network/visibility"))
+				.post(RequestBody.create(JSON, gson.toJson(body)))
+				.header("Accept", "application/json"),
+			token).build();
+		try (Response response = execute(request))
+		{
+			// The status is all we need; execute() has already thrown on a refusal.
+			response.code();
+		}
+	}
+
+	/** The key names are matched on: sanitised of the game's markup, then lowercased. */
+	public static String normaliseRsn(String rsn)
+	{
+		return Text.sanitize(rsn).trim().toLowerCase();
 	}
 
 	/** The 5-minute "still here, still this shape" report. */
@@ -443,7 +523,11 @@ public class ExchangeApiClient
 			switch (response.code())
 			{
 				case 401:
-					throw new IOException("Link your account to play.");
+					// A *specific* type, not a bare IOException: the caller has to be able
+					// to tell "this token is dead" from "the network hiccuped". They were
+					// indistinguishable before, so a revoked or deleted account left the
+					// plugin retrying for ever while still claiming to be linked.
+					throw new Unauthorised(message.isEmpty() ? "Link your account to play." : message);
 				case 404:
 				case 409:
 					if ("claimed_by_another_account".equals(asString(json, "status"))

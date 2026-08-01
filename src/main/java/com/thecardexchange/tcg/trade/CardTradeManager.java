@@ -30,6 +30,7 @@ import net.runelite.client.util.LinkBrowser;
 import net.runelite.client.util.Text;
 import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
 import com.thecardexchange.tcg.account.AccountLinkManager;
+import com.thecardexchange.tcg.network.NetworkPresence;
 import com.thecardexchange.tcg.packs.CardPacksInterface;
 import com.thecardexchange.tcg.packs.CatalogueCard;
 
@@ -66,6 +67,7 @@ public class CardTradeManager
 	private final TradeWindow window;
 	private final CardPacksInterface packs;
 	private final TradeSocket socket;
+	private final NetworkPresence presence;
 
 	@Nullable
 	private volatile String currentRsn;
@@ -110,7 +112,8 @@ public class CardTradeManager
 		TheCardExchangeTcgConfig config,
 		TradeWindow window,
 		CardPacksInterface packs,
-		TradeSocket socket)
+		TradeSocket socket,
+		NetworkPresence presence)
 	{
 		this.client = client;
 		this.chatMessageManager = chatMessageManager;
@@ -119,6 +122,7 @@ public class CardTradeManager
 		this.window = window;
 		this.packs = packs;
 		this.socket = socket;
+		this.presence = presence;
 	}
 
 	// ── Lifecycle ─────────────────────────────────────────────────────────────
@@ -230,6 +234,14 @@ public class CardTradeManager
 			{
 				continue;
 			}
+			// Only players who are on the network right now. Offering a trade to
+			// anyone else is an offer the broker can never deliver — they hold no
+			// plugin token and no socket — so the entry would be a dead end on the
+			// right-click menu of every player in the game.
+			if (!presence.isOnline(p.getName()))
+			{
+				continue;
+			}
 			boolean isTrade = Text.removeTags(entry.getOption()).toLowerCase().startsWith("trade");
 			if (!anchorIndex.containsKey(p))
 			{
@@ -315,7 +327,7 @@ public class CardTradeManager
 
 		if (!linkManager.isLinked())
 		{
-			announce("ff9040", "Link your account in the OSRS TCG (TheCardExchange) side panel to trade cards.");
+			announce("ff9040", "Link your account in the OSRS TCG Online side panel to trade cards.");
 			return;
 		}
 		if (!socket.isConnected())
@@ -415,8 +427,19 @@ public class CardTradeManager
 				incomingOfferId = null;
 				activeOfferId = null;
 				closeTradeUi();
-				announce("ff9040", "That trade request "
-					+ ("expired".equals(event.getReason()) ? "expired." : "could not be completed."));
+				// Prefer the server's own words: it knows whether a mode is unchosen,
+				// the two modes disagree, or a character is under review, and each of
+				// those tells the player something they can act on.
+				String explanation = event.getMessage();
+				if (explanation != null && !explanation.isEmpty())
+				{
+					announce("ff9040", explanation);
+				}
+				else
+				{
+					announce("ff9040", "That trade request "
+						+ ("expired".equals(event.getReason()) ? "expired." : "could not be completed."));
+				}
 				break;
 			default:
 				break;

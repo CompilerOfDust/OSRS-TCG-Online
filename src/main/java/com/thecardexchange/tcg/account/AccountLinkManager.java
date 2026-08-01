@@ -363,6 +363,37 @@ public class AccountLinkManager
 			linked == null ? "" : linked.getOsrsName());
 	}
 
+	/**
+	 * Drops the link because the server refused our token.
+	 *
+	 * <p>Called when any authenticated call comes back 401 — the account was deleted, or the device was
+	 * revoked from the website. There is no point retrying that, and continuing to display "Linked"
+	 * while nothing works is the worst of both, so the stored token goes and the panel asks the player
+	 * to link again.
+	 *
+	 * <p>Distinct from {@link #unlink()}, which is the player choosing to disconnect and therefore also
+	 * tells the server. Here the server has already stopped accepting us, so there is nobody to tell.
+	 */
+	public void onUnauthorised()
+	{
+		if (storedToken() == null || state.get() == LinkState.ERROR)
+		{
+			// Nothing stored, or already reported — every in-flight call fails at
+			// once, so this arrives repeatedly and must not shout each time.
+			return;
+		}
+		stopPolling();
+		// The token is deliberately **kept**. Unlinking is something the account
+		// holder does, on their profile — a server that refuses us is not them
+		// asking, and silently forgetting a link nobody released would lose the
+		// one thing that can tell "revoked on purpose" from "the account was
+		// wiped by mistake". The panel says so plainly instead.
+		setState(LinkState.ERROR, "This link is no longer accepted by the exchange. "
+			+ "Check your linked accounts on the website, then link again if you need to.");
+		announce("ff9040", "Your Card Exchange link is no longer accepted. "
+			+ "Manage your linked accounts on your profile.");
+	}
+
 	private void clearStoredLink()
 	{
 		configManager.unsetConfiguration(TheCardExchangeTcgConfig.GROUP, TOKEN_KEY);

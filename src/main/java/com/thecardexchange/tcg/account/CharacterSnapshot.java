@@ -128,6 +128,49 @@ public class CharacterSnapshot
 	}
 
 	/** True on a world whose stats must never be reported. */
+	/** Hitpoints is the one skill that does not start at 1. */
+	private static final int FRESH_HITPOINTS_LEVEL = 10;
+
+	/**
+	 * Whether this character looks brand new — every skill at 1, Hitpoints at 10.
+	 *
+	 * <p><b>A pre-check, not the decision.</b> The server runs the same rule and its answer is the one
+	 * that counts; this exists so the panel can grey out "Play CardMan" for an account that plainly
+	 * cannot have it, rather than letting somebody commit to a permanent choice and bounce off a
+	 * refusal. Anything a client decides is forgeable, so this weakens nothing server side.
+	 *
+	 * <p><b>Levels only, deliberately no XP check</b> — the same reasoning as the server. Tutorial
+	 * Island grants XP in about a dozen skills, so a genuinely new account has non-zero XP everywhere
+	 * and zero levels anywhere; an XP gate would reject every legitimate candidate.
+	 *
+	 * <p>Nothing is hardcoded to a total of 33: the expectation is derived per skill, so it stays
+	 * correct the next time Jagex adds one — as they just did with Sailing, which a magic number would
+	 * have survived silently and wrongly.
+	 */
+	public boolean isBrandNew()
+	{
+		if (skills == null || skills.isEmpty())
+		{
+			// Nothing to judge on. Callers treat "unknown" as "can't offer it yet"
+			// rather than guessing either way.
+			return false;
+		}
+		for (Map.Entry<String, int[]> entry : skills.entrySet())
+		{
+			int[] stat = entry.getValue();
+			if (stat == null || stat.length == 0)
+			{
+				return false;
+			}
+			int expected = "Hitpoints".equals(entry.getKey()) ? FRESH_HITPOINTS_LEVEL : 1;
+			if (stat[0] != expected)
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+
 	public boolean isExcludedWorld()
 	{
 		for (WorldType type : worldTypes)

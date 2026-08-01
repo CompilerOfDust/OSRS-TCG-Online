@@ -145,6 +145,19 @@ public class CharacterTracker
 
 	// ── What the panel reads ─────────────────────────────────────────────────
 
+	/**
+	 * The mode to render by: the server's answer once the character is bound, else the cached one.
+	 *
+	 * <p>Single source for that decision. The panel and every card renderer ask here rather than
+	 * repeating it, because a disagreement between them would show a player CardMan-coloured cards
+	 * while the panel said Normal.
+	 */
+	public GameMode activeGameMode()
+	{
+		CharacterState current = state.get();
+		return current.isBound() ? current.getGameMode() : gameModeManager.getGameMode();
+	}
+
 	public CharacterState getState()
 	{
 		return state.get();
@@ -301,6 +314,14 @@ public class CharacterTracker
 					callback.run();
 				}
 			}
+			catch (ExchangeApiClient.Unauthorised ex)
+			{
+				// The token is dead — revoked, or its account no longer exists. Retrying
+				// cannot help, so drop the link instead of binding every 30s for ever
+				// while the panel still claims to be linked.
+				clearCharacter();
+				linkManager.onUnauthorised();
+			}
 			catch (ExchangeApiClient.CharacterClaimed ex)
 			{
 				// Requirement made visible: this character belongs to another
@@ -355,6 +376,13 @@ public class CharacterTracker
 				// The binding went away underneath us; re-bind on the next tick.
 				clearCharacter();
 			}
+			catch (ExchangeApiClient.Unauthorised ex)
+			{
+				// Same as on bind: a dead token is terminal, so unlink rather than
+				// heartbeat into a wall every five minutes.
+				clearCharacter();
+				linkManager.onUnauthorised();
+			}
 			catch (IOException ex)
 			{
 				log.debug("Heartbeat failed", ex);
@@ -382,7 +410,7 @@ public class CharacterTracker
 			try
 			{
 				api.selectMode(token, current, mode.name(), acknowledgedRules);
-				gameModeManager.cacheServerMode(mode);
+				gameModeManager.applyServerMode(mode);
 				state.set(new CharacterState(
 					current.getRsn(), true, mode, "NONE", null));
 				announce("Game mode set to " + mode.getDisplayName() + ".");
@@ -412,9 +440,14 @@ public class CharacterTracker
 		state.set(next);
 		// Cache the server's answer so the panel can render a mode instantly on the
 		// next login rather than waiting for a round trip.
-		if (next.hasMode())
+		//
+		// Applied whether or not a mode is set: "the server says none" is an answer
+		// too, and the cache has to be able to follow it down. Guarded on `bound`
+		// because an unbound state is *no* answer — nothing was heard — and evicting
+		// on that would throw the cache away on every failed bind.
+		if (next.isBound())
 		{
-			gameModeManager.cacheServerMode(next.getGameMode());
+			gameModeManager.applyServerMode(next.getGameMode());
 		}
 		if (next.isHeld() && !previous.isHeld() && next.getReviewMessage() != null)
 		{

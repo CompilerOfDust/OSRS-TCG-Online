@@ -12,6 +12,38 @@ public interface TheCardExchangeTcgConfig extends Config
 
 	/** Baked-in fallback when nothing else supplies the API URL — the local dev backend. */
 	String DEFAULT_API_BASE_URL = "http://localhost:3001";
+
+	/**
+	 * The public site — the local dev one, matching {@link #DEFAULT_API_BASE_URL}.
+	 *
+	 * <p>Pages the plugin links to (the game-mode guide, the marketplace) live on the website, not on
+	 * the api: they are different origins in production, so one base URL cannot serve both.
+	 */
+	String DEFAULT_WEB_APP_URL = "http://localhost:3000";
+	/** JVM system property that overrides the web app default. */
+	String WEB_URL_PROPERTY = "thecardexchange.webUrl";
+	/** Environment variable that overrides the web app default. */
+	String WEB_URL_ENV = "THECARDEXCHANGE_WEB_URL";
+
+	/**
+	 * The default web app URL, resolved the same way as the API one: system property, then environment
+	 * variable, then the baked-in local default — so a deployment points the plugin at the hosted site
+	 * without a rebuild, and a player setting the config field still overrides everything.
+	 */
+	static String defaultWebAppUrl()
+	{
+		String property = System.getProperty(WEB_URL_PROPERTY);
+		if (property != null && !property.trim().isEmpty())
+		{
+			return property.trim();
+		}
+		String env = System.getenv(WEB_URL_ENV);
+		if (env != null && !env.trim().isEmpty())
+		{
+			return env.trim();
+		}
+		return DEFAULT_WEB_APP_URL;
+	}
 	/** JVM system property that overrides the default (set by the launch script via {@code -PapiUrl=}). */
 	String API_URL_PROPERTY = "thecardexchange.apiUrl";
 	/** Environment variable that overrides the default (for production deployments / self-hosting). */
@@ -148,6 +180,77 @@ public interface TheCardExchangeTcgConfig extends Config
 		position = 8
 	)
 	default boolean lockUncollectedItems()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		keyName = "webAppUrl",
+		name = "Web app URL",
+		description = "Where the plugin sends you for pages on the site (game-mode guide, marketplace). "
+			+ "Only change this if you are running your own copy.",
+		position = 14
+	)
+	default String webAppUrl()
+	{
+		return defaultWebAppUrl();
+	}
+
+	@ConfigItem(
+		keyName = "networkBadges",
+		name = "Show network badges",
+		description = "Show an icon beside other OSRS TCG Online players who are logged in. Only people "
+			+ "running this plugin see it — it cannot change how anyone appears in the normal game.",
+		position = 9
+	)
+	default boolean networkBadges()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		keyName = "networkBadgeChat",
+		name = "Badge: in chat",
+		description = "Put the badge in front of member names in chat.",
+		position = 10
+	)
+	default boolean networkBadgeChat()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		keyName = "networkBadgeOverhead",
+		name = "Badge: above heads",
+		description = "Draw the badge above nearby members. Capped so a crowded bank stays readable.",
+		position = 11
+	)
+	default boolean networkBadgeOverhead()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		keyName = "networkBadgeMenu",
+		name = "Badge: right-click menu",
+		description = "Put the badge on member names in the right-click menu and hover text.",
+		position = 12
+	)
+	default boolean networkBadgeMenu()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		keyName = "networkShowMeOnline",
+		name = "Show me as online",
+		description = "Let other players see your badge while you are logged in. Turn this off and you "
+			+ "disappear from the network list: no badge, and nobody can right-click you to offer a card "
+			+ "trade. You can still start trades yourself, and you still see everyone else, rank on the "
+			+ "boards and open packs as normal. Enforced on the server, so it holds whatever any client does.",
+		position = 13
+	)
+	default boolean networkShowMeOnline()
 	{
 		return true;
 	}

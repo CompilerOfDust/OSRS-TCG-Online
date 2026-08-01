@@ -31,6 +31,8 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.ui.overlay.OverlayPosition;
 import net.runelite.client.util.ImageUtil;
 import net.runelite.client.util.LinkBrowser;
+import com.thecardexchange.tcg.account.CharacterTracker;
+import com.thecardexchange.tcg.mode.GameMode;
 import com.thecardexchange.tcg.ui.OsrsSkin;
 
 /**
@@ -80,15 +82,18 @@ public class CardDetailWindow extends Overlay
 	@Nullable
 	private BufferedImage cardFront;
 
+	private final CharacterTracker characterTracker;
+
 	@Inject
 	CardDetailWindow(Client client, OverlayManager overlayManager, MouseManager mouseManager,
-		CardArt cardArt, ItemManager itemManager)
+		CardArt cardArt, ItemManager itemManager, CharacterTracker characterTracker)
 	{
 		this.client = client;
 		this.overlayManager = overlayManager;
 		this.mouseManager = mouseManager;
 		this.cardArt = cardArt;
 		this.itemManager = itemManager;
+		this.characterTracker = characterTracker;
 		setPosition(OverlayPosition.DYNAMIC);
 		setLayer(OverlayLayer.ABOVE_WIDGETS);
 		// A shade above HIGHEST: this window opens over the plugin's other HIGHEST overlays (the
@@ -208,7 +213,7 @@ public class CardDetailWindow extends Overlay
 	private void drawFace(Graphics2D g, Layout l, CatalogueCard shown)
 	{
 		g.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR);
-		CardFace.paint(g, l.face, cardFront, cardArt.imageFor(shown), shown);
+		CardFace.paint(g, l.face, cardFront, cardArt.imageFor(shown), shown, isCardman());
 	}
 
 	private void drawFacts(Graphics2D g, Layout l, CatalogueCard shown)
@@ -437,5 +442,11 @@ public class CardDetailWindow extends Overlay
 	private static boolean contains(Rectangle r, @Nullable Point p)
 	{
 		return p != null && r.contains(p);
+	}
+
+	/** True when this character plays CardMan — its cards carry the silvery-rose wash. */
+	private boolean isCardman()
+	{
+		return characterTracker.activeGameMode() == GameMode.CARDMAN;
 	}
 }

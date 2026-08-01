@@ -39,6 +39,7 @@ import net.runelite.client.ui.overlay.OverlayPosition;
 import net.runelite.client.util.ImageUtil;
 import com.thecardexchange.tcg.account.AccountLinkManager;
 import com.thecardexchange.tcg.account.CharacterTracker;
+import com.thecardexchange.tcg.mode.GameMode;
 import com.thecardexchange.tcg.account.ExchangeApiClient;
 import com.thecardexchange.tcg.ui.OsrsSkin;
 
@@ -492,7 +493,7 @@ public class PackOpeningInterface extends Overlay
 		{
 			radiance(g, rect, card.getTierColour(), 5, 30);
 		}
-		CardFace.paint(g, rect, cardFront, cardArt.imageFor(card), card);
+		CardFace.paint(g, rect, cardFront, cardArt.imageFor(card), card, isCardman());
 
 		String badge = pulled.isFresh() ? "NEW" : "×" + pulled.getQuantity();
 		OsrsSkin.centred(g, badge, FontManager.getRunescapeSmallFont(),
@@ -899,5 +900,11 @@ public class PackOpeningInterface extends Overlay
 	private static String formatCredits(int amount)
 	{
 		return String.format("%,d", amount);
+	}
+
+	/** True when this character plays CardMan — its cards carry the silvery-rose wash. */
+	private boolean isCardman()
+	{
+		return characterTracker.activeGameMode() == GameMode.CARDMAN;
 	}
 }

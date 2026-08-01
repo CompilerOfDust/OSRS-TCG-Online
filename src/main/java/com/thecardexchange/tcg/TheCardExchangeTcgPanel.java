@@ -24,13 +24,13 @@ import net.runelite.client.ui.FontManager;
 import net.runelite.client.ui.PluginPanel;
 import net.runelite.client.util.LinkBrowser;
 import com.thecardexchange.tcg.account.AccountLinkManager;
+import com.thecardexchange.tcg.account.CharacterSnapshot;
 import com.thecardexchange.tcg.account.CharacterState;
 import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.account.LinkHandshake;
 import com.thecardexchange.tcg.account.LinkState;
 import com.thecardexchange.tcg.account.LinkedAccount;
 import com.thecardexchange.tcg.mode.GameMode;
-import com.thecardexchange.tcg.mode.GameModeManager;
 
 /**
  * The side panel. It renders the current linking state and the one action that
@@ -50,8 +50,8 @@ class TheCardExchangeTcgPanel extends PluginPanel
 	private static final Color GOLD = new Color(0xD4AF37);
 
 	private final AccountLinkManager linkManager;
-	private final GameModeManager gameModeManager;
 	private final CharacterTracker characterTracker;
+	private final TheCardExchangeTcgConfig config;
 
 	/** The state-dependent region, rebuilt each refresh while the header stays put. */
 	private final JPanel body = new JPanel();
@@ -62,12 +62,12 @@ class TheCardExchangeTcgPanel extends PluginPanel
 	@Inject
 	TheCardExchangeTcgPanel(
 		AccountLinkManager linkManager,
-		GameModeManager gameModeManager,
-		CharacterTracker characterTracker)
+		CharacterTracker characterTracker,
+		TheCardExchangeTcgConfig config)
 	{
 		this.linkManager = linkManager;
-		this.gameModeManager = gameModeManager;
 		this.characterTracker = characterTracker;
+		this.config = config;
 
 		setLayout(new BorderLayout());
 
@@ -75,7 +75,7 @@ class TheCardExchangeTcgPanel extends PluginPanel
 		content.setLayout(new BoxLayout(content, BoxLayout.Y_AXIS));
 		content.setBackground(ColorScheme.DARK_GRAY_COLOR);
 
-		content.add(title("OSRS TCG (TheCardExchange)"));
+		content.add(title("OSRS TCG Online"));
 		content.add(Box.createVerticalStrut(4));
 		content.add(wrapped("Turn Old School RuneScape into a card game. Link your OSRS Card Exchange "
 			+ "account to get started."));
@@ -209,14 +209,16 @@ class TheCardExchangeTcgPanel extends PluginPanel
 			body.add(muted(acct.getEmail()));
 		}
 		body.add(Box.createVerticalStrut(12));
-		body.add(plainButton("Unlink", "Forget this account on this device. This also clears your game "
-			+ "mode, so you can choose again.", () ->
-		{
-			linkManager.unlink();
-			// Unlinking is the one way back to the chooser — see GameModeManager#reset.
-			gameModeManager.reset();
-			refresh();
-		}));
+		// Unlinking is done on the website, not here.
+		//
+		// One account can have several OSRS characters linked, each with its own game mode, and this
+		// install only ever sees the one you are logged in as — so a button here could only guess at
+		// which link you meant. The profile page lists them all and unlinks the one you pick, and
+		// because the server holds that decision it survives a re-login instead of being undone by the
+		// next bind.
+		body.add(plainButton("Manage linked accounts",
+			"Open your profile to see every linked OSRS account and unlink one",
+			() -> LinkBrowser.browse(webUrl("/profile"))));
 	}
 
 	private void renderError()
@@ -293,8 +295,10 @@ class TheCardExchangeTcgPanel extends PluginPanel
 			return;
 		}
 
-		CharacterState state = characterTracker.getState();
-		GameMode mode = state.hasMode() ? state.getGameMode() : gameModeManager.getGameMode();
+		// The server's answer once bound, else the cache — see activeGameMode(). The
+		// cache is only for the gap before the first bind lands, so the panel can
+		// draw instantly instead of flickering.
+		GameMode mode = characterTracker.activeGameMode();
 
 		modeSection.add(keyValueRow("Mode", mode.getDisplayName(), mode.isSelected() ? OK : WARN));
 		modeSection.add(Box.createVerticalStrut(4));
@@ -312,17 +316,58 @@ class TheCardExchangeTcgPanel extends PluginPanel
 		modeSection.add(wrapped("Choose how " + rsn + " plays. You only choose once — it can't be "
 			+ "changed afterwards."));
 
+		// CardMan has to start from an untouched account, so the panel checks the
+		// character it is looking at before offering it. The *server* still decides
+		// — this is only so a player is not invited to make a permanent choice that
+		// is going to be refused. `null` means we have not captured a character yet,
+		// which reads as "cannot offer it", never as "allow it".
+		CharacterSnapshot snapshot = characterTracker.currentSnapshot();
+		boolean freshKnown = snapshot != null;
+		boolean brandNew = freshKnown && snapshot.isBrandNew();
+
 		for (GameMode option : GameMode.selectable())
 		{
+			boolean needsFresh = option == GameMode.CARDMAN;
+			boolean allowed = !needsFresh || brandNew;
+
 			modeSection.add(Box.createVerticalStrut(12));
 			modeSection.add(optionTitle(option.getDisplayName()));
 			modeSection.add(Box.createVerticalStrut(2));
 			modeSection.add(muted(option.getDescription()));
 			modeSection.add(Box.createVerticalStrut(6));
-			modeSection.add(primaryButton("Play " + option.getDisplayName(),
-				"Play as " + option.getDisplayName() + " — this can't be changed later",
-				() -> chooseGameMode(option, rsn)));
+
+			JButton choose = primaryButton("Play " + option.getDisplayName(),
+				allowed
+					? "Play as " + option.getDisplayName() + " — this can't be changed later"
+					: "CardMan can only be started on a brand-new account",
+				() -> chooseGameMode(option, rsn));
+			choose.setEnabled(allowed);
+			modeSection.add(choose);
+
+			if (!allowed)
+			{
+				modeSection.add(Box.createVerticalStrut(4));
+				modeSection.add(muted(freshKnown
+					? "Not available: " + rsn + " has already trained. CardMan starts from a "
+						+ "brand-new account — every skill 1, Hitpoints 10 — so it has to be a fresh one."
+					: "Checking this character’s skills…"));
+			}
 		}
+
+		modeSection.add(Box.createVerticalStrut(12));
+		modeSection.add(plainButton("About the game modes",
+			"Read what each mode allows and restricts",
+			() -> LinkBrowser.browse(webUrl("/guide/game-modes"))));
+	}
+
+	/** A page on the website (not the api — different origins in production). */
+	private String webUrl(String path)
+	{
+		String configured = config.webAppUrl();
+		String base = (configured == null || configured.trim().isEmpty())
+			? TheCardExchangeTcgConfig.defaultWebAppUrl()
+			: configured.trim();
+		return base.replaceAll("/+$", "") + path;
 	}
 
 	/**

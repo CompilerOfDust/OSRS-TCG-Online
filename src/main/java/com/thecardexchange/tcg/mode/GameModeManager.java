@@ -66,15 +66,28 @@ public class GameModeManager
 	}
 
 	/**
-	 * Records what the server said this character's mode is.
+	 * Records what the server said this character's mode is — <b>including "none"</b>.
 	 *
-	 * Write-through only: the server has already decided by the time this is
+	 * <p>Write-through only: the server has already decided by the time this is
 	 * called, so there is deliberately no eligibility logic and no refusal here.
+	 *
+	 * <p>The "none" half matters as much as the other. This used to ignore an
+	 * unselected mode and keep whatever was cached, which quietly made the cache
+	 * authoritative in the one case where it is most likely to be wrong: a mode
+	 * cleared or reset on the server, or a character rebound to a fresh account.
+	 * The panel would keep showing a mode the server did not have, and the player
+	 * would be told to choose one the moment they tried to trade — a contradiction
+	 * with no way out from inside the client. An answer of "no mode" now evicts.
 	 */
-	public void cacheServerMode(GameMode mode)
+	public void applyServerMode(GameMode mode)
 	{
-		if (mode == null || !mode.isSelected() || configManager.getRSProfileKey() == null)
+		if (configManager.getRSProfileKey() == null)
 		{
+			return;
+		}
+		if (mode == null || !mode.isSelected())
+		{
+			reset();
 			return;
 		}
 		configManager.setRSProfileConfiguration(

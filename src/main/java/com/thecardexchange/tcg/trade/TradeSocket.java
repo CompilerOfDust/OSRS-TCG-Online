@@ -229,7 +229,10 @@ public class TradeSocket
 					return new TradeEvent(TradeEvent.Type.COMPLETED, offerId, str(json, "with"), null,
 						ints(json.getAsJsonArray("got")));
 				case "error":
-					return new TradeEvent(TradeEvent.Type.ERROR, offerId, null, reason);
+					// The server explains its refusals; carry the words through so the
+					// player is told what to do instead of just that it failed.
+					return new TradeEvent(TradeEvent.Type.ERROR, offerId, null, reason,
+						str(json, "message"), java.util.Collections.emptyList());
 				default:
 					return new TradeEvent(TradeEvent.Type.UNKNOWN, offerId, null, null);
 			}

@@ -46,6 +46,7 @@ import net.runelite.client.ui.overlay.OverlayPosition;
 import net.runelite.client.util.ImageUtil;
 import com.thecardexchange.tcg.account.AccountLinkManager;
 import com.thecardexchange.tcg.account.CharacterTracker;
+import com.thecardexchange.tcg.mode.GameMode;
 import com.thecardexchange.tcg.account.ExchangeApiClient;
 import com.thecardexchange.tcg.items.ItemLockManager;
 import com.thecardexchange.tcg.ui.OsrsSkin;
@@ -539,7 +540,7 @@ public class CardPacksInterface extends Overlay
 	private void drawTile(Graphics2D g, Rectangle tile, CatalogueCard card, int quantity,
 		boolean hovered, boolean chosen)
 	{
-		CardFace.backdrop(g, tile, card);
+		CardFace.backdrop(g, tile, card, isCardman());
 		BufferedImage front = cardFront;
 		if (front != null)
 		{
@@ -1172,5 +1173,11 @@ public class CardPacksInterface extends Overlay
 	private static String formatCredits(int amount)
 	{
 		return String.format("%,d", amount);
+	}
+
+	/** True when this character plays CardMan — its cards carry the silvery-rose wash. */
+	private boolean isCardman()
+	{
+		return characterTracker.activeGameMode() == GameMode.CARDMAN;
 	}
 }

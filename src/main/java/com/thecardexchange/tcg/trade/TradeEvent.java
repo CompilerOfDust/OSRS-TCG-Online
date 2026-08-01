@@ -35,22 +35,45 @@ public final class TradeEvent
 	private final String other;
 	@Nullable
 	private final String reason;
+	/**
+	 * The server's own words for a refusal, when it sent any.
+	 *
+	 * <p>Worth carrying rather than re-deriving: the server knows *why* it refused — a mode not
+	 * chosen, a mode mismatch, a character under review — and a generic "could not be completed"
+	 * leaves the player with nothing to act on. `reason` stays the machine-readable code the switch
+	 * branches on; this is what gets shown.
+	 */
+	@Nullable
+	private final String message;
 	/** The cards on the table for {@code CARDS}; empty otherwise. */
 	private final List<Integer> cardIds;
 
 	public TradeEvent(Type type, @Nullable String offerId, @Nullable String other, @Nullable String reason)
 	{
-		this(type, offerId, other, reason, Collections.emptyList());
+		this(type, offerId, other, reason, null, Collections.emptyList());
 	}
 
 	public TradeEvent(Type type, @Nullable String offerId, @Nullable String other, @Nullable String reason,
 		List<Integer> cardIds)
 	{
+		this(type, offerId, other, reason, null, cardIds);
+	}
+
+	public TradeEvent(Type type, @Nullable String offerId, @Nullable String other, @Nullable String reason,
+		@Nullable String message, List<Integer> cardIds)
+	{
 		this.type = type;
 		this.offerId = offerId;
 		this.other = other;
 		this.reason = reason;
+		this.message = message;
 		this.cardIds = Collections.unmodifiableList(new ArrayList<>(cardIds));
+	}
+
+	@Nullable
+	public String getMessage()
+	{
+		return message;
 	}
 
 	public List<Integer> getCardIds()
