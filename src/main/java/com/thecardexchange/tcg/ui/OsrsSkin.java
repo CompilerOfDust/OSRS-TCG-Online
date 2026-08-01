@@ -34,6 +34,12 @@ public final class OsrsSkin
 	public static final Color RED = new Color(198, 66, 52);
 	public static final Color RED_HOVER = new Color(232, 96, 78);
 	public static final Color YELLOW = new Color(214, 197, 62);
+	/**
+	 * Good news. The plugin's one green, borrowed from the NEW badge on a freshly pulled card and
+	 * matching both the brand mark's centre dot and the network "online" badge — so a green mark
+	 * always means the same thing wherever it appears.
+	 */
+	public static final Color GOOD = new Color(120, 220, 120);
 	/** The recessed strip a window title sits on. */
 	public static final Color TITLE_STRIP = new Color(0, 0, 0, 60);
 	/** Row highlight inside a list. */

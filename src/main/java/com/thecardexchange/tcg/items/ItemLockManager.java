@@ -26,6 +26,7 @@ import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.account.ExchangeApiClient;
 import com.thecardexchange.tcg.packs.CardCatalogue;
 import com.thecardexchange.tcg.packs.Holdings;
+import com.thecardexchange.tcg.packs.Wallet;
 
 /**
  * The item lock: an item you haven't earned a card for can't be used.
@@ -90,6 +91,7 @@ public class ItemLockManager
 	private final OverlayManager overlayManager;
 	private final ChatMessageManager chatMessageManager;
 	private final TheCardExchangeTcgConfig config;
+	private final Wallet wallet;
 	private final ScheduledExecutorService scheduler;
 
 	private final AtomicBoolean refreshing = new AtomicBoolean();
@@ -107,6 +109,7 @@ public class ItemLockManager
 		OverlayManager overlayManager,
 		ChatMessageManager chatMessageManager,
 		TheCardExchangeTcgConfig config,
+		Wallet wallet,
 		ScheduledExecutorService scheduler)
 	{
 		this.api = api;
@@ -117,6 +120,7 @@ public class ItemLockManager
 		this.overlayManager = overlayManager;
 		this.chatMessageManager = chatMessageManager;
 		this.config = config;
+		this.wallet = wallet;
 		this.scheduler = scheduler;
 	}
 
@@ -181,6 +185,9 @@ public class ItemLockManager
 				// unlocks — the server refuses rather than guessing.
 				Holdings holdings = api.collection(token, characterTracker.getCurrentRsn());
 				locks.setUnlocked(holdings.getUnlocked(), holdings.getUnlockedNpcs());
+				// The same response carries the wallet. This refresh runs at login and after
+				// anything that changes what's owned, so taking the balance from it is free.
+				wallet.apply(holdings);
 			}
 			catch (ExchangeApiClient.CharacterNotBound ex)
 			{

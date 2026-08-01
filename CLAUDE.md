@@ -55,7 +55,21 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   and refreshes the collection view + item locks after each pack.
   - Backed by three plugin-token endpoints: `GET /api/v1/plugin/cards` (whole catalogue, fetched once a
     session), `GET /api/v1/plugin/collection` (credits + owned), `POST /api/v1/plugin/packs/open`. **The
-    server owns the economy** — price, tier roll, foil roll, card pick; the plugin only asks and draws.
+    server owns the economy** — price, tier roll, foil roll, card pick, *and now the grants*; the plugin
+    only asks and draws.
+  - **`Wallet` is the one place the balance lives.** It used to be a private field in each of the two
+    windows, filled in only when that window opened — fine while spending was the only thing that moved
+    it, useless once the server started *granting* credits (3,000 at first bind, 550 a skill level), since
+    a reward would have been invisible until the player next opened something. Everything that learns a
+    balance writes it: the collection fetch, the pack response, the item-lock refresh, and — the one that
+    matters — **every character heartbeat**, which the plugin already sends every 5 minutes and within a
+    minute of any level-up. `CharacterTracker.clearCharacter()` clears it, or hopping to an alt would show
+    the main's wallet.
+  - **The pack orb lights up when you can afford a pack** — a green pip bottom-right plus the rim
+    breathing between its resting colour and `OsrsSkin.GOOD`, gated on `FeatureGate.isPlayable()` too so a
+    held character is never invited to click. Note `Wallet.canOpenPack()` reads *unknown* as **not ready**,
+    the deliberate opposite of `PackOpeningInterface`'s affordability check: one is deciding whether to
+    disable a control, the other whether to make a promise. Don't unify them.
   - The wire carries the gem tier (`t` 1-7), curated-special flag (`sp` — gold framing in grid and
     detail), the examine-line description (`d` — drawn on the card face's parchment box), a cluster
     master's unlock ids (`u` — named in the detail view via the client's own definitions; the item

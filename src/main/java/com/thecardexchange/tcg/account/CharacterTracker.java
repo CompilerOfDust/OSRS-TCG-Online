@@ -20,6 +20,7 @@ import java.awt.Color;
 import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
 import com.thecardexchange.tcg.mode.GameMode;
 import com.thecardexchange.tcg.mode.GameModeManager;
+import com.thecardexchange.tcg.packs.Wallet;
 
 /**
  * Keeps the server told which character is playing, and how it is doing.
@@ -63,6 +64,7 @@ public class CharacterTracker
 	private final ScheduledExecutorService scheduler;
 	private final ChatMessageManager chatMessageManager;
 	private final TheCardExchangeTcgConfig config;
+	private final Wallet wallet;
 
 	/** Last snapshot read on the client thread; the scheduler only ever reads this. */
 	private final AtomicReference<CharacterSnapshot> snapshot = new AtomicReference<>(null);
@@ -98,7 +100,8 @@ public class CharacterTracker
 		GameModeManager gameModeManager,
 		ScheduledExecutorService scheduler,
 		ChatMessageManager chatMessageManager,
-		TheCardExchangeTcgConfig config)
+		TheCardExchangeTcgConfig config,
+		Wallet wallet)
 	{
 		this.client = client;
 		this.api = api;
@@ -107,6 +110,7 @@ public class CharacterTracker
 		this.scheduler = scheduler;
 		this.chatMessageManager = chatMessageManager;
 		this.config = config;
+		this.wallet = wallet;
 	}
 
 	// ── Lifecycle ────────────────────────────────────────────────────────────
@@ -435,8 +439,13 @@ public class CharacterTracker
 			{
 				api.selectMode(token, current, mode.name(), acknowledgedRules);
 				gameModeManager.applyServerMode(mode);
-				state.set(new CharacterState(
-					current.getRsn(), true, mode, "NONE", null));
+				// Carry the wallet across rather than resetting it — mode selection says nothing
+				// about the balance, and blanking it here would put the pack orb's pip out until
+				// the next heartbeat for no reason. The two one-shot credit fields *are* zeroed:
+				// nothing was granted or awarded by choosing a mode.
+				CharacterState previous = state.get();
+				state.set(new CharacterState(current.getRsn(), true, mode, "NONE", null,
+					previous.getCredits(), previous.getPackPrice(), 0, 0));
 				announce("Game mode set to " + mode.getDisplayName() + ".");
 				onDone.run();
 				notifyListener();
@@ -462,6 +471,12 @@ public class CharacterTracker
 	{
 		CharacterState previous = state.get();
 		state.set(next);
+
+		// The balance rides on every character response, which is the only reason a credit earned by
+		// levelling up shows on the orb without the player opening anything.
+		wallet.apply(next.getCredits(), next.getPackPrice());
+		announceCredits(next);
+
 		// Cache the server's answer so the panel can render a mode instantly on the
 		// next login rather than waiting for a round trip.
 		//
@@ -485,6 +500,36 @@ public class CharacterTracker
 		stopHeartbeat();
 		boundRsn.set(null);
 		state.set(CharacterState.UNKNOWN);
+		// Forget the wallet with the character. Hopping to an alt must not leave the main's balance
+		// lit up on the pack orb — one character's holdings shown against another is the exact class
+		// of bug the server-side character binding exists to prevent.
+		wallet.clear();
+	}
+
+	/**
+	 * Says out loud what the server just paid, when it paid something.
+	 *
+	 * <p>The payoff moment of the whole reward: a level-up nudges a heartbeat within a minute, so
+	 * "+550 credits" lands while the player is still looking at the fireworks. Both messages are
+	 * one-shot — they are only ever set on the response that caused them, so an ordinary re-bind or a
+	 * quiet heartbeat says nothing.
+	 */
+	private void announceCredits(CharacterState next)
+	{
+		if (next.getGrantedCredits() > 0)
+		{
+			announce("Welcome! " + formatCredits(next.getGrantedCredits())
+				+ " credits added to get you started.");
+		}
+		if (next.getCreditsAwarded() > 0)
+		{
+			announce("+" + formatCredits(next.getCreditsAwarded()) + " credits for levelling up.");
+		}
+	}
+
+	private static String formatCredits(int amount)
+	{
+		return String.format("%,d", amount);
 	}
 
 	private void notifyListener()

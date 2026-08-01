@@ -550,7 +550,16 @@ public class ExchangeApiClient
 			if (response.isSuccessful())
 			{
 				JsonObject character = json.getAsJsonObject("character");
-				return CharacterState.of(character != null ? character : json);
+				if (character == null)
+				{
+					return CharacterState.of(json);
+				}
+				// The two credit events sit on the envelope beside `character`, not inside it —
+				// they describe what *this request* did rather than what the character is. Lifted
+				// in here so the rest of the plugin has one object to read instead of two.
+				copyNumber(json, character, "grantedCredits");
+				copyNumber(json, character, "creditsAwarded");
+				return CharacterState.of(character);
 			}
 
 			String message = asString(json, "message");
@@ -588,6 +597,15 @@ public class ExchangeApiClient
 				default:
 					throw new IOException("Could not reach the exchange (HTTP " + response.code() + ")");
 			}
+		}
+	}
+
+	/** Moves an envelope-level number onto the character object, if the server sent one. */
+	private static void copyNumber(JsonObject from, JsonObject to, String key)
+	{
+		if (from.has(key) && !from.get(key).isJsonNull())
+		{
+			to.add(key, from.get(key));
 		}
 	}
 

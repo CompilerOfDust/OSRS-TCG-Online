@@ -88,6 +88,7 @@ public class PackOpeningInterface extends Overlay
 	private final CardPacksInterface packs;
 	private final CardDetailWindow detail;
 	private final CardSounds sounds;
+	private final Wallet wallet;
 	private final ScheduledExecutorService scheduler;
 
 	private final MouseHandler mouseHandler = new MouseHandler();
@@ -96,8 +97,6 @@ public class PackOpeningInterface extends Overlay
 	private final AtomicBoolean busy = new AtomicBoolean();
 
 	private volatile boolean open;
-	private volatile int credits = -1;
-	private volatile int packPrice;
 	private volatile String status = "";
 	/** The pack being revealed, or null while the unopened pack is on the table. */
 	@Nullable
@@ -135,6 +134,7 @@ public class PackOpeningInterface extends Overlay
 		CardPacksInterface packs,
 		CardDetailWindow detail,
 		CardSounds sounds,
+		Wallet wallet,
 		ScheduledExecutorService scheduler)
 	{
 		this.client = client;
@@ -148,6 +148,7 @@ public class PackOpeningInterface extends Overlay
 		this.packs = packs;
 		this.detail = detail;
 		this.sounds = sounds;
+		this.wallet = wallet;
 		this.scheduler = scheduler;
 		setPosition(OverlayPosition.DYNAMIC);
 		setLayer(OverlayLayer.ABOVE_WIDGETS);
@@ -228,8 +229,7 @@ public class PackOpeningInterface extends Overlay
 			try
 			{
 				Holdings holdings = api.collection(token, characterTracker.getCurrentRsn());
-				credits = holdings.getCredits();
-				packPrice = holdings.getPackPrice();
+				wallet.apply(holdings);
 			}
 			catch (IOException | RuntimeException ex)
 			{
@@ -255,7 +255,9 @@ public class PackOpeningInterface extends Overlay
 			try
 			{
 				PackResult result = api.openPack(token, characterTracker.getCurrentRsn());
-				credits = result.getCredits();
+				// The charged balance, straight off the response — so the orb's readiness pip goes
+				// out the instant the last affordable pack is bought, with no extra round trip.
+				wallet.apply(result.getCredits(), wallet.getPackPrice());
 				// The flags go in before the pull: a frame that sees the cards must see their state too.
 				revealed = new boolean[result.getCards().size()];
 				pull = Collections.unmodifiableList(new ArrayList<>(result.getCards()));
@@ -269,8 +271,7 @@ public class PackOpeningInterface extends Overlay
 			}
 			catch (ExchangeApiClient.NotEnoughCredits ex)
 			{
-				credits = ex.getCredits();
-				packPrice = ex.getPackPrice() > 0 ? ex.getPackPrice() : packPrice;
+				wallet.apply(ex.getCredits(), ex.getPackPrice());
 				status = "Not enough credits";
 			}
 			catch (ExchangeApiClient.CharacterUnderReview ex)
@@ -398,12 +399,17 @@ public class PackOpeningInterface extends Overlay
 
 		Font small = FontManager.getRunescapeSmallFont();
 		int y = l.pack.y + l.pack.height + 18;
+		int credits = wallet.getCredits();
+		int packPrice = wallet.getPackPrice();
 		if (credits >= 0)
 		{
-			String wallet = formatCredits(credits) + " credits"
+			String line = formatCredits(credits) + " credits"
 				+ (packPrice > 0 ? " · " + formatCredits(packPrice) + " a pack" : "");
-			OsrsSkin.centred(g, wallet, small, OsrsSkin.YELLOW, centreX, y);
+			OsrsSkin.centred(g, line, small, OsrsSkin.YELLOW, centreX, y);
 		}
+		// Unknown reads as affordable here, deliberately the opposite of Wallet.canOpenPack():
+		// greying out a button that would have worked is worse than letting the click through,
+		// whereas a badge promising a pack you cannot buy is worse than no badge. See that method.
 		boolean affordable = packPrice <= 0 || credits < 0 || credits >= packPrice;
 		String hint = busy.get() ? "Opening…" : affordable ? "Click the pack to open it" : "Not enough credits";
 		OsrsSkin.centred(g, hint, small, affordable ? OsrsSkin.TEXT : OsrsSkin.MUTED, centreX, y + 14);

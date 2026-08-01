@@ -103,6 +103,7 @@ public class CardPacksInterface extends Overlay
 	private final CardArt cardArt;
 	private final CardDetailWindow detail;
 	private final ItemLockManager itemLocks;
+	private final Wallet wallet;
 	private final ScheduledExecutorService scheduler;
 
 	private final MouseHandler mouseHandler = new MouseHandler();
@@ -113,7 +114,6 @@ public class CardPacksInterface extends Overlay
 	private volatile List<CatalogueCard> catalogue = Collections.emptyList();
 	private volatile List<CatalogueCard> shown = Collections.emptyList();
 	private volatile Map<Integer, Integer> owned = Collections.emptyMap();
-	private volatile int credits;
 	private volatile String status = "Loading cards…";
 	private volatile int scroll;
 	@Nullable
@@ -154,6 +154,7 @@ public class CardPacksInterface extends Overlay
 		CardArt cardArt,
 		CardDetailWindow detail,
 		ItemLockManager itemLocks,
+		Wallet wallet,
 		ScheduledExecutorService scheduler)
 	{
 		this.client = client;
@@ -166,6 +167,7 @@ public class CardPacksInterface extends Overlay
 		this.cardArt = cardArt;
 		this.detail = detail;
 		this.itemLocks = itemLocks;
+		this.wallet = wallet;
 		this.scheduler = scheduler;
 		setPosition(OverlayPosition.DYNAMIC);
 		setLayer(OverlayLayer.ABOVE_WIDGETS);
@@ -310,7 +312,7 @@ public class CardPacksInterface extends Overlay
 				}
 				Holdings holdings = api.collection(token, characterTracker.getCurrentRsn());
 				owned = holdings.getOwned();
-				credits = holdings.getCredits();
+				wallet.apply(holdings);
 				itemLocks.apply(holdings);
 				// The trade view filters on what's owned, so it has to be rebuilt once that lands.
 				applyFilter();
@@ -641,7 +643,8 @@ public class CardPacksInterface extends Overlay
 		}
 		else
 		{
-			line = owned.size() + " / " + catalogue.size() + " cards · " + formatCredits(credits) + " credits";
+			line = owned.size() + " / " + catalogue.size() + " cards · "
+				+ formatCredits(wallet.getCredits()) + " credits";
 		}
 		OsrsSkin.centred(g, OsrsSkin.ellipsise(g, line, font, l.window.width - 12), font, colour,
 			l.window.x + l.window.width / 2, l.footerBaseline());
