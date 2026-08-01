@@ -4,8 +4,8 @@ import java.awt.image.BufferedImage;
 import java.util.Arrays;
 import javax.inject.Inject;
 import javax.inject.Singleton;
-import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
+import com.thecardexchange.tcg.mode.GameMode;
 import net.runelite.api.Client;
 import net.runelite.api.IndexedSprite;
 import net.runelite.client.util.ImageUtil;
@@ -32,33 +32,55 @@ public class NetworkBadge
 	private static final int OVERHEAD_ICON_SIZE = 16;
 
 	/**
-	 * The icon's slot in {@link Client#getModIcons()}, or -1 until installed.
+	 * The two faces of the badge: the same card, coloured by ruleset.
 	 *
-	 * <p>Read from the chat and menu decorators to build the {@code <img=N>} tag.
+	 * <p>CardMan and Normal cannot trade with each other, so which one somebody is on is worth
+	 * answering on sight rather than after an offer is refused. Same shape and same green "online"
+	 * dot, so they read as one badge in two colours rather than two unrelated icons.
 	 */
-	@Getter
-	private int iconIndex = -1;
+	private static final String NORMAL_ICON = "/com/thecardexchange/tcg/panel_icon.png";
+	private static final String CARDMAN_ICON = "/com/thecardexchange/tcg/panel_icon_cardman.png";
 
-	/** The same mark, sized for drawing over a player's head. */
-	@Getter
-	private BufferedImage overheadImage;
+	/** Slot in {@link Client#getModIcons()} per variant, or -1 until installed. */
+	private int normalIndex = -1;
+	private int cardmanIndex = -1;
 
-	private BufferedImage chatImage;
+	private BufferedImage normalOverhead;
+	private BufferedImage cardmanOverhead;
 
 	@Inject
 	NetworkBadge()
 	{
 	}
 
-	/** The {@code <img=N>} tag for a chat or menu name, or an empty string if not installed. */
-	public String tag()
+	/** The {@code <img=N>} tag for a name on this ruleset, or an empty string if not installed. */
+	public String tag(GameMode mode)
 	{
-		return iconIndex < 0 ? "" : "<img=" + iconIndex + ">";
+		int index = mode == GameMode.CARDMAN ? cardmanIndex : normalIndex;
+		return index < 0 ? "" : "<img=" + index + ">";
+	}
+
+	/**
+	 * Any badge tag, for spotting a name this plugin has already decorated.
+	 *
+	 * <p>A player can change ruleset between one chat line and the next, so matching only the tag for
+	 * their *current* mode would decorate an already-decorated name twice.
+	 */
+	public boolean isDecorated(String text)
+	{
+		return (normalIndex >= 0 && text.contains("<img=" + normalIndex + ">"))
+			|| (cardmanIndex >= 0 && text.contains("<img=" + cardmanIndex + ">"));
+	}
+
+	/** The mark sized for drawing over a player's head, for this ruleset. */
+	public BufferedImage overheadImage(GameMode mode)
+	{
+		return mode == GameMode.CARDMAN ? cardmanOverhead : normalOverhead;
 	}
 
 	public boolean isInstalled()
 	{
-		return iconIndex >= 0;
+		return normalIndex >= 0 && cardmanIndex >= 0;
 	}
 
 	/**
@@ -69,7 +91,7 @@ public class NetworkBadge
 	 */
 	public void install(Client client)
 	{
-		if (iconIndex >= 0)
+		if (isInstalled())
 		{
 			return;
 		}
@@ -83,38 +105,32 @@ public class NetworkBadge
 
 		try
 		{
-			BufferedImage image = chatImage();
-			if (image == null)
+			BufferedImage normal = ImageUtil.loadImageResource(getClass(), NORMAL_ICON);
+			BufferedImage cardman = ImageUtil.loadImageResource(getClass(), CARDMAN_ICON);
+			if (normal == null || cardman == null)
 			{
 				return;
 			}
 
-			IndexedSprite[] expanded = Arrays.copyOf(modIcons, modIcons.length + 1);
-			expanded[modIcons.length] = ImageUtil.getImageIndexedSprite(image, client);
+			// Both appended in one pass, so a half-installed pair can never leave
+			// one ruleset with a badge and the other without.
+			IndexedSprite[] expanded = Arrays.copyOf(modIcons, modIcons.length + 2);
+			expanded[modIcons.length] = ImageUtil.getImageIndexedSprite(
+				ImageUtil.resizeImage(normal, CHAT_ICON_SIZE, CHAT_ICON_SIZE), client);
+			expanded[modIcons.length + 1] = ImageUtil.getImageIndexedSprite(
+				ImageUtil.resizeImage(cardman, CHAT_ICON_SIZE, CHAT_ICON_SIZE), client);
 			client.setModIcons(expanded);
-			iconIndex = modIcons.length;
+
+			normalIndex = modIcons.length;
+			cardmanIndex = modIcons.length + 1;
+			normalOverhead = ImageUtil.resizeImage(normal, OVERHEAD_ICON_SIZE, OVERHEAD_ICON_SIZE);
+			cardmanOverhead = ImageUtil.resizeImage(cardman, OVERHEAD_ICON_SIZE, OVERHEAD_ICON_SIZE);
 		}
 		catch (RuntimeException ex)
 		{
 			// A badge that cannot be registered is a cosmetic loss, never a reason
 			// to break a login.
-			log.debug("could not install the network badge icon", ex);
+			log.debug("could not install the network badge icons", ex);
 		}
-	}
-
-	private BufferedImage chatImage()
-	{
-		if (chatImage == null)
-		{
-			BufferedImage source =
-				ImageUtil.loadImageResource(getClass(), "/com/thecardexchange/tcg/panel_icon.png");
-			if (source == null)
-			{
-				return null;
-			}
-			chatImage = ImageUtil.resizeImage(source, CHAT_ICON_SIZE, CHAT_ICON_SIZE);
-			overheadImage = ImageUtil.resizeImage(source, OVERHEAD_ICON_SIZE, OVERHEAD_ICON_SIZE);
-		}
-		return chatImage;
 	}
 }

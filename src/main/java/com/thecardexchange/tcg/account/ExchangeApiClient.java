@@ -26,6 +26,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
 
+import com.thecardexchange.tcg.mode.GameMode;
 import com.thecardexchange.tcg.packs.CardCatalogue;
 import com.thecardexchange.tcg.packs.CatalogueCard;
 import com.thecardexchange.tcg.packs.Holdings;
@@ -408,7 +409,7 @@ public class ExchangeApiClient
 	 *
 	 * @return display names, lowercased for matching
 	 */
-	public Set<String> onlineNetworkPlayers(String token) throws IOException
+	public Map<String, GameMode> onlineNetworkPlayers(String token) throws IOException
 	{
 		Request request = authorised(get("/api/v1/plugin/network/online"), token).build();
 		try (Response response = execute(request))
@@ -416,22 +417,45 @@ public class ExchangeApiClient
 			JsonObject json = response.body() == null
 				? new JsonObject()
 				: gson.fromJson(response.body().charStream(), JsonObject.class);
-			if (json == null || !json.has("rsns"))
+			if (json == null)
 			{
-				return Collections.emptySet();
+				return Collections.emptyMap();
 			}
 
-			JsonArray rsns = json.getAsJsonArray("rsns");
-			Set<String> names = new HashSet<>(rsns.size());
-			for (JsonElement element : rsns)
+			Map<String, GameMode> players = new HashMap<>();
+			if (json.has("players") && json.get("players").isJsonArray())
 			{
-				String rsn = element.getAsString();
-				if (rsn != null && !rsn.isEmpty())
+				for (JsonElement element : json.getAsJsonArray("players"))
 				{
-					names.add(normaliseRsn(rsn));
+					if (!element.isJsonObject())
+					{
+						continue;
+					}
+					JsonObject player = element.getAsJsonObject();
+					String rsn = asString(player, "rsn");
+					if (rsn.isEmpty())
+					{
+						continue;
+					}
+					players.put(normaliseRsn(rsn), GameMode.fromConfigValue(asString(player, "gameMode")));
+				}
+				return players;
+			}
+
+			// A server that predates the mode being carried. Everyone still gets a
+			// badge, just the Normal one — better than no badge at all.
+			if (json.has("rsns") && json.get("rsns").isJsonArray())
+			{
+				for (JsonElement element : json.getAsJsonArray("rsns"))
+				{
+					String rsn = element.getAsString();
+					if (rsn != null && !rsn.isEmpty())
+					{
+						players.put(normaliseRsn(rsn), GameMode.NOT_SELECTED);
+					}
 				}
 			}
-			return names;
+			return players;
 		}
 	}
 

@@ -130,9 +130,11 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   of this.**
 - `network/` — the **in-game network badge**: an icon beside other OSRS TCG Online players who are
   logged in. `NetworkPresence` polls `GET /api/v1/plugin/network/online` every 30s and holds the online
-  set; `NetworkBadge` appends the mark to `client.getModIcons()` so chat and menu names can carry an
-  `<img=N>` tag (the same mechanism as clan/ironman icons — client thread only, and idempotent, or a
-  world hop leaks a slot per hop); `NetworkBadgeDecorator` prefixes chat names and player menu entries;
+  set; `NetworkBadge` appends **two** marks to `client.getModIcons()` — the same card in a dark face for
+  Normal and a red one for CardMan, both keeping the green "online" dot, so the dot means *online* and
+  the face means *ruleset*. Chat and menu names carry an `<img=N>` tag (the same mechanism as
+  clan/ironman icons — client thread only, and idempotent, or a world hop leaks a slot per hop; both
+  variants are appended in one pass so a partial failure cannot badge one ruleset and not the other); `NetworkBadgeDecorator` prefixes chat names and player menu entries;
   `NetworkBadgeOverlay` draws it above nearby members, capped at 30 a frame so a crowded bank stays
   readable. Config: "Show network badges" plus a toggle per placement, and **"Show me as online"**,
   which pushes to the server (`POST /network/visibility`) because only the server can actually stop
@@ -140,6 +142,10 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   - **Nothing about who is nearby leaves the machine.** The list is downloaded whole and matched
     locally, deliberately: per-name lookups would mean sending third parties' names to a server, which
     plugin review refuses. Do not "optimise" it into a lookup.
+  - Two things there that look like micro-details and are not: the overhead image is resolved **per
+    player**, not hoisted out of the frame loop (a CardMan and a Normal standing together would
+    otherwise share whichever badge was looked up first), and "already decorated" matches **either**
+    variant (somebody can change ruleset between one chat line and the next).
   - **This cannot change how anyone appears in the normal game.** Only players running this plugin see
     the badge; Jagex renders the client and nothing here touches an actual RuneScape account.
   - **The presence set also gates "Trade Cards"** (`CardTradeManager.addTradeCards`): the entry appears

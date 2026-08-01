@@ -67,17 +67,20 @@ public class NetworkBadgeDecorator
 			return null;
 		}
 
-		// Already decorated — chat lines can be rebuilt more than once.
-		if (name.contains(badge.tag()))
+		// Already decorated — chat lines can be rebuilt more than once. Matched
+		// against *either* variant: somebody can change ruleset between one line
+		// and the next, and matching only their current badge would double it up.
+		if (badge.isDecorated(name))
 		{
 			return null;
 		}
-		if (!presence.isOnline(Text.removeTags(name)))
+		String plain = Text.removeTags(name);
+		if (!presence.isOnline(plain))
 		{
 			return null;
 		}
 
-		return badge.tag() + name;
+		return badge.tag(presence.modeOf(plain)) + name;
 	}
 
 	/** Prefixes a player's name on the right-click menu and its hover text. */
@@ -103,7 +106,7 @@ public class NetworkBadgeDecorator
 		}
 
 		String target = entry.getTarget();
-		if (target == null || target.isEmpty() || target.contains(badge.tag()))
+		if (target == null || target.isEmpty() || badge.isDecorated(target))
 		{
 			return;
 		}
@@ -121,7 +124,7 @@ public class NetworkBadgeDecorator
 			return;
 		}
 
-		entry.setTarget(badge.tag() + target);
+		entry.setTarget(badge.tag(presence.modeOf(name)) + target);
 	}
 
 	private static boolean isPlayerEntry(MenuAction type)

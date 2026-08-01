@@ -64,12 +64,6 @@ public class NetworkBadgeOverlay extends Overlay
 			return null;
 		}
 
-		BufferedImage image = badge.getOverheadImage();
-		if (image == null)
-		{
-			return null;
-		}
-
 		int drawn = 0;
 		for (Player player : client.getPlayers())
 		{
@@ -82,6 +76,14 @@ public class NetworkBadgeOverlay extends Overlay
 				continue;
 			}
 			if (!presence.isOnline(player.getName()))
+			{
+				continue;
+			}
+
+			// Per player, not per frame: a CardMan and a Normal standing together
+			// must not both get whichever badge was looked up first.
+			BufferedImage image = badge.overheadImage(presence.modeOf(player.getName()));
+			if (image == null)
 			{
 				continue;
 			}

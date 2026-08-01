@@ -3,8 +3,9 @@ package com.thecardexchange.tcg.network;
 import com.thecardexchange.tcg.account.AccountLinkManager;
 import com.thecardexchange.tcg.account.ExchangeApiClient;
 import java.io.IOException;
+import com.thecardexchange.tcg.mode.GameMode;
 import java.util.Collections;
-import java.util.Set;
+import java.util.Map;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
@@ -49,9 +50,17 @@ public class NetworkPresence
 	private final AccountLinkManager linkManager;
 	private final ScheduledExecutorService scheduler;
 
-	/** Lowercased display names. Replaced wholesale, never mutated, so readers need no lock. */
-	private final AtomicReference<Set<String>> online =
-		new AtomicReference<>(Collections.emptySet());
+	/**
+	 * Lowercased display name → the ruleset that player is on.
+	 *
+	 * <p>The mode travels with the name so the badge can show which of the two economies somebody is
+	 * in. They cannot trade with each other, so it is worth answering on sight rather than after an
+	 * offer is refused.
+	 *
+	 * <p>Replaced wholesale, never mutated, so readers need no lock.
+	 */
+	private final AtomicReference<Map<String, GameMode>> online =
+		new AtomicReference<>(Collections.emptyMap());
 
 	private final AtomicBoolean polling = new AtomicBoolean(false);
 	private volatile int consecutiveFailures;
@@ -81,7 +90,21 @@ public class NetworkPresence
 		{
 			return false;
 		}
-		return online.get().contains(ExchangeApiClient.normaliseRsn(rsn));
+		return online.get().containsKey(ExchangeApiClient.normaliseRsn(rsn));
+	}
+
+	/**
+	 * Which ruleset an online player is on, or {@link GameMode#NOT_SELECTED} when they are not on the
+	 * network or have not chosen one.
+	 */
+	public GameMode modeOf(String rsn)
+	{
+		if (rsn == null || rsn.isEmpty())
+		{
+			return GameMode.NOT_SELECTED;
+		}
+		GameMode mode = online.get().get(ExchangeApiClient.normaliseRsn(rsn));
+		return mode == null ? GameMode.NOT_SELECTED : mode;
 	}
 
 	/** How many members are online, for the panel. */
@@ -105,7 +128,7 @@ public class NetworkPresence
 		{
 			// Not linked: there is no token to ask with, and an unlinked install
 			// is not part of the network anyway.
-			online.set(Collections.emptySet());
+			online.set(Collections.emptyMap());
 			return;
 		}
 
@@ -142,7 +165,7 @@ public class NetworkPresence
 	/** Drops the cached set — on logout, or when the account is unlinked. */
 	public void clear()
 	{
-		online.set(Collections.emptySet());
+		online.set(Collections.emptyMap());
 		consecutiveFailures = 0;
 		nextPollAtMs = 0;
 	}
