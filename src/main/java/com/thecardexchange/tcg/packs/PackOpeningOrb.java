@@ -40,7 +40,12 @@ import com.thecardexchange.tcg.ui.OsrsSkin;
 @Singleton
 public class PackOpeningOrb extends Overlay
 {
-	private static final int SIZE = 40;
+	/**
+	 * Orb diameter. Everything inside {@code render} derives from {@code orb.width}
+	 * rather than from this constant, so the whole thing — the well, the icon fit,
+	 * the rings, the readiness pip and the click test — follows a change here.
+	 */
+	private static final int SIZE = 54;
 	/** Inset from the top-left corner of the canvas. */
 	private static final int MARGIN = 6;
 	private static final Color GLOW = new Color(96, 68, 134);
@@ -191,12 +196,22 @@ public class PackOpeningOrb extends Overlay
 	 */
 	private void drawReadyPip(Graphics2D g, Rectangle orb)
 	{
+		// Proportional, not the fixed offsets this started with: the pip has to keep
+		// sitting inside the inscribed circle the click test uses whatever the orb's
+		// diameter is, or growing the orb would hang it off the edge as an
+		// unclickable limb. At the original 40px these work out to exactly the
+		// numbers that were hardcoded here.
+		int size = orb.width;
+		int d = Math.max(6, Math.round(size * 0.35f));
+		int x = orb.x + size - d - 1;
+		int y = orb.y + size - d - 1;
+
 		g.setColor(EDGE);
-		g.fillOval(orb.x + 25, orb.y + 25, 14, 14);
+		g.fillOval(x, y, d, d);
 		g.setColor(OsrsSkin.GOOD);
-		g.fillOval(orb.x + 26, orb.y + 26, 12, 12);
+		g.fillOval(x + 1, y + 1, d - 2, d - 2);
 		g.setColor(PIP_SHEEN);
-		g.fillOval(orb.x + 28, orb.y + 27, 4, 4);
+		g.fillOval(x + d / 4, y + d / 5, Math.max(2, d / 3), Math.max(2, d / 3));
 	}
 
 	/**

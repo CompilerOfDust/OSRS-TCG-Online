@@ -323,6 +323,8 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	@Subscribe
 	public void onStatChanged(StatChanged event)
 	{
-		characterTracker.onLevelUp();
+		// Fires on every XP gain, so the tracker compares the level rather than
+		// treating the event itself as a level-up.
+		characterTracker.onStatChanged(event.getSkill(), event.getLevel());
 	}
 }

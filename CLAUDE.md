@@ -65,6 +65,10 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
     remembered in config (`cardViewExpanded`). `COLUMNS` is therefore a *per-layout* number, carried on
     `Layout`, not a constant — the grid, the hit test and the scroll extent all have to agree with what
     the frame actually drew.
+    - **Collapsing back to the compact panel resets the sort and the filter.** The small view has
+      nowhere to draw those controls, so a filter left on would follow the player into a view that
+      neither shows what is being hidden nor offers a way to undo it — half a collection missing with
+      no visible cause reads as a broken grid, not as a filter working.
     - **The trade picker's duplicates-only rule outranks the filter and must keep doing so.** It exists
       so the picker can never offer a card you own exactly one of; it ANDs with whatever the player
       chose and wins. `CardGridTest` guards this — it is the thing generalising the filter could quietly
@@ -83,6 +87,18 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
     matters — **every character heartbeat**, which the plugin already sends every 5 minutes and within a
     minute of any level-up. `CharacterTracker.clearCharacter()` clears it, or hopping to an alt would show
     the main's wallet.
+  - **The credit balance sits at the top centre of the screen** (`CreditsBanner`, config "Credit
+    balance"). Credits are now *earned* — levels, quests, diaries, boss kills, pack milestones — so the
+    number moves while the player is doing something else entirely, and a reward nobody sees is not a
+    reward. It reads `Wallet` like everything else, and **hides itself until the balance is known**
+    rather than showing 0, for the same reason `Wallet` keeps "unknown" and "broke" apart. Top centre
+    because the corners hold the two orbs and the middle of the top edge is the one place in an Old
+    School client with nothing in it. `PRIORITY_LOW`, so it never paints over the pack ceremony.
+  - **Both orbs are 54px.** Everything inside their `render` derives from `orb.width`, never from the
+    `SIZE` constant, so the well, the icon fit, the rings, the readiness pip and the click test all
+    follow a change to it — the pip in particular is sized proportionally *because* it has to stay
+    inside the inscribed circle the hit test uses, or a bigger orb would hang it off the edge as an
+    unclickable limb.
   - **The pack orb lights up when you can afford a pack** — a green pip bottom-right plus the rim
     breathing between its resting colour and `OsrsSkin.GOOD`, gated on `FeatureGate.isPlayable()` too so a
     held character is never invited to click. Note `Wallet.canOpenPack()` reads *unknown* as **not ready**,
@@ -101,6 +117,14 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   - Assets `pack_standard.png` / `card_back.png` in resources are the site's `Pack_Standard.webp` /
     `Cardback.webp` converted and downscaled; `card_front.png` is the card-face template the reveal
     paints onto. `CardPacksManager` is just the start/stop wiring for all four overlays.
+  - **`Showcase` is for cards worth more than their tier says.** Coins is common and Emerald, yet it is
+    what unlocks spending money at all — so it gets the halo and the special fanfare while keeping its
+    tier and `special: false`. Deliberately neither of the two easy routes: the `special` flag has its
+    own curated register (`api/cards/special_item_unlocks.md`) and its own gold framing, so borrowing it
+    would corrupt the register and make a showcase indistinguishable from a trophy; a tier bump would
+    change pull odds and resale price for a card meant to stay common. It borrows only presentation, and
+    in its own coin-gold rather than the special's antique gold. Keep the list short — everything on it
+    is loud.
   - **Sounds** (`CardSounds`): `pack_opening.wav` on the pack click; then, once the server says what
     was inside, a flourish for a rare pull — `special_opening` if any card is a curated special, else
     `zenyte_opening` if any is Zenyte (it can't play on the click, since nothing knows the contents
@@ -160,8 +184,15 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   never be reordered**, because its indices *are* the ids the server has already banked (it is one
   contract with `api/src/lib/osrs/diaries.ts`, written twice); and an **empty list is never a reset** —
   quest varbits aren't populated for the first tick or two after login, and the server's ratchet only
-  adds, so an early empty claim costs nothing. The tracker binds on login, heartbeats every 5 minutes, closes the session on
-  logout, and holds the server's verdict (mode, review state) for the panel. Nothing is sent from
+  adds, so an early empty claim costs nothing. The tracker binds on login, closes the session on logout, and holds the server's verdict (mode, review
+  state) for the panel. **Reporting is event-driven with a 5-minute safety net**, not a poll: gaining a
+  real level, finishing a quest or completing a diary tier pulls the next report forward within seconds
+  (`nudge()`, 5s debounce), so credits land while the player is still looking at the fireworks. Two
+  details there are load-bearing — `StatChanged` fires on *every* XP gain, so the tracker compares the
+  **level** rather than treating the event as a level-up (throttling the event instead, as this first
+  shipped, meant training anything produced a beat a minute and a real level still took up to one); and
+  the milestone count is compared against what the server **accepted**, not against the previous tick, so
+  a failed report keeps retrying instead of being marked done. Nothing is sent from
   seasonal/beta/tournament worlds. `CharacterState` is the server's answer; the plugin renders it and
   decides none of it. **The full contract is `../api/docs/cardman-mode.md` — read it before changing any
   of this.**

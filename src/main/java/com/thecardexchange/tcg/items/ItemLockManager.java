@@ -63,10 +63,18 @@ import com.thecardexchange.tcg.packs.Wallet;
 @Singleton
 public class ItemLockManager
 {
-	/** Options that always work on a locked item, matched case-insensitively as prefixes. */
+	/**
+	 * Options that always work on a locked item, matched case-insensitively as prefixes.
+	 *
+	 * <p><b>"Sell" is deliberately not here.</b> It used to be, on the reasoning that selling
+	 * <i>acquires</i> coins and acquiring is always allowed, the same as picking something up. That
+	 * misses what a shop actually is: turning an item you were never entitled to use into money you can
+	 * spend on one you are. An item with no card is not yours to trade away, only to hold, bank or
+	 * drop. "Value" stays open — asking a price costs nothing and changes nothing.
+	 */
 	private static final String[] ALWAYS_ALLOWED = {
 		"take", "drop", "destroy", "examine", "remove", "deposit", "withdraw", "bank", "store",
-		"value", "sell", "buy", "cancel",
+		"value", "buy", "cancel",
 	};
 	/**
 	 * What you may always do to a monster you have no card for. Talking and looking cost it nothing;
@@ -287,9 +295,9 @@ public class ItemLockManager
 
 	/**
 	 * True when this is a shop Buy while the character's coins are locked. Spending money is using it,
-	 * so buying is gated on the Coins card — the currency master (CARDS.md §4). Selling and Value stay
-	 * open: checking a price costs nothing, and selling *acquires* coins, which is always allowed, the
-	 * same as picking an item up.
+	 * so buying is gated on the Coins card — the currency master (CARDS.md §4). Value stays open:
+	 * asking a price costs nothing. Selling is handled by the ordinary item lock rather than here,
+	 * because what it turns on is the card for the item being sold, not the card for the coins.
 	 */
 	private boolean blocksBuy(@Nullable MenuEntry entry)
 	{

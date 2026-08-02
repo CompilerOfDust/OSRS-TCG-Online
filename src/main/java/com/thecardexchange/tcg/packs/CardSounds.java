@@ -87,8 +87,8 @@ public class CardSounds
 	}
 
 	/**
-	 * The flourish a pack earns from its best card: a curated special outranks a Zenyte, and an ordinary
-	 * pack gets nothing beyond the tear.
+	 * The flourish a pack earns from its best card: a curated special — or a showcase card, which is
+	 * treated as one here — outranks a Zenyte, and an ordinary pack gets nothing beyond the tear.
 	 *
 	 * <p>This can't play on the click — nobody knows what's inside until the server answers — so it
 	 * lands with the cards, on top of the tear's tail, and plays under the first flips.
@@ -99,7 +99,9 @@ public class CardSounds
 		boolean zenyte = false;
 		for (PackResult.PulledCard pulled : cards)
 		{
-			special |= pulled.getCard().isSpecial();
+			// A showcase card earns the special's fanfare without being one — see Showcase
+			// for why it borrows the presentation and not the flag.
+			special |= pulled.getCard().isSpecial() || Showcase.is(pulled.getCard());
 			zenyte |= pulled.getCard().getTier() >= ZENYTE;
 		}
 		if (special)

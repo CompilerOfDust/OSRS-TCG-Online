@@ -347,6 +347,19 @@ public class CardPacksInterface extends Overlay
 		dragX = 0;
 		dragY = 0;
 		scroll = 0;
+
+		if (!expanded)
+		{
+			// **Collapsing resets the sort and the filter**, because the compact panel has
+			// nowhere to draw the controls that set them. A filter left on would follow the
+			// player into a view that neither shows what is being hidden nor offers a way to
+			// undo it — half a collection missing and no visible cause, which reads as the
+			// grid being broken rather than as a filter doing its job.
+			sort = SortMode.COLLECTED_FIRST;
+			filter = FilterMode.ALL;
+			applyFilter();
+		}
+
 		configManager.setConfiguration(TheCardExchangeTcgConfig.GROUP, EXPANDED_KEY, expanded);
 	}
 

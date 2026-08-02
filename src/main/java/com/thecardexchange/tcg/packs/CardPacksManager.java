@@ -5,8 +5,8 @@ import javax.inject.Singleton;
 
 /**
  * Lifecycle for the card-packs feature: the collection orb and interface on the right, the pack-opening
- * orb and ceremony on the left, and the sounds they play. The plugin starts and stops this one thing;
- * the four overlays own their own painting and input.
+ * orb and ceremony on the left, the credit balance across the top, and the sounds they play. The plugin
+ * starts and stops this one thing; the overlays own their own painting and input.
  */
 @Singleton
 public class CardPacksManager
@@ -15,16 +15,19 @@ public class CardPacksManager
 	private final CardPacksInterface packs;
 	private final PackOpeningOrb openingOrb;
 	private final PackOpeningInterface opening;
+	private final CreditsBanner credits;
 	private final CardSounds sounds;
 
 	@Inject
 	CardPacksManager(CardPacksOrb orb, CardPacksInterface packs,
-		PackOpeningOrb openingOrb, PackOpeningInterface opening, CardSounds sounds)
+		PackOpeningOrb openingOrb, PackOpeningInterface opening, CreditsBanner credits,
+		CardSounds sounds)
 	{
 		this.orb = orb;
 		this.packs = packs;
 		this.openingOrb = openingOrb;
 		this.opening = opening;
+		this.credits = credits;
 		this.sounds = sounds;
 	}
 
@@ -35,10 +38,12 @@ public class CardPacksManager
 		opening.start();
 		orb.start();
 		openingOrb.start();
+		credits.start();
 	}
 
 	public void stop()
 	{
+		credits.shutdown();
 		openingOrb.shutdown();
 		orb.shutdown();
 		opening.shutdown();

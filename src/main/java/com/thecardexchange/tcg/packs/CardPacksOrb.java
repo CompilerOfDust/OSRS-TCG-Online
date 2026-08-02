@@ -43,7 +43,8 @@ public class CardPacksOrb extends Overlay
 {
 	/** "Mystic cards" — the item whose icon the orb wears. */
 	private static final int MYSTIC_CARDS_ITEM_ID = 27645;
-	private static final int SIZE = 40;
+	/** Orb diameter, matching {@link PackOpeningOrb} — the two frame the screen together. */
+	private static final int SIZE = 54;
 	/** Inset from the top-right corner of the canvas. */
 	private static final int MARGIN = 6;
 	private static final Color GLOW = new Color(96, 68, 134);

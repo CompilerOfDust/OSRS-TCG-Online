@@ -1,10 +1,13 @@
 package com.thecardexchange.tcg.account;
 
 import java.io.IOException;
+import java.util.EnumMap;
+import java.util.Map;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicReference;
 import javax.annotation.Nullable;
@@ -13,6 +16,7 @@ import javax.inject.Singleton;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.ChatMessageType;
 import net.runelite.api.Client;
+import net.runelite.api.Skill;
 import net.runelite.client.chat.ChatMessageManager;
 import net.runelite.client.chat.QueuedMessage;
 import net.runelite.client.util.ColorUtil;
@@ -50,8 +54,16 @@ public class CharacterTracker
 {
 	/** Matches the server's expectation; the grace window there is 2.5× this. */
 	private static final long HEARTBEAT_PERIOD_SECONDS = 5 * 60;
-	/** A level-up nudges an extra report, but no more often than this. */
-	private static final long LEVEL_UP_DEBOUNCE_MS = 60_000;
+	/**
+	 * How quickly an earning event may pull a report forward.
+	 *
+	 * <p>Short, because it is now only spent on things that actually pay — a real level, a finished
+	 * quest, a completed diary tier — rather than on every XP drop. The old 60s was a throttle on
+	 * {@code StatChanged}, which fires on *every* XP gain, so training anything at all produced a
+	 * report a minute whether or not a single credit was owed. Detecting the level instead means the
+	 * quiet case sends nothing and the paying case pays in seconds.
+	 */
+	private static final long EARNED_DEBOUNCE_MS = 5_000;
 	/** Don't retry a failed bind faster than this. */
 	private static final long BIND_RETRY_MS = 30_000;
 
@@ -85,7 +97,17 @@ public class CharacterTracker
 	private final AtomicBoolean started = new AtomicBoolean(false);
 	private final AtomicBoolean binding = new AtomicBoolean(false);
 	private final AtomicLong lastBindAttemptMs = new AtomicLong(0);
-	private final AtomicLong lastLevelUpBeatMs = new AtomicLong(0);
+	private final AtomicLong lastEarnedBeatMs = new AtomicLong(0);
+	/**
+	 * Real level last seen per skill, so {@link #onStatChanged} can tell a level from an XP drop.
+	 * Cleared with the character — an alt's levels must never look like the main's having dropped.
+	 */
+	private final Map<Skill, Integer> seenLevels = new EnumMap<>(Skill.class);
+	/**
+	 * Finished quests + completed diary tiers as of the last report the server accepted, or -1 before
+	 * there has been one. Compared each tick so completing either pulls the next report forward.
+	 */
+	private final AtomicInteger reportedMilestones = new AtomicInteger(-1);
 	private final AtomicBoolean excludedWorld = new AtomicBoolean(false);
 
 	private volatile ScheduledFuture<?> heartbeatFuture;
@@ -246,6 +268,11 @@ public class CharacterTracker
 		}
 		excludedWorld.set(false);
 
+		// A quest or a diary tier finishing is worth reporting now rather than at the
+		// next scheduled beat. The counts are already in the snapshot `capture` built
+		// this tick, so noticing costs a comparison rather than another varbit sweep.
+		reportEarnedMilestones(current);
+
 		String bound = boundRsn.get();
 		if (bound != null && !bound.equals(rsnKey(current.getRsn())))
 		{
@@ -261,15 +288,65 @@ public class CharacterTracker
 	}
 
 	/** A level went up — worth reporting sooner than the next scheduled beat. */
-	public void onLevelUp()
+	/**
+	 * Nudges a report when the quest or diary count has grown since the server last heard.
+	 *
+	 * <p>Compared against what was actually <em>reported</em>, not against the previous tick: a beat
+	 * that failed leaves the count unchanged, so the nudge keeps firing until one gets through rather
+	 * than being spent on a request that never landed.
+	 */
+	private void reportEarnedMilestones(CharacterSnapshot current)
 	{
 		if (boundRsn.get() == null)
 		{
 			return;
 		}
+		int reported = reportedMilestones.get();
+		if (reported >= 0 && milestoneCount(current) > reported)
+		{
+			nudge();
+		}
+	}
+
+	private static int milestoneCount(CharacterSnapshot snapshot)
+	{
+		return snapshot.getCompletedQuests().size() + snapshot.getCompletedDiaries().size();
+	}
+
+	/**
+	 * A skill's real level changed — report it if it went <em>up</em>.
+	 *
+	 * <p>{@code StatChanged} fires on every XP gain, so the level has to be compared rather than
+	 * assumed: without this the plugin reported on a timer while training and stayed silent when the
+	 * level actually landed. The first value seen for a skill is login, not a level-up, so it seeds the
+	 * map and nudges nothing.
+	 */
+	public void onStatChanged(Skill skill, int level)
+	{
+		if (skill == null || skill == Skill.OVERALL || boundRsn.get() == null)
+		{
+			return;
+		}
+		Integer previous = seenLevels.put(skill, level);
+		if (previous != null && level > previous)
+		{
+			nudge();
+		}
+	}
+
+	/**
+	 * Pulls the next report forward because something that pays just happened.
+	 *
+	 * <p>Debounced rather than queued: several levels in a row are one report, because the server
+	 * derives what it owes from the XP in the snapshot rather than from how many times it was told.
+	 * Anything the debounce swallows is picked up by the next beat, and the ratchet means a late report
+	 * pays exactly the same as a prompt one — only later.
+	 */
+	private void nudge()
+	{
 		long now = System.currentTimeMillis();
-		long last = lastLevelUpBeatMs.get();
-		if (now - last < LEVEL_UP_DEBOUNCE_MS || !lastLevelUpBeatMs.compareAndSet(last, now))
+		long last = lastEarnedBeatMs.get();
+		if (now - last < EARNED_DEBOUNCE_MS || !lastEarnedBeatMs.compareAndSet(last, now))
 		{
 			return;
 		}
@@ -398,6 +475,9 @@ public class CharacterTracker
 			try
 			{
 				applyState(api.heartbeat(token, current));
+				// Only once the server has it: a failed report must leave the count
+				// alone so the nudge keeps trying.
+				reportedMilestones.set(milestoneCount(current));
 			}
 			catch (ExchangeApiClient.CharacterNotBound ex)
 			{
@@ -504,13 +584,18 @@ public class CharacterTracker
 		// lit up on the pack orb — one character's holdings shown against another is the exact class
 		// of bug the server-side character binding exists to prevent.
 		wallet.clear();
+		// Same reasoning for the earning triggers: an alt's lower levels must not read as the main's
+		// having dropped, and its quest count must not read as a hundred finished at once.
+		seenLevels.clear();
+		reportedMilestones.set(-1);
 	}
 
 	/**
 	 * Says out loud what the server just paid, when it paid something.
 	 *
-	 * <p>The payoff moment of the whole reward: a level-up nudges a heartbeat within a minute, so
-	 * "+550 credits" lands while the player is still looking at the fireworks. Both messages are
+	 * <p>The payoff moment of the whole reward: gaining a level, finishing a quest or completing a
+	 * diary tier pulls a report forward within seconds, so "+550 credits" lands while the player is
+	 * still looking at the fireworks. Both messages are
 	 * one-shot — they are only ever set on the response that caused them, so an ordinary re-bind or a
 	 * quiet heartbeat says nothing.
 	 */

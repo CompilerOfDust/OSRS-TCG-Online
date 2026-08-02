@@ -14,9 +14,14 @@ import javax.annotation.Nullable;
  * lobsters without ever having earned the pot, so an action listed here is blocked until you own a card
  * for something that could perform it.
  *
- * <p>Deliberately <b>not</b> listed: anything that takes no tool at all — thieving stalls, picking flax,
- * filling a bucket. Those need no input item, and the item they produce is not a requirement to start
- * (you can't earn a card for a thing you're not allowed to obtain).
+ * <p>A few entries gate on what the action <b>produces</b> rather than on a tool held — milking a cow
+ * wants the Bucket of milk card. That is a different rule wearing the same mechanism, and it is
+ * deliberate: the lock's premise is that an item you have no card for is not yours to use, and creating
+ * one is a stronger claim than using one. It is only sound because cards come from <em>packs</em>, never
+ * from performing the activity, so gating the action can never make its own card unobtainable.
+ *
+ * <p>Deliberately <b>not</b> listed: anything that takes no tool and produces nothing card-worthy —
+ * thieving stalls, picking flax, filling a bucket with water.
  *
  * <p>Requirements are matched by <b>card name</b> against the catalogue rather than by hard-coded item
  * ids: the ids for "any axe" change every time Jagex adds one, the naming doesn't. Any single matching
@@ -104,7 +109,15 @@ final class ToolRequirement
 		new ToolRequirement("a butterfly net",
 			option -> option.equals("catch"), target -> target.contains("butterfly")
 				|| target.contains("implings") || target.contains("impling"),
-			name -> nameIs(name, "butterfly net", "magic butterfly net")));
+			name -> nameIs(name, "butterfly net", "magic butterfly net")),
+		// Gates on the product, not the tool — see the class comment. Milking is the
+		// one place a plain empty Bucket would otherwise mint an item the player has
+		// no card for, and an empty bucket is too common a thing to make the gate mean
+		// anything. Only a Dairy cow carries the Milk option, so the target check is
+		// belt and braces rather than load-bearing.
+		new ToolRequirement("the Bucket of milk card",
+			option -> option.equals("milk"), target -> target.contains("cow"),
+			name -> nameIs(name, "bucket of milk")));
 
 	/** The requirement for this click, or null when the action needs no tool card. */
 	@Nullable

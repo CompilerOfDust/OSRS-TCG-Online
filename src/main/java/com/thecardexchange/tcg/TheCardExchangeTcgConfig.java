@@ -149,11 +149,24 @@ public interface TheCardExchangeTcgConfig extends Config
 	}
 
 	@ConfigItem(
+		keyName = "creditsBanner",
+		name = "Credit balance",
+		description = "Show your credit balance at the top of the screen. Credits are earned by playing "
+			+ "- levels, quests, diaries, boss kills - so the balance moves while you are doing "
+			+ "something else entirely.",
+		position = 6
+	)
+	default boolean creditsBanner()
+	{
+		return true;
+	}
+
+	@ConfigItem(
 		keyName = "packSounds",
 		name = "Pack sounds",
 		description = "Play a sound when you open a pack and as each card turns over. The better the "
 			+ "card's gem tier, the heavier the sound.",
-		position = 6
+		position = 7
 	)
 	default boolean packSounds()
 	{
@@ -165,7 +178,7 @@ public interface TheCardExchangeTcgConfig extends Config
 		keyName = "packSoundVolume",
 		name = "Pack sound volume",
 		description = "How loud the pack sounds play, as a percentage.",
-		position = 7
+		position = 8
 	)
 	default int packSoundVolume()
 	{
@@ -177,7 +190,7 @@ public interface TheCardExchangeTcgConfig extends Config
 		name = "Lock uncollected items",
 		description = "Items you have no card for are greyed out and can't be worn, eaten or used. You can "
 			+ "always pick them up, bank them, drop them, and skill freely.",
-		position = 8
+		position = 9
 	)
 	default boolean lockUncollectedItems()
 	{
@@ -189,7 +202,7 @@ public interface TheCardExchangeTcgConfig extends Config
 		name = "Web app URL",
 		description = "Where the plugin sends you for pages on the site (game-mode guide, marketplace). "
 			+ "Only change this if you are running your own copy.",
-		position = 14
+		position = 15
 	)
 	default String webAppUrl()
 	{
@@ -201,7 +214,7 @@ public interface TheCardExchangeTcgConfig extends Config
 		name = "Show network badges",
 		description = "Show an icon beside other OSRS TCG Online players who are logged in. Only people "
 			+ "running this plugin see it — it cannot change how anyone appears in the normal game.",
-		position = 9
+		position = 10
 	)
 	default boolean networkBadges()
 	{
@@ -212,7 +225,7 @@ public interface TheCardExchangeTcgConfig extends Config
 		keyName = "networkBadgeChat",
 		name = "Badge: in chat",
 		description = "Put the badge in front of member names in chat.",
-		position = 10
+		position = 11
 	)
 	default boolean networkBadgeChat()
 	{
@@ -223,7 +236,7 @@ public interface TheCardExchangeTcgConfig extends Config
 		keyName = "networkBadgeOverhead",
 		name = "Badge: above heads",
 		description = "Draw the badge above nearby members. Capped so a crowded bank stays readable.",
-		position = 11
+		position = 12
 	)
 	default boolean networkBadgeOverhead()
 	{
@@ -234,7 +247,7 @@ public interface TheCardExchangeTcgConfig extends Config
 		keyName = "networkBadgeMenu",
 		name = "Badge: right-click menu",
 		description = "Put the badge on member names in the right-click menu and hover text.",
-		position = 12
+		position = 13
 	)
 	default boolean networkBadgeMenu()
 	{
@@ -248,7 +261,7 @@ public interface TheCardExchangeTcgConfig extends Config
 			+ "disappear from the network list: no badge, and nobody can right-click you to offer a card "
 			+ "trade. You can still start trades yourself, and you still see everyone else, rank on the "
 			+ "boards and open packs as normal. Enforced on the server, so it holds whatever any client does.",
-		position = 13
+		position = 14
 	)
 	default boolean networkShowMeOnline()
 	{

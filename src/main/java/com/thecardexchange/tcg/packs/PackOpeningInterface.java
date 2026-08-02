@@ -458,10 +458,30 @@ public class PackOpeningInterface extends Overlay
 		{
 			boolean hot = contains(l.continueButton, hover);
 			OsrsSkin.plate(g, l.continueButton, hot);
-			OsrsSkin.centred(g, "Continue", FontManager.getRunescapeSmallFont(),
+			// "Continue" means "deal me another", so it has to stop saying that the moment
+			// another is unaffordable — otherwise the button puts the pack back on the
+			// table only for the click on it to be refused, which reads as a broken
+			// button rather than as an empty wallet.
+			OsrsSkin.centred(g, canBuyAnother() ? "Continue" : "Close",
+				FontManager.getRunescapeSmallFont(),
 				hot ? OsrsSkin.ORANGE : OsrsSkin.TEXT,
 				l.continueButton.x + l.continueButton.width / 2, l.continueButton.y + 14);
 		}
+	}
+
+	/**
+	 * Whether another pack is affordable right now.
+	 *
+	 * <p>Unknown counts as affordable, matching the click check above and deliberately unlike
+	 * {@link Wallet#canOpenPack()}: turning the button into "Close" because a balance had not arrived
+	 * yet would end the ceremony on a guess. The balance is never unknown here in practice — the pack
+	 * response that produced these cards carried it.
+	 */
+	private boolean canBuyAnother()
+	{
+		int credits = wallet.getCredits();
+		int packPrice = wallet.getPackPrice();
+		return packPrice <= 0 || credits < 0 || credits >= packPrice;
 	}
 
 	/**
@@ -498,10 +518,16 @@ public class PackOpeningInterface extends Overlay
 	{
 		CatalogueCard card = pulled.getCard();
 		// The radiance goes down first, so the card covers its centre and only the halo shows. Every
-		// best-tier pull radiates in its gem colour; a curated special outshines it in gold.
+		// best-tier pull radiates in its gem colour; a curated special outshines it in gold; a showcase
+		// card (see Showcase) burns coin-gold despite a common tier, because what it is worth and how
+		// rare it is are different questions.
 		if (card.isSpecial())
 		{
 			radiance(g, rect, CardPacksInterface.SPECIAL_GOLD, 8, 52);
+		}
+		else if (Showcase.is(card))
+		{
+			radiance(g, rect, Showcase.GLOW, 7, 46);
 		}
 		else if (card.getTier() >= CatalogueCard.Tiers.highest())
 		{
@@ -850,6 +876,13 @@ public class PackOpeningInterface extends Overlay
 		}
 		if (allRevealed() && l.continueButton.contains(point))
 		{
+			if (!canBuyAnother())
+			{
+				// Nothing left to buy: the honest end of the ceremony is the way out,
+				// not an empty table with a pack the player cannot click.
+				close();
+				return;
+			}
 			// Back to the table, wallet already updated — ready to open another.
 			pull = null;
 			revealed = null;
