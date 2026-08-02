@@ -97,17 +97,22 @@ public class ItemLockManager
 	 * Options that keep working on a locked NPC because blocking them would strand a player rather
 	 * than gate content.
 	 *
-	 * <p>The line is <b>custody of your own things</b>. A locked banker means an inventory you cannot
-	 * put down and a bank you cannot reach — that is not a challenge, it is a dead end, and unlike a
-	 * quest there is no card you can go and pull to get out of it. Deposit boxes and bank chests are
-	 * NPCs too in places. Shops are included for the same reason at one remove: "Trade" is how you
-	 * offload and re-supply, and a Cardcore run that cannot sell is stuck rather than restricted.
+	 * <p>The line is <b>custody of your own things, and nothing else</b>. A locked banker means an
+	 * inventory you cannot put down and a bank you cannot reach — that is not a challenge, it is a
+	 * dead end, and unlike a quest there is no card you can go and pull to get out of it. Deposit
+	 * boxes and bank chests are NPCs too in places.
 	 *
-	 * <p>Everything else — quest starts, slayer masters, minigame hosts, plain conversation — is
-	 * gated. Cook (Lumbridge) is the worked example: no card, no Cook's Assistant.
+	 * <p><b>"Trade" and "Shop" are deliberately NOT here.</b> They were, on the reasoning that a run
+	 * which cannot sell is stuck — but a shop is a *service the NPC provides*, not custody of
+	 * something already yours, and including it meant any quest NPC who happens to sell something
+	 * stayed fully usable. Ned is the case that showed it: no card for him, yet you could still trade
+	 * with him and buy the rope Sheep Shearer wants. That is the interaction the card is for.
+	 *
+	 * <p>Everything else — quest starts, shops, slayer masters, minigame hosts, plain conversation —
+	 * is gated. Cook (Lumbridge) is the worked example: no card, no Cook's Assistant.
 	 */
 	private static final String[] NPC_SERVICE_OPTIONS = {
-		"bank", "collect", "deposit", "trade", "shop", "exchange",
+		"bank", "collect", "deposit",
 	};
 	/** Colour for a greyed menu entry — the game's own "you can't do this" tone. */
 	private static final String LOCKED_MENU_COLOUR = "8f8f8f";
