@@ -4,7 +4,15 @@
   "name": "Avernic treads",
   "cardKind": "item",
   "tier": 6,
-  "unlocksItems": [],
+  "unlocksItems": [
+    31091,
+    31092,
+    31093,
+    31094,
+    31095,
+    31096,
+    31097
+  ],
   "flavourText": "A finely crafted pair of boots.",
   "tags": [
     "Armour"

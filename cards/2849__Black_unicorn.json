@@ -4,7 +4,9 @@
   "name": "Black unicorn",
   "cardKind": "npc",
   "tier": 2,
-  "unlocksItems": [],
+  "unlocksItems": [
+    3911
+  ],
   "flavourText": "A unicorn with a blackened heart.",
   "tags": [
     "Monster"

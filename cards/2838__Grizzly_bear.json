@@ -5,6 +5,8 @@
   "cardKind": "npc",
   "tier": 1,
   "unlocksItems": [
+    3424,
+    3425,
     11989
   ],
   "flavourText": "Eek! A bear!",

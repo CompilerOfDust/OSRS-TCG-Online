@@ -4,7 +4,19 @@
   "name": "Ba-Ba",
   "cardKind": "npc",
   "tier": 6,
-  "unlocksItems": [],
+  "unlocksItems": [
+    11709,
+    11710,
+    11711,
+    11712,
+    11713,
+    11714,
+    11715,
+    11716,
+    11717,
+    11718,
+    11781
+  ],
   "flavourText": "A big ol' monke.",
   "tags": [
     "Monster"
