@@ -149,6 +149,13 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   `/collection`) and the catalogue's `collectable` set is what tells "not earned yet" from "no card
   exists, so never lockable". **Always allowed:** taking items off the ground, banking (deposit and
   withdraw), drop/destroy/examine/remove, and *all* skilling — the lock never touches world objects.
+  **Talking to an NPC is no longer always allowed.** An NPC card now gates *conversation* as well as
+  combat, so no card means no quest start, no shop dialogue, no slayer task — the NPC half of the
+  collection was ornamental while every character could be talked to regardless. Examine stays, so a
+  player can always identify who they are looking at. `NPC_SERVICE_OPTIONS` keeps bank/deposit/trade
+  working on a locked NPC: a locked banker is an inventory you cannot put down and no card you can go
+  and pull, which is a dead end rather than a challenge. Root `QUESTS.md` lists which quests this
+  blocks.
   Config: "Lock uncollected items". Written from our own data. Known limitation of any menu-based lock:
   keybind and spacebar-"make" actions bypass `MenuOptionClicked` and can't be consumed.
 - **Two URLs, two origins.** `apiBaseUrl` is the Bun api; `webAppUrl` is the website (the game-mode

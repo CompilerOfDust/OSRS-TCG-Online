@@ -77,15 +77,37 @@ public class ItemLockManager
 		"value", "buy", "cancel",
 	};
 	/**
-	 * What you may always do to a monster you have no card for. Talking and looking cost it nothing;
-	 * fighting it, robbing it or trading with it are the things the card is for.
+	 * What you may always do to an NPC you have no card for.
 	 *
-	 * <p>The gathering options are here too — a fishing spot is an NPC, and gathering has its own rule
+	 * <p><b>"Talk-to" is deliberately NOT here any more.</b> It used to be, on the reasoning that
+	 * talking costs the NPC nothing — but an NPC card is meant to be the character, and being able to
+	 * run every conversation, buy from every shop and start every quest without holding one made the
+	 * NPC half of the collection ornamental. Conversation is now the thing the card is for.
+	 *
+	 * <p>Examine stays, so a player can always identify who they are looking at and know what to
+	 * chase. The gathering options stay too — a fishing spot is an NPC, and gathering has its own rule
 	 * ({@link ToolRequirement}) that gates it on the tool rather than on a card for the spot.
 	 */
 	private static final String[] NPC_ALWAYS_ALLOWED = {
-		"talk-to", "examine", "cancel", "walk here", "net", "bait", "cage", "harpoon", "lure",
+		"examine", "cancel", "walk here", "net", "bait", "cage", "harpoon", "lure",
 		"big net", "small net", "use-rod",
+	};
+
+	/**
+	 * Options that keep working on a locked NPC because blocking them would strand a player rather
+	 * than gate content.
+	 *
+	 * <p>The line is <b>custody of your own things</b>. A locked banker means an inventory you cannot
+	 * put down and a bank you cannot reach — that is not a challenge, it is a dead end, and unlike a
+	 * quest there is no card you can go and pull to get out of it. Deposit boxes and bank chests are
+	 * NPCs too in places. Shops are included for the same reason at one remove: "Trade" is how you
+	 * offload and re-supply, and a Cardcore run that cannot sell is stuck rather than restricted.
+	 *
+	 * <p>Everything else — quest starts, slayer masters, minigame hosts, plain conversation — is
+	 * gated. Cook (Lumbridge) is the worked example: no card, no Cook's Assistant.
+	 */
+	private static final String[] NPC_SERVICE_OPTIONS = {
+		"bank", "collect", "deposit", "trade", "shop", "exchange",
 	};
 	/** Colour for a greyed menu entry — the game's own "you can't do this" tone. */
 	private static final String LOCKED_MENU_COLOUR = "8f8f8f";
@@ -334,6 +356,16 @@ public class ItemLockManager
 		for (String allowed : NPC_ALWAYS_ALLOWED)
 		{
 			if (option.startsWith(allowed))
+			{
+				return false;
+			}
+		}
+		// Banking, depositing and trading survive the lock — see NPC_SERVICE_OPTIONS. Matched on the
+		// option rather than on an NPC id list: the id list would need maintaining for every banker in
+		// the game, while the option is what the player is actually trying to do.
+		for (String service : NPC_SERVICE_OPTIONS)
+		{
+			if (option.startsWith(service))
 			{
 				return false;
 			}
