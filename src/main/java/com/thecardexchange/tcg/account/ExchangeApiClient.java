@@ -186,7 +186,8 @@ public class ExchangeApiClient
 				}
 			}
 			return new CardCatalogue(out, intSet(json.getAsJsonArray("collectable")),
-				intSet(json.getAsJsonArray("collectableNpcs")));
+				intSet(json.getAsJsonArray("collectableNpcs")),
+				intArray(json.getAsJsonArray("saleValues")));
 		}
 	}
 
@@ -218,6 +219,87 @@ public class ExchangeApiClient
 			return new Holdings(asInt(json, "credits", 0), asInt(json, "openedPacks", 0),
 				asInt(json, "packPrice", 0), owned, intSet(json.getAsJsonArray("unlocked")),
 				intSet(json.getAsJsonArray("unlockedNpcs")));
+		}
+	}
+
+	/**
+	 * Sells duplicate copies of one card back for credits.
+	 *
+	 * <p>Identified by the integer catalogue id, the same one the collection and the trade window
+	 * speak — the server resolves it to the slug its own rows are keyed by.
+	 *
+	 * <p>A {@code 409} means the sale would have taken the player's last copy, which the server
+	 * refuses: the item lock is derived from cards held, so selling out of a card would confiscate
+	 * a game item. The plugin greys the button out for the same reason, but the server is the one
+	 * that decides.
+	 */
+	public SaleResult sellCard(String token, @Nullable String rsn, int cardId, int quantity)
+		throws IOException
+	{
+		JsonObject body = new JsonObject();
+		body.addProperty("cardId", cardId);
+		body.addProperty("quantity", quantity);
+
+		Request request = authorised(
+			new Request.Builder().url(url("/api/v1/plugin/cards/sell"))
+				.header("Accept", "application/json")
+				.post(RequestBody.create(JSON, body.toString())),
+			token, rsn).build();
+
+		try (Response response = execute(request))
+		{
+			JsonObject json = requireJsonBody(response);
+			if (response.code() == 423)
+			{
+				String message = asString(json, "message");
+				throw new CharacterUnderReview(message.isEmpty()
+					? "This character is under review." : message);
+			}
+			if (!response.isSuccessful())
+			{
+				String message = asString(json, "message");
+				throw new IOException(message.isEmpty()
+					? "Could not sell that card." : message);
+			}
+			return new SaleResult(asInt(json, "quantity", 0), asInt(json, "remaining", 0),
+				asInt(json, "credits", 0), asInt(json, "balance", 0));
+		}
+	}
+
+	/** What a sale did: copies sold, copies left, credits paid, and the balance afterwards. */
+	public static final class SaleResult
+	{
+		private final int quantity;
+		private final int remaining;
+		private final int credits;
+		private final int balance;
+
+		SaleResult(int quantity, int remaining, int credits, int balance)
+		{
+			this.quantity = quantity;
+			this.remaining = remaining;
+			this.credits = credits;
+			this.balance = balance;
+		}
+
+		public int getQuantity()
+		{
+			return quantity;
+		}
+
+		public int getRemaining()
+		{
+			return remaining;
+		}
+
+		public int getCredits()
+		{
+			return credits;
+		}
+
+		public int getBalance()
+		{
+			return balance;
 		}
 	}
 
@@ -273,7 +355,18 @@ public class ExchangeApiClient
 						card.has("new") && card.get("new").getAsBoolean()));
 				}
 			}
-			return new PackResult(pulled, asInt(json, "credits", 0), asInt(json, "openedPacks", 0));
+			// The server sends every milestone it crossed, but one open can only ever
+			// cross one, so the window takes the last (and highest) as *the* milestone.
+			int milestone = 0;
+			if (json.has("bonusMilestones") && json.get("bonusMilestones").isJsonArray())
+			{
+				for (JsonElement element : json.getAsJsonArray("bonusMilestones"))
+				{
+					milestone = Math.max(milestone, element.getAsInt());
+				}
+			}
+			return new PackResult(pulled, asInt(json, "credits", 0), asInt(json, "openedPacks", 0),
+				asInt(json, "bonusCredits", 0), milestone);
 		}
 	}
 
@@ -559,6 +652,7 @@ public class ExchangeApiClient
 				// in here so the rest of the plugin has one object to read instead of two.
 				copyNumber(json, character, "grantedCredits");
 				copyNumber(json, character, "creditsAwarded");
+				copyString(json, character, "creditsDetail");
 				return CharacterState.of(character);
 			}
 
@@ -602,6 +696,15 @@ public class ExchangeApiClient
 
 	/** Moves an envelope-level number onto the character object, if the server sent one. */
 	private static void copyNumber(JsonObject from, JsonObject to, String key)
+	{
+		if (from.has(key) && !from.get(key).isJsonNull())
+		{
+			to.add(key, from.get(key));
+		}
+	}
+
+	/** Same lift as {@link #copyNumber}, for the string fields beside the envelope's numbers. */
+	private static void copyString(JsonObject from, JsonObject to, String key)
 	{
 		if (from.has(key) && !from.get(key).isJsonNull())
 		{
@@ -753,6 +856,21 @@ public class ExchangeApiClient
 			}
 		}
 		return ids;
+	}
+
+	/** A flat JSON array of ints, in order — the per-tier resale prices. Empty from an older server. */
+	private static int[] intArray(@Nullable JsonArray array)
+	{
+		if (array == null)
+		{
+			return new int[0];
+		}
+		int[] out = new int[array.size()];
+		for (int i = 0; i < out.length; i++)
+		{
+			out[i] = array.get(i).getAsInt();
+		}
+		return out;
 	}
 
 	/** A flat JSON array of game ids — the catalogue's collectable set, or a character's unlocks. */

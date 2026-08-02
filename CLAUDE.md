@@ -57,6 +57,24 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
     session), `GET /api/v1/plugin/collection` (credits + owned), `POST /api/v1/plugin/packs/open`. **The
     server owns the economy** — price, tier roll, foil roll, card pick, *and now the grants*; the plugin
     only asks and draws.
+  - **The collection view expands.** The compact panel is pinned over the inventory (~190px), which is
+    why it only ever had a search box — there is no room beside a grid for anything else. The expand
+    button beside the close button swaps it for a larger free-floating panel, centred in the game area,
+    seven columns wide, with a **sort** strip (collected first / most duplicates / resale value / gem
+    tier / name) and a **filter** strip (all / collected / duplicates / missing). The choice is
+    remembered in config (`cardViewExpanded`). `COLUMNS` is therefore a *per-layout* number, carried on
+    `Layout`, not a constant — the grid, the hit test and the scroll extent all have to agree with what
+    the frame actually drew.
+    - **The trade picker's duplicates-only rule outranks the filter and must keep doing so.** It exists
+      so the picker can never offer a card you own exactly one of; it ANDs with whatever the player
+      chose and wins. `CardGridTest` guards this — it is the thing generalising the filter could quietly
+      break.
+  - **Duplicates sell back**, from the card detail window: a "Sell spare" button, shown only at two or
+    more copies, priced by the server (`saleValues` on the catalogue response — never hardcoded here,
+    because the rate is pinned to the pack price). **The last copy can never be sold**, and that is a
+    safety rule rather than politeness: the item lock is derived from cards held, so selling out of a
+    card would take away a game item you had unlocked. The server enforces it; the button being hidden
+    is a courtesy.
   - **`Wallet` is the one place the balance lives.** It used to be a private field in each of the two
     windows, filled in only when that window opened — fine while spending was the only thing that moved
     it, useless once the server started *granting* credits (3,000 at first bind, 550 a skill level), since
@@ -137,7 +155,12 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
 - `account/CharacterSnapshot` + `account/CharacterTracker` — **who is playing, and how they're doing.**
   `CharacterSnapshot.capture(Client)` is the *only* place the client is read (on the client thread, from
   `onGameTick`), and it carries the **raw ACCOUNT_TYPE varbit** — never `AccountType.values()[n]`, which
-  throws on unranked GIM. The tracker binds on login, heartbeats every 5 minutes, closes the session on
+  throws on unranked GIM. It also carries **finished quests and completed diary tiers**, as integer ids
+  the server pays credits for. Two things there are load-bearing: `AchievementDiaries.VARBITS` **must
+  never be reordered**, because its indices *are* the ids the server has already banked (it is one
+  contract with `api/src/lib/osrs/diaries.ts`, written twice); and an **empty list is never a reset** —
+  quest varbits aren't populated for the first tick or two after login, and the server's ratchet only
+  adds, so an early empty claim costs nothing. The tracker binds on login, heartbeats every 5 minutes, closes the session on
   logout, and holds the server's verdict (mode, review state) for the panel. Nothing is sent from
   seasonal/beta/tournament worlds. `CharacterState` is the server's answer; the plugin renders it and
   decides none of it. **The full contract is `../api/docs/cardman-mode.md` — read it before changing any

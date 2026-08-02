@@ -445,7 +445,7 @@ public class CharacterTracker
 				// nothing was granted or awarded by choosing a mode.
 				CharacterState previous = state.get();
 				state.set(new CharacterState(current.getRsn(), true, mode, "NONE", null,
-					previous.getCredits(), previous.getPackPrice(), 0, 0));
+					previous.getCredits(), previous.getPackPrice(), 0, 0, null));
 				announce("Game mode set to " + mode.getDisplayName() + ".");
 				onDone.run();
 				notifyListener();
@@ -523,7 +523,12 @@ public class CharacterTracker
 		}
 		if (next.getCreditsAwarded() > 0)
 		{
-			announce("+" + formatCredits(next.getCreditsAwarded()) + " credits for levelling up.");
+			// The server names what it paid for; "for levelling up" would be wrong now
+			// that quests and diaries pay too, and only the server knows which of the
+			// two this beat was.
+			String detail = next.getCreditsDetail();
+			announce("+" + formatCredits(next.getCreditsAwarded()) + " credits"
+				+ (detail == null || detail.isEmpty() ? "." : " — " + detail + "."));
 		}
 	}
 
@@ -541,7 +546,14 @@ public class CharacterTracker
 		}
 	}
 
-	private void announce(String message)
+	/**
+	 * Says something in chat as the plugin, if the player wants chat notifications.
+	 *
+	 * <p>Public so the pack window can announce a daily bonus through the same gate and the same
+	 * purple prefix — a second chat path would be a second place for the config toggle to be
+	 * forgotten.
+	 */
+	public void announce(String message)
 	{
 		if (!config.chatNotifications())
 		{

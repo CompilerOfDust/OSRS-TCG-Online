@@ -19,12 +19,14 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ScheduledExecutorService;
+import java.util.function.IntUnaryOperator;
 import javax.annotation.Nullable;
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -33,6 +35,7 @@ import net.runelite.api.Client;
 import net.runelite.api.GameState;
 import net.runelite.api.widgets.ComponentID;
 import net.runelite.api.widgets.Widget;
+import net.runelite.client.config.ConfigManager;
 import net.runelite.client.input.KeyListener;
 import net.runelite.client.input.KeyManager;
 import net.runelite.client.input.MouseAdapter;
@@ -44,6 +47,7 @@ import net.runelite.client.ui.overlay.OverlayLayer;
 import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.ui.overlay.OverlayPosition;
 import net.runelite.client.util.ImageUtil;
+import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
 import com.thecardexchange.tcg.account.AccountLinkManager;
 import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.mode.GameMode;
@@ -80,9 +84,79 @@ public class CardPacksInterface extends Overlay
 	private static final int SCROLLBAR_W = 6;
 	private static final int CLOSE_SIZE = 14;
 	private static final int PAD = 5;
+	/**
+	 * Grid width, compact and expanded. Both are *defaults for a geometry*, not a
+	 * global — {@link Layout} is handed the count it should use, because the two
+	 * views are on screen at different sizes and a single constant is what would
+	 * make the expanded grid four enormous columns.
+	 */
 	private static final int COLUMNS = 4;
+	private static final int EXPANDED_COLUMNS = 7;
+	/** The expanded panel's size, capped so it never swallows a small client. */
+	private static final int EXPANDED_W = 560;
+	private static final int EXPANDED_H = 520;
+	/** Height of the sort/filter strip, drawn only when expanded. */
+	private static final int CONTROLS_H = 17;
+	/** Remembers the expanded/compact choice across sessions. Not a user-facing config item. */
+	private static final String EXPANDED_KEY = "cardViewExpanded";
 	private static final int TILE_GAP = 3;
 	/** Old School card proportions (180×260), so a tile is a card rather than a square. */
+	/**
+	 * How the grid is ordered. {@code COLLECTED_FIRST} is the default and the only
+	 * one the compact view offers, so the small panel behaves exactly as it did.
+	 */
+	public enum SortMode
+	{
+		COLLECTED_FIRST("Collected first"),
+		DUPLICATES("Most duplicates"),
+		VALUE("Resale value"),
+		TIER("Gem tier"),
+		NAME("Name");
+
+		private final String label;
+
+		SortMode(String label)
+		{
+			this.label = label;
+		}
+
+		public String getLabel()
+		{
+			return label;
+		}
+
+		SortMode next()
+		{
+			return values()[(ordinal() + 1) % values().length];
+		}
+	}
+
+	/** What the grid shows. Independent of the search box, which filters on top of it. */
+	public enum FilterMode
+	{
+		ALL("All cards"),
+		COLLECTED("Collected"),
+		DUPLICATES("Duplicates"),
+		MISSING("Missing");
+
+		private final String label;
+
+		FilterMode(String label)
+		{
+			this.label = label;
+		}
+
+		public String getLabel()
+		{
+			return label;
+		}
+
+		FilterMode next()
+		{
+			return values()[(ordinal() + 1) % values().length];
+		}
+	}
+
 	private static final double CARD_RATIO = 260.0 / 180.0;
 	private static final int INVENTORY_MARGIN_X = 10;
 	private static final int INVENTORY_MARGIN_Y = 8;
@@ -104,12 +178,17 @@ public class CardPacksInterface extends Overlay
 	private final CardDetailWindow detail;
 	private final ItemLockManager itemLocks;
 	private final Wallet wallet;
+	private final ConfigManager configManager;
 	private final ScheduledExecutorService scheduler;
 
 	private final MouseHandler mouseHandler = new MouseHandler();
 	private final KeyHandler keyHandler = new KeyHandler();
 
 	private volatile boolean open;
+	/** The bigger, free-floating geometry with the sort and filter strip. Remembered in config. */
+	private volatile boolean expanded;
+	private volatile SortMode sort = SortMode.COLLECTED_FIRST;
+	private volatile FilterMode filter = FilterMode.ALL;
 	private volatile String query = "";
 	private volatile List<CatalogueCard> catalogue = Collections.emptyList();
 	private volatile List<CatalogueCard> shown = Collections.emptyList();
@@ -155,6 +234,7 @@ public class CardPacksInterface extends Overlay
 		CardDetailWindow detail,
 		ItemLockManager itemLocks,
 		Wallet wallet,
+		ConfigManager configManager,
 		ScheduledExecutorService scheduler)
 	{
 		this.client = client;
@@ -168,7 +248,12 @@ public class CardPacksInterface extends Overlay
 		this.detail = detail;
 		this.itemLocks = itemLocks;
 		this.wallet = wallet;
+		this.configManager = configManager;
 		this.scheduler = scheduler;
+		// Restore the last choice. Boolean.TRUE.equals rather than a parse, so an absent
+		// or corrupt value reads as compact — the geometry that fits any client.
+		this.expanded = Boolean.TRUE.equals(configManager.getConfiguration(
+			TheCardExchangeTcgConfig.GROUP, EXPANDED_KEY, Boolean.class));
 		setPosition(OverlayPosition.DYNAMIC);
 		setLayer(OverlayLayer.ABOVE_WIDGETS);
 		setPriority(Overlay.PRIORITY_HIGHEST);
@@ -180,6 +265,9 @@ public class CardPacksInterface extends Overlay
 	{
 		cardFront = ImageUtil.loadImageResource(getClass(), "/com/thecardexchange/tcg/card_front.png");
 		detail.start();
+		// Selling happens in the detail window; the counts and the item locks it changes live out
+		// here, so it hands back the one call that puts both right.
+		detail.setOnCollectionChanged(this::refreshData);
 		overlayManager.add(this);
 		mouseManager.registerMouseListener(mouseHandler);
 		mouseManager.registerMouseWheelListener(mouseHandler);
@@ -188,6 +276,7 @@ public class CardPacksInterface extends Overlay
 
 	void shutdown()
 	{
+		detail.setOnCollectionChanged(null);
 		detail.shutdown();
 		close();
 		catalogue = Collections.emptyList();
@@ -243,6 +332,22 @@ public class CardPacksInterface extends Overlay
 	public void refreshData()
 	{
 		refresh();
+	}
+
+	/**
+	 * Swaps between the compact panel and the expanded one.
+	 *
+	 * <p>Clears the drag offset: the two geometries have different natural origins, so a drag made
+	 * against one would throw the other across the screen. Scroll goes too, because the row width
+	 * changes and the old offset points at a different card.
+	 */
+	private void toggleExpanded()
+	{
+		expanded = !expanded;
+		dragX = 0;
+		dragY = 0;
+		scroll = 0;
+		configManager.setConfiguration(TheCardExchangeTcgConfig.GROUP, EXPANDED_KEY, expanded);
 	}
 
 	/** Orb click: open the interface or put it away. */
@@ -308,6 +413,8 @@ public class CardPacksInterface extends Overlay
 					byId = Collections.unmodifiableMap(index);
 					// The item locking wants the same catalogue — hand it over rather than fetch it twice.
 					itemLocks.applyCatalogue(loaded);
+					// Resale prices ride along with it; the server owns them, like the pack price.
+					wallet.applySaleValues(loaded.getSaleValues());
 					applyFilter();
 				}
 				Holdings holdings = api.collection(token, characterTracker.getCurrentRsn());
@@ -340,13 +447,23 @@ public class CardPacksInterface extends Overlay
 	private void applyFilter()
 	{
 		String needle = query.trim().toLowerCase();
+		// **The trade picker's duplicates-only rule is a correctness constraint, not a
+		// preference.** It exists so the picker can never offer a card the player owns
+		// exactly one of — their last copy is not theirs to give away. So it ANDs with
+		// whatever the player chose and always wins; it must never be replaced by it.
 		boolean duplicatesOnly = tradePicker != null;
+		FilterMode mode = filter;
 		Map<Integer, Integer> held = owned;
 
 		List<CatalogueCard> filtered = new ArrayList<>();
 		for (CatalogueCard card : catalogue)
 		{
-			if (duplicatesOnly && held.getOrDefault(card.getId(), 0) < 2)
+			int quantity = held.getOrDefault(card.getId(), 0);
+			if (duplicatesOnly && quantity < 2)
+			{
+				continue;
+			}
+			if (!matchesFilter(mode, quantity))
 			{
 				continue;
 			}
@@ -357,23 +474,79 @@ public class CardPacksInterface extends Overlay
 			filtered.add(card);
 		}
 
-		filtered.sort((a, b) ->
-		{
-			boolean aOwned = held.getOrDefault(a.getId(), 0) > 0;
-			boolean bOwned = held.getOrDefault(b.getId(), 0) > 0;
-			if (aOwned != bOwned)
-			{
-				return aOwned ? -1 : 1;
-			}
-			if (aOwned && a.getTier() != b.getTier())
-			{
-				return Integer.compare(b.getTier(), a.getTier());
-			}
-			return Integer.compare(a.getId(), b.getId());
-		});
+		filtered.sort(comparator(sort, held, wallet::saleValue));
 
 		shown = Collections.unmodifiableList(filtered);
 		scroll = 0;
+	}
+
+	static boolean matchesFilter(FilterMode mode, int quantity)
+	{
+		switch (mode)
+		{
+			case COLLECTED:
+				return quantity > 0;
+			case DUPLICATES:
+				return quantity > 1;
+			case MISSING:
+				return quantity == 0;
+			case ALL:
+			default:
+				return true;
+		}
+	}
+
+	/**
+	 * The grid's order.
+	 *
+	 * <p>Every mode falls back to card id, so the order is total and the grid never
+	 * reshuffles between frames on cards the mode can't tell apart.
+	 *
+	 * <p>{@code COLLECTED_FIRST} is the original and stays the default: cards you own
+	 * first, best gem first — the part of a ten-thousand-card catalogue you actually
+	 * care about — then everything else in catalogue order, so the uncollected run
+	 * stays a stable browsable list instead of moving as you collect.
+	 */
+	static Comparator<CatalogueCard> comparator(SortMode mode, Map<Integer, Integer> held,
+		IntUnaryOperator saleValue)
+	{
+		Comparator<CatalogueCard> byId = Comparator.comparingInt(CatalogueCard::getId);
+		switch (mode)
+		{
+			case DUPLICATES:
+				// Spares first, which is what makes selling them bearable.
+				return Comparator.<CatalogueCard>comparingInt(
+						c -> -Math.max(0, held.getOrDefault(c.getId(), 0) - 1))
+					.thenComparing(byId);
+			case VALUE:
+				// What the spares are actually worth, which is not the same order as
+				// the count: one spare Zenyte beats twenty spare Opals.
+				return Comparator.<CatalogueCard>comparingInt(
+						c -> -Math.max(0, held.getOrDefault(c.getId(), 0) - 1)
+							* saleValue.applyAsInt(c.getTier()))
+					.thenComparing(byId);
+			case TIER:
+				return Comparator.<CatalogueCard>comparingInt(c -> -c.getTier()).thenComparing(byId);
+			case NAME:
+				return Comparator.comparing(
+					(CatalogueCard c) -> c.getName().toLowerCase()).thenComparing(byId);
+			case COLLECTED_FIRST:
+			default:
+				return (a, b) ->
+				{
+					boolean aOwned = held.getOrDefault(a.getId(), 0) > 0;
+					boolean bOwned = held.getOrDefault(b.getId(), 0) > 0;
+					if (aOwned != bOwned)
+					{
+						return aOwned ? -1 : 1;
+					}
+					if (aOwned && a.getTier() != b.getTier())
+					{
+						return Integer.compare(b.getTier(), a.getTier());
+					}
+					return Integer.compare(a.getId(), b.getId());
+				};
+		}
 	}
 
 	// ── Painting ──────────────────────────────────────────────────────────────
@@ -393,7 +566,7 @@ public class CardPacksInterface extends Overlay
 			return null;
 		}
 
-		Layout l = new Layout(panelBounds());
+		Layout l = new Layout(panelBounds(), expanded);
 		layout = l;
 		Point hover = mouse;
 
@@ -412,8 +585,10 @@ public class CardPacksInterface extends Overlay
 		{
 			OsrsSkin.closeButton(g, l.close, contains(l.close, hover));
 		}
+		drawExpandToggle(g, l, contains(l.expand, hover));
 
 		drawSearch(g, l);
+		drawControls(g, l, hover);
 		drawGrid(g, l, hover);
 		drawFooter(g, l);
 
@@ -424,6 +599,65 @@ public class CardPacksInterface extends Overlay
 			g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, oldAa);
 		}
 		return null;
+	}
+
+	/**
+	 * The expand/collapse corner button: four arrows out, or in.
+	 *
+	 * <p>Drawn as strokes rather than an image so it costs no asset and follows the skin's colours;
+	 * it sits beside the close button in both views, so the control never moves.
+	 */
+	private void drawExpandToggle(Graphics2D g, Layout l, boolean hot)
+	{
+		Rectangle b = l.expand;
+		g.setColor(hot ? OsrsSkin.ORANGE : OsrsSkin.MUTED);
+		int inset = 3;
+		int arm = 4;
+		int x0 = b.x + inset;
+		int y0 = b.y + inset;
+		int x1 = b.x + b.width - inset - 1;
+		int y1 = b.y + b.height - inset - 1;
+		if (expanded)
+		{
+			// Arrows pointing inwards: this will make it smaller.
+			g.drawLine(x0, y0 + arm, x0 + arm, y0 + arm);
+			g.drawLine(x0 + arm, y0, x0 + arm, y0 + arm);
+			g.drawLine(x1 - arm, y1, x1 - arm, y1 - arm);
+			g.drawLine(x1 - arm, y1 - arm, x1, y1 - arm);
+		}
+		else
+		{
+			g.drawLine(x0, y0, x0 + arm, y0);
+			g.drawLine(x0, y0, x0, y0 + arm);
+			g.drawLine(x1 - arm, y1, x1, y1);
+			g.drawLine(x1, y1 - arm, x1, y1);
+		}
+	}
+
+	/** The sort and filter strip. Expanded only — {@link Layout} leaves the rectangles null otherwise. */
+	private void drawControls(Graphics2D g, Layout l, @Nullable Point hover)
+	{
+		if (l.sortButton == null || l.filterButton == null)
+		{
+			return;
+		}
+		Font font = FontManager.getRunescapeSmallFont();
+
+		boolean sortHot = contains(l.sortButton, hover);
+		OsrsSkin.plate(g, l.sortButton, sortHot);
+		OsrsSkin.centred(g, OsrsSkin.ellipsise(g, "Sort: " + sort.getLabel(), font,
+				l.sortButton.width - 8), font, sortHot ? OsrsSkin.ORANGE : OsrsSkin.TEXT,
+			l.sortButton.x + l.sortButton.width / 2, l.sortButton.y + CONTROLS_H - 5);
+
+		// During a trade the grid is already forced to duplicates, so offering a filter
+		// that cannot widen it would be a control that visibly does nothing.
+		boolean filterLocked = tradePicker != null;
+		boolean filterHot = !filterLocked && contains(l.filterButton, hover);
+		OsrsSkin.plate(g, l.filterButton, filterHot);
+		String label = filterLocked ? "Show: Duplicates" : "Show: " + filter.getLabel();
+		OsrsSkin.centred(g, OsrsSkin.ellipsise(g, label, font, l.filterButton.width - 8), font,
+			filterLocked ? OsrsSkin.MUTED : (filterHot ? OsrsSkin.ORANGE : OsrsSkin.TEXT),
+			l.filterButton.x + l.filterButton.width / 2, l.filterButton.y + CONTROLS_H - 5);
 	}
 
 	private void drawSearch(Graphics2D g, Layout l)
@@ -471,7 +705,7 @@ public class CardPacksInterface extends Overlay
 			return;
 		}
 
-		int rows = (cards.size() + COLUMNS - 1) / COLUMNS;
+		int rows = (cards.size() + l.columns - 1) / l.columns;
 		int rowH = l.tileH + TILE_GAP;
 		int viewH = l.list.height - 2;
 		int contentH = rows * rowH;
@@ -488,9 +722,9 @@ public class CardPacksInterface extends Overlay
 
 		for (int row = firstRow; row <= lastRow; row++)
 		{
-			for (int col = 0; col < COLUMNS; col++)
+			for (int col = 0; col < l.columns; col++)
 			{
-				int index = row * COLUMNS + col;
+				int index = row * l.columns + col;
 				if (index >= cards.size())
 				{
 					break;
@@ -641,6 +875,12 @@ public class CardPacksInterface extends Overlay
 		{
 			line = shown.size() + " duplicates to trade";
 		}
+		else if (filter == FilterMode.DUPLICATES)
+		{
+			// The one number that makes this filter worth opening: what the spares on
+			// screen are collectively worth if sold.
+			line = shown.size() + " with spares · " + formatCredits(spareValue()) + " credits if sold";
+		}
 		else
 		{
 			line = owned.size() + " / " + catalogue.size() + " cards · "
@@ -648,6 +888,33 @@ public class CardPacksInterface extends Overlay
 		}
 		OsrsSkin.centred(g, OsrsSkin.ellipsise(g, line, font, l.window.width - 12), font, colour,
 			l.window.x + l.window.width / 2, l.footerBaseline());
+	}
+
+	/**
+	 * What every spare copy in the collection would fetch.
+	 *
+	 * <p>Counts copies past the first only — the last one can never be sold, because the item lock is
+	 * derived from cards held. Computed over the whole collection rather than what is on screen, so
+	 * the figure doesn't change as you scroll or search.
+	 */
+	private int spareValue()
+	{
+		int total = 0;
+		Map<Integer, CatalogueCard> index = byId;
+		for (Map.Entry<Integer, Integer> entry : owned.entrySet())
+		{
+			int spares = entry.getValue() - 1;
+			if (spares <= 0)
+			{
+				continue;
+			}
+			CatalogueCard card = index.get(entry.getKey());
+			if (card != null)
+			{
+				total += spares * wallet.saleValue(card.getTier());
+			}
+		}
+		return total;
 	}
 
 	// ── Placement ─────────────────────────────────────────────────────────────
@@ -664,6 +931,11 @@ public class CardPacksInterface extends Overlay
 	 */
 	private Rectangle panelBounds()
 	{
+		if (expanded)
+		{
+			return expandedBounds();
+		}
+
 		Rectangle anchor = null;
 
 		for (int component : new int[]{
@@ -721,6 +993,30 @@ public class CardPacksInterface extends Overlay
 		return panel;
 	}
 
+	/**
+	 * The expanded panel: centred in the game area rather than pinned to the inventory.
+	 *
+	 * <p>Deliberately not anchored at all. The compact view sits over the inventory because that is
+	 * where a small side panel belongs; a panel this size cannot, and trying would put it half
+	 * off-screen on a fixed-mode client. Capped at the game's own dimensions so it always fits, and
+	 * the player's alt-drag offset applies exactly as it does to the compact one.
+	 */
+	private Rectangle expandedBounds()
+	{
+		Dimension game = client.getRealDimensions();
+		int gameW = game != null ? game.width : client.getCanvasWidth();
+		int gameH = game != null ? game.height : client.getCanvasHeight();
+		int width = Math.min(EXPANDED_W, Math.max(200, gameW - 16));
+		int height = Math.min(EXPANDED_H, Math.max(200, gameH - 16));
+		Rectangle natural = new Rectangle((gameW - width) / 2, (gameH - height) / 2, width, height);
+
+		Rectangle panel = new Rectangle(natural.x + dragX, natural.y + dragY, width, height);
+		OsrsSkin.clampInto(panel, gameW, gameH);
+		dragX = panel.x - natural.x;
+		dragY = panel.y - natural.y;
+		return panel;
+	}
+
 	/** Guard against anchoring to something that clearly isn't the side panel (a full-screen container). */
 	private static boolean looksLikeTabPanel(Rectangle bounds)
 	{
@@ -758,26 +1054,53 @@ public class CardPacksInterface extends Overlay
 	{
 		private final Rectangle window;
 		private final Rectangle close;
+		private final Rectangle expand;
 		private final Rectangle search;
+		private final Rectangle sortButton;
+		private final Rectangle filterButton;
 		private final Rectangle list;
 		private final int tileW;
 		private final int tileH;
+		/**
+		 * How many cards to a row. Carried on the layout rather than read from a
+		 * constant, because the compact and expanded views want different answers and
+		 * every consumer — the grid, the hit test, the scroll extent — has to agree
+		 * with whatever this frame actually drew.
+		 */
+		private final int columns;
 
-		private Layout(Rectangle bounds)
+		private Layout(Rectangle bounds, boolean expanded)
 		{
 			window = bounds;
+			columns = expanded ? EXPANDED_COLUMNS : COLUMNS;
 			close = new Rectangle(window.x + window.width - PAD - CLOSE_SIZE,
 				window.y + (TITLE_H - CLOSE_SIZE) / 2 + 1, CLOSE_SIZE, CLOSE_SIZE);
+			expand = new Rectangle(close.x - CLOSE_SIZE - 4, close.y, CLOSE_SIZE, CLOSE_SIZE);
 
 			search = new Rectangle(window.x + PAD, window.y + TITLE_H + 3, window.width - PAD * 2, SEARCH_H);
 
-			// Four to a row, at Old School card proportions, with room for the scrollbar.
-			int usable = window.width - PAD * 2 - 4 - SCROLLBAR_W - (COLUMNS - 1) * TILE_GAP;
-			tileW = Math.max(12, usable / COLUMNS);
+			// The sort/filter strip only exists expanded: at inventory width there is no
+			// room for it beside a grid, which is the reason the expanded view exists.
+			int controlsY = search.y + SEARCH_H + 3;
+			if (expanded)
+			{
+				int half = (window.width - PAD * 2 - 4) / 2;
+				sortButton = new Rectangle(window.x + PAD, controlsY, half, CONTROLS_H);
+				filterButton = new Rectangle(sortButton.x + half + 4, controlsY,
+					window.width - PAD * 2 - half - 4, CONTROLS_H);
+			}
+			else
+			{
+				sortButton = null;
+				filterButton = null;
+			}
+
+			int usable = window.width - PAD * 2 - 4 - SCROLLBAR_W - (columns - 1) * TILE_GAP;
+			tileW = Math.max(12, usable / columns);
 			tileH = (int) Math.round(tileW * CARD_RATIO);
 
 			// Hold whole rows: with scrolling snapped to a row, no card is ever sliced in half.
-			int listY = search.y + SEARCH_H + 3;
+			int listY = controlsY + (expanded ? CONTROLS_H + 3 : 0);
 			int available = window.y + window.height - PAD - FOOTER_H - listY;
 			int visibleRows = Math.max(1, (available - 4) / (tileH + TILE_GAP));
 			list = new Rectangle(window.x + PAD, listY, window.width - PAD * 2,
@@ -907,7 +1230,7 @@ public class CardPacksInterface extends Overlay
 				return event;
 			}
 			int rowH = l.tileH + TILE_GAP;
-			int rows = (shown.size() + COLUMNS - 1) / COLUMNS;
+			int rows = (shown.size() + l.columns - 1) / l.columns;
 			scroll = clampScroll(scroll + event.getWheelRotation() * rowH, rows * rowH,
 				l.list.height - 2, rowH);
 			event.consume();
@@ -942,10 +1265,32 @@ public class CardPacksInterface extends Overlay
 			close();
 			return;
 		}
+		if (l.expand.contains(point))
+		{
+			toggleExpanded();
+			return;
+		}
+		if (l.sortButton != null && l.sortButton.contains(point))
+		{
+			sort = sort.next();
+			applyFilter();
+			return;
+		}
+		if (l.filterButton != null && l.filterButton.contains(point))
+		{
+			// Locked during a trade: the grid is already pinned to duplicates by a rule
+			// the player doesn't get to relax.
+			if (tradePicker == null)
+			{
+				filter = filter.next();
+				applyFilter();
+			}
+			return;
+		}
 
 		List<CatalogueCard> cards = shown;
 		int rowH = l.tileH + TILE_GAP;
-		int rows = (cards.size() + COLUMNS - 1) / COLUMNS;
+		int rows = (cards.size() + l.columns - 1) / l.columns;
 		int viewH = l.list.height - 2;
 		int contentH = rows * rowH;
 
@@ -960,11 +1305,11 @@ public class CardPacksInterface extends Overlay
 		{
 			int row = (point.y - l.list.y - 2 + scroll) / rowH;
 			int col = (point.x - l.list.x - 2) / (l.tileW + TILE_GAP);
-			if (col < 0 || col >= COLUMNS)
+			if (col < 0 || col >= l.columns)
 			{
 				return;
 			}
-			int index = row * COLUMNS + col;
+			int index = row * l.columns + col;
 			if (index < 0 || index >= cards.size())
 			{
 				return;
@@ -1027,7 +1372,7 @@ public class CardPacksInterface extends Overlay
 		}
 		int rowH = l.tileH + TILE_GAP;
 		int viewH = l.list.height - 2;
-		int contentH = ((shown.size() + COLUMNS - 1) / COLUMNS) * rowH;
+		int contentH = ((shown.size() + l.columns - 1) / l.columns) * rowH;
 		if (contentH <= viewH)
 		{
 			return;
@@ -1122,7 +1467,7 @@ public class CardPacksInterface extends Overlay
 			return;
 		}
 		int rowH = l.tileH + TILE_GAP;
-		int rows = (shown.size() + COLUMNS - 1) / COLUMNS;
+		int rows = (shown.size() + l.columns - 1) / l.columns;
 		scroll = clampScroll(scroll + delta, rows * rowH, l.list.height - 2, rowH);
 	}
 

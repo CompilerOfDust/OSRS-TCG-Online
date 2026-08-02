@@ -16,12 +16,21 @@ public final class CardCatalogue
 	private final List<CatalogueCard> cards;
 	private final Set<Integer> collectable;
 	private final Set<Integer> collectableNpcs;
+	private final int[] saleValues;
 
-	public CardCatalogue(List<CatalogueCard> cards, Set<Integer> collectable, Set<Integer> collectableNpcs)
+	public CardCatalogue(List<CatalogueCard> cards, Set<Integer> collectable, Set<Integer> collectableNpcs,
+		int[] saleValues)
 	{
 		this.cards = cards;
 		this.collectable = collectable;
 		this.collectableNpcs = collectableNpcs;
+		this.saleValues = saleValues == null ? new int[0] : saleValues;
+	}
+
+	/** What a duplicate sells for, by gem tier (index 0 = tier 1). Empty from an older server. */
+	public int[] getSaleValues()
+	{
+		return saleValues;
 	}
 
 	public List<CatalogueCard> getCards()

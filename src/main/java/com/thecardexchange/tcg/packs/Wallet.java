@@ -31,6 +31,15 @@ public class Wallet
 
 	private volatile int credits = UNKNOWN;
 	private volatile int packPrice = 0;
+	/**
+	 * What a duplicate sells back for, by gem tier (index 0 = tier 1). Empty until the catalogue
+	 * lands, which is once a session.
+	 *
+	 * <p>Sent by the server with the catalogue rather than hardcoded here, for the same reason the pack
+	 * price is: the prices are pinned to each other, and a plugin holding its own copy would let the
+	 * two drift a release apart.
+	 */
+	private volatile int[] saleValues = new int[0];
 
 	public void apply(Holdings holdings)
 	{
@@ -68,6 +77,23 @@ public class Wallet
 		}
 	}
 
+	/** The per-tier resale prices from the catalogue response. */
+	public void applySaleValues(int[] values)
+	{
+		if (values != null && values.length > 0)
+		{
+			saleValues = values.clone();
+		}
+	}
+
+	/** What one duplicate of a card at this tier sells for, or 0 if the server hasn't said yet. */
+	public int saleValue(int tier)
+	{
+		int[] values = saleValues;
+		int index = tier - 1;
+		return index >= 0 && index < values.length ? values[index] : 0;
+	}
+
 	/**
 	 * Forgets the balance. Called when the tracked character goes away — hopping to an alt must not leave
 	 * the main's wallet on screen, which would be the same class of bug the character binding exists to
@@ -77,6 +103,8 @@ public class Wallet
 	{
 		credits = UNKNOWN;
 		packPrice = 0;
+		// `saleValues` deliberately survives: prices are a property of the catalogue, not of the
+		// character, so an alt inherits them rather than sitting priceless until the next fetch.
 	}
 
 	public boolean isKnown()

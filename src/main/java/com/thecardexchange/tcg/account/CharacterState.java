@@ -19,7 +19,7 @@ public class CharacterState
 {
 	/** Nobody logged in, or nothing heard from the server yet. */
 	public static final CharacterState UNKNOWN =
-		new CharacterState("", false, GameMode.NOT_SELECTED, "NONE", null, -1, 0, 0, 0);
+		new CharacterState("", false, GameMode.NOT_SELECTED, "NONE", null, -1, 0, 0, 0, null);
 
 	String rsn;
 	boolean bound;
@@ -45,8 +45,17 @@ public class CharacterState
 
 	/** The welcome balance, set only on the response that actually paid it. Zero otherwise. */
 	int grantedCredits;
-	/** What this heartbeat's levels earned. Zero on a beat that earned nothing. */
+	/** What this heartbeat earned, from any source. Zero on a beat that earned nothing. */
 	int creditsAwarded;
+	/**
+	 * What it was earned for, in the server's words — "2 levels and Varrock Elite".
+	 *
+	 * <p>Phrased server side deliberately: only that side knows what it actually paid for. A quest the
+	 * first-sight budget held back, or a level the XP-rate ceiling withheld, was claimed by this client
+	 * and <i>not</i> paid, so anything the plugin worked out for itself would sometimes be a lie.
+	 * Null when the server didn't say, which is also what an older server looks like.
+	 */
+	String creditsDetail;
 
 	static CharacterState of(JsonObject json)
 	{
@@ -72,9 +81,11 @@ public class CharacterState
 			? json.get("grantedCredits").getAsInt() : 0;
 		int awarded = json.has("creditsAwarded") && !json.get("creditsAwarded").isJsonNull()
 			? json.get("creditsAwarded").getAsInt() : 0;
+		String detail = json.has("creditsDetail") && !json.get("creditsDetail").isJsonNull()
+			? Text.removeTags(json.get("creditsDetail").getAsString()) : null;
 
 		return new CharacterState(rsn, bound, GameMode.fromConfigValue(mode), review, message,
-			credits, packPrice, granted, awarded);
+			credits, packPrice, granted, awarded, detail);
 	}
 
 	/** True while the character is held and must not be played on. */

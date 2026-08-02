@@ -2,13 +2,17 @@ package com.thecardexchange.tcg.account;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import javax.annotation.Nullable;
 import lombok.Value;
 import net.runelite.api.Client;
 import net.runelite.api.Player;
+import net.runelite.api.Quest;
+import net.runelite.api.QuestState;
 import net.runelite.api.Skill;
 import net.runelite.api.Varbits;
 import net.runelite.api.WorldType;
@@ -63,6 +67,20 @@ public class CharacterSnapshot
 	Map<String, int[]> skills;
 	/** World types this snapshot was taken on, so the server can double-check. */
 	EnumSet<WorldType> worldTypes;
+	/**
+	 * Quests reported FINISHED, by RuneLite {@link Quest#getId()}, and diary tiers
+	 * reported complete, by {@link AchievementDiaries} id. Both sorted.
+	 *
+	 * <p>The server pays once per entry and remembers what it paid for, so these
+	 * are a <i>claim about what has been done</i> rather than a delta — sending the
+	 * whole set every time is what makes a dropped heartbeat cost nothing.
+	 *
+	 * <p>Empty is always a legitimate answer (a brand-new account, or the seconds
+	 * after login before the varbits load) and never means "reset": the server's
+	 * ratchet only adds.
+	 */
+	List<Integer> completedQuests;
+	List<Integer> completedDiaries;
 
 	/**
 	 * Reads the logged-in character. <b>Must be called on the client thread.</b>
@@ -124,7 +142,38 @@ public class CharacterSnapshot
 			skills,
 			EnumSet.copyOf(client.getWorldType().isEmpty()
 				? EnumSet.noneOf(WorldType.class)
-				: client.getWorldType()));
+				: client.getWorldType()),
+			finishedQuests(client),
+			AchievementDiaries.completed(client));
+	}
+
+	/**
+	 * Quest ids the client reports as finished. <b>Client thread only.</b>
+	 *
+	 * <p>Around 210 varp reads, next to the 23 skill reads already happening here —
+	 * so it is done in full on every snapshot rather than cached and invalidated,
+	 * which would be more code to get subtly wrong for no measurable gain.
+	 */
+	private static List<Integer> finishedQuests(Client client)
+	{
+		List<Integer> ids = new ArrayList<>();
+		for (Quest quest : Quest.values())
+		{
+			try
+			{
+				if (quest.getState(client) == QuestState.FINISHED)
+				{
+					ids.add(quest.getId());
+				}
+			}
+			catch (RuntimeException ex)
+			{
+				// One quest whose varps the client can't resolve must not cost the
+				// whole snapshot — which would take the heartbeat, and with it the
+				// XP accounting, down with it.
+			}
+		}
+		return ids;
 	}
 
 	/** True on a world whose stats must never be reported. */
@@ -215,10 +264,30 @@ public class CharacterSnapshot
 		}
 		json.add("worldTypes", worlds);
 
+		// Omitted entirely when empty rather than sent as `[]`: an empty array and
+		// an absent field mean the same thing to the server (nothing to pay for),
+		// and leaving them out keeps the common heartbeat small.
+		addIds(json, "completedQuests", completedQuests);
+		addIds(json, "completedDiaries", completedDiaries);
+
 		if (pluginVersion != null && !pluginVersion.isEmpty())
 		{
 			json.addProperty("pluginVersion", pluginVersion);
 		}
 		return json;
+	}
+
+	private static void addIds(JsonObject json, String key, @Nullable List<Integer> ids)
+	{
+		if (ids == null || ids.isEmpty())
+		{
+			return;
+		}
+		JsonArray array = new JsonArray();
+		for (Integer id : ids)
+		{
+			array.add(id);
+		}
+		json.add(key, array);
 	}
 }

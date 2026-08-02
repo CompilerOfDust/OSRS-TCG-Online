@@ -258,6 +258,14 @@ public class PackOpeningInterface extends Overlay
 				// The charged balance, straight off the response — so the orb's readiness pip goes
 				// out the instant the last affordable pack is bought, with no extra round trip.
 				wallet.apply(result.getCredits(), wallet.getPackPrice());
+				// The daily milestone, on the open that crossed it. Said in chat rather than
+				// drawn in the window: the window is about to fill with cards, and the bonus
+				// should still be there to read once it closes.
+				if (result.getBonusCredits() > 0)
+				{
+					characterTracker.announce("+" + String.format("%,d", result.getBonusCredits())
+						+ " credits — " + result.getBonusMilestone() + " packs today.");
+				}
 				// The flags go in before the pull: a frame that sees the cards must see their state too.
 				revealed = new boolean[result.getCards().size()];
 				pull = Collections.unmodifiableList(new ArrayList<>(result.getCards()));

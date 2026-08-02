@@ -12,9 +12,13 @@ import java.awt.Shape;
 import java.awt.Stroke;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
+import java.io.IOException;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicBoolean;
 import javax.annotation.Nullable;
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -31,7 +35,11 @@ import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.ui.overlay.OverlayPosition;
 import net.runelite.client.util.ImageUtil;
 import net.runelite.client.util.LinkBrowser;
+import lombok.extern.slf4j.Slf4j;
+import com.thecardexchange.tcg.FeatureGate;
+import com.thecardexchange.tcg.account.AccountLinkManager;
 import com.thecardexchange.tcg.account.CharacterTracker;
+import com.thecardexchange.tcg.account.ExchangeApiClient;
 import com.thecardexchange.tcg.mode.GameMode;
 import com.thecardexchange.tcg.ui.OsrsSkin;
 
@@ -45,6 +53,7 @@ import com.thecardexchange.tcg.ui.OsrsSkin;
  * <p>Centred on the game scene and alt-draggable like the other painted windows, and it swallows the
  * mouse inside its bounds so clicking it never reaches the game.
  */
+@Slf4j
 @Singleton
 public class CardDetailWindow extends Overlay
 {
@@ -83,10 +92,24 @@ public class CardDetailWindow extends Overlay
 	private BufferedImage cardFront;
 
 	private final CharacterTracker characterTracker;
+	private final ExchangeApiClient api;
+	private final AccountLinkManager linkManager;
+	private final FeatureGate gate;
+	private final Wallet wallet;
+	private final ScheduledExecutorService scheduler;
+
+	/** Set by {@link CardPacksInterface} so a sale can refresh the grid behind this window. */
+	private volatile Runnable onCollectionChanged;
+	/** True while a sale is in flight, so a double-click can't sell twice. */
+	private final AtomicBoolean selling = new AtomicBoolean();
+	/** What the last sale said, shown in place of the button's price for a moment. */
+	private volatile String saleNotice;
 
 	@Inject
 	CardDetailWindow(Client client, OverlayManager overlayManager, MouseManager mouseManager,
-		CardArt cardArt, ItemManager itemManager, CharacterTracker characterTracker)
+		CardArt cardArt, ItemManager itemManager, CharacterTracker characterTracker,
+		ExchangeApiClient api, AccountLinkManager linkManager, FeatureGate gate, Wallet wallet,
+		ScheduledExecutorService scheduler)
 	{
 		this.client = client;
 		this.overlayManager = overlayManager;
@@ -94,6 +117,11 @@ public class CardDetailWindow extends Overlay
 		this.cardArt = cardArt;
 		this.itemManager = itemManager;
 		this.characterTracker = characterTracker;
+		this.api = api;
+		this.linkManager = linkManager;
+		this.gate = gate;
+		this.wallet = wallet;
+		this.scheduler = scheduler;
 		setPosition(OverlayPosition.DYNAMIC);
 		setLayer(OverlayLayer.ABOVE_WIDGETS);
 		// A shade above HIGHEST: this window opens over the plugin's other HIGHEST overlays (the
@@ -146,6 +174,18 @@ public class CardDetailWindow extends Overlay
 		this.open = true;
 	}
 
+	/**
+	 * What to run once a sale has changed the collection — set by {@link CardPacksInterface} so the
+	 * grid behind this window follows a sale.
+	 *
+	 * <p>A setter rather than constructor injection because the two windows own each other: the grid
+	 * opens this one, and this one has to tell the grid when it changed something.
+	 */
+	public void setOnCollectionChanged(@Nullable Runnable listener)
+	{
+		this.onCollectionChanged = listener;
+	}
+
 	public void close()
 	{
 		open = false;
@@ -191,6 +231,8 @@ public class CardDetailWindow extends Overlay
 		drawFace(g, l, shown);
 		drawFacts(g, l, shown);
 
+		drawSell(g, l, shown, hover);
+
 		boolean hot = contains(l.wiki, hover);
 		OsrsSkin.plate(g, l.wiki, hot);
 		OsrsSkin.centred(g, "Open Wiki", FontManager.getRunescapeFont(),
@@ -203,6 +245,92 @@ public class CardDetailWindow extends Overlay
 			g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, oldAa);
 		}
 		return null;
+	}
+
+	/**
+	 * The "Sell spare" button — drawn only when there is genuinely a spare to sell.
+	 *
+	 * <p>Hidden rather than greyed at one copy, because the answer is never going to be yes for a card
+	 * you own one of, and a permanently dead control on a window most players open to read flavour text
+	 * is just noise. It is also hidden while the character can't play at all, for the same reason the
+	 * pack orb is: offering an action the server will refuse makes the hold look unreal.
+	 */
+	private void drawSell(Graphics2D g, Layout l, CatalogueCard shown, @Nullable Point hover)
+	{
+		String notice = saleNotice;
+		if (notice != null)
+		{
+			OsrsSkin.plate(g, l.sell, false);
+			OsrsSkin.centred(g, notice, FontManager.getRunescapeFont(), OsrsSkin.GOOD,
+				l.sell.x + l.sell.width / 2, l.sell.y + 15);
+			return;
+		}
+		if (!isSellable(shown))
+		{
+			return;
+		}
+		boolean hot = contains(l.sell, hover);
+		OsrsSkin.plate(g, l.sell, hot);
+		int value = wallet.saleValue(shown.getTier());
+		OsrsSkin.centred(g, "Sell spare  (" + String.format("%,d", value) + ")",
+			FontManager.getRunescapeFont(), hot ? OsrsSkin.ORANGE : OsrsSkin.TEXT,
+			l.sell.x + l.sell.width / 2, l.sell.y + 15);
+	}
+
+	/**
+	 * Whether this card has a copy to spare.
+	 *
+	 * <p>The floor of one copy is the server's rule and the server enforces it — the item lock is
+	 * derived from cards held, so selling out of a card would take away a game item. This is only what
+	 * decides whether to draw the button.
+	 */
+	private boolean isSellable(CatalogueCard shown)
+	{
+		return shown != null
+			&& quantity >= 2
+			&& wallet.saleValue(shown.getTier()) > 0
+			&& gate.isPlayable()
+			&& linkManager.getToken() != null;
+	}
+
+	/** Sells one spare copy, off the render thread, and refreshes what the sale changed. */
+	private void sellOne()
+	{
+		CatalogueCard shown = card;
+		String token = linkManager.getToken();
+		if (shown == null || token == null || !selling.compareAndSet(false, true))
+		{
+			return;
+		}
+		scheduler.execute(() ->
+		{
+			try
+			{
+				ExchangeApiClient.SaleResult sale =
+					api.sellCard(token, characterTracker.getCurrentRsn(), shown.getId(), 1);
+				// Straight off the response, so the orb's readiness pip and the footer follow the
+				// sale without waiting for the next heartbeat.
+				wallet.apply(sale.getBalance(), wallet.getPackPrice());
+				quantity = sale.getRemaining();
+				saleNotice = "+" + String.format("%,d", sale.getCredits()) + " credits";
+				scheduler.schedule(() -> saleNotice = null, 2, TimeUnit.SECONDS);
+				Runnable listener = onCollectionChanged;
+				if (listener != null)
+				{
+					listener.run();
+				}
+			}
+			catch (IOException | RuntimeException ex)
+			{
+				log.debug("Could not sell a card", ex);
+				saleNotice = "Couldn't sell that";
+				scheduler.schedule(() -> saleNotice = null, 2, TimeUnit.SECONDS);
+			}
+			finally
+			{
+				selling.set(false);
+			}
+		});
 	}
 
 	/**
@@ -332,6 +460,7 @@ public class CardDetailWindow extends Overlay
 		private final Rectangle close;
 		private final Rectangle face;
 		private final Rectangle wiki;
+		private final Rectangle sell;
 
 		private Layout(Rectangle bounds)
 		{
@@ -340,11 +469,16 @@ public class CardDetailWindow extends Overlay
 				window.y + (TITLE_H - CLOSE_SIZE) / 2, CLOSE_SIZE, CLOSE_SIZE);
 			// The front template's own proportions, as tall as the space above the facts and the button
 			// allows — the facts get 132px, enough for the crafting story and the unlocks line together.
-			int faceH = window.height - TITLE_H - BUTTON_H - 132;
+			//
+			// The sell row is reserved whether or not it is drawn. A card becoming
+			// sellable — a duplicate arriving from a pack while this window is open —
+			// must not resize the artwork underneath it.
+			int faceH = window.height - TITLE_H - (BUTTON_H * 2 + 4) - 132;
 			int faceW = (int) Math.round(faceH / CardFace.RATIO);
 			face = new Rectangle(window.x + (window.width - faceW) / 2, window.y + TITLE_H + 8, faceW, faceH);
 			wiki = new Rectangle(window.x + PAD, window.y + window.height - PAD - BUTTON_H,
 				window.width - PAD * 2, BUTTON_H);
+			sell = new Rectangle(wiki.x, wiki.y - BUTTON_H - 4, wiki.width, BUTTON_H);
 		}
 	}
 
@@ -368,6 +502,11 @@ public class CardDetailWindow extends Overlay
 			else if (l.close.contains(event.getPoint()))
 			{
 				close();
+			}
+			else if (l.sell.contains(event.getPoint()) && saleNotice == null
+				&& card != null && isSellable(card))
+			{
+				sellOne();
 			}
 			else if (l.wiki.contains(event.getPoint()))
 			{
