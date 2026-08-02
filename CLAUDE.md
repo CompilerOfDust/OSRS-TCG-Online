@@ -192,7 +192,15 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   contract with `api/src/lib/osrs/diaries.ts`, written twice); and an **empty list is never a reset** —
   quest varbits aren't populated for the first tick or two after login, and the server's ratchet only
   adds, so an early empty claim costs nothing. The tracker binds on login, closes the session on logout, and holds the server's verdict (mode, review
-  state) for the panel. **Reporting is event-driven with a 5-minute safety net**, not a poll: gaining a
+  state) for the panel. **A pulled-forward report is flushed on the next game tick, never from the event itself.**
+  `StatChanged` fires *before* the tick that captures the new levels, so sending straight from the
+  event reported the XP from before the level — the server correctly paid nothing and the credits
+  waited for the next scheduled beat. `beatPending` is set by the event and drained in `onGameTick`
+  after `snapshot.set(...)`, which also means a nudge swallowed by the debounce is coalesced rather
+  than dropped (two levels inside five seconds used to report once). Opening the collection or pack
+  window nudges too (`onWalletViewed`): it is when a stale number is actually seen, and boss-kill
+  credits are paid hourly server-side with no client event at all.
+- **Reporting is event-driven with a 5-minute safety net**, not a poll: gaining a
   real level, finishing a quest or completing a diary tier pulls the next report forward within seconds
   (`nudge()`, 5s debounce), so credits land while the player is still looking at the fireworks. Two
   details there are load-bearing — `StatChanged` fires on *every* XP gain, so the tracker compares the

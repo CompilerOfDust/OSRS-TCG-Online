@@ -200,6 +200,10 @@ public class PackOpeningInterface extends Overlay
 		open = true;
 		status = "";
 		refreshWallet();
+		// Ask the server for a fresh balance too, not just the cached one: this is
+		// the moment a stale number is actually seen, and boss-kill credits are
+		// paid hourly server-side with no client event to notice them.
+		characterTracker.onWalletViewed();
 	}
 
 	public void close()

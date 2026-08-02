@@ -99,6 +99,22 @@ public class CharacterTracker
 	private final AtomicLong lastBindAttemptMs = new AtomicLong(0);
 	private final AtomicLong lastEarnedBeatMs = new AtomicLong(0);
 	/**
+	 * Something that pays has happened and the server has not been told yet.
+	 *
+	 * <p>A flag rather than an immediate send, for two reasons that were both costing players their
+	 * credits for up to five minutes.
+	 *
+	 * <p><b>The snapshot would have been stale.</b> {@code StatChanged} fires *before* the game tick
+	 * that captures the new levels, so sending straight from the event reported the XP from before the
+	 * level — the server correctly paid nothing, and the credits then waited for the next scheduled
+	 * beat. Flushing on the tick means the snapshot always contains the level that triggered it.
+	 *
+	 * <p><b>And a swallowed nudge was lost.</b> The debounce used to just return, so two levels within
+	 * five seconds reported once and the second waited for the timer. The flag survives the debounce,
+	 * so nothing is dropped — only coalesced.
+	 */
+	private final AtomicBoolean beatPending = new AtomicBoolean();
+	/**
 	 * Real level last seen per skill, so {@link #onStatChanged} can tell a level from an XP drop.
 	 * Cleared with the character — an alt's levels must never look like the main's having dropped.
 	 */
@@ -285,6 +301,35 @@ public class CharacterTracker
 		{
 			bind(current);
 		}
+
+		// Last, so the snapshot it sends is the one captured above — including the
+		// level or milestone that asked for it.
+		flushPendingBeat();
+	}
+
+	/**
+	 * Sends a pulled-forward report, if one is owed and the debounce allows.
+	 *
+	 * <p>Called from the tick rather than from the event that set the flag, so the report always
+	 * carries a snapshot taken *after* whatever paid. A tick is 600ms, so this costs a player at most
+	 * that much against the old five-minute wait.
+	 */
+	private void flushPendingBeat()
+	{
+		if (!beatPending.get())
+		{
+			return;
+		}
+		long now = System.currentTimeMillis();
+		long last = lastEarnedBeatMs.get();
+		if (now - last < EARNED_DEBOUNCE_MS || !lastEarnedBeatMs.compareAndSet(last, now))
+		{
+			// Too soon. The flag stays set, so this goes out on a later tick rather
+			// than being dropped and waiting for the scheduled beat.
+			return;
+		}
+		beatPending.set(false);
+		beat();
 	}
 
 	/** A level went up — worth reporting sooner than the next scheduled beat. */
@@ -344,13 +389,19 @@ public class CharacterTracker
 	 */
 	private void nudge()
 	{
-		long now = System.currentTimeMillis();
-		long last = lastEarnedBeatMs.get();
-		if (now - last < EARNED_DEBOUNCE_MS || !lastEarnedBeatMs.compareAndSet(last, now))
-		{
-			return;
-		}
-		beat();
+		beatPending.set(true);
+	}
+
+	/**
+	 * The player is looking at their balance — send now rather than on the timer.
+	 *
+	 * <p>Opening the collection or the pack window is the one moment a stale number is actually seen,
+	 * and it is also when boss-kill credits (paid hourly, server side, with no client event at all)
+	 * can first be noticed. Nothing else in the plugin can know about those.
+	 */
+	public void onWalletViewed()
+	{
+		nudge();
 	}
 
 	/** Logged out or hopping: close the session cleanly and forget the character. */

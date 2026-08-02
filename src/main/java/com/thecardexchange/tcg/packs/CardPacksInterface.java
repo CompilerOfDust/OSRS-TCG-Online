@@ -373,6 +373,10 @@ public class CardPacksInterface extends Overlay
 		else
 		{
 			open();
+			// Same reason as the pack window: opening the collection is when the
+			// player looks at their balance, so pull a report forward rather than
+			// showing whatever the last beat left behind.
+			characterTracker.onWalletViewed();
 		}
 	}
 
