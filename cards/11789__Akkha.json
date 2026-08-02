@@ -4,7 +4,11 @@
   "name": "Akkha",
   "cardKind": "npc",
   "tier": 6,
-  "unlocksItems": [],
+  "unlocksItems": [
+    11797,
+    11798,
+    11799
+  ],
   "flavourText": "A manifestation of vengeance.",
   "tags": [
     "Monster"
