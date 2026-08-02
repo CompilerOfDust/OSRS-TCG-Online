@@ -379,9 +379,11 @@ public class ExchangeApiClient
 	{
 		String art = card.has("a") && !card.get("a").isJsonNull() ? card.get("a").getAsString() : null;
 		String slug = card.has("s") && !card.get("s").isJsonNull() ? card.get("s").getAsString() : null;
+		String cardId = card.has("c") && !card.get("c").isJsonNull() ? card.get("c").getAsString() : null;
 		String description = card.has("d") && !card.get("d").isJsonNull() ? card.get("d").getAsString() : null;
 		return new CatalogueCard(
 			asInt(card, "i", 0),
+			cardId,
 			asString(card, "n"),
 			"npc".equals(asString(card, "k")),
 			asInt(card, "g", -1),

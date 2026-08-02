@@ -36,7 +36,7 @@ public class CardGridTest
 
 	private static CatalogueCard card(int id, String name, int tier)
 	{
-		return new CatalogueCard(id, name, false, 1000 + id, null, null, null, tier, false,
+		return new CatalogueCard(id, "itm_" + id, name, false, 1000 + id, null, null, null, tier, false,
 			Collections.emptyList(), Collections.emptyList(), Collections.emptyList());
 	}
 

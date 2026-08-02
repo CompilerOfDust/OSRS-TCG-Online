@@ -16,6 +16,15 @@ import javax.annotation.Nullable;
 public final class CatalogueCard
 {
 	private final int id;
+	/**
+	 * The catalogue slug (`itm_abyssal-tentacle`) — the card's id on the website.
+	 *
+	 * <p>Sent by the api rather than derived here, because it cannot be derived: a duplicate name
+	 * gets a numeric suffix (`npc_cook__4`), so slugifying the name would quietly link to the wrong
+	 * card. Null only for a plugin talking to an api older than the field.
+	 */
+	@Nullable
+	private final String cardId;
 	private final String name;
 	private final boolean npc;
 	private final int gameId;
@@ -40,11 +49,13 @@ public final class CatalogueCard
 	private final List<Integer> craftedFrom;
 	private final List<Integer> combinesInto;
 
-	public CatalogueCard(int id, String name, boolean npc, int gameId, @Nullable String art,
-		@Nullable String pageSlug, @Nullable String description, int tier, boolean special,
-		List<Integer> unlocksItems, List<Integer> craftedFrom, List<Integer> combinesInto)
+	public CatalogueCard(int id, @Nullable String cardId, String name, boolean npc, int gameId,
+		@Nullable String art, @Nullable String pageSlug, @Nullable String description, int tier,
+		boolean special, List<Integer> unlocksItems, List<Integer> craftedFrom,
+		List<Integer> combinesInto)
 	{
 		this.id = id;
+		this.cardId = cardId;
 		this.name = name;
 		this.npc = npc;
 		this.gameId = gameId;
@@ -116,6 +127,34 @@ public final class CatalogueCard
 	 * The card's page on the Old School wiki. Built from the name — which is the page title for almost
 	 * every card — unless the server sent a slug because this one is an exception.
 	 */
+	@Nullable
+	public String getCardId()
+	{
+		return cardId;
+	}
+
+	/**
+	 * The card's page on the Card Exchange website.
+	 *
+	 * <p>This is where the detail view's link goes now: our own page carries the card's tier, what it
+	 * unlocks, its drop sources and spawn locations — the OSRS wiki has none of that, and the card is
+	 * ours. The wiki is still one click away from there.
+	 *
+	 * <p>Null when the api did not send a slug (an older build), and the caller falls back to
+	 * {@link #getWikiUrl()} rather than linking nowhere.
+	 */
+	@Nullable
+	public String getSiteUrl(String webAppUrl)
+	{
+		if (cardId == null || cardId.isEmpty())
+		{
+			return null;
+		}
+		String base = webAppUrl.endsWith("/") ? webAppUrl.substring(0, webAppUrl.length() - 1) : webAppUrl;
+		return base + "/tcg-online/cards/" + cardId;
+	}
+
+	/** The Old School wiki page for the real thing behind the card. */
 	public String getWikiUrl()
 	{
 		String slug = pageSlug != null && !pageSlug.isEmpty() ? pageSlug : name.replace(' ', '_');

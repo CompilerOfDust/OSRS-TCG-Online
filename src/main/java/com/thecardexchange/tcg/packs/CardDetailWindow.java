@@ -38,6 +38,7 @@ import net.runelite.client.util.LinkBrowser;
 import lombok.extern.slf4j.Slf4j;
 import com.thecardexchange.tcg.FeatureGate;
 import com.thecardexchange.tcg.account.AccountLinkManager;
+import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
 import com.thecardexchange.tcg.account.CharacterTracker;
 import com.thecardexchange.tcg.account.ExchangeApiClient;
 import com.thecardexchange.tcg.mode.GameMode;
@@ -97,6 +98,7 @@ public class CardDetailWindow extends Overlay
 	private final FeatureGate gate;
 	private final Wallet wallet;
 	private final ScheduledExecutorService scheduler;
+	private final TheCardExchangeTcgConfig config;
 
 	/** Set by {@link CardPacksInterface} so a sale can refresh the grid behind this window. */
 	private volatile Runnable onCollectionChanged;
@@ -109,8 +111,9 @@ public class CardDetailWindow extends Overlay
 	CardDetailWindow(Client client, OverlayManager overlayManager, MouseManager mouseManager,
 		CardArt cardArt, ItemManager itemManager, CharacterTracker characterTracker,
 		ExchangeApiClient api, AccountLinkManager linkManager, FeatureGate gate, Wallet wallet,
-		ScheduledExecutorService scheduler)
+		ScheduledExecutorService scheduler, TheCardExchangeTcgConfig config)
 	{
+		this.config = config;
 		this.client = client;
 		this.overlayManager = overlayManager;
 		this.mouseManager = mouseManager;
@@ -235,7 +238,7 @@ public class CardDetailWindow extends Overlay
 
 		boolean hot = contains(l.wiki, hover);
 		OsrsSkin.plate(g, l.wiki, hot);
-		OsrsSkin.centred(g, "Open Wiki", FontManager.getRunescapeFont(),
+		OsrsSkin.centred(g, wikiLabel(), FontManager.getRunescapeFont(),
 			hot ? OsrsSkin.ORANGE : OsrsSkin.TEXT, l.wiki.x + l.wiki.width / 2, l.wiki.y + 15);
 
 		g.setClip(oldClip);
@@ -454,6 +457,30 @@ public class CardDetailWindow extends Overlay
 		return window;
 	}
 
+	/**
+	 * The website's base URL — config, else the baked-in default. Not the api base: in production
+	 * they are different origins.
+	 */
+	private String webAppUrl()
+	{
+		String configured = config.webAppUrl();
+		String base = (configured == null || configured.trim().isEmpty())
+			? TheCardExchangeTcgConfig.defaultWebAppUrl()
+			: configured.trim();
+		return base.replaceAll("/+$", "");
+	}
+
+	/**
+	 * "Open Card Page" when we can link to our own page for it, "Open Wiki" when we cannot — an
+	 * older api sends no slug, and a button that says one thing and does another is worse than a
+	 * button with two labels.
+	 */
+	private String wikiLabel()
+	{
+		CatalogueCard shown = card;
+		return shown != null && shown.getSiteUrl(webAppUrl()) != null ? "Open Card Page" : "Open Wiki";
+	}
+
 	private static final class Layout
 	{
 		private final Rectangle window;
@@ -513,7 +540,11 @@ public class CardDetailWindow extends Overlay
 				CatalogueCard shown = card;
 				if (shown != null)
 				{
-					LinkBrowser.browse(shown.getWikiUrl());
+					// Our own card page, not the OSRS wiki: it carries the gem tier, what the card
+					// unlocks, its drop sources and spawn locations — none of which the wiki knows,
+					// because the card is ours. The wiki is one click from there.
+					String site = shown.getSiteUrl(webAppUrl());
+					LinkBrowser.browse(site != null ? site : shown.getWikiUrl());
 				}
 			}
 			event.consume();
