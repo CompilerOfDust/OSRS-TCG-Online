@@ -24,6 +24,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
+import com.thecardexchange.tcg.ApiEndpoint;
 import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
 
 import com.thecardexchange.tcg.mode.GameMode;
@@ -59,9 +60,11 @@ public class ExchangeApiClient
 	private final OkHttpClient httpClient;
 	private final Gson gson;
 	private final TheCardExchangeTcgConfig config;
+	private final ApiEndpoint apiEndpoint;
 
 	@Inject
-	ExchangeApiClient(OkHttpClient okHttpClient, Gson gson, TheCardExchangeTcgConfig config)
+	ExchangeApiClient(OkHttpClient okHttpClient, Gson gson, TheCardExchangeTcgConfig config,
+		ApiEndpoint apiEndpoint)
 	{
 		// Short timeouts: linking is interactive, so a hung request should surface as an error the player
 		// can retry rather than block the poll loop.
@@ -72,6 +75,7 @@ public class ExchangeApiClient
 			.build();
 		this.gson = gson;
 		this.config = config;
+		this.apiEndpoint = apiEndpoint;
 	}
 
 	/**
@@ -789,13 +793,8 @@ public class ExchangeApiClient
 
 	private HttpUrl url(String path)
 	{
-		// A blank config field means "fall back to the env var / built-in default", so the
-		// THECARDEXCHANGE_API_URL a deployment sets still applies when the player hasn't overridden it.
-		String configured = config.apiBaseUrl();
-		String base = (configured == null || configured.trim().isEmpty())
-			? TheCardExchangeTcgConfig.defaultApiBaseUrl()
-			: configured.trim();
-		base = base.replaceAll("/+$", "");
+		// Config field, then the environment, then the region of the world we are on — see ApiEndpoint.
+		String base = apiEndpoint.baseUrl();
 
 		HttpUrl parsed = HttpUrl.parse(base + path);
 		if (parsed == null)

@@ -53,11 +53,12 @@ tasks.register('run', JavaExec) {
 			"-Djavax.net.ssl.trustStorePassword=changeit"
 	}
 
-	// Let `-PapiUrl=https://…` point the plugin at a different exchange API for this run (the launch
-	// script passes it through). The plugin reads this system property before its config default.
-	if (project.hasProperty('apiUrl')) {
-		systemProperty 'thecardexchange.apiUrl', project.property('apiUrl')
-	}
+	// Point this run at a local backend, or at another one with `-PapiUrl=https://…` (the launch script
+	// passes it through). The plugin reads this system property ahead of the world-derived region, so
+	// setting it unconditionally is what keeps `gradlew run` on localhost — without it a dev client
+	// would resolve a region and talk to production, which is the default the *shipped* plugin wants
+	// and the last thing a dev one does.
+	systemProperty 'thecardexchange.apiUrl', project.findProperty('apiUrl') ?: 'http://localhost:3001'
 
 	args "--developer-mode", "--debug"
 }

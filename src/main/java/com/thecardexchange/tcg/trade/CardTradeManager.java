@@ -28,6 +28,8 @@ import net.runelite.client.chat.QueuedMessage;
 import net.runelite.client.util.ColorUtil;
 import net.runelite.client.util.LinkBrowser;
 import net.runelite.client.util.Text;
+import com.thecardexchange.tcg.ApiEndpoint;
+import com.thecardexchange.tcg.ApiRegion;
 import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
 import com.thecardexchange.tcg.account.AccountLinkManager;
 import com.thecardexchange.tcg.FeatureGate;
@@ -72,11 +74,19 @@ public class CardTradeManager
 	private final NetworkPresence presence;
 	private final FeatureGate gate;
 	private final BlockedNotice notice;
+	private final ApiEndpoint apiEndpoint;
 
 	@Nullable
 	private volatile String currentRsn;
 	@Nullable
 	private volatile String connectedRsn;
+	/**
+	 * The region the open socket is pointed at, so a world hop that crosses regions reconnects. Null
+	 * when nothing is connected, and also when an override pins the URL — see
+	 * {@link ApiEndpoint#routedRegion()}.
+	 */
+	@Nullable
+	private volatile ApiRegion connectedRegion;
 	private volatile long lastConnectMs;
 
 	/** The incoming offer we can accept (from the clickable chat line), and when it arrived. */
@@ -105,6 +115,7 @@ public class CardTradeManager
 		public void onClosed()
 		{
 			connectedRsn = null;
+			connectedRegion = null;
 		}
 	};
 
@@ -119,7 +130,8 @@ public class CardTradeManager
 		TradeSocket socket,
 		NetworkPresence presence,
 		FeatureGate gate,
-		BlockedNotice notice)
+		BlockedNotice notice,
+		ApiEndpoint apiEndpoint)
 	{
 		this.client = client;
 		this.chatMessageManager = chatMessageManager;
@@ -131,6 +143,7 @@ public class CardTradeManager
 		this.presence = presence;
 		this.gate = gate;
 		this.notice = notice;
+		this.apiEndpoint = apiEndpoint;
 	}
 
 	// ── Lifecycle ─────────────────────────────────────────────────────────────
@@ -150,6 +163,7 @@ public class CardTradeManager
 	public void stop()
 	{
 		connectedRsn = null;
+		connectedRegion = null;
 		incomingOfferId = null;
 		activeOfferId = null;
 		socket.disconnect();
@@ -170,11 +184,19 @@ public class CardTradeManager
 			if (connectedRsn != null)
 			{
 				connectedRsn = null;
+				connectedRegion = null;
 				socket.disconnect();
 			}
 			return;
 		}
-		if (normalised.equals(connectedRsn))
+
+		// A world hop across regions has to move the socket, because the broker's offer state lives in
+		// one instance's memory: staying connected to the old region would leave us invisible to
+		// everybody on the world we are actually standing in. Checked here — rather than only on
+		// WorldChanged — because the region can also settle *without* a hop, when the world list
+		// finishes loading a moment after login.
+		ApiRegion region = apiEndpoint.routedRegion();
+		if (normalised.equals(connectedRsn) && region == connectedRegion)
 		{
 			return;
 		}
@@ -191,6 +213,7 @@ public class CardTradeManager
 		}
 		lastConnectMs = now;
 		connectedRsn = normalised;
+		connectedRegion = region;
 		socket.connect(token, normalised, socketHandler);
 	}
 

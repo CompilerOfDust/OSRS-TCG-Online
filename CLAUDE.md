@@ -15,9 +15,26 @@ game for Old School RuneScape, wired to the OSRS Card Exchange. Java / Gradle.
 
 ## The backend is the Bun api — always
 
-The plugin talks to the **Bun `api` service** (`../api`), **never the Next.js app**. Its API base URL
-defaults to `http://localhost:3001` (`TheCardExchangeTcgConfig.DEFAULT_API_BASE_URL`), overridable via the
-`THECARDEXCHANGE_API_URL` env var, `-Dthecardexchange.apiUrl`, or the config field. **The Bun api is the
+The plugin talks to the **Bun `api` service** (`../api`), **never the Next.js app**.
+
+**The API base URL is derived from the OSRS world, and that is a correctness rule, not a latency one.**
+`ApiEndpoint` resolves it: the config field, then `-Dthecardexchange.apiUrl` /
+`THECARDEXCHANGE_API_URL`, then `ApiRegion` — `https://eu.osrscardexchange.com` or
+`https://us.osrscardexchange.com`, picked from the world's Jagex region. The api runs as two instances
+and **the trade broker keeps its offer state in one instance's memory**, so both players in a trade must
+reach the same one. The world gives that for free: trading requires standing next to each other, which
+requires the same world. So the mapping **must stay a pure function of the world** — never of ping, the
+player, or anything measured locally — or two clients on one world disagree and the trade cannot open.
+`ApiRegionTest` pins it, including that every region Jagex runs maps somewhere.
+
+Consequences worth knowing: a world hop across regions **reconnects the trade socket**
+(`CardTradeManager.setCurrentRsn` compares `ApiEndpoint.routedRegion()` and acts; it is checked on the
+tick, not only on `WorldChanged`, because the region also settles a moment after login when the world
+list loads). An in-flight trade dies on that hop — correct, since hopping ends the in-game trade anyway.
+An **override pins every request to one host and turns region routing off** (`routedRegion()` returns
+null so a dev client never reconnects on a hop), which is why `gradlew run` sets the system property to
+`http://localhost:3001` unconditionally: without it a dev client would resolve a region and talk to
+production. **The Bun api is the
 project's API going forward — the official API; the Next.js app's API is legacy and we are migrating away
 from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing (`/api/v1/plugin/link/*`),
 `/api/v1/plugin/session`, and the in-game trade broker (`/api/v1/plugin/trade/*`).
@@ -159,9 +176,10 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   Config: "Lock uncollected items". Written from our own data. Known limitation of any menu-based lock:
   keybind and spacebar-"make" actions bypass `MenuOptionClicked` and can't be consumed.
 - **Two URLs, two origins.** `apiBaseUrl` is the Bun api; `webAppUrl` is the website (the game-mode
-  guide, the marketplace). Both resolve property → env → baked-in local default, so a deployment points
-  them without a rebuild. Don't build website links off the api base — in production they are different
-  hosts.
+  guide, the marketplace). Don't build website links off the api base — in production they are
+  different hosts, and now different *counts* of host: the api is one per region, the website is one.
+  `webAppUrl` still resolves property → env → baked-in local default; `apiBaseUrl` resolves through
+  `ApiEndpoint` and has **no** baked-in single default, because there is no single api (above).
 - **`CharacterTracker.activeGameMode()` is the single answer to "which mode are we in"** — the server's
   reply once bound, the cache only for the gap before the first bind. The panel and all three card
   renderers read it; a second copy of that decision is how you get rose-tinted cards next to a panel

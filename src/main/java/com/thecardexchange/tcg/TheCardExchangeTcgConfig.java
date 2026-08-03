@@ -1,5 +1,6 @@
 package com.thecardexchange.tcg;
 
+import javax.annotation.Nullable;
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
@@ -10,11 +11,20 @@ public interface TheCardExchangeTcgConfig extends Config
 {
 	String GROUP = "thecardexchangetcg";
 
-	/** Baked-in fallback when nothing else supplies the API URL — the local dev backend. */
-	String DEFAULT_API_BASE_URL = "http://localhost:3001";
+	/**
+	 * Where the API lives when nothing overrides it: one host per region, filled in with
+	 * {@link ApiRegion#subdomain()} — {@code https://eu.osrscardexchange.com} and
+	 * {@code https://us.osrscardexchange.com}.
+	 *
+	 * <p>There is no single baked-in URL any more, because there is no single API: the instance a client
+	 * belongs on is decided by the OSRS world it is logged into, so that both players in a trade reach
+	 * the same one. {@link ApiEndpoint} is what resolves it; the dev launch script sets
+	 * {@link #API_URL_PROPERTY} to a local backend, which overrides all of this.
+	 */
+	String API_HOST_TEMPLATE = "https://%s.osrscardexchange.com";
 
 	/**
-	 * The public site — the local dev one, matching {@link #DEFAULT_API_BASE_URL}.
+	 * The public site — the local dev one.
 	 *
 	 * <p>Pages the plugin links to (the game-mode guide, the marketplace) live on the website, not on
 	 * the api: they are different origins in production, so one base URL cannot serve both.
@@ -50,12 +60,13 @@ public interface TheCardExchangeTcgConfig extends Config
 	String API_URL_ENV = "THECARDEXCHANGE_API_URL";
 
 	/**
-	 * The default API base URL, resolved from (in order) the {@link #API_URL_PROPERTY} system property,
-	 * the {@link #API_URL_ENV} environment variable, then the baked-in local default. This is what lets a
-	 * production deployment point the plugin at the hosted API without editing code — while a player who
-	 * sets the config field below still overrides everything.
+	 * An API base URL supplied from outside the client — the {@link #API_URL_PROPERTY} system property,
+	 * then the {@link #API_URL_ENV} environment variable — or {@code null} when neither is set and the
+	 * world's region should decide instead. This is what the dev launch script uses to point a client at
+	 * a local backend without touching config.
 	 */
-	static String defaultApiBaseUrl()
+	@Nullable
+	static String apiBaseUrlOverride()
 	{
 		String property = System.getProperty(API_URL_PROPERTY);
 		if (property != null && !property.trim().isEmpty())
@@ -67,26 +78,28 @@ public interface TheCardExchangeTcgConfig extends Config
 		{
 			return env.trim();
 		}
-		return DEFAULT_API_BASE_URL;
+		return null;
 	}
 
 	/**
-	 * Where the exchange API lives. Its default comes from {@link #defaultApiBaseUrl()} — the
-	 * {@code THECARDEXCHANGE_API_URL} env var (or {@code -Dthecardexchange.apiUrl}), else the local dev
-	 * backend — so deployments can set it without a rebuild. Setting this field explicitly overrides
-	 * that. The plugin token, the pairing endpoints and the verification link are all built from it.
+	 * Where the exchange API lives, when you want to override it. **Blank is the normal setting**: the
+	 * plugin then picks the instance matching the OSRS world you are on, which is what puts both players
+	 * in a trade on the same server. Filling this in pins every request to one host — right for a local
+	 * backend or a self-hosted copy, wrong for playing across regions.
+	 *
+	 * <p>Resolution lives in {@link ApiEndpoint}: this field, then the environment, then the region.
 	 */
 	@ConfigItem(
 		keyName = "apiBaseUrl",
 		name = "API base URL",
-		description = "The OSRS Card Exchange API this plugin talks to. Leave blank to use the "
-			+ "THECARDEXCHANGE_API_URL environment variable (or the built-in default); set it to point at "
-			+ "your own server.",
+		description = "Leave blank — the plugin picks the server matching the world you are on, which is "
+			+ "what lets you trade with the people around you. Only set this to point at your own copy of "
+			+ "the API; it pins every request to that one host.",
 		position = 0
 	)
 	default String apiBaseUrl()
 	{
-		return defaultApiBaseUrl();
+		return "";
 	}
 
 	@ConfigItem(

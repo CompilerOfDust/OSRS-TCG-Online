@@ -20,7 +20,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
-import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
+import com.thecardexchange.tcg.ApiEndpoint;
 
 /**
  * The plugin's end of the trade WebSocket. {@link #connect} opens a socket to the Bun api
@@ -44,13 +44,13 @@ public class TradeSocket
 
 	private final OkHttpClient wsClient;
 	private final Gson gson;
-	private final TheCardExchangeTcgConfig config;
+	private final ApiEndpoint apiEndpoint;
 
 	@Nullable
 	private volatile WebSocket socket;
 
 	@Inject
-	TradeSocket(OkHttpClient okHttpClient, Gson gson, TheCardExchangeTcgConfig config)
+	TradeSocket(OkHttpClient okHttpClient, Gson gson, ApiEndpoint apiEndpoint)
 	{
 		// A WebSocket is long-lived: no read timeout, and a ping keeps it (and any proxy) alive.
 		this.wsClient = okHttpClient.newBuilder()
@@ -58,7 +58,7 @@ public class TradeSocket
 			.pingInterval(20, TimeUnit.SECONDS)
 			.build();
 		this.gson = gson;
-		this.config = config;
+		this.apiEndpoint = apiEndpoint;
 	}
 
 	public void connect(String token, String rsn, Handler handler)
@@ -275,10 +275,8 @@ public class TradeSocket
 	@Nullable
 	private HttpUrl baseUrl()
 	{
-		String configured = config.apiBaseUrl();
-		String base = (configured == null || configured.trim().isEmpty())
-			? TheCardExchangeTcgConfig.defaultApiBaseUrl()
-			: configured.trim();
-		return HttpUrl.parse(base.replaceAll("/+$", ""));
+		// The region half of this is the whole point of the socket: the broker holds offer state in the
+		// memory of one instance, so this has to resolve to the same host as the other player's client.
+		return HttpUrl.parse(apiEndpoint.baseUrl());
 	}
 }

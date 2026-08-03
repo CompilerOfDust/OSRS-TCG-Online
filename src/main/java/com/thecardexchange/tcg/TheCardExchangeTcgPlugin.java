@@ -14,6 +14,7 @@ import net.runelite.api.events.MenuEntryAdded;
 import net.runelite.api.events.MenuOptionClicked;
 import net.runelite.api.events.MenuOpened;
 import net.runelite.api.events.StatChanged;
+import net.runelite.api.events.WorldChanged;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.events.ConfigChanged;
 import net.runelite.client.chat.ChatMessageManager;
@@ -106,6 +107,9 @@ public class TheCardExchangeTcgPlugin extends Plugin
 
 	@Inject
 	private NetworkBadgeOverlay networkBadgeOverlay;
+
+	@Inject
+	private ApiEndpoint apiEndpoint;
 
 	private NavigationButton navButton;
 
@@ -210,6 +214,10 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	{
 		Player local = client.getLocalPlayer();
 		String rsn = local != null ? local.getName() : null;
+		// Which world we are on decides which API region we belong to, so both players in a trade reach
+		// the same broker. Read here because this is the client thread; ApiEndpoint holds it for the
+		// OkHttp and scheduler threads that actually build URLs.
+		apiEndpoint.setWorld(client.getWorld());
 		cardTradeManager.setCurrentRsn(rsn);
 		linkManager.setCurrentRsn(rsn);
 		// Reads the character (levels, XP, account type) on the client thread and
@@ -220,6 +228,19 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		cardTradeManager.onGameTick();
 		// Refreshes the online-member list when it's due; free while logged out.
 		networkPresence.tick();
+	}
+
+	/**
+	 * A world hop can move us to the other API region — the two instances do not share the trade
+	 * broker's offer state, so staying on the old one would leave us invisible to everyone on the world
+	 * we are now standing in. Recording the world here rather than waiting for the next tick means the
+	 * reconnect starts immediately; {@link CardTradeManager#setCurrentRsn} is what notices and acts,
+	 * because the region can also settle without a hop when the world list finishes loading.
+	 */
+	@Subscribe
+	public void onWorldChanged(WorldChanged event)
+	{
+		apiEndpoint.setWorld(client.getWorld());
 	}
 
 	@Subscribe
