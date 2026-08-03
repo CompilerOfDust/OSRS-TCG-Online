@@ -60,6 +60,10 @@ tasks.register('run', JavaExec) {
 	// and the last thing a dev one does.
 	systemProperty 'thecardexchange.apiUrl', project.findProperty('apiUrl') ?: 'http://localhost:3001'
 
+	// Same treatment for the website, and for the same reason: its baked-in default is now the live
+	// site, so without this a dev client would open production pages from a local run. `-PwebUrl=` overrides.
+	systemProperty 'thecardexchange.webUrl', project.findProperty('webUrl') ?: 'http://localhost:3000'
+
 	args "--developer-mode", "--debug"
 }
 

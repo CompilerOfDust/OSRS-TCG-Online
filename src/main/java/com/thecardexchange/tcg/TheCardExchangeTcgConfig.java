@@ -29,7 +29,15 @@ public interface TheCardExchangeTcgConfig extends Config
 	 * <p>Pages the plugin links to (the game-mode guide, the marketplace) live on the website, not on
 	 * the api: they are different origins in production, so one base URL cannot serve both.
 	 */
-	String DEFAULT_WEB_APP_URL = "http://localhost:3000";
+	/**
+	 * The live website. Unlike the API there is exactly one of these — the site is not regional — so
+	 * this stays a plain constant rather than going through {@link ApiRegion}.
+	 *
+	 * <p>Production, not localhost: a shipped plugin has no environment to read a URL from, and the dev
+	 * launch script sets {@link #WEB_URL_PROPERTY} explicitly so `gradlew run` still points at a local
+	 * site. Don't build API links off this — in production they are different hosts.
+	 */
+	String DEFAULT_WEB_APP_URL = "https://www.osrscardexchange.com";
 	/** JVM system property that overrides the web app default. */
 	String WEB_URL_PROPERTY = "thecardexchange.webUrl";
 	/** Environment variable that overrides the web app default. */
