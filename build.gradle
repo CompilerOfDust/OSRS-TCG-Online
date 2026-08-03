@@ -53,16 +53,26 @@ tasks.register('run', JavaExec) {
 			"-Djavax.net.ssl.trustStorePassword=changeit"
 	}
 
-	// Point this run at a local backend, or at another one with `-PapiUrl=https://…` (the launch script
-	// passes it through). The plugin reads this system property ahead of the world-derived region, so
-	// setting it unconditionally is what keeps `gradlew run` on localhost — without it a dev client
-	// would resolve a region and talk to production, which is the default the *shipped* plugin wants
-	// and the last thing a dev one does.
-	systemProperty 'thecardexchange.apiUrl', project.findProperty('apiUrl') ?: 'http://localhost:3001'
+	// `-Pprod` runs against the live deployment: it sets **no** override, which is the point — an
+	// override pins every request to one host and switches the world→region routing off entirely
+	// (ApiEndpoint.routedRegion() returns null under one). So `-PapiUrl=https://eu.api…` would test
+	// the live API but *not* the thing most worth testing, which is that the plugin picks its region
+	// from the OSRS world and both sides of a trade land on the same broker.
+	if (project.hasProperty('prod')) {
+		logger.lifecycle('Running against PRODUCTION: API region resolved from the OSRS world, website https://www.osrscardexchange.com')
+	}
+	else {
+		// Point this run at a local backend, or at another one with `-PapiUrl=https://…` (the launch
+		// script passes it through). The plugin reads this system property ahead of the world-derived
+		// region, so setting it unconditionally is what keeps `gradlew run` on localhost — without it a
+		// dev client would resolve a region and talk to production, which is the default the *shipped*
+		// plugin wants and the last thing a dev one does.
+		systemProperty 'thecardexchange.apiUrl', project.findProperty('apiUrl') ?: 'http://localhost:3001'
 
-	// Same treatment for the website, and for the same reason: its baked-in default is now the live
-	// site, so without this a dev client would open production pages from a local run. `-PwebUrl=` overrides.
-	systemProperty 'thecardexchange.webUrl', project.findProperty('webUrl') ?: 'http://localhost:3000'
+		// Same treatment for the website, and for the same reason: its baked-in default is now the live
+		// site, so without this a dev client would open production pages from a local run.
+		systemProperty 'thecardexchange.webUrl', project.findProperty('webUrl') ?: 'http://localhost:3000'
+	}
 
 	args "--developer-mode", "--debug"
 }
