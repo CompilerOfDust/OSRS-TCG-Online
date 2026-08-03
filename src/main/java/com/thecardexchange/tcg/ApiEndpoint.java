@@ -3,6 +3,8 @@ package com.thecardexchange.tcg;
 import javax.annotation.Nullable;
 import javax.inject.Inject;
 import javax.inject.Singleton;
+import lombok.extern.slf4j.Slf4j;
+import net.runelite.client.config.ConfigManager;
 import net.runelite.client.game.WorldService;
 import net.runelite.http.api.worlds.World;
 import net.runelite.http.api.worlds.WorldResult;
@@ -27,11 +29,25 @@ import net.runelite.http.api.worlds.WorldResult;
  * move a connected player between regions as the list loaded. Holding the last resolved answer instead
  * means the region only ever changes when the world genuinely did.
  */
+@Slf4j
 @Singleton
 public class ApiEndpoint
 {
+	/**
+	 * A stored config value that points at a local backend. RuneLite persists config **defaults**, so
+	 * every client that ran a build from before the default became the live deployment has
+	 * `http://localhost:3001` written into its profile — and {@link #override()} reads the config field
+	 * ahead of the system property, so that stale value silently beats `-Dthecardexchange.apiUrl` and
+	 * every launcher flag. It presents as "the plugin ignores the URL I gave it", which is a miserable
+	 * thing to debug.
+	 */
+	private static final String[] STALE_LOCAL_PREFIXES = {
+		"http://localhost", "http://127.0.0.1", "https://localhost", "https://127.0.0.1",
+	};
+
 	private final TheCardExchangeTcgConfig config;
 	private final WorldService worldService;
+	private final ConfigManager configManager;
 
 	/** Written on the client thread, read from OkHttp and scheduler threads. */
 	private volatile int world;
@@ -40,10 +56,63 @@ public class ApiEndpoint
 	private volatile ApiRegion lastResolved = ApiRegion.EU;
 
 	@Inject
-	ApiEndpoint(TheCardExchangeTcgConfig config, WorldService worldService)
+	ApiEndpoint(TheCardExchangeTcgConfig config, WorldService worldService, ConfigManager configManager)
 	{
 		this.config = config;
 		this.worldService = worldService;
+		this.configManager = configManager;
+	}
+
+	/**
+	 * One-shot migration: clears a stored config URL that points at localhost.
+	 *
+	 * <p>Only a *localhost* value is cleared, and only from config — a self-hoster who typed their own
+	 * host keeps it, because guessing that somebody's deliberate setting is stale would be the worse
+	 * error. Nothing is written back, so a player who genuinely wants localhost can simply type it
+	 * again and it survives (this runs once per start, and their value is no longer a localhost
+	 * *default* they never chose).
+	 */
+	public void clearStaleLocalOverrides()
+	{
+		clearIfLocal("apiBaseUrl", config.apiBaseUrl());
+		clearIfLocal("webAppUrl", config.webAppUrl());
+	}
+
+	private void clearIfLocal(String key, String value)
+	{
+		if (value == null || value.trim().isEmpty())
+		{
+			return;
+		}
+		final String trimmed = value.trim().toLowerCase(java.util.Locale.ROOT);
+		for (String prefix : STALE_LOCAL_PREFIXES)
+		{
+			if (trimmed.startsWith(prefix))
+			{
+				log.info("Clearing stale local {} ({}) — it was a persisted default, and it overrides "
+					+ "every command-line and environment setting.", key, value.trim());
+				configManager.unsetConfiguration(TheCardExchangeTcgConfig.GROUP, key);
+				return;
+			}
+		}
+	}
+
+	/** What every request will actually go to, and why — logged once at start-up. */
+	public String describe()
+	{
+		final String configured = config.apiBaseUrl();
+		if (configured != null && !configured.trim().isEmpty())
+		{
+			return "api=" + trimTrailingSlash(configured.trim()) + " (from the plugin's config field)";
+		}
+		final String external = TheCardExchangeTcgConfig.apiBaseUrlOverride();
+		if (external != null)
+		{
+			return "api=" + trimTrailingSlash(external)
+				+ " (from -D" + TheCardExchangeTcgConfig.API_URL_PROPERTY
+				+ " / " + TheCardExchangeTcgConfig.API_URL_ENV + "; region routing OFF)";
+		}
+		return "api=" + region().baseUrl() + " (region " + region() + ", from the OSRS world)";
 	}
 
 	/** Client thread: the world the local player is on. Safe to call every tick. */

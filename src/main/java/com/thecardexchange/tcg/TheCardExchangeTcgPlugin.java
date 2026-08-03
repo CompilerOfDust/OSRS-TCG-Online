@@ -134,6 +134,13 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	{
 		log.info("OSRS TCG Online starting up");
 
+		// Before anything reads a URL: a localhost value persisted by an older build sits in config and
+		// silently outranks every -D flag and env var, which reads as the plugin ignoring what it was
+		// told. Clear it, then say out loud where requests are going — the answer used to be knowable
+		// only by opening the profile's .properties by hand.
+		apiEndpoint.clearStaleLocalOverrides();
+		log.info("OSRS TCG Online backend: {}", apiEndpoint.describe());
+
 		// Redraw the panel whenever the link state changes (runs off the scheduler thread; the panel
 		// hops to the EDT itself).
 		linkManager.setStatusListener(panel::refresh);
