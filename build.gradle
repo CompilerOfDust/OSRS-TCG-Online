@@ -59,7 +59,9 @@ tasks.register('run', JavaExec) {
 	// the live API but *not* the thing most worth testing, which is that the plugin picks its region
 	// from the OSRS world and both sides of a trade land on the same broker.
 	if (project.hasProperty('prod')) {
-		logger.lifecycle('Running against PRODUCTION: API region resolved from the OSRS world, website https://www.osrscardexchange.com')
+		// Kept under 120 characters: the plugin hub rejects any gradle file with a longer line.
+		logger.lifecycle('Running against PRODUCTION: API region resolved from the OSRS ' +
+			'world, website https://www.osrscardexchange.com')
 	}
 	else {
 		// Point this run at a local backend, or at another one with `-PapiUrl=https://…` (the launch
