@@ -111,7 +111,17 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	@Inject
 	private ApiEndpoint apiEndpoint;
 
+	@Inject
+	private ClashingPlugins clashingPlugins;
+
 	private NavigationButton navButton;
+
+	/**
+	 * The clashing-plugin warning is once a session, not once a login. World hops and lobby trips
+	 * both come back through LOGGED_IN, and a box that reappears every time is the kind of thing
+	 * players disable a plugin over.
+	 */
+	private boolean warnedAboutClashes;
 
 	@Provides
 	TheCardExchangeTcgConfig provideConfig(ConfigManager configManager)
@@ -255,6 +265,9 @@ public class TheCardExchangeTcgPlugin extends Plugin
 			// The mod-icon table is built as the game loads, so the badge can only be
 			// registered once we are in. Idempotent — a world hop must not leak a slot.
 			networkBadge.install(client);
+			// Here rather than in startUp(): the notice paints on the game canvas, which
+			// does not exist at the login screen.
+			warnAboutClashingPlugins();
 			return;
 		}
 
@@ -279,6 +292,33 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		// no longer reachable.
 		cardPacksManager.closeAll();
 		cardTradeManager.closeInterfaces();
+	}
+
+	/**
+	 * Warns once if another plugin covering the same ground is enabled — see {@link ClashingPlugins}
+	 * for which, and why matching them is best-effort.
+	 *
+	 * <p>Advice, not enforcement: nothing here disables anything. Which plugins a player runs is
+	 * theirs to decide, and the failure mode without the warning is that this plugin looks broken
+	 * when two of them fight over the same item locks and menu entries.
+	 *
+	 * <p>The flag is set whether or not anything was found, so the detection runs once rather than on
+	 * every world hop.
+	 */
+	private void warnAboutClashingPlugins()
+	{
+		if (warnedAboutClashes)
+		{
+			return;
+		}
+		warnedAboutClashes = true;
+
+		final java.util.List<String> clashes = clashingPlugins.enabledClashes();
+		if (clashes.isEmpty())
+		{
+			return;
+		}
+		blockedNotice.show("Plugin conflict", ClashingPlugins.message(clashes));
 	}
 
 	/**

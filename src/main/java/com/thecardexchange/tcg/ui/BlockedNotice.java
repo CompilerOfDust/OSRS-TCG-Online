@@ -48,6 +48,10 @@ public class BlockedNotice extends Overlay
 	private final FeatureGate gate;
 
 	private volatile boolean open;
+	/** True when the text comes from the gate and should be re-read (and self-close) each frame. */
+	private volatile boolean gateDriven = true;
+	private volatile String fixedTitle;
+	private volatile String fixedBody;
 	private volatile Rectangle bounds = new Rectangle();
 	private volatile Rectangle okButton = new Rectangle();
 	private volatile boolean hot;
@@ -112,8 +116,30 @@ public class BlockedNotice extends Overlay
 	{
 		if (gate.blockedReason() != null)
 		{
+			gateDriven = true;
 			open = true;
 		}
+	}
+
+	/**
+	 * Shows a fixed message instead of the gate's — used for the clashing-plugin warning, which is
+	 * advice rather than a block.
+	 *
+	 * <p>The distinction is in {@link #gateDriven}: a gate notice re-reads its reason every frame and
+	 * closes itself the moment it clears (a review passes, a character re-links), because insisting on
+	 * something no longer true is worse than saying nothing. A fixed message has nothing to re-read,
+	 * so it stays until the player dismisses it.
+	 */
+	public void show(String title, String body)
+	{
+		if (body == null || body.isEmpty())
+		{
+			return;
+		}
+		fixedTitle = title;
+		fixedBody = body;
+		gateDriven = false;
+		open = true;
 	}
 
 	public void hide()
@@ -129,7 +155,7 @@ public class BlockedNotice extends Overlay
 			return null;
 		}
 
-		final String reason = gate.blockedReason();
+		final String reason = gateDriven ? gate.blockedReason() : fixedBody;
 		if (reason == null)
 		{
 			// Cleared while the box was up — a review passed, a character re-linked.
@@ -137,6 +163,7 @@ public class BlockedNotice extends Overlay
 			open = false;
 			return null;
 		}
+		final String title = gateDriven ? gate.blockedTitle() : fixedTitle;
 
 		g.setFont(BODY_FONT);
 		final FontMetrics metrics = g.getFontMetrics();
@@ -151,7 +178,7 @@ public class BlockedNotice extends Overlay
 
 		OsrsSkin.frame(g, box);
 		OsrsSkin.titleStrip(g, box, TITLE_HEIGHT);
-		OsrsSkin.centred(g, gate.blockedTitle(), TITLE_FONT, OsrsSkin.ORANGE,
+		OsrsSkin.centred(g, title, TITLE_FONT, OsrsSkin.ORANGE,
 			box.x + box.width / 2, box.y + 18);
 
 		int y = box.y + TITLE_HEIGHT + PADDING + 10;

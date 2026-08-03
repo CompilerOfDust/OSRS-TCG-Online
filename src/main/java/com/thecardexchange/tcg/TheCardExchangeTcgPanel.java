@@ -355,6 +355,10 @@ class TheCardExchangeTcgPanel extends PluginPanel
 		}
 
 		modeSection.add(Box.createVerticalStrut(12));
+		modeSection.add(plainButton("Getting started",
+			"How the game works, and what to do first",
+			() -> LinkBrowser.browse(webUrl("/getting-started"))));
+		modeSection.add(Box.createVerticalStrut(6));
 		modeSection.add(plainButton("About the game modes",
 			"Read what each mode allows and restricts",
 			() -> LinkBrowser.browse(webUrl("/guide/game-modes"))));
