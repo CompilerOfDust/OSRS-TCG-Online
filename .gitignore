@@ -8,3 +8,8 @@ bin/
 
 # LWJGL natives the dev client extracts at runtime
 .lwjgl-rl/
+
+# The card catalogue is fetched from the API at runtime (GET /api/v1/plugin/cards).
+# A local copy here is a reference snapshot only, and the plugin hub caps plugin
+# source at 10 MiB — 7,000 JSON files is three times the whole budget.
+cards/
