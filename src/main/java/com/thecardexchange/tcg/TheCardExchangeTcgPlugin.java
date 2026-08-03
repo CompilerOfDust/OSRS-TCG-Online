@@ -17,7 +17,6 @@ import net.runelite.api.events.StatChanged;
 import net.runelite.api.events.WorldChanged;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.events.ConfigChanged;
-import net.runelite.client.chat.ChatMessageManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
@@ -86,9 +85,6 @@ public class TheCardExchangeTcgPlugin extends Plugin
 
 	@Inject
 	private OverlayManager overlayManager;
-
-	@Inject
-	private ChatMessageManager chatMessageManager;
 
 	@Inject
 	private FeatureGate featureGate;
@@ -373,8 +369,9 @@ public class TheCardExchangeTcgPlugin extends Plugin
 		{
 			return;
 		}
+		// Setting the name on the node is the whole update — ChatMessageManager.update()
+		// is a no-op and the plugin hub disallows calling it.
 		event.getMessageNode().setName(decorated);
-		chatMessageManager.update(event.getMessageNode());
 	}
 
 	/** Blocks the click on a locked item — everything the lock allows is decided in the manager. */

@@ -22,7 +22,7 @@ import net.runelite.api.Player;
 import net.runelite.api.events.MenuOpened;
 import net.runelite.api.widgets.JavaScriptCallback;
 import net.runelite.api.widgets.Widget;
-import net.runelite.api.widgets.WidgetInfo;
+import net.runelite.api.widgets.ComponentID;
 import net.runelite.client.chat.ChatMessageManager;
 import net.runelite.client.chat.QueuedMessage;
 import net.runelite.client.util.ColorUtil;
@@ -615,7 +615,7 @@ public class CardTradeManager
 	 */
 	private void wireIncomingChatLine()
 	{
-		Widget parent = client.getWidget(WidgetInfo.CHATBOX_MESSAGE_LINES);
+		Widget parent = client.getWidget(ComponentID.CHATBOX_MESSAGE_LINES);
 		if (parent == null)
 		{
 			return;
