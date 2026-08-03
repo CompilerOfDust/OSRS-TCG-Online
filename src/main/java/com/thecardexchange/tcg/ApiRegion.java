@@ -46,7 +46,7 @@ public enum ApiRegion
 		return subdomain;
 	}
 
-	/** The API base URL for this region — {@code https://eu.osrscardexchange.com} and friends. */
+	/** The API base URL for this region — {@code https://eu.api.osrscardexchange.com} and friends. */
 	public String baseUrl()
 	{
 		return String.format(TheCardExchangeTcgConfig.API_HOST_TEMPLATE, subdomain);

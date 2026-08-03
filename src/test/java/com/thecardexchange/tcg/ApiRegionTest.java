@@ -66,8 +66,8 @@ public class ApiRegionTest
 	@Test
 	public void buildsThePerRegionHost()
 	{
-		assertEquals("https://eu.osrscardexchange.com", ApiRegion.EU.baseUrl());
-		assertEquals("https://us.osrscardexchange.com", ApiRegion.US.baseUrl());
+		assertEquals("https://eu.api.osrscardexchange.com", ApiRegion.EU.baseUrl());
+		assertEquals("https://us.api.osrscardexchange.com", ApiRegion.US.baseUrl());
 		// No trailing slash: callers append a path straight onto it.
 		assertTrue(ApiRegion.US.baseUrl().endsWith(".com"));
 	}

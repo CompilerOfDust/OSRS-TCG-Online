@@ -13,15 +13,15 @@ public interface TheCardExchangeTcgConfig extends Config
 
 	/**
 	 * Where the API lives when nothing overrides it: one host per region, filled in with
-	 * {@link ApiRegion#subdomain()} — {@code https://eu.osrscardexchange.com} and
-	 * {@code https://us.osrscardexchange.com}.
+	 * {@link ApiRegion#subdomain()} — {@code https://eu.api.osrscardexchange.com} and
+	 * {@code https://us.api.osrscardexchange.com}.
 	 *
 	 * <p>There is no single baked-in URL any more, because there is no single API: the instance a client
 	 * belongs on is decided by the OSRS world it is logged into, so that both players in a trade reach
 	 * the same one. {@link ApiEndpoint} is what resolves it; the dev launch script sets
 	 * {@link #API_URL_PROPERTY} to a local backend, which overrides all of this.
 	 */
-	String API_HOST_TEMPLATE = "https://%s.osrscardexchange.com";
+	String API_HOST_TEMPLATE = "https://%s.api.osrscardexchange.com";
 
 	/**
 	 * The public site — the local dev one.

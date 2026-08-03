@@ -19,8 +19,8 @@ The plugin talks to the **Bun `api` service** (`../api`), **never the Next.js ap
 
 **The API base URL is derived from the OSRS world, and that is a correctness rule, not a latency one.**
 `ApiEndpoint` resolves it: the config field, then `-Dthecardexchange.apiUrl` /
-`THECARDEXCHANGE_API_URL`, then `ApiRegion` — `https://eu.osrscardexchange.com` or
-`https://us.osrscardexchange.com`, picked from the world's Jagex region. The api runs as two instances
+`THECARDEXCHANGE_API_URL`, then `ApiRegion` — `https://eu.api.osrscardexchange.com` or
+`https://us.api.osrscardexchange.com`, picked from the world's Jagex region. The api runs as two instances
 and **the trade broker keeps its offer state in one instance's memory**, so both players in a trade must
 reach the same one. The world gives that for free: trading requires standing next to each other, which
 requires the same world. So the mapping **must stay a pure function of the world** — never of ping, the
