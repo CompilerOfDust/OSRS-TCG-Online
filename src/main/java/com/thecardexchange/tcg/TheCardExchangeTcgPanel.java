@@ -95,6 +95,24 @@ class TheCardExchangeTcgPanel extends PluginPanel
 		modeSection.setAlignmentX(Component.LEFT_ALIGNMENT);
 		content.add(modeSection);
 
+		// Built once here rather than inside redraw(), which is the point: every
+		// other section rebuilds per state and returns early down half a dozen
+		// branches (not linked, wrong account, logged out, paused…). A guide link
+		// that lives in one of those is missing exactly when it is most wanted —
+		// somebody who has not linked yet is the reader most likely to need it.
+		content.add(Box.createVerticalStrut(16));
+		content.add(divider());
+		content.add(Box.createVerticalStrut(12));
+		content.add(sectionTitle("Guides"));
+		content.add(Box.createVerticalStrut(8));
+		content.add(plainButton("Getting started",
+			"Install, link your account, and what to do first",
+			() -> LinkBrowser.browse(webUrl("/getting-started"))));
+		content.add(Box.createVerticalStrut(6));
+		content.add(plainButton("Game modes and trading",
+			"Normal vs CardMan, what CardMan requires, and who can trade with whom",
+			() -> LinkBrowser.browse(webUrl("/guide/game-modes"))));
+
 		add(content, BorderLayout.NORTH);
 
 		redraw();
@@ -354,14 +372,8 @@ class TheCardExchangeTcgPanel extends PluginPanel
 			}
 		}
 
-		modeSection.add(Box.createVerticalStrut(12));
-		modeSection.add(plainButton("Getting started",
-			"How the game works, and what to do first",
-			() -> LinkBrowser.browse(webUrl("/getting-started"))));
-		modeSection.add(Box.createVerticalStrut(6));
-		modeSection.add(plainButton("About the game modes",
-			"Read what each mode allows and restricts",
-			() -> LinkBrowser.browse(webUrl("/guide/game-modes"))));
+		// No guide links here — they live in the always-visible "Guides" section
+		// built in the constructor, so they survive every early return above.
 	}
 
 	/** A page on the website (not the api — different origins in production). */

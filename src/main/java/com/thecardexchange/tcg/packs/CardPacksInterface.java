@@ -310,6 +310,33 @@ public class CardPacksInterface extends Overlay
 		this.tradePicker = picker;
 		this.offered = Collections.emptySet();
 		this.selected = null;
+
+		// A trade always starts from the compact grid with nothing sorted or filtered.
+		//
+		// This is a correctness fix, not tidiness. The filter control is *locked* during a
+		// trade (see the render: "Show: Duplicates", greyed) because the grid is already
+		// forced to duplicates — but locking the control never reset the value behind it.
+		// So a filter left on from browsing (say "Missing") carried into the trade, hid
+		// cards the player was trying to offer, and could not be cleared without leaving
+		// the trade: a control that visibly does nothing, over a grid that is visibly
+		// wrong.
+		//
+		// The expanded panel goes too. It is free-floating and centred, so it covers the
+		// trade window it was opened from, and its sort/filter strip is the thing being
+		// locked anyway.
+		dragX = 0;
+		dragY = 0;
+		scroll = 0;
+		sort = SortMode.COLLECTED_FIRST;
+		filter = FilterMode.ALL;
+
+		// Deliberately not written to config either way: EXPANDED_KEY is the player's
+		// choice for the *collection* view, and a trade should not silently rewrite it.
+		// Leaving the trade restores whatever they had.
+		expanded = picker == null
+			&& Boolean.TRUE.equals(configManager.getConfiguration(
+				TheCardExchangeTcgConfig.GROUP, EXPANDED_KEY, Boolean.class));
+
 		applyFilter();
 	}
 
