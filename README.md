@@ -1,88 +1,129 @@
 # OSRS TCG Online
 
-A RuneLite plugin that turns Old School RuneScape into a card game backed by
+A RuneLite plugin that turns Old School RuneScape into a card game, backed by
 [osrscardexchange.com](https://www.osrscardexchange.com).
 
-This is the **first increment**: account linking. Before the plugin can do
-anything on your behalf (open packs, sync a collection, trade), it needs to know
-*whose* account it is acting for — so it authenticates against the exchange API
-and links this install to your account. The card-game mechanics build on top of
-that link and land in later increments.
+Open packs, build a collection of ~7,000 cards drawn from the game's items and
+NPCs, and trade duplicates with other players in game. There is an optional
+challenge mode where an item is only yours to use once you have pulled its card.
 
-## How linking works (device pairing)
+Everything is in this one plugin — the collection, pack opening, the item lock
+and trading are one ruleset rather than four features, so no companion plugin is
+needed.
 
-The plugin never sees your password. It uses a device-pairing handshake, the
-same shape as the OAuth 2.0 Device Authorization Grant (RFC 8628):
+## What it does
 
-1. You click **Link my account** in the plugin's side panel.
-2. The plugin asks the API to open a handshake and is given a short **code**
-   (e.g. `ABCD-2345`) and a private device secret it keeps to itself.
-3. The panel shows the code and an **Open link page** button. On that page you
-   sign in to your exchange account and enter the code.
-4. Confirming on the website is what actually authorises the link — an attacker
-   who only glimpsed the code can't do it, because they'd need to be signed in as
-   you. This mirrors the site's existing "confirm your RSN" step.
-5. The plugin, which has been polling with its device secret, is handed a
-   long-lived **plugin token** on the next poll and stores it. It's now linked.
+- **Packs.** A pack costs 1,000 credits and holds five cards. Credits are earned
+  by playing — skill levels, quests, achievement diary tiers and boss kills all
+  pay — so your balance moves while you are doing something else.
+- **A collection view** over the inventory, with search, sorting and filters, and
+  a detail view per card showing its gem tier, what it unlocks and how many
+  copies you hold. Spare copies sell back for a quarter of face value; your last
+  copy of a card can never be sold.
+- **Trading in game.** Right-click another player → **Trade Cards**. Both sides
+  put up duplicates only, both accept, and one copy of each offered card moves
+  across in a single step. Any change to either side resets both accepts.
+- **A network badge** beside players who are also running the plugin, so you can
+  see who you can trade with. This can be turned off, which also stops others
+  offering to you.
 
-The token is sent as `Authorization: Bearer octp_…` on future requests, is
-stored only as a hash on the server, and can be revoked per device (the panel's
-**Unlink** button, or a future "signed-in devices" list on your profile).
+## Game modes
+
+Chosen once per character, and it cannot be changed afterwards.
+
+**Normal** — unrestricted play. Collect and trade alongside ordinary Old School
+RuneScape.
+
+**CardMan** — the community *Cardcore* challenge: an item is only yours to use
+once you have pulled its card. Items you have no card for are greyed out and
+cannot be worn, eaten or used. Picking things up, banking, dropping and all
+skilling are always allowed, so you can play normally and earn your way into your
+own gear.
+
+CardMan requires:
+
+- **an ironman account** — any of the six types; and
+- **a completely fresh account** — every skill at 1, Hitpoints at 10. Train
+  anything at all and CardMan is no longer available on that character.
+
+> **Finish Tutorial Island before enabling the plugin.** The tutorial hands out
+> items you have no cards for, so with the item lock already running it is
+> awkward to complete, and the XP it awards counts against the fresh-account
+> check.
+
+Cards only trade between characters on the **same** mode, and a character that
+has not chosen one cannot trade at all. Full rules:
+[Game modes guide](https://www.osrscardexchange.com/guide/game-modes).
+
+## Linking your account
+
+The plugin never sees your password. It uses a device-pairing handshake, the same
+shape as the OAuth 2.0 Device Authorization Grant (RFC 8628):
+
+1. Click **Link account** in the plugin's side panel.
+2. The plugin opens a handshake and is given a short code plus a private device
+   secret it keeps to itself.
+3. The panel shows the code and opens the website, where you sign in and confirm
+   it.
+4. Confirming is what authorises the link. Somebody who only glimpsed the code
+   cannot use it, because they would also need to be signed in as you.
+5. The plugin, polling with its device secret, is handed a plugin token and
+   stores it.
+
+The token is sent as `Authorization: Bearer octp_…`, is stored only as a hash on
+the server, and can be revoked per device from the panel's **Unlink** button or
+from your profile.
+
+**Treat the pairing code like a password while it is on screen** — it is valid
+for ten minutes.
+
+You never type a RuneScape name anywhere. The plugin reports the character you
+actually logged in as, which is also why a rename is picked up automatically.
+
+## What leaves your client
+
+- **Nothing at all until you link an account.**
+- After linking: the character you are logged in as, its skill levels and XP,
+  finished quests and completed diary tiers — the basis for the credits you earn
+  — plus the cards you own and the trades you make.
+- **Nothing about other players.** The list of who is online is downloaded whole
+  and matched locally, so no third party's name is ever sent anywhere.
+- Nothing is sent from seasonal, beta or tournament worlds.
 
 ## Configuration
 
-- **API base URL** — which exchange API to talk to. Resolution order, so a
-  deployment can set it without editing code and a player can still override it:
-  1. the **config field** if you set it explicitly (highest priority);
-  2. the `THECARDEXCHANGE_API_URL` **environment variable**, or the
-     `-Dthecardexchange.apiUrl` **system property**;
-  3. the built-in default `http://localhost:3001` (the local standalone backend).
+- **API base URL** — normally leave blank. The plugin picks the server matching
+  the OSRS world you are logged into (`eu.` for UK/Germany worlds, `us.` for US
+  and Australia), which is what puts both players in a trade on the same server.
+  Setting this pins every request to one host and turns that off; it is for
+  running your own copy.
+- **Show me as online** — publishes your badge. Turning it off also stops others
+  right-clicking you to offer a trade.
+- Plus toggles for the two orbs, the credit balance, pack sounds and volume, the
+  item lock, and each badge placement.
 
-  Leave the config field blank to fall through to the env var / default.
-- **Chat notifications** — announce linking status in the chat box.
+## Building
 
-## Building / running
-
-From the **workspace root** there's a launch script (mirrors the other plugins'
-`start-*.ps1`):
-
-```powershell
-.\start-thecardexchange-tcg-plugin.ps1
-.\start-thecardexchange-tcg-plugin.ps1 -ApiUrl https://api.osrscardexchange.com
-.\start-thecardexchange-tcg-plugin.ps1 -Log
-```
-
-`-ApiUrl` points the plugin at a specific exchange API for that run (it sets both
-`THECARDEXCHANGE_API_URL` and Gradle `-PapiUrl`, which the build turns into
-`-Dthecardexchange.apiUrl`).
-
-Or directly, from this directory:
-
-```powershell
-.\gradlew.bat run --console=plain                     # boot RuneLite (dev mode) with the plugin
-.\gradlew.bat run --console=plain -PapiUrl=https://…  # ...pointed at a specific API
-.\gradlew.bat build                                   # compile
-```
-
-The `run` task side-loads the plugin via `ExternalPluginManager.loadBuiltin(...)`
-then starts RuneLite; the client stops at the login screen, click **Play** to
-enter the game.
-
-To exercise the flow end to end you need the API running (see `../api`):
+Requires JDK 11+.
 
 ```bash
-cd ../api && bun run index.ts   # serves the API and the /link verification page on :3001
+./gradlew build          # compile and run tests
+./gradlew run            # boot RuneLite in developer mode with the plugin loaded
+./gradlew shadowJar      # a self-contained jar
 ```
 
-## Server side
+`run` side-loads the plugin via `ExternalPluginManager.loadBuiltin(...)` and then
+starts RuneLite; the client stops at the login screen — click **Play** to enter
+the game.
 
-The pairing endpoints live in the standalone backend (`../api`):
+By default `run` points at a local backend on `http://localhost:3001`, so a
+development client never talks to the live service. Override it with
+`-PapiUrl=https://…`, or pass `-Pprod` to run against the live deployment with
+no override at all (which is the only way to exercise the world-to-region
+routing).
 
-- `POST /api/v1/plugin/link/start` — open a handshake (plugin)
-- `POST /api/v1/plugin/link/poll` — poll for confirmation (plugin)
-- `GET  /api/v1/plugin/session` — verify a stored token (plugin)
-- `POST /api/v1/plugin/logout` — revoke this device's token (plugin)
-- `POST /api/plugin/link/confirm` — confirm a code (website, signed in)
-- `GET  /link` — the browser verification page
+## Licence
 
-Unofficial and not affiliated with Jagex.
+BSD 2-Clause. See [LICENSE](LICENSE).
+
+Unofficial. Not affiliated with, endorsed by or connected to Jagex or RuneLite.
