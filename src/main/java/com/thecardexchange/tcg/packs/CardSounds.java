@@ -1,23 +1,11 @@
 package com.thecardexchange.tcg.packs;
 
-import java.io.BufferedInputStream;
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledExecutorService;
 import javax.inject.Inject;
 import javax.inject.Singleton;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
-import javax.sound.sampled.FloatControl;
-import javax.sound.sampled.LineEvent;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.UnsupportedAudioFileException;
 import lombok.extern.slf4j.Slf4j;
+import net.runelite.client.audio.AudioPlayer;
 import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
 
 /**
@@ -29,11 +17,11 @@ import com.thecardexchange.tcg.TheCardExchangeTcgConfig;
  * and everything below plays the first. The pack's own flourish goes by its best card — a curated
  * special over a Zenyte.
  *
- * <p>The clips are WAV rather than the source MP3s because {@code javax.sound.sampled} has no MP3
- * decoder — see the plugin's CLAUDE.md for the conversion. Each is read into memory once at start-up
- * and played from a fresh {@link Clip} per sound, so five quick flips overlap instead of cutting each
- * other off; every clip closes its own line when it finishes. Playback happens on the scheduler, never
- * on the render thread — opening a mixer line can block.
+ * <p>The clips are WAV rather than the source MP3s because the audio stack has no MP3 decoder — see
+ * the plugin's CLAUDE.md for the conversion. Playback goes through RuneLite's own
+ * {@link AudioPlayer}: the plugin hub disallows {@code javax.sound} directly, and the shared player
+ * already owns the mixer lines, so each sound gets its own and quick flips overlap rather than cutting
+ * each other off. Still dispatched on the scheduler, never the render thread — opening a line blocks.
  */
 @Slf4j
 @Singleton
@@ -56,28 +44,27 @@ public class CardSounds
 
 	private final TheCardExchangeTcgConfig config;
 	private final ScheduledExecutorService scheduler;
-	/** Clip name → the WAV bytes, read once. Empty for anything that failed to load. */
-	private final Map<String, byte[]> clips = new ConcurrentHashMap<>();
+	private final AudioPlayer audioPlayer;
 
 	@Inject
-	CardSounds(TheCardExchangeTcgConfig config, ScheduledExecutorService scheduler)
+	CardSounds(TheCardExchangeTcgConfig config, ScheduledExecutorService scheduler,
+		AudioPlayer audioPlayer)
 	{
 		this.config = config;
 		this.scheduler = scheduler;
+		this.audioPlayer = audioPlayer;
 	}
 
+	/**
+	 * Nothing to preload: {@link AudioPlayer} reads the resource per play. Kept so the manager's
+	 * start/stop pairing stays symmetrical with the rest of the pack UI.
+	 */
 	void start()
 	{
-		for (String name : new String[]{PACK_OPENING, ZENYTE_OPENING, SPECIAL_OPENING, TICK,
-			WOOSH_STANDARD, WOOSH_PREMIUM, WOOSH_ZENYTE})
-		{
-			load(name);
-		}
 	}
 
 	void shutdown()
 	{
-		clips.clear();
 	}
 
 	/** The pack tearing open — played the moment the pack is clicked, not when the server answers. */
@@ -126,23 +113,17 @@ public class CardSounds
 		play(tier >= ZENYTE ? WOOSH_ZENYTE : tier >= DIAMOND ? WOOSH_PREMIUM : WOOSH_STANDARD);
 	}
 
-	private void load(String name)
-	{
-		try (InputStream in = getClass().getResourceAsStream(PATH + name))
-		{
-			if (in == null)
-			{
-				log.debug("Sound {} is missing from the plugin resources", name);
-				return;
-			}
-			clips.put(name, in.readAllBytes());
-		}
-		catch (IOException ex)
-		{
-			log.debug("Could not read the sound {}", name, ex);
-		}
-	}
-
+	/**
+	 * Plays a clip, unless the player has turned sounds off or the volume to zero.
+	 *
+	 * <p>The percentage is converted to decibels here because that is what {@link AudioPlayer} takes;
+	 * 100% is 0 dB (unchanged) and the curve falls away logarithmically, which is how loudness is
+	 * actually perceived — a linear percentage would sound almost unchanged until it collapsed.
+	 *
+	 * <p>Failures are logged at debug and swallowed: a machine with no sound device is not a reason to
+	 * stop someone opening packs. Caught as {@code Exception} deliberately — naming the audio
+	 * exceptions would put {@code javax.sound} back in this file, which is the thing being removed.
+	 */
 	private void play(String name)
 	{
 		if (!config.packSounds())
@@ -150,50 +131,21 @@ public class CardSounds
 			return;
 		}
 		int volume = Math.max(0, Math.min(config.packSoundVolume(), 100));
-		byte[] data = clips.get(name);
-		if (volume == 0 || data == null)
+		if (volume == 0)
 		{
 			return;
 		}
+		float decibels = (float) (20.0 * Math.log10(volume / 100.0));
 		scheduler.execute(() ->
 		{
-			try (AudioInputStream audio = AudioSystem.getAudioInputStream(
-				new BufferedInputStream(new ByteArrayInputStream(data))))
+			try
 			{
-				Clip clip = AudioSystem.getClip();
-				// open() buffers the whole clip, so the stream can close underneath it.
-				clip.open(audio);
-				// Without this every sound would hold a mixer line open until the client exits, and a
-				// few dozen flips would exhaust them. The close is handed back to the scheduler rather
-				// than run inside the line's own event callback, where some mixers deadlock.
-				clip.addLineListener(event ->
-				{
-					if (event.getType() == LineEvent.Type.STOP)
-					{
-						scheduler.execute(clip::close);
-					}
-				});
-				applyVolume(clip, volume);
-				clip.start();
+				audioPlayer.play(getClass(), PATH + name, decibels);
 			}
-			catch (UnsupportedAudioFileException | LineUnavailableException | IOException
-				| IllegalArgumentException | IllegalStateException ex)
+			catch (Exception ex)
 			{
-				// A machine with no sound device is not a reason to break opening packs.
 				log.debug("Could not play the sound {}", name, ex);
 			}
 		});
-	}
-
-	/** Percentage → decibels, clamped to whatever range this line actually offers. */
-	private static void applyVolume(Clip clip, int volume)
-	{
-		if (!clip.isControlSupported(FloatControl.Type.MASTER_GAIN))
-		{
-			return;
-		}
-		FloatControl control = (FloatControl) clip.getControl(FloatControl.Type.MASTER_GAIN);
-		float decibels = (float) (20.0 * Math.log10(volume / 100.0));
-		control.setValue(Math.max(control.getMinimum(), Math.min(decibels, control.getMaximum())));
 	}
 }
