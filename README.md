@@ -90,6 +90,41 @@ actually logged in as, which is also why a rename is picked up automatically.
   and matched locally, so no third party's name is ever sent anywhere.
 - Nothing is sent from seasonal, beta or tournament worlds.
 
+## How it connects
+
+The plugin talks to **[osrscardexchange.com](https://www.osrscardexchange.com)**,
+which is the same project — this is its official plugin, not a third-party client
+for somebody else's service.
+
+- **Ordinary HTTPS** for everything with a request and an answer: the card
+  catalogue, your collection, opening a pack, selling a spare, binding a
+  character, the online list.
+- **One WebSocket, for trading only.** A trade is not request-and-answer — the
+  other player acts when they act, and both windows have to agree at every step,
+  so the server pushes. The socket stays open while you play, with a keepalive
+  ping, and carries nothing but trade events.
+
+Which server it reaches is chosen from the **OSRS world you are logged into**, so
+both players in a trade land on the same one. That is a correctness requirement
+rather than a speed optimisation: a trade in progress lives on a single server,
+and two players routed apart could not see each other's offers.
+
+## Independence from other plugins
+
+**This plugin needs no other plugin, and reads none.** It does not extend, wrap,
+patch, read the state of, or depend on anything else installed — there is not a
+single import from another plugin's package in the source. Uninstall everything
+else and it behaves identically.
+
+Everything is deliberately in this one plugin: the collection, pack opening, the
+item lock and trading are one ruleset, and splitting them across plugins would
+mean two of them disagreeing about what you have unlocked.
+
+For that reason it will **warn** — once, on login — if it finds another enabled
+plugin covering the same ground, because two item locks fighting over the same
+menu entries reads as this plugin being broken. It only warns. Nothing is
+disabled, nothing is changed: which plugins you run is your decision.
+
 ## Configuration
 
 - **API base URL** — normally leave blank. The plugin picks the server matching
