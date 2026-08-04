@@ -75,7 +75,7 @@ class TheCardExchangeTcgPanel extends PluginPanel
 		content.setLayout(new BoxLayout(content, BoxLayout.Y_AXIS));
 		content.setBackground(ColorScheme.DARK_GRAY_COLOR);
 
-		content.add(title("OSRS TCG Online"));
+		content.add(title("TCG Online"));
 		content.add(Box.createVerticalStrut(4));
 		content.add(wrapped("Turn Old School RuneScape into a card game. Link your OSRS Card Exchange "
 			+ "account to get started."));

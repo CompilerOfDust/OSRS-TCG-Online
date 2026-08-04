@@ -1,4 +1,4 @@
-# OSRS TCG Online
+# TCG Online (TheCardExchange)
 
 A RuneLite plugin that turns Old School RuneScape into a card game, backed by
 [osrscardexchange.com](https://www.osrscardexchange.com).

@@ -10,10 +10,11 @@ import static org.junit.Assert.assertTrue;
 /**
  * The clashing-plugin matcher.
  *
- * <p>The case that actually matters is the false positive: this plugin is called "OSRS TCG Online",
- * which contains the "osrs tcg" needle, so without the own-package exclusion it would open a
- * dialogue accusing the player of running a conflicting copy of the plugin they are running. A
- * missed match costs a warning nobody sees; a false one is a bug report.
+ * <p>The case that actually matters is the false positive: without the own-package exclusion this
+ * plugin could open a dialogue accusing the player of running a conflicting copy of the plugin they
+ * are running. The old name, "OSRS TCG Online", contained the "osrs tcg" needle outright and is
+ * still tested, because the exclusion has to hold whatever we are called — a rename is not a fix.
+ * A missed match costs a warning nobody sees; a false one is a bug report.
  */
 public class ClashingPluginsTest
 {
@@ -35,7 +36,12 @@ public class ClashingPluginsTest
 		for (ClashingPlugins.Known k : ClashingPlugins.known())
 		{
 			assertFalse(
-				"OSRS TCG Online must never report itself as a conflict (" + k.label + ")",
+				"TCG Online must never report itself as a conflict (" + k.label + ")",
+				ClashingPlugins.matches(k, "TCG Online (TheCardExchange)", "com.thecardexchange.tcg"));
+			// The name we shipped under before, which did contain a needle: the package is the guard,
+			// not the wording of the descriptor.
+			assertFalse(
+				"the exclusion must not depend on the display name (" + k.label + ")",
 				ClashingPlugins.matches(k, "OSRS TCG Online", "com.thecardexchange.tcg"));
 		}
 	}

@@ -233,7 +233,7 @@ public interface TheCardExchangeTcgConfig extends Config
 	@ConfigItem(
 		keyName = "networkBadges",
 		name = "Show network badges",
-		description = "Show an icon beside other OSRS TCG Online players who are logged in. Only people "
+		description = "Show an icon beside other TCG Online players who are logged in. Only people "
 			+ "running this plugin see it — it cannot change how anyone appears in the normal game.",
 		position = 10
 	)

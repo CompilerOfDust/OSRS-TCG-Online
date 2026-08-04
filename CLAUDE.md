@@ -1,6 +1,6 @@
 # CLAUDE.md — thecardexchange-tcg (RuneLite plugin)
 
-The **OSRS TCG Online** RuneLite plugin (`com.thecardexchange.tcg.TheCardExchangeTcgPlugin`) — our card
+The **TCG Online (TheCardExchange)** RuneLite plugin (`com.thecardexchange.tcg.TheCardExchangeTcgPlugin`) — our card
 game for Old School RuneScape, wired to the OSRS Card Exchange. Java / Gradle.
 
 > The directory and Java package still say `thecardexchange`; only the *display* name changed (the
@@ -229,7 +229,7 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
   seasonal/beta/tournament worlds. `CharacterState` is the server's answer; the plugin renders it and
   decides none of it. **The full contract is `../api/docs/cardman-mode.md` — read it before changing any
   of this.**
-- `network/` — the **in-game network badge**: an icon beside other OSRS TCG Online players who are
+- `network/` — the **in-game network badge**: an icon beside other TCG Online players who are
   logged in. `NetworkPresence` polls `GET /api/v1/plugin/network/online` every 30s and holds the online
   set; `NetworkBadge` appends **two** marks to `client.getModIcons()` — the same card in a dark face for
   Normal and a red one for CardMan, both keeping the green "online" dot, so the dot means *online* and

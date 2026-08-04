@@ -14,7 +14,7 @@ import net.runelite.client.plugins.PluginManager;
 /**
  * Detects other installed plugins that do the same job as this one.
  *
- * <p>OSRS TCG Online is a single unified plugin: it owns the collection, the item lock, pack opening
+ * <p>TCG Online is a single unified plugin: it owns the collection, the item lock, pack opening
  * and trading together, because they are one ruleset rather than four features. A second plugin that
  * also locks items or tracks a collection does not add to that — the two fight over the same menu
  * entries and the same idea of what the player has unlocked, and the result reads as this plugin
@@ -29,14 +29,16 @@ import net.runelite.client.plugins.PluginManager;
  * exact strings a third-party plugin ships are not something this repo can verify — they change with
  * its releases and are not part of any contract. A missed match costs a warning nobody sees; a
  * false match would accuse an innocent plugin, which is why {@link #OWN_PACKAGE} is excluded
- * explicitly rather than relying on the name test. **Our own name contains "OSRS TCG"**, so without
- * that exclusion this plugin would report itself.
+ * explicitly rather than relying on the name test. It was load-bearing when this plugin was called
+ * "OSRS TCG Online", which contained the "osrs tcg" needle outright; the rename to "TCG Online
+ * (TheCardExchange)" happens to clear that, and the exclusion stays because the guarantee must not
+ * depend on what we are called this month — the next needle added here could match us again.
  */
 @Slf4j
 @Singleton
 public class ClashingPlugins
 {
-	/** Ours. Excluded first, because "OSRS TCG Online" contains "OSRS TCG". */
+	/** Ours. Excluded first, so no needle can ever make this plugin report itself. */
 	private static final String OWN_PACKAGE = "com.thecardexchange";
 
 	/** A plugin we know covers the same ground. */
@@ -113,9 +115,9 @@ public class ClashingPlugins
 	 * Whether a plugin's descriptor name or package identifies it as {@code known}.
 	 *
 	 * <p>Package-private and static so the matching can be tested without a {@link PluginManager} —
-	 * and the case worth testing is the exclusion: <b>our own name, "OSRS TCG Online", contains the
-	 * "osrs tcg" needle</b>, so this plugin would report itself as its own conflict if the package
-	 * check were dropped.
+	 * and the case worth testing is the exclusion: <b>a plugin must never report itself</b>. The test
+	 * covers our current name and the old "OSRS TCG Online", which contained the "osrs tcg" needle
+	 * outright, because the package check is what has to hold either way.
 	 */
 	static boolean matches(Known known, String descriptorName, String packageName)
 	{
@@ -147,7 +149,7 @@ public class ClashingPlugins
 	{
 		final boolean one = clashes.size() == 1;
 		final String names = one ? clashes.get(0) : String.join(" and ", clashes);
-		return names + (one ? " is" : " are") + " also running. OSRS TCG Online already does all of "
+		return names + (one ? " is" : " are") + " also running. TCG Online already does all of "
 			+ "that in one plugin — running them together makes them fight over item locks and menu "
 			+ "options, which usually looks like this plugin misbehaving. Turning "
 			+ (one ? "it" : "them") + " off is recommended.";

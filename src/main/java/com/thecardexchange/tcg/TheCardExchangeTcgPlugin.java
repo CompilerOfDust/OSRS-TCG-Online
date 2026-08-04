@@ -37,8 +37,12 @@ import com.thecardexchange.tcg.network.NetworkPresence;
 import com.thecardexchange.tcg.trade.CardTradeManager;
 
 /**
- * OSRS TCG Online — turns Old School RuneScape into a card game backed by the
- * OSRS Card Exchange.
+ * TCG Online (TheCardExchange) — turns Old School RuneScape into a card game
+ * backed by the OSRS Card Exchange.
+ *
+ * <p>The parenthetical is part of the plugin's name in the hub list, where it
+ * says whose TCG Online this is; the game itself is called TCG Online, and that
+ * is what the panel, the website and every line of copy call it.
  *
  * <p>This first cut is the front door: it links the plugin to an exchange account
  * through a device-pairing flow (a short code the player confirms on the website
@@ -48,7 +52,7 @@ import com.thecardexchange.tcg.trade.CardTradeManager;
  */
 @Slf4j
 @PluginDescriptor(
-	name = "OSRS TCG Online",
+	name = "TCG Online (TheCardExchange)",
 	description = "Turn Old School RuneScape into a card game. Link your osrscardexchange.com account to start."
 )
 public class TheCardExchangeTcgPlugin extends Plugin
@@ -128,14 +132,14 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	@Override
 	protected void startUp()
 	{
-		log.info("OSRS TCG Online starting up");
+		log.info("TCG Online starting up");
 
 		// Before anything reads a URL: a localhost value persisted by an older build sits in config and
 		// silently outranks every -D flag and env var, which reads as the plugin ignoring what it was
 		// told. Clear it, then say out loud where requests are going — the answer used to be knowable
 		// only by opening the profile's .properties by hand.
 		apiEndpoint.clearStaleLocalOverrides();
-		log.info("OSRS TCG Online backend: {}", apiEndpoint.describe());
+		log.info("TCG Online backend: {}", apiEndpoint.describe());
 
 		// Redraw the panel whenever the link state changes (runs off the scheduler thread; the panel
 		// hops to the EDT itself).
@@ -158,7 +162,7 @@ public class TheCardExchangeTcgPlugin extends Plugin
 
 		BufferedImage icon = ImageUtil.loadImageResource(getClass(), "/com/thecardexchange/tcg/panel_icon.png");
 		navButton = NavigationButton.builder()
-			.tooltip("OSRS TCG Online")
+			.tooltip("TCG Online (TheCardExchange)")
 			.icon(icon)
 			.priority(8)
 			.panel(panel)
@@ -187,7 +191,7 @@ public class TheCardExchangeTcgPlugin extends Plugin
 	@Override
 	protected void shutDown()
 	{
-		log.info("OSRS TCG Online shutting down");
+		log.info("TCG Online shutting down");
 		linkManager.setStatusListener(null);
 		characterTracker.setListener(null);
 		characterTracker.setOnBound(null);
