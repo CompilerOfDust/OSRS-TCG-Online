@@ -32,13 +32,17 @@ needed.
 Chosen once per character, and it cannot be changed afterwards.
 
 **Normal** — unrestricted play. Collect and trade alongside ordinary Old School
-RuneScape.
+RuneScape; nothing about the account is verified or monitored.
 
 **CardMan** — the community *Cardcore* challenge: an item is only yours to use
-once you have pulled its card. Items you have no card for are greyed out and
-cannot be worn, eaten or used. Picking things up, banking, dropping and all
+once you have pulled its card, and the run is verified.
+
+**The item lock is a setting, not a mode.** *Lock uncollected items* is on by
+default and applies in **both** modes: items you have no card for are greyed out
+and cannot be worn, eaten or used. Picking things up, banking, dropping and all
 skilling are always allowed, so you can play normally and earn your way into your
-own gear.
+own gear. A Normal character can switch the lock off; what CardMan adds on top is
+the eligibility gate below, the XP check, and its own highscores board.
 
 CardMan requires:
 
