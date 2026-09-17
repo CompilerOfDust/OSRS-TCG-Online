@@ -16,8 +16,9 @@ import net.runelite.http.api.worlds.WorldResult;
  *
  * <ol>
  *   <li>the <b>config field</b>, when a player or a self-hoster has filled it in;</li>
- *   <li>the <b>{@code thecardexchange.apiUrl} system property / {@code THECARDEXCHANGE_API_URL} env
- *       var</b>, which is how the dev launch script points a client at a local backend;</li>
+ *   <li>the <b>{@code thecardexchange.apiUrl} system property</b>, which is how the dev launch script
+ *       points a client at a local backend (a system property only — the Plugin Hub forbids
+ *       {@code System.getenv});</li>
  *   <li>otherwise the <b>region of the world we are logged into</b> — see {@link ApiRegion}.</li>
  * </ol>
  *
@@ -109,8 +110,7 @@ public class ApiEndpoint
 		if (external != null)
 		{
 			return "api=" + trimTrailingSlash(external)
-				+ " (from -D" + TheCardExchangeTcgConfig.API_URL_PROPERTY
-				+ " / " + TheCardExchangeTcgConfig.API_URL_ENV + "; region routing OFF)";
+				+ " (from -D" + TheCardExchangeTcgConfig.API_URL_PROPERTY + "; region routing OFF)";
 		}
 		return "api=" + region().baseUrl() + " (region " + region() + ", from the OSRS world)";
 	}

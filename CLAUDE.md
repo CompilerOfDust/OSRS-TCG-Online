@@ -18,8 +18,8 @@ game for Old School RuneScape, wired to the OSRS Card Exchange. Java / Gradle.
 The plugin talks to the **Bun `api` service** (`../api`), **never the Next.js app**.
 
 **The API base URL is derived from the OSRS world, and that is a correctness rule, not a latency one.**
-`ApiEndpoint` resolves it: the config field, then `-Dthecardexchange.apiUrl` /
-`THECARDEXCHANGE_API_URL`, then `ApiRegion` — `https://eu.api.osrscardexchange.com` or
+`ApiEndpoint` resolves it: the config field, then `-Dthecardexchange.apiUrl` (a JVM system property
+only — the Plugin Hub forbids `System.getenv`, so there is no env-var fallback), then `ApiRegion` — `https://eu.api.osrscardexchange.com` or
 `https://us.api.osrscardexchange.com`, picked from the world's Jagex region. The api runs as two instances
 and **the trade broker keeps its offer state in one instance's memory**, so both players in a trade must
 reach the same one. The world gives that for free: trading requires standing next to each other, which

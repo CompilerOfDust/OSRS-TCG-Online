@@ -40,13 +40,14 @@ public interface TheCardExchangeTcgConfig extends Config
 	String DEFAULT_WEB_APP_URL = "https://www.osrscardexchange.com";
 	/** JVM system property that overrides the web app default. */
 	String WEB_URL_PROPERTY = "thecardexchange.webUrl";
-	/** Environment variable that overrides the web app default. */
-	String WEB_URL_ENV = "THECARDEXCHANGE_WEB_URL";
 
 	/**
-	 * The default web app URL, resolved the same way as the API one: system property, then environment
-	 * variable, then the baked-in local default — so a deployment points the plugin at the hosted site
-	 * without a rebuild, and a player setting the config field still overrides everything.
+	 * The default web app URL, resolved the same way as the API one: system property, then the baked-in
+	 * default — so a launch points the plugin at another site without a rebuild, and a player setting the
+	 * config field still overrides everything.
+	 *
+	 * <p>A system property only, never an environment variable: the Plugin Hub forbids
+	 * {@code System.getenv}, and {@code -D} is what the launch script sets anyway.
 	 */
 	static String defaultWebAppUrl()
 	{
@@ -55,23 +56,16 @@ public interface TheCardExchangeTcgConfig extends Config
 		{
 			return property.trim();
 		}
-		String env = System.getenv(WEB_URL_ENV);
-		if (env != null && !env.trim().isEmpty())
-		{
-			return env.trim();
-		}
 		return DEFAULT_WEB_APP_URL;
 	}
 	/** JVM system property that overrides the default (set by the launch script via {@code -PapiUrl=}). */
 	String API_URL_PROPERTY = "thecardexchange.apiUrl";
-	/** Environment variable that overrides the default (for production deployments / self-hosting). */
-	String API_URL_ENV = "THECARDEXCHANGE_API_URL";
 
 	/**
-	 * An API base URL supplied from outside the client — the {@link #API_URL_PROPERTY} system property,
-	 * then the {@link #API_URL_ENV} environment variable — or {@code null} when neither is set and the
-	 * world's region should decide instead. This is what the dev launch script uses to point a client at
-	 * a local backend without touching config.
+	 * An API base URL supplied from outside the client — the {@link #API_URL_PROPERTY} system property —
+	 * or {@code null} when it is not set and the world's region should decide instead. This is what the
+	 * dev launch script uses to point a client at a local backend without touching config. Same rule as
+	 * {@link #defaultWebAppUrl()}: a system property only, no environment variable.
 	 */
 	@Nullable
 	static String apiBaseUrlOverride()
@@ -80,11 +74,6 @@ public interface TheCardExchangeTcgConfig extends Config
 		if (property != null && !property.trim().isEmpty())
 		{
 			return property.trim();
-		}
-		String env = System.getenv(API_URL_ENV);
-		if (env != null && !env.trim().isEmpty())
-		{
-			return env.trim();
 		}
 		return null;
 	}
