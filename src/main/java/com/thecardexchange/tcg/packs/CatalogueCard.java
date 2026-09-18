@@ -28,8 +28,14 @@ public final class CatalogueCard
 	private final String name;
 	private final boolean npc;
 	private final int gameId;
+	/**
+	 * The wiki artwork's <b>file name</b> ({@code Baby_blue_dragon.png}), never a URL. The api sends
+	 * only the name and {@link CardArt} builds the request from its own hardcoded host, so the hosts
+	 * this plugin talks to are all visible in its source — the Plugin Hub requires that, and a URL
+	 * taken out of a response would break it.
+	 */
 	@Nullable
-	private final String art;
+	private final String artFile;
 	@Nullable
 	private final String pageSlug;
 	/** The examine line — the card's description, shown on the parchment box of the card face. */
@@ -50,7 +56,7 @@ public final class CatalogueCard
 	private final List<Integer> combinesInto;
 
 	public CatalogueCard(int id, @Nullable String cardId, String name, boolean npc, int gameId,
-		@Nullable String art, @Nullable String pageSlug, @Nullable String description, int tier,
+		@Nullable String artFile, @Nullable String pageSlug, @Nullable String description, int tier,
 		boolean special, List<Integer> unlocksItems, List<Integer> craftedFrom,
 		List<Integer> combinesInto)
 	{
@@ -59,7 +65,7 @@ public final class CatalogueCard
 		this.name = name;
 		this.npc = npc;
 		this.gameId = gameId;
-		this.art = art;
+		this.artFile = artFile;
 		this.pageSlug = pageSlug;
 		this.description = description;
 		this.tier = Tiers.clamp(tier);
@@ -111,10 +117,11 @@ public final class CatalogueCard
 		return gameId;
 	}
 
+	/** The wiki art file name, or null when the card has no picture — see {@link #artFile}. */
 	@Nullable
-	public String getArt()
+	public String getArtFile()
 	{
-		return art;
+		return artFile;
 	}
 
 	@Nullable

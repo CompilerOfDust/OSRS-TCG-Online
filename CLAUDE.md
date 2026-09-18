@@ -130,7 +130,10 @@ from it.** Every endpoint the plugin calls lives in the Bun api: device-pairing 
     behaviour contract; the full-fidelity snapshot lives in `cards/` (re-copied from `api/cards`).
   - `CardArt` supplies pictures: item cards use the client's own item icons (`ItemManager`), NPC cards
     have no client-side sprite so their wiki art is fetched in the background and cached (never on the
-    render thread — a miss returns null and the next frame gets it).
+    render thread — a miss returns null and the next frame gets it). **The wiki host is hardcoded**
+    (`CardArt.WIKI_IMAGES`) and the api sends only the file name (`a`): the Plugin Hub requires every
+    host a plugin talks to be visible in its source, so a URL taken out of a response is not allowed
+    — `CardArt.artUrl` refuses any name that could steer the request off that host.
   - Assets `pack_standard.png` / `card_back.png` in resources are the site's `Pack_Standard.webp` /
     `Cardback.webp` converted and downscaled; `card_front.png` is the card-face template the reveal
     paints onto. `CardPacksManager` is just the start/stop wiring for all four overlays.

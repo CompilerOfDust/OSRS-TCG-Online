@@ -26,11 +26,19 @@ import okhttp3.Response;
  * <p>{@link #imageFor} is called from the render loop, so it never blocks: a miss returns null and
  * queues the fetch, and the next frame that asks will get the picture. Failures are remembered too, so a
  * dead URL is attempted once rather than every frame.
+ *
+ * <p><b>The only host this class talks to is {@link #WIKI_IMAGES}.</b> The api sends a file name, not
+ * a URL, and the request is built here from the constant plus that name — so the hosts the plugin
+ * reaches can be read off its source, which the Plugin Hub requires. A name that could escape the
+ * images directory (a slash, a query, a scheme, a {@code ..}) is treated as "no art", never requested.
  */
 @Slf4j
 @Singleton
 public class CardArt
 {
+	/** Where every NPC card's artwork lives. Hardcoded on purpose — see the class comment. */
+	static final String WIKI_IMAGES = "https://oldschool.runescape.wiki/images/";
+
 	/** Wiki art held in memory. The grid only ever shows a few dozen at a time; the cap is for scrolling. */
 	private static final int MAX_CACHED = 512;
 	private static final int MAX_IN_FLIGHT = 4;
@@ -75,8 +83,8 @@ public class CardArt
 		{
 			return cached;
 		}
-		String url = card.getArt();
-		if (url == null || url.isEmpty() || failed.contains(card.getId()) || !pending.add(card.getId()))
+		String url = artUrl(card.getArtFile());
+		if (url == null || failed.contains(card.getId()) || !pending.add(card.getId()))
 		{
 			return null;
 		}
@@ -88,6 +96,23 @@ public class CardArt
 		}
 		fetch(card.getId(), url);
 		return null;
+	}
+
+	/**
+	 * The URL for a wiki art file name, or null when the name is empty or is not a plain file name —
+	 * anything with a path separator, a scheme, a query or a parent reference would let a response
+	 * steer the request somewhere other than {@link #WIKI_IMAGES}, and that is exactly what this
+	 * method exists to rule out.
+	 */
+	@Nullable
+	static String artUrl(@Nullable String artFile)
+	{
+		if (artFile == null || artFile.isEmpty() || artFile.contains("..")
+			|| artFile.chars().anyMatch(ch -> ch == '/' || ch == '\\' || ch == ':' || ch == '?' || ch == '#'))
+		{
+			return null;
+		}
+		return WIKI_IMAGES + artFile;
 	}
 
 	/** Forget everything — on logout, or when the catalogue is reloaded. */

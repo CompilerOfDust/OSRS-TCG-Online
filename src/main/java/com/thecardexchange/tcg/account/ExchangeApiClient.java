@@ -377,11 +377,12 @@ public class ExchangeApiClient
 	/**
 	 * The wire shape is compact — {@code i,n,k,g,t,a,d} — because the catalogue is ten thousand rows.
 	 * {@code t} is the gem tier as a plain integer 1–7 (see the api's {@code lib/tcg/tier.ts});
-	 * {@code d} is the examine-line description, absent when the card has none.
+	 * {@code d} is the examine-line description, absent when the card has none; {@code a} is the wiki
+	 * art <b>file name</b> only — the host is {@link com.thecardexchange.tcg.packs.CardArt}'s.
 	 */
 	private static CatalogueCard catalogueCard(JsonObject card)
 	{
-		String art = card.has("a") && !card.get("a").isJsonNull() ? card.get("a").getAsString() : null;
+		String artFile = card.has("a") && !card.get("a").isJsonNull() ? card.get("a").getAsString() : null;
 		String slug = card.has("s") && !card.get("s").isJsonNull() ? card.get("s").getAsString() : null;
 		String cardId = card.has("c") && !card.get("c").isJsonNull() ? card.get("c").getAsString() : null;
 		String description = card.has("d") && !card.get("d").isJsonNull() ? card.get("d").getAsString() : null;
@@ -391,7 +392,7 @@ public class ExchangeApiClient
 			asString(card, "n"),
 			"npc".equals(asString(card, "k")),
 			asInt(card, "g", -1),
-			art,
+			artFile,
 			slug,
 			description,
 			asInt(card, "t", 1),
